@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__555877aa-0517-4a4f-973f-18bdb525220b__klaviyo_get_flow",
+      "Bash(gh auth:*)",
+      "Bash(git --version)",
+      "Bash(git init:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
+    ]
+  }
+}
