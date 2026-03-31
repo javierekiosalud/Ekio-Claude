@@ -15,35 +15,43 @@ Tienes acceso directo a Klaviyo vía MCP. Siempre confirma acciones destructivas
 
 ## Skills disponibles
 
-### 1. `klaviyo-flows` → `/Users/javierandres/Ekio-Claude/Skills/klaviyo-flows.md`
+### 1. `klaviyo-cro` → `/Users/javierandres/Ekio-Claude/Skills/klaviyo-cro.md`
+Skill principal de CRO y optimización continua. **Actívala por defecto** en cualquier consulta sobre métricas, flujos, campañas, copy o auditorías.
+- Auditoría completa semanal (Módulo 1)
+- Optimización de copy: asuntos, ganchos, body, WhatsApp, push (Módulo 2)
+- Creación de flujos nuevos con textos completos (Módulo 3)
+- Análisis de métricas puntuales (Módulo 4)
+- Sesión semanal automatizada todos los lunes a las 6:00 AM
+
+### 3. `klaviyo-flows` → `/Users/javierandres/Ekio-Claude/Skills/klaviyo-flows.md`
 Gestión y auditoría de flujos automatizados.
 - Listar flujos activos
 - Detectar flujos sin tráfico o rotos
 - Identificar flujos duplicados en conflicto
 - Reportar rendimiento por flujo
 
-### 2. `klaviyo-campaigns` → `/Users/javierandres/Ekio-Claude/Skills/klaviyo-campaigns.md`
+### 4. `klaviyo-campaigns` → `/Users/javierandres/Ekio-Claude/Skills/klaviyo-campaigns.md`
 Creación y análisis de campañas de email.
 - Revisar campañas activas y programadas
 - Analizar open rate, click rate, revenue
 - Crear nuevas campañas
 - Asignar templates a campañas
 
-### 3. `klaviyo-profiles` → `/Users/javierandres/Ekio-Claude/Skills/klaviyo-profiles.md`
+### 5. `klaviyo-profiles` → `/Users/javierandres/Ekio-Claude/Skills/klaviyo-profiles.md`
 Gestión de contactos, listas y segmentos.
 - Buscar y actualizar perfiles
 - Suscribir / desuscribir contactos
 - Revisar tamaño y salud de listas
 - Auditar segmentos
 
-### 4. `klaviyo-metrics` → `/Users/javierandres/Ekio-Claude/Skills/klaviyo-metrics.md`
+### 6. `klaviyo-metrics` → `/Users/javierandres/Ekio-Claude/Skills/klaviyo-metrics.md`
 Análisis de métricas y eventos.
 - KPIs generales (revenue, órdenes, actividad)
 - Datos agregados por período
 - Eventos individuales por perfil
 - Detección de anomalías
 
-### 5. `klaviyo-templates` → `/Users/javierandres/Ekio-Claude/Skills/klaviyo-templates.md`
+### 7. `klaviyo-templates` → `/Users/javierandres/Ekio-Claude/Skills/klaviyo-templates.md`
 Creación y gestión de templates de email.
 - Auditar templates existentes
 - Crear nuevos templates HTML
