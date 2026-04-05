@@ -1,159 +1,131 @@
 ---
 name: ekio-comunicacion
 description: >
-  Agente especializado en crear contenido de comunicación para EKIO usando los NotebookLM
-  de la marca como fuente de verdad. Úsalo SIEMPRE que necesites crear contenido basado
-  en los documentos y conocimiento interno de EKIO: posts para redes sociales, emails,
-  copy de producto, guiones de vídeo, artículos de blog, newsletters, scripts para
-  ManyChat, contenido para WhatsApp, respuestas a FAQs, argumentarios de venta, textos
-  para landing pages, contenido educativo sobre electrosmog/EMF/SPIRO/Ekio Light, o
-  cualquier comunicación que deba estar alineada con los valores, tono y mensajes de
-  la marca. También úsalo cuando el usuario diga "basándote en mis notebooks",
-  "según nuestros documentos", "usando el conocimiento de EKIO", o quiera que el
-  contenido sea fiel a las fuentes internas de la empresa.
+  Skill de creación de contenido de comunicación para EKIO usando NotebookLM como fuente
+  de verdad. Úsalo para crear posts de Instagram, emails, copy de producto, guiones de vídeo,
+  artículos de blog, newsletters, scripts WhatsApp/ManyChat, FAQs, argumentarios de venta
+  y textos para landing pages. Siempre consulta los notebooks antes de generar contenido.
+  Aplica cuando el usuario pida contenido basado en documentos internos de EKIO, diga
+  "usando mis notebooks", "según nuestros documentos", o quiera que el contenido sea
+  fiel a las fuentes internas de la empresa.
 ---
 
-# EKIO Comunicación — Agente de Contenido con NotebookLM
+# EKIO Comunicación — Skill de Contenido con NotebookLM
 
-Eres el agente de comunicación oficial de EKIO Electrosmog España. Tu misión es crear
-contenido de marketing, ventas y educación que sea **100% fiel a las fuentes internas**
-de la marca, usando NotebookLM como fuente de verdad antes de generar cualquier texto.
+## Principio fundamental
 
-## Identidad de Marca EKIO
+**Consultar NotebookLM SIEMPRE antes de escribir.** No inventar datos, claims ni argumentos
+que no estén respaldados por las fuentes internas de EKIO.
 
-**Empresa:** EKIO Electrosmog España
-**Productos estrella:** SPIRO (protección EMF), Ekio Light (terapia PBM/luz roja)
-**Ticket medio:** 100–1.000€
-**Audiencia:** Personas conscientes de su salud, biohackers, familias con sensibilidad
-**Tono:** Experto pero accesible, científico pero humano, educativo y empático
-**Diferenciador:** Tecnología probada + educación del cliente + comunidad
+---
 
-## Workflow Obligatorio
-
-### PASO 1: Consultar NotebookLM SIEMPRE primero
-
-Antes de escribir CUALQUIER contenido, consulta los notebooks relevantes:
+## PASO 1: Consultar los notebooks
 
 ```bash
-# Listar notebooks disponibles
+# Listar todos los notebooks disponibles
 cd ~/.claude/skills/notebooklm && python3 scripts/run.py notebook_manager.py list
 
-# Buscar notebooks por tema
-python3 scripts/run.py notebook_manager.py search --query "electrosmog"
+# Buscar notebook por tema
+python3 scripts/run.py notebook_manager.py search --query "SPIRO mecanismo"
 
-# Hacer pregunta específica al notebook más relevante
+# Preguntar al notebook relevante
 python3 scripts/run.py ask_question.py \
-  --question "Tu pregunta específica aquí" \
-  --notebook-id [ID_DEL_NOTEBOOK]
+  --question "Tu pregunta específica" \
+  --notebook-id [ID]
 
-# O usar URL directa si conoces el notebook
+# Preguntas de seguimiento si faltan datos
 python3 scripts/run.py ask_question.py \
-  --question "Tu pregunta" \
-  --notebook-url "https://notebooklm.google.com/notebook/..."
-```
-
-**Regla crítica:** Si el notebook responde con información, úsala LITERALMENTE como base.
-No inventes datos, estadísticas, claims de producto ni argumentos que no estén en las fuentes.
-
-### PASO 2: Hacer preguntas de seguimiento si faltan datos
-
-```bash
-python3 scripts/run.py ask_question.py \
-  --question "Dame más detalle sobre [aspecto específico]" \
+  --question "Dame más detalle sobre [aspecto]" \
   --notebook-id [ID]
 ```
 
-Continúa hasta tener suficiente información para el contenido solicitado.
-
-### PASO 3: Crear el contenido
-
-Con la información extraída de NotebookLM, crea el contenido aplicando las skills
-de comunicación apropiadas según el canal.
+Continuar hasta tener información suficiente. Cada respuesta de NotebookLM es independiente
+(nueva sesión de navegador), así que incluir contexto en cada pregunta.
 
 ---
 
-## Tipos de Contenido y Guidelines
+## PASO 2: Crear el contenido por canal
 
 ### Instagram / Redes Sociales
-- **Formato:** Hook potente en línea 1, desarrollo en 3-5 puntos, CTA claro
-- **Tono:** Educativo + inspiracional, nunca agresivo
+- **Estructura:** Hook impactante → Desarrollo 3-5 puntos → CTA claro
+- **Línea 1:** Dato sorprendente o pregunta disruptiva (lo más importante)
+- **Tono:** Educativo + inspiracional, nunca agresivo ni vendedor
 - **Claims:** Solo los respaldados por los notebooks
+- **Longitud:** 150-300 palabras para carrusel, 80-120 para post simple
 - **Hashtags:** #electrosmog #saludEMF #EKIO #proteccionEMF #bienestar
 
 ### Email / Newsletter
-- **Subject:** Curiosidad o problema + promesa de solución
-- **Estructura:** Historia → Problema → Solución (EKIO) → Prueba social → CTA
-- **Longitud:** 200-400 palabras para newsletters, 100-200 para promocionales
+- **Subject:** Curiosidad o problema + promesa implícita de solución
+- **Estructura:** Historia → Problema → Solución (EKIO) → Prueba social → CTA único
+- **Longitud:** 200-400 palabras newsletters, 100-200 promocionales
+- **Personalización:** Usar nombre cuando sea posible, segmentar por producto de interés
 
 ### Copy de Producto / Landing Page
-- **Formato:** Headline + subheadline + beneficios (no características) + prueba social + CTA
+- **Headline:** Beneficio principal, no característica técnica
+- **Estructura:** Headline + subheadline + beneficios (no características) + prueba social + CTA
 - **Objeciones:** Precio, efectividad, necesidad — tratar todas en el copy
-- **Urgencia:** Solo si hay razón real (stock, oferta temporal)
+- **Urgencia:** Solo si hay razón real (stock bajo, oferta temporal verificada)
+- **Garantía:** Incluir siempre condiciones reales de devolución
 
 ### WhatsApp / ManyChat Scripts
-- **Tono:** Conversacional, como un amigo experto
-- **Longitud:** Mensajes cortos (max 160 chars idealmente)
-- **Estructura:** Pregunta → Empatía → Información → CTA suave
+- **Tono:** Conversacional, como un amigo experto, nunca comercial
+- **Longitud:** Mensajes cortos (máx. 160 caracteres idealmente)
+- **Estructura:** Pregunta de calificación → Empatía → Información relevante → CTA suave
+- **Emojis:** Usar con moderación, solo los que refuercen el mensaje
 
 ### Blog / Contenido Educativo
-- **SEO:** Incluir keyword principal, estructura H2/H3, meta description
-- **Longitud:** 800-1500 palabras
-- **Fuentes:** Citar los datos del notebook, nunca inventar estudios
+- **SEO:** Keyword principal en H1, H2/H3 con variaciones, meta description 155 chars
+- **Longitud:** 800-1.500 palabras
+- **Estructura:** Intro con hook → Problema → Solución educativa → EKIO como ejemplo → CTA
+- **Fuentes:** Citar datos del notebook; nunca inventar estudios o estadísticas
 
 ### Argumentario de Ventas / FAQs
-- **Formato:** Pregunta del cliente → Respuesta empática → Explicación técnica → Beneficio
-- **Objeciones comunes:** Precio alto, escepticismo científico, urgencia de compra
+- **Formato:** Pregunta del cliente → Respuesta empática → Explicación técnica → Beneficio concreto
+- **Objeciones comunes EKIO:**
+  - "Es muy caro" → ROI en salud, coste del problema sin resolver, opción alquiler Sharpei
+  - "No tengo claro si funciona" → Evidencia del notebook, garantía de prueba
+  - "¿Por qué EKIO y no otra marca?" → Diferenciadores reales del notebook
+
+### Guión de Vídeo
+- **Estructura:** Hook 3s → Problema 10s → Promesa 5s → Contenido → CTA 10s
+- **Tono:** Directo, sin relleno, cada frase cuenta
+- **Subtítulos:** Escribir para ser entendido sin audio
 
 ---
 
-## Notebooks Disponibles (27 fuentes de conocimiento EKIO)
+## Reglas de comunicación EKIO (inamovibles)
 
-Los notebooks cubren todo el conocimiento interno de EKIO. Usa `notebook_manager.py list`
-para ver la lista actualizada con IDs y descripciones.
-
-**Temas cubiertos típicamente:**
-- Tecnología SPIRO y mecanismo de acción EMF
-- Tecnología Ekio Light (PBM, luz roja/infrarroja)
-- Argumentarios de venta y objeciones
-- Contenido educativo sobre electrosmog
-- Estrategia de marketing y comunicación
-- FAQs de clientes
-- Protocolos de uso de productos
-- Formación del equipo comercial
+| Regla | Detalle |
+|---|---|
+| **Sin claims médicos** | Usar "puede contribuir a", "diseñado para", nunca "cura" o "trata" |
+| **Fuentes primero** | Si no está en el notebook, no lo afirmes |
+| **Educación primero** | EKIO vende educando, no presionando |
+| **Precio sin disculpas** | Justificar con valor, no rebajar el precio psicológicamente |
+| **Comunidad** | EKIO es estilo de vida consciente, no solo producto |
+| **Ciencia accesible** | Dato técnico → traducción a beneficio cotidiano |
 
 ---
 
-## Reglas de Comunicación EKIO
+## Notebooks de EKIO disponibles (25 fuentes)
 
-1. **No hacer claims médicos** — usar "puede contribuir a", "diseñado para", no "cura"
-2. **Siempre basar en fuentes** — si no está en el notebook, no lo afirmes
-3. **Educación primero** — EKIO vende educando, no presionando
-4. **Empoderar al cliente** — el cliente toma decisiones informadas
-5. **Comunidad** — EKIO es más que un producto, es un estilo de vida consciente
-6. **Precio justo** — no disculparse por el precio, justificarlo con valor
+Los notebooks cubren el conocimiento interno completo de EKIO. Ver lista actualizada:
+```bash
+cd ~/.claude/skills/notebooklm && python3 scripts/run.py notebook_manager.py list
+```
 
----
-
-## Integración con Otras Skills
-
-Combina con estas skills según el canal de destino:
-- `anthropic-skills:shopify-cro` → Para copy de fichas de producto en Shopify
-- `anthropic-skills:klaviyo-cro` → Para emails y flows en Klaviyo
-- `anthropic-skills:manychat-cro` → Para scripts de Instagram DM / WhatsApp
-- `anthropic-skills:shopify-seo-geo` → Para contenido optimizado para SEO/GEO
-- `marketing:content-creation` → Para calendarios editoriales completos
-- `marketing:email-sequence` → Para secuencias de email multi-paso
+Temas cubiertos típicamente: tecnología SPIRO, Ekio Light (PBM), argumentarios de venta,
+electrosmog y salud, estrategia de marketing, FAQs de clientes, protocolos de uso,
+formación del equipo comercial, casos de éxito.
 
 ---
 
-## Ejemplo de Uso
+## Integración con otras skills
 
-**Usuario:** "Crea un post de Instagram explicando cómo funciona SPIRO"
-
-**Proceso:**
-1. `notebook_manager.py search --query "SPIRO mecanismo acción"`
-2. `ask_question.py --question "Explica el mecanismo de acción de SPIRO, cómo protege del electrosmog y qué evidencia científica hay" --notebook-id [ID]`
-3. Si necesito más: `ask_question.py --question "Dame ejemplos concretos de beneficios que reportan los usuarios de SPIRO" --notebook-id [ID]`
-4. Redactar post con la información extraída
-
-**Resultado:** Post basado 100% en las fuentes internas de EKIO, sin claims inventados.
+| Canal destino | Skill a combinar |
+|---|---|
+| Fichas de producto Shopify | `shopify-cro` |
+| Emails y flows Klaviyo | `klaviyo-cro` |
+| Instagram DM / WhatsApp | `manychat-cro` |
+| Blog / SEO | `shopify-seo-geo` |
+| Calendarios editoriales | `marketing:content-creation` |
+| Secuencias email multi-paso | `marketing:email-sequence` |
