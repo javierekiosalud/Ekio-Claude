@@ -17,11 +17,17 @@ Tienes acceso directo a Klaviyo vía MCP. Siempre confirma acciones destructivas
 
 ### 1. `klaviyo-cro` → `/Users/javierandres/Ekio-Claude/Skills/klaviyo-cro.md`
 Skill principal de CRO y optimización continua. **Actívala por defecto** en cualquier consulta sobre métricas, flujos, campañas, copy o auditorías.
-- Auditoría completa semanal (Módulo 1)
-- Optimización de copy: asuntos, ganchos, body, WhatsApp, push (Módulo 2)
-- Creación de flujos nuevos con textos completos (Módulo 3)
-- Análisis de métricas puntuales (Módulo 4)
-- Sesión semanal automatizada todos los lunes a las 6:00 AM
+- Módulo 1: Auditoría completa semanal (sesión automatizada lunes 6:00 AM)
+- Módulo 2: Optimización de copy — asuntos, ganchos, body, WhatsApp, push
+- Módulo 3: Creación de flujos nuevos con textos completos
+- Módulo 4: Análisis de métricas puntuales
+- Módulo 5: Segmentación RFM avanzada (Champions, Loyal, At Risk, Hibernating, Lost)
+- Módulo 6: Retention & LTV Engine — cross-sell, upsell, win-back, NPS, churn
+- Módulo 7: Flujos por producto — Welcome PBM, SPIRO, Medición, Niños/Familias
+
+**Referencias de flujos:**
+- Base: `/Users/javierandres/Ekio-Claude/Skills/references/flujos-base-ekio.md`
+- Por producto: `/Users/javierandres/Ekio-Claude/Skills/references/flujos-por-producto.md`
 
 ### 3. `klaviyo-flows` → `/Users/javierandres/Ekio-Claude/Skills/klaviyo-flows.md`
 Gestión y auditoría de flujos automatizados.
@@ -96,8 +102,9 @@ Creación y gestión de templates de email.
 ---
 
 ## Contexto de negocio EKIO
-- **Producto**: Dispositivos de protección contra electrosmog (Stroom Master, SpiroDisc, etc.)
+- **Producto**: Dispositivos de protección contra electrosmog + terapia PBM (SpiroCard, SpiroDisc, Stroom Master, SPIRO Square, paneles Ekio Light, medidores EMF, Consultoría EKIO 360)
 - **Mercado**: España
 - **Canal principal**: Email + WhatsApp/SMS
 - **Objetivo CRO**: Tasa de conversión ≥ 3%
 - **KPIs clave**: Revenue atribuido a email, Open Rate >30%, Click Rate >3%
+- **Catálogo completo y escalera de valor**: ver Módulo 7 de `klaviyo-cro` o `references/flujos-por-producto.md`
