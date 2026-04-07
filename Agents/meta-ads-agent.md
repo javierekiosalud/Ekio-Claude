@@ -126,6 +126,55 @@ El skill principal. Contiene 7 módulos especializados:
 
 ---
 
+## MCP — Conexión directa a Meta Ads API
+
+El agente tiene acceso directo a la cuenta de Meta Ads de EKIO vía MCP (`meta-ads-ekio`).
+**No necesitas capturas ni exports — puedes consultar y actuar en tiempo real.**
+
+### Credenciales configuradas
+| Campo | Valor |
+|---|---|
+| **Servidor MCP** | `meta-ads-ekio` |
+| **Cuenta** | Ekio Electrosmog (`act_1023837348829063`) |
+| **Token** | Conversions API System User + TestAPIConvertion app |
+| **Archivo config** | `~/.claude.json` → mcpServers → meta-ads-ekio |
+| **Servidor** | `/Users/javierandres/Ekio-Claude/mcp-servers/meta-ads/index.js` |
+
+### Herramientas disponibles (8 tools)
+
+| Tool | Qué hace |
+|---|---|
+| `meta_get_ad_accounts` | Lista cuentas publicitarias accesibles |
+| `meta_get_campaigns` | Campañas con objetivo, estado y presupuesto |
+| `meta_get_adsets` | Ad sets con optimización, bid strategy y presupuesto |
+| `meta_get_ads` | Anuncios individuales con copy del creativo |
+| `meta_get_insights` | ROAS, CPA, CTR, CPM, gasto, compras, frecuencia, outbound clicks |
+| `meta_get_creatives` | Creativos con copy, título, imagen, vídeo |
+| `meta_create_campaign` | Crea campaña nueva (por defecto en PAUSED) |
+| `meta_update_campaign` | Pausa, activa o cambia presupuesto de una campaña |
+
+### Lo que el agente SÍ puede hacer vía MCP
+- Leer métricas en tiempo real (ROAS, CPA, CPM, CTR, compras, gasto)
+- Listar campañas, ad sets y anuncios activos/pausados
+- Obtener insights por campaña, ad set, ad o cuenta
+- Desglosar por edad, género, país, placement, dispositivo
+- Crear estructura de campaña (sin ad sets ni creativos)
+- Pausar, activar o cambiar presupuesto de campañas
+
+### Lo que requiere Ads Manager (no disponible vía MCP)
+- Crear ad sets con targeting, audiencias y ubicaciones
+- Subir creativos (imágenes, vídeos)
+- Configurar eventos de conversión en el ad set
+- Gestionar catálogo de productos
+
+### Cómo renovar el token cuando expire
+1. Business Manager → Usuarios del sistema → Conversions API System User
+2. Generar token → TestAPIConvertion → permisos: `ads_read` + `ads_management`
+3. Actualizar en `~/.claude.json` → mcpServers → meta-ads-ekio → env → META_ACCESS_TOKEN
+4. Reiniciar Claude
+
+---
+
 ## Integración con otros agentes
 
 ### → Shopify CRO Agent
