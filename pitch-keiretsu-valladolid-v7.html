@@ -1,0 +1,1114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EKIO Light · Keiretsu Valladolid · 7 Mayo 2026</title>
+<style>
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  --bg:       #07090f;
+  --bg2:      #0d1119;
+  --bg3:      #141a26;
+  --amber:    #f5a623;
+  --amber2:   #ffc85a;
+  --teal:     #00c9a7;
+  --white:    #ffffff;
+  --dim:      rgba(255,255,255,0.55);
+  --dim2:     rgba(255,255,255,0.25);
+  --border:   rgba(255,255,255,0.08);
+  --card:     rgba(255,255,255,0.04);
+  --glow:     0 0 40px rgba(245,166,35,0.15);
+}
+
+html, body {
+  width: 100%; height: 100%;
+  background: var(--bg);
+  color: var(--white);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  overflow: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ─── SLIDE ENGINE ─── */
+.deck { width: 100vw; height: 100vh; position: relative; }
+
+.slide {
+  position: absolute; inset: 0;
+  display: none; flex-direction: column;
+  padding: 52px 72px 44px;
+  background: var(--bg);
+  opacity: 0; transition: opacity 0.35s ease;
+}
+.slide.active { display: flex; }
+.slide.visible { opacity: 1; }
+
+/* Subtle grid texture */
+.slide::before {
+  content: '';
+  position: absolute; inset: 0;
+  background-image:
+    linear-gradient(rgba(255,255,255,0.02) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.02) 1px, transparent 1px);
+  background-size: 60px 60px;
+  pointer-events: none;
+}
+
+/* Amber glow top-left accent */
+.slide::after {
+  content: '';
+  position: absolute;
+  top: -80px; left: -80px;
+  width: 400px; height: 400px;
+  background: radial-gradient(circle, rgba(245,166,35,0.06) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+/* ─── HEADER BAR ─── */
+.slide-header {
+  display: flex; align-items: center; justify-content: space-between;
+  margin-bottom: 32px; flex-shrink: 0;
+}
+.brand {
+  font-size: 13px; font-weight: 700; letter-spacing: 0.18em;
+  text-transform: uppercase; color: var(--amber);
+}
+.slide-label {
+  font-size: 11px; font-weight: 600; letter-spacing: 0.2em;
+  text-transform: uppercase; color: var(--dim2);
+}
+
+/* ─── BODY ─── */
+.slide-body {
+  flex: 1; display: flex; flex-direction: column; justify-content: center;
+  position: relative; z-index: 1;
+}
+
+/* ─── TYPOGRAPHY ─── */
+.slide-title {
+  font-size: 13px; font-weight: 700; letter-spacing: 0.22em;
+  text-transform: uppercase; color: var(--amber);
+  margin-bottom: 20px;
+}
+h1 {
+  font-size: clamp(28px, 3.8vw, 52px);
+  font-weight: 700; line-height: 1.2;
+  letter-spacing: -0.02em;
+  margin-bottom: 20px;
+}
+h2 {
+  font-size: clamp(22px, 2.8vw, 38px);
+  font-weight: 700; line-height: 1.25;
+  margin-bottom: 16px;
+}
+p, li {
+  font-size: clamp(15px, 1.7vw, 22px);
+  line-height: 1.65; color: var(--dim);
+  margin-bottom: 10px;
+}
+p strong, li strong { color: var(--white); font-weight: 600; }
+p em { color: var(--amber); font-style: normal; }
+ul { list-style: none; padding: 0; }
+ul li { padding-left: 20px; position: relative; }
+ul li::before {
+  content: '—'; position: absolute; left: 0;
+  color: var(--amber); font-weight: 700;
+}
+
+/* ─── STAT NUMBERS ─── */
+.stat-big {
+  font-size: clamp(52px, 7vw, 96px);
+  font-weight: 800; letter-spacing: -0.03em;
+  color: var(--amber); line-height: 1;
+  text-shadow: var(--glow);
+}
+.stat-label {
+  font-size: clamp(12px, 1.1vw, 15px);
+  font-weight: 600; letter-spacing: 0.14em;
+  text-transform: uppercase; color: var(--dim2);
+  margin-top: 6px; margin-bottom: 0;
+}
+
+/* ─── STAT GRID ─── */
+.stat-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px; margin: 24px 0;
+}
+.stat-grid-3 { grid-template-columns: repeat(3, 1fr); }
+.stat-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 24px 20px;
+}
+.stat-card .val {
+  font-size: clamp(28px, 3.2vw, 42px);
+  font-weight: 800; color: var(--amber);
+  letter-spacing: -0.02em; line-height: 1;
+}
+.stat-card .lbl {
+  font-size: 11px; font-weight: 600;
+  letter-spacing: 0.14em; text-transform: uppercase;
+  color: var(--dim2); margin-top: 6px;
+}
+.stat-card .desc {
+  font-size: 13px; color: var(--dim);
+  margin-top: 8px; line-height: 1.4; margin-bottom: 0;
+}
+
+/* ─── PRODUCT CARDS ─── */
+.product-grid {
+  display: grid; grid-template-columns: repeat(3,1fr);
+  gap: 20px; margin: 24px 0;
+}
+.product-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 14px; padding: 28px 22px;
+}
+.product-card.featured {
+  border-color: rgba(245,166,35,0.3);
+  background: rgba(245,166,35,0.05);
+}
+.product-name {
+  font-size: 17px; font-weight: 700; color: var(--white);
+  margin-bottom: 6px;
+}
+.product-lambda {
+  font-size: 12px; font-weight: 600; letter-spacing: 0.16em;
+  text-transform: uppercase; color: var(--amber);
+  margin-bottom: 12px;
+}
+.product-desc {
+  font-size: 13px; color: var(--dim); line-height: 1.5; margin-bottom: 0;
+}
+
+/* ─── IP CARDS ─── */
+.ip-grid {
+  display: grid; grid-template-columns: 1fr 1fr;
+  gap: 24px; margin: 24px 0;
+}
+.ip-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 14px; padding: 30px 26px;
+}
+.ip-badge {
+  display: inline-block;
+  padding: 4px 12px; border-radius: 20px;
+  font-size: 11px; font-weight: 700; letter-spacing: 0.14em;
+  text-transform: uppercase; margin-bottom: 14px;
+}
+.ip-badge.active { background: rgba(0,201,167,0.15); color: var(--teal); }
+.ip-badge.progress { background: rgba(245,166,35,0.15); color: var(--amber); }
+.ip-number { font-size: 22px; font-weight: 800; color: var(--white); margin-bottom: 6px; }
+.ip-sub { font-size: 12px; color: var(--dim); margin-bottom: 14px; }
+.ip-partner { font-size: 13px; color: var(--amber); font-weight: 600; margin-bottom: 4px; }
+.ip-partner-desc { font-size: 12px; color: var(--dim); margin-bottom: 0; }
+
+/* ─── TAGS/PILLS ─── */
+.pill-grid { display: flex; flex-wrap: wrap; gap: 10px; margin: 20px 0; }
+.pill {
+  display: inline-flex; align-items: center;
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: 20px; padding: 7px 16px;
+  font-size: 13px; font-weight: 600; color: var(--dim);
+}
+.pill.amber { border-color: rgba(245,166,35,0.3); color: var(--amber); background: rgba(245,166,35,0.07); }
+
+/* ─── TEAM CARDS ─── */
+.team-grid {
+  display: grid; grid-template-columns: repeat(4, 1fr);
+  gap: 16px; margin: 24px 0;
+}
+.team-card {
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: 12px; padding: 22px 18px;
+}
+.team-name { font-size: 15px; font-weight: 700; color: var(--white); margin-bottom: 4px; }
+.team-role { font-size: 11px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--amber); margin-bottom: 10px; }
+.team-desc { font-size: 12px; color: var(--dim); line-height: 1.5; margin-bottom: 0; }
+
+/* ─── INVESTMENT ─── */
+.investment-amount {
+  font-size: clamp(44px, 6vw, 80px);
+  font-weight: 800; color: var(--amber);
+  letter-spacing: -0.03em; margin-bottom: 8px;
+  text-shadow: var(--glow);
+}
+.use-funds {
+  display: grid; grid-template-columns: 1fr 1fr;
+  gap: 12px; margin: 20px 0;
+}
+.fund-item {
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: 10px; padding: 14px 18px;
+  display: flex; align-items: flex-start; gap: 12px;
+}
+.fund-icon {
+  width: 8px; height: 8px; border-radius: 50%;
+  background: var(--amber); flex-shrink: 0; margin-top: 7px;
+}
+.fund-text { font-size: 14px; color: var(--dim); line-height: 1.45; }
+.fund-text strong { color: var(--white); }
+
+/* ─── DIVIDER LINE ─── */
+.divider {
+  width: 48px; height: 3px; background: var(--amber);
+  border-radius: 2px; margin: 16px 0;
+}
+
+/* ─── HIGHLIGHT BOX ─── */
+.highlight-box {
+  background: rgba(245,166,35,0.07);
+  border: 1px solid rgba(245,166,35,0.25);
+  border-radius: 12px; padding: 18px 22px;
+  margin: 16px 0;
+}
+.highlight-box p { color: var(--white); font-size: clamp(14px,1.5vw,18px); margin-bottom: 0; }
+
+/* ─── TWO COL ─── */
+.two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center; }
+.two-col-3 { display: grid; grid-template-columns: 2fr 1fr; gap: 40px; }
+
+/* ─── CLOSE SLIDE ─── */
+.close-slide {
+  display: flex; flex-direction: column;
+  justify-content: center; align-items: center;
+  text-align: center; height: 100%;
+}
+.close-main {
+  font-size: clamp(20px, 2.8vw, 36px);
+  font-weight: 300; line-height: 1.55; color: var(--dim);
+  max-width: 700px; margin-bottom: 28px;
+}
+.close-main strong { color: var(--white); font-weight: 700; }
+.close-cta {
+  font-size: clamp(28px, 3.5vw, 48px);
+  font-weight: 800; color: var(--amber);
+  letter-spacing: -0.02em; margin-bottom: 20px;
+  text-shadow: var(--glow);
+}
+.close-sub { font-size: clamp(14px,1.4vw,18px); color: var(--dim2); margin-bottom: 0; }
+
+/* ─── FOOTER / PROGRESS ─── */
+.slide-footer {
+  display: flex; align-items: center; justify-content: space-between;
+  flex-shrink: 0; margin-top: 20px; padding-top: 16px;
+  border-top: 1px solid var(--border);
+}
+.footer-timing {
+  font-size: 11px; color: var(--dim2);
+  font-weight: 500; letter-spacing: 0.1em;
+}
+.footer-counter {
+  font-size: 11px; color: var(--dim2);
+  font-weight: 600; letter-spacing: 0.1em;
+}
+.progress-bar {
+  position: fixed; bottom: 0; left: 0;
+  height: 2px; background: var(--amber);
+  transition: width 0.3s ease;
+  opacity: 0.6; z-index: 100;
+}
+
+/* ─── SPEAKER NOTES ─── */
+.notes-panel {
+  position: fixed; bottom: 0; left: 0; right: 0;
+  background: rgba(0,0,0,0.97); border-top: 1px solid var(--amber);
+  padding: 16px 24px; z-index: 200;
+  display: none; max-height: 30vh; overflow-y: auto;
+}
+.notes-panel.visible { display: block; }
+.notes-label {
+  font-size: 10px; font-weight: 700; letter-spacing: 0.2em;
+  text-transform: uppercase; color: var(--amber); margin-bottom: 8px;
+}
+.notes-text { font-size: 13px; color: rgba(255,255,255,0.75); line-height: 1.6; }
+
+/* ─── NAV CONTROLS ─── */
+.nav-btn {
+  position: fixed; top: 50%; transform: translateY(-50%);
+  width: 44px; height: 44px; border-radius: 50%;
+  background: rgba(255,255,255,0.05); border: 1px solid var(--border);
+  color: var(--dim); cursor: pointer; font-size: 18px;
+  display: flex; align-items: center; justify-content: center;
+  transition: all 0.2s; z-index: 50;
+}
+.nav-btn:hover { background: rgba(245,166,35,0.15); color: var(--amber); border-color: rgba(245,166,35,0.3); }
+.nav-prev { left: 16px; }
+.nav-next { right: 16px; }
+
+/* ─── HELP HUD ─── */
+.hud {
+  position: fixed; top: 16px; right: 20px;
+  display: flex; gap: 8px; z-index: 100;
+}
+.hud-key {
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: 6px; padding: 3px 8px;
+  font-size: 10px; color: var(--dim2); font-weight: 600;
+  letter-spacing: 0.08em; cursor: default;
+}
+
+/* ─── TIMER ─── */
+.timer-display {
+  position: fixed; top: 16px; left: 72px;
+  font-size: 12px; color: var(--dim2); font-weight: 600;
+  letter-spacing: 0.1em; z-index: 100; font-variant-numeric: tabular-nums;
+}
+.timer-display.warning { color: #ff6b6b; }
+
+/* ─── SPECTRUM DECORATION ─── */
+.spectrum-bar {
+  height: 3px; border-radius: 2px;
+  background: linear-gradient(90deg,
+    #8b00ff, #4b0082, #0000ff, #008000,
+    #ffff00, #ff7f00, #ff0000, #ff0000,
+    #8b1a1a, #4a0000);
+  opacity: 0.4; margin: 16px 0 0;
+}
+
+/* ─── QUOTE LINE ─── */
+.quote-line {
+  border-left: 3px solid var(--amber);
+  padding-left: 20px; margin: 16px 0;
+}
+.quote-line p { color: var(--white); font-size: clamp(15px,1.6vw,20px); margin-bottom: 0; }
+
+/* ─── MEDIA MENTIONS ─── */
+.media-row {
+  display: flex; gap: 12px; flex-wrap: wrap; margin: 16px 0;
+}
+.media-pill {
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: 8px; padding: 8px 14px;
+  font-size: 12px; font-weight: 600; color: var(--dim);
+}
+
+/* PRINT */
+@media print {
+  .nav-btn, .hud, .timer-display, .progress-bar { display: none !important; }
+  .notes-panel { display: block !important; position: static; max-height: none; }
+  .slide { display: flex !important; opacity: 1 !important; page-break-after: always; }
+}
+</style>
+</head>
+<body>
+
+<div class="deck" id="deck">
+
+  <!-- ══════════════════════════════════════════ -->
+  <!-- SLIDE 1 — LA EMPRESA -->
+  <!-- ══════════════════════════════════════════ -->
+  <div class="slide active" data-notes="Pausa de 2s tras '1.800.000 euros facturados'. Pausa larga tras 'lo que la vida moderna le quita'. Esas dos pausas son la columna vertebral del pitch.">
+    <div class="slide-header">
+      <span class="brand">EKIO Electrosmog</span>
+      <span class="slide-label">La empresa</span>
+    </div>
+    <div class="slide-body">
+      <div class="two-col">
+        <div>
+          <div class="stat-big">€1.800.000</div>
+          <p class="stat-label">Facturados desde 2023</p>
+          <div class="divider" style="margin-top:24px;"></div>
+          <p style="margin-top:20px;">Sin venture capital. Sin business angels.<br>
+          Solo con producto, comunidad y <strong>80.000€ de financiación bancaria tradicional.</strong></p>
+        </div>
+        <div>
+          <h2>Llevamos años protegiendo a las personas de la <em>contaminación electromagnética</em> de la tecnología moderna.</h2>
+          <p style="margin-top:16px;">Mediciones profesionales, asesoramiento clínico y distribución oficial en España de los <strong>filtros Spiro</strong>.</p>
+          <div class="highlight-box" style="margin-top:20px;">
+            <p>Pero proteger del problema no era suficiente. Hoy venimos a presentar la otra mitad: <strong>devolverle al cuerpo lo que la vida moderna le quita.</strong></p>
+          </div>
+          <p style="margin-top:16px; font-size: clamp(16px,1.8vw,22px); color: var(--white); font-weight: 700;">Esa es <em>Ekio Light</em>.</p>
+        </div>
+      </div>
+    </div>
+    <div class="slide-footer">
+      <span class="footer-timing">0:00 – 0:45</span>
+      <span class="footer-counter">1 / 14</span>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════ -->
+  <!-- SLIDE 2 — EL PROBLEMA -->
+  <!-- ══════════════════════════════════════════ -->
+  <div class="slide" data-notes="No te demores aquí. Es el contexto, no la tesis. Mantén el ritmo y llega pronto a 'Y aún no lo llamamos por su nombre'.">
+    <div class="slide-header">
+      <span class="brand">EKIO Electrosmog</span>
+      <span class="slide-label">El problema</span>
+    </div>
+    <div class="slide-body">
+      <div class="two-col">
+        <div>
+          <p class="slide-title">Un dato que debería estar en todos los titulares</p>
+          <div class="stat-big">50%</div>
+          <p class="stat-label">de la población mundial con déficit de vitamina D</p>
+          <div class="divider"></div>
+          <p>No es un problema de dieta. <strong>Es un problema de luz.</strong></p>
+          <p>Toda la biología humana está sincronizada con el sol. Sueño, hormonas, sistema inmunitario, energía celular — todo depende de señales lumínicas.</p>
+        </div>
+        <div>
+          <div class="stat-card" style="margin-bottom:16px;">
+            <div class="val">90%</div>
+            <div class="lbl">del tiempo en interiores</div>
+            <p class="desc">Hemos sustituido el sol por LEDs y pantallas artificiales.</p>
+          </div>
+          <div class="quote-line">
+            <p>Alteraciones del sueño. Supresión de melatonina. Fatiga crónica. Inflamación sistémica. Peor salud metabólica.</p>
+          </div>
+          <p style="margin-top:16px; color: var(--white);">Y aún no lo llamamos por su nombre. Lo llamamos simplemente <strong>vivir en interiores.</strong></p>
+        </div>
+      </div>
+    </div>
+    <div class="slide-footer">
+      <span class="footer-timing">0:45 – 1:20</span>
+      <span class="footer-counter">2 / 14</span>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════ -->
+  <!-- SLIDE 3 — LA SOLUCIÓN -->
+  <!-- ══════════════════════════════════════════ -->
+  <div class="slide" data-notes="Describe cada modelo en 10 segundos, incluye el precio y el ejemplo de uso — eso lo hace concreto para un inversor. La frase clave es 'no vendemos paneles' al principio.">
+    <div class="slide-header">
+      <span class="brand">EKIO Electrosmog</span>
+      <span class="slide-label">La solución</span>
+    </div>
+    <div class="slide-body">
+      <h2>No vendemos paneles de luz. Estamos construyendo una <em>plataforma</em> que integra hardware de espectro completo, propiedad intelectual sólida y software de personalización con IA.</h2>
+      <div class="spectrum-bar"></div>
+      <div class="product-grid" style="margin-top:18px;">
+        <div class="product-card featured">
+          <div class="product-name">Bio Spectrum <span style="color:var(--amber); font-size:14px; font-weight:800;">2.500€</span></div>
+          <div class="product-lambda">11 longitudes de onda</div>
+          <p class="product-desc">Desde infrarrojo profundo hasta UV. El protocolo más completo: bienestar sistémico, síntesis de vitamina D, recuperación total.<br><span style="color:var(--amber);">Ej: profesional con fatiga crónica — 15 min cada mañana para activar energía y sistema inmune.</span></p>
+        </div>
+        <div class="product-card">
+          <div class="product-name">Bio Regen <span style="color:var(--amber); font-size:14px; font-weight:800;">950€</span></div>
+          <div class="product-lambda">7 longitudes de onda</div>
+          <p class="product-desc">Especializado en regeneración celular, procesos inflamatorios y recuperación post-lesión.<br><span style="color:var(--amber);">Ej: deportista amateur — lo usa tras el entrenamiento para acelerar la recuperación muscular.</span></p>
+        </div>
+        <div class="product-card">
+          <div class="product-name">Deep 5 <span style="color:var(--amber); font-size:14px; font-weight:800;">650€</span></div>
+          <div class="product-lambda">Rojo + Infrarrojo profundo</div>
+          <p class="product-desc">Fotobiomodulación localizada. Dolor crónico, recuperación de tejidos, ATP mitocondrial.<br><span style="color:var(--amber);">Ej: dolor de espalda crónico — 20 min en zona lumbar, reducción de inflamación.</span></p>
+        </div>
+      </div>
+      <div style="display:flex; gap:24px; margin-top:10px; flex-wrap:wrap;">
+        <p style="margin-bottom:0;"><strong>+ Software IA</strong> con AIR Institute · Oura Ring · Apple Watch</p>
+        <p style="margin-bottom:0; color:var(--amber);">Dos mercados: salud preventiva · longevidad</p>
+      </div>
+    </div>
+    <div class="slide-footer">
+      <span class="footer-timing">1:20 – 2:05</span>
+      <span class="footer-counter">3 / 14</span>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════ -->
+  <!-- SLIDE 4 — PROPIEDAD INTELECTUAL -->
+  <!-- ══════════════════════════════════════════ -->
+  <div class="slide" data-notes="Vocaliza el número U202532624 y la fecha despacio. Pausa después. Es el momento más serio del pitch. Un inversor lo apuntará.">
+    <div class="slide-header">
+      <span class="brand">EKIO Electrosmog</span>
+      <span class="slide-label">Propiedad intelectual</span>
+    </div>
+    <div class="slide-body">
+      <h2>Esto no es solo un producto. <em>Es propiedad intelectual.</em></h2>
+      <div class="ip-grid">
+        <div class="ip-card">
+          <span class="ip-badge active">Registrado · Vigente</span>
+          <div class="ip-number">U202532624</div>
+          <p class="ip-sub">Modelo de Utilidad · 24 de diciembre de 2025</p>
+          <div class="divider" style="width:32px; margin:12px 0;"></div>
+          <p class="ip-partner">La Fábrica de Inventos</p>
+          <p class="ip-partner-desc">Agente de patentes especializado. Gestión legal y técnica completa.</p>
+        </div>
+        <div class="ip-card">
+          <span class="ip-badge progress">En construcción</span>
+          <div class="ip-number">Patente PCT Internacional</div>
+          <p class="ip-sub">Hardware + Software asistido por IA · +150 países</p>
+          <div class="divider" style="width:32px; margin:12px 0;"></div>
+          <p class="ip-partner">AIR Institute</p>
+          <p class="ip-partner-desc">Referente europeo en IA aplicada. Elabora la memoria del software de la patente.</p>
+        </div>
+      </div>
+      <div class="highlight-box">
+        <p>Sobre la base del modelo de utilidad, <strong>estamos construyendo una patente PCT internacional que integra hardware y software asistido por IA.</strong> Quien controle el espectro completo con IP sólida, controla esta categoría.</p>
+      </div>
+    </div>
+    <div class="slide-footer">
+      <span class="footer-timing">2:05 – 2:40</span>
+      <span class="footer-counter">4 / 14</span>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════ -->
+  <!-- SLIDE 5 — EL MOMENTO -->
+  <!-- ══════════════════════════════════════════ -->
+  <div class="slide" data-notes="Los nombres son evidencia cultural, no endorsements de EKIO. Si te preguntan en privado: 'son referencias del fenómeno de la categoría, no embajadores nuestros'. El peso lo llevan las instituciones (NBA, Premier, Olímpico), no las personas.">
+    <div class="slide-header">
+      <span class="brand">EKIO Electrosmog</span>
+      <span class="slide-label">El momento</span>
+    </div>
+    <div class="slide-body">
+      <h2>La fotobiomodulación ya es <em>protocolo estándar</em> en el deporte de élite mundial.</h2>
+      <div class="pill-grid">
+        <span class="pill amber">NBA</span>
+        <span class="pill amber">Premier League</span>
+        <span class="pill amber">Atletismo Olímpico</span>
+        <span class="pill amber">NFL</span>
+        <span class="pill">Cristiano Ronaldo</span>
+        <span class="pill">LeBron James</span>
+        <span class="pill">Marcos Llorente</span>
+      </div>
+      <p>Figuras del deporte de élite han hecho que esta tecnología deje de ser nicho y se convierta en conversación pública.</p>
+      <div style="display:flex; gap:12px; margin-top:8px; flex-wrap:wrap; align-items:center;">
+        <span style="font-size:12px; color:var(--dim2); font-weight:600; letter-spacing:0.1em; text-transform:uppercase;">En medios:</span>
+        <div class="media-row" style="margin:0;">
+          <span class="media-pill">Men's Health España</span>
+          <span class="media-pill">El Partidazo de COPE</span>
+        </div>
+      </div>
+      <div class="highlight-box" style="margin-top:20px;">
+        <p>La pregunta ya no es si esta categoría va a crecer en Europa. La pregunta es <strong>quién la va a liderar.</strong></p>
+      </div>
+      <p style="color:var(--amber); font-weight:600; margin-top:8px; margin-bottom:0;">El riesgo no está en si esta tecnología tiene recorrido. <strong>Está en no crecer lo suficientemente rápido.</strong></p>
+    </div>
+    <div class="slide-footer">
+      <span class="footer-timing">2:40 – 3:15</span>
+      <span class="footer-counter">5 / 14</span>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════ -->
+  <!-- SLIDE 6 — TRACCIÓN -->
+  <!-- ══════════════════════════════════════════ -->
+  <div class="slide" data-notes="'Imaginad lo que podemos hacer con vosotros' — di esto mirando directamente a la sala. Es el único momento en que invitas, no describes.">
+    <div class="slide-header">
+      <span class="brand">EKIO Electrosmog</span>
+      <span class="slide-label">Tracción</span>
+    </div>
+    <div class="slide-body">
+      <h2>Esto no es una idea. <em>Es una máquina en marcha.</em></h2>
+      <div class="stat-grid" style="margin-top:20px;">
+        <div class="stat-card">
+          <div class="val">€1,8M</div>
+          <div class="lbl">Facturados desde 2023</div>
+          <p class="desc">Toda la empresa. Sin VC ni business angels.</p>
+        </div>
+        <div class="stat-card">
+          <div class="val">+26K</div>
+          <div class="lbl">Seguidores Instagram</div>
+          <p class="desc">Comunidad propia, orgánica y cualificada.</p>
+        </div>
+        <div class="stat-card">
+          <div class="val">11.700</div>
+          <div class="lbl">Base de datos</div>
+          <p class="desc">Leads y clientes en nurturing activo.</p>
+        </div>
+        <div class="stat-card">
+          <div class="val">+7.600</div>
+          <div class="lbl">Clientes del ecosistema</div>
+          <p class="desc">Ya educados, ya conscientes. Compradores naturales de Ekio Light.</p>
+        </div>
+      </div>
+      <div class="highlight-box">
+        <p>Muchos de esos clientes vinieron a EKIO buscando protección frente a la contaminación tecnológica. Hoy son la base de clientes más cualificada de Europa para Ekio Light. <strong>Tenemos el cross-sell interno sin coste adicional de adquisición.</strong></p>
+      </div>
+    </div>
+    <div class="slide-footer">
+      <span class="footer-timing">3:15 – 3:45</span>
+      <span class="footer-counter">6 / 14</span>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════ -->
+  <!-- SLIDE 7 — SALUD FINANCIERA -->
+  <!-- ══════════════════════════════════════════ -->
+  <div class="slide" data-notes="PAUSA de 1,5 segundos antes y después de 'Recuperamos el coste de adquisición en la primera transacción'. Esa frase, dicha así, vale más que toda la slide de mercado. Mira a la sala.">
+    <div class="slide-header">
+      <span class="brand">EKIO Electrosmog</span>
+      <span class="slide-label">Salud financiera</span>
+    </div>
+    <div class="slide-body">
+      <div class="stat-grid" style="grid-template-columns: repeat(3,1fr); margin-bottom:16px;">
+        <div class="stat-card">
+          <div class="val">53%</div>
+          <div class="lbl">Margen bruto medio</div>
+          <p class="desc">Sobre PVP sin IVA. Bio Regen 55%, Bio Spectrum 52%, Deep 5 53%.</p>
+        </div>
+        <div class="stat-card">
+          <div class="val">44%</div>
+          <div class="lbl">Margen contribución</div>
+          <p class="desc">Después de logística, pago y devoluciones.</p>
+        </div>
+        <div class="stat-card">
+          <div class="val">1%</div>
+          <div class="lbl">Tasa de devoluciones</div>
+          <p class="desc">vs 5–12% del sector hardware wellness.</p>
+        </div>
+      </div>
+      <div class="stat-grid" style="grid-template-columns: repeat(3,1fr);">
+        <div class="stat-card">
+          <div class="val">80€</div>
+          <div class="lbl">CAC medio</div>
+          <p class="desc">Coste de adquisición de cliente.</p>
+        </div>
+        <div class="stat-card">
+          <div class="val">236–888€</div>
+          <div class="lbl">Gross profit por venta</div>
+          <p class="desc">Deep 5 → Bio Spectrum.</p>
+        </div>
+        <div class="stat-card" style="border-color: rgba(245,166,35,0.35); background: rgba(245,166,35,0.06);">
+          <div class="val" style="font-size:clamp(16px,1.8vw,24px); line-height:1.3;">Payback<br>inmediato</div>
+          <div class="lbl">En primera transacción</div>
+          <p class="desc">GP/CAC de 3x a 11x según modelo.</p>
+        </div>
+      </div>
+      <div class="highlight-box" style="margin-top:14px;">
+        <p>Monetización doble: venta directa + <strong>renting B2B</strong> y <strong>suscripción-alquiler B2C</strong> vía Sharpei. Hardware que genera ingresos recurrentes.</p>
+      </div>
+    </div>
+    <div class="slide-footer">
+      <span class="footer-timing">3:45 – 4:15</span>
+      <span class="footer-counter">7 / 14</span>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════ -->
+  <!-- SLIDE 8 — GO TO MARKET -->
+  <!-- ══════════════════════════════════════════ -->
+  <div class="slide" data-notes="El canal 2 (Amazon) es el más potente aquí — di 'seleccionados por la Junta de Castilla y León' despacio. Es validación institucional. El canal 4 (Sharpei) cierra la lógica de recurrencia que ya mencionaste en Salud Financiera.">
+    <div class="slide-header">
+      <span class="brand">EKIO Electrosmog</span>
+      <span class="slide-label">Go to Market</span>
+    </div>
+    <div class="slide-body">
+      <h2>Cuatro canales. <em>Una sola dirección: escalar.</em></h2>
+      <div class="stat-grid" style="grid-template-columns: repeat(2,1fr); margin-top:20px; gap:16px;">
+        <div class="stat-card">
+          <div class="lbl" style="margin-bottom:8px;">Canal 1 · Web propia DTC</div>
+          <p class="desc" style="font-size:14px; margin-bottom:0;">Operativa y validada. Los <strong>7.600 clientes del ecosistema EKIO</strong> son compradores naturales de Ekio Light — cross-sell sin coste adicional de adquisición.</p>
+        </div>
+        <div class="stat-card" style="border-color: rgba(245,166,35,0.3); background: rgba(245,166,35,0.05);">
+          <div class="lbl" style="margin-bottom:8px;">Canal 2 · Amazon</div>
+          <p class="desc" style="font-size:14px; margin-bottom:0;"><strong>España al final de trimestre. Alemania este trimestre.</strong> Seleccionados en el programa oficial de aceleración para marketplaces internacionales de la <strong>Junta de Castilla y León</strong>. A partir de ahí, expansión por el <strong>norte de Europa</strong>.</p>
+        </div>
+        <div class="stat-card">
+          <div class="lbl" style="margin-bottom:8px;">Canal 3 · Profesional B2B</div>
+          <p class="desc" style="font-size:14px; margin-bottom:0;">Clínicas, centros de bienestar y deporte de élite. Renting de equipos con contrato de mantenimiento. Ticket alto, cliente recurrente.</p>
+        </div>
+        <div class="stat-card">
+          <div class="lbl" style="margin-bottom:8px;">Canal 4 · Sharpei</div>
+          <p class="desc" style="font-size:14px; margin-bottom:0;">Suscripción-alquiler B2C y renting B2B. Hardware que genera <strong>ingresos recurrentes mensuales</strong>. El modelo que convierte una venta en una relación.</p>
+        </div>
+      </div>
+    </div>
+    <div class="slide-footer">
+      <span class="footer-timing">4:15 – 4:50</span>
+      <span class="footer-counter">8 / 14</span>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════ -->
+  <!-- SLIDE 9 — PROYECCIONES -->
+  <!-- ══════════════════════════════════════════ -->
+  <div class="slide" data-notes="Las cifras entre corchetes son para completar con Javier antes del pitch. El argumento clave es estructural: con un CAC de 80€ y GP/CAC de 3x a 11x, la inversión en captación se paga sola en la primera transacción. Eso es lo que un inversor quiere escuchar.">
+    <div class="slide-header">
+      <span class="brand">EKIO Electrosmog</span>
+      <span class="slide-label">Proyecciones 2026</span>
+    </div>
+    <div class="slide-body">
+      <h2>Con la inversión, <em>aceleramos lo que ya es rentable.</em></h2>
+      <div class="stat-grid" style="grid-template-columns: repeat(3,1fr); margin-top:20px;">
+        <div class="stat-card" style="border-color: rgba(245,166,35,0.3); background: rgba(245,166,35,0.05);">
+          <div class="val">100.000€</div>
+          <div class="lbl">Invertidos en captación 2026</div>
+          <p class="desc">Presupuesto dedicado a adquisición de clientes de panel Ekio Light.</p>
+        </div>
+        <div class="stat-card">
+          <div class="val">80€</div>
+          <div class="lbl">CAC medio validado</div>
+          <p class="desc">Con payback en la primera transacción. GP/CAC de 3x a 11x según modelo.</p>
+        </div>
+        <div class="stat-card">
+          <div class="val" style="font-size:clamp(22px,2.5vw,32px); color:var(--dim2);">[X] clientes</div>
+          <div class="lbl">Nuevos clientes de panel proyectados</div>
+          <p class="desc">A confirmar antes del pitch. Ticket medio objetivo: [X]€.</p>
+        </div>
+      </div>
+      <div class="highlight-box" style="margin-top:16px;">
+        <p>Con un CAC de 80€ y márgenes de entre el 52% y el 55%, <strong>cada euro invertido en captación se recupera en la misma transacción</strong> y genera margen desde el primer día. La pregunta no es si funciona — ya funciona. La pregunta es <strong>cuánto más rápido podemos crecer.</strong></p>
+      </div>
+    </div>
+    <div class="slide-footer">
+      <span class="footer-timing">4:50 – 5:20</span>
+      <span class="footer-counter">9 / 14</span>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════ -->
+  <!-- SLIDE 10 — DIFERENCIACIÓN -->
+  <!-- ══════════════════════════════════════════ -->
+  <div class="slide" data-notes="No te extiendas en los competidores. Después de la lista de ventajas, las certificaciones son el dato de cierre: muchos founders de hardware no las tienen y los inversores lo saben. FCC ya obtenida = entrada USA sin barrera. Eso aterriza.">
+    <div class="slide-header">
+      <span class="brand">EKIO Electrosmog</span>
+      <span class="slide-label">Diferenciación</span>
+    </div>
+    <div class="slide-body">
+      <div class="two-col">
+        <div>
+          <p class="slide-title">El mercado compite así</p>
+          <div class="quote-line" style="border-color: var(--dim2);">
+            <p style="color:var(--dim);">Joovv, Mito Red, PlatinumLED — más potencia, más LEDs, más vatios.</p>
+          </div>
+          <p style="margin-top:16px; color:var(--dim);">Una lógica básica: intensidad como único argumento.</p>
+          <div style="margin-top:20px;">
+            <p class="slide-title" style="margin-bottom:10px;">Certificaciones</p>
+            <div class="pill-grid" style="margin:0; gap:8px;">
+              <span class="pill amber">CE</span>
+              <span class="pill amber">RoHS</span>
+              <span class="pill amber">FCC</span>
+              <span class="pill amber">Reciclable</span>
+            </div>
+            <p style="margin-top:10px; font-size:12px; color:var(--dim);">Listos para operar en Europa y USA desde el primer día.</p>
+          </div>
+        </div>
+        <div>
+          <p class="slide-title">Nosotros competimos así</p>
+          <ul style="margin-top:8px;">
+            <li style="margin-bottom:10px;"><strong>Espectro completo</strong> — 11 longitudes de onda, lógica biológica</li>
+            <li style="margin-bottom:10px;"><strong>IP registrada</strong> — Modelo utilidad U202532624 + PCT con La Fábrica de Inventos</li>
+            <li style="margin-bottom:10px;"><strong>Software IA propio</strong> — AIR Institute, personalización real</li>
+            <li style="margin-bottom:10px;"><strong>Monetización recurrente</strong> — Sharpei, renting + suscripción</li>
+            <li style="margin-bottom:10px;"><strong>Plan de sostenibilidad</strong> — productos reciclables, diseño para economía circular</li>
+          </ul>
+          <div class="highlight-box" style="margin-top:12px;">
+            <p><strong>La barrera no está en fabricar un panel. Está en construir un sistema completo.</strong></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="slide-footer">
+      <span class="footer-timing">5:20 – 5:55</span>
+      <span class="footer-counter">10 / 14</span>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════ -->
+  <!-- SLIDE 9 — EQUIPO -->
+  <!-- ══════════════════════════════════════════ -->
+  <div class="slide" data-notes="Vocaliza bien 'área técnica' al hablar de Javier Escobar. Eso cubre la objeción implícita de '¿quién construye el software?' que un inversor tiene en la cabeza desde slide 3.">
+    <div class="slide-header">
+      <span class="brand">EKIO Electrosmog</span>
+      <span class="slide-label">Equipo</span>
+    </div>
+    <div class="slide-body">
+      <h2>No estamos construyendo un equipo. <em>Ya lo tenemos.</em></h2>
+      <div class="team-grid" style="margin-top:20px;">
+        <div class="team-card">
+          <div class="team-name">Javier Andrés</div>
+          <div class="team-role">CEO · Fundador</div>
+          <p class="team-desc">Naturópata y especialista en contaminación electromagnética desde 2011. Cientos de personas tratadas. Conocimiento clínico en cada decisión de producto.</p>
+        </div>
+        <div class="team-card">
+          <div class="team-name">Jesús Bedmar</div>
+          <div class="team-role">Project Manager</div>
+          <p class="team-desc">Certificado PMP. Asegura que cada hito se cumple en plazo y calidad. Metodología probada en proyectos complejos.</p>
+        </div>
+        <div class="team-card">
+          <div class="team-name">Cristhian de Moya</div>
+          <div class="team-role">Director de Operaciones</div>
+          <p class="team-desc">Coordina la cadena operativa completa: producción, logística, stock y experiencia de cliente.</p>
+        </div>
+        <div class="team-card" style="border-color: rgba(245,166,35,0.25); background: rgba(245,166,35,0.04);">
+          <div class="team-name">Javier Escobar</div>
+          <div class="team-role">Responsable Área Técnica</div>
+          <p class="team-desc">Conecta producto, ingeniería y desarrollo de software. La pieza que hace posible la plataforma tecnológica.</p>
+        </div>
+      </div>
+      <div style="display:flex; align-items:center; gap:16px; margin-top:12px;">
+        <p style="margin-bottom:0;">+ Equipo propio de <strong>comunicación, marketing y producción</strong></p>
+        <span class="pill amber" style="flex-shrink:0;">Seleccionados · Wolaria · Junta CyL</span>
+      </div>
+    </div>
+    <div class="slide-footer">
+      <span class="footer-timing">5:55 – 6:25</span>
+      <span class="footer-counter">11 / 14</span>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════ -->
+  <!-- SLIDE 10 — MERCADO -->
+  <!-- ══════════════════════════════════════════ -->
+  <div class="slide" data-notes="Esta slide es la más corta. No te extiendas en los números de mercado — son contexto, no argumento. El argumento lo das al final: 'no vendemos una lámpara, construimos una categoría'.">
+    <div class="slide-header">
+      <span class="brand">EKIO Electrosmog</span>
+      <span class="slide-label">Mercado</span>
+    </div>
+    <div class="slide-body">
+      <div class="two-col">
+        <div>
+          <p class="slide-title">Light therapy global</p>
+          <div style="display:flex; align-items:flex-end; gap:24px; margin-bottom:20px;">
+            <div>
+              <div class="stat-big" style="font-size:clamp(36px,4.5vw,60px);">$1.040M</div>
+              <p class="stat-label">2023</p>
+            </div>
+            <div style="font-size:32px; color:var(--amber); padding-bottom:8px;">→</div>
+            <div>
+              <div class="stat-big" style="font-size:clamp(36px,4.5vw,60px);">$1.440M</div>
+              <p class="stat-label">2030</p>
+            </div>
+          </div>
+          <div class="stat-grid-3 stat-grid" style="grid-template-columns: 1fr 1fr; gap:12px;">
+            <div class="stat-card">
+              <div class="val" style="font-size:clamp(20px,2vw,28px);">$261M</div>
+              <div class="lbl">Europa 2023</div>
+            </div>
+            <div class="stat-card">
+              <div class="val" style="font-size:clamp(20px,2vw,28px);">x2</div>
+              <div class="lbl">Fotobiomod. hacia 2035</div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <p class="slide-title">Nuestra oportunidad</p>
+          <ul>
+            <li style="margin-bottom:12px;"><strong>Venta directa</strong> — DTC web y Amazon internacional</li>
+            <li style="margin-bottom:12px;"><strong>Canal profesional</strong> — clínicas, centros, deporte</li>
+            <li style="margin-bottom:12px;"><strong>Bienestar en el hogar</strong> — suscripción Sharpei</li>
+            <li style="margin-bottom:12px;"><strong>Software personalizado</strong> — capa de valor recurrente</li>
+          </ul>
+          <div class="highlight-box" style="margin-top:16px;">
+            <p><strong>Esto no es vender una lámpara. Es construir una categoría.</strong></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="slide-footer">
+      <span class="footer-timing">6:25 – 6:50</span>
+      <span class="footer-counter">12 / 14</span>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════ -->
+  <!-- SLIDE 11 — INVERSIÓN -->
+  <!-- ══════════════════════════════════════════ -->
+  <div class="slide" data-notes="'Los términos en privado' — dilo con seguridad, sin disculpa. Es lo que Keiretsu recomienda y los inversores experimentados lo entienden. La última frase 'multiplica velocidad' — pausa antes. Que aterrice.">
+    <div class="slide-header">
+      <span class="brand">EKIO Electrosmog</span>
+      <span class="slide-label">Inversión</span>
+    </div>
+    <div class="slide-body">
+      <div class="two-col-3">
+        <div>
+          <p class="slide-title">Ronda Seed — específicamente para Ekio Light</p>
+          <div class="investment-amount">350.000€</div>
+          <p style="margin-bottom:20px;">Para escalar lo que ya funciona. No para descubrir si funciona.</p>
+          <div class="use-funds">
+            <div class="fund-item">
+              <div class="fund-icon"></div>
+              <p class="fund-text"><strong>Producción y stock</strong> para responder a demanda validada</p>
+            </div>
+            <div class="fund-item">
+              <div class="fund-icon"></div>
+              <p class="fund-text"><strong>Amazon España</strong> al final de trimestre · <strong>Amazon Alemania</strong> este trimestre — seleccionados en el programa oficial de aceleración de la Junta de CyL · Expansión por el <strong>norte de Europa</strong></p>
+            </div>
+            <div class="fund-item">
+              <div class="fund-icon"></div>
+              <p class="fund-text"><strong>Software IA</strong> con AIR Institute</p>
+            </div>
+            <div class="fund-item" style="grid-column: span 2;">
+              <div class="fund-icon"></div>
+              <p class="fund-text"><strong>Estructura operativa</strong> para sostener el crecimiento internacional</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="highlight-box" style="margin-bottom:16px;">
+            <p>Los términos concretos — valoración, equity, calendario — <strong>los tratamos en privado con cada inversor interesado.</strong></p>
+          </div>
+          <div class="quote-line">
+            <p>El capital, en este punto, no reduce riesgo.</p>
+          </div>
+          <p style="margin-top:16px; font-size:clamp(18px,2vw,26px); font-weight:700; color:var(--amber);">Multiplica velocidad.</p>
+          <p style="margin-top:12px;">Cuando una categoría despierta, gana quien ejecuta mejor, construye marca, protege su tecnología y <strong>escala más rápido.</strong></p>
+        </div>
+      </div>
+    </div>
+    <div class="slide-footer">
+      <span class="footer-timing">6:50 – 7:15</span>
+      <span class="footer-counter">13 / 14</span>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════ -->
+  <!-- SLIDE 12 — CIERRE -->
+  <!-- ══════════════════════════════════════════ -->
+  <div class="slide" data-notes="'Buscadme' se dice mirando a 2-3 personas concretas de la sala, no al aire. Los que sienten que les hablas a ellos, se levantan. Después de 'Buscadme' — silencio. No llenes el silencio.">
+    <div class="slide-header">
+      <span class="brand">EKIO Electrosmog</span>
+      <span class="slide-label">Keiretsu Valladolid · 7 Mayo 2026</span>
+    </div>
+    <div class="slide-body">
+      <div class="close-slide">
+        <p class="close-main">
+          Tenemos producto. Ventas rentables. Propiedad intelectual registrada. Equipo técnico, operativo y clínico.<br><br>
+          Y más de <strong>7.600 clientes</strong> que ya confían en el ecosistema EKIO.
+        </p>
+        <p class="close-cta">Toda la vida depende de la luz.</p>
+        <p class="close-main" style="margin-bottom:28px;">
+          Pedimos capital para hacer una sola cosa:<br><strong>ir más rápido que el mercado.</strong>
+        </p>
+        <div class="highlight-box" style="max-width:520px;">
+          <p style="font-size:clamp(16px,1.8vw,22px); text-align:center;">Si tenéis preguntas, el café del descanso es vuestro.<br><strong>Buscadme.</strong></p>
+        </div>
+      </div>
+    </div>
+    <div class="slide-footer">
+      <span class="footer-timing">7:15 – 7:30</span>
+      <span class="footer-counter">14 / 14</span>
+    </div>
+  </div>
+
+</div><!-- /deck -->
+
+<!-- Progress bar -->
+<div class="progress-bar" id="progressBar"></div>
+
+<!-- Nav buttons -->
+<button class="nav-btn nav-prev" id="prevBtn" onclick="navigate(-1)">‹</button>
+<button class="nav-btn nav-next" id="nextBtn" onclick="navigate(1)">›</button>
+
+<!-- HUD -->
+<div class="hud">
+  <span class="hud-key">← →</span>
+  <span class="hud-key" onclick="toggleNotes()" style="cursor:pointer; user-select:none;">N notas</span>
+  <span class="hud-key" onclick="toggleFullscreen()" style="cursor:pointer; user-select:none;">F pantalla</span>
+  <span class="hud-key" onclick="toggleTimer()" style="cursor:pointer; user-select:none;">T timer</span>
+</div>
+
+<!-- Timer -->
+<div class="timer-display" id="timerDisplay" style="display:none;">7:30</div>
+
+<!-- Speaker Notes -->
+<div class="notes-panel" id="notesPanel">
+  <div class="notes-label">Notas de presentador</div>
+  <div class="notes-text" id="notesText"></div>
+</div>
+
+<script>
+const slides = document.querySelectorAll('.slide');
+let current = 0;
+let notesVisible = false;
+let timerVisible = false;
+let timerRunning = false;
+let timerSeconds = 450; // 7:30
+let timerInterval = null;
+
+function showSlide(n) {
+  slides[current].classList.remove('visible');
+  setTimeout(() => slides[current].classList.remove('active'), 350);
+
+  current = (n + slides.length) % slides.length;
+
+  slides[current].classList.add('active');
+  setTimeout(() => slides[current].classList.add('visible'), 10);
+
+  // Progress bar
+  const pct = ((current + 1) / slides.length) * 100;
+  document.getElementById('progressBar').style.width = pct + '%';
+
+  // Notes
+  updateNotes();
+
+  // Prev/Next buttons
+  document.getElementById('prevBtn').style.opacity = current === 0 ? '0.25' : '1';
+  document.getElementById('nextBtn').style.opacity = current === slides.length - 1 ? '0.25' : '1';
+}
+
+function navigate(dir) {
+  const next = current + dir;
+  if (next < 0 || next >= slides.length) return;
+  showSlide(next);
+}
+
+function updateNotes() {
+  const note = slides[current].dataset.notes || '';
+  document.getElementById('notesText').textContent = note;
+}
+
+function toggleNotes() {
+  notesVisible = !notesVisible;
+  document.getElementById('notesPanel').classList.toggle('visible', notesVisible);
+  updateNotes();
+}
+
+function toggleFullscreen() {
+  if (!document.fullscreenElement) {
+    document.documentElement.requestFullscreen();
+  } else {
+    document.exitFullscreen();
+  }
+}
+
+function toggleTimer() {
+  timerVisible = !timerVisible;
+  const display = document.getElementById('timerDisplay');
+  display.style.display = timerVisible ? 'block' : 'none';
+
+  if (timerVisible && !timerRunning) {
+    timerRunning = true;
+    timerSeconds = 450;
+    timerInterval = setInterval(() => {
+      timerSeconds--;
+      const m = Math.floor(Math.abs(timerSeconds) / 60);
+      const s = Math.abs(timerSeconds) % 60;
+      const sign = timerSeconds < 0 ? '+' : '';
+      display.textContent = (timerSeconds < 0 ? '-' : '') + m + ':' + String(s).padStart(2, '0');
+      display.classList.toggle('warning', timerSeconds < 0);
+    }, 1000);
+  } else if (!timerVisible && timerRunning) {
+    clearInterval(timerInterval);
+    timerRunning = false;
+  }
+}
+
+// Keyboard navigation
+document.addEventListener('keydown', e => {
+  if (e.key === 'ArrowRight' || e.key === 'ArrowDown' || e.key === ' ') {
+    e.preventDefault(); navigate(1);
+  } else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') {
+    e.preventDefault(); navigate(-1);
+  } else if (e.key === 'n' || e.key === 'N') {
+    toggleNotes();
+  } else if (e.key === 'f' || e.key === 'F') {
+    toggleFullscreen();
+  } else if (e.key === 't' || e.key === 'T') {
+    toggleTimer();
+  } else if (e.key === 'Home') {
+    showSlide(0);
+  } else if (e.key === 'End') {
+    showSlide(slides.length - 1);
+  }
+});
+
+// Touch swipe
+let touchStartX = 0;
+document.addEventListener('touchstart', e => { touchStartX = e.changedTouches[0].screenX; });
+document.addEventListener('touchend', e => {
+  const diff = touchStartX - e.changedTouches[0].screenX;
+  if (Math.abs(diff) > 50) navigate(diff > 0 ? 1 : -1);
+});
+
+// Init
+showSlide(0);
+</script>
+</body>
+</html>
