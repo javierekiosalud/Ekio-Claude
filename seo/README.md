@@ -57,7 +57,7 @@ pip3 install -r seo/requirements.txt
 ### Paso 1.5 — Primera ejecución (autorización OAuth)
 
 ```bash
-python3 seo/gsc_fetch.py --site https://ekio.es/ --days 28
+python3 seo/gsc_fetch.py --site https://electrosmogespana.com/ --days 28
 ```
 
 La primera vez se abrirá tu navegador → loguéate con la cuenta de Google que tiene acceso a Search Console → acepta los permisos. Verás un aviso "Google hasn't verified this app" → clic en **Advanced → Go to EKIO SEO Agent (unsafe)** → Allow.
@@ -70,37 +70,37 @@ Esto genera `token.pickle` y a partir de ahí el script funciona sin abrir naveg
 
 ### Sacar últimos 28 días de queries + páginas
 ```bash
-python3 seo/gsc_fetch.py --site https://ekio.es/
+python3 seo/gsc_fetch.py --site https://electrosmogespana.com/
 ```
 
 ### Solo queries (lo más útil para keyword research)
 ```bash
-python3 seo/gsc_fetch.py --site https://ekio.es/ --dimension query --rows 5000
+python3 seo/gsc_fetch.py --site https://electrosmogespana.com/ --dimension query --rows 5000
 ```
 
 ### Rango custom
 ```bash
-python3 seo/gsc_fetch.py --site https://ekio.es/ --start 2026-04-01 --end 2026-05-01
+python3 seo/gsc_fetch.py --site https://electrosmogespana.com/ --start 2026-04-01 --end 2026-05-01
 ```
 
 ### Si tienes la propiedad como Domain property en GSC
 ```bash
-python3 seo/gsc_fetch.py --site sc-domain:ekio.es --days 90
+python3 seo/gsc_fetch.py --site sc-domain:electrosmogespana.com --days 90
 ```
 
 ### Otras combinaciones útiles
 ```bash
 # Top páginas
-python3 seo/gsc_fetch.py --site https://ekio.es/ --dimension page --rows 1000
+python3 seo/gsc_fetch.py --site https://electrosmogespana.com/ --dimension page --rows 1000
 
 # Evolución diaria de tráfico
-python3 seo/gsc_fetch.py --site https://ekio.es/ --dimension date --days 90
+python3 seo/gsc_fetch.py --site https://electrosmogespana.com/ --dimension date --days 90
 
 # Query × Página (oportunidades de optimización on-page)
-python3 seo/gsc_fetch.py --site https://ekio.es/ --dimension query,page --rows 10000
+python3 seo/gsc_fetch.py --site https://electrosmogespana.com/ --dimension query,page --rows 10000
 
 # Rendimiento por país
-python3 seo/gsc_fetch.py --site https://ekio.es/ --dimension country
+python3 seo/gsc_fetch.py --site https://electrosmogespana.com/ --dimension country
 ```
 
 Los CSVs se guardan en `seo/gsc-exports/` con nombres tipo:
@@ -114,7 +114,7 @@ gsc_20260505-101530_2026-04-07_to_2026-05-05_query-page.csv
 
 Cuando le pidas una auditoría SEO, dile algo como:
 
-> *"Lanza `python3 seo/gsc_fetch.py --site https://ekio.es/ --days 90 --dimension query,page` y luego analiza el CSV: dame las 20 keywords con CTR < 2% en posiciones 4-15 (oportunidades quick win), y las 10 páginas con más impresiones pero CTR bajo."*
+> *"Lanza `python3 seo/gsc_fetch.py --site https://electrosmogespana.com/ --days 90 --dimension query,page` y luego analiza el CSV: dame las 20 keywords con CTR < 2% en posiciones 4-15 (oportunidades quick win), y las 10 páginas con más impresiones pero CTR bajo."*
 
 El agente:
 1. Ejecuta el script vía Bash.

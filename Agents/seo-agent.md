@@ -84,16 +84,16 @@ Tienes un script Python que descarga datos frescos de GSC vía API: `seo/gsc_fet
 **Cómo usarlo** (ejecuta vía Bash):
 ```bash
 # Últimos 28 días, queries + páginas
-python3 seo/gsc_fetch.py --site https://ekio.es/ --days 28 --dimension query,page
+python3 seo/gsc_fetch.py --site https://electrosmogespana.com/ --days 28 --dimension query,page
 
 # Solo queries (keyword research)
-python3 seo/gsc_fetch.py --site https://ekio.es/ --days 90 --dimension query --rows 5000
+python3 seo/gsc_fetch.py --site https://electrosmogespana.com/ --days 90 --dimension query --rows 5000
 
 # Por página (oportunidades on-page)
-python3 seo/gsc_fetch.py --site https://ekio.es/ --days 28 --dimension page
+python3 seo/gsc_fetch.py --site https://electrosmogespana.com/ --days 28 --dimension page
 
 # Evolución temporal
-python3 seo/gsc_fetch.py --site https://ekio.es/ --days 90 --dimension date
+python3 seo/gsc_fetch.py --site https://electrosmogespana.com/ --days 90 --dimension date
 ```
 
 Los CSVs aparecen en `seo/gsc-exports/` con nombre `gsc_<timestamp>_<rango>_<dimensiones>.csv`. Léelos con la herramienta Read y analízalos.
