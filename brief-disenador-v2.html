@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Brief Diseñador · EKIO Light Keiretsu v2</title>
+<style>
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+:root {
+  --bg: #07090f; --bg2: #0d1119; --bg3: #141a26;
+  --amber: #f5a623; --teal: #00c9a7; --red: #ff4d4d;
+  --white: #ffffff; --dim: rgba(255,255,255,0.6); --dim2: rgba(255,255,255,0.3);
+  --border: rgba(255,255,255,0.08); --card: rgba(255,255,255,0.04);
+}
+body { background: var(--bg); color: var(--white); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; padding: 48px 40px; max-width: 960px; margin: 0 auto; line-height: 1.6; -webkit-font-smoothing: antialiased; }
+h1 { font-size: 32px; font-weight: 800; color: var(--amber); letter-spacing: -0.02em; margin-bottom: 8px; }
+.subtitle { font-size: 15px; color: var(--dim); margin-bottom: 48px; }
+h2 { font-size: 18px; font-weight: 700; color: var(--amber); letter-spacing: 0.1em; text-transform: uppercase; margin: 40px 0 16px; padding-bottom: 8px; border-bottom: 1px solid rgba(245,166,35,0.2); }
+h3 { font-size: 15px; font-weight: 700; color: var(--white); margin: 24px 0 8px; }
+p { font-size: 14px; color: var(--dim); margin-bottom: 10px; }
+p strong { color: var(--white); }
+ul { list-style: none; padding: 0; margin-bottom: 12px; }
+ul li { font-size: 14px; color: var(--dim); padding: 5px 0 5px 20px; position: relative; border-bottom: 1px solid rgba(255,255,255,0.04); }
+ul li::before { content: '—'; position: absolute; left: 0; color: var(--amber); font-weight: 700; }
+ul li strong { color: var(--white); }
+
+/* Priority badges */
+.badge { display: inline-block; padding: 3px 10px; border-radius: 20px; font-size: 11px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; margin-right: 8px; }
+.badge-critical { background: rgba(255,77,77,0.15); color: var(--red); border: 1px solid rgba(255,77,77,0.3); }
+.badge-high { background: rgba(245,166,35,0.15); color: var(--amber); border: 1px solid rgba(245,166,35,0.3); }
+.badge-medium { background: rgba(0,201,167,0.15); color: var(--teal); border: 1px solid rgba(0,201,167,0.3); }
+.badge-new { background: rgba(100,120,255,0.15); color: #8899ff; border: 1px solid rgba(100,120,255,0.3); }
+
+/* Slide cards */
+.slide-card { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 24px 28px; margin-bottom: 16px; }
+.slide-card.critical { border-color: rgba(255,77,77,0.25); background: rgba(255,77,77,0.03); }
+.slide-card.new-slide { border-color: rgba(100,120,255,0.25); background: rgba(100,120,255,0.03); }
+.slide-num { font-size: 11px; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; color: var(--dim2); margin-bottom: 6px; }
+.slide-title { font-size: 18px; font-weight: 700; color: var(--white); margin-bottom: 14px; }
+.action-box { background: rgba(245,166,35,0.06); border: 1px solid rgba(245,166,35,0.2); border-radius: 10px; padding: 14px 18px; margin-top: 14px; }
+.action-box p { color: var(--white); font-size: 13px; margin-bottom: 0; }
+.delete-box { background: rgba(255,77,77,0.06); border: 1px solid rgba(255,77,77,0.2); border-radius: 10px; padding: 14px 18px; margin-top: 14px; }
+.delete-box p { color: #ff8888; font-size: 13px; margin-bottom: 0; }
+.delete-text { text-decoration: line-through; opacity: 0.6; }
+.photo-box { background: rgba(0,201,167,0.06); border: 1px solid rgba(0,201,167,0.2); border-radius: 10px; padding: 14px 18px; margin-top: 14px; }
+.photo-box p { color: var(--teal); font-size: 13px; margin-bottom: 0; }
+
+/* Color palette */
+.palette { display: flex; gap: 12px; flex-wrap: wrap; margin: 16px 0; }
+.color-chip { width: 80px; text-align: center; }
+.color-swatch { height: 48px; border-radius: 8px; margin-bottom: 6px; }
+.color-label { font-size: 11px; color: var(--dim2); font-weight: 600; }
+.color-hex { font-size: 12px; color: var(--dim); }
+
+/* Spec table */
+.spec-table { width: 100%; border-collapse: collapse; margin: 16px 0; }
+.spec-table td { padding: 10px 14px; border-bottom: 1px solid var(--border); font-size: 14px; }
+.spec-table td:first-child { color: var(--dim2); font-weight: 600; font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; width: 180px; }
+.spec-table td:last-child { color: var(--white); }
+
+/* Checklist */
+.checklist { list-style: none; padding: 0; }
+.checklist li { display: flex; align-items: flex-start; gap: 12px; padding: 10px 0; border-bottom: 1px solid var(--border); font-size: 14px; color: var(--dim); }
+.check-box { width: 20px; height: 20px; border: 2px solid rgba(245,166,35,0.4); border-radius: 4px; flex-shrink: 0; margin-top: 1px; }
+
+/* Content box */
+.content-box { background: var(--bg2); border: 1px solid var(--border); border-radius: 10px; padding: 16px 20px; margin-top: 12px; }
+.content-box p { font-size: 13px; color: rgba(255,255,255,0.75); font-style: italic; margin-bottom: 0; }
+</style>
+</head>
+<body>
+
+<h1>Brief Diseñador Gráfico · EKIO Light</h1>
+<p class="subtitle">Keiretsu Valladolid · 7 Mayo 2026 · Versión 2 — Correcciones y mejoras visuales</p>
+
+<!-- ══════════ OVERVIEW ══════════ -->
+<h2>Resumen ejecutivo</h2>
+<p>La presentación base es buena. El presidente de Keiretsu la ha validado estructuralmente. Lo que necesita ahora son <strong>tres tipos de mejoras</strong>: corrección de errores, nuevas slides y refuerzo visual con fotografías reales de producto.</p>
+<p>Fecha límite: <strong>6 de mayo de 2026, mediodía.</strong> El evento es el 7 de mayo.</p>
+
+<div style="display:grid; grid-template-columns: repeat(3,1fr); gap:12px; margin:20px 0;">
+  <div class="slide-card critical" style="margin:0;">
+    <div style="font-size:28px; font-weight:800; color:var(--red);">3</div>
+    <div style="font-size:12px; color:var(--dim); font-weight:600; text-transform:uppercase; letter-spacing:0.1em; margin-top:4px;">Errores críticos a corregir</div>
+  </div>
+  <div class="slide-card new-slide" style="margin:0;">
+    <div style="font-size:28px; font-weight:800; color:#8899ff;">2</div>
+    <div style="font-size:12px; color:var(--dim); font-weight:600; text-transform:uppercase; letter-spacing:0.1em; margin-top:4px;">Nuevas slides a añadir</div>
+  </div>
+  <div class="slide-card" style="margin:0; border-color:rgba(0,201,167,0.25); background:rgba(0,201,167,0.03);">
+    <div style="font-size:28px; font-weight:800; color:var(--teal);">3+</div>
+    <div style="font-size:12px; color:var(--dim); font-weight:600; text-transform:uppercase; letter-spacing:0.1em; margin-top:4px;">Slides con mejora visual</div>
+  </div>
+</div>
+
+<!-- ══════════ ESPECIFICACIONES TÉCNICAS ══════════ -->
+<h2>Especificaciones técnicas</h2>
+<table class="spec-table">
+  <tr><td>Formato</td><td>16:9 · 1920 × 1080 px</td></tr>
+  <tr><td>Fondo</td><td>#07090F (negro azulado)</td></tr>
+  <tr><td>Color principal</td><td>#F5A623 (ámbar dorado)</td></tr>
+  <tr><td>Color secundario</td><td>#00C9A7 (teal/verde agua)</td></tr>
+  <tr><td>Tipografía</td><td>La que ya estás usando en la presentación actual</td></tr>
+  <tr><td>Entrega</td><td>PDF exportable + archivo editable (Canva, Keynote o PPT)</td></tr>
+  <tr><td>Número de slides final</td><td>15 slides (se añaden 2 nuevas: Proyecciones y Cierre actualizado)</td></tr>
+</table>
+
+<div class="palette">
+  <div class="color-chip"><div class="color-swatch" style="background:#07090f; border:1px solid rgba(255,255,255,0.1);"></div><div class="color-label">Fondo</div><div class="color-hex">#07090F</div></div>
+  <div class="color-chip"><div class="color-swatch" style="background:#f5a623;"></div><div class="color-label">Ámbar</div><div class="color-hex">#F5A623</div></div>
+  <div class="color-chip"><div class="color-swatch" style="background:#00c9a7;"></div><div class="color-label">Teal</div><div class="color-hex">#00C9A7</div></div>
+  <div class="color-chip"><div class="color-swatch" style="background:#0d1119; border:1px solid rgba(255,255,255,0.08);"></div><div class="color-label">Fondo 2</div><div class="color-hex">#0D1119</div></div>
+  <div class="color-chip"><div class="color-swatch" style="background:#ffffff;"></div><div class="color-label">Blanco</div><div class="color-hex">#FFFFFF</div></div>
+</div>
+
+<!-- ══════════ ERRORES CRÍTICOS ══════════ -->
+<h2>Errores críticos — corregir primero</h2>
+
+<div class="slide-card critical">
+  <div class="slide-num">Error 1 · Slide 4 — La Solución</div>
+  <div class="slide-title">Precio incorrecto en Deep 5</div>
+  <p>El precio actual de Deep 5 en la presentación es <strong>750€</strong>. El precio correcto es <strong>650€</strong>. Un inversor puede verificarlo en la web en segundos.</p>
+  <div class="delete-box"><p><span class="delete-text">Deep 5 — 750 €</span></p></div>
+  <div class="action-box"><p><strong>Cambiar a:</strong> Deep 5 — 650 €</p></div>
+</div>
+
+<div class="slide-card critical">
+  <div class="slide-num">Error 2 · Slide 6 — El Momento</div>
+  <div class="slide-title">Eliminar frase que destruye la credibilidad</div>
+  <p>Hay una frase que suena a startup pre-revenue cuando en realidad tenemos 1.800.000€ facturados. Hay que eliminarla completamente.</p>
+  <div class="delete-box"><p><span class="delete-text">"Esta inversión nos permitirá completar el MVP, lanzar al mercado y validar el modelo de negocio."</span></p></div>
+  <div class="action-box"><p>No sustituir por nada. Eliminar directamente. La slide queda más limpia sin ella.</p></div>
+</div>
+
+<div class="slide-card critical">
+  <div class="slide-num">Error 3 · Slide 13 — Inversión</div>
+  <div class="slide-title">Typo en la cifra de inversión</div>
+  <p>La cifra aparece como <strong>"350.ooo €"</strong> con letra 'o' minúscula en lugar de ceros. Un inversor lo nota.</p>
+  <div class="delete-box"><p><span class="delete-text">350.ooo €</span></p></div>
+  <div class="action-box"><p><strong>Cambiar a:</strong> 350.000 €</p></div>
+</div>
+
+<!-- ══════════ NUEVAS SLIDES ══════════ -->
+<h2>Nuevas slides a añadir</h2>
+
+<div class="slide-card new-slide">
+  <div class="slide-num">Nueva Slide · Posición 10 (entre Go To Market y Diferenciación)</div>
+  <div class="slide-title">PROYECCIONES 2026–2027</div>
+  <p>El presidente de Keiretsu pidió explícitamente previsiones financieras conectadas a las métricas. Esta slide es obligatoria.</p>
+
+  <h3>Contenido de la slide</h3>
+  <p><strong>Título principal:</strong> "Con la inversión, aceleramos lo que ya es rentable."</p>
+
+  <p style="margin-top:12px;"><strong>Cuatro tarjetas superiores (fila de 4):</strong></p>
+  <ul>
+    <li><strong>80.000€</strong> / etiqueta: Publicidad 2026 / descripción: Presupuesto dedicado a adquisición de clientes de panel.</li>
+    <li><strong>1.000</strong> / etiqueta: Nuevos clientes de panel / descripción: 80.000€ ÷ CAC 80€. Payback en la primera transacción.</li>
+    <li><strong>925€</strong> / etiqueta: Ticket medio / descripción: Mix: 60% Deep 5 · 30% Bio Regen · 10% Bio Spectrum.</li>
+    <li><strong>3× → 11×</strong> / etiqueta: GP / CAC por modelo / descripción: Retorno documentado en la primera venta.</li>
+  </ul>
+
+  <p style="margin-top:12px;"><strong>Dos tarjetas inferiores (fila de 2, color teal):</strong></p>
+  <ul>
+    <li><strong>1.200.000€</strong> / etiqueta: Proyección Ekio Light 2026 / descripción: Captación (925.000€) + cross-sell base EKIO sin coste adicional (351.000€). Conservador — sin B2B ni Sharpei.</li>
+    <li><strong>2.500.000€</strong> / etiqueta: Proyección Ekio Light 2027 / descripción: Amazon Alemania + norte Europa operativos · B2B canal establecido · recurrencia Sharpei.</li>
+  </ul>
+
+  <div class="action-box">
+    <p>Las tarjetas de proyecciones (1.200.000€ y 2.500.000€) deben ir en color <strong>teal (#00C9A7)</strong> para diferenciarlas visualmente de las métricas actuales en ámbar.</p>
+  </div>
+</div>
+
+<div class="slide-card new-slide">
+  <div class="slide-num">Nueva Slide · Posición 15 (última — sustituye el cierre actual)</div>
+  <div class="slide-title">CIERRE ACTUALIZADO con datos de contacto</div>
+  <p>El cierre actual no tiene información de contacto. Hay que añadirla para que el inversor sepa cómo encontrarnos después del pitch.</p>
+
+  <h3>Contenido de la slide</h3>
+  <div class="content-box">
+    <p>Tenemos producto. Ventas rentables. Propiedad intelectual registrada. Equipo técnico, operativo y clínico. Y más de 7.600 clientes que ya confían en el ecosistema EKIO.</p>
+  </div>
+  <div class="content-box" style="margin-top:8px;">
+    <p style="font-size:18px; font-weight:700; color:var(--amber); font-style:normal;">Toda la vida depende de la luz.</p>
+  </div>
+  <div class="content-box" style="margin-top:8px;">
+    <p>Pedimos capital para hacer una sola cosa: ir más rápido que el mercado.</p>
+  </div>
+
+  <p style="margin-top:16px;"><strong>Bloque de contacto (parte inferior, centrado):</strong></p>
+  <ul>
+    <li><strong>Nombre:</strong> Javier Andrés · CEO &amp; Fundador · Ekio Electrosmog</li>
+    <li><strong>Web:</strong> electrosmogespana.com</li>
+    <li><strong>Instagram:</strong> @ekioelectrosmog</li>
+  </ul>
+  <p style="margin-top:8px;">Tipografía del bloque de contacto: tamaño medio, color ámbar para el nombre, blanco para web e Instagram. No hace falta que ocupe mucho espacio — discreto pero legible.</p>
+
+  <div class="action-box">
+    <p>La frase <strong>"Toda la vida depende de la luz."</strong> debe ser el elemento tipográfico más grande de la slide, en ámbar. Es el cierre emocional del pitch.</p>
+  </div>
+</div>
+
+<!-- ══════════ MEJORAS VISUALES ══════════ -->
+<h2>Mejoras visuales — imágenes de producto</h2>
+<p>El presidente de Keiretsu ha revisado la presentación y dice literalmente: <em>"Falta ver el producto. Una imagen vale mucho más que cualquier explicación. Ya tenéis ese material en vuestra web."</em></p>
+<p>Las fotos están en <strong>electrosmogespana.com</strong>. Hay que descargarlas e integrarlas en las siguientes slides:</p>
+
+<div class="slide-card">
+  <div class="slide-num">Mejora Visual · Slide 2 — La Empresa</div>
+  <div class="slide-title">Añadir imagen de producto en primer impacto</div>
+  <p>Ahora mismo es solo texto y número. El inversor no sabe qué estáis vendiendo hasta la slide 4. Añadir una foto del Bio Spectrum encendido (panel con luz activa) en la columna derecha o como elemento de fondo con overlay oscuro.</p>
+  <div class="photo-box"><p><strong>Foto recomendada:</strong> Panel Bio Spectrum encendido, preferiblemente en entorno doméstico premium (sala, despacho) o con persona delante. Tono cálido de la luz encaja con el ámbar de la marca.</p></div>
+</div>
+
+<div class="slide-card">
+  <div class="slide-num">Mejora Visual · Slide 4 — La Solución</div>
+  <div class="slide-title">Una foto por modelo — obligatorio</div>
+  <p>Las tres tarjetas de producto son texto puro. Cada tarjeta necesita una imagen real del producto o del producto en uso. Sin esta mejora, el inversor no puede visualizar lo que está comprando.</p>
+  <div class="photo-box">
+    <p><strong>Bio Spectrum:</strong> Panel encendido mostrando el espectro de luz completo, o persona en sesión de bienestar frente al panel.<br><br>
+    <strong>Bio Regen:</strong> Deportista usando el panel post-entrenamiento o en recuperación.<br><br>
+    <strong>Deep 5:</strong> Uso localizado — persona con el panel aplicado en espalda, hombro o rodilla.</p>
+  </div>
+  <p style="margin-top:12px;">Si no hay foto exacta para cada modelo, usar una foto de producto frontal (el panel encendido) para cada uno. Lo importante es que se vea físicamente.</p>
+</div>
+
+<div class="slide-card">
+  <div class="slide-num">Mejora Visual · Slide 6 — El Momento</div>
+  <div class="slide-title">Añadir imagen de deporte de élite o producto en entorno premium</div>
+  <p>Las pills de texto (NBA, Premier League, Cristiano Ronaldo) suenan a lista. Una foto de un vestuario de élite, un estadio, o el producto en un entorno deportivo profesional lo convierte en evidencia visual.</p>
+  <div class="photo-box"><p><strong>Opción A:</strong> Foto de instalación deportiva o sala de recuperación de élite con luz roja/infrarroja.<br><strong>Opción B:</strong> Panel Ekio encendido en un entorno que transmita rendimiento y tecnología.</p></div>
+</div>
+
+<!-- ══════════ CHECKLIST FINAL ══════════ -->
+<h2>Checklist de entrega</h2>
+<ul class="checklist">
+  <li><div class="check-box"></div><span><span class="badge badge-critical">Crítico</span> Deep 5: cambiar 750€ → <strong>650€</strong> en slide 4</span></li>
+  <li><div class="check-box"></div><span><span class="badge badge-critical">Crítico</span> Eliminar frase del MVP en slide 6</span></li>
+  <li><div class="check-box"></div><span><span class="badge badge-critical">Crítico</span> Corregir typo "350.ooo" → <strong>350.000</strong> en slide 13</span></li>
+  <li><div class="check-box"></div><span><span class="badge badge-new">Nueva</span> Añadir slide de Proyecciones 2026–2027 (posición 10)</span></li>
+  <li><div class="check-box"></div><span><span class="badge badge-new">Nueva</span> Actualizar slide Cierre con web + Instagram + nombre (posición 15)</span></li>
+  <li><div class="check-box"></div><span><span class="badge badge-high">Alta</span> Añadir foto de producto encendido en slide 2 (La Empresa)</span></li>
+  <li><div class="check-box"></div><span><span class="badge badge-high">Alta</span> Añadir foto real por modelo en slide 4 (La Solución)</span></li>
+  <li><div class="check-box"></div><span><span class="badge badge-medium">Media</span> Añadir imagen de entorno élite en slide 6 (El Momento)</span></li>
+  <li><div class="check-box"></div><span><span class="badge badge-medium">Media</span> Verificar que "7.600 clientes" es consistente en todas las slides</span></li>
+  <li><div class="check-box"></div><span><span class="badge badge-medium">Media</span> Exportar PDF final en alta calidad (mínimo 150 dpi)</span></li>
+</ul>
+
+<!-- ══════════ ESTRUCTURA FINAL ══════════ -->
+<h2>Estructura final de la presentación (15 slides)</h2>
+<div style="display:grid; grid-template-columns: 1fr 1fr; gap:8px; margin-top:16px;">
+  <div class="slide-card" style="padding:14px 18px; margin:0;"><div class="slide-num">Slide 1</div><div style="font-size:14px; font-weight:700; color:var(--white);">Portada</div><div style="font-size:12px; color:var(--dim);">Sin cambios</div></div>
+  <div class="slide-card" style="padding:14px 18px; margin:0; border-color:rgba(0,201,167,0.2);"><div class="slide-num">Slide 2</div><div style="font-size:14px; font-weight:700; color:var(--white);">La Empresa</div><div style="font-size:12px; color:var(--teal);">+ Foto producto</div></div>
+  <div class="slide-card" style="padding:14px 18px; margin:0;"><div class="slide-num">Slide 3</div><div style="font-size:14px; font-weight:700; color:var(--white);">El Problema</div><div style="font-size:12px; color:var(--dim);">Sin cambios</div></div>
+  <div class="slide-card" style="padding:14px 18px; margin:0; border-color:rgba(255,77,77,0.2);"><div class="slide-num">Slide 4</div><div style="font-size:14px; font-weight:700; color:var(--white);">La Solución</div><div style="font-size:12px; color:var(--red);">Corregir Deep 5 (750→650€) + Fotos</div></div>
+  <div class="slide-card" style="padding:14px 18px; margin:0;"><div class="slide-num">Slide 5</div><div style="font-size:14px; font-weight:700; color:var(--white);">Propiedad Intelectual</div><div style="font-size:12px; color:var(--dim);">Sin cambios</div></div>
+  <div class="slide-card" style="padding:14px 18px; margin:0; border-color:rgba(255,77,77,0.2);"><div class="slide-num">Slide 6</div><div style="font-size:14px; font-weight:700; color:var(--white);">El Momento</div><div style="font-size:12px; color:var(--red);">Eliminar frase MVP + Foto élite</div></div>
+  <div class="slide-card" style="padding:14px 18px; margin:0;"><div class="slide-num">Slide 7</div><div style="font-size:14px; font-weight:700; color:var(--white);">Tracción</div><div style="font-size:12px; color:var(--dim);">Sin cambios</div></div>
+  <div class="slide-card" style="padding:14px 18px; margin:0;"><div class="slide-num">Slide 8</div><div style="font-size:14px; font-weight:700; color:var(--white);">Salud Financiera</div><div style="font-size:12px; color:var(--dim);">Sin cambios</div></div>
+  <div class="slide-card" style="padding:14px 18px; margin:0;"><div class="slide-num">Slide 9</div><div style="font-size:14px; font-weight:700; color:var(--white);">Go To Market</div><div style="font-size:12px; color:var(--dim);">Sin cambios</div></div>
+  <div class="slide-card new-slide" style="padding:14px 18px; margin:0;"><div class="slide-num">Slide 10</div><div style="font-size:14px; font-weight:700; color:#8899ff;">NUEVA · Proyecciones 2026–2027</div><div style="font-size:12px; color:#8899ff;">Crear desde cero</div></div>
+  <div class="slide-card" style="padding:14px 18px; margin:0;"><div class="slide-num">Slide 11</div><div style="font-size:14px; font-weight:700; color:var(--white);">Diferenciación</div><div style="font-size:12px; color:var(--dim);">Sin cambios</div></div>
+  <div class="slide-card" style="padding:14px 18px; margin:0;"><div class="slide-num">Slide 12</div><div style="font-size:14px; font-weight:700; color:var(--white);">Equipo</div><div style="font-size:12px; color:var(--dim);">Sin cambios</div></div>
+  <div class="slide-card" style="padding:14px 18px; margin:0;"><div class="slide-num">Slide 13</div><div style="font-size:14px; font-weight:700; color:var(--white);">Mercado</div><div style="font-size:12px; color:var(--dim);">Sin cambios</div></div>
+  <div class="slide-card" style="padding:14px 18px; margin:0; border-color:rgba(255,77,77,0.2);"><div class="slide-num">Slide 14</div><div style="font-size:14px; font-weight:700; color:var(--white);">Inversión</div><div style="font-size:12px; color:var(--red);">Corregir typo 350.ooo → 350.000</div></div>
+  <div class="slide-card new-slide" style="padding:14px 18px; margin:0;"><div class="slide-num">Slide 15</div><div style="font-size:14px; font-weight:700; color:#8899ff;">Cierre actualizado</div><div style="font-size:12px; color:#8899ff;">+ Web + Instagram + Nombre</div></div>
+</div>
+
+<!-- ══════════ NOTA FINAL ══════════ -->
+<div style="margin-top:48px; padding:24px 28px; background:rgba(245,166,35,0.06); border:1px solid rgba(245,166,35,0.2); border-radius:14px;">
+  <p style="font-size:15px; color:var(--white); font-weight:700; margin-bottom:8px;">Nota del CEO para el diseñador</p>
+  <p style="color:rgba(255,255,255,0.75);">El 7 de mayo llevaré al evento el Bio Spectrum y el Bio Regen físicamente. Los inversores podrán verlos en directo después del pitch. Por eso es especialmente importante que las fotos de estos dos modelos en la slide 4 sean claras y atractivas — el inversor verá primero la imagen en pantalla y luego el producto real.</p>
+</div>
+
+<div style="margin-top:16px; padding:16px 20px; background:var(--card); border:1px solid var(--border); border-radius:10px; text-align:center;">
+  <p style="color:var(--dim2); font-size:12px; margin-bottom:0;">Keiretsu Valladolid · 7 Mayo 2026 · EKIO Electrosmog · electrosmogespana.com</p>
+</div>
+
+</body>
+</html>
