@@ -162,6 +162,16 @@ def main():
             BASE / "gsc-exports" / "MIGRATION_ANALYSIS.pdf",
             "Análisis comparativo GSC PRE vs POST migración | EKIO",
         ),
+        (
+            BASE / "entregable-tecnico" / "INSTRUCCIONES_TECNICO.md",
+            BASE / "entregable-tecnico" / "INSTRUCCIONES_TECNICO.pdf",
+            "Instrucciones técnico web — SEO migración WP→Shopify | EKIO",
+        ),
+        (
+            BASE / "entregable-tecnico" / "CHECKLIST_TECNICO.md",
+            BASE / "entregable-tecnico" / "CHECKLIST_TECNICO.pdf",
+            "Checklist ejecución técnico — SEO migración | EKIO",
+        ),
     ]
     for md, pdf, title in targets:
         if not md.exists():
