@@ -4,3 +4,9 @@ mcp-servers/manychat/node_modules/
 mcp-servers/meta-ads/node_modules/
 mcp-servers/meta-ads/package-lock.json
 mcp-servers/meta-ads/venv/
+
+# SEO / Google Search Console — credenciales privadas
+seo/credentials.json
+seo/token.pickle
+seo/gsc-exports/*.csv
+seo/__pycache__/

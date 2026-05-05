@@ -75,6 +75,40 @@ Medición y tracking SEO + GEO. **Actívala para definir KPIs y revisar resultad
 
 ---
 
+## Acceso a datos reales — Google Search Console
+
+Tienes un script Python que descarga datos frescos de GSC vía API: `seo/gsc_fetch.py`.
+
+**Cuándo usarlo**: siempre que el usuario pida auditar SEO, encontrar oportunidades, medir rendimiento, hacer keyword research o cualquier análisis basado en datos reales de búsqueda.
+
+**Cómo usarlo** (ejecuta vía Bash):
+```bash
+# Últimos 28 días, queries + páginas
+python3 seo/gsc_fetch.py --site https://ekio.es/ --days 28 --dimension query,page
+
+# Solo queries (keyword research)
+python3 seo/gsc_fetch.py --site https://ekio.es/ --days 90 --dimension query --rows 5000
+
+# Por página (oportunidades on-page)
+python3 seo/gsc_fetch.py --site https://ekio.es/ --days 28 --dimension page
+
+# Evolución temporal
+python3 seo/gsc_fetch.py --site https://ekio.es/ --days 90 --dimension date
+```
+
+Los CSVs aparecen en `seo/gsc-exports/` con nombre `gsc_<timestamp>_<rango>_<dimensiones>.csv`. Léelos con la herramienta Read y analízalos.
+
+**Análisis estándar a entregar**:
+1. **Quick wins** — keywords con CTR < 2% en posiciones 4-15 (ya rankeas, falta CTR)
+2. **Underperformers** — páginas con muchas impresiones pero CTR < 1% (mejorar title/meta)
+3. **Hidden gems** — keywords en posiciones 11-20 con impresiones decentes (un empujón → primera página)
+4. **Top performers** — qué funciona ya (replicar patrón en nuevas páginas)
+5. **Plan de acción** — 3-5 acciones priorizadas por impacto
+
+> Si el script falla con `No encuentro credentials.json` o `invalid_grant`, indícale al usuario que revise `seo/README.md` (setup OAuth).
+
+---
+
 ## Modo de operación
 
 | Lo que pide el usuario | Skill |
