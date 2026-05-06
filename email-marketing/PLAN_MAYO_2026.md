@@ -2,9 +2,34 @@
 **EKIO Electrosmog España**
 
 - **Periodo:** 7-31 mayo 2026
-- **Envíos totales:** 11
-- **Fecha elaboración:** 6 mayo 2026
+- **Envíos totales:** 16 (4/semana, escenario híbrido C+ aprobado por CEO)
+- **Distribución por newsletter:** 4 EPI + 8 FJA + 4 EKO
+- **Fecha elaboración:** 6 mayo 2026 · Actualizado a 16 envíos: 6 mayo 2026
 - **3 newsletters por tono:** El Precio Invisible (EPI) · Javier Andrés (FJA) · Ekio Electrosmog (EKO)
+
+---
+
+## DECISIÓN ESTRATÉGICA — Frecuencia 16/mes (debate documentado)
+
+Tras consulta a 3 agentes especializados (Klaviyo técnico, Ecommerce, Content):
+
+- **Propuesta original CEO:** 5 envíos/sem = 20/mes
+- **Propuesta agentes Klaviyo + Content:** C — 15-16/mes (3-4/sem)
+- **Propuesta Ecommerce:** B condicionada a segmentación de engaged
+- **Decisión final aprobada:** Híbrido C+ → 16/mes con reparto 1 EPI + 2 FJA + 1 EKO/sem
+
+**Razón:** 2 EPI/sem destruye el rigor científico del Precio Invisible (eslabón más débil); el FJA (OR 49-59%) es el activo de mayor palanca y tolera 2/sem con sistema de producción basado en audio del fundador; el EKO no se envía a toda la lista, solo a engaged ≥2 aperturas/30d.
+
+**KPIs de freno (paramos y revisamos):**
+- OR FJA <40% durante 2 semanas seguidas
+- Unsubscribe rate >0,5% en cualquier semana
+- Spam complaint rate >0,08% (Gmail Postmaster Tools)
+
+**Condiciones técnicas innegociables (configurar HOY en Klaviyo):**
+1. Activar Smart Sending a 48h en las 3 newsletters.
+2. Crear segmento "Engaged 30d" (≥2 aperturas últimos 30 días) — único destinatario de EKO.
+3. Crear segmento de supresión "Recibió email últimas 48h" para excluir en cada campaña.
+4. Sistema FJA: Javier graba audio 3-5 min/semana → de ese audio se extraen 2 FJA. 15 min/sem de su tiempo.
 
 ---
 
@@ -30,34 +55,58 @@
 
 Cuatro presiones biológicas convergen en mayo: tiroides + cambio térmico, melatonina + noches largas, mitocondria pidiendo luz solar real, niños perdiendo calidad de sueño antes de fin de curso. El electrosmog amplifica todas. EKIO tiene respuesta para cada una.
 
-| Semana | Fechas | Foco |
-|---|---|---|
-| 1 | 7-13 mayo | La amenaza silenciosa (educación con gancho emocional) |
-| 2 | 14-20 mayo | La historia personal (Javier humaniza el problema) |
-| 3 | 21-27 mayo | La ciencia llama a la puerta (Día Mundial Tiroides 25 mayo + venta Ekio Light) |
-| 4 | 28-31 mayo | Cierre con urgencia real (mujer + metabolismo + verano) |
+| Semana | Fechas | Envíos | Foco |
+|---|---|---|---|
+| 1 | 7-10 may | 4 | Apertura: ciencia tiroides + voz fundador + venta engaged |
+| 2 | 11-17 may | 3 | Storytelling fundador + descanso de EKO |
+| 3 | 18-24 may | 4 | Niños/sueño + Ekio Light |
+| 4 | 25-31 may | 5 | Día Mundial Tiroides + cierre de mes |
 
 ---
 
-## 2. CALENDARIO MAESTRO
+## 2. CALENDARIO MAESTRO (16 envíos)
 
-| # | Fecha | Día | Hora | News | Asunto principal | A/B 1 | A/B 2 | Producto | CTA | Segmento Klaviyo |
-|---|---|---|---|---|---|---|---|---|---|---|
-| 1 | 7 may | Jue | 8:00 | EPI | Tu tiroides no sabe que mayo ha llegado | El órgano que nadie vigila (pero que el electrosmog sí) | Por qué tu cuerpo se desregula en mayo (y no es el cambio de hora) | Spiro Square X | Ver cómo proteger tu tiroides | Lista completa - excluir compradores 30d |
-| 2 | 12 may | Mar | 7:30 | FJA | Lo primero que hice cuando supe lo del electrosmog | Hay algo que sigo haciendo cada noche desde 2011 | El consejo que le daría a mi yo de hace 15 años | SpiroDisc (vía Guía Sueño) | Descarga la Guía del Sueño | Lista completa - excluir Welcome activos |
-| 3 | 14 may | Jue | 8:15 | EKO | El Spiro Square X ya está en casa de 847 personas. ¿En la tuya? | Esto cambia tu casa aunque no lo veas | Por qué el Spiro Square X es diferente a todo lo que has probado | Spiro Square X | Quiero el Spiro Square X | Abrieron EPI 7 may + no compradores |
-| 4 | 19 may | Mar | 7:00 | EPI | ¿A qué distancia duerme tu hijo del router? | El problema silencioso del fin de curso | Selectividad, concentración y campos electromagnéticos | SpiroDisc (Pack Hogar) | Protege su habitación | Padres + lista completa |
-| 5 | 21 may | Jue | 8:00 | FJA | Llevo 15 años durmiendo sin luz azul. Esto es lo que noto | La decisión más rara que tomo cada noche | Me llaman raro. Pero duermo mejor que nadie | Ekio Light | Ver Ekio Light | Lista completa - excluir compradores Ekio Light |
-| 6 | 23 may | Sáb | 9:00 | EKO | Ekio Light. Última oportunidad antes del verano | 48 horas para decidir | El panel de luz que cambia cómo te despiertas | Ekio Light | Quiero el Ekio Light | Abrieron FJA 21 may + no compradores |
-| 7 | 25 may | Lun | 8:00 | EPI ⭐ | Tu tiroides y el WiFi tienen algo en común (y no es bueno) | Tiroides y 5G: lo que la OMS no te cuenta todavía | En el Día Mundial de la Tiroides, una pregunta que nadie hace | Spiro Square X | Quiero saber cómo proteger mi tiroides | Lista completa |
-| 8 | 27 may | Mié | 7:30 | FJA ⭐ | Mi madre tiene hipotiroidismo. Yo tengo esto en mi salón | Cuando la ciencia te obliga a actuar | Nadie en mi familia lo sabe todavía | Spiro Square X | Ver el Spiro Square X | Lista completa - excluir compradores Square X |
-| 9 | 28 may | Jue | 8:00 | EKO | Por el Día de la Salud de la Mujer: el electrosmog que afecta a tu ciclo | Hormones + WiFi + cansancio crónico | Para las mujeres que ya saben que algo no cuadra | Spiro Square X / Pack Hogar | Quiero protegerme | Mujeres + lista completa |
-| 10 | 30 may | Sáb | 8:30 | EPI | La mitocondria pide lo mismo que tu piel en verano | Por qué el verano es la mejor época para la fotobiomodulación | Tu cuerpo tiene un panel solar. ¿Lo estás usando? | Ekio Light | Descubre Ekio Light | Lista completa - excluir compradores Ekio Light |
-| 11 | 31 may | Dom | 9:00 | EKO ⭐ | Hoy termina mayo. Y esta oferta también | Stroom + SpiroDisc: el combo que nadie combina | El upsell más lógico del mes | SpiroDisc + Stroom Master | Quiero el combo antes de que expire | Compradores SpiroDisc sin Stroom + lista general |
+✅ = email ya escrito · ⭐ = email ancla del plan inicial · ✏️ = pendiente de redactar
 
-⭐ = email ancla con copy completo (apartado 3).
+### Semana 1 (7-10 mayo) — 4 envíos
 
-**Distribución:** EPI 4 · FJA 3 · EKO 4. Ningún perfil recibe más de 2 emails/semana.
+| # | Fecha | Día | Hora | News | Asunto principal | Producto / CTA | Segmento Klaviyo | Estado |
+|---|---|---|---|---|---|---|---|---|
+| 1 | 7 may | Jue | 8:00 | EPI | Tu tiroides no sabe que mayo ha llegado | Spiro Square X / Quiero proteger mi tiroides | Lista completa - excluir compradores 30d | ✅ |
+| 2 | 8 may | Vie | 7:30 | FJA | Lo que veo cuando entro en casa de alguien | Guía del Sueño (lead magnet) | Lista completa - excluir Welcome activos | ✅ |
+| 3 | 9 may | Sáb | 9:00 | EKO | El Spiro Square X ya está en casa de 847 personas. ¿En la tuya todavía no? | Spiro Square X / envío gratis fin de semana | Engaged ≥2 aperturas 30d - excluir compradores Square X 60d | ✅ |
+| 4 | 10 may | Dom | 8:30 | FJA | Lo que me preguntó alguien esta semana | Sin CTA / responder al email | Lista completa - excluir Welcome activos | ✅ |
+
+### Semana 2 (11-17 mayo) — 3 envíos
+
+| # | Fecha | Día | Hora | News | Asunto principal | Producto / CTA | Segmento Klaviyo | Estado |
+|---|---|---|---|---|---|---|---|---|
+| 5 | 12 may | Mar | 7:30 | FJA | Lo primero que hice cuando supe lo del electrosmog | Guía del Sueño (lead magnet) | Lista completa - excluir Welcome activos | ✏️ |
+| 6 | 13 may | Mié | 8:00 | EPI | (tema fresco — no tiroides; opciones: melatonina, contadores inteligentes, EHS) | Spiro Square X o SpiroDisc | Lista completa - excluir compradores 30d | ✏️ |
+| 7 | 16 may | Sáb | 8:00 | FJA | (historia personal Javier — vida cotidiana, observación) | CTA suave o reply al email | Lista completa | ✏️ |
+
+### Semana 3 (18-24 mayo) — 4 envíos
+
+| # | Fecha | Día | Hora | News | Asunto principal | Producto / CTA | Segmento Klaviyo | Estado |
+|---|---|---|---|---|---|---|---|---|
+| 8 | 19 may | Mar | 7:00 | EPI | ¿A qué distancia duerme tu hijo del router? | SpiroDisc / Pack Hogar | Padres + lista completa | ✏️ |
+| 9 | 21 may | Jue | 8:00 | FJA | Llevo 15 años durmiendo sin luz azul. Esto es lo que noto | Ekio Light | Lista completa - excluir compradores Ekio Light | ✏️ |
+| 10 | 23 may | Vie | 9:00 | EKO | Ekio Light. Última oportunidad antes del verano | Ekio Light | Engaged ≥2 aperturas 30d + abrieron FJA 21 may | ✏️ |
+| 11 | 24 may | Dom | 8:30 | FJA | (preludio al ancla del 25 — tono reflexivo) | Sin CTA / siembra Día Mundial Tiroides | Lista completa | ✏️ |
+
+### Semana 4 (25-31 mayo) — 5 envíos
+
+| # | Fecha | Día | Hora | News | Asunto principal | Producto / CTA | Segmento Klaviyo | Estado |
+|---|---|---|---|---|---|---|---|---|
+| 12 | 25 may | Lun | 8:00 | EPI ⭐ | Tu tiroides y el WiFi tienen algo en común (y no es bueno) | Spiro Square X | Lista completa | ⭐ (en plan) |
+| 13 | 27 may | Mié | 7:30 | FJA ⭐ | Mi madre tiene hipotiroidismo. Yo tengo esto en mi salón | Spiro Square X | Lista completa - excluir compradores Square X | ⭐ (en plan) |
+| 14 | 28 may | Jue | 8:00 | EKO | Por el Día de la Salud de la Mujer: el electrosmog que afecta a tu ciclo | Spiro Square X / Pack Hogar | Engaged ≥2 aperturas 30d (priorizar mujeres) | ✏️ |
+| 15 | 30 may | Sáb | 8:30 | FJA | (historia de cierre del mes — qué he aprendido en mayo) | Sin CTA / reply | Lista completa | ✏️ |
+| 16 | 31 may | Dom | 9:00 | EKO ⭐ | Hoy termina mayo. Y esta oferta también | SpiroDisc + Stroom Master | Compradores SpiroDisc sin Stroom + engaged 30d | ⭐ (en plan) |
+
+**Distribución:** EPI 4 · FJA 8 · EKO 4. Ningún perfil engaged recibe más de 4 emails/semana (Smart Sending 48h activo).
+
+**Nota anclas:** los 3 emails ancla del plan original (#12, #13, #16) están escritos en el apartado 3.
 
 ---
 
