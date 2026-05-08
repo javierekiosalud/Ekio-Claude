@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Brief Diseñador — Landing Lead Magnet | EKIO Electrosmog</title>
+<title>Brief Diseñador — Landing Lead Magnet (v2 simple) | EKIO</title>
 <style>
   :root {
     --bg: #07090F;
@@ -12,7 +12,6 @@
     --green: #00C9A7;
     --orange: #F5A623;
     --blue: #8899FF;
-    --red: #FF4D4D;
     --text: #FFFFFF;
     --text2: rgba(255,255,255,0.7);
     --text3: rgba(255,255,255,0.5);
@@ -26,7 +25,7 @@
     line-height: 1.6;
     padding: 40px 20px;
   }
-  .container { max-width: 980px; margin: 0 auto; }
+  .container { max-width: 880px; margin: 0 auto; }
   header {
     border-bottom: 1px solid var(--border);
     padding-bottom: 30px;
@@ -45,7 +44,7 @@
     margin-bottom: 16px;
   }
   h1 {
-    font-size: 42px;
+    font-size: 38px;
     font-weight: 700;
     line-height: 1.15;
     margin-bottom: 14px;
@@ -54,44 +53,37 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
   }
-  .subtitle { color: var(--text2); font-size: 18px; max-width: 720px; }
+  .subtitle { color: var(--text2); font-size: 17px; max-width: 700px; }
   .meta {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    margin-top: 24px;
-    padding-top: 24px;
+    margin-top: 22px;
+    padding-top: 22px;
     border-top: 1px solid var(--border);
-    font-size: 14px;
+    font-size: 13px;
     color: var(--text3);
   }
   .meta strong { color: var(--text); font-weight: 500; }
   h2 {
-    font-size: 28px;
+    font-size: 26px;
     font-weight: 700;
-    margin-top: 60px;
-    margin-bottom: 20px;
+    margin-top: 50px;
+    margin-bottom: 18px;
     color: var(--green);
     border-bottom: 2px solid var(--green);
     padding-bottom: 8px;
   }
   h3 {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
-    margin-top: 32px;
-    margin-bottom: 14px;
+    margin-top: 28px;
+    margin-bottom: 12px;
     color: var(--text);
   }
-  h4 {
-    font-size: 16px;
-    font-weight: 600;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    color: var(--orange);
-  }
-  p { margin-bottom: 14px; color: var(--text2); }
-  ul, ol { margin-left: 22px; margin-bottom: 16px; }
-  li { margin-bottom: 8px; color: var(--text2); }
+  p { margin-bottom: 12px; color: var(--text2); }
+  ul, ol { margin-left: 22px; margin-bottom: 14px; }
+  li { margin-bottom: 6px; color: var(--text2); }
   strong { color: var(--text); font-weight: 600; }
   code {
     background: var(--card);
@@ -104,7 +96,7 @@
   table {
     width: 100%;
     border-collapse: collapse;
-    margin: 20px 0;
+    margin: 18px 0;
     background: var(--card);
     border-radius: 8px;
     overflow: hidden;
@@ -127,151 +119,173 @@
   td { color: var(--text2); }
   tr:last-child td { border-bottom: none; }
 
-  .summary-box {
-    background: linear-gradient(135deg, rgba(0,201,167,0.08), rgba(136,153,255,0.04));
+  .principle-box {
+    background: linear-gradient(135deg, rgba(0,201,167,0.10), rgba(245,166,35,0.04));
     border-left: 4px solid var(--green);
-    padding: 24px 28px;
+    padding: 22px 26px;
     border-radius: 8px;
-    margin: 24px 0;
+    margin: 22px 0;
   }
-  .summary-box p { color: var(--text); }
-
-  .kpi-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 16px;
-    margin: 24px 0;
-  }
-  .kpi {
-    background: var(--card);
-    padding: 20px;
-    border-radius: 8px;
-    border: 1px solid var(--border);
-  }
-  .kpi-value {
-    font-size: 32px;
-    font-weight: 700;
-    color: var(--green);
-    display: block;
-    margin-bottom: 6px;
-  }
-  .kpi-label { font-size: 13px; color: var(--text3); }
+  .principle-box p { color: var(--text); margin-bottom: 8px; }
+  .principle-box p:last-child { margin-bottom: 0; }
 
   .palette-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
-    gap: 12px;
-    margin: 20px 0;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 10px;
+    margin: 16px 0;
   }
   .swatch {
     background: var(--card);
-    padding: 12px;
+    padding: 10px;
     border-radius: 8px;
     border: 1px solid var(--border);
     text-align: center;
     font-size: 11px;
   }
   .swatch-color {
-    height: 60px;
+    height: 50px;
     border-radius: 6px;
-    margin-bottom: 8px;
+    margin-bottom: 6px;
     border: 1px solid var(--border);
   }
-  .swatch-name { color: var(--text); font-weight: 600; margin-bottom: 2px; }
-  .swatch-hex { color: var(--text3); font-family: 'SF Mono', monospace; }
-
-  .wireframe {
-    background: var(--card);
-    border: 1px dashed rgba(0,201,167,0.3);
-    border-radius: 8px;
-    padding: 20px;
-    margin: 16px 0;
-    font-family: 'SF Mono', Monaco, monospace;
-    font-size: 12px;
-    color: var(--text2);
-    white-space: pre;
-    overflow-x: auto;
-    line-height: 1.4;
-  }
+  .swatch-name { color: var(--text); font-weight: 600; }
+  .swatch-hex { color: var(--text3); font-family: 'SF Mono', monospace; font-size: 10px; }
 
   .copy-block {
     background: var(--bg2);
     border-left: 3px solid var(--green);
-    padding: 18px 22px;
+    padding: 16px 20px;
     border-radius: 4px;
-    margin: 16px 0;
+    margin: 14px 0;
   }
   .copy-block .label {
     font-size: 11px;
     text-transform: uppercase;
     color: var(--green);
     letter-spacing: 1px;
-    margin-bottom: 8px;
+    margin-bottom: 6px;
     display: block;
   }
-  .copy-block p { margin-bottom: 8px; color: var(--text); }
+  .copy-block p { margin-bottom: 6px; color: var(--text); }
   .copy-block p:last-child { margin-bottom: 0; }
 
-  .testimonial-block {
-    background: var(--card);
-    padding: 18px 22px;
-    border-radius: 8px;
-    margin: 12px 0;
-    border-left: 3px solid var(--orange);
-    font-style: italic;
+  /* MOCKUP HERO en vivo */
+  .hero-mockup {
+    background: linear-gradient(180deg, #07090F 0%, #0D1119 100%);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 32px 24px;
+    margin: 24px 0;
+    max-width: 380px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+  .hero-mockup::before {
+    content: "📱 Mockup móvil hero (única pantalla visible al cargar)";
+    position: absolute;
+    top: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--orange);
+    color: #07090F;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 4px 12px;
+    border-radius: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    white-space: nowrap;
+  }
+  .hero-logo {
+    text-align: center;
+    margin-bottom: 28px;
     color: var(--text);
-  }
-  .testimonial-block .author {
-    display: block;
-    margin-top: 10px;
-    font-style: normal;
-    color: var(--text3);
-    font-size: 13px;
-  }
-
-  .compare-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 12px;
-    margin: 20px 0;
-  }
-  .compare-no, .compare-yes {
-    background: var(--card);
-    padding: 16px;
-    border-radius: 8px;
+    font-weight: 800;
+    letter-spacing: 4px;
     font-size: 14px;
   }
-  .compare-no { border-left: 3px solid var(--red); }
-  .compare-yes { border-left: 3px solid var(--green); }
-  .compare-no::before { content: "❌ NO es"; display: block; color: var(--red); font-weight: 600; margin-bottom: 8px; font-size: 11px; letter-spacing: 1px; text-transform: uppercase; }
-  .compare-yes::before { content: "✅ SÍ es"; display: block; color: var(--green); font-weight: 600; margin-bottom: 8px; font-size: 11px; letter-spacing: 1px; text-transform: uppercase; }
+  .hero-h1 {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 12px;
+    color: var(--text);
+    -webkit-text-fill-color: var(--text);
+  }
+  .hero-sub {
+    font-size: 15px;
+    color: var(--text2);
+    text-align: center;
+    margin-bottom: 22px;
+    line-height: 1.4;
+  }
+  .hero-pdf {
+    width: 100px;
+    height: 130px;
+    background: linear-gradient(135deg, #1a2030 0%, #0d1119 100%);
+    border-radius: 4px;
+    margin: 0 auto 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--green);
+    font-size: 32px;
+    box-shadow: 0 12px 30px rgba(0,201,167,0.15);
+    border: 1px solid rgba(0,201,167,0.3);
+  }
+  .hero-input {
+    background: #141A26;
+    border: 1px solid rgba(255,255,255,0.1);
+    color: var(--text3);
+    padding: 14px 16px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  .hero-cta {
+    background: var(--green);
+    color: #07090F;
+    text-align: center;
+    padding: 16px;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: 4px;
+    margin-bottom: 12px;
+  }
+  .hero-micro {
+    font-size: 11px;
+    color: var(--text3);
+    text-align: center;
+    line-height: 1.4;
+  }
 
   blockquote {
     border-left: 3px solid var(--blue);
-    padding: 12px 20px;
-    margin: 16px 0;
+    padding: 10px 18px;
+    margin: 14px 0;
     background: rgba(136,153,255,0.05);
     color: var(--text);
     font-style: italic;
   }
 
-  .checklist li {
-    list-style: none;
-    margin-left: 0;
-    padding-left: 28px;
-    position: relative;
+  .removed-list {
+    background: rgba(255,77,77,0.05);
+    border: 1px solid rgba(255,77,77,0.2);
+    padding: 16px 22px;
+    border-radius: 8px;
+    margin: 16px 0;
   }
-  .checklist li::before {
-    content: "☐";
-    position: absolute;
-    left: 0;
-    color: var(--green);
-    font-size: 18px;
-  }
+  .removed-list h4 { color: #ff8888; margin-bottom: 8px; font-size: 14px; }
+  .removed-list ul { margin-bottom: 0; }
+  .removed-list li { color: var(--text2); font-size: 13px; }
 
   .footer-note {
-    margin-top: 60px;
-    padding-top: 24px;
+    margin-top: 50px;
+    padding-top: 22px;
     border-top: 1px solid var(--border);
     color: var(--text3);
     font-size: 13px;
@@ -281,7 +295,8 @@
   @media print {
     body { background: white; color: black; padding: 20px; }
     h1, h2, h3 { color: black !important; -webkit-text-fill-color: black !important; }
-    .summary-box, .kpi, .swatch, .wireframe, .copy-block, .testimonial-block, .compare-no, .compare-yes, table { background: #f9f9f9; color: black; border-color: #ddd; }
+    .principle-box, .swatch, .copy-block, .removed-list, table, .hero-mockup { background: #f9f9f9; color: black; border-color: #ddd; }
+    .hero-h1 { color: black !important; -webkit-text-fill-color: black !important; }
     th { background: #eee; color: #333; }
     td, p, li { color: #333; }
   }
@@ -289,7 +304,6 @@
   @media (max-width: 720px) {
     h1 { font-size: 28px; }
     h2 { font-size: 22px; }
-    .compare-grid { grid-template-columns: 1fr; }
     table { font-size: 12px; }
     th, td { padding: 8px; }
   }
@@ -299,460 +313,233 @@
 <div class="container">
 
 <header>
-  <span class="badge">Brief de Diseño · Landing Lead Magnet</span>
-  <h1>Manual de Higiene Electromagnética</h1>
-  <p class="subtitle">Rediseño de la landing de captación con tráfico Meta Ads para entregar el PDF gratuito de 62 páginas. Mobile-first, conversión objetivo 30-40%.</p>
+  <span class="badge">Brief de Diseño · v2 · MINIMALISTA</span>
+  <h1>Landing Manual de Higiene Electromagnética</h1>
+  <p class="subtitle">Versión simplificada: hero ultra-limpio donde el formulario es lo primero que se ve. Nada que distraiga del CTA.</p>
   <div class="meta">
     <span><strong>Cliente:</strong> Ekio Electrosmog España</span>
-    <span><strong>Versión:</strong> v1 · 2026-05-08</span>
+    <span><strong>Versión:</strong> v2 · 2026-05-08</span>
     <span><strong>Owner:</strong> Francisco Javier Andrés</span>
-    <span><strong>Plazo:</strong> 14 días handoff</span>
   </div>
 </header>
 
-<div class="summary-box">
-  <p><strong>Resumen en 30 segundos:</strong> La landing actual convierte ~10-12% y debería estar en el 30-40%. Tráfico 100% Meta Ads (Instagram + Facebook), mayoritariamente frío → mobile-first obligatorio. Captamos nombre + email (NO teléfono). El lead magnet es el adelanto del libro oficial que se publica en noviembre — material académico/profesional con referencias APA, no un PDF amateur. Esto exige un diseño con identidad de clínica/laboratorio, no de blog de bienestar.</p>
+<div class="principle-box">
+  <p><strong>Principio rector:</strong> menos es más.</p>
+  <p>El visitante llega frío desde Meta Ads. En 2 segundos tiene que ver: <strong>(1) qué le ofreces</strong>, <strong>(2) por qué es bueno</strong> y <strong>(3) dónde dejar su email</strong>. Sin scroll. Sin pensar. Sin ruido visual.</p>
+  <p>Todo lo demás (autoridad, testimonios, FAQ) es opcional below-the-fold para los que dudan. La mayoría debería convertir antes de hacer scroll.</p>
 </div>
 
-<div class="kpi-grid">
-  <div class="kpi">
-    <span class="kpi-value">~12%</span>
-    <span class="kpi-label">CR actual</span>
-  </div>
-  <div class="kpi">
-    <span class="kpi-value">35%</span>
-    <span class="kpi-label">CR objetivo (60-90 días)</span>
-  </div>
-  <div class="kpi">
-    <span class="kpi-value">+110</span>
-    <span class="kpi-label">Leads/mes adicionales</span>
-  </div>
-  <div class="kpi">
-    <span class="kpi-value">+3.000€</span>
-    <span class="kpi-label">Revenue/mes estimado</span>
-  </div>
-</div>
+<h2>1 · El hero (única pantalla que importa)</h2>
 
-<h2>1 · Audiencia y arquetipos</h2>
-<table>
-  <tr><th>Arquetipo</th><th>Motivación</th><th>Disparador emocional</th></tr>
-  <tr><td><strong>La madre preocupada</strong></td><td>Niños con tablets, wifi 24/7, síntomas en familia</td><td>Proteger a los hijos</td></tr>
-  <tr><td><strong>El profesional con síntomas</strong></td><td>Insomnio crónico, fatiga, jaquecas que ningún médico explica</td><td>Alivio + respuesta racional</td></tr>
-  <tr><td><strong>El consciente preventivo</strong></td><td>Sano pero quiere reducir exposición a 5G y antenas</td><td>Anticiparse, control</td></tr>
-</table>
-<p><strong>Bonus B2B:</strong> terapeutas, naturópatas y consultores ambientales descargan el manual como material de formación.</p>
+<p>Esta es la pantalla que cargan cuando hacen click en el anuncio. Debe verse <strong>completa, sin scroll</strong> en un iPhone 12 (390×844). Solo 6 elementos:</p>
 
-<h2>2 · Tono y voz de marca</h2>
-<p><strong>SÍ:</strong> Riguroso (evidencia, citas APA), cercano (frases cortas, español de España), esperanzador (hay solución).</p>
-<p><strong>NO:</strong> alarmista, conspiranoico, promesas médicas, new age o pseudocientífico.</p>
-<blockquote>"No se trata de vivir con miedo al móvil. Se trata de saber cómo usarlo sin que te cueste la salud."</blockquote>
+<ol>
+  <li>Logo EKIO pequeño (centrado arriba)</li>
+  <li>H1 corto y directo (máx 2 líneas)</li>
+  <li>Subtítulo de 1 línea</li>
+  <li>Mockup pequeño del PDF (decorativo, no domina)</li>
+  <li>Formulario (2 campos) + CTA</li>
+  <li>Microcopy de privacidad (1 línea pequeña)</li>
+</ol>
 
-<h2>3 · Sistema visual EKIO</h2>
-<h3>Paleta de colores</h3>
-<div class="palette-grid">
-  <div class="swatch"><div class="swatch-color" style="background:#07090F"></div><div class="swatch-name">BG principal</div><div class="swatch-hex">#07090F</div></div>
-  <div class="swatch"><div class="swatch-color" style="background:#0D1119"></div><div class="swatch-name">BG elevado</div><div class="swatch-hex">#0D1119</div></div>
-  <div class="swatch"><div class="swatch-color" style="background:#141A26"></div><div class="swatch-name">Card</div><div class="swatch-hex">#141A26</div></div>
-  <div class="swatch"><div class="swatch-color" style="background:#00C9A7"></div><div class="swatch-name">EKIO Green</div><div class="swatch-hex">#00C9A7</div></div>
-  <div class="swatch"><div class="swatch-color" style="background:#F5A623"></div><div class="swatch-name">Naranja</div><div class="swatch-hex">#F5A623</div></div>
-  <div class="swatch"><div class="swatch-color" style="background:#8899FF"></div><div class="swatch-name">Azul info</div><div class="swatch-hex">#8899FF</div></div>
-  <div class="swatch"><div class="swatch-color" style="background:#FF4D4D"></div><div class="swatch-name">Rojo (alerta)</div><div class="swatch-hex">#FF4D4D</div></div>
-</div>
-
-<h3>Tipografía</h3>
-<ul>
-  <li><strong>Familia:</strong> Inter, Manrope o sans del sistema (<code>-apple-system, BlinkMacSystemFont, Inter, Segoe UI, Arial</code>)</li>
-  <li><strong>H1 móvil:</strong> 32-36px / weight 700 / line-height 1.15</li>
-  <li><strong>H1 desktop:</strong> 56-64px / weight 700</li>
-  <li><strong>H2:</strong> 24-28px móvil, 40-44px desktop / weight 600</li>
-  <li><strong>Body:</strong> 16-17px / line-height 1.6</li>
-  <li><strong>Microcopy:</strong> 13-14px / opacidad 0.5-0.7</li>
-</ul>
-
-<h3>Referencias visuales</h3>
-<p>Mantener identidad de los briefs anteriores: <code>brief-disenador-v2.html</code>, <code>pitch-keiretsu-valladolid-v7.html</code>, <code>mockup-home/</code>. Estética tecnológica, científica, oscura, con acentos verde-cyan que evocan "campo electromagnético reorganizado" (filosofía SPIRO).</p>
-
-<h2>4 · Wireframe mobile-first</h2>
-
-<h3>Reglas globales</h3>
-<ul>
-  <li>Mobile-first obligatorio (375px base)</li>
-  <li>Sin menú de navegación, sin footer rico (página de conversión pura)</li>
-  <li>Top bar: solo logo EKIO + texto pequeño "Manual gratuito"</li>
-  <li>Imágenes WebP con lazy loading</li>
-  <li>LCP &lt; 2.5s · CLS &lt; 0.1 · TTI &lt; 3.5s · Peso total &lt; 1MB</li>
-</ul>
-
-<h3>Sección 1 — Hero (above the fold, 100vh móvil)</h3>
-<div class="wireframe">┌─────────────────────────────────┐
-│  [Logo EKIO sm]   Manual gratis │
-├─────────────────────────────────┤
-│  📕 Manual gratuito · 62 págs   │ ← badge naranja
-│                                 │
-│  [H1 GRANDE 32-36px]            │
-│  La guía que tu médico no te    │
-│  dio para entender por qué      │
-│  duermes mal, vives en alerta…  │
-│                                 │
-│  [Subtítulo, gris claro]        │
-│  Descarga gratis el Manual…     │
-│                                 │
-│  ┌───────────────────────────┐ │
-│  │   [MOCKUP 3D PDF]         │ │ ← centrado, ~280px alto
-│  │   (portada visible)       │ │
-│  └───────────────────────────┘ │
-│                                 │
-│  [ Tu nombre              ]    │ ← input 48px alto
-│  [ Tu email               ]    │
-│  ┌───────────────────────────┐ │
-│  │  Quiero mi manual gratuito │ │ ← CTA #00C9A7 full-width
-│  └───────────────────────────┘ │
-│  Microcopy privacidad RGPD…    │ ← 13px
-│  ⭐ Más de [X] descargas       │ ← social proof
-└─────────────────────────────────┘</div>
-<p><strong>Notas críticas:</strong> el mockup 3D del PDF es prioritario — tangibiliza el lead magnet y aumenta el valor percibido +40-60%. CTA color <code>#00C9A7</code> con texto <code>#07090F</code>. Inputs fondo <code>#141A26</code>, focus <code>#00C9A7</code>.</p>
-
-<h3>Sección 2 — "Esto es para ti si…"</h3>
-<div class="wireframe">┌─────────────────────────────────┐
-│  Si alguna vez te has           │
-│  preguntado…                    │
-│                                 │
-│  ✓ Por qué tu insomnio no…      │
-│  ✓ Por qué te sientes en alerta │
-│  ✓ Si el wifi y 5G afectan a…   │
-│  ✓ Por qué tienes jaquecas…     │
-│  ✓ Si los límites legales…      │
-│                                 │
-│  [callout]                      │
-│  Este manual te da respuestas — │
-│  con ciencia, no con miedo.     │
-└─────────────────────────────────┘</div>
-<p>Iconos check <code>#00C9A7</code> en círculo sutil. Última frase con tipografía un poco más grande, estilo callout.</p>
-
-<h3>Sección 3 — "Qué encontrarás dentro" (8 capítulos)</h3>
-<p>8 cards (móvil: 1 columna · desktop: grid 2x4). Cada card: icono SVG + título capítulo (bold) + descripción 1-2 líneas.</p>
-<table>
-  <tr><th>#</th><th>Capítulo</th><th>Icono sugerido</th></tr>
-  <tr><td>1</td><td>Las 6 capas de la electropolución</td><td>Torre/antena</td></tr>
-  <tr><td>2</td><td>Polarización: el corazón del problema</td><td>Onda con dirección</td></tr>
-  <tr><td>3</td><td>Las 14 suposiciones falsas FCC/ICNIRP</td><td>Balanza/documento</td></tr>
-  <tr><td>4</td><td>SPIRO: tecnología cuántica</td><td>Átomo/espiral</td></tr>
-  <tr><td>5</td><td>Higiene electromagnética práctica</td><td>Casa</td></tr>
-  <tr><td>6</td><td>Higiene lumínica y circadianos</td><td>Bombilla</td></tr>
-  <tr><td>7</td><td>Apéndices visuales</td><td>Checklist</td></tr>
-  <tr><td>8</td><td>Referencias APA</td><td>Libro/comillas</td></tr>
-</table>
-
-<h3>Sección 4 — Sobre el autor (autoridad)</h3>
-<div class="wireframe">┌─────────────────────────────────┐
-│  Sobre el autor                 │
-│                                 │
-│  [Foto Javier]  Francisco Javier│
-│   circular      Andrés Andrés   │
-│   ~120px        Fundador Ekio…  │
-│                                 │
-│  [Cita destacada italic, blue]  │
-│  "Desde 2011 he acompañado…"    │
-│                                 │
-│  ┌─────┬─────┬─────┐           │
-│  │ +14 │ 20+ │ [X] │           │
-│  │años │refs │valor│           │
-│  │exp. │APA  │ación│           │
-│  └─────┴─────┴─────┘           │
-│  • Bullets credenciales         │
-└─────────────────────────────────┘</div>
-<p>Foto profesional de Javier (necesaria — pedirla). Cita en blockquote con barra lateral verde. Stats en grid 3 columnas con números grandes en color verde EKIO.</p>
-
-<h3>Sección 5 — Testimonios</h3>
-<p>3 cards (móvil: carrusel · desktop: 3 columnas) + cita destacada al final con tipografía grande, italic, comillas decorativas verde.</p>
-
-<h3>Sección 6 — "NO es / SÍ es"</h3>
-<p>4 filas con dos columnas. Móvil: stack vertical. Desktop: 2 columnas reales.</p>
-
-<h3>Sección 7 — Segundo formulario (CTA repetido)</h3>
-<p>Sección con fondo elevado <code>#0D1119</code> para destacar. Reutilizar componente de formulario del hero.</p>
-
-<h3>Sección 8 — FAQ acordeón</h3>
-<p>5 preguntas en acordeón cerrado por defecto. Animación suave al abrir. Icono <code>+</code> que rota a <code>×</code>.</p>
-
-<h3>Sección 9 — Footer mínimo</h3>
-<p>Logo EKIO + © 2026 + Política privacidad + Aviso legal + Contacto + RGPD. <strong>Sin menú de tienda, sin links externos.</strong></p>
-
-<h3>Thank-you page (post-suscripción)</h3>
-<div class="wireframe">┌─────────────────────────────────┐
-│  ✅ ¡Listo! Tu manual está      │
-│  volando hacia tu email         │
-│                                 │
-│  Mientras llega…                │
-│                                 │
-│  ┌─────────────────────────┐   │
-│  │ ¿Quieres saber cómo     │   │
-│  │ está exactamente tu     │   │
-│  │ hogar?                  │   │
-│  │                         │   │
-│  │ [Reservar cita →]       │   │ ← CTA naranja
-│  └─────────────────────────┘   │
-└─────────────────────────────────┘</div>
-<p>Esta página captura el momento de máxima intención. CTA secundario en naranja <code>#F5A623</code> (no compite con el verde del hero). Diseñarla con cariño.</p>
-
-<h2>5 · Copy completo (texto final aprobado)</h2>
-
-<h3>🔹 Hero</h3>
-<div class="copy-block">
-  <span class="label">Pre-título (badge)</span>
-  <p>Manual gratuito · 62 páginas · Adelanto del libro oficial que se publica en noviembre</p>
-</div>
-<div class="copy-block">
-  <span class="label">H1</span>
-  <p style="font-size:22px;font-weight:600;line-height:1.25">La guía que tu médico no te dio para entender por qué duermes mal, vives en alerta y nadie sabe explicarte la causa.</p>
-</div>
-<div class="copy-block">
-  <span class="label">Subtítulo</span>
-  <p>Descarga gratis el Manual de Contaminación e Higiene Electromagnética de Francisco Javier Andrés. 62 páginas con base científica para dejar de pagar con tu salud el precio invisible de la vida en la era de la IA.</p>
-</div>
-<div class="copy-block">
-  <span class="label">Form fields</span>
-  <p>Tu nombre / Tu email</p>
-  <span class="label">CTA primario</span>
-  <p><strong>Quiero mi manual gratuito</strong></p>
-  <span class="label">Microcopy bajo CTA</span>
-  <p>Lo recibirás en tu email en menos de 2 minutos. Sin spam. Cumplimos RGPD. Baja cuando quieras.</p>
-  <span class="label">Social proof línea</span>
-  <p>Más de [AJUSTAR cifra] personas en España ya lo han descargado.</p>
-</div>
-
-<h3>🔹 Sección 2 — Para ti si…</h3>
-<div class="copy-block">
-  <span class="label">Título</span>
-  <p>Si alguna vez te has preguntado…</p>
-  <span class="label">Bullets</span>
-  <ul style="margin-bottom:0">
-    <li>Por qué tu insomnio no mejora aunque hagas todo "bien"</li>
-    <li>Por qué te sientes en alerta sin razón aparente</li>
-    <li>Si el wifi y el 5G afectan a tus hijos</li>
-    <li>Por qué tienes jaquecas, fatiga o niebla mental que ningún análisis explica</li>
-    <li>Si los límites legales de exposición a campos electromagnéticos te protegen de verdad</li>
-  </ul>
-  <span class="label" style="margin-top:14px">Cierre</span>
-  <p><strong>Este manual te da respuestas — con ciencia, no con miedo.</strong></p>
-</div>
-
-<h3>🔹 Sección 3 — Qué encontrarás dentro</h3>
-<table>
-  <tr><th>#</th><th>Título</th><th>Descripción</th></tr>
-  <tr><td>1</td><td><strong>Las 6 capas de la electropolución</strong></td><td>Desde la corriente alterna de Edison hasta el 5G y el IoT. Por qué tu cuerpo nunca evolucionó para esto.</td></tr>
-  <tr><td>2</td><td><strong>Polarización: el corazón del problema</strong></td><td>Qué hace exactamente una microonda artificial dentro de tus células (y por qué no es cuestión de "calentamiento").</td></tr>
-  <tr><td>3</td><td><strong>Las 14 suposiciones falsas de la FCC y la ICNIRP</strong></td><td>Por qué los límites legales de exposición están desfasados según el informe de Miller et al. (2022).</td></tr>
-  <tr><td>4</td><td><strong>SPIRO: la tecnología cuántica</strong></td><td>La solución pionera de NOXTAK que no bloquea ni apantalla, sino que devuelve coherencia al campo.</td></tr>
-  <tr><td>5</td><td><strong>Higiene electromagnética práctica</strong></td><td>Checklist completa para dormitorio, zona de trabajo y móvil. Aplicable esta misma noche.</td></tr>
-  <tr><td>6</td><td><strong>Higiene lumínica y ritmos circadianos</strong></td><td>Por qué tu lámpara LED puede estar saboteándote el sueño y qué hacer.</td></tr>
-  <tr><td>7</td><td><strong>Apéndices visuales</strong></td><td>Tablas, diagramas y la checklist final que usan los profesionales.</td></tr>
-  <tr><td>8</td><td><strong>Referencias científicas APA</strong></td><td>Pall, Belyaev, Hardell, Belpomme, Panagopoulos, BioInitiative Report. Sin opinión: solo evidencia.</td></tr>
-</table>
-
-<h3>🔹 Sección 4 — Sobre el autor</h3>
-<div class="copy-block">
-  <span class="label">Nombre</span>
-  <p><strong>Francisco Javier Andrés Andrés</strong></p>
-  <span class="label">Cargo</span>
-  <p>Fundador de Ekio Electrosmog España · Naturópata experto en contaminación electromagnética</p>
-  <span class="label">Cita destacada</span>
-  <blockquote>"Desde 2011 he acompañado a cientos de personas con síntomas que el sistema médico no sabía explicar: insomnio crónico, jaquecas, ansiedad, sensación de no estar nunca en calma. La pista invisible siempre estaba en el mismo sitio: el entorno electromagnético. Y, lo más importante, era reversible."</blockquote>
-  <span class="label">Stats (3 cards)</span>
-  <ul style="margin-bottom:0">
-    <li><strong>+14 años</strong> acompañando casos de hipersensibilidad electromagnética (EHS)</li>
-    <li><strong>20+ referencias</strong> científicas revisadas por pares en el manual</li>
-    <li><strong>[AJUSTAR]</strong> valoraciones técnicas realizadas en hogares y empresas</li>
-  </ul>
-  <span class="label" style="margin-top:14px">Bullets credenciales</span>
-  <ul style="margin-bottom:0">
-    <li>Formación en Naturopatía + Bioelectromagnetismo ambiental + Física cuántica aplicada</li>
-    <li>Innumerables valoraciones técnicas de espacios contaminados por radiación artificial</li>
-    <li>Colaboración con ingenieros, médicos ambientales y expertos en geobiología</li>
-    <li>Este manual es el primer adelanto del libro oficial que se publica en noviembre</li>
+<div class="removed-list">
+  <h4>❌ ELIMINADO del hero (estaba antes, sobra ahora):</h4>
+  <ul>
+    <li>Badge "Manual gratuito · 62 páginas · Adelanto del libro…" → demasiado texto antes del H1</li>
+    <li>Línea social proof "Más de X personas…" → al hero, fuera. Va en sección 3.</li>
+    <li>H1 largo de 3 líneas con subordinadas → recortado a frase directa</li>
+    <li>Subtítulo con descripción larga + nombre del autor → comprimido a una línea</li>
+    <li>Mockup grande de 280px → reducido a 100px decorativo</li>
   </ul>
 </div>
 
-<h3>🔹 Sección 5 — Testimonios</h3>
-<div class="testimonial-block">
-  "Llevaba dos años sin dormir bien. Apliqué tres cambios la primera semana después de leer el manual: apagar el router por la noche, alejar el móvil de la mesilla y cambiar la lámpara del dormitorio. En diez días dormía de otra manera."
-  <span class="author">— Laura M., Madrid</span>
-</div>
-<div class="testimonial-block">
-  "Soy informático, trabajo desde casa. Tenía dolores de cabeza casi todos los días. El manual me dio el marco para entender el por qué. Las soluciones no eran ninguna locura."
-  <span class="author">— Carlos R., Barcelona</span>
-</div>
-<div class="testimonial-block">
-  "Soy enfermera y muy escéptica con todo lo que no tenga base científica. Este manual cita estudios reales, explica los mecanismos y no vende miedo. Lo recomiendo a cualquiera que quiera informarse en serio."
-  <span class="author">— Ana T., Valencia</span>
-</div>
-<blockquote style="font-size:18px;margin-top:24px"><strong>"No se trata de vivir con miedo al móvil. Se trata de saber cómo usarlo sin que te cueste la salud."</strong></blockquote>
+<h3>Mockup en vivo del hero (cómo se debería ver)</h3>
 
-<h3>🔹 Sección 6 — NO es / SÍ es</h3>
-<div class="compare-grid">
-  <div class="compare-no">Un panfleto conspiranoico sobre el 5G</div>
-  <div class="compare-yes">Una síntesis técnica con referencias APA: Pall, Belyaev, Hardell, BioInitiative Report</div>
-</div>
-<div class="compare-grid">
-  <div class="compare-no">Una lista de aparatos "anti-radiación" sin base</div>
-  <div class="compare-yes">Un análisis del mecanismo biológico real (polarización, espines, ruido cuántico)</div>
-</div>
-<div class="compare-grid">
-  <div class="compare-no">Alarmismo barato para venderte miedo</div>
-  <div class="compare-yes">Un manual práctico con checklist aplicable hoy mismo, gratis</div>
-</div>
-<div class="compare-grid">
-  <div class="compare-no">Un PDF genérico de internet</div>
-  <div class="compare-yes">El primer adelanto del libro oficial de Javier Andrés (publicación noviembre)</div>
+<div class="hero-mockup">
+  <div class="hero-logo">EKIO</div>
+  <div class="hero-h1">Tu Manual de Higiene Electromagnética. Gratis.</div>
+  <div class="hero-sub">62 páginas con base científica para reducir tu exposición.</div>
+  <div class="hero-pdf">📕</div>
+  <div class="hero-input">Tu email</div>
+  <div class="hero-input">Tu nombre</div>
+  <div class="hero-cta">Descargar manual</div>
+  <div class="hero-micro">Llega a tu email en 2 minutos. Sin spam.</div>
 </div>
 
-<h3>🔹 Sección 7 — Segundo formulario</h3>
+<p style="text-align:center;color:var(--text3);font-size:13px">↑ Esto es lo que el usuario ve al cargar la página. Todo lo demás está debajo del scroll.</p>
+
+<h2>2 · Copy del hero (definitivo)</h2>
+
 <div class="copy-block">
-  <span class="label">Título</span>
-  <p><strong>Descárgalo ahora. Es 100% gratuito.</strong></p>
-  <span class="label">Subtítulo</span>
-  <p>Es el primer paso de la higiene del siglo XXI. Como lavarse las manos, pero para el medio invisible que atraviesa tu cuerpo cada segundo.</p>
+  <span class="label">H1 (máx 2 líneas en móvil)</span>
+  <p style="font-size:22px;font-weight:700;line-height:1.2">Tu Manual de Higiene Electromagnética. Gratis.</p>
+</div>
+<div class="copy-block">
+  <span class="label">Subtítulo (1 línea)</span>
+  <p>62 páginas con base científica para reducir tu exposición.</p>
+</div>
+<div class="copy-block">
+  <span class="label">Form (2 campos en este orden)</span>
+  <p>1. Email · 2. Nombre</p>
   <span class="label">CTA</span>
-  <p><strong>Sí, enviadme el manual ahora</strong></p>
-  <span class="label">Microcopy</span>
-  <p>En menos de 2 minutos lo tendrás en tu bandeja de entrada.</p>
+  <p><strong>Descargar manual</strong></p>
+  <span class="label">Microcopy bajo el botón (1 línea)</span>
+  <p>Llega a tu email en 2 minutos. Sin spam.</p>
 </div>
 
-<h3>🔹 Sección 8 — FAQ</h3>
+<h3>Variantes del H1 (para A/B test futuro)</h3>
+<ul>
+  <li><strong>A (control):</strong> Tu Manual de Higiene Electromagnética. Gratis.</li>
+  <li><strong>B (curiosidad):</strong> ¿Y si tu insomnio no es estrés, sino tu router?</li>
+  <li><strong>C (autoridad):</strong> El manual de Javier Andrés. 62 páginas. Gratis.</li>
+</ul>
+
+<h2>3 · Below the fold (todo opcional, para los que dudan)</h2>
+
+<p>Si el visitante hace scroll es porque quiere más información antes de convertir. Le damos lo justo, sin saturar.</p>
+
+<table>
+  <tr><th>Sección</th><th>Función</th><th>Tamaño</th></tr>
+  <tr><td><strong>1. Qué encontrarás</strong></td><td>Validar contenido del PDF</td><td>4 bullets cortos</td></tr>
+  <tr><td><strong>2. Sobre el autor</strong></td><td>Autoridad en una mirada</td><td>1 foto + 1 frase + 3 stats</td></tr>
+  <tr><td><strong>3. 1 testimonio</strong></td><td>Prueba social</td><td>Una sola cita destacada</td></tr>
+  <tr><td><strong>4. CTA repetido</strong></td><td>Capturar a los que leen todo</td><td>Form + botón</td></tr>
+  <tr><td><strong>5. FAQ mini</strong></td><td>Resolver objeciones</td><td>3 preguntas clave</td></tr>
+  <tr><td><strong>6. Footer</strong></td><td>Legal</td><td>1 línea</td></tr>
+</table>
+
+<div class="removed-list">
+  <h4>❌ ELIMINADO de la versión anterior:</h4>
+  <ul>
+    <li>Sección "Esto es para ti si…" con 5 checks → fuera, redundante con el copy del hero</li>
+    <li>8 capítulos con iconos → reducido a 4 bullets</li>
+    <li>3 testimonios → 1 solo, el más fuerte</li>
+    <li>Bloque "NO es / SÍ es" → fuera, demasiado defensivo</li>
+    <li>FAQ de 5 preguntas → 3 esenciales</li>
+    <li>Stats triple en autor → 1 línea con todos los datos</li>
+  </ul>
+</div>
+
+<h2>4 · Copy below-the-fold (versión reducida)</h2>
+
+<h3>🔹 Sección 1 — Qué encontrarás dentro</h3>
 <div class="copy-block">
-  <span class="label">P1</span>
-  <p><strong>¿De verdad el wifi o el móvil pueden afectar a la salud?</strong><br>
-  La OMS/IARC clasifica los campos electromagnéticos de radiofrecuencia como posiblemente carcinógenos (Grupo 2B). El informe de Miller et al. (2022) demuestra que las normas actuales de la FCC e ICNIRP se basan en 14 suposiciones erróneas que ignoran 30 años de evidencia sobre efectos no térmicos. Todo esto está documentado y referenciado en el manual.</p>
-  <span class="label">P2</span>
-  <p><strong>¿Necesito comprar algún aparato?</strong><br>
-  No. La mayor parte del manual son cambios de hábito y configuración que no cuestan nada: apagar dispositivos por la noche, reubicar el router, modo avión cuando duermes, higiene lumínica. Las soluciones tecnológicas (como SPIRO) se explican como opción para quien quiera ir más allá, pero no son obligatorias.</p>
-  <span class="label">P3</span>
-  <p><strong>¿Esto es solo para personas con hipersensibilidad electromagnética?</strong><br>
-  No. Está pensado para tres perfiles: personas con síntomas inexplicables, familias que quieren proteger a sus hijos, y profesionales sanos que quieren prevención real. Lo usan también terapeutas, naturópatas y consultores ambientales como material de formación.</p>
-  <span class="label">P4</span>
-  <p><strong>¿Quién es Francisco Javier Andrés y por qué confiar en él?</strong><br>
-  Es naturópata con más de 14 años acompañando casos de EHS, fundador de Ekio Electrosmog España (la empresa pionera del ámbito hispanohablante en este campo), y trabaja con ingenieros, médicos ambientales y expertos en geobiología. El manual cita más de 20 referencias científicas revisadas por pares.</p>
-  <span class="label">P5</span>
+  <span class="label">Título</span>
+  <p><strong>Qué encontrarás dentro</strong></p>
+  <span class="label">4 bullets</span>
+  <ul style="margin-bottom:0">
+    <li>Por qué los límites legales de exposición a wifi y 5G están desfasados (informe Miller et al., 2022)</li>
+    <li>Cómo reducir tu exposición esta misma noche, sin comprar nada</li>
+    <li>El protocolo de higiene electromagnética para tu dormitorio, oficina y móvil</li>
+    <li>Referencias científicas APA: BioInitiative Report, Pall, Belyaev, Hardell</li>
+  </ul>
+</div>
+
+<h3>🔹 Sección 2 — Sobre el autor</h3>
+<div class="copy-block">
+  <span class="label">Foto + nombre</span>
+  <p><strong>Francisco Javier Andrés</strong> — Fundador de Ekio Electrosmog España. Naturópata experto en contaminación electromagnética.</p>
+  <span class="label">Frase única</span>
+  <blockquote>"Desde 2011 acompaño a personas con síntomas que el sistema médico no sabía explicar. La pista invisible siempre estaba en el mismo sitio: el entorno electromagnético."</blockquote>
+  <span class="label">Stats (línea única)</span>
+  <p><strong>+14 años</strong> de experiencia · <strong>20+ referencias</strong> científicas en el manual · Adelanto del libro oficial que se publica en noviembre.</p>
+</div>
+
+<h3>🔹 Sección 3 — Testimonio destacado</h3>
+<div class="copy-block">
+  <blockquote style="font-size:17px">"Llevaba dos años sin dormir bien. Apliqué tres cambios la primera semana después de leer el manual. En diez días dormía de otra manera."</blockquote>
+  <p style="color:var(--text3);font-size:14px">— Laura M., Madrid</p>
+</div>
+
+<h3>🔹 Sección 4 — CTA repetido (mini)</h3>
+<div class="copy-block">
+  <span class="label">Título</span>
+  <p><strong>Descárgalo ahora.</strong></p>
+  <span class="label">Subtítulo (1 línea)</span>
+  <p>Es gratis y llega a tu email en 2 minutos.</p>
+  <span class="label">Form + CTA</span>
+  <p>Email · Nombre · <strong>[ Enviarme el manual ]</strong></p>
+</div>
+
+<h3>🔹 Sección 5 — FAQ mini (3 preguntas)</h3>
+<div class="copy-block">
+  <p><strong>¿Necesito comprar algo para aplicar lo que explica el manual?</strong><br>
+  No. La mayor parte son cambios de hábito que no cuestan nada.</p>
+  <p><strong>¿Esto es ciencia o conspiración?</strong><br>
+  Ciencia. El manual cita más de 20 estudios revisados por pares (BioInitiative, Hardell, Pall, Belpomme, Miller et al.).</p>
   <p><strong>¿Qué pasa después de la descarga?</strong><br>
-  Recibirás el PDF en tu email al instante. En los días siguientes te enviaremos contenido práctico complementario sobre cómo medir tu hogar y reducir la exposición. Puedes darte de baja en un clic cuando quieras.</p>
+  Recibirás el PDF al instante. Después, contenido práctico complementario. Te das de baja en un clic cuando quieras.</p>
 </div>
 
 <h3>🔹 Footer</h3>
 <div class="copy-block">
-  <p>© 2026 Ekio Electrosmog España · Política de privacidad · Aviso legal · Contacto</p>
-  <p style="font-style:italic;color:var(--text3);margin-bottom:0">Tus datos están protegidos según el RGPD. No se ceden a terceros.</p>
+  <p style="font-size:13px;color:var(--text3)">© 2026 Ekio Electrosmog España · Privacidad · RGPD · Contacto</p>
 </div>
 
-<h3>🔹 Thank-you page</h3>
-<div class="copy-block">
-  <span class="label">H1</span>
-  <p><strong>✅ ¡Listo! Tu manual está volando hacia tu email</strong></p>
-  <span class="label">Subtítulo</span>
-  <p>Mientras llega, te invitamos al siguiente paso…</p>
-  <span class="label">Bloque oferta</span>
-  <p><strong>¿Quieres saber cómo está exactamente tu hogar?</strong><br>
-  El manual te da la teoría. Una <strong>valoración técnica profesional</strong> te da los datos reales de tu casa: campos ELF, RF, voltaje corporal inducido, electricidad sucia.</p>
-  <span class="label">CTA</span>
-  <p><strong>Reserva tu cita de valoración con un técnico Ekio →</strong></p>
-  <p style="color:var(--text3);font-style:italic">Primera consulta sin compromiso.</p>
+<h2>5 · Sistema visual (sin cambios)</h2>
+
+<div class="palette-grid">
+  <div class="swatch"><div class="swatch-color" style="background:#07090F"></div><div class="swatch-name">BG</div><div class="swatch-hex">#07090F</div></div>
+  <div class="swatch"><div class="swatch-color" style="background:#0D1119"></div><div class="swatch-name">BG2</div><div class="swatch-hex">#0D1119</div></div>
+  <div class="swatch"><div class="swatch-color" style="background:#141A26"></div><div class="swatch-name">Card</div><div class="swatch-hex">#141A26</div></div>
+  <div class="swatch"><div class="swatch-color" style="background:#00C9A7"></div><div class="swatch-name">CTA</div><div class="swatch-hex">#00C9A7</div></div>
+  <div class="swatch"><div class="swatch-color" style="background:#F5A623"></div><div class="swatch-name">Acento</div><div class="swatch-hex">#F5A623</div></div>
+  <div class="swatch"><div class="swatch-color" style="background:#FFFFFF"></div><div class="swatch-name">Texto</div><div class="swatch-hex">#FFFFFF</div></div>
 </div>
+
+<p><strong>Tipografía:</strong> Inter o Manrope (sans del sistema OK). H1 móvil 28-32px. Body 16px. Microcopy 12-13px.</p>
+<p><strong>CTA:</strong> botón verde <code>#00C9A7</code>, texto <code>#07090F</code>, padding generoso (16px vertical), border-radius 8px, full-width en móvil.</p>
+<p><strong>Inputs:</strong> fondo <code>#141A26</code>, borde sutil <code>rgba(255,255,255,0.1)</code>, focus <code>#00C9A7</code>, padding 14-16px.</p>
 
 <h2>6 · Assets a producir</h2>
 
-<h3>🎨 El diseñador entrega</h3>
-<table>
-  <tr><th>#</th><th>Asset</th><th>Formato</th><th>Notas</th></tr>
-  <tr><td>1</td><td><strong>Mockup 3D del PDF</strong></td><td>PNG transp. 800×800 mín</td><td>Portada visible, lomo, sombra realista</td></tr>
-  <tr><td>2</td><td>Iconos 8 capítulos</td><td>SVG</td><td>Línea fina, color #00C9A7</td></tr>
-  <tr><td>3</td><td>Diseño completo landing</td><td>Figma + export Web</td><td>Mobile + Desktop</td></tr>
-  <tr><td>4</td><td>Diseño thank-you page</td><td>Figma + export Web</td><td>Mobile + Desktop</td></tr>
-  <tr><td>5</td><td>Avatares testimonios</td><td>PNG/SVG</td><td>Pueden ser ilustrativos si no hay fotos reales</td></tr>
-  <tr><td>6</td><td>OG image (compartir social)</td><td>1200×630 PNG</td><td>Para Meta Ads/WhatsApp</td></tr>
-</table>
-
-<h3>📷 Javier (cliente) entrega</h3>
 <table>
   <tr><th>#</th><th>Asset</th><th>Notas</th></tr>
-  <tr><td>1</td><td>Foto profesional de Javier</td><td>Mín 800×800px, fondo neutro</td></tr>
-  <tr><td>2</td><td>PDF del manual</td><td>El que ya está terminado (62 págs)</td></tr>
-  <tr><td>3</td><td>Cifra real de descargas</td><td>Para social proof</td></tr>
-  <tr><td>4</td><td>Año fundación EKIO</td><td>Para credenciales</td></tr>
-  <tr><td>5</td><td>Nº valoraciones técnicas</td><td>Para credenciales</td></tr>
-  <tr><td>6</td><td>3 testimonios reales (con permiso)</td><td>Si los hay; si no, usar plantillas</td></tr>
+  <tr><td>1</td><td><strong>Mockup pequeño del PDF</strong></td><td>Decorativo, ~100×130px en móvil. No domina.</td></tr>
+  <tr><td>2</td><td><strong>Foto Javier</strong></td><td>Pequeña en sección autor (~80px circular)</td></tr>
+  <tr><td>3</td><td><strong>OG image</strong></td><td>1200×630 para Meta Ads y compartir</td></tr>
+  <tr><td>4</td><td>Diseño Figma</td><td>Solo 1 versión: una página minimalista mobile + desktop</td></tr>
 </table>
 
-<h2>7 · Especificaciones técnicas</h2>
-<h3>Performance</h3>
+<p><strong>Lo que YA NO necesitamos producir</strong> (eliminado de la v1): 8 iconos de capítulos, avatares para 3 testimonios, badge naranja del hero, ilustraciones decorativas.</p>
+
+<h2>7 · Specs técnicas (críticas)</h2>
+
 <ul>
-  <li>LCP &lt; 2.5s · CLS &lt; 0.1 · TTI &lt; 3.5s</li>
-  <li>Peso total &lt; 1MB</li>
-  <li>Imágenes WebP con fallback PNG/JPG</li>
-  <li>Lazy loading below-the-fold</li>
-</ul>
-<h3>Accesibilidad</h3>
-<ul>
-  <li>WCAG 2.1 AA mínimo</li>
-  <li>Contraste texto/fondo ≥ 4.5:1</li>
-  <li>Inputs con <code>&lt;label&gt;</code> (visible o sr-only)</li>
-  <li>Focus visible en elementos interactivos</li>
-</ul>
-<h3>SEO</h3>
-<ul>
-  <li><code>&lt;title&gt;</code>: "Manual de Higiene Electromagnética — Descarga Gratuita | Ekio"</li>
-  <li>Meta description: 150-160 caracteres</li>
-  <li>Schema.org <code>Book</code> o <code>LearningResource</code></li>
-  <li><code>og:image</code>, <code>og:title</code>, <code>og:description</code></li>
-</ul>
-<h3>Tracking obligatorio</h3>
-<ul>
-  <li><strong>Meta Pixel</strong> + Conversion API (CAPI) — evento <code>Lead</code> al submit</li>
-  <li><strong>Google Analytics 4</strong> — evento <code>generate_lead</code></li>
-  <li><strong>Klaviyo</strong> — suscripción a lista "Manual Higiene EM"</li>
+  <li><strong>El form debe verse sin scroll en iPhone 12 (390×844).</strong> Esto es el criterio único de éxito del hero.</li>
+  <li>LCP &lt; 2.0s (más exigente que antes — la página es más ligera)</li>
+  <li>Peso total &lt; 500KB (sin tantas imágenes)</li>
+  <li>Tracking: Meta Pixel + CAPI + GA4 + Klaviyo lista "Manual Higiene EM"</li>
   <li>Cookies banner consent mode v2 (RGPD)</li>
+  <li>Plataforma sugerida: Shopify Page con Liquid + Klaviyo embed form</li>
 </ul>
-<h3>Plataforma sugerida</h3>
-<p><strong>Recomendación principal:</strong> Shopify Page con Liquid + integración Klaviyo (mantener todo en el ecosistema EKIO).</p>
 
-<h2>8 · A/B tests previstos</h2>
-<table>
-  <tr><th>Test</th><th>Control</th><th>Variante</th><th>Cuándo</th></tr>
-  <tr><td>H1</td><td>"La guía que tu médico no te dio…"</td><td>"¿Y si tu insomnio no es estrés sino tu router?"</td><td>Semana 1-3</td></tr>
-  <tr><td>CTA</td><td>"Quiero mi manual gratuito"</td><td>"Proteger mi hogar — empezar aquí"</td><td>Semana 4-6</td></tr>
-  <tr><td>Mockup PDF</td><td>Con mockup 3D</td><td>Sin imagen</td><td>Semana 7-9</td></tr>
-</table>
-<p><strong>Importante:</strong> dejar el copy editable en variables de Liquid o en CMS, no hardcoded.</p>
+<h2>8 · Datos pendientes de Javier</h2>
 
-<h2>9 · Plazos y entregables</h2>
+<ul>
+  <li>Foto profesional propia (~800×800, fondo neutro)</li>
+  <li>PDF del manual (ya entregado: 62 páginas)</li>
+  <li>Confirmar año de fundación de Ekio Electrosmog España</li>
+</ul>
+
+<p>Lo que <strong>ya NO hace falta</strong> de la v1: cifra de descargas acumuladas (eliminamos esa línea), nº de valoraciones técnicas (eliminamos esa stat).</p>
+
+<h2>9 · Plazos (reducidos)</h2>
+
 <table>
-  <tr><th>Entregable</th><th>Plazo</th><th>Responsable</th></tr>
-  <tr><td>Wireframes Figma low-fi</td><td>Día +3</td><td>Diseñador</td></tr>
-  <tr><td>Mockup 3D del PDF</td><td>Día +5</td><td>Diseñador</td></tr>
-  <tr><td>Diseño high-fi mobile</td><td>Día +7</td><td>Diseñador</td></tr>
-  <tr><td>Diseño high-fi desktop</td><td>Día +10</td><td>Diseñador</td></tr>
-  <tr><td>Iconos capítulos (8)</td><td>Día +10</td><td>Diseñador</td></tr>
-  <tr><td>Thank-you page</td><td>Día +12</td><td>Diseñador</td></tr>
-  <tr><td>Validación con Javier</td><td>Día +13</td><td>Cliente</td></tr>
-  <tr><td>Handoff a desarrollo</td><td>Día +14</td><td>Diseñador</td></tr>
+  <tr><th>Entregable</th><th>Plazo</th></tr>
+  <tr><td>Wireframe + diseño high-fi mobile</td><td>Día +4</td></tr>
+  <tr><td>Diseño desktop</td><td>Día +6</td></tr>
+  <tr><td>Mockup PDF + OG image</td><td>Día +6</td></tr>
+  <tr><td>Validación con Javier</td><td>Día +7</td></tr>
+  <tr><td><strong>Handoff a desarrollo</strong></td><td><strong>Día +8</strong></td></tr>
 </table>
 
-<h2>10 · Checklist final antes del handoff</h2>
-<ul class="checklist">
-  <li>Mockup 3D del PDF entregado</li>
-  <li>Foto profesional de Javier integrada</li>
-  <li>8 iconos de capítulos en SVG</li>
-  <li>Cifras "AJUSTAR" sustituidas por valores reales</li>
-  <li>Diseño mobile + desktop validados</li>
-  <li>Thank-you page diseñada</li>
-  <li>OG image para compartir social</li>
-  <li>Velocidad &lt; 1MB total</li>
-  <li>Contraste WCAG AA verificado</li>
-  <li>Formulario con todos los tracking events</li>
-  <li>Cookies banner consent mode v2</li>
-</ul>
+<p>Plazo total reducido de 14 a 8 días gracias a la simplificación.</p>
 
 <div class="footer-note">
-  Brief preparado para EKIO Electrosmog España · Versión 1 · 2026-05-08<br>
-  Contacto cliente: Francisco Javier Andrés — Director Ekio
+  Brief v2 · Versión minimalista · 2026-05-08<br>
+  EKIO Electrosmog España · Francisco Javier Andrés
 </div>
 
 </div>
