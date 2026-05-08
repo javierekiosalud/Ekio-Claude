@@ -1,150 +1,192 @@
-# Guión Video — Landing Consultoría Fotobiomodulación EKIO Light
+# Guión Vídeo 3 minutos — Landing Consultoría FBM EKIO Light
+## VERSIÓN 2 — REESCRITURA EMOCIONAL (PAS+B)
 
 **Duración objetivo:** 3 minutos (≈ 450-480 palabras)
-**Tono:** Cercano, claro, autoritativo sin ser técnico. Castellano de España.
-**Voz en off:** Francisco Javier Andrés (o Cristhian de Moya si prefiere doblar él mismo)
-**Estilo visual:** Plano cenital paneles + B-roll uso real en casa/oficina + gráficos minimalistas células/mitocondrias
-**CTA único al final:** Reservar consultoría gratuita
+**Tono:** Cercano, directo, sin jerga, sin gurú-coach. Castellano España.
+**Voz en off / cara a cámara:** Cristhian de Moya (preferente). Apariciones cara a cámara, no solo voz.
+**Estilo visual:** Entorno real (consulta o espacio personal de Cristhian), no estudio publicitario.
+**CTA único:** Reservar la consultoría gratuita.
 
 ---
 
-## Estructura por bloques
+## QUÉ CAMBIA RESPECTO A LA V1
+
+Tres cambios estructurales (basados en el ARQUETIPO_Y_FRAMEWORK_EMOCIONAL.md):
+
+1. **El hook ya no presume credibilidad ("6.000 estudios"). Empieza desactivando la desconfianza.**
+2. **Cristhian aparece en los primeros 30 segundos** como persona real, no como nombre al final.
+3. **Una historia concreta antes de la explicación técnica**, no después. La biofísica solo entra cuando hay suelo emocional donde aterrice.
+
+El mecanismo (mitocondrias, ATP, longitudes de onda) se mantiene, pero queda en segundo plano: solo entra una vez que el visitante ha sentido que se le entiende.
+
+---
+
+## ESTRUCTURA POR BLOQUES
 
 | Bloque | Tiempo | Función |
-|--------|--------|---------|
-| HOOK | 0:00 – 0:15 | Captar atención |
-| PROBLEMA | 0:15 – 0:40 | Por qué nos pasa esto hoy |
-| SOLUCIÓN (qué es) | 0:40 – 1:20 | Qué es la fotobiomodulación |
-| CÓMO FUNCIONA | 1:20 – 1:50 | Mitocondrias / ATP en lenguaje simple |
-| BENEFICIOS | 1:50 – 2:25 | Qué notarás |
-| CÓMO SE USA | 2:25 – 2:45 | Sencillez (10–20 min/día) |
-| CTA | 2:45 – 3:00 | Reserva la consultoría con Cristhian |
+|---|---|---|
+| HOOK — desactivar desconfianza | 0:00 – 0:20 | Romper el reflejo de "esto es otro vendedor" |
+| RECONOCIMIENTO DEL DOLOR | 0:20 – 0:50 | "Sé cómo te sientes." |
+| HISTORIA REAL (caso compuesto) | 0:50 – 1:25 | Aterrizar lo abstracto en alguien concreto |
+| EXPLICACIÓN MÍNIMA NECESARIA | 1:25 – 2:05 | El "porqué" en 40 segundos. Sin saturar. |
+| QUÉ ES LA CONSULTORÍA (no el panel) | 2:05 – 2:35 | Reposicionar la promesa: no compras, hablas |
+| CTA HONESTO | 2:35 – 3:00 | Sin urgencia, sin presión |
 
 ---
 
 ## GUIÓN COMPLETO
 
-### 🎬 0:00 — HOOK (15 s)
+### 🎬 0:00 — HOOK (20 s)
+**Cristhian, cara a cámara, entorno real (no estudio).**
 
-> **(Plano cenital del panel encendiéndose, luz roja envolvente)**
+> "Si has llegado hasta aquí, probablemente llevas tiempo buscando algo.
 >
-> "Lo que estás a punto de ver es una de las pocas tecnologías de bienestar respaldada por más de **6.000 estudios científicos**. Y, sin embargo, casi nadie sabe usarla bien.
+> No te voy a decir que esto lo cura todo. No te voy a vender nada en este vídeo.
 >
-> Te lo explico en tres minutos."
-
----
-
-### 🎬 0:15 — PROBLEMA (25 s)
-
-> **(B-roll: ciudad de noche, pantallas, oficina con LEDs blancos, gente cansada)**
->
-> "Vivimos bajo luz artificial **el 90 % del día**. Luz blanca, luz azul, parpadeos invisibles…
->
-> Nuestras células evolucionaron para recibir el espectro completo del sol —especialmente la luz roja e infrarroja del amanecer y el atardecer— y ese espectro hoy prácticamente **ha desaparecido de nuestra vida diaria**.
->
-> El resultado lo sentimos todos: cansancio que no se va, sueño superficial, inflamación, piel apagada, recuperación lenta."
+> Solo te voy a explicar, en tres minutos, **qué es la fotobiomodulación, por qué probablemente nadie te ha hablado de ella todavía, y si tiene sentido que reservemos 30 minutos para hablar de tu caso**."
 
 ---
 
-### 🎬 0:40 — QUÉ ES LA FOTOBIOMODULACIÓN (40 s)
+### 🎬 0:20 — RECONOCIMIENTO DEL DOLOR (30 s)
+**Plano más cercano. Cristhian sigue hablando, pausado.**
+**B-roll suave: alguien mirando el techo a las 4 de la mañana, alguien en una consulta, alguien con un blíster de pastillas.**
 
-> **(Logo EKIO + planos producto encendido)**
+> "Quizás llevas años durmiendo mal. Quizás convives con un dolor que ningún tratamiento ha terminado de quitarte. Quizás te despiertas cansado aunque hayas dormido siete horas, y los médicos te dicen que las analíticas están bien.
 >
-> "La fotobiomodulación es, simplemente, **devolver al cuerpo la luz que le falta**.
+> Has probado cosas. Algunas han ayudado un poco. Ninguna ha resuelto. Y cada vez que pruebas algo nuevo y no funciona, es un poco más difícil volver a confiar.
 >
-> Los paneles **EKIO Light** emiten dos longitudes de onda muy precisas: **luz roja a 660 nanómetros** y **luz infrarroja cercana a 850 nanómetros**. Son las mismas frecuencias que recibirías del sol al amanecer y al atardecer, pero concentradas y libres de radiación dañina.
->
-> No es una moda. Es la misma tecnología que la NASA empezó a investigar en los años 90 y que hoy se utiliza en hospitales, clínicas deportivas y centros de longevidad en todo el mundo."
-
----
-
-### 🎬 1:20 — CÓMO FUNCIONA (30 s)
-
-> **(Animación simple: célula → mitocondria → ATP)**
->
-> "Dentro de cada una de tus células hay unas pequeñas centrales energéticas: las **mitocondrias**.
->
-> Cuando esa luz roja e infrarroja llega a tu piel, las mitocondrias **producen más energía** —más ATP, el combustible de la vida—. Y cuando una célula tiene energía suficiente, **se repara mejor, se inflama menos y funciona como debe**.
->
-> Eso es todo. No hay magia. Hay biofísica."
+> Eso no lo entiende cualquiera. Pero yo sí lo entiendo. Llevo años escuchándolo en consulta."
 
 ---
 
-### 🎬 1:50 — BENEFICIOS (35 s)
+### 🎬 0:50 — HISTORIA REAL (35 s)
+**Plano medio. Tono de conversación, no de discurso.**
+**Imagen: el panel encendido en uso real, no plano publicitario.**
 
-> **(B-roll: persona durmiendo bien, deportista recuperándose, piel, oficina relajada)**
+> "Hace unas semanas vino a consulta una mujer —la llamaremos Elena—. Once años con fibromialgia. Cuatro reumatólogos. Acupuntura, dietas, dos rehabilitaciones. Algunas cosas la habían ayudado. Ninguna había resuelto.
 >
-> "Las personas que usan los paneles EKIO de forma regular reportan:
+> No vino a comprar un panel. Vino a ver si por fin alguien le explicaba **si esto tenía sentido para su caso concreto**, con su medicación, con su historial.
 >
-> – **Sueño más profundo** desde la primera semana.
-> – Más energía estable durante el día.
-> – Menos dolores articulares y musculares.
-> – Recuperación deportiva más rápida.
-> – Piel más firme y luminosa.
-> – Y un apoyo real en procesos como **tiroides, ansiedad o inflamación crónica**.
+> No le prometí que iba a curarla. Le expliqué qué evidencia hay para fibromialgia y fotobiomodulación, qué protocolo tiene más base, qué esperar la primera semana, qué esperar al primer mes.
 >
-> Todo esto está documentado en literatura científica revisada por pares —no son promesas vacías—."
+> Por primera vez en años, me dijo, salía de una consulta con información real."
 
----
-
-### 🎬 2:25 — CÓMO SE USA (20 s)
-
-> **(Plano: persona frente al panel, leyendo o meditando)**
->
-> "Y lo mejor: usarlo es **ridículamente sencillo**.
->
-> Entre **10 y 20 minutos al día**, a una distancia de unos 30–60 centímetros, con la zona del cuerpo que quieras tratar expuesta. Puedes leer, meditar o simplemente respirar mientras lo haces.
->
-> Pero **cada caso es diferente**: no es lo mismo usarlo para mejorar el sueño, para una tiroides de Hashimoto, o para una oficina de cinco personas."
+> ℹ️ **Nota legal:** "Elena" es una composición a partir de perfiles documentados en literatura científica. Sustituir por caso real verificado en cuanto se recopile (ver VOZ_MARCA_Y_FUENTES.md, Bloque 8.2).
 
 ---
 
-### 🎬 2:45 — CTA FINAL (15 s)
+### 🎬 1:25 — EXPLICACIÓN MÍNIMA NECESARIA (40 s)
+**Animación simple: célula → mitocondria. Texto en pantalla muy breve.**
 
-> **(Plano de Cristhian o tarjeta con su nombre)**
+> "La fotobiomodulación es algo muy concreto: dos longitudes de onda específicas de luz —**roja, a 660 nanómetros, e infrarroja cercana, a 850 nanómetros**— llegan a tus células y activan un mecanismo que tu cuerpo ya conoce.
 >
-> "Por eso te regalamos una **primera consultoría gratuita con Cristhian de Moya**, especialista certificado en fotobiomodulación de EKIO.
+> Dentro de cada célula tuya hay unas centrales energéticas: las mitocondrias. Cuando reciben esta luz, **producen más energía. Eso es. Y una célula con más energía se inflama menos, se repara mejor y funciona como debe**.
 >
-> Reserva tu hueco aquí abajo, **te ayudará a decidir el panel adecuado y el protocolo exacto para tu caso**.
+> No es nuevo. La NASA lo investiga desde los años 90. Hay más de 6.000 estudios publicados. Un estudio de 2024 documentó una reducción del 27% en el pico de glucosa tras una sola sesión de 15 minutos. Otros estudios documentan mejoras en relación T3/T4 en Hashimoto, en sueño, en recuperación.
 >
-> Es gratis, son 30 minutos. Solo tienes que pulsar el botón."
+> **No es magia. Es biofísica. Y no es nueva: es desconocida.**"
+
+---
+
+### 🎬 2:05 — QUÉ ES LA CONSULTORÍA (30 s)
+**Cristhian de nuevo cara a cámara. Tono cálido, sin guión evidente.**
+
+> "Esto no quiere decir que sea para todo el mundo, ni que vaya a funcionar igual en cada caso. Por eso, antes de venderle un panel a alguien, prefiero **hablar 30 minutos con esa persona**.
+>
+> En esa llamada repaso tu situación, te digo qué dice la evidencia para tu caso concreto, qué panel encajaría —si es que encaja alguno— y qué protocolo tendría más sentido. Si después concluyo que esto no es para ti, te lo voy a decir.
+>
+> No cobro comisión por panel vendido. Mi trabajo es orientarte."
+
+---
+
+### 🎬 2:35 — CTA HONESTO (25 s)
+**Plano del calendario / botón del Calendly en pantalla.**
+**Voz de Cristhian, firme y tranquila.**
+
+> "Así que no te estoy pidiendo que compres nada hoy.
+>
+> **Te estoy pidiendo treinta minutos de conversación. Gratis. Y que decidas tú después.**
+>
+> El botón está justo debajo. Eliges el día y la hora que te encajen. Recibes el enlace por email. Y nos vemos.
+>
+> Si después de hablar conmigo no tienes más claridad sobre tu situación, no te habremos hecho gastar ni un minuto de más."
+
+> 🎬 **Cierre:** Plano final del logo EKIO Light + botón "RESERVAR MI CONSULTORÍA · 30 MIN · GRATIS" en pantalla durante 5 segundos.
 
 ---
 
 ## NOTAS DE PRODUCCIÓN
 
-### Imagen sugerida
-- Planos cenitales y frontales del panel EKIO Light (encendido y apagado).
-- B-roll de uso real: salón, despacho, sala de tratamiento.
-- Animación simple 2D para mitocondria/ATP (puede ser After Effects o plantilla).
-- Cristhian apareciendo solo al final (planos cortos, fondo neutro).
+### Imagen
+- **Cristhian, no actores.** El visitante necesita ver una cara real, no un modelo.
+- **Entorno real**, no estudio. Su sitio de trabajo, una consulta, una sala con un panel funcionando. Un fondo de estudio publicitario destruye lo que el guión construye.
+- **B-roll discreto.** Nada de imágenes stock de gente sonriendo bajo luz roja. Mejor planos cotidianos honestos.
+- **Animación 2D mínima** (mitocondria + ATP). Solo una. No saturar con gráficos.
 
 ### Audio
-- Música ambiental electrónica suave, no estridente, en tono cálido.
-- Sin voz robótica: locución humana profesional.
-- Subtítulos quemados (muchos lo verán sin sonido).
+- **Sin música épica.** Ambient suave o nada.
+- **Locución humana, sin reverb estudio.** Si suena a podcast íntimo, mejor que si suena a anuncio.
+- **Subtítulos quemados obligatorios.** La mayoría lo verá sin sonido.
 
-### Claims científicos — referencias para revisar
-- 660 nm + 850 nm: rangos terapéuticos validados (Hamblin et al.).
-- Höfling et al. — fotobiomodulación en Hashimoto.
-- NASA — uso de LEDs en cicatrización (Whelan et al.).
-- Más de 6.000 estudios en PubMed con keyword "photobiomodulation" + "low-level laser therapy".
-
-> ⚠️ **Importante legal:** El video NO debe afirmar que cura enfermedades. Usar siempre verbos como "apoyo", "complemento", "ayuda a", "documentado en estudios", "los usuarios reportan".
-
-### Llamadas de tracking en el video
-- Mostrar URL de la landing en pantalla los últimos 10 segundos.
-- Card final con logo EKIO + botón "RESERVAR CONSULTORÍA" animado.
-- Si se sube a YouTube: poner end screen con link directo a landing.
+### Cierre de loop
+- El **último frame** del vídeo debe ser el botón claro de reservar, con la URL escrita. No fade-to-black con musiquita.
 
 ---
 
-## SUBTÍTULOS — versión corta para Reels/TikTok (60 s)
+## CLAIMS CIENTÍFICOS USADOS — REFERENCIAS
 
-Si después quieres una versión recortada para redes:
+| Claim en el guión | Fuente | Notebook |
+|---|---|---|
+| "más de 6.000 estudios publicados" | Búsqueda PubMed: "photobiomodulation" + "low-level laser therapy" | Verificable |
+| "27% de reducción en pico de glucosa, sesión de 15 min" | Powner & Jeffery, 2024 (n=30, luz roja 670 nm) | 605a30fb |
+| "mejoras en relación T3/T4 en Hashimoto" | Estudio 2020, n=350 | 605a30fb (verificar autor y revista) |
+| "660 nm + 850 nm" | Hamblin et al., literatura LLLT consolidada | e9bd3bbc, 51ba1430 |
+| "NASA desde los años 90" | Whelan et al., investigación NASA en cicatrización | Verificable en PubMed |
 
-> "Lo que ves aquí está respaldado por más de 6.000 estudios. Es fotobiomodulación: luz roja e infrarroja a 660 y 850 nanómetros, las mismas frecuencias del amanecer. Llega a tus mitocondrias, las hace producir más energía, y tu cuerpo se repara mejor. ¿Resultado? Mejor sueño, más energía, menos inflamación, recuperación más rápida. 10-20 minutos al día. Cada caso es distinto, por eso te regalamos una consultoría gratis con Cristhian de Moya, especialista certificado EKIO. Reserva en el enlace."
+> ⚠️ **Antes de publicar el vídeo:** Verificar la cita exacta del estudio Hashimoto 2020 (autor, revista, DOI). El notebook 605a30fb la menciona pero no detalla la referencia bibliográfica completa.
 
 ---
 
-**Próximo paso recomendado:** grabar locución de prueba con un teléfono para validar timing antes de producir.
+## QUÉ NO DEBE DECIR EL VÍDEO (RESTRICCIONES LEGALES)
+
+Bajo ninguna circunstancia el guión debe afirmar:
+
+- "Cura el insomnio / la fibromialgia / la diabetes / la tiroides"
+- "Resultados garantizados"
+- "Sin efectos secundarios"
+- "Tu médico se equivoca"
+- "Sustituye al tratamiento médico"
+
+Verbos seguros: "los estudios documentan", "los usuarios reportan", "se ha investigado en", "puede contribuir a", "como complemento al tratamiento convencional".
+
+---
+
+## VERSIÓN CORTA — REELS / TIKTOK (60 s)
+
+Si después se quiere recortar para redes:
+
+> "Si llevas tiempo durmiendo mal, con dolor crónico, con cansancio que ningún médico explica, esto te interesa.
+>
+> Hay una terapia con 30 años de historia y más de 6.000 estudios publicados que probablemente nadie te ha contado: la fotobiomodulación. Dos longitudes de onda muy concretas —660 y 850 nanómetros— activan tus mitocondrias y te devuelven energía celular. No es magia. Es biofísica.
+>
+> No es para todo el mundo. Por eso, antes de venderte nada, te regalo 30 minutos de consultoría conmigo, Cristhian, especialista en fotobiomodulación de EKIO Light. Sin compromiso. Reserva en el enlace."
+
+---
+
+## FALTAS CRÍTICAS QUE BLOQUEAN LA GRABACIÓN
+
+Antes de empezar a producir el vídeo:
+
+1. **Cristhian** necesita decidir si:
+   - Aparece cara a cámara (recomendado).
+   - Acepta marco anti-ventas explícito ("no cobro comisión").
+   - Confirma o ajusta la frase "llevo años escuchándolo en consulta".
+
+2. **Caso real** sustituyendo a "Elena":
+   - Si no se consigue uno verificable en 2 semanas, mantener "composición de perfiles documentados" con disclaimer en pantalla.
+
+3. **Estudio Hashimoto 2020** — verificar referencia exacta o sustituirlo por un claim más conservador.
+
+---
+
+**Próximo paso recomendado:** Cristhian graba una toma de prueba de 30 segundos con el hook + reconocimiento del dolor desde su móvil, sin maquillaje, sin estudio, en su sitio de trabajo. Si la grabación de prueba transmite cercanía y honestidad, se procede con la producción completa.
