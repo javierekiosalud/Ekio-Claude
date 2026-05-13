@@ -78,11 +78,15 @@ El mecanismo (mitocondrias, ATP, longitudes de onda) se mantiene, pero queda en 
 ### 🎬 1:25 — EXPLICACIÓN MÍNIMA NECESARIA (40 s)
 **Animación simple: célula → mitocondria. Texto en pantalla muy breve.**
 
-> "La fotobiomodulación es algo muy concreto: dos longitudes de onda específicas de luz —**roja, a 660 nanómetros, e infrarroja cercana, a 850 nanómetros**— llegan a tus células y activan un mecanismo que tu cuerpo ya conoce.
+> "La fotobiomodulación es algo muy concreto: longitudes de onda específicas de luz llegan a tus células y activan un mecanismo que tu cuerpo ya conoce.
 >
 > Dentro de cada célula tuya hay unas centrales energéticas: las mitocondrias. Cuando reciben esta luz, **producen más energía. Eso es. Y una célula con más energía se inflama menos, se repara mejor y funciona como debe**.
 >
-> No es nuevo. La NASA lo investiga desde los años 90. Hay más de 6.000 estudios publicados. Un estudio de 2024 documentó una reducción del 27% en el pico de glucosa tras una sola sesión de 15 minutos. Otros estudios documentan mejoras en relación T3/T4 en Hashimoto, en sueño, en recuperación.
+> La mayoría de paneles del mercado emiten solo dos colores: rojo a 660 nanómetros e infrarrojo a 850. **EKIO Light es diferente: nuestro modelo Solar Full recrea el espectro solar completo —desde el ultravioleta hasta el infrarrojo profundo— porque tu cuerpo no evolucionó bajo dos colores. Evolucionó bajo el sol entero.**
+>
+> Por eso tenemos patente española OEPM sobre esta tecnología. Es la única patentada en Europa para uso terapéutico y circadiano.
+>
+> No es nuevo. La NASA investiga la luz roja desde los años 90. Hay más de 6.000 estudios publicados. Un estudio de 2024 documentó una reducción del 27% en el pico de glucosa tras una sola sesión de 15 minutos.
 >
 > **No es magia. Es biofísica. Y no es nueva: es desconocida.**"
 
