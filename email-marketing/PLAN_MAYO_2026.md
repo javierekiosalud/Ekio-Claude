@@ -81,9 +81,9 @@ Cuatro presiones biológicas convergen en mayo: tiroides + cambio térmico, mela
 
 | # | Fecha | Día | Hora | News | Asunto principal | Producto / CTA | Segmento Klaviyo | Estado |
 |---|---|---|---|---|---|---|---|---|
-| 5 | 12 may | Mar | 7:30 | FJA | Lo primero que hice cuando supe lo del electrosmog | Guía del Sueño (lead magnet) | Lista completa - excluir Welcome activos | ✏️ |
-| 6 | 13 may | Mié | 8:00 | EPI | (tema fresco — no tiroides; opciones: melatonina, contadores inteligentes, EHS) | Spiro Square X o SpiroDisc | Lista completa - excluir compradores 30d | ✏️ |
-| 7 | 16 may | Sáb | 8:00 | FJA | (historia personal Javier — vida cotidiana, observación) | CTA suave o reply al email | Lista completa | ✏️ |
+| 5 | 12 may → 13 may PM | Mar→Mié recup. | 15:30 | FJA | Lo primero que hice cuando entendí lo del electrosmog | Spiro Square X (suave) | Lista completa - excluir Welcome activos | ✅ |
+| 6 | ~~13 may~~ → 14 may | ~~Mié~~ Jue | 8:00 | EPI | El aparato que llevas años ignorando emite todo el día (contadores inteligentes) | Stroom Master + Spiro Square X | Lista completa - excluir compradores 30d | ✅ |
+| 7 | 16 may | Sáb | 8:00 | FJA | Lo que me preguntó mi hija en el coche | Sin CTA / reply al email | Lista completa - excluir Welcome activos | ✅ |
 
 ### Semana 3 (18-24 mayo) — 4 envíos
 
