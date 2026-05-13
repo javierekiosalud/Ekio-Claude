@@ -44,6 +44,22 @@ Cuando actúas, siempre:
 
 ---
 
+## Skills propias
+
+### `shopify-theme-performance` → `/Users/javierandres/Ekio-Claude/Skills/shopify-theme-performance.md`
+Playbook con 12 recetas concretas de optimización: preload + fetchpriority, srcset responsive,
+WebP/AVIF, lazy load, defer scripts (Klaviyo, ManyChat, Reviews), critical CSS, fuentes optimizadas,
+aspect-ratio para CLS, auditoría de apps, code splitting, Theme App Extensions. Cada receta con
+código Liquid/HTML/CSS listo para pegar e impacto esperado en ms.
+
+### `shopify-theme-architecture` → `/Users/javierandres/Ekio-Claude/Skills/shopify-theme-architecture.md`
+Patrones de arquitectura: cuándo usar Section vs Block vs Snippet, esqueleto base de section
+con schema bien estructurado, metafields dinámicos en front (irradiancia, longitudes de onda,
+FAQ, IEC certificate), JSON templates por tipo de producto, carrito AJAX con properties Sharpei,
+Shopify Markets, convenciones de naming EKIO, checklist de QA al crear/modificar secciones.
+
+---
+
 ## Stack técnico EKIO
 
 | Capa | Tecnología actual |

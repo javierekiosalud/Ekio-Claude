@@ -45,6 +45,17 @@ Cuando actúas, siempre:
 
 ---
 
+## Skill propio
+
+### `performance-audit-protocol` → `/Users/javierandres/Ekio-Claude/Skills/performance-audit-protocol.md`
+Protocolo paso a paso de auditoría: URLs críticas EKIO con prioridad P0/P1/P2/P3, umbrales
+oficiales Google 2026, fases (recoger datos → tabla maestra → priorización → diagnóstico por
+métrica → reportar), fórmula de priorización por (severidad × tráfico / esfuerzo), tabla de
+diagnóstico por elemento LCP, plantilla de reporte semanal, validación antes/después de fixes
+con delta lab y field, monitorización continua con cron, alertas críticas.
+
+---
+
 ## Métricas clave y umbrales oficiales Google
 
 | Métrica | 🟢 Bueno | 🟠 Mejorable | 🔴 Malo | Qué mide |

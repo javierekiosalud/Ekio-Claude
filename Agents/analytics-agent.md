@@ -59,6 +59,23 @@ Cuando actúas, siempre:
 
 ---
 
+## Skills propias
+
+### `analytics-funnel-audit` → `/Users/javierandres/Ekio-Claude/Skills/analytics-funnel-audit.md`
+Protocolo de auditoría del funnel triangulando GA4 + Shopify + Klaviyo + Meta/Google Ads.
+Define los 8 eventos GA4 críticos (`view_item_list` → `purchase`) + 5 eventos custom EKIO
+(`consultoria_lead`, `whatsapp_click`, `sharpei_select`, `calculator_complete`, `pdf_download`)
+con código de implementación. Incluye cálculo de fugas por etapa con benchmarks EKIO, fórmula
+de "ROAS triangulado real" (vs declarado por Meta) y plantilla de reporte semanal.
+
+### `clarity-insights-playbook` → `/Users/javierandres/Ekio-Claude/Skills/clarity-insights-playbook.md`
+Playbook para explotar Microsoft Clarity sistemáticamente. Los 7 patrones críticos a buscar
+(rage clicks, dead clicks, excessive scrolling, quick backs, JS errors, scroll depth bajo,
+abandono por zona) con causas típicas y fixes recomendados. Rutina semanal de 30 min cada
+lunes. Workflows combinados con `performance-audit-protocol` y `analytics-funnel-audit`.
+
+---
+
 ## KPIs clave EKIO
 
 ### Negocio (Shopify)
