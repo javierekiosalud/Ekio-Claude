@@ -472,13 +472,16 @@
 
   .wl-label .type { color: var(--gray); }
 
-  .nm-red { color: #e74c3c; }
-  .nm-ir { color: #a83232; }
+  .nm-630 { color: #ff4757; }
+  .nm-660 { color: #e74c3c; }
+  .nm-727 { color: #c0392b; }
+  .nm-810 { color: #96281b; }
+  .nm-850 { color: #7b241c; }
 
   .wl-bar-wrap {
     background: rgba(255,255,255,0.04);
     border-radius: 40px;
-    height: 16px;
+    height: 14px;
     overflow: hidden;
     position: relative;
   }
@@ -490,17 +493,11 @@
     transition: width 1.5s cubic-bezier(0.22, 1, 0.36, 1);
   }
 
-  .wl-bar-660 {
-    width: 0%;
-    background: linear-gradient(90deg, #c0392b, #e74c3c, #ff6b6b);
-    box-shadow: 0 0 20px rgba(231,76,60,0.5);
-  }
-
-  .wl-bar-850 {
-    width: 0%;
-    background: linear-gradient(90deg, #7b241c, #c0392b, #a83232);
-    box-shadow: 0 0 20px rgba(168,50,50,0.4);
-  }
+  .wl-bar-630 { width: 0%; background: linear-gradient(90deg, #ff4757, #ff6b81); box-shadow: 0 0 16px rgba(255,71,87,0.5); }
+  .wl-bar-660 { width: 0%; background: linear-gradient(90deg, #c0392b, #e74c3c); box-shadow: 0 0 16px rgba(231,76,60,0.5); }
+  .wl-bar-727 { width: 0%; background: linear-gradient(90deg, #96281b, #c0392b); box-shadow: 0 0 16px rgba(192,57,43,0.4); }
+  .wl-bar-810 { width: 0%; background: linear-gradient(90deg, #7b241c, #96281b); box-shadow: 0 0 16px rgba(150,40,27,0.4); }
+  .wl-bar-850 { width: 0%; background: linear-gradient(90deg, #5c1a14, #7b241c); box-shadow: 0 0 16px rgba(123,36,28,0.4); }
 
   .wl-info {
     font-family: var(--sans);
@@ -1274,20 +1271,20 @@
 <!-- STATS BAR -->
 <div class="stats-bar fade-in">
   <div class="stat-item">
-    <span class="stat-number" data-target="660">0</span>
-    <span class="stat-label">nm · Luz Roja</span>
+    <span class="stat-number" data-target="5">0</span>
+    <span class="stat-label">Longitudes de onda</span>
   </div>
   <div class="stat-item">
-    <span class="stat-number" data-target="850">0</span>
-    <span class="stat-label">nm · Infrarrojo</span>
+    <span class="stat-number" data-target="630">0</span>
+    <span class="stat-label">nm · Rojo superficial</span>
   </div>
   <div class="stat-item">
     <span class="stat-number" data-target="10">0</span>
     <span class="stat-label">min por sesión</span>
   </div>
   <div class="stat-item">
-    <span class="stat-number" data-target="5">0</span>
-    <span class="stat-label">Longitudes de onda</span>
+    <span class="stat-number" data-target="850">0</span>
+    <span class="stat-label">nm · Infrarrojo profundo</span>
   </div>
 </div>
 
@@ -1331,7 +1328,7 @@
       <p>Cada célula de tu cuerpo tiene entre 1.000 y 2.500 mitocondrias. Estas estructuras no son solo "fábricas de energía": tienen fotorreceptores específicos que responden a la luz roja e infrarroja para regular la producción de ATP.</p>
       <button class="expand-btn" onclick="toggleExpand(this)">Saber más</button>
       <div class="expandable">
-        <p style="font-size:13px; color: #a8c5b5; margin:0; line-height:1.7;">La enzima citocromo c oxidasa (complejo IV de la cadena respiratoria mitocondrial) tiene una absorción máxima exactamente en 660 nm y 850 nm. Cuando la luz de estas longitudes de onda llega a la célula, activa directamente la producción de ATP y desencadena señales de reparación y regeneración en todo el organismo.</p>
+        <p style="font-size:13px; color: #a8c5b5; margin:0; line-height:1.7;">La enzima citocromo c oxidasa (complejo IV de la cadena respiratoria mitocondrial) tiene picos de absorción en las 5 longitudes de onda de la Deep 5: 630, 660, 727, 810 y 850 nm. Cada una activa un nivel de profundidad tisular diferente —desde la epidermis hasta los tejidos profundos— formando un espectro terapéutico completo que ninguna longitud de onda aislada puede ofrecer.</p>
       </div>
     </div>
 
@@ -1366,36 +1363,141 @@
     </div>
   </div>
 
+  <!-- 5 WAVELENGTH CARDS -->
+  <div class="science-grid fade-in" style="margin-top: 60px; grid-template-columns: repeat(5, 1fr); gap: 16px;">
+
+    <div class="science-card" style="padding: 24px 20px;">
+      <div style="font-size: 28px; font-weight: 700; color: #ff4757; font-family: var(--sans); margin-bottom: 6px;">630<small style="font-size:14px;">nm</small></div>
+      <div style="font-family: var(--sans); font-size: 10px; letter-spacing: 2px; text-transform: uppercase; color: var(--gray); margin-bottom: 14px;">Rojo visible</div>
+      <ul style="list-style: none; display: flex; flex-direction: column; gap: 8px;">
+        <li style="font-size: 12px; color: #a8c5b5; padding-left: 14px; position: relative; line-height: 1.5;"><span style="position:absolute; left:0; color:#ff4757;">›</span>Uniformidad del tono</li>
+        <li style="font-size: 12px; color: #a8c5b5; padding-left: 14px; position: relative; line-height: 1.5;"><span style="position:absolute; left:0; color:#ff4757;">›</span>Reducción del acné</li>
+        <li style="font-size: 12px; color: #a8c5b5; padding-left: 14px; position: relative; line-height: 1.5;"><span style="position:absolute; left:0; color:#ff4757;">›</span>Textura superficial</li>
+        <li style="font-size: 12px; color: #a8c5b5; padding-left: 14px; position: relative; line-height: 1.5;"><span style="position:absolute; left:0; color:#ff4757;">›</span>Luminosidad</li>
+      </ul>
+    </div>
+
+    <div class="science-card" style="padding: 24px 20px;">
+      <div style="font-size: 28px; font-weight: 700; color: #e74c3c; font-family: var(--sans); margin-bottom: 6px;">660<small style="font-size:14px;">nm</small></div>
+      <div style="font-family: var(--sans); font-size: 10px; letter-spacing: 2px; text-transform: uppercase; color: var(--gray); margin-bottom: 14px;">Rojo terapéutico</div>
+      <ul style="list-style: none; display: flex; flex-direction: column; gap: 8px;">
+        <li style="font-size: 12px; color: #a8c5b5; padding-left: 14px; position: relative; line-height: 1.5;"><span style="position:absolute; left:0; color:#e74c3c;">›</span>Síntesis de colágeno</li>
+        <li style="font-size: 12px; color: #a8c5b5; padding-left: 14px; position: relative; line-height: 1.5;"><span style="position:absolute; left:0; color:#e74c3c;">›</span>Activación fibroblastos</li>
+        <li style="font-size: 12px; color: #a8c5b5; padding-left: 14px; position: relative; line-height: 1.5;"><span style="position:absolute; left:0; color:#e74c3c;">›</span>Reducción de arrugas</li>
+        <li style="font-size: 12px; color: #a8c5b5; padding-left: 14px; position: relative; line-height: 1.5;"><span style="position:absolute; left:0; color:#e74c3c;">›</span>Cicatrización</li>
+      </ul>
+    </div>
+
+    <div class="science-card" style="padding: 24px 20px;">
+      <div style="font-size: 28px; font-weight: 700; color: #c0392b; font-family: var(--sans); margin-bottom: 6px;">727<small style="font-size:14px;">nm</small></div>
+      <div style="font-family: var(--sans); font-size: 10px; letter-spacing: 2px; text-transform: uppercase; color: var(--gray); margin-bottom: 14px;">Rojo profundo</div>
+      <ul style="list-style: none; display: flex; flex-direction: column; gap: 8px;">
+        <li style="font-size: 12px; color: #a8c5b5; padding-left: 14px; position: relative; line-height: 1.5;"><span style="position:absolute; left:0; color:#c0392b;">›</span>Antiinflamatorio</li>
+        <li style="font-size: 12px; color: #a8c5b5; padding-left: 14px; position: relative; line-height: 1.5;"><span style="position:absolute; left:0; color:#c0392b;">›</span>Microcirculación</li>
+        <li style="font-size: 12px; color: #a8c5b5; padding-left: 14px; position: relative; line-height: 1.5;"><span style="position:absolute; left:0; color:#c0392b;">›</span>Dermis profunda</li>
+        <li style="font-size: 12px; color: #a8c5b5; padding-left: 14px; position: relative; line-height: 1.5;"><span style="position:absolute; left:0; color:#c0392b;">›</span>Elastina</li>
+      </ul>
+    </div>
+
+    <div class="science-card" style="padding: 24px 20px;">
+      <div style="font-size: 28px; font-weight: 700; color: #96281b; font-family: var(--sans); margin-bottom: 6px;">810<small style="font-size:14px;">nm</small></div>
+      <div style="font-family: var(--sans); font-size: 10px; letter-spacing: 2px; text-transform: uppercase; color: var(--gray); margin-bottom: 14px;">Infrarrojo cercano</div>
+      <ul style="list-style: none; display: flex; flex-direction: column; gap: 8px;">
+        <li style="font-size: 12px; color: #a8c5b5; padding-left: 14px; position: relative; line-height: 1.5;"><span style="position:absolute; left:0; color:#96281b;">›</span>Citocromo c oxidasa</li>
+        <li style="font-size: 12px; color: #a8c5b5; padding-left: 14px; position: relative; line-height: 1.5;"><span style="position:absolute; left:0; color:#96281b;">›</span>Recuperación muscular</li>
+        <li style="font-size: 12px; color: #a8c5b5; padding-left: 14px; position: relative; line-height: 1.5;"><span style="position:absolute; left:0; color:#96281b;">›</span>Articulaciones</li>
+        <li style="font-size: 12px; color: #a8c5b5; padding-left: 14px; position: relative; line-height: 1.5;"><span style="position:absolute; left:0; color:#96281b;">›</span>Producción ATP</li>
+      </ul>
+    </div>
+
+    <div class="science-card" style="padding: 24px 20px;">
+      <div style="font-size: 28px; font-weight: 700; color: #7b241c; font-family: var(--sans); margin-bottom: 6px;">850<small style="font-size:14px;">nm</small></div>
+      <div style="font-family: var(--sans); font-size: 10px; letter-spacing: 2px; text-transform: uppercase; color: var(--gray); margin-bottom: 14px;">Infrarrojo profundo</div>
+      <ul style="list-style: none; display: flex; flex-direction: column; gap: 8px;">
+        <li style="font-size: 12px; color: #a8c5b5; padding-left: 14px; position: relative; line-height: 1.5;"><span style="position:absolute; left:0; color:#7b241c;">›</span>Melatonina mitocond.</li>
+        <li style="font-size: 12px; color: #a8c5b5; padding-left: 14px; position: relative; line-height: 1.5;"><span style="position:absolute; left:0; color:#7b241c;">›</span>Hidratación celular</li>
+        <li style="font-size: 12px; color: #a8c5b5; padding-left: 14px; position: relative; line-height: 1.5;"><span style="position:absolute; left:0; color:#7b241c;">›</span>Tejidos profundos</li>
+        <li style="font-size: 12px; color: #a8c5b5; padding-left: 14px; position: relative; line-height: 1.5;"><span style="position:absolute; left:0; color:#7b241c;">›</span>Circulación sistémica</li>
+      </ul>
+    </div>
+
+  </div>
+
   <!-- WAVELENGTH VISUAL -->
   <div class="wavelength-visual fade-in" id="wl-visual">
-    <div class="wavelength-title">Penetración tisular por longitud de onda</div>
+    <div class="wavelength-title">Las 5 longitudes de onda de la Deep 5 — Penetración y utilidad</div>
     <div class="wavelength-tracks">
+
       <div class="wl-track">
         <div class="wl-label">
-          <span class="nm nm-red">660<small>nm</small></span>
-          <span class="type">Luz Roja Visible</span>
+          <span class="nm nm-630">630<small>nm</small></span>
+          <span class="type">Rojo visible</span>
+        </div>
+        <div class="wl-bar-wrap">
+          <div class="wl-bar wl-bar-630" id="bar630"></div>
+        </div>
+        <div class="wl-info">
+          <strong>Epidermis · 0,5–1 mm</strong>
+          Mejora la textura superficial, reduce el acné y las imperfecciones, unifica el tono e ilumina la piel desde la capa más externa.
+        </div>
+      </div>
+
+      <div class="wl-track">
+        <div class="wl-label">
+          <span class="nm nm-660">660<small>nm</small></span>
+          <span class="type">Rojo terapéutico</span>
         </div>
         <div class="wl-bar-wrap">
           <div class="wl-bar wl-bar-660" id="bar660"></div>
         </div>
         <div class="wl-info">
-          <strong>Epidermis y dermis</strong>
-          Penetra 1–2 mm. Activa fibroblastos, estimula colágeno y elastina, mejora tono y textura superficial.
+          <strong>Dermis · 1–2 mm</strong>
+          Activa fibroblastos y estimula síntesis de colágeno tipo I y III y elastina. Reduce arrugas, mejora firmeza y acelera cicatrización.
         </div>
       </div>
+
       <div class="wl-track">
         <div class="wl-label">
-          <span class="nm nm-ir">850<small>nm</small></span>
-          <span class="type">Infrarrojo Cercano</span>
+          <span class="nm nm-727">727<small>nm</small></span>
+          <span class="type">Rojo profundo</span>
+        </div>
+        <div class="wl-bar-wrap">
+          <div class="wl-bar wl-bar-727" id="bar727"></div>
+        </div>
+        <div class="wl-info">
+          <strong>Dermis profunda · 2–4 mm</strong>
+          Longitud de onda de transición con mayor penetración que el rojo visible. Potente acción antiinflamatoria y estimulación de la microcirculación dérmica profunda.
+        </div>
+      </div>
+
+      <div class="wl-track">
+        <div class="wl-label">
+          <span class="nm nm-810">810<small>nm</small></span>
+          <span class="type">NIR · infrarrojo</span>
+        </div>
+        <div class="wl-bar-wrap">
+          <div class="wl-bar wl-bar-810" id="bar810"></div>
+        </div>
+        <div class="wl-info">
+          <strong>Tejido subcutáneo · 4–7 mm</strong>
+          Máxima activación del fotorreceptor citocromo c oxidasa. Recuperación muscular profunda, reducción de inflamación articular y regeneración de tejidos profundos.
+        </div>
+      </div>
+
+      <div class="wl-track">
+        <div class="wl-label">
+          <span class="nm nm-850">850<small>nm</small></span>
+          <span class="type">NIR · infrarrojo</span>
         </div>
         <div class="wl-bar-wrap">
           <div class="wl-bar wl-bar-850" id="bar850"></div>
         </div>
         <div class="wl-info">
-          <strong>Dermis profunda y tejidos</strong>
-          Penetra 5–10 mm. Activa mitocondrias en capas más profundas, mejora microcirculación y regeneración tisular.
+          <strong>Tejido profundo · 5–10 mm</strong>
+          Penetración máxima. Activa melatonina mitocondrial, mejora la microcirculación sistémica, regeneración ósea y muscular profunda, hidratación intracelular.
         </div>
       </div>
+
     </div>
   </div>
 </section>
@@ -1430,7 +1532,7 @@
         <div class="spec-icon">🔴</div>
         <div class="spec-text">
           <div class="spec-key">Longitudes de onda activas</div>
-          <div class="spec-val">660 nm (Roja) + 850 nm (NIR)</div>
+          <div class="spec-val">630 · 660 · 727 · 810 · 850 nm</div>
         </div>
       </div>
       <div class="spec-row">
@@ -2241,10 +2343,19 @@ function animateCounter(el, target, duration = 1500) {
 
 // ─── WAVELENGTH BAR ANIMATION
 function animateWLBars() {
-  const bar660 = document.getElementById('bar660');
-  const bar850 = document.getElementById('bar850');
-  if (bar660) bar660.style.width = '72%';
-  if (bar850) bar850.style.width = '55%';
+  const bars = {
+    'bar630': '45%',
+    'bar660': '62%',
+    'bar727': '72%',
+    'bar810': '84%',
+    'bar850': '92%'
+  };
+  Object.entries(bars).forEach(([id, width], i) => {
+    setTimeout(() => {
+      const el = document.getElementById(id);
+      if (el) el.style.width = width;
+    }, i * 150);
+  });
 }
 
 // ─── INTERSECTION OBSERVER
