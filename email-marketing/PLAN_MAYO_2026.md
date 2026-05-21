@@ -85,14 +85,18 @@ Cuatro presiones biológicas convergen en mayo: tiroides + cambio térmico, mela
 | 6 | ~~13 may~~ → 14 may | ~~Mié~~ Jue | 8:00 | EPI | El aparato que llevas años ignorando emite todo el día (contadores inteligentes) | Stroom Master + Spiro Square X | Lista completa - excluir compradores 30d | ✅ |
 | 7 | 16 may | Sáb | 8:00 | FJA | Lo que me preguntó mi hija en el coche | Sin CTA / reply al email | Lista completa - excluir Welcome activos | ✅ |
 
-### Semana 3 (18-24 mayo) — 4 envíos
+### Semana 3 (18-24 mayo) — 4 envíos · 🧲 SAGA "Campos EM del corazón y el cerebro"
+
+Hilo único en las 3 voces: el corazón genera el campo EM más potente del cuerpo, el cerebro tiene el suyo, y el mecanismo del par radical (espín del electrón) explica cómo campos externos influyen en la biología.
 
 | # | Fecha | Día | Hora | News | Asunto principal | Producto / CTA | Segmento Klaviyo | Estado |
 |---|---|---|---|---|---|---|---|---|
-| 8 | 19 may | Mar | 7:00 | EPI | ¿A qué distancia duerme tu hijo del router? | SpiroDisc / Pack Hogar | Padres + lista completa | ✏️ |
-| 9 | 21 may | Jue | 8:00 | FJA | Llevo 15 años durmiendo sin luz azul. Esto es lo que noto | Ekio Light | Lista completa - excluir compradores Ekio Light | ✏️ |
-| 10 | 23 may | Vie | 9:00 | EKO | Ekio Light. Última oportunidad antes del verano | Ekio Light | Engaged ≥2 aperturas 30d + abrieron FJA 21 may | ✏️ |
+| 8 | 19 may | Mar | 7:00 | EPI | Tu corazón emite el campo electromagnético más potente de tu cuerpo | Spiro Square X | Lista completa - excluir compradores 30d | ✅ |
+| 9 | 21 may | Jue | 8:00 | FJA | El día que me puse a medir mi propio corazón | Spiro Square X (suave) | Lista completa - excluir Welcome activos | ✅ |
+| 10 | 23 may | Vie | 9:00 | EKO | Tu corazón funciona con campos electromagnéticos propios. Aquí está lo que puedes hacer | Spiro Square X | Engaged ≥2 aperturas 30d + abrieron EPI 19 o FJA 21; excluir compradores Square X 90d | ✅ |
 | 11 | 24 may | Dom | 8:30 | FJA | (preludio al ancla del 25 — tono reflexivo) | Sin CTA / siembra Día Mundial Tiroides | Lista completa | ✏️ |
+
+> Temas desplazados de esta semana (niños/router, luz azul, Ekio Light): reubicar en junio o como contenido de blog/RRSS.
 
 ### Semana 4 (25-31 mayo) — 5 envíos
 
