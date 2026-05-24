@@ -1,61 +1,57 @@
 # Email 9 · Jueves 21 mayo 2026 · 8:00
 **Newsletter:** Javier Andrés (FJA)
 **Tono:** Isra Bravo, primera persona, frases cortas
-**CTA:** Suave, hacia entorno/Spiro Square X
+**CTA:** Sin botón. P.S. de reply (construye relación; la venta es el viernes)
 **Segmento Klaviyo:** Lista completa, excluir Welcome activos últimos 7d
-**Función en el plan:** Pieza 2 de la saga. Humaniza la ciencia del martes (campo EM del corazón) desde la experiencia de Javier.
+**Función en el plan:** Pieza 2 de la saga. Humaniza la ciencia del martes (campo EM del corazón) desde la experiencia CLÍNICA de Javier como naturópata.
 
 ---
 
 ## ASUNTO
 
-**Principal:** El día que me puse a medir mi propio corazón
-**A/B 1:** Lo que noto cuando entro en un sitio lleno de pantallas
-**A/B 2:** Mi corazón es eléctrico. Tardé años en entenderlo de verdad.
+**Principal:** He visto esto en cientos de personas
+**A/B 1:** Lo que me cuentan los electrohipersensibles que trato
+**A/B 2:** No me pasa a mí. Le pasa a cientos de pacientes míos.
 
 ## PREVIEW TEXT
 
-> No fue un susto. Fue una medición. Y lo cambió todo.
+> Llevo 15 años escuchando la misma frase. Ahora la ciencia la explica.
 
 ---
 
 ## BODY
 
-El martes te mandé ciencia.
+El martes te mandé ciencia. Estudios. Magnetómetros. El espín del electrón.
 
-Hoy te cuento lo que me pasa a mí.
+Hoy te cuento lo que veo yo. Sin bata.
 
-Llevo más de quince años midiendo entornos electromagnéticos. Casas, oficinas, consultas médicas, hoteles. He metido el medidor en sitios que te dejarían sin palabras.
+Soy naturópata. Y llevo quince años especializado en una cosa muy concreta: ayudar a personas electrohipersensibles.
 
-Pero el día que medí mi propio corazón fue diferente.
+Personas que entran en ciertos sitios y algo en su cuerpo cambia.
 
-No con un medidor de campo. Con un monitor de variabilidad de frecuencia cardíaca, durante una sesión de trabajo en una oficina con once pantallas encendidas, WiFi corporativo, tres puntos de acceso y luz LED a máxima intensidad.
+No te hablo de mí. A mí no me golpea con la intensidad con la que se lo he visto a ellos.
 
-Los datos eran los de alguien bajo estrés moderado-alto. Sin haberlo notado conscientemente.
+Te hablo de los cientos de personas que han pasado por mi consulta.
 
-Repetí la medición en casa, sin dispositivos activos cerca, luz natural, silencio electromagnético. Los datos eran los de alguien en calma.
+Una mujer que no pegaba ojo en su propio dormitorio, pero dormía del tirón en casa de su madre.
 
-Mismo día. La misma persona. Distintos entornos.
+Un hombre con el corazón acelerado solo cuando se sentaba en su despacho. En ningún otro sitio. Solo allí.
 
-Lo que el correo del martes explica como "coherencia cardíaca" yo lo había visto antes en datos. Pero verlo en mis propios datos fue distinto.
+Gente que me describía un peso en el pecho al entrar en un centro comercial. Y que se sentía rara diciéndolo en voz alta.
 
-Hay algo que noto también en el cuerpo, sin instrumentos.
+Durante años me contaron lo mismo, una y otra vez. Y yo no tenía una sola palabra científica para devolverles. Solo podía escuchar. Solo podía decirles: no estás loco.
 
-Cuando entro en un centro comercial grande, o en una sala de servidores, o en un vagón de tren lleno de móviles, siento algo en el pecho que no es ansiedad exactamente. Es como si algo estuviera ligeramente desajustado. Un peso leve. La sensación de que mi ritmo se está negociando con el entorno.
+Hace tres años empecé a medir los entornos donde vivían. Sus casas. Sus dormitorios. Sus oficinas.
 
-He aprendido a no ignorarlo.
+Y los números empezaron a contar una historia que encajaba demasiado bien con lo que ellos sentían.
 
-No te digo esto para que te alarmes. Te lo digo porque durante años lo descarté. Pensaba que era yo. Que era el café. Que era el cansancio.
+Entonces entendí lo que te conté el martes. Que el corazón tiene su propio campo eléctrico. Real. Medible. Y que el sitio donde estás forma parte de la física de ese campo.
 
-Luego entendí lo que el correo del martes te explica: que el corazón tiene su propio campo electromagnético. Que ese campo es físico, medible, real. Y que el entorno donde vives forma parte del contexto físico en el que ese campo funciona cada día.
+Eso no es esoterismo. Es un electrocardiograma.
 
-Eso no es conspiración. Es física.
+Lo que sienten cientos de personas que trato tiene un mecanismo físico detrás. El del martes.
 
-Y desde que lo entendí, cuido el campo de mi casa con la misma lógica con la que cuido lo que como.
-
-Si has notado algo parecido en ti y todavía no sabes cómo nombrarlo, el viernes te cuento qué puedes hacer.
-
-**[ Ver cómo proteger mi entorno → ]**
+Mañana te cuento qué hago con ellos. Y qué puedes hacer tú. Sin humo.
 
 Javier
 
@@ -63,16 +59,19 @@ Javier
 
 ## CTA BUTTON COPY
 
-**Ver cómo proteger mi entorno**
+— (sin botón en este envío; la venta es el viernes 23 con el EKO)
 
 ## P.S.
 
-Si aún no leíste el correo del martes sobre el corazón, el cerebro y el mecanismo de par radical, guárdatelo. Es denso, pero vale la pena.
+¿Tú también notas algo en el cuerpo al entrar en ciertos sitios y nunca supiste ponerle nombre? Respóndeme. Leo todos los correos, y este tema me interesa más que casi ningún otro.
 
 ---
 
 ## NOTAS DE IMPLEMENTACIÓN
 
-- ⚠️ Validar antes de enviar: ¿Javier ha medido alguna vez su VFC (variabilidad de frecuencia cardíaca)? Si no es literal, la anécdota es plausible y coherente con su perfil profesional, pero conviene que él la valide o ajuste el detalle de "once pantallas".
-- Smart Sending 48h. Excluir perfiles que recibieron el EPI del 19 may dentro de las últimas 48h (la saga va correlativa, pero respeta el cap por engagement).
-- CTA suave: relación > venta. La venta dura es el viernes 23 (EKO).
+- **Versión adaptada al caso real de Javier:** la autoridad viene de su trayectoria clínica como naturópata, NO de una experiencia personal de medirse el corazón.
+- **Plazos reales:** 15 años ayudando a personas electrohipersensibles · 3 años realizando mediciones de entornos.
+- Escenas de pacientes compuestas (no nombres reales) — dan carne sin inventar testimonios atribuibles.
+- Sin botón: mide reply rate, no CTR. Quien responda = lead caliente para flujo de consultoría/diagnóstico. Activar monitorización de bandeja 48-72h.
+- Smart Sending 48h. Excluir perfiles que recibieron el EPI del 19 may dentro de las últimas 48h.
+- Puente limpio al EKO del viernes 23 ("Mañana te cuento qué hago con ellos").
