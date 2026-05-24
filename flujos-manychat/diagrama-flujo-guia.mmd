@@ -1,48 +1,32 @@
-%% DIAGRAMA FLUJO MANYCHAT "GUÍA" — EKIO Electrosmog España
+%% DIAGRAMA FLUJO MANYCHAT "GUÍA — Manual Higiene EM" — EKIO (PUBLICADO/LIVE)
 %% Entregable 3 de 3 · Renderizar en cualquier visor Mermaid (flowchart TD)
 
 flowchart TD
-    %% ── TRIGGER ──
-    A["💬 Comentario con keyword<br/>GUÍA / GUIA / guia / MANUAL<br/>+ variantes sin tilde"] --> B["📩 Respuesta pública al comentario<br/>(rotar versión A / B)"]
-    B --> C["👋 MENSAJE 1 — Hook<br/>Electrosmog en casa 24h, no se ve<br/>¿Te paso el Manual?"]
+    %% ── TRIGGERS ──
+    T1["💬 Comentario en publicación/Reel<br/>GUÍA / GUIA / guía / guia / MANUAL / manual<br/>(todas las publicaciones)"] --> B["📩 Respuesta pública rotativa<br/>(3 versiones, anti-bot)"]
+    T2["✉️ DM directo<br/>el mensaje contiene las 6 keywords"] --> C
+    B --> C["👋 M1 — Hook<br/>Electrosmog en casa 24h<br/>¿Te paso el Manual?"]
 
-    %% ── CONFIRMACIÓN ──
+    %% ── CONFIRMACIÓN / RAMA ──
     C -->|📘 Sí, pásamelo| E
-    C -->|🤔 Cuéntame primero| D["ℹ️ MENSAJE 1-bis<br/>Micro-contexto del Manual"]
-    D -->|📘 Venga, pásamelo| E
+    C -->|🤔 Cuéntame primero| D["ℹ️ M1-bis<br/>Micro-contexto del Manual<br/>📘 Venga, pásamelo"]
+    D -->|converge| E
 
     %% ── ENTREGA ──
-    E["✅ MENSAJE 2 — ENTREGA<br/>📘 Manual de Higiene EM (enlace Drive)<br/>(ENLACE PRIMERO)"]
-    E -.->|dispara| K1(["📊 Klaviyo:<br/>manychat_lead_magnet_entregado"])
-    E -.->|tag| S1(["🛍️ Shopify: lead-manychat-manual-higiene<br/>🏷️ ManyChat: guia-higiene-entregada"])
+    E["✅ M2 — ENTREGA<br/>📘 Manual de Higiene EM<br/>(enlace Drive)"]
+    E -.->|aplica| S1(["🏷️ Tag: guia-higiene-entregada<br/>📝 keyword_origen = GUIA"])
 
-    %% ── DELAY + EMAIL OPCIONAL ──
-    E --> W["⏳ Delay 30 s"]
-    W --> F["📩 MENSAJE 3 — Email opcional<br/>¿Te apunto a ideas por email?"]
-
-    %% ── RAMAS ──
-    F -->|📩 Sí, apúntame| H["📧 MENSAJE 4 — Captura email<br/>User Input + microcopy RGPD"]
-    F -->|🙂 No, gracias| Z["🌿 Cierre elegante"]
-
-    %% ── EMAIL ──
-    H -->|deja email| I["✅ MENSAJE 5 — Confirmación"]
-    H -->|no responde| Z
-    I -.->|opt-in| K2(["📊 Klaviyo flujo:<br/>Nurture EMF hogar (confirmar Erick)"])
-    H -.->|tag| S3(["🏷️ email-capturado-ig-follower<br/>🛍️ lead-guia-email"])
-
-    %% ── FOLLOW-UP ──
-    E --> FU{"⏳ +24h<br/>¿tiene guia-higiene-entregada<br/>y NO email-capturado-ig-follower?"}
-    FU -->|sí| FUP["🔁 FOLLOW-UP +24h<br/>¿Router encendido de noche?"]
-    FU -->|no| X["⛔ No enviar follow-up"]
-    FUP -->|cualquier respuesta| F
-    FUP -.->|evento| K3(["📊 Klaviyo:<br/>manychat_followup_respondido"])
+    %% ── DELAY + CIERRE ──
+    E --> W["⏳ Pausa inteligente<br/>23 HORAS"]
+    W --> F["📖 M3 — Seguimiento + cierre<br/>¿Ya has leído el Manual?<br/>👉 electrosmogespana.com"]
+    F --> Z["🏁 FIN"]
 
     %% ── ESTILOS ──
     classDef trigger fill:#fde68a,stroke:#b45309,color:#000;
     classDef msg fill:#dbeafe,stroke:#1e40af,color:#000;
     classDef integ fill:#dcfce7,stroke:#15803d,color:#000;
     classDef close fill:#f3f4f6,stroke:#6b7280,color:#000;
-    class A,B trigger;
-    class C,D,E,F,H,I,FUP,W msg;
-    class K1,K2,K3,S1,S3 integ;
-    class Z,X,FU close;
+    class T1,T2,B trigger;
+    class C,D,E,F,W msg;
+    class S1 integ;
+    class Z close;
