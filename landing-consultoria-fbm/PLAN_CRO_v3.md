@@ -116,9 +116,9 @@ Una card por garantía:
 1. **Consultoría sin presión** — "30 min y si no tienes claridad, no te habremos hecho gastar ni un minuto"
 2. **Cero comisión** — "Cristhian no cobra comisión por panel vendido"
 3. **30 días de prueba** — "Si compras y no es para ti, devolución sin preguntas"
-4. **Garantía 5 años** — "Garantía técnica hardware Made in Spain"
+4. **Garantía 2 años** — "Garantía técnica hardware, diseñado en España"
 
-Cada una con icono (✓, €, 30, 5y), título y descripción corta.
+Cada una con icono (✓, €, 30, 2y), título y descripción corta.
 
 ### c) SCARCITY ÉTICA (real, no countdown falso)
 
