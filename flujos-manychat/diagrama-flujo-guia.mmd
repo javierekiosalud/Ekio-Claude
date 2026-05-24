@@ -1,0 +1,53 @@
+%% DIAGRAMA FLUJO MANYCHAT "GUÍA" — EKIO Electrosmog España
+%% Entregable 3 de 3 · Renderizar en cualquier visor Mermaid (flowchart TD)
+
+flowchart TD
+    %% ── TRIGGER ──
+    A["💬 Comentario con keyword<br/>GUÍA / GUIA / guia / quiero la guía<br/>+ variantes sin tilde"] --> B["📩 Respuesta pública al comentario<br/>(rotar versión A / B)"]
+    B --> C["👋 MENSAJE 1 — Hook<br/>Dato: el cerebro infantil absorbe más<br/>¿Te paso la guía?"]
+
+    %% ── CONFIRMACIÓN ──
+    C -->|📘 Sí, pásamela| E
+    C -->|🤔 Cuéntame primero| D["ℹ️ MENSAJE 1-bis<br/>Micro-contexto de la guía"]
+    D -->|📘 Venga, pásamela| E
+
+    %% ── ENTREGA ──
+    E["✅ MENSAJE 2 — ENTREGA<br/>📘 Enlace de la guía<br/>(ENLACE PRIMERO)"]
+    E -.->|dispara| K1(["📊 Klaviyo:<br/>manychat_lead_magnet_entregado"])
+    E -.->|tag| S1(["🛍️ Shopify: lead-manychat-guia<br/>🏷️ ManyChat: guia_entregada"])
+
+    %% ── DELAY + PUENTE ──
+    E --> W["⏳ Delay 30 s"]
+    W --> F["🌉 MENSAJE 3 — Puente<br/>¿Te ayudamos a adaptarlo?"]
+
+    %% ── RAMAS ──
+    F -->|💬 Sí, por WhatsApp| G["💬 MENSAJE 4A<br/>Botón wa.me con texto pre-rellenado"]
+    F -->|📩 Mejor por email| H["📩 MENSAJE 4B — Cierre suave<br/>Email OPCIONAL + microcopy RGPD"]
+    F -.->|sin respuesta| Z["🌿 Cierre elegante"]
+
+    %% ── WHATSAPP ──
+    G -->|click| WA(["📱 WhatsApp ATENDIDO POR HUMANO<br/>mensaje con contexto del lead"])
+    G -.->|tag| S2(["🏷️ guia_whatsapp_click<br/>(corta follow-up)"])
+
+    %% ── EMAIL ──
+    H -->|deja email| I["✅ MENSAJE 5 — Confirmación"]
+    H -->|no responde| Z
+    I -.->|opt-in| K2(["📊 Klaviyo flujo:<br/>Lead magnet niños - Nurture EMF"])
+    H -.->|tag| S3(["🏷️ guia_email_dado<br/>🛍️ lead-guia-email"])
+
+    %% ── FOLLOW-UP ──
+    E --> FU{"⏳ +24h<br/>¿tiene guia_entregada<br/>y NO guia_whatsapp_click?"}
+    FU -->|sí| FUP["🔁 FOLLOW-UP +24h<br/>¿Router encendido de noche?"]
+    FU -->|no| X["⛔ No enviar follow-up"]
+    FUP -->|cualquier respuesta| G
+    FUP -.->|evento| K3(["📊 Klaviyo:<br/>manychat_followup_respondido"])
+
+    %% ── ESTILOS ──
+    classDef trigger fill:#fde68a,stroke:#b45309,color:#000;
+    classDef msg fill:#dbeafe,stroke:#1e40af,color:#000;
+    classDef integ fill:#dcfce7,stroke:#15803d,color:#000;
+    classDef close fill:#f3f4f6,stroke:#6b7280,color:#000;
+    class A,B trigger;
+    class C,D,E,F,G,H,I,FUP,W msg;
+    class K1,K2,K3,S1,S2,S3,WA integ;
+    class Z,X,FU close;
