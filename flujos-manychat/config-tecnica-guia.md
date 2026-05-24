@@ -86,6 +86,8 @@ Estado real de la cuenta "Electrosmog España" (verificado vía API):
 |---|---|---|
 | `guia-higiene-entregada` | ✅ Ya existe (id 86482504) | Condición de entrada al follow-up +24h |
 | `email-capturado-ig-follower` | ✅ Ya existe (id 86482505) | Marca opt-in de email · corta el follow-up +24h |
+| `lead-guia-email` | ✅ Creado (id 88252550) | Lead que dejó email (M4) |
+| `lead-guia-frio` | ✅ Creado (id 88252551) | Lead que recibió el manual pero no dejó email |
 | `guia-whatsapp-clic` | ✅ Creado (id 88252056) | ⚠️ **No usado** en la versión sin WhatsApp. Reservado por si se reactiva |
 
 > Convención de la cuenta = **kebab-case** (`guia-higiene-entregada`,
