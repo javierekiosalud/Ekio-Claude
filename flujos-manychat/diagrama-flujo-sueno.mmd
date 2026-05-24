@@ -1,0 +1,32 @@
+%% DIAGRAMA FLUJO MANYCHAT "SUEÑO — Guía del Sueño" — EKIO (PUBLICADO/LIVE)
+%% Entregable 3 de 3 · Renderizar en cualquier visor Mermaid (flowchart TD)
+
+flowchart TD
+    %% ── TRIGGERS ──
+    T1["💬 Comentario en publicación/Reel<br/>SUEÑO / sueño / SUENO / sueno / DORMIR / dormir<br/>(todas las publicaciones)"] --> B["📩 Respuesta pública rotativa<br/>(3 versiones, anti-bot)"]
+    T2["✉️ DM directo<br/>el mensaje contiene las 6 keywords"] --> C
+    B --> C["👋 M1 — Hook<br/>Electrosmog fragmenta tu sueño 24h<br/>¿Te paso la Guía?"]
+
+    %% ── CONFIRMACIÓN / RAMA ──
+    C -->|😴 Sí, mándamela| E
+    C -->|🤔 Cuéntame más| D["ℹ️ M1-bis<br/>Micro-contexto de la Guía<br/>😴 Claro, mándamela"]
+    D -->|converge| E
+
+    %% ── ENTREGA ──
+    E["✅ M2 — ENTREGA<br/>📘 Guía del Sueño sin Electrosmog<br/>(enlace Drive)"]
+    E -.->|aplica| S1(["🏷️ Tag: guia-sueno-entregada<br/>📝 keyword_origen = SUENO"])
+
+    %% ── DELAY + CIERRE ──
+    E --> W["⏳ Pausa inteligente<br/>23 HORAS"]
+    W --> F["📖 M3 — Seguimiento + cierre<br/>¿Ya has leído la Guía?<br/>👉 electrosmogespana.com"]
+    F --> Z["🏁 FIN"]
+
+    %% ── ESTILOS ──
+    classDef trigger fill:#fde68a,stroke:#b45309,color:#000;
+    classDef msg fill:#dbeafe,stroke:#1e40af,color:#000;
+    classDef integ fill:#dcfce7,stroke:#15803d,color:#000;
+    classDef close fill:#f3f4f6,stroke:#6b7280,color:#000;
+    class T1,T2,B trigger;
+    class C,D,E,F,W msg;
+    class S1 integ;
+    class Z close;
