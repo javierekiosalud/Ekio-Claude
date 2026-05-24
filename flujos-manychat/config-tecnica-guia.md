@@ -23,20 +23,20 @@ recibe el enlace del manual (no cuando comenta, sino cuando confirma y recibe).
 | `lead_magnet` | string | `manual_higiene_electromagnetica` (fijo) | Siempre, en M2 |
 | `keyword_activadora` | string | `GUIA` (normalizado, sin tilde) | Siempre, en M2 |
 | `canal_origen` | string | `instagram_dm` | Siempre, en M2 |
-| `email` | string | el correo capturado · vacío si no lo da | Solo si pasa por M4B |
-| `captura_email_opcional` | boolean | `true` / `false` | `true` si dio email en M4B; `false` por defecto |
-| `via_preferida` | string | `whatsapp` / `email` / `ninguna` | Según botón pulsado en M3 |
-| `whatsapp_click` | boolean | `true` / `false` | `true` si pulsó botón wa.me en M4A |
+| `email` | string | el correo capturado · vacío si no lo da | Solo si pasa por M4 |
+| `captura_email_opcional` | boolean | `true` / `false` | `true` si dio email en M4; `false` por defecto |
+| `via_preferida` | string | `email` / `ninguna` | Según botón pulsado en M3 |
 | `situacion_router` | string | `si_encendido` / `apagado` / `no_pensado` / vacío | Solo si responde al follow-up +24h |
 | `fecha_entrega` | datetime | timestamp ISO | Siempre, en M2 |
 
-> **Audiencia hogar/adultos.** Se eliminó la propiedad `tiene_ninos` del diseño
-> anterior: este manual NO es el lead magnet de niños (ese es otro flujo
-> distinto, "Guía Niños - Higiene Electromagnética").
+> **Audiencia hogar/adultos.** Se eliminó la propiedad `tiene_ninos`: este manual
+> NO es el lead magnet de niños (ese es otro flujo distinto, "Guía Niños").
+> **Versión sin WhatsApp:** eliminada la propiedad `whatsapp_click`; `via_preferida`
+> solo toma `email` o `ninguna`.
 
-> **Nota de privacidad:** si el usuario NO da email (rama WhatsApp o cierre),
-> el evento Klaviyo se dispara igualmente pero el perfil queda como
-> anónimo/identificado por ManyChat ID, sin email. Klaviyo solo activará el
+> **Nota de privacidad:** si el usuario NO da email (rama "No, gracias" o cierre),
+> el evento Klaviyo se dispara igualmente pero el perfil queda
+> identificado solo por ManyChat ID, sin email. Klaviyo solo activará el
 > flujo de email cuando exista `email`.
 
 ### EVENTO SECUNDARIO (follow-up)
@@ -59,9 +59,9 @@ recibe el enlace del manual (no cuando comenta, sino cuando confirma y recibe).
 > manual necesita un flujo de nurture para hogar/adultos. Si no existe, hay
 > que crearlo o filtrar el flujo por la propiedad `lead_magnet` para segmentar.
 >
-> Quien elige WhatsApp y NO deja email **no entra** en el flujo de email
-> Klaviyo (no tenemos email). Su seguimiento es 100% humano vía WhatsApp +
-> el follow-up +24h de ManyChat. Esto es correcto y deliberado.
+> Quien NO deja email **no entra** en el flujo de email Klaviyo (no tenemos
+> email). Su único seguimiento es el follow-up +24h dentro de ManyChat.
+> Esto es correcto y deliberado.
 
 ---
 
@@ -70,9 +70,8 @@ recibe el enlace del manual (no cuando comenta, sino cuando confirma y recibe).
 | Tag Shopify | Condición de asignación |
 |---|---|
 | `lead-manychat-manual-higiene` | Al disparar `manychat_lead_magnet_entregado` (M2). Todos los que reciben el manual |
-| `lead-guia-whatsapp` | Si pulsa el botón wa.me en M4A (`whatsapp_click = true`) |
-| `lead-guia-email` | Si deja email en M4B (`captura_email_opcional = true`) |
-| `lead-guia-frio` | Si recibe el manual pero ni WhatsApp ni email (solo contenido) |
+| `lead-guia-email` | Si deja email en M4 (`captura_email_opcional = true`) |
+| `lead-guia-frio` | Si recibe el manual pero no deja email (solo contenido) |
 
 > Los tags Shopify solo se materializan en un *customer* de Shopify cuando
 > hay email coincidente. Para leads sin email, el tag vive en ManyChat y
@@ -86,8 +85,8 @@ Estado real de la cuenta "Electrosmog España" (verificado vía API):
 | Tag ManyChat | Estado | Uso |
 |---|---|---|
 | `guia-higiene-entregada` | ✅ Ya existe (id 86482504) | Condición de entrada al follow-up +24h |
-| `guia-whatsapp-clic` | ✅ Creado (id 88252056) | **Corta** el follow-up +24h (ya pasó a humano) |
-| `email-capturado-ig-follower` | ✅ Ya existe (id 86482505) | Marca opt-in de email |
+| `email-capturado-ig-follower` | ✅ Ya existe (id 86482505) | Marca opt-in de email · corta el follow-up +24h |
+| `guia-whatsapp-clic` | ✅ Creado (id 88252056) | ⚠️ **No usado** en la versión sin WhatsApp. Reservado por si se reactiva |
 
 > Convención de la cuenta = **kebab-case** (`guia-higiene-entregada`,
 > `whatsapp-lead`…), no snake_case. Los tags nuevos siguen esa convención.
@@ -98,41 +97,21 @@ Estado real de la cuenta "Electrosmog España" (verificado vía API):
 |---|---|---|---|
 | `keyword_origen` | text | ✅ Ya existe (id 14455987) | `GUIA` |
 | `canal_captacion` | text | ✅ Ya existe (id 14455992) | `instagram` |
-| `via_preferida` | text | ✅ Creado (id 14625216) | `whatsapp` / `email` / `ninguna` |
+| `via_preferida` | text | ✅ Creado (id 14625216) | `email` / `ninguna` |
 | `situacion_router` | text | ✅ Creado (id 14625217) | `si_encendido` / `apagado` / `no_pensado` |
 
 ---
 
-## C) ESTRUCTURA DEL ENLACE wa.me (mensaje pre-rellenado)
+## C) ENTREGA DENTRO DE MANYCHAT (sin WhatsApp)
 
-**Formato base:**
-```
-https://wa.me/[NÚMERO_WHATSAPP_EKIO]?text=[MENSAJE_URL_ENCODED]
-```
+El manual se entrega exclusivamente en el DM de ManyChat mediante el enlace de
+Drive (Mensaje 2). **No hay paso a WhatsApp** en esta versión del flujo.
 
-- `[NÚMERO_WHATSAPP_EKIO]` → **PLACEHOLDER**. Formato internacional sin `+`,
-  sin espacios ni guiones (ej. España: `34XXXXXXXXX`). No inventar.
-
-**Mensaje pre-rellenado (texto legible, antes de codificar):**
-```
-Hola EKIO 👋 Vengo del Manual de Higiene Electromagnética de Instagram.
-Me gustaría que me ayudéis a adaptarlo a mi casa.
-```
-
-**Mismo mensaje URL-encoded (listo para pegar tras `?text=`):**
-```
-Hola%20EKIO%20%F0%9F%91%8B%20Vengo%20del%20Manual%20de%20Higiene%20Electromagn%C3%A9tica%20de%20Instagram.%20Me%20gustar%C3%ADa%20que%20me%20ayud%C3%A9is%20a%20adaptarlo%20a%20mi%20casa.
-```
-
-**URL final de ejemplo (con placeholder de número):**
-```
-https://wa.me/[NÚMERO_WHATSAPP_EKIO]?text=Hola%20EKIO%20%F0%9F%91%8B%20Vengo%20del%20Manual%20de%20Higiene%20Electromagn%C3%A9tica%20de%20Instagram.%20Me%20gustar%C3%ADa%20que%20me%20ayud%C3%A9is%20a%20adaptarlo%20a%20mi%20casa.
-```
-
-> **Por qué este texto:** da al equipo humano el contexto completo —de qué
-> campaña viene y qué quiere— para responder sin tener que preguntar
-> "¿de qué vienes?". Reduce fricción y acelera la primera respuesta (< 1 min,
-> benchmark de la skill).
+- Enlace en el botón/texto del Mensaje 2 (ver Entregable 1, M2 y sección F).
+- El equipo no necesita atender WhatsApp para este flujo: la entrega es
+  automática y autónoma.
+- Si en el futuro se quiere reactivar el puente a WhatsApp, el tag
+  `guia-whatsapp-clic` (id 88252056) ya está creado y disponible.
 
 ---
 
@@ -170,16 +149,16 @@ QA FLUJO "GUÍA" — verificar antes de publicar
 □ 3. Mensaje 2: el enlace de Drive abre el manual SIN pedir permiso/login
       (probado en incógnito + móvil; permiso = "Cualquiera con el enlace").
 □ 4. Delay de 30 s configurado entre Mensaje 2 y Mensaje 3 (no 30 min).
-□ 5. Botón wa.me abre WhatsApp con el texto pre-rellenado correcto
-      y el número [NÚMERO_WHATSAPP_EKIO] real (probado en móvil).
-□ 6. Campo de email (M4B) lleva el microcopy RGPD visible debajo.
+□ 5. Mensaje 3 (email opcional): los 2 botones llevan a captura de email
+      y a cierre elegante respectivamente. SIN paso a WhatsApp.
+□ 6. Campo de email (M4) lleva el microcopy RGPD visible debajo.
 □ 7. Evento Klaviyo "manychat_lead_magnet_entregado" llega con todas
       las propiedades (probar con cuenta de test y ver en Klaviyo).
-□ 8. Tags ManyChat se aplican en cada rama (guia-higiene-entregada,
-      guia-whatsapp-clic, email-capturado-ig-follower) y custom fields
+□ 8. Tags ManyChat se aplican (guia-higiene-entregada en M2,
+      email-capturado-ig-follower en M4) y custom fields
       via_preferida / situacion_router se rellenan.
 □ 9. Follow-up +24h SOLO se envía a quien tiene guia-higiene-entregada
-      y NO tiene guia-whatsapp-clic (probar ambas rutas).
+      y NO tiene email-capturado-ig-follower (probar ambas rutas).
 □ 10. Cierre elegante y rama "Ahora no" probados: nadie queda en un
       callejón sin salida ni recibe mensajes en bucle.
 ──────────────────────────────────────────────

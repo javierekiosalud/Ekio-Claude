@@ -18,11 +18,15 @@
 
 | # | Decisión | Implicación de copy |
 |---|---|---|
-| 1 | **Enlace primero** | La guía se entrega en el Mensaje 2, antes de pedir nada |
-| 2 | **Email opcional** | Solo se ofrece en la rama 4B a quien prefiere "leer primero" |
-| 3 | **WhatsApp vía botón wa.me** | Botón que abre WhatsApp con texto pre-rellenado. No pedimos número |
-| 4 | **WhatsApp atendido por humano** | El texto pre-rellenado da contexto al equipo (no preguntan "¿de qué vienes?") |
-| 5 | **Delay de 30 s** | Entre Mensaje 2 (entrega) y Mensaje 3 (puente a WhatsApp) |
+| 1 | **Enlace primero** | El manual se entrega en el Mensaje 2, antes de pedir nada |
+| 2 | **Entrega 100% en ManyChat** | El usuario recibe el enlace de Drive en el propio DM. SIN paso a WhatsApp |
+| 3 | **Email opcional** | Tras la entrega se ofrece dejar el email para nurture. No es obligatorio |
+| 4 | **Delay de 30 s** | Entre Mensaje 2 (entrega) y Mensaje 3 (oferta de email) |
+
+> **Flujo simplificado (sin WhatsApp).** Versión anterior contemplaba un puente
+> a WhatsApp vía wa.me; se elimina por decisión de Javier para que la entrega
+> sea rápida y autónoma dentro de ManyChat. Los leads se captan por otra vía,
+> así que este flujo solo entrega valor + captura email opcional.
 
 > **Nota de coherencia con el Flujo 3 base de la skill:** el flujo base
 > pedía el email *antes* de entregar. Aquí lo invertimos a propósito:
@@ -184,63 +188,36 @@ Léelo con calma. No hace falta que hagas nada más ahora mismo 🙂
 
 ---
 
-### MENSAJE 3 — PREGUNTA PUENTE A WHATSAPP (delay 30 s)
+### MENSAJE 3 — OFERTA DE EMAIL OPCIONAL (delay 30 s)
 **Bloque ManyChat:** Delay 30 s → Texto + 2 botones
 
 ```
 Una cosa más, [Nombre] 👇
 
-Cada casa es un mundo: router, dispositivos, dónde duermes…
-Lo que más protege es adaptar el manual a TU situación.
+Si quieres, te mando de vez en cuando ideas prácticas para
+reducir el electrosmog en casa (sin spam, te sales cuando quieras).
 
-¿Quieres que te ayudemos a hacerlo, sin coste?
+¿Te dejo apuntado?
 
-[💬 Sí, por WhatsApp]   [📩 Mejor por email]
+[📩 Sí, apúntame]   [🙂 No, gracias]
 ```
-- Botón **[💬 Sí, por WhatsApp]** → Mensaje 4A
-- Botón **[📩 Mejor por email]** → Mensaje 4B
+- Botón **[📩 Sí, apúntame]** → Mensaje 4 (captura de email)
+- Botón **[🙂 No, gracias]** → Cierre elegante
 - **Delay:** insertar bloque "Delay" de **30 segundos** antes de este mensaje.
 
-> El delay de 30 s da tiempo a procesar que YA ha recibido algo. Pedir el
-> siguiente paso de inmediato se siente a embudo agresivo; esperar se siente
-> a conversación. Regla cumplida: 2 botones, cuerpo breve.
+> El delay de 30 s da tiempo a procesar que YA ha recibido el manual. Pedir
+> algo de inmediato se siente a embudo agresivo; esperar se siente a
+> conversación. Regla cumplida: 2 botones, cuerpo breve.
 
 ---
 
-### MENSAJE 4A — APERTURA DE WHATSAPP (botón wa.me)
-**Bloque ManyChat:** Texto + 1 botón tipo "URL"
-
-```
-¡Genial! 🙌
-
-Pulsa aquí y se abre WhatsApp con un mensaje ya escrito.
-Solo tienes que darle a enviar y te atendemos personalmente
-(personas reales, no bots 🙂).
-
-[💬 Abrir WhatsApp]
-```
-- Botón **[💬 Abrir WhatsApp]** → tipo **URL**, apunta a `wa.me` con texto
-  pre-rellenado (estructura exacta en Entregable 2, sección c).
-- **Acción simultánea:** tag ManyChat `guia-whatsapp-clic` (corta el follow-up +24h)
-  y set custom field `via_preferida = whatsapp`.
-- **NO pedir número.** El usuario abre su propio WhatsApp.
-
-> El mensaje pre-rellenado lleva contexto ("vengo del Manual de Higiene
-> Electromagnética de Instagram") para que el equipo humano responda sin
-> preguntar de qué viene.
-
----
-
-### MENSAJE 4B — CIERRE SUAVE + EMAIL OPCIONAL
+### MENSAJE 4 — CAPTURA DE EMAIL (rama "Sí, apúntame")
 **Bloque ManyChat:** Texto + campo de captura Email (User Input)
 
 ```
-Sin problema 🙂 Lo dejamos a tu ritmo.
+¡Genial! 📧
 
-Si quieres, te dejo el email donde mandarte de vez en cuando
-ideas prácticas para una casa más sana (puedes salir cuando quieras).
-
-📧 Déjame tu correo aquí debajo si te apetece:
+Déjame tu correo aquí debajo y te llegan solo cosas útiles:
 ```
 - **Campo:** User Input → Email → guarda en `email`.
 - **Microcopy RGPD (texto obligatorio bajo el campo):**
@@ -249,7 +226,7 @@ ideas prácticas para una casa más sana (puedes salir cuando quieras).
   Puedes darte de baja cuando quieras. Más info en electrosmogespana.com/privacidad
   ```
 - Si captura email → Mensaje 5
-- Si pulsa "saltar" / no responde → Cierre elegante
+- Si no responde → Cierre elegante
 - **Acción al capturar:** tag ManyChat `email-capturado-ig-follower` (ya existe);
   set `via_preferida = email`; actualizar evento Klaviyo con `email` y propiedad
   `captura_email_opcional=true`; añadir a lista Klaviyo de nurture.
@@ -263,10 +240,8 @@ ideas prácticas para una casa más sana (puedes salir cuando quieras).
 ✅ ¡Anotado, [Nombre]!
 
 A partir de ahora te llegan cosas útiles, no spam.
-Y si en algún momento quieres que te echemos una mano,
-escríbenos por aquí o por WhatsApp cuando quieras.
-
-Cuida de los tuyos 🌿
+Y si te surge cualquier duda con el manual, escríbeme por aquí
+cuando quieras 🌿
 ```
 - **Acción:** confirmar opt-in en Klaviyo (entra en el flujo de nurture EMF para
   hogar/adultos — nombre exacto a confirmar con Erick; ver Entregable 2 (a)).
@@ -291,7 +266,7 @@ Un abrazo 🌿
 ### FOLLOW-UP AUTOMÁTICO +24 h
 **Bloque ManyChat:** Delay 24 h → condición → Texto + 3 botones
 **Condición de envío:** tiene tag `guia-higiene-entregada` **Y NO** tiene tag
-`guia-whatsapp-clic` (es decir: recibió el manual pero no pasó a WhatsApp).
+`email-capturado-ig-follower` (recibió el manual pero no dejó email: reenganche).
 
 ```
 Hola [Nombre] 👋
@@ -305,7 +280,7 @@ encendido toda la noche a pocos metros de la cama.
 
 [😬 Sí, lo tengo así]  [✅ No, lo apago]  [❓ No lo había pensado]
 ```
-- Cualquier respuesta → reactiva conversación → ofrecer WhatsApp de nuevo (reusar Mensaje 4A).
+- Cualquier respuesta → reactiva conversación → volver a ofrecer el email opcional (reusar Mensaje 4).
 - **Acción:** set custom field `situacion_router` (valor según botón) y disparar
   evento Klaviyo `manychat_followup_respondido` con esa propiedad.
 
@@ -323,13 +298,12 @@ encendido toda la noche a pocos metros de la cama.
 | Resp. pública | Comment-to-DM (Growth Tool) | Inmediato al comentario; rotar A/B |
 | M1 Hook | Texto + 2 botones | Inmediato al trigger |
 | M1-bis | Texto + 1 botón | Solo rama "Cuéntame primero" |
-| M2 Entrega | Texto + enlace | Inmediato tras confirmar · dispara evento Klaviyo + tags |
-| M3 Puente | Texto + 2 botones | **Delay 30 s** antes del bloque |
-| M4A WhatsApp | Texto + botón URL (wa.me) | Rama "Sí, por WhatsApp" · tag `guia-whatsapp-clic` |
-| M4B Email | Texto + User Input (Email) | Rama "Mejor por email" · microcopy RGPD obligatorio |
+| M2 Entrega | Texto + enlace Drive | Inmediato tras confirmar · dispara evento Klaviyo + tags |
+| M3 Email opcional | Texto + 2 botones | **Delay 30 s** antes del bloque |
+| M4 Email | Texto + User Input (Email) | Rama "Sí, apúntame" · microcopy RGPD obligatorio |
 | M5 Confirmación | Texto | Solo si capturó email |
-| Cierre elegante | Texto, sin botones | Rama "Ahora no" / inactividad |
-| Follow-up +24h | Delay 24 h + condición de tags | `guia-higiene-entregada` Y NO `guia-whatsapp-clic` |
+| Cierre elegante | Texto, sin botones | Rama "No, gracias" / inactividad |
+| Follow-up +24h | Delay 24 h + condición de tags | `guia-higiene-entregada` Y NO `email-capturado-ig-follower` |
 
 **Reglas de la skill aplicadas:**
 - Máximo 2 botones por mensaje (excepción justificada: diagnóstico de 3 opciones).
