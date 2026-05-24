@@ -269,7 +269,7 @@ fbq('track', 'ViewContent', {content_name: 'Landing Consultoria FBM'});
 
   /* ===== EXPLICACIÓN ===== */
   .explicacion {
-    background: var(--bg2);
+    background: var(--bg);
     border-top: 1px solid var(--border-soft);
     border-bottom: 1px solid var(--border-soft);
   }
@@ -291,7 +291,7 @@ fbq('track', 'ViewContent', {content_name: 'Landing Consultoria FBM'});
 
   /* ===== ESPECTRO SOLAR (diferenciador clave) ===== */
   .espectro {
-    background: var(--bg);
+    background: var(--bg2);
     border-bottom: 1px solid var(--border-soft);
   }
   .espectro h2 { text-align: center; max-width: 28ch; margin-left: auto; margin-right: auto; }
@@ -720,10 +720,24 @@ fbq('track', 'ViewContent', {content_name: 'Landing Consultoria FBM'});
   .modelo-specs li.highlight { color: var(--gold); font-weight: 600; }
   .modelo-specs li.highlight::before { color: var(--gold); }
 
-  .modelo-cta {
+  .modelo-price {
     margin-top: auto;
+    font-size: 22px;
+    font-weight: 800;
+    color: var(--text);
+    letter-spacing: -0.01em;
+    padding-top: 8px;
+  }
+  .modelo-price span {
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--text-dim);
+    letter-spacing: 0;
+  }
+  .modelo-cta {
     text-align: center;
     padding-top: 16px;
+    margin-top: 16px;
     border-top: 1px solid var(--border);
   }
   .modelo-cta a {
@@ -1179,6 +1193,30 @@ fbq('track', 'ViewContent', {content_name: 'Landing Consultoria FBM'});
 </section>
 
 <!-- ============================================
+     VÍDEO (subido — justo tras el reconocimiento)
+============================================ -->
+<section id="video" class="video-section">
+  <div class="container">
+    <div style="text-align:center;">
+      <span class="block-eyebrow">3 minutos · sin venta</span>
+    </div>
+    <h2 style="text-align:center;">Cristhian te lo explica en su voz</h2>
+
+    <div class="video-wrap">
+      <!-- ⚠️ Sustituir por iframe real:
+           YouTube: <iframe src="https://www.youtube.com/embed/VIDEO_ID?rel=0" allowfullscreen></iframe>
+           Vimeo:   <iframe src="https://player.vimeo.com/video/VIDEO_ID" allowfullscreen></iframe> -->
+      <div class="video-placeholder">
+        <div class="play-icon"></div>
+        <strong style="color: var(--text); font-size: 16px;">Vídeo 3 min · Cristhian de Moya</strong>
+        <span style="margin-top: 6px; font-size: 13px;">(En producción — sustituir embed por URL real)</span>
+      </div>
+    </div>
+    <p class="video-caption">3 minutos. Sin venta. Solo contexto para que entiendas si esto tiene sentido para tu caso.</p>
+  </div>
+</section>
+
+<!-- ============================================
      EXPLICACIÓN
 ============================================ -->
 <section class="explicacion">
@@ -1249,32 +1287,8 @@ fbq('track', 'ViewContent', {content_name: 'Landing Consultoria FBM'});
     </div>
 
     <p class="espectro-cierre">
-      Otros paneles te dan rojo e infrarrojo. <strong>EKIO Light te da el sol completo en tu salón.</strong> Esa es la diferencia — y por eso la tenemos patentada.
+      Otros paneles te dan rojo e infrarrojo. <strong>EKIO Light te da el sol completo en tu salón.</strong> Esa es la diferencia — y por eso la tenemos patentada. El modelo <strong>Bio Spectrum 11</strong> recrea el espectro solar completo, del UV-B al infrarrojo profundo.
     </p>
-  </div>
-</section>
-
-<!-- ============================================
-     VÍDEO
-============================================ -->
-<section id="video" class="video-section">
-  <div class="container">
-    <div style="text-align:center;">
-      <span class="block-eyebrow">3 minutos · sin venta</span>
-    </div>
-    <h2 style="text-align:center;">Cristhian te lo explica en su voz</h2>
-
-    <div class="video-wrap">
-      <!-- ⚠️ Sustituir por iframe real:
-           YouTube: <iframe src="https://www.youtube.com/embed/VIDEO_ID?rel=0" allowfullscreen></iframe>
-           Vimeo:   <iframe src="https://player.vimeo.com/video/VIDEO_ID" allowfullscreen></iframe> -->
-      <div class="video-placeholder">
-        <div class="play-icon"></div>
-        <strong style="color: var(--text); font-size: 16px;">Vídeo 3 min · Cristhian de Moya</strong>
-        <span style="margin-top: 6px; font-size: 13px;">(En producción — sustituir embed por URL real)</span>
-      </div>
-    </div>
-    <p class="video-caption">3 minutos. Sin venta. Solo contexto para que entiendas si esto tiene sentido para tu caso.</p>
   </div>
 </section>
 
@@ -1387,34 +1401,35 @@ fbq('track', 'ViewContent', {content_name: 'Landing Consultoria FBM'});
       <span class="block-eyebrow">la gama ekio light</span>
     </div>
     <h2>Tres modelos. Un objetivo: devolverte la luz que necesitas.</h2>
-    <p class="lead">Cada caso es distinto. Por eso ofrecemos tres niveles, desde el panel para empezar hasta el modelo con espectro solar completo. Cristhian te ayuda a elegir el adecuado en tu consultoría.</p>
+    <p class="lead">Cada caso es distinto. Por eso la gama EKIO Light tiene tres niveles, del panel para empezar al modelo profesional con espectro solar completo. Cristhian te ayuda a elegir el adecuado en tu consultoría — sin que pagues de más.</p>
 
     <div class="modelos-grid">
-      <!-- MODELO 1 -->
+      <!-- DEEP 5 -->
       <div class="modelo-card">
         <div class="modelo-foto">
-          <!-- ⚠️ Sustituir por foto real: <img src="ekio-light-essential.jpg" alt="EKIO Light Essential"> -->
+          <!-- ⚠️ Sustituir por foto real: <img src="deep5_main.png" alt="Panel Ekio Light Deep 5"> -->
           <div class="modelo-foto-icon">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" stroke="#E84A4A"/><circle cx="12" cy="12" r="4" fill="#E84A4A"/></svg>
           </div>
-          <span>Foto Essential — pendiente</span>
+          <span>Foto Deep 5 — pendiente</span>
         </div>
         <div class="modelo-body">
-          <div class="modelo-name">EKIO Light ESSENTIAL</div>
-          <div class="modelo-tagline">Para empezar con base científica</div>
+          <div class="modelo-name">DEEP 5</div>
+          <div class="modelo-tagline">Nivel entrada · Sueño, energía y metabolismo</div>
           <ul class="modelo-specs">
-            <li>Luz roja 660 nm</li>
-            <li>Infrarrojo cercano 850 nm</li>
-            <li>Uso individual</li>
-            <li>Tamaño compacto</li>
+            <li>70 LEDs · 5 longitudes de onda</li>
+            <li>630 · 660 · 727 · 810 · 850 nm</li>
+            <li class="highlight">727 nm: activa la leptina y el metabolismo</li>
+            <li>Ideal para empezar: sueño y energía</li>
           </ul>
+          <div class="modelo-price">650 € <span>· o desde 217 €/mes</span></div>
           <div class="modelo-cta">
             <a href="#reservar">Saber si es para mí →</a>
           </div>
         </div>
       </div>
 
-      <!-- MODELO 2 - BESTSELLER -->
+      <!-- BIO REGEN 7 - BESTSELLER -->
       <div class="modelo-card featured">
         <div class="modelo-badge bestseller">⭐ Más vendido</div>
         <div class="modelo-foto">
@@ -1422,45 +1437,46 @@ fbq('track', 'ViewContent', {content_name: 'Landing Consultoria FBM'});
           <div class="modelo-foto-icon">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2" stroke="#E84A4A"/><circle cx="8" cy="12" r="3" fill="#E84A4A"/><circle cx="16" cy="12" r="3" fill="#E84A4A"/></svg>
           </div>
-          <span>Foto Dual — pendiente</span>
+          <span>Foto Bio Regen 7 — pendiente</span>
         </div>
         <div class="modelo-body">
-          <div class="modelo-name">EKIO Light DUAL</div>
-          <div class="modelo-tagline">Uso familiar o corporal completo</div>
+          <div class="modelo-name">BIO REGEN 7</div>
+          <div class="modelo-tagline">Nivel intermedio · Regeneración, piel y dolor</div>
           <ul class="modelo-specs">
-            <li>Luz roja 660 nm</li>
-            <li>Infrarrojo cercano 850 nm</li>
-            <li>Mayor área de cobertura</li>
-            <li>Uso por toda la familia</li>
-            <li>Modo automático por ciclos</li>
+            <li>70 LEDs · 7 longitudes de onda</li>
+            <li class="highlight">+ Azul antibacteriano 485 nm</li>
+            <li class="highlight">+ Infrarrojo profundo 940 nm</li>
+            <li>Piel, tejido conectivo y músculo profundo</li>
+            <li>Ideal: regeneración, dolor y deporte</li>
           </ul>
+          <div class="modelo-price">970 € <span>· o desde 323 €/mes</span></div>
           <div class="modelo-cta">
             <a href="#reservar">Saber si es para mí →</a>
           </div>
         </div>
       </div>
 
-      <!-- MODELO 3 - PATENTADO -->
+      <!-- BIO SPECTRUM 11 - ESPECTRO COMPLETO -->
       <div class="modelo-card featured">
-        <div class="modelo-badge patented">🛡️ Patentado · Único en Europa</div>
+        <div class="modelo-badge patented">🛡️ Espectro solar completo</div>
         <div class="modelo-foto">
           <!-- ⚠️ Sustituir por foto real -->
           <div class="modelo-foto-icon">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9" stroke="#E0B43A"/><circle cx="12" cy="12" r="4" fill="#E0B43A"/><path d="M12 1v2M12 21v2M1 12h2M21 12h2M4.2 4.2l1.4 1.4M18.4 18.4l1.4 1.4M4.2 19.8l1.4-1.4M18.4 5.6l1.4-1.4" stroke="#E0B43A" stroke-linecap="round"/></svg>
           </div>
-          <span>Foto Solar Full — pendiente</span>
+          <span>Foto Bio Spectrum 11 — pendiente</span>
         </div>
         <div class="modelo-body">
-          <div class="modelo-name">EKIO Light SOLAR FULL</div>
-          <div class="modelo-tagline">Espectro solar completo · Tecnología patentada</div>
+          <div class="modelo-name">BIO SPECTRUM 11</div>
+          <div class="modelo-tagline">Nivel profesional · El sol terapéutico completo</div>
           <ul class="modelo-specs">
-            <li class="highlight">UVB · vitamina D natural</li>
-            <li class="highlight">UVA · óxido nítrico, hormonas</li>
-            <li class="highlight">Cian 480-510 nm · alerta diurna</li>
-            <li class="highlight">Rojo 660 nm · mitocondrias</li>
-            <li class="highlight">Infrarrojo 850 nm · profundidad</li>
-            <li class="highlight">Infrarrojo profundo · termorregulación</li>
+            <li>210 LEDs · 11 longitudes de onda</li>
+            <li class="highlight">UV-B · síntesis de vitamina D</li>
+            <li class="highlight">UV-A · óxido nítrico y hormonas</li>
+            <li class="highlight">Visible + NIR hasta 1050 nm</li>
+            <li>Clínica, atletas de élite y longevidad</li>
           </ul>
+          <div class="modelo-price">2.500 € <span>· o a plazos seQura</span></div>
           <div class="modelo-cta">
             <a href="#reservar">Saber si es para mí →</a>
           </div>
@@ -1469,7 +1485,7 @@ fbq('track', 'ViewContent', {content_name: 'Landing Consultoria FBM'});
     </div>
 
     <p class="modelos-footnote">
-      <strong>¿No sabes cuál es el tuyo?</strong> Es exactamente lo que Cristhian decide contigo en los 30 minutos de consultoría. Gratis.
+      <strong>¿No sabes cuál es el tuyo?</strong> Es exactamente lo que Cristhian decide contigo en los 30 minutos de consultoría. Gratis — y sin que acabes pagando de más por un modelo que no necesitas.
     </p>
   </div>
 </section>
@@ -1633,7 +1649,7 @@ fbq('track', 'ViewContent', {content_name: 'Landing Consultoria FBM'});
 
       <details>
         <summary>"¿Qué tiene EKIO Light que no tengan otros paneles?"</summary>
-        <p>Dos cosas concretas. Primero: tenemos patente española OEPM (U202532624) sobre el dispositivo multiespectral. No somos una marca de importación con logo encima. Segundo: el modelo Solar Full incluye el espectro solar completo —UVB, UVA, cian, rojo, infrarrojo y infrarrojo profundo— mientras que la mayoría de paneles del mercado solo emiten 660 y 850 nm. Esto es relevante porque tu cuerpo evolucionó bajo todo el espectro, no solo bajo dos colores.</p>
+        <p>Dos cosas concretas. Primero: tenemos patente española OEPM (U202532624), registrada en 157 países vía PCT, sobre el dispositivo multiespectral. No somos una marca de importación con logo encima. Segundo: el modelo Bio Spectrum 11 incluye el espectro solar completo —UV-B, UV-A, visible e infrarrojo hasta 1050 nm, con 11 longitudes de onda y 210 LEDs— mientras que la mayoría de paneles del mercado solo emiten 660 y 850 nm. Esto es relevante porque tu cuerpo evolucionó bajo todo el espectro, no solo bajo dos colores.</p>
       </details>
 
       <details>
@@ -1658,12 +1674,12 @@ fbq('track', 'ViewContent', {content_name: 'Landing Consultoria FBM'});
 
       <details>
         <summary>"¿Es seguro para niños, embarazo o personas mayores?"</summary>
-        <p>En general sí, con las precauciones adecuadas (distancia, tiempos de exposición, zonas a tratar, especialmente en componentes UV del modelo Solar Full). Hay contraindicaciones reales que dependen de cada caso. Es exactamente lo que repasamos con Cristhian: protocolo seguro adaptado a tu situación concreta.</p>
+        <p>En general sí, con las precauciones adecuadas (distancia, tiempos de exposición, zonas a tratar, especialmente con los componentes UV del Bio Spectrum 11). Hay contraindicaciones reales que dependen de cada caso. Es exactamente lo que repasamos con Cristhian: protocolo seguro adaptado a tu situación concreta.</p>
       </details>
 
       <details>
         <summary>"¿Cuánto cuestan los paneles?"</summary>
-        <p>La gama EKIO Light cubre tres niveles. El Essential (rojo + infrarrojo) está en el rango de los suplementos premium de un año. El Dual es la opción de mayor cobertura familiar. El Solar Full, con espectro solar completo y tecnología patentada, es el modelo top de gama. Cristhian te recomendará el adecuado para tu caso, sin presión por subir de gama. Todos llevan 30 días de prueba y 5 años de garantía.</p>
+        <p>La gama EKIO Light cubre tres niveles: <strong>Deep 5</strong> (650 €, o desde 217 €/mes con seQura) para sueño, energía y metabolismo; <strong>Bio Regen 7</strong> (970 €, o desde 323 €/mes) para regeneración, piel y dolor; y <strong>Bio Spectrum 11</strong> (2.500 €, a plazos), el modelo profesional con espectro solar completo. Cristhian te recomendará el adecuado para tu caso, sin presión por subir de gama. Todos llevan 30 días de prueba y garantía técnica.</p>
       </details>
 
       <details>

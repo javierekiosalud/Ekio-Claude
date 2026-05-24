@@ -82,7 +82,7 @@ El mecanismo (mitocondrias, ATP, longitudes de onda) se mantiene, pero queda en 
 >
 > Dentro de cada célula tuya hay unas centrales energéticas: las mitocondrias. Cuando reciben esta luz, **producen más energía. Eso es. Y una célula con más energía se inflama menos, se repara mejor y funciona como debe**.
 >
-> La mayoría de paneles del mercado emiten solo dos colores: rojo a 660 nanómetros e infrarrojo a 850. **EKIO Light es diferente: nuestro modelo Solar Full recrea el espectro solar completo —desde el ultravioleta hasta el infrarrojo profundo— porque tu cuerpo no evolucionó bajo dos colores. Evolucionó bajo el sol entero.**
+> La mayoría de paneles del mercado emiten solo dos colores: rojo a 660 nanómetros e infrarrojo a 850. **EKIO Light es diferente: nuestro modelo Bio Spectrum 11 recrea el espectro solar completo —11 longitudes de onda, desde el ultravioleta hasta el infrarrojo profundo— porque tu cuerpo no evolucionó bajo dos colores. Evolucionó bajo el sol entero.**
 >
 > Por eso tenemos patente española OEPM sobre esta tecnología. Es la única patentada en Europa para uso terapéutico y circadiano.
 >

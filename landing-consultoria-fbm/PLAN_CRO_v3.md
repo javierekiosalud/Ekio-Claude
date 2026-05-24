@@ -24,7 +24,7 @@
 - **Trustbar**: rompe la objeción "esto es Instagram" en 3 segundos.
 - **Hero pill**: el escéptico que apenas mira la página ya capta que hay credibilidad institucional.
 - **Sección dedicada**: para el visitante que sí lee, profundiza con datos concretos.
-- **Modelo featured**: posiciona el Solar Full como producto premium con base real.
+- **Modelo featured**: posiciona el Bio Spectrum 11 como producto premium con base real.
 - **Footer**: cierre legal de confianza, especialmente importante para el arquetipo C.
 
 ### Color elegido: oro (#E0B43A)
@@ -89,8 +89,8 @@ ESSENTIAL              DUAL                   SOLAR FULL 🛡️
 - **Tagline emocional, no técnica.** "Para empezar con base científica" > "Modelo entrada".
 - **Sin precio en la landing.** Forzamos la consultoría para resolverlo (mayor CTR a Calendly).
 - **CTA único en todos los modelos:** "Saber si es para mí →" apuntando al Calendly.
-- **Featured cards** (Dual + Solar Full) con borde dorado para destacar visualmente.
-- **Solar Full** lleva el badge de patente y las especificaciones en color oro.
+- **Featured cards** (Bio Regen 7 + Bio Spectrum 11) con borde dorado para destacar visualmente.
+- **Bio Spectrum 11** lleva el badge de espectro completo y las especificaciones en color oro.
 
 ### Cierre
 
@@ -226,7 +226,7 @@ Al marcar 2+ → aparece mensaje rojo: *"Entonces sí, esta consultoría está h
 - [ ] Sustituir `G-XXXXXXXXXX` por GA4 ID real
 - [ ] Sustituir `COMPANY_ID` por Klaviyo Public API Key
 - [ ] Imagen real del justificante OEPM en sección Patente
-- [ ] 3 fotos reales de modelos EKIO Light (Essential, Dual, Solar Full)
+- [ ] 3 fotos reales de modelos EKIO Light (Deep 5, Bio Regen 7, Bio Spectrum 11)
 - [ ] Foto real de Cristhian de Moya
 - [ ] Vídeo de 3 min producido y subido (YouTube/Vimeo/Wistia)
 - [ ] Sustituir embed placeholder por iframe real del vídeo
