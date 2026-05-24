@@ -1,0 +1,1872 @@
+{%- comment -%}
+  EKIO Light — Sección Landing Consultoría Fotobiomodulación
+  Generada desde index.html · CSS scopeado bajo .ekio-fbm (no afecta al resto del theme)
+  Instalar: subir a /sections/ y añadir desde el editor de temas, o crear plantilla de página dedicada.
+{%- endcomment -%}
+
+{% style %}
+.ekio-fbm {
+    --bg: #07090F;
+    --bg2: #0D1119;
+    --bg3: #11161F;
+    --card: #141A26;
+    --card-soft: #1A2230;
+    --red: #E84A4A;
+    --red-dark: #d63d3d;
+    --red-soft: rgba(232,74,74,0.10);
+    --red-glow: rgba(232,74,74,0.25);
+    --gold: #E0B43A;
+    --text: #EAEEF4;
+    --text-soft: #C8D0DC;
+    --text-dim: #9AA4B2;
+    --border: rgba(255,255,255,0.08);
+    --border-soft: rgba(255,255,255,0.04);
+  }
+
+  .ekio-fbm * { box-sizing: border-box; margin: 0; padding: 0; }
+  .ekio-fbm { scroll-behavior: smooth; }
+
+  .ekio-fbm {
+    font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    padding-bottom: 0; /* override on mobile for sticky CTA */
+  }
+
+  .ekio-fbm .container {
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+  .ekio-fbm .container-wide { max-width: 1100px; }
+  .ekio-fbm .container-narrow { max-width: 720px; }
+
+  /* ===== TRUST BAR superior (patente OEPM) ===== */
+  .ekio-fbm .trustbar {
+    background: linear-gradient(180deg, #11161F 0%, #0D1119 100%);
+    border-bottom: 1px solid var(--border);
+    padding: 10px 24px;
+    text-align: center;
+    color: var(--text-soft);
+    font-size: 13px;
+    letter-spacing: 0.3px;
+  }
+  .ekio-fbm .trustbar .patent-icon {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin-right: 6px;
+    vertical-align: -2px;
+  }
+  .ekio-fbm .trustbar strong { color: var(--gold); font-weight: 700; }
+
+  /* ===== HERO ===== */
+  .ekio-fbm .hero {
+    padding: 72px 0 56px;
+    background:
+      radial-gradient(ellipse at 50% 0%, rgba(232,74,74,0.10) 0%, transparent 60%),
+      var(--bg);
+    text-align: center;
+  }
+
+  .ekio-fbm .logo {
+    display: inline-block;
+    font-weight: 700;
+    letter-spacing: 5px;
+    font-size: 12px;
+    color: var(--text-dim);
+    margin-bottom: 28px;
+    text-transform: uppercase;
+  }
+
+  .ekio-fbm .hero h1 {
+    font-size: clamp(30px, 5vw, 52px);
+    line-height: 1.15;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    margin-bottom: 22px;
+    max-width: 18ch;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .ekio-fbm .hero-pill {
+    display: inline-block;
+    background: rgba(224,180,58,0.10);
+    border: 1px solid rgba(224,180,58,0.35);
+    color: var(--gold);
+    padding: 6px 16px;
+    border-radius: 999px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+  }
+
+  .ekio-fbm .hero-sub {
+    font-size: clamp(16px, 1.7vw, 19px);
+    color: var(--text-dim);
+    max-width: 600px;
+    margin: 0 auto 36px;
+  }
+
+  .ekio-fbm .hero-cta-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  /* ===== CTAs ===== */
+  .ekio-fbm .cta-btn {
+    display: inline-block;
+    background: var(--red);
+    color: white;
+    padding: 18px 36px;
+    border-radius: 999px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.3px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.15s ease, box-shadow 0.25s ease, background 0.2s ease;
+    box-shadow: 0 8px 24px var(--red-glow);
+  }
+  .ekio-fbm .cta-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 32px rgba(232,74,74,0.4);
+    background: var(--red-dark);
+  }
+  .ekio-fbm .cta-secondary {
+    color: var(--text-dim);
+    font-size: 14px;
+    text-decoration: underline;
+    text-decoration-color: rgba(255,255,255,0.2);
+    text-underline-offset: 4px;
+    transition: color 0.2s ease;
+  }
+  .ekio-fbm .cta-secondary:hover { color: var(--text); }
+  .ekio-fbm .cta-mini {
+    color: var(--text-dim);
+    font-size: 13px;
+  }
+
+  /* ===== SECCIONES ===== */
+  .ekio-fbm section { padding: 64px 0; }
+  .ekio-fbm section.tight { padding: 48px 0; }
+
+  .ekio-fbm .block-eyebrow {
+    display: inline-block;
+    color: var(--red);
+    font-size: 12px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 16px;
+  }
+
+  .ekio-fbm h2 {
+    font-size: clamp(24px, 3.5vw, 36px);
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    margin-bottom: 22px;
+  }
+  .ekio-fbm h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    letter-spacing: -0.01em;
+  }
+
+  .ekio-fbm p { margin-bottom: 18px; color: var(--text-soft); font-size: 17px; }
+  .ekio-fbm p:last-child { margin-bottom: 0; }
+  .ekio-fbm .quiet { color: var(--text-dim); font-size: 15px; }
+
+  /* ===== RECONOCIMIENTO ===== */
+  .ekio-fbm .reconocimiento { background: var(--bg); text-align: left; }
+  .ekio-fbm .reconocimiento p {
+    font-size: 19px;
+    line-height: 1.7;
+    color: var(--text-soft);
+    max-width: 60ch;
+    margin: 0 auto 22px;
+  }
+  .ekio-fbm .reconocimiento p strong { color: var(--text); font-weight: 600; }
+
+  /* ===== EXPLICACIÓN ===== */
+  .ekio-fbm .explicacion {
+    background: var(--bg);
+    border-top: 1px solid var(--border-soft);
+    border-bottom: 1px solid var(--border-soft);
+  }
+  .ekio-fbm .explicacion h2 { text-align: center; }
+  .ekio-fbm .explicacion .lead {
+    font-size: 19px;
+    text-align: center;
+    max-width: 60ch;
+    margin: 0 auto 32px;
+  }
+  .ekio-fbm .firma {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--red);
+    margin-top: 32px;
+    letter-spacing: -0.01em;
+  }
+
+  /* ===== ESPECTRO SOLAR (diferenciador clave) ===== */
+  .ekio-fbm .espectro {
+    background: var(--bg2);
+    border-bottom: 1px solid var(--border-soft);
+  }
+  .ekio-fbm .espectro h2 { text-align: center; max-width: 28ch; margin-left: auto; margin-right: auto; }
+  .ekio-fbm .espectro .lead {
+    text-align: center;
+    max-width: 60ch;
+    margin: 0 auto 40px;
+    color: var(--text-soft);
+    font-size: 17px;
+  }
+
+  /* Barra visual del espectro */
+  .ekio-fbm .espectro-bar {
+    max-width: 880px;
+    margin: 0 auto 40px;
+    height: 56px;
+    border-radius: 12px;
+    background: linear-gradient(90deg,
+      #6b3aa0 0%,        /* UVB */
+      #8a4fb3 8%,        /* UVA */
+      #4fbcd9 24%,       /* Cian */
+      #4d8be0 32%,       /* Azul transición */
+      #ffd24a 50%,       /* Amarillo (luz visible cálida) */
+      #ff8c3a 65%,       /* Naranja */
+      #e84a4a 78%,       /* Rojo */
+      #b8302a 90%,       /* IR cercano */
+      #4d1717 100%       /* IR profundo */
+    );
+    box-shadow: 0 10px 40px rgba(232,74,74,0.2), inset 0 0 0 1px rgba(255,255,255,0.05);
+    position: relative;
+  }
+
+  .ekio-fbm .espectro-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+    gap: 14px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .ekio-fbm .espectro-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 18px 16px;
+    position: relative;
+    overflow: hidden;
+  }
+  .ekio-fbm .espectro-card::before {
+    content: "";
+    position: absolute; top: 0; left: 0; right: 0;
+    height: 3px;
+  }
+  .ekio-fbm .espectro-card.uvb::before { background: #6b3aa0; }
+  .ekio-fbm .espectro-card.uva::before { background: #8a4fb3; }
+  .ekio-fbm .espectro-card.cian::before { background: #4fbcd9; }
+  .ekio-fbm .espectro-card.rojo::before { background: #e84a4a; }
+  .ekio-fbm .espectro-card.ir::before { background: #b8302a; }
+  .ekio-fbm .espectro-card.irprof::before { background: #4d1717; }
+  .ekio-fbm .espectro-card .wave {
+    color: var(--text-dim);
+    font-size: 11px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+    font-weight: 600;
+  }
+  .ekio-fbm .espectro-card .name {
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: 8px;
+  }
+  .ekio-fbm .espectro-card .benefit {
+    font-size: 13px;
+    color: var(--text-dim);
+    line-height: 1.5;
+  }
+
+  .ekio-fbm .espectro-cierre {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 19px;
+    color: var(--text);
+    max-width: 64ch;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.55;
+  }
+  .ekio-fbm .espectro-cierre strong { color: var(--gold); font-weight: 700; }
+
+  /* ===== VIDEO ===== */
+  .ekio-fbm .video-section { background: var(--bg2); text-align: center; }
+  .ekio-fbm .video-wrap {
+    position: relative;
+    max-width: 880px;
+    margin: 0 auto 24px;
+    aspect-ratio: 16/9;
+    border-radius: 14px;
+    overflow: hidden;
+    border: 1px solid var(--border);
+    background: var(--card);
+    box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+  }
+  .ekio-fbm .video-wrap iframe, .ekio-fbm .video-wrap video {
+    position: absolute; inset: 0; width: 100%; height: 100%; border: none;
+  }
+  .ekio-fbm .video-placeholder {
+    position: absolute; inset: 0;
+    display: flex; flex-direction: column;
+    align-items: center; justify-content: center;
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    color: var(--text-dim);
+    text-align: center; padding: 24px;
+  }
+  .ekio-fbm .play-icon {
+    width: 72px; height: 72px;
+    border-radius: 50%;
+    background: var(--red);
+    display: flex; align-items: center; justify-content: center;
+    margin-bottom: 18px;
+    box-shadow: 0 8px 30px var(--red-glow);
+  }
+  .ekio-fbm .play-icon::after {
+    content: "";
+    width: 0; height: 0;
+    border-left: 20px solid white;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+    margin-left: 5px;
+  }
+  .ekio-fbm .video-caption {
+    color: var(--text-dim);
+    font-size: 14px;
+    max-width: 50ch;
+    margin: 0 auto;
+  }
+
+  /* ===== PERFILES (Esto es para ti si...) ===== */
+  .ekio-fbm .perfiles { background: var(--bg); }
+  .ekio-fbm .perfiles h2 { text-align: center; }
+  .ekio-fbm .perfiles-sub {
+    text-align: center;
+    color: var(--text-dim);
+    max-width: 50ch;
+    margin: 0 auto 40px;
+  }
+  .ekio-fbm .perfiles-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 18px;
+  }
+  .ekio-fbm .perfil-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 28px 24px;
+  }
+  .ekio-fbm .perfil-card h3 {
+    color: var(--red);
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+  }
+  .ekio-fbm .perfil-card p {
+    font-size: 16px;
+    color: var(--text-soft);
+    line-height: 1.6;
+  }
+
+  /* ===== EVIDENCIA ===== */
+  .ekio-fbm .evidencia { background: var(--bg2); }
+  .ekio-fbm .evidencia h2 { text-align: center; }
+  .ekio-fbm .evidencia .intro {
+    text-align: center;
+    max-width: 58ch;
+    margin: 0 auto 40px;
+    color: var(--text-soft);
+    font-size: 17px;
+  }
+  .ekio-fbm .evidencia-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    max-width: 880px;
+    margin: 0 auto;
+  }
+  .ekio-fbm .evidencia-card {
+    background: var(--card-soft);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 28px 26px;
+  }
+  .ekio-fbm .evidencia-numero {
+    font-size: 32px;
+    font-weight: 800;
+    color: var(--red);
+    line-height: 1;
+    letter-spacing: -0.02em;
+    margin-bottom: 8px;
+  }
+  .ekio-fbm .evidencia-claim {
+    color: var(--text);
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    line-height: 1.4;
+  }
+  .ekio-fbm .evidencia-fuente {
+    color: var(--text-dim);
+    font-size: 13px;
+    line-height: 1.5;
+  }
+  .ekio-fbm .disclaimer-evidencia {
+    text-align: center;
+    margin-top: 28px;
+    color: var(--text-dim);
+    font-size: 13px;
+    max-width: 60ch;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: italic;
+  }
+
+  /* ===== PATENTE OEPM (sección dedicada) ===== */
+  .ekio-fbm .patente {
+    background:
+      radial-gradient(ellipse at 50% 50%, rgba(224,180,58,0.06) 0%, transparent 70%),
+      var(--bg);
+    border-top: 1px solid var(--border-soft);
+    border-bottom: 1px solid var(--border-soft);
+  }
+  .ekio-fbm .patente-card {
+    background: var(--card);
+    border: 1px solid rgba(224,180,58,0.20);
+    border-radius: 16px;
+    padding: 40px;
+    max-width: 860px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    gap: 36px;
+    align-items: center;
+  }
+  .ekio-fbm .patente-img {
+    background: linear-gradient(135deg, #fcfcfc 0%, #e8e8e8 100%);
+    border-radius: 8px;
+    aspect-ratio: 3/4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.5;
+    border: 1px solid rgba(0,0,0,0.1);
+  }
+  .ekio-fbm .patente-img-flag {
+    width: 60px;
+    height: 40px;
+    margin-bottom: 12px;
+    background: linear-gradient(180deg, #C60B1E 0%, #C60B1E 25%, #FFC400 25%, #FFC400 75%, #C60B1E 75%, #C60B1E 100%);
+    border-radius: 4px;
+    border: 1px solid rgba(0,0,0,0.1);
+  }
+  .ekio-fbm .patente-img strong { color: #000; font-size: 13px; display: block; margin-bottom: 4px; }
+  .ekio-fbm .patente-img .num { color: #C60B1E; font-weight: 700; font-size: 14px; margin-top: 8px; letter-spacing: 1px; }
+  .ekio-fbm .patente-img .caption-placeholder {
+    margin-top: 12px;
+    padding: 6px 10px;
+    background: rgba(0,0,0,0.05);
+    border-radius: 4px;
+    font-size: 10px;
+    color: #666;
+  }
+
+  .ekio-fbm .patente-info h2 {
+    margin-bottom: 16px;
+    font-size: clamp(22px, 3vw, 30px);
+  }
+  .ekio-fbm .patente-info p { font-size: 16px; }
+  .ekio-fbm .patente-bullets {
+    list-style: none;
+    margin: 20px 0 0;
+    padding: 0;
+  }
+  .ekio-fbm .patente-bullets li {
+    padding: 10px 0 10px 32px;
+    position: relative;
+    color: var(--text-soft);
+    font-size: 15px;
+    border-bottom: 1px solid var(--border-soft);
+  }
+  .ekio-fbm .patente-bullets li:last-child { border-bottom: none; }
+  .ekio-fbm .patente-bullets li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 22px;
+    height: 22px;
+    background: rgba(224,180,58,0.15);
+    color: var(--gold);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 22px;
+    font-weight: 700;
+    font-size: 12px;
+  }
+
+  /* ===== MODELOS ===== */
+  .ekio-fbm .modelos { background: var(--bg2); }
+  .ekio-fbm .modelos h2 { text-align: center; }
+  .ekio-fbm .modelos .lead {
+    text-align: center;
+    color: var(--text-dim);
+    max-width: 56ch;
+    margin: 0 auto 40px;
+    font-size: 17px;
+  }
+  .ekio-fbm .modelos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .ekio-fbm .modelo-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s ease, border-color 0.2s ease;
+  }
+  .ekio-fbm .modelo-card:hover {
+    transform: translateY(-4px);
+    border-color: var(--red);
+  }
+  .ekio-fbm .modelo-card.featured {
+    border-color: var(--gold);
+    box-shadow: 0 10px 40px rgba(224,180,58,0.10);
+  }
+  .ekio-fbm .modelo-badge {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    padding: 4px 10px;
+    border-radius: 999px;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    z-index: 2;
+  }
+  .ekio-fbm .modelo-badge.bestseller { background: var(--red); color: white; }
+  .ekio-fbm .modelo-badge.patented { background: rgba(224,180,58,0.15); color: var(--gold); border: 1px solid rgba(224,180,58,0.4); }
+
+  .ekio-fbm .modelo-foto {
+    aspect-ratio: 4/3;
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-dim);
+    font-size: 12px;
+    text-align: center;
+    border-bottom: 1px solid var(--border);
+  }
+  .ekio-fbm .modelo-foto-icon {
+    width: 64px;
+    height: 64px;
+    border-radius: 12px;
+    background: var(--red-soft);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  .ekio-fbm .modelo-foto-icon svg { width: 32px; height: 32px; }
+
+  .ekio-fbm .modelo-body {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  .ekio-fbm .modelo-name {
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    margin-bottom: 4px;
+  }
+  .ekio-fbm .modelo-tagline {
+    color: var(--text-dim);
+    font-size: 14px;
+    margin-bottom: 18px;
+    font-style: italic;
+  }
+  .ekio-fbm .modelo-specs {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px;
+    flex: 1;
+  }
+  .ekio-fbm .modelo-specs li {
+    color: var(--text-soft);
+    font-size: 14px;
+    padding: 8px 0 8px 22px;
+    position: relative;
+    border-bottom: 1px solid var(--border-soft);
+  }
+  .ekio-fbm .modelo-specs li:last-child { border-bottom: none; }
+  .ekio-fbm .modelo-specs li::before {
+    content: "•";
+    position: absolute;
+    left: 4px;
+    color: var(--red);
+    font-weight: 700;
+  }
+  .ekio-fbm .modelo-specs li.highlight { color: var(--gold); font-weight: 600; }
+  .ekio-fbm .modelo-specs li.highlight::before { color: var(--gold); }
+
+  .ekio-fbm .modelo-price {
+    margin-top: auto;
+    font-size: 22px;
+    font-weight: 800;
+    color: var(--text);
+    letter-spacing: -0.01em;
+    padding-top: 8px;
+  }
+  .ekio-fbm .modelo-price span {
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--text-dim);
+    letter-spacing: 0;
+  }
+  .ekio-fbm .modelo-cta {
+    text-align: center;
+    padding-top: 16px;
+    margin-top: 16px;
+    border-top: 1px solid var(--border);
+  }
+  .ekio-fbm .modelo-cta a {
+    color: var(--red);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+  }
+  .ekio-fbm .modelo-cta a:hover { text-decoration: underline; }
+
+  .ekio-fbm .modelos-footnote {
+    text-align: center;
+    margin-top: 36px;
+    color: var(--text-dim);
+    font-size: 15px;
+  }
+  .ekio-fbm .modelos-footnote strong { color: var(--text); }
+
+  /* ===== CRISTHIAN ===== */
+  .ekio-fbm .cristhian {
+    background: var(--bg);
+    border-top: 1px solid var(--border-soft);
+  }
+  .ekio-fbm .cristhian-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 40px;
+    max-width: 720px;
+    margin: 0 auto;
+  }
+  .ekio-fbm .cristhian-header {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 28px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid var(--border);
+  }
+  .ekio-fbm .cristhian-foto {
+    width: 96px;
+    height: 96px;
+    flex: 0 0 96px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #2a2a3e, #1a1a2e);
+    border: 2px solid var(--red);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-dim);
+    font-size: 11px;
+    text-align: center;
+    overflow: hidden;
+  }
+  .ekio-fbm .cristhian-foto img { width: 100%; height: 100%; object-fit: cover; }
+  .ekio-fbm .cristhian-name { font-size: 22px; font-weight: 700; margin-bottom: 4px; }
+  .ekio-fbm .cristhian-role {
+    color: var(--red);
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+  }
+  .ekio-fbm .cristhian-card p {
+    font-size: 16px;
+    color: var(--text-soft);
+    margin-bottom: 14px;
+  }
+  .ekio-fbm .cristhian-promesa {
+    margin-top: 24px;
+    padding: 18px 22px;
+    background: var(--red-soft);
+    border-left: 3px solid var(--red);
+    border-radius: 8px;
+    color: var(--text);
+    font-size: 16px;
+    font-style: italic;
+  }
+  .ekio-fbm .cristhian-promesa strong { font-style: normal; color: var(--red); }
+
+  /* ===== RISK REVERSAL (4 garantías) ===== */
+  .ekio-fbm .garantias { background: var(--bg2); padding: 56px 0; }
+  .ekio-fbm .garantias h2 { text-align: center; max-width: 30ch; margin-left: auto; margin-right: auto; }
+  .ekio-fbm .garantias-sub {
+    text-align: center;
+    color: var(--text-dim);
+    max-width: 56ch;
+    margin: 0 auto 40px;
+  }
+  .ekio-fbm .garantias-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .ekio-fbm .garantia-item {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 24px;
+    text-align: center;
+  }
+  .ekio-fbm .garantia-icon {
+    width: 44px;
+    height: 44px;
+    border-radius: 10px;
+    background: var(--red-soft);
+    color: var(--red);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0 auto 14px;
+  }
+  .ekio-fbm .garantia-title {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: var(--text);
+  }
+  .ekio-fbm .garantia-desc {
+    font-size: 13px;
+    color: var(--text-dim);
+    line-height: 1.5;
+  }
+
+  /* ===== MICRO COMPROMISOS ===== */
+  .ekio-fbm .compromisos {
+    background: var(--bg);
+    padding: 48px 0;
+    border-top: 1px solid var(--border-soft);
+  }
+  .ekio-fbm .compromisos h2 { text-align: center; font-size: clamp(22px, 3vw, 28px); }
+  .ekio-fbm .compromisos-sub {
+    text-align: center;
+    color: var(--text-dim);
+    max-width: 50ch;
+    margin: 0 auto 28px;
+    font-size: 15px;
+  }
+  .ekio-fbm .checks {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 560px;
+    margin: 0 auto 32px;
+  }
+  .ekio-fbm .check-item {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 14px 18px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    transition: all 0.2s ease;
+    user-select: none;
+  }
+  .ekio-fbm .check-item:hover {
+    border-color: var(--red);
+  }
+  .ekio-fbm .check-item.checked {
+    background: var(--red-soft);
+    border-color: var(--red);
+  }
+  .ekio-fbm .check-box {
+    width: 22px;
+    height: 22px;
+    border-radius: 6px;
+    border: 2px solid var(--text-dim);
+    flex: 0 0 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+  }
+  .ekio-fbm .check-item.checked .check-box {
+    background: var(--red);
+    border-color: var(--red);
+    color: white;
+  }
+  .ekio-fbm .check-label {
+    color: var(--text-soft);
+    font-size: 15px;
+  }
+  .ekio-fbm .check-item.checked .check-label {
+    color: var(--text);
+    font-weight: 500;
+  }
+  .ekio-fbm .compromisos-result {
+    text-align: center;
+    color: var(--red);
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 24px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  .ekio-fbm .compromisos-result.show { opacity: 1; }
+
+  /* ===== CTA + CALENDLY ===== */
+  .ekio-fbm .booking {
+    background:
+      radial-gradient(ellipse at 50% 0%, rgba(232,74,74,0.06) 0%, transparent 60%),
+      var(--bg);
+    text-align: center;
+  }
+  .ekio-fbm .booking h2 { margin-bottom: 14px; }
+  .ekio-fbm .booking .lead {
+    color: var(--text-dim);
+    max-width: 56ch;
+    margin: 0 auto 24px;
+    font-size: 17px;
+  }
+  .ekio-fbm .booking-scarcity {
+    display: inline-block;
+    background: rgba(224,180,58,0.10);
+    border: 1px solid rgba(224,180,58,0.30);
+    color: var(--gold);
+    padding: 8px 18px;
+    border-radius: 999px;
+    font-size: 13px;
+    margin-bottom: 32px;
+    font-weight: 500;
+  }
+  .ekio-fbm .booking-bullets {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin-bottom: 28px;
+    flex-wrap: wrap;
+    color: var(--text-dim);
+    font-size: 14px;
+  }
+  .ekio-fbm .booking-bullets span {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .ekio-fbm .booking-bullets span::before {
+    content: "✓";
+    color: var(--red);
+    font-weight: 700;
+  }
+  .ekio-fbm .booking-anchor {
+    color: var(--text-dim);
+    font-size: 14px;
+    max-width: 60ch;
+    margin: 0 auto 28px;
+    font-style: italic;
+  }
+  .ekio-fbm .booking-anchor strong { color: var(--text-soft); font-style: normal; }
+  .ekio-fbm .calendly-inline-widget {
+    min-width: 320px;
+    height: 720px;
+    margin-top: 24px;
+    border-radius: 16px;
+    overflow: hidden;
+    border: 1px solid var(--border);
+    background: var(--card);
+  }
+
+  /* ===== FAQ ===== */
+  .ekio-fbm .faq-section { background: var(--bg2); }
+  .ekio-fbm .faq-section h2 { text-align: center; margin-bottom: 40px; }
+  .ekio-fbm .faq { max-width: 720px; margin: 0 auto; }
+  .ekio-fbm details {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 18px 22px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    transition: border-color 0.2s ease;
+  }
+  .ekio-fbm details[open] { border-color: var(--red); }
+  .ekio-fbm summary {
+    font-weight: 600;
+    font-size: 16px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--text);
+  }
+  .ekio-fbm summary::-webkit-details-marker { display: none; }
+  .ekio-fbm summary::after {
+    content: "+";
+    color: var(--red);
+    font-size: 24px;
+    transition: transform 0.2s ease;
+    font-weight: 300;
+    margin-left: 16px;
+    flex: 0 0 auto;
+  }
+  .ekio-fbm details[open] summary::after { transform: rotate(45deg); }
+  .ekio-fbm details p {
+    color: var(--text-dim);
+    margin-top: 14px;
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  /* ===== CTA FINAL ===== */
+  .ekio-fbm .final-cta {
+    background:
+      radial-gradient(ellipse at center, rgba(232,74,74,0.15) 0%, transparent 70%),
+      var(--bg);
+    text-align: center;
+    padding: 80px 0;
+  }
+  .ekio-fbm .final-cta h2 {
+    font-size: clamp(24px, 3.5vw, 32px);
+    max-width: 22ch;
+    margin: 0 auto 28px;
+  }
+
+  /* ===== FOOTER ===== */
+  .ekio-fbm footer {
+    padding: 32px 0 100px 0;
+    text-align: center;
+    color: var(--text-dim);
+    font-size: 13px;
+    border-top: 1px solid var(--border);
+  }
+  .ekio-fbm footer a {
+    color: var(--text-dim);
+    text-decoration: underline;
+    margin: 0 8px;
+  }
+  .ekio-fbm .footer-patent {
+    margin-top: 16px;
+    padding: 12px 20px;
+    background: rgba(224,180,58,0.05);
+    border: 1px solid rgba(224,180,58,0.15);
+    border-radius: 8px;
+    color: var(--gold);
+    font-size: 12px;
+    display: inline-block;
+  }
+
+  /* ===== STICKY CTA ===== */
+  .ekio-fbm .sticky-cta {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: var(--bg2);
+    border-top: 1px solid var(--border);
+    padding: 12px 16px;
+    z-index: 100;
+    transform: translateY(100%);
+    transition: transform 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    box-shadow: 0 -10px 30px rgba(0,0,0,0.4);
+  }
+  .ekio-fbm .sticky-cta.show { transform: translateY(0); }
+  .ekio-fbm .sticky-cta-text {
+    color: var(--text);
+    font-size: 14px;
+    font-weight: 600;
+    flex: 1;
+  }
+  .ekio-fbm .sticky-cta-text span {
+    display: block;
+    color: var(--text-dim);
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+  }
+  .ekio-fbm .sticky-cta a {
+    background: var(--red);
+    color: white;
+    padding: 12px 20px;
+    border-radius: 999px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    white-space: nowrap;
+    flex: 0 0 auto;
+  }
+  .ekio-fbm.sticky-active { padding-bottom: 80px; }
+
+  /* ===== Responsive ===== */
+  @media (max-width: 760px) {
+    .ekio-fbm .patente-card {
+      grid-template-columns: 1fr;
+      padding: 28px 22px;
+      gap: 24px;
+    }
+    .ekio-fbm .patente-img { max-width: 220px; margin: 0 auto; }
+  }
+  @media (max-width: 640px) {
+    .ekio-fbm .hero { padding: 56px 0 40px; }
+    .ekio-fbm section { padding: 48px 0; }
+    .ekio-fbm .cristhian-card { padding: 28px 22px; }
+    .ekio-fbm .cristhian-header { flex-direction: column; text-align: center; gap: 16px; }
+    .ekio-fbm .booking-bullets { gap: 16px; }
+    .ekio-fbm .reconocimiento p { font-size: 17px; }
+    .ekio-fbm .espectro-bar { height: 44px; }
+    .ekio-fbm .modelos-grid { grid-template-columns: 1fr; }
+  }
+{% endstyle %}
+
+<div class="ekio-fbm">
+<!-- ============================================
+     TRUST BAR — Patente OEPM (1ª línea visible)
+============================================ -->
+<div class="trustbar">
+  🛡️ <strong>Patente española OEPM</strong> · U202532624 · La única tecnología multiespectral con espectro solar completo
+</div>
+
+<!-- ============================================
+     HERO
+============================================ -->
+<header class="hero">
+  <div class="container">
+    <span class="logo">EKIO LIGHT · CONSULTORÍA GRATUITA</span>
+    <h1>¿Cuándo fue la última vez que te despertaste descansado de verdad?</h1>
+    <div class="hero-pill">🛡️ Tecnología patentada en España · OEPM</div>
+    <p class="hero-sub">
+      Si llevas tiempo durmiendo mal, conviviendo con dolor o cansancio que ningún médico explica, hay algo que probablemente nadie te ha contado. Hablemos 30 minutos. Gratis. Sobre tu caso.
+    </p>
+    <div class="hero-cta-row">
+      <a href="#reservar" class="cta-btn" onclick="trackCTAClick('hero')">Reservar mi consultoría · 30 min · gratis</a>
+      <a href="#video" class="cta-secondary">o mira primero el vídeo de 3 minutos</a>
+    </div>
+  </div>
+</header>
+
+<!-- ============================================
+     RECONOCIMIENTO
+============================================ -->
+<section class="reconocimiento">
+  <div class="container container-narrow">
+    <p>
+      Llevas meses, quizás años, con esto. Has ido al médico. Las analíticas salen bien. Te dicen que es el estrés, que descanses, que hagas ejercicio. <strong>Pero sigues igual.</strong>
+    </p>
+    <p>
+      Has probado cosas. Algunas han ayudado un poco. Ninguna ha resuelto.
+    </p>
+    <p>
+      Y cada vez que pruebas algo nuevo y no funciona, es un poco más difícil volver a confiar.
+    </p>
+  </div>
+</section>
+
+<!-- ============================================
+     VÍDEO (subido — justo tras el reconocimiento)
+============================================ -->
+<section id="video" class="video-section">
+  <div class="container">
+    <div style="text-align:center;">
+      <span class="block-eyebrow">3 minutos · sin venta</span>
+    </div>
+    <h2 style="text-align:center;">Cristhian te lo explica en su voz</h2>
+
+    <div class="video-wrap">
+      {% if section.settings.video_embed_url != blank %}
+        <iframe src="{{ section.settings.video_embed_url }}" title="Vídeo EKIO Light" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      {% else %}
+        <div class="video-placeholder">
+          <div class="play-icon"></div>
+          <strong style="color: var(--text); font-size: 16px;">Vídeo 3 min · Cristhian de Moya</strong>
+          <span style="margin-top: 6px; font-size: 13px;">(Pega la URL del vídeo en los ajustes de la sección)</span>
+        </div>
+      {% endif %}
+    </div>
+    <p class="video-caption">3 minutos. Sin venta. Solo contexto para que entiendas si esto tiene sentido para tu caso.</p>
+  </div>
+</section>
+
+<!-- ============================================
+     EXPLICACIÓN
+============================================ -->
+<section class="explicacion">
+  <div class="container container-narrow">
+    <span class="block-eyebrow">la explicación que nadie te ha dado</span>
+    <h2>No es el estrés. Es la luz que ya no recibes.</h2>
+    <p class="lead">
+      Vivimos bajo luz artificial el 90% del día. Nuestras células evolucionaron para recibir el espectro completo del sol —desde el infrarrojo profundo hasta el ultravioleta— y ese espectro hoy prácticamente ha desaparecido de nuestra vida diaria.
+    </p>
+    <p>
+      La fotobiomodulación es, simplemente, devolver al cuerpo la luz que le falta. Cuando esa luz llega a tus células, activa la producción de energía dentro de tus mitocondrias y permite que tu cuerpo se repare como debería.
+    </p>
+    <p>
+      En los últimos 30 años se han publicado más de 6.000 estudios sobre esta terapia.
+    </p>
+    <p class="firma">No es nueva. Es desconocida.</p>
+  </div>
+</section>
+
+<!-- ============================================
+     ESPECTRO SOLAR COMPLETO — DIFERENCIADOR
+============================================ -->
+<section class="espectro">
+  <div class="container container-wide">
+    <div style="text-align:center;">
+      <span class="block-eyebrow">lo que nos hace únicos</span>
+    </div>
+    <h2>Tu cuerpo evolucionó bajo todo el espectro del sol.<br>La mayoría de paneles te da solo dos colores. Nosotros te lo damos completo.</h2>
+    <p class="lead">
+      Hay una razón científica por la que un atardecer real te hace sentir distinto a un panel de luz roja. El sol no emite una sola longitud de onda. Emite un espectro continuo, y cada parte de ese espectro hace algo distinto en tu cuerpo.
+    </p>
+
+    <!-- Barra visual del espectro -->
+    <div class="espectro-bar" aria-label="Espectro solar completo"></div>
+
+    <!-- Grid de longitudes de onda -->
+    <div class="espectro-grid">
+      <div class="espectro-card uvb">
+        <div class="wave">UVB</div>
+        <div class="name">Vitamina D natural</div>
+        <div class="benefit">Tu cuerpo produce vitamina D como en la playa, sin sol abrasivo y con dosis controlada.</div>
+      </div>
+      <div class="espectro-card uva">
+        <div class="wave">UVA</div>
+        <div class="name">Óxido nítrico</div>
+        <div class="benefit">Tu sistema cardiovascular y hormonal recibe la señal del amanecer que ha perdido.</div>
+      </div>
+      <div class="espectro-card cian">
+        <div class="wave">CIAN · 480-510 nm</div>
+        <div class="name">Alerta diurna</div>
+        <div class="benefit">Activa la melanopsina ocular. Tu cerebro vuelve a saber qué hora del día es.</div>
+      </div>
+      <div class="espectro-card rojo">
+        <div class="wave">ROJO · 660 nm</div>
+        <div class="name">Energía mitocondrial</div>
+        <div class="benefit">Las centrales de energía de tus células producen más ATP. Menos fatiga, mejor reparación.</div>
+      </div>
+      <div class="espectro-card ir">
+        <div class="wave">INFRARROJO · 850 nm</div>
+        <div class="name">Reparación profunda</div>
+        <div class="benefit">Penetra varios centímetros. Tejidos, articulaciones, tiroides, órganos profundos.</div>
+      </div>
+      <div class="espectro-card irprof">
+        <div class="wave">INFRARROJO PROFUNDO</div>
+        <div class="name">Calor terapéutico</div>
+        <div class="benefit">Termorregulación real, agua estructurada celular, drenaje y descanso profundo.</div>
+      </div>
+    </div>
+
+    <p class="espectro-cierre">
+      Otros paneles te dan rojo e infrarrojo. <strong>EKIO Light te da el sol completo en tu salón.</strong> Esa es la diferencia — y por eso la tenemos patentada. El modelo <strong>Bio Spectrum 11</strong> recrea el espectro solar completo, del UV-B al infrarrojo profundo.
+    </p>
+  </div>
+</section>
+
+<!-- ============================================
+     ESTO ES PARA TI SI
+============================================ -->
+<section class="perfiles">
+  <div class="container container-wide">
+    <h2 style="text-align:center;">Esto es para ti si…</h2>
+    <p class="perfiles-sub">No somos para todo el mundo. Somos para quien está exactamente en una de estas tres situaciones.</p>
+
+    <div class="perfiles-grid">
+      <div class="perfil-card">
+        <h3>Llevas tiempo sin dormir bien</h3>
+        <p>Te despiertas cansado aunque hayas dormido siete horas. Has probado melatonina, magnesio, apps de meditación. El médico dice que las analíticas están bien. Tú sabes que algo no cuadra.</p>
+      </div>
+      <div class="perfil-card">
+        <h3>Convives con un diagnóstico crónico</h3>
+        <p>Hashimoto, fibromialgia, dolor articular, fatiga crónica… Llevas años con tratamiento, controlas pero no resuelves. Buscas un complemento real, con base científica, que no interfiera con tu medicación.</p>
+      </div>
+      <div class="perfil-card">
+        <h3>Cuidas de tu familia</h3>
+        <p>Tienes hijos, padres mayores, o ambos. Has cambiado la alimentación, has reducido la exposición al wifi, prestas atención a la higiene electromagnética. Quieres algo que funcione de forma continua, segura y para todos.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================
+     EVIDENCIA CIENTÍFICA
+============================================ -->
+<section class="evidencia">
+  <div class="container container-wide">
+    <div style="text-align:center;">
+      <span class="block-eyebrow">qué dice la ciencia</span>
+    </div>
+    <h2>No te pedimos que te fíes de testimonios. Te pedimos que mires los datos.</h2>
+    <p class="intro">
+      Más de 6.000 estudios publicados en PubMed investigan la fotobiomodulación. Estos son tres de los hallazgos más relevantes para los casos que más nos consultan:
+    </p>
+
+    <div class="evidencia-grid">
+      <div class="evidencia-card">
+        <div class="evidencia-numero">−27%</div>
+        <div class="evidencia-claim">Reducción del pico de glucosa tras una sola sesión de 15 minutos con luz roja 670 nm.</div>
+        <div class="evidencia-fuente">Powner & Jeffery, 2024 (n=30). Replicado en humanos tras estudios previos en modelo animal.</div>
+      </div>
+
+      <div class="evidencia-card">
+        <div class="evidencia-numero">95%</div>
+        <div class="evidencia-claim">Porcentaje de la melatonina corporal que se produce en las mitocondrias durante el día, estimulada por luz infrarroja cercana.</div>
+        <div class="evidencia-fuente">Mecanismo descrito en literatura sobre melatonina subcellular. Explica por qué los usuarios reportan mejoras en el sueño tras 1-2 semanas.</div>
+      </div>
+
+      <div class="evidencia-card">
+        <div class="evidencia-numero">n=350</div>
+        <div class="evidencia-claim">Estudio sobre fotobiomodulación en hipotiroidismo de Hashimoto: mejoras en relación T3/T4 y reducción de anticuerpos.</div>
+        <div class="evidencia-fuente">Estudio publicado en 2020. Aplicable como complemento al tratamiento convencional, nunca como sustituto.</div>
+      </div>
+    </div>
+
+    <p class="disclaimer-evidencia">
+      Los estudios sugieren beneficios documentados. Cada caso es distinto: por eso existe la consultoría con Cristhian, para revisar si la evidencia disponible aplica al tuyo.
+    </p>
+  </div>
+</section>
+
+<!-- ============================================
+     PATENTE OEPM — SECCIÓN DEDICADA
+============================================ -->
+<section class="patente">
+  <div class="container container-wide">
+    <div style="text-align:center;">
+      <span class="block-eyebrow" style="color: var(--gold);">patente española OEPM</span>
+    </div>
+
+    <div class="patente-card">
+      <!-- ⚠️ Sustituir por imagen real del justificante de patente -->
+      <div class="patente-img">
+        {% if section.settings.img_patente != blank %}
+          <img src="{{ section.settings.img_patente | image_url: width: 600 }}" alt="Justificante de patente OEPM U202532624" style="width:100%;height:100%;object-fit:contain;border-radius:8px;">
+        {% else %}
+          <div class="patente-img-flag"></div>
+          <strong>Oficina Española de Patentes y Marcas</strong>
+          <span style="color:#666;">Justificante de presentación</span>
+          <div class="num">U202532624</div>
+          <span style="color:#666; margin-top: 4px;">24 diciembre 2025</span>
+          <div class="caption-placeholder">Sube la imagen real del justificante en los ajustes</div>
+        {% endif %}
+      </div>
+      <div class="patente-info">
+        <h2>No somos un panel chino con logo encima.</h2>
+        <p>
+          EKIO Light es la única tecnología multiespectral con patente española sobre <em>"Dispositivo de iluminación multiespectral para aplicaciones terapéuticas y circadianas"</em>.
+        </p>
+        <ul class="patente-bullets">
+          <li>Modelo de utilidad presentado en la <strong>Oficina Española de Patentes y Marcas</strong></li>
+          <li>Número de solicitud <strong>U202532624</strong> · 24 de diciembre de 2025</li>
+          <li>Diseñado en España por Francisco Javier Andrés, fundador de EKIO</li>
+          <li>Tecnología propietaria, no genérica ni de importación</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================
+     MODELOS DE LA GAMA
+============================================ -->
+<section class="modelos">
+  <div class="container container-wide">
+    <div style="text-align:center;">
+      <span class="block-eyebrow">la gama ekio light</span>
+    </div>
+    <h2>Tres modelos. Un objetivo: devolverte la luz que necesitas.</h2>
+    <p class="lead">Cada caso es distinto. Por eso la gama EKIO Light tiene tres niveles, del panel para empezar al modelo profesional con espectro solar completo. Cristhian te ayuda a elegir el adecuado en tu consultoría — sin que pagues de más.</p>
+
+    <div class="modelos-grid">
+      <!-- DEEP 5 -->
+      <div class="modelo-card">
+        <div class="modelo-foto">
+          {% if section.settings.img_deep5 != blank %}
+            <img src="{{ section.settings.img_deep5 | image_url: width: 600 }}" alt="Panel Ekio Light Deep 5" style="width:100%;height:100%;object-fit:cover;">
+          {% else %}
+          <div class="modelo-foto-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" stroke="#E84A4A"/><circle cx="12" cy="12" r="4" fill="#E84A4A"/></svg>
+          </div>
+          {% endif %}
+        </div>
+        <div class="modelo-body">
+          <div class="modelo-name">DEEP 5</div>
+          <div class="modelo-tagline">Nivel entrada · Sueño, energía y metabolismo</div>
+          <ul class="modelo-specs">
+            <li>70 LEDs · 5 longitudes de onda</li>
+            <li>630 · 660 · 727 · 810 · 850 nm</li>
+            <li class="highlight">727 nm: activa la leptina y el metabolismo</li>
+            <li>Ideal para empezar: sueño y energía</li>
+          </ul>
+          <div class="modelo-price">650 € <span>· o desde 217 €/mes</span></div>
+          <div class="modelo-cta">
+            <a href="#reservar">Saber si es para mí →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- BIO REGEN 7 - BESTSELLER -->
+      <div class="modelo-card featured">
+        <div class="modelo-badge bestseller">⭐ Más vendido</div>
+        <div class="modelo-foto">
+          {% if section.settings.img_bioregen != blank %}
+            <img src="{{ section.settings.img_bioregen | image_url: width: 600 }}" alt="Panel Ekio Light Bio Regen 7" style="width:100%;height:100%;object-fit:cover;">
+          {% else %}
+          <div class="modelo-foto-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2" stroke="#E84A4A"/><circle cx="8" cy="12" r="3" fill="#E84A4A"/><circle cx="16" cy="12" r="3" fill="#E84A4A"/></svg>
+          </div>
+          {% endif %}
+        </div>
+        <div class="modelo-body">
+          <div class="modelo-name">BIO REGEN 7</div>
+          <div class="modelo-tagline">Nivel intermedio · Regeneración, piel y dolor</div>
+          <ul class="modelo-specs">
+            <li>70 LEDs · 7 longitudes de onda</li>
+            <li class="highlight">+ Azul antibacteriano 485 nm</li>
+            <li class="highlight">+ Infrarrojo profundo 940 nm</li>
+            <li>Piel, tejido conectivo y músculo profundo</li>
+            <li>Ideal: regeneración, dolor y deporte</li>
+          </ul>
+          <div class="modelo-price">970 € <span>· o desde 323 €/mes</span></div>
+          <div class="modelo-cta">
+            <a href="#reservar">Saber si es para mí →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- BIO SPECTRUM 11 - ESPECTRO COMPLETO -->
+      <div class="modelo-card featured">
+        <div class="modelo-badge patented">🛡️ Espectro solar completo</div>
+        <div class="modelo-foto">
+          {% if section.settings.img_biospectrum != blank %}
+            <img src="{{ section.settings.img_biospectrum | image_url: width: 600 }}" alt="Panel Ekio Light Bio Spectrum 11" style="width:100%;height:100%;object-fit:cover;">
+          {% else %}
+          <div class="modelo-foto-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9" stroke="#E0B43A"/><circle cx="12" cy="12" r="4" fill="#E0B43A"/><path d="M12 1v2M12 21v2M1 12h2M21 12h2M4.2 4.2l1.4 1.4M18.4 18.4l1.4 1.4M4.2 19.8l1.4-1.4M18.4 5.6l1.4-1.4" stroke="#E0B43A" stroke-linecap="round"/></svg>
+          </div>
+          {% endif %}
+        </div>
+        <div class="modelo-body">
+          <div class="modelo-name">BIO SPECTRUM 11</div>
+          <div class="modelo-tagline">Nivel profesional · El sol terapéutico completo</div>
+          <ul class="modelo-specs">
+            <li>210 LEDs · 11 longitudes de onda</li>
+            <li class="highlight">UV-B · síntesis de vitamina D</li>
+            <li class="highlight">UV-A · óxido nítrico y hormonas</li>
+            <li class="highlight">Visible + NIR hasta 1050 nm</li>
+            <li>Clínica, atletas de élite y longevidad</li>
+          </ul>
+          <div class="modelo-price">2.500 € <span>· o a plazos seQura</span></div>
+          <div class="modelo-cta">
+            <a href="#reservar">Saber si es para mí →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <p class="modelos-footnote">
+      <strong>¿No sabes cuál es el tuyo?</strong> Es exactamente lo que Cristhian decide contigo en los 30 minutos de consultoría. Gratis — y sin que acabes pagando de más por un modelo que no necesitas.
+    </p>
+  </div>
+</section>
+
+<!-- ============================================
+     CRISTHIAN
+============================================ -->
+<section class="cristhian">
+  <div class="container">
+    <div style="text-align:center;">
+      <span class="block-eyebrow">la persona, no un comercial</span>
+    </div>
+    <h2 style="text-align:center;">Tu consultoría la imparte Cristhian</h2>
+
+    <div class="cristhian-card">
+      <div class="cristhian-header">
+        <div class="cristhian-foto">
+          {% if section.settings.img_cristhian != blank %}
+            <img src="{{ section.settings.img_cristhian | image_url: width: 200 }}" alt="Cristhian de Moya">
+          {% else %}
+            <span>Foto<br>real<br>pendiente</span>
+          {% endif %}
+        </div>
+        <div>
+          <div class="cristhian-name">Cristhian de Moya</div>
+          <div class="cristhian-role">Especialista en Fotobiomodulación · EKIO Light</div>
+        </div>
+      </div>
+
+      <p>
+        Cristhian acompaña cada semana a personas con casos como el tuyo: tiroides, sueño, dolor crónico, recuperación, uso familiar. Conoce a fondo la literatura científica de fotobiomodulación y cada modelo de la gama EKIO Light, incluyendo el único panel multiespectral con patente española.
+      </p>
+      <p>
+        En la consultoría escucha tu caso, revisa lo que ya estás haciendo (medicación, hábitos, tratamientos anteriores), te dice qué dice la evidencia para tu situación concreta, y propone — si tiene sentido — qué modelo y qué protocolo encajarían.
+      </p>
+      <p>
+        Si concluye que esto no es lo que necesitas, te lo va a decir.
+      </p>
+
+      <div class="cristhian-promesa">
+        <strong>Lo que NO va a pasar:</strong> Cristhian no cobra comisión por panel vendido. La consultoría no es una llamada de ventas disfrazada. Si después de hablar con él no tienes más claridad sobre tu situación, no te habremos hecho gastar ni un minuto de más.
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================
+     RISK REVERSAL — Las 4 garantías
+============================================ -->
+<section class="garantias">
+  <div class="container container-wide">
+    <div style="text-align:center;">
+      <span class="block-eyebrow">cuatro garantías concretas</span>
+    </div>
+    <h2>Lo que pasa si reservas — y lo que pasa si decides comprar</h2>
+    <p class="garantias-sub">Para que no tengas que confiar a ciegas. Cada compromiso es escrito y verificable.</p>
+
+    <div class="garantias-grid">
+      <div class="garantia-item">
+        <div class="garantia-icon">✓</div>
+        <div class="garantia-title">Consultoría sin presión</div>
+        <div class="garantia-desc">Si tras 30 minutos no tienes más claridad, no te habremos hecho gastar ni un minuto.</div>
+      </div>
+      <div class="garantia-item">
+        <div class="garantia-icon">€</div>
+        <div class="garantia-title">Cero comisión</div>
+        <div class="garantia-desc">Cristhian no cobra comisión por panel vendido. Su trabajo es orientar.</div>
+      </div>
+      <div class="garantia-item">
+        <div class="garantia-icon">30</div>
+        <div class="garantia-title">30 días de prueba</div>
+        <div class="garantia-desc">Si compras un panel y no es para ti, lo devuelves dentro de 30 días sin preguntas.</div>
+      </div>
+      <div class="garantia-item">
+        <div class="garantia-icon">2y</div>
+        <div class="garantia-title">Garantía 2 años</div>
+        <div class="garantia-desc">Garantía técnica de 2 años sobre el hardware EKIO Light. Diseñado en España.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================
+     MICRO-COMPROMISOS — Auto-cualificación
+============================================ -->
+<section class="compromisos">
+  <div class="container">
+    <h2>¿Es esto realmente para ti?</h2>
+    <p class="compromisos-sub">Marca las que se aplican a tu caso. Si reconoces dos o tres, esta consultoría está hecha para ti.</p>
+
+    <div class="checks">
+      <div class="check-item" data-check="1">
+        <div class="check-box">
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7l3 3 7-7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <div class="check-label">Llevo más de 3 meses con este problema y no he encontrado solución.</div>
+      </div>
+      <div class="check-item" data-check="2">
+        <div class="check-box">
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7l3 3 7-7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <div class="check-label">He probado al menos 2 cosas (suplementos, dietas, tratamientos) que no resolvieron.</div>
+      </div>
+      <div class="check-item" data-check="3">
+        <div class="check-box">
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7l3 3 7-7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <div class="check-label">Estoy abierto a algo nuevo si tiene base científica y alguien me orienta.</div>
+      </div>
+    </div>
+
+    <div class="compromisos-result" id="compResult">
+      Entonces sí, esta consultoría está hecha para ti. ↓
+    </div>
+  </div>
+</section>
+
+<!-- ============================================
+     CTA + CALENDLY
+============================================ -->
+<section id="reservar" class="booking">
+  <div class="container container-wide">
+    <div style="text-align:center;">
+      <span class="block-eyebrow">reserva tu hueco</span>
+    </div>
+    <h2>Treinta minutos. Gratis. Para tu caso.</h2>
+    <p class="lead">Elige el día y la hora que te encajen. Recibirás confirmación inmediata por email con el enlace de la videollamada.</p>
+
+    <div class="booking-scarcity">
+      ⏳ Cristhian atiende un máximo de 12 consultorías a la semana — reserva mientras haya disponibilidad
+    </div>
+
+    <p class="booking-anchor">
+      <strong>Para que te hagas una idea:</strong> un asesoramiento profesional de salud cuesta entre 80€ y 150€ por hora. Hoy te lo regalamos.
+    </p>
+
+    <div class="booking-bullets">
+      <span>30 minutos</span>
+      <span>100% gratis</span>
+      <span>Sin compromiso</span>
+      <span>Videollamada</span>
+    </div>
+
+    <!-- Calendly inline -->
+    <div class="calendly-inline-widget"
+         data-url="{{ section.settings.calendly_url }}?hide_event_type_details=0&hide_gdpr_banner=1&background_color=141A26&text_color=eaeef4&primary_color=e84a4a">
+    </div>
+    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+  </div>
+</section>
+
+<!-- ============================================
+     FAQ
+============================================ -->
+<section class="faq-section">
+  <div class="container">
+    <h2>Lo que probablemente estás pensando</h2>
+    <div class="faq">
+
+      <details>
+        <summary>"He probado de todo. ¿Por qué esto sería diferente?"</summary>
+        <p>Sabemos que no somos la primera cosa que pruebas. Y sabemos que eso hace más difícil confiar en algo nuevo. Por eso no te pedimos que compres nada hoy. Solo que hables 30 minutos con Cristhian. Y que decidas tú después.</p>
+      </details>
+
+      <details>
+        <summary>"¿Qué tiene EKIO Light que no tengan otros paneles?"</summary>
+        <p>Dos cosas concretas. Primero: tenemos patente española OEPM (U202532624), registrada en 157 países, sobre el dispositivo multiespectral. No somos una marca de importación con logo encima. Segundo: el modelo Bio Spectrum 11 incluye el espectro solar completo —UV-B, UV-A, visible e infrarrojo hasta 1050 nm, con 11 longitudes de onda y 210 LEDs— mientras que la mayoría de paneles del mercado solo emiten 660 y 850 nm. Esto es relevante porque tu cuerpo evolucionó bajo todo el espectro, no solo bajo dos colores.</p>
+      </details>
+
+      <details>
+        <summary>"Si esto funcionara, mi médico me lo habría dicho."</summary>
+        <p>La fotobiomodulación no forma parte del currículum estándar de medicina convencional en España. Igual que el magnesio tardó décadas en estar en consulta, esto está en un estadio de adopción temprana. Lleva más de 30 años en investigación —los primeros estudios LLLT son de los años 70— y la NASA la investiga desde los 90. El hecho de que tu médico no lo conozca no dice nada sobre si funciona. Dice algo sobre el ritmo de actualización de la medicina convencional.</p>
+      </details>
+
+      <details>
+        <summary>"¿Interfiere con mi medicación?"</summary>
+        <p>La fotobiomodulación es una terapia de luz. No es oral, no entra en el torrente sanguíneo, no tiene interacciones farmacológicas conocidas. Es, en ese sentido, más segura que la mayoría de suplementos. Las contraindicaciones reales —epilepsia fotosensible, ciertos medicamentos fotosensibilizantes— las repasamos en la consultoría.</p>
+      </details>
+
+      <details>
+        <summary>"¿La consultoría gratuita es para venderme un panel?"</summary>
+        <p>Cristhian no cobra comisión por panel vendido. Si después de la llamada concluye que esto no es para tu caso, te lo dirá. Si concluye que sí, te dirá cuál y por qué — incluyendo el modelo más económico si encaja con tu caso. Es una orientación honesta, no un guión de ventas.</p>
+      </details>
+
+      <details>
+        <summary>"¿Cuánto tiempo hasta notar resultados?"</summary>
+        <p>Algunos usuarios reportan mejoras en sueño y energía en la primera o segunda semana. Para condiciones crónicas como Hashimoto o fibromialgia, el proceso es más gradual: 4 a 12 semanas para notar cambios medibles. No es inmediato. No vendemos milagros inmediatos.</p>
+      </details>
+
+      <details>
+        <summary>"¿Es seguro para niños, embarazo o personas mayores?"</summary>
+        <p>En general sí, con las precauciones adecuadas (distancia, tiempos de exposición, zonas a tratar, especialmente con los componentes UV del Bio Spectrum 11). Hay contraindicaciones reales que dependen de cada caso. Es exactamente lo que repasamos con Cristhian: protocolo seguro adaptado a tu situación concreta.</p>
+      </details>
+
+      <details>
+        <summary>"¿Cuánto cuestan los paneles?"</summary>
+        <p>La gama EKIO Light cubre tres niveles: <strong>Deep 5</strong> (650 €, o desde 217 €/mes con seQura) para sueño, energía y metabolismo; <strong>Bio Regen 7</strong> (970 €, o desde 323 €/mes) para regeneración, piel y dolor; y <strong>Bio Spectrum 11</strong> (2.500 €, a plazos), el modelo profesional con espectro solar completo. Cristhian te recomendará el adecuado para tu caso, sin presión por subir de gama. Todos llevan 30 días de prueba y garantía técnica.</p>
+      </details>
+
+      <details>
+        <summary>"¿Y si no puedo en los horarios que aparecen?"</summary>
+        <p>Escríbenos a <a href="mailto:hola@electrosmogespana.com" style="color: var(--red);">hola@electrosmogespana.com</a> y abrimos un hueco extra para ti. Si tienes urgencia o un caso especialmente complejo, también puedes pedir una consultoría extendida.</p>
+      </details>
+
+      <details>
+        <summary>"¿Tengo que hacer la consultoría sí o sí para comprar un panel?"</summary>
+        <p>No. Si ya has investigado por tu cuenta y tienes claro qué panel quieres, puedes ir directamente a la <a href="https://electrosmogespana.com/collections/all" style="color: var(--red);">tienda</a>. La consultoría es para quien tiene dudas sobre cuál encaja mejor en su caso, o cómo integrarlo con un tratamiento existente.</p>
+      </details>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================================
+     CTA FINAL
+============================================ -->
+<section class="final-cta">
+  <div class="container container-narrow">
+    <h2>No te pedimos que compres nada hoy. Solo treinta minutos.</h2>
+    <a href="#reservar" class="cta-btn" onclick="trackCTAClick('final')">Reservar mi consultoría gratuita</a>
+    <p class="cta-mini" style="margin-top: 16px;">Si después de hablar con Cristhian no tienes más claridad sobre tu situación, no te habremos hecho gastar ni un minuto de más.</p>
+  </div>
+</section>
+
+<!-- ============================================
+     FOOTER
+============================================ -->
+<footer>
+  <div class="container">
+    <p>© 2026 EKIO Electrosmog España · <a href="https://electrosmogespana.com">electrosmogespana.com</a></p>
+    <p style="margin-top: 8px;">
+      <a href="https://electrosmogespana.com/policies/privacy-policy">Privacidad</a> ·
+      <a href="https://electrosmogespana.com/policies/legal-notice">Aviso legal</a> ·
+      <a href="https://electrosmogespana.com/policies/terms-of-service">Términos</a>
+    </p>
+    <div class="footer-patent">
+      🛡️ Tecnología EKIO Light protegida por modelo de utilidad OEPM nº <strong>U202532624</strong>
+    </div>
+    <p class="quiet" style="margin-top: 16px; font-size: 12px; max-width: 60ch; margin-left: auto; margin-right: auto;">
+      La información de esta página tiene carácter divulgativo. La fotobiomodulación es un complemento, no un sustituto, del tratamiento médico convencional. Consulta con tu profesional de salud antes de iniciar cualquier protocolo.
+    </p>
+  </div>
+</footer>
+
+<!-- ============================================
+     STICKY CTA (mobile + desktop)
+============================================ -->
+<div class="sticky-cta" id="stickyCta">
+  <div class="sticky-cta-text">
+    Consultoría gratuita con Cristhian
+    <span>30 min · sin venta · sobre tu caso</span>
+  </div>
+  <a href="#reservar" onclick="trackCTAClick('sticky')">Reservar →</a>
+</div>
+</div>
+
+<script src="https://assets.calendly.com/assets/external/widget.js" async></script>
+<script>
+(function(){
+// === Track click en CTA ===
+  function trackCTAClick(location) {
+    if (typeof fbq !== 'undefined') {
+      fbq('trackCustom', 'CTAClick', {location: location, page: 'consultoria-fbm'});
+    }
+    if (typeof gtag !== 'undefined') {
+      gtag('event', 'cta_click', {location: location, page: 'consultoria-fbm'});
+    }
+  }
+
+  // === Sticky CTA: aparece tras 30% scroll, desaparece en sección Calendly ===
+  const root = document.querySelector('.ekio-fbm');
+  const stickyCta = root.querySelector('#stickyCta');
+  const bookingSection = root.querySelector('#reservar');
+  let stickyVisible = false;
+
+  window.addEventListener('scroll', function() {
+    const scrolled = window.scrollY;
+    const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+    const scrollPct = scrolled / docHeight;
+
+    // Detectar si estamos en/cerca de la sección de reserva
+    const bookingTop = bookingSection.getBoundingClientRect().top;
+    const inBookingArea = bookingTop < window.innerHeight && bookingTop > -bookingSection.offsetHeight;
+
+    const shouldShow = scrollPct > 0.20 && !inBookingArea;
+
+    if (shouldShow && !stickyVisible) {
+      stickyCta.classList.add('show');
+      root.classList.add('sticky-active');
+      stickyVisible = true;
+    } else if (!shouldShow && stickyVisible) {
+      stickyCta.classList.remove('show');
+      root.classList.remove('sticky-active');
+      stickyVisible = false;
+    }
+  });
+
+  // === Micro-compromisos: marcar/desmarcar + mostrar mensaje ===
+  const checkItems = root.querySelectorAll('.check-item');
+  const compResult = root.querySelector('#compResult');
+  let checkedCount = 0;
+
+  checkItems.forEach(item => {
+    item.addEventListener('click', function() {
+      this.classList.toggle('checked');
+      checkedCount = root.querySelectorAll('.check-item.checked').length;
+      if (checkedCount >= 2) {
+        compResult.classList.add('show');
+        // Track micro-conversion
+        if (typeof fbq !== 'undefined') {
+          fbq('trackCustom', 'MicroCommitment', {checks: checkedCount});
+        }
+        if (typeof gtag !== 'undefined') {
+          gtag('event', 'micro_commitment', {checks: checkedCount});
+        }
+      } else {
+        compResult.classList.remove('show');
+      }
+    });
+  });
+
+  // === Calendly events tracking ===
+  function isCalendlyEvent(e) {
+    return e.origin === 'https://calendly.com' && e.data.event && e.data.event.indexOf('calendly.') === 0;
+  }
+
+  window.addEventListener('message', function(e) {
+    if (!isCalendlyEvent(e)) return;
+
+    if (e.data.event === 'calendly.profile_page_viewed' || e.data.event === 'calendly.event_type_viewed') {
+      if (typeof fbq !== 'undefined') fbq('track', 'InitiateCheckout', {content_name: 'Consultoria FBM'});
+      if (typeof gtag !== 'undefined') gtag('event', 'begin_booking', {item_name: 'Consultoria FBM'});
+    }
+
+    if (e.data.event === 'calendly.date_and_time_selected') {
+      if (typeof gtag !== 'undefined') gtag('event', 'select_time', {item_name: 'Consultoria FBM'});
+    }
+
+    // ✅ CONVERSIÓN PRINCIPAL
+    if (e.data.event === 'calendly.event_scheduled') {
+      console.log('Calendly: reserva confirmada', e.data.payload);
+
+      if (typeof fbq !== 'undefined') {
+        fbq('track', 'Lead', {
+          content_name: 'Consultoria FBM',
+          content_category: 'Booking',
+          value: 0,
+          currency: 'EUR'
+        });
+        fbq('track', 'Schedule', {
+          content_name: 'Consultoria FBM Cristhian',
+          content_category: 'Consultation'
+        });
+      }
+
+      if (typeof gtag !== 'undefined') {
+        gtag('event', 'consultation_booked', {
+          item_name: 'Consultoria FBM',
+          value: 0,
+          currency: 'EUR'
+        });
+        gtag('event', 'generate_lead', {
+          currency: 'EUR',
+          value: 0
+        });
+      }
+
+      if (typeof _learnq !== 'undefined') {
+        _learnq.push(['track', 'Consultoría FBM Reservada', {
+          'Tipo': 'Fotobiomodulación',
+          'Asesor': 'Cristhian de Moya',
+          'Fuente': 'Landing /pages/consultoria-fotobiomodulacion',
+          'Fecha reserva': new Date().toISOString()
+        }]);
+      }
+    }
+  });
+})();
+</script>
+
+{% schema %}
+{
+  "name": "EKIO · Consultoría FBM",
+  "tag": "section",
+  "class": "ekio-fbm-section",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Vídeo"
+    },
+    {
+      "type": "text",
+      "id": "video_embed_url",
+      "label": "URL embed del vídeo (YouTube/Vimeo)",
+      "info": "Ej. https://www.youtube.com/embed/XXXX?rel=0  ·  https://player.vimeo.com/video/XXXX"
+    },
+    {
+      "type": "header",
+      "content": "Reserva (Calendly)"
+    },
+    {
+      "type": "text",
+      "id": "calendly_url",
+      "label": "URL de Calendly",
+      "default": "https://calendly.com/entrevista-gratis/reunion-informativa-ekio-light"
+    },
+    {
+      "type": "header",
+      "content": "Imágenes"
+    },
+    {
+      "type": "image_picker",
+      "id": "img_patente",
+      "label": "Justificante de patente OEPM"
+    },
+    {
+      "type": "image_picker",
+      "id": "img_cristhian",
+      "label": "Foto de Cristhian de Moya"
+    },
+    {
+      "type": "image_picker",
+      "id": "img_deep5",
+      "label": "Foto modelo Deep 5"
+    },
+    {
+      "type": "image_picker",
+      "id": "img_bioregen",
+      "label": "Foto modelo Bio Regen 7"
+    },
+    {
+      "type": "image_picker",
+      "id": "img_biospectrum",
+      "label": "Foto modelo Bio Spectrum 11"
+    }
+  ],
+  "presets": [
+    {
+      "name": "EKIO · Consultoría FBM"
+    }
+  ]
+}
+{% endschema %}
