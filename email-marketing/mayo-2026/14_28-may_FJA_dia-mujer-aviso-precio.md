@@ -43,11 +43,15 @@ No cambia tus hábitos. No te pide que tires el móvil. Va en tu cartera o en tu
 
 Y ahora la parte que quiero decirte con tiempo:
 
-El 1 de junio, el precio de la SpiroCard y del SpiroDisc sube. **[VALIDAR % subida]** de subida. El precio actual se mantiene hasta el 31 de mayo a las 23:59.
+El 1 de junio, el precio de la SpiroCard y del SpiroDisc sube. Más de un 20%.
 
-Te lo digo hoy, jueves, para que no te pille desprevenida. Para que si lo estabas pensando, puedas decidir sin presión.
+No es una táctica de marketing. Llevamos tres años sin tocar los precios. Mientras tanto, las materias primas han subido, los costes de producción han subido, la inflación ha hecho lo suyo. Hasta ahora hemos absorbido todo eso. El 1 de junio ya no podemos seguir haciéndolo sin comprometer la calidad del producto.
 
-Sin cuenta atrás en rojo. Sin urgencia fabricada. El precio sube porque sube, y punto.
+El precio actual se mantiene hasta el 31 de mayo a las 23:59. Si lo estabas pensando, tienes hasta entonces.
+
+Te lo digo hoy, jueves, para que no te pille desprevenida. Para que puedas decidir con calma, sin la presión del último momento.
+
+Sin cuenta atrás en rojo. Sin urgencia fabricada. El precio sube porque los costes suben, y lo hemos aguantado todo lo que hemos podido.
 
 **[ Ver la SpiroCard antes del 31 de mayo → ]**
 
@@ -67,6 +71,7 @@ Si ya tienes una SpiroCard o un SpiroDisc, no necesitas hacer nada. Este correo 
 ---
 
 ## NOTAS
-- ⚠️ **[VALIDAR % subida]** antes de enviar.
+- ✅ Subida confirmada: **más del 20%** — razón: materias primas + inflación + 3 años sin subir.
 - Tono honesto = activo de confianza. NO meter cuenta atrás agresiva en este correo (eso llega el 30 y 31).
+- ⚠️ **[VALIDAR precio actual Card y Disc en €]** si se quiere añadir en futuras versiones.
 - Smart Sending 48h.

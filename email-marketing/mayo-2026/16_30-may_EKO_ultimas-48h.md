@@ -23,7 +23,9 @@
 
 Hace dos días te avisamos. Hoy lo concreto.
 
-El 1 de junio sube el precio de la SpiroCard y el SpiroDisc. Ambos, **[VALIDAR % subida]**. El precio actual deja de estar disponible el domingo 31 de mayo a las 23:59.
+El 1 de junio sube el precio de la SpiroCard y el SpiroDisc. Ambos, más de un 20%.
+
+Llevamos tres años sin tocar los precios. Las materias primas han subido. Los costes de producción han subido. Lo hemos absorbido todo hasta donde hemos podido. El domingo 31 de mayo a las 23:59 cierra el precio actual. El lunes hay otro.
 
 Quedan menos de 48 horas.
 
@@ -33,7 +35,7 @@ Formato tarjeta. Va en el bolsillo, en la cartera o en el bolso. Siempre contigo
 
 Para quien lleva el móvil encima todo el día. Para quien viaja. Para quien trabaja en oficinas cargadas de dispositivos. Y como regalo para alguien que sabes que lo necesita.
 
-**[PRECIO ACTUAL VALIDAR]** — sube a **[PRECIO NUEVO VALIDAR]** el 1 de junio.
+**[PRECIO ACTUAL €]** → pasa a **[PRECIO NUEVO €]** el 1 de junio.
 
 **SpiroDisc — protección de estancia**
 
@@ -41,17 +43,17 @@ Cubre hasta 7 metros de radio. Colocado en el dormitorio, el salón o el despach
 
 Para quien quiere proteger el espacio donde descansa y donde trabaja. Una sola pieza para toda la estancia.
 
-**[PRECIO ACTUAL VALIDAR]** — sube a **[PRECIO NUEVO VALIDAR]** el 1 de junio.
+**[PRECIO ACTUAL €]** → pasa a **[PRECIO NUEVO €]** el 1 de junio.
 
 ---
 
 Lo que dicen quienes ya los tienen:
 
 > "Desde que tengo el Disc en el dormitorio noto que descanso mejor. No sé si es efecto placebo, pero llevo tres meses y no quiero quitarlo."
-> — [Nombre, ciudad] (en validación)
+> — [VALIDAR: testimonio real con nombre y ciudad]
 
 > "Me llevo la Card al trabajo. Hay días de mucha exposición y me da tranquilidad saber que está ahí."
-> — [Nombre, ciudad] (en validación)
+> — [VALIDAR: testimonio real con nombre y ciudad]
 
 ---
 
@@ -76,5 +78,9 @@ Si tienes dudas sobre cuál es el que necesitas (Card, Disc, o los dos), respond
 ---
 
 ## NOTAS
-- ⚠️ **VALIDAR antes de enviar:** % subida, precio actual y precio nuevo de cada producto, testimonios reales.
+- ✅ Subida confirmada: **más del 20%** — razón: materias primas + inflación + 3 años sin subir. Integrado en el cuerpo.
+- ⚠️ **VALIDAR antes de enviar:**
+  - **[PRECIO ACTUAL €]** y **[PRECIO NUEVO €]** de SpiroCard (dos apariciones)
+  - **[PRECIO ACTUAL €]** y **[PRECIO NUEVO €]** de SpiroDisc (dos apariciones)
+  - Testimonios reales (sustituir los placeholders marcados)
 - Botón above the fold. Smart Sending 48h.

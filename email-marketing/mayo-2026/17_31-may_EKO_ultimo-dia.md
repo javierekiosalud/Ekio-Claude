@@ -26,7 +26,9 @@ Este es el último correo de mayo.
 
 Y el último al precio actual de la SpiroCard y el SpiroDisc.
 
-Esta noche a las 23:59, ambos suben **[VALIDAR % subida]**. No hay prórroga. No hay excepción. Mañana el precio es otro.
+Esta noche a las 23:59, ambos suben más de un 20%. No hay prórroga. No hay excepción. Mañana el precio es otro.
+
+Llevamos tres años sin tocarlo. Ha llegado el momento.
 
 Si has leído los correos de esta semana, ya sabes lo que son y para qué sirven.
 
@@ -66,7 +68,8 @@ Si prefieres hablar antes de comprar, responde a este correo ahora. Leemos todos
 ---
 
 ## NOTAS
-- ⚠️ **[VALIDAR % subida]** antes de enviar.
+- ✅ Subida confirmada: **más del 20%** — integrado en el cuerpo con "Llevamos tres años sin tocarlo."
+- ⚠️ **[VALIDAR precio actual €]** de Card y Disc si se quiere añadir en el cuerpo (recomendado para dar concreción: "La Card pasa de X€ a Y€ esta noche").
 - **Reenvío 15:00-16:00** a no-aperturas del envío de las 9:00, con el asunto alternativo indicado. Mismo cuerpo, sin modificación.
 - Doble CTA (arriba y abajo), mismo destino, fricción mínima.
 - Smart Sending: ojo, este es el 2º EKO en 24h (tras el del 30). Justificado por deadline real. Excluir a quien ya compró en el envío del 30.

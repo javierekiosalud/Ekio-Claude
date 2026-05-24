@@ -43,7 +43,7 @@ Y el SpiroDisc cubre el espacio donde más tiempo pasas: el dormitorio, el despa
 
 La combinación más completa: protección personal y protección de estancia.
 
-El precio actual de ambos se mantiene hasta el 31 de mayo a las 23:59. El 1 de junio sube **[VALIDAR % subida]**.
+El precio actual de ambos se mantiene hasta el 31 de mayo a las 23:59. El 1 de junio sube más de un 20%. No es una subida de catálogo: son tres años absorbiendo el aumento de materias primas y costes de producción. El precio se ajusta ahora.
 
 **[ Consultar SpiroCard y SpiroDisc al precio actual → ]**
 
@@ -71,5 +71,6 @@ Las fuentes citadas en este correo son estudios de acceso abierto. Si quieres le
 ---
 
 ## NOTAS
-- ⚠️ **[VALIDAR % subida]** antes de enviar.
+- ✅ Subida confirmada: **más del 20%** — razón: materias primas + inflación + 3 años sin subir. Integrado en el cuerpo del email.
+- ⚠️ **[VALIDAR precio actual Card y Disc en €]** — los euros exactos se pueden añadir al párrafo del CTA si se desea.
 - Los estudios citados son sobre fertilidad masculina (lo mejor documentado); el email lo aclara honestamente y extrapola solo el principio físico de proximidad. No sobre-afirmar.
