@@ -1,11 +1,15 @@
-# FLUJO MANYCHAT — "GUÍA" (Lead magnet: PDF Higiene EMF Niños)
+# FLUJO MANYCHAT — "GUÍA" (Lead magnet: Manual de Higiene Electromagnética)
 
 > **Entregable 1 de 3** · Agente ManyChat · EKIO Electrosmog España
 > Documento de implementación manual. ManyChat NO tiene API pública para
 > crear flujos por código: esto se construye en la interfaz de ManyChat.
 >
+> **Lead magnet:** Manual de Higiene Electromagnética (audiencia: hogar /
+> adultos). NO confundir con el flujo ya existente "Guía Niños - Higiene
+> Electromagnética", que entrega otro documento distinto.
+>
 > Concepto de marca: **"El precio invisible"** — el coste oculto que paga
-> el cuerpo (sobre todo el de los niños) por ignorar el electrosmog.
+> el cuerpo por ignorar el electrosmog en casa.
 > Tono: cercano, científico, sin presión. Como un amigo que sabe de salud.
 
 ---
@@ -43,8 +47,14 @@ que dispare con CUALQUIERA de estas variantes (modo "contiene", no "coincide exa
 | `guia` | **Crítica**: minúscula sin tilde, la forma más tecleada de todas |
 | `quiero la guía` | Frase natural; mucha gente responde con frase completa, no con la keyword aislada |
 | `quiero la guia` | Misma frase sin tilde |
-| `GUÍA NIÑOS` | Variante específica del CTA cuando el post es de niños |
-| `guia niños` / `guia ninos` | Sin tilde y con/sin ñ (la ñ también se pierde en muchos teclados) |
+| `MANUAL` / `manual` | El lead magnet es el "Manual de Higiene EM"; algunos escribirán esa palabra en vez de GUÍA |
+| `quiero el manual` | Frase natural alternativa |
+
+> **⚠️ Colisión con el flujo de niños:** este flujo NO debe capturar las
+> variantes con "niños" (`GUÍA NIÑOS`, `guia niños`, etc.). Esas pertenecen
+> al flujo existente "Guía Niños - Higiene Electromagnética". Si ambos flujos
+> usan keyword GUÍA, desambiguar por el post de origen (Comment-to-DM por
+> publicación concreta) para que cada Reel dispare el manual correcto.
 
 ### POR QUÉ LAS VARIANTES SIN TILDE SON CRÍTICAS
 
@@ -99,7 +109,7 @@ Revisa tus mensajes, está ahí esperándote 👀
 
 ```
 ════════════════════════════════════════
-FLUJO: GUÍA — Lead magnet Higiene EMF Niños
+FLUJO: GUÍA — Lead magnet Manual de Higiene Electromagnética
 TRIGGER: Keyword "GUÍA" (+ variantes) / comentario
 CANAL: Instagram DM
 TEMPERATURA DEL LEAD: Frío (interés en contenido gratuito)
@@ -112,32 +122,33 @@ TEMPERATURA DEL LEAD: Frío (interés en contenido gratuito)
 ```
 👋 ¡Hola [Nombre]!
 
-El cerebro de un niño absorbe más radiación que el de un adulto:
-su cráneo es más fino y su tejido, más conductor.
+En casa estás expuesto al electrosmog las 24h: router, móvil,
+wifi del vecino… y tu cuerpo lo registra aunque tú no lo notes.
 
-Te he preparado una guía con los 7 hábitos que lo protegen.
-¿Te la paso ahora?
+Te he preparado el Manual de Higiene Electromagnética para reducirlo.
+¿Te lo paso ahora?
 
-[📘 Sí, pásamela]   [🤔 Cuéntame primero]
+[📘 Sí, pásamelo]   [🤔 Cuéntame primero]
 ```
-- Botón **[📘 Sí, pásamela]** → Mensaje 2
+- Botón **[📘 Sí, pásamelo]** → Mensaje 2
 - Botón **[🤔 Cuéntame primero]** → Mensaje 1-bis (micro-contexto, luego Mensaje 2)
 
-> Cumple regla de preview: 4 líneas de cuerpo, 2 botones. El dato científico
-> (cráneo infantil) es el gancho de curiosidad, verificable y no exagerado.
+> Cumple regla de preview: 4 líneas de cuerpo, 2 botones. El hook conecta el
+> electrosmog del hogar con el concepto "El precio invisible" ("lo registra
+> aunque no lo notes"), sin exagerar ni inventar claims.
 
 **MENSAJE 1-bis (solo rama "Cuéntame primero")**
 **Bloque:** Texto + 1 botón
 ```
 Claro 🙂
 
-La guía es gratuita y directa: nada de teoría infinita.
-Son los 7 hábitos concretos que, aplicados hoy, reducen
-la exposición de tus hijos al electrosmog en casa.
+El Manual es gratuito y práctico: nada de teoría infinita.
+Son los cambios concretos que, aplicados hoy, reducen tu
+exposición al electrosmog en casa (empezando por el dormitorio).
 
-¿Te la mando?
+¿Te lo mando?
 
-[📘 Venga, pásamela]
+[📘 Venga, pásamelo]
 ```
 - Botón → Mensaje 2
 
@@ -147,20 +158,21 @@ la exposición de tus hijos al electrosmog en casa.
 **Bloque ManyChat:** Texto con enlace · Envío: inmediato
 
 ```
-✅ ¡Aquí la tienes!
+✅ ¡Aquí lo tienes!
 
-📘 Higiene Electromagnética para Niños
-Los 7 hábitos que protegen su sistema nervioso del
-electrosmog cotidiano.
+📘 Manual de Higiene Electromagnética
+Los cambios prácticos para reducir tu exposición en casa,
+empezando por donde más importa: tu descanso.
 
 👉 https://drive.google.com/file/d/1g7SC_Z_XFwIMzSN6r8jUyiJ6GYMwix_c/view
 
-Léela con calma. No hace falta que hagas nada más ahora mismo 🙂
+Léelo con calma. No hace falta que hagas nada más ahora mismo 🙂
 ```
 - **Acción simultánea (sin que el usuario lo vea):**
   - Disparar evento Klaviyo `manychat_lead_magnet_entregado`
-  - Aplicar tag Shopify `lead-manychat-guia`
-  - Aplicar tag interno ManyChat `guia_entregada`
+  - Aplicar tag Shopify `lead-manychat-manual-higiene`
+  - Aplicar tag interno ManyChat `guia-higiene-entregada` (ya existe en la cuenta)
+  - Set custom field `keyword_origen = GUIA` y `canal_captacion = instagram`
 - **Enlace de entrega (Drive):** decisión tomada — entrega directa por Drive
   para ir rápido (los leads vienen por otra vía). Verificar permisos: ver
   Entregable 2 (f). Quitado el `?usp=sharing` final por limpieza; el ID es el
@@ -168,7 +180,7 @@ Léela con calma. No hace falta que hagas nada más ahora mismo 🙂
   la variante `uc?export=download` documentada en el Entregable 2 (c).
 
 > Aquí "El precio invisible" aparece de forma natural: el daño no se ve, por
-> eso la guía existe. No se fuerza el concepto en el texto del mensaje.
+> eso el manual existe. No se fuerza el concepto en el texto del mensaje.
 
 ---
 
@@ -178,8 +190,8 @@ Léela con calma. No hace falta que hagas nada más ahora mismo 🙂
 ```
 Una cosa más, [Nombre] 👇
 
-Cada casa es un mundo: router, dispositivos, dónde duermen…
-Lo que más protege es adaptar los 7 hábitos a TU situación.
+Cada casa es un mundo: router, dispositivos, dónde duermes…
+Lo que más protege es adaptar el manual a TU situación.
 
 ¿Quieres que te ayudemos a hacerlo, sin coste?
 
@@ -209,11 +221,13 @@ Solo tienes que darle a enviar y te atendemos personalmente
 ```
 - Botón **[💬 Abrir WhatsApp]** → tipo **URL**, apunta a `wa.me` con texto
   pre-rellenado (estructura exacta en Entregable 2, sección c).
-- **Acción simultánea:** tag ManyChat `guia_whatsapp_click` (corta el follow-up +24h).
+- **Acción simultánea:** tag ManyChat `guia-whatsapp-clic` (corta el follow-up +24h)
+  y set custom field `via_preferida = whatsapp`.
 - **NO pedir número.** El usuario abre su propio WhatsApp.
 
-> El mensaje pre-rellenado lleva contexto ("vengo de la guía de niños de
-> Instagram") para que el equipo humano responda sin preguntar de qué viene.
+> El mensaje pre-rellenado lleva contexto ("vengo del Manual de Higiene
+> Electromagnética de Instagram") para que el equipo humano responda sin
+> preguntar de qué viene.
 
 ---
 
@@ -236,7 +250,8 @@ ideas prácticas para una casa más sana (puedes salir cuando quieras).
   ```
 - Si captura email → Mensaje 5
 - Si pulsa "saltar" / no responde → Cierre elegante
-- **Acción al capturar:** actualizar evento Klaviyo con `email` y propiedad
+- **Acción al capturar:** tag ManyChat `email-capturado-ig-follower` (ya existe);
+  set `via_preferida = email`; actualizar evento Klaviyo con `email` y propiedad
   `captura_email_opcional=true`; añadir a lista Klaviyo de nurture.
 
 ---
@@ -253,7 +268,8 @@ escríbenos por aquí o por WhatsApp cuando quieras.
 
 Cuida de los tuyos 🌿
 ```
-- **Acción:** confirmar opt-in en Klaviyo (entra en flujo "Lead magnet niños - Nurture EMF").
+- **Acción:** confirmar opt-in en Klaviyo (entra en el flujo de nurture EMF para
+  hogar/adultos — nombre exacto a confirmar con Erick; ver Entregable 2 (a)).
 
 ---
 
@@ -263,7 +279,7 @@ Cuida de los tuyos 🌿
 ```
 Perfecto, [Nombre] 🙂
 
-La guía es tuya, léela cuando puedas.
+El manual es tuyo, léelo cuando puedas.
 Aquí estaremos si te surge cualquier duda.
 
 Un abrazo 🌿
@@ -274,23 +290,24 @@ Un abrazo 🌿
 
 ### FOLLOW-UP AUTOMÁTICO +24 h
 **Bloque ManyChat:** Delay 24 h → condición → Texto + 3 botones
-**Condición de envío:** tiene tag `guia_entregada` **Y NO** tiene tag
-`guia_whatsapp_click` (es decir: recibió la guía pero no pasó a WhatsApp).
+**Condición de envío:** tiene tag `guia-higiene-entregada` **Y NO** tiene tag
+`guia-whatsapp-clic` (es decir: recibió el manual pero no pasó a WhatsApp).
 
 ```
 Hola [Nombre] 👋
 
-¿Pudiste echarle un ojo a la guía?
+¿Pudiste echarle un ojo al manual?
 
-Hay un punto que sorprende a casi todos los padres: el router
-wifi encendido toda la noche cerca del cuarto de los niños.
+Hay un punto que sorprende a casi todos: el router wifi
+encendido toda la noche a pocos metros de la cama.
 
 ¿Te pasa en casa?
 
-[😬 Sí, lo tenemos así]  [✅ No, lo apagamos]  [❓ No lo había pensado]
+[😬 Sí, lo tengo así]  [✅ No, lo apago]  [❓ No lo había pensado]
 ```
 - Cualquier respuesta → reactiva conversación → ofrecer WhatsApp de nuevo (reusar Mensaje 4A).
-- **Acción:** disparar evento Klaviyo `manychat_followup_respondido` con propiedad `situacion_router`.
+- **Acción:** set custom field `situacion_router` (valor según botón) y disparar
+  evento Klaviyo `manychat_followup_respondido` con esa propiedad.
 
 > **Excepción a la regla de "máx. 2 botones":** este follow-up usa 3 porque
 > son respuestas a una pregunta de diagnóstico (no CTAs que compiten), igual
@@ -308,11 +325,11 @@ wifi encendido toda la noche cerca del cuarto de los niños.
 | M1-bis | Texto + 1 botón | Solo rama "Cuéntame primero" |
 | M2 Entrega | Texto + enlace | Inmediato tras confirmar · dispara evento Klaviyo + tags |
 | M3 Puente | Texto + 2 botones | **Delay 30 s** antes del bloque |
-| M4A WhatsApp | Texto + botón URL (wa.me) | Rama "Sí, por WhatsApp" · tag `guia_whatsapp_click` |
+| M4A WhatsApp | Texto + botón URL (wa.me) | Rama "Sí, por WhatsApp" · tag `guia-whatsapp-clic` |
 | M4B Email | Texto + User Input (Email) | Rama "Mejor por email" · microcopy RGPD obligatorio |
 | M5 Confirmación | Texto | Solo si capturó email |
 | Cierre elegante | Texto, sin botones | Rama "Ahora no" / inactividad |
-| Follow-up +24h | Delay 24 h + condición de tags | `guia_entregada` Y NO `guia_whatsapp_click` |
+| Follow-up +24h | Delay 24 h + condición de tags | `guia-higiene-entregada` Y NO `guia-whatsapp-clic` |
 
 **Reglas de la skill aplicadas:**
 - Máximo 2 botones por mensaje (excepción justificada: diagnóstico de 3 opciones).

@@ -3,18 +3,18 @@
 
 flowchart TD
     %% ── TRIGGER ──
-    A["💬 Comentario con keyword<br/>GUÍA / GUIA / guia / quiero la guía<br/>+ variantes sin tilde"] --> B["📩 Respuesta pública al comentario<br/>(rotar versión A / B)"]
-    B --> C["👋 MENSAJE 1 — Hook<br/>Dato: el cerebro infantil absorbe más<br/>¿Te paso la guía?"]
+    A["💬 Comentario con keyword<br/>GUÍA / GUIA / guia / MANUAL<br/>+ variantes sin tilde"] --> B["📩 Respuesta pública al comentario<br/>(rotar versión A / B)"]
+    B --> C["👋 MENSAJE 1 — Hook<br/>Electrosmog en casa 24h, no se ve<br/>¿Te paso el Manual?"]
 
     %% ── CONFIRMACIÓN ──
-    C -->|📘 Sí, pásamela| E
-    C -->|🤔 Cuéntame primero| D["ℹ️ MENSAJE 1-bis<br/>Micro-contexto de la guía"]
-    D -->|📘 Venga, pásamela| E
+    C -->|📘 Sí, pásamelo| E
+    C -->|🤔 Cuéntame primero| D["ℹ️ MENSAJE 1-bis<br/>Micro-contexto del Manual"]
+    D -->|📘 Venga, pásamelo| E
 
     %% ── ENTREGA ──
-    E["✅ MENSAJE 2 — ENTREGA<br/>📘 Enlace de la guía<br/>(ENLACE PRIMERO)"]
+    E["✅ MENSAJE 2 — ENTREGA<br/>📘 Manual de Higiene EM (enlace Drive)<br/>(ENLACE PRIMERO)"]
     E -.->|dispara| K1(["📊 Klaviyo:<br/>manychat_lead_magnet_entregado"])
-    E -.->|tag| S1(["🛍️ Shopify: lead-manychat-guia<br/>🏷️ ManyChat: guia_entregada"])
+    E -.->|tag| S1(["🛍️ Shopify: lead-manychat-manual-higiene<br/>🏷️ ManyChat: guia-higiene-entregada"])
 
     %% ── DELAY + PUENTE ──
     E --> W["⏳ Delay 30 s"]
@@ -27,16 +27,16 @@ flowchart TD
 
     %% ── WHATSAPP ──
     G -->|click| WA(["📱 WhatsApp ATENDIDO POR HUMANO<br/>mensaje con contexto del lead"])
-    G -.->|tag| S2(["🏷️ guia_whatsapp_click<br/>(corta follow-up)"])
+    G -.->|tag| S2(["🏷️ guia-whatsapp-clic<br/>(corta follow-up)"])
 
     %% ── EMAIL ──
     H -->|deja email| I["✅ MENSAJE 5 — Confirmación"]
     H -->|no responde| Z
-    I -.->|opt-in| K2(["📊 Klaviyo flujo:<br/>Lead magnet niños - Nurture EMF"])
-    H -.->|tag| S3(["🏷️ guia_email_dado<br/>🛍️ lead-guia-email"])
+    I -.->|opt-in| K2(["📊 Klaviyo flujo:<br/>Nurture EMF hogar (confirmar Erick)"])
+    H -.->|tag| S3(["🏷️ email-capturado-ig-follower<br/>🛍️ lead-guia-email"])
 
     %% ── FOLLOW-UP ──
-    E --> FU{"⏳ +24h<br/>¿tiene guia_entregada<br/>y NO guia_whatsapp_click?"}
+    E --> FU{"⏳ +24h<br/>¿tiene guia-higiene-entregada<br/>y NO guia-whatsapp-clic?"}
     FU -->|sí| FUP["🔁 FOLLOW-UP +24h<br/>¿Router encendido de noche?"]
     FU -->|no| X["⛔ No enviar follow-up"]
     FUP -->|cualquier respuesta| G
