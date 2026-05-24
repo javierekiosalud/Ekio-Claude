@@ -153,7 +153,7 @@ la exposición de tus hijos al electrosmog en casa.
 Los 7 hábitos que protegen su sistema nervioso del
 electrosmog cotidiano.
 
-👉 [ENLACE_GUIA_DRIVE]
+👉 https://drive.google.com/file/d/1g7SC_Z_XFwIMzSN6r8jUyiJ6GYMwix_c/view
 
 Léela con calma. No hace falta que hagas nada más ahora mismo 🙂
 ```
@@ -161,7 +161,11 @@ Léela con calma. No hace falta que hagas nada más ahora mismo 🙂
   - Disparar evento Klaviyo `manychat_lead_magnet_entregado`
   - Aplicar tag Shopify `lead-manychat-guia`
   - Aplicar tag interno ManyChat `guia_entregada`
-- `[ENLACE_GUIA_DRIVE]` → **PLACEHOLDER**. No inventar. Ver riesgo de permisos en Entregable 2 (f).
+- **Enlace de entrega (Drive):** decisión tomada — entrega directa por Drive
+  para ir rápido (los leads vienen por otra vía). Verificar permisos: ver
+  Entregable 2 (f). Quitado el `?usp=sharing` final por limpieza; el ID es el
+  mismo. Si se prefiere forzar descarga directa en vez de vista previa, usar
+  la variante `uc?export=download` documentada en el Entregable 2 (c).
 
 > Aquí "El precio invisible" aparece de forma natural: el daño no se ve, por
 > eso la guía existe. No se fuerza el concepto en el texto del mensaje.

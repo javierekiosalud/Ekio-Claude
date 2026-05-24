@@ -144,8 +144,8 @@ QA FLUJO "GUÍA" — verificar antes de publicar
 □ 1. Keyword "GUÍA" + TODAS las variantes (GUIA, guía, guia,
       "quiero la guía", "GUÍA NIÑOS", "guia niños") en modo "contiene".
 □ 2. Respuesta pública al comentario activa y rotando versiones A/B.
-□ 3. Mensaje 2: el enlace [ENLACE_GUIA_DRIVE] abre correctamente
-      y la guía es visible SIN pedir permiso/login (ver riesgo F).
+□ 3. Mensaje 2: el enlace de Drive abre la guía SIN pedir permiso/login
+      (probado en incógnito + móvil; permiso = "Cualquiera con el enlace").
 □ 4. Delay de 30 s configurado entre Mensaje 2 y Mensaje 3 (no 30 min).
 □ 5. Botón wa.me abre WhatsApp con el texto pre-rellenado correcto
       y el número [NÚMERO_WHATSAPP_EKIO] real (probado en móvil).
@@ -167,31 +167,38 @@ EXTRA recomendado:
 
 ---
 
-## F) NOTA DE RIESGO — PERMISOS DEL ENLACE DE DRIVE
+## F) ENTREGA POR DRIVE — DECISIÓN TOMADA + CHECK DE PERMISOS
 
-**Riesgo:** un enlace de Google Drive con permisos mal configurados es el
-fallo silencioso más común de este tipo de flujo. Síntomas:
-- El usuario pulsa el enlace y ve **"Solicitar acceso"** → fricción total,
-  abandono inmediato, y mala primera impresión de marca.
-- Drive puede **bloquear o limitar** la descarga si hay un pico de tráfico
-  (ej. tras un Reel viral), justo cuando más leads llegan.
-- No hay forma de medir aperturas/descargas reales del PDF desde Drive.
+**Decisión (Javier):** se entrega el lead magnet **directamente por Google
+Drive** desde el Mensaje 2 de ManyChat. Prioridad: rapidez de montaje. Los
+leads se están captando por otra vía, así que este flujo no necesita la
+infraestructura de medición de una landing propia.
 
-**Mitigación mínima si se mantiene Drive:**
-- Permiso = "Cualquier persona con el enlace · Lector" (no "Restringido").
-- Subir el PDF como archivo, no como Google Doc, para descarga directa.
-- Probar el enlace en incógnito y desde móvil antes de activar.
+**Enlace en uso (Mensaje 2):**
+```
+https://drive.google.com/file/d/1g7SC_Z_XFwIMzSN6r8jUyiJ6GYMwix_c/view
+```
+- ID del archivo: `1g7SC_Z_XFwIMzSN6r8jUyiJ6GYMwix_c`
+- Se quitó el `?usp=sharing` del enlace compartido (no afecta al acceso).
 
-**Alternativa recomendada (preferente): landing en Shopify con PDF embebido.**
-- Crear una página en `electrosmogespana.com/guia-ninos` (o similar) con el
-  PDF embebido/descargable y el branding EKIO.
-- Ventajas: control total de permisos, **trackeo real** (GA4 + UTMs),
-  posibilidad de añadir un CTA suave a producto/consultoría dentro de la
-  propia landing, retargeting con el píxel, y cero riesgo de "solicitar acceso".
-- Ya existe la carpeta `landing-lead-magnet/` en el proyecto: reutilizarla.
-- El `[ENLACE_GUIA_DRIVE]` del Mensaje 2 pasaría a ser
-  `https://electrosmogespana.com/guia-ninos?utm_source=manychat&utm_medium=instagram_dm&utm_campaign=guia-emf-ninos&utm_content=GUIA`.
+**Variante de descarga directa (opcional):** si se prefiere que el PDF se
+descargue de golpe en vez de abrir la vista previa de Drive:
+```
+https://drive.google.com/uc?export=download&id=1g7SC_Z_XFwIMzSN6r8jUyiJ6GYMwix_c
+```
+> Recomendación: usar la versión `/view` (vista previa). En móvil es más
+> amable —el usuario ve el PDF al instante y descarga si quiere— y evita
+> descargas automáticas que algunos navegadores bloquean.
 
-> Decisión a confirmar con Javier antes de activar: Drive (rápido, frágil)
-> vs. landing Shopify (un poco más de montaje, mucho más control y medible).
-> Recomendación del agente: **landing Shopify.**
+**CHECK DE PERMISOS — obligatorio antes de activar (1 minuto):**
+- [ ] En Drive, el archivo está como **"Cualquier persona con el enlace ·
+      Lector"** (NO "Restringido"). Es el único fallo que rompe el flujo:
+      si está restringido, el usuario ve "Solicitar acceso" y abandona.
+- [ ] Probado en **incógnito y desde el móvil** (sin sesión de Google de EKIO),
+      para confirmar que se abre sin pedir login.
+
+**Limitación asumida (consciente):** Drive no da trazabilidad de aperturas/
+descargas del PDF, y ante un pico fuerte de tráfico puede limitar la descarga.
+Aceptable dado que la captación principal va por otra vía. Si en el futuro
+este flujo escala, migrar a landing en Shopify (`landing-lead-magnet/`) para
+recuperar trackeo (GA4 + UTMs), píxel/retargeting y CTA a producto.
