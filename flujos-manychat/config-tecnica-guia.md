@@ -86,7 +86,7 @@ Estado real de la cuenta "Electrosmog España" (verificado vía API):
 | Tag ManyChat | Estado | Uso |
 |---|---|---|
 | `guia-higiene-entregada` | ✅ Ya existe (id 86482504) | Condición de entrada al follow-up +24h |
-| `guia-whatsapp-clic` | 🆕 Crear | **Corta** el follow-up +24h (ya pasó a humano) |
+| `guia-whatsapp-clic` | ✅ Creado (id 88252056) | **Corta** el follow-up +24h (ya pasó a humano) |
 | `email-capturado-ig-follower` | ✅ Ya existe (id 86482505) | Marca opt-in de email |
 
 > Convención de la cuenta = **kebab-case** (`guia-higiene-entregada`,
@@ -96,10 +96,10 @@ Estado real de la cuenta "Electrosmog España" (verificado vía API):
 
 | Custom field | Tipo | Estado | Valores |
 |---|---|---|---|
-| `keyword_origen` | text | ✅ Ya existe (id 14455988→4) | `GUIA` |
+| `keyword_origen` | text | ✅ Ya existe (id 14455987) | `GUIA` |
 | `canal_captacion` | text | ✅ Ya existe (id 14455992) | `instagram` |
-| `via_preferida` | text | 🆕 Crear | `whatsapp` / `email` / `ninguna` |
-| `situacion_router` | text | 🆕 Crear | `si_encendido` / `apagado` / `no_pensado` |
+| `via_preferida` | text | ✅ Creado (id 14625216) | `whatsapp` / `email` / `ninguna` |
+| `situacion_router` | text | ✅ Creado (id 14625217) | `si_encendido` / `apagado` / `no_pensado` |
 
 ---
 
