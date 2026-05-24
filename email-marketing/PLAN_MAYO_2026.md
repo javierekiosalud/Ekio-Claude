@@ -98,19 +98,25 @@ Hilo único en las 3 voces: el corazón genera el campo EM más potente del cuer
 
 > Temas desplazados de esta semana (niños/router, luz azul, Ekio Light): reubicar en junio o como contenido de blog/RRSS.
 
-### Semana 4 (25-31 mayo) — 5 envíos
+### Semana 4 (25-31 mayo) — 6 envíos · 💶 CAMPAÑA SUBIDA DE PRECIO (Card + Disc)
+
+Del 28 al 31: campaña de subida de precio de **SpiroCard + SpiroDisc** (suben el 1 de junio; precio actual hasta el 31 a las 23:59). Comunicación diaria con intensidad creciente: siembra → valor → últimas 48h → último día. Integra la temática prevista (Día de la Salud de la Mujer el 28).
 
 | # | Fecha | Día | Hora | News | Asunto principal | Producto / CTA | Segmento Klaviyo | Estado |
 |---|---|---|---|---|---|---|---|---|
 | 12 | 25 may | Lun | 8:00 | EPI ⭐ | Tu tiroides y el WiFi tienen algo en común (y no es bueno) | Spiro Square X | Lista completa | ⭐ (en plan) |
 | 13 | 27 may | Mié | 7:30 | FJA ⭐ | Mi madre tiene hipotiroidismo. Yo tengo esto en mi salón | Spiro Square X | Lista completa - excluir compradores Square X | ⭐ (en plan) |
-| 14 | 28 may | Jue | 8:00 | EKO | Por el Día de la Salud de la Mujer: el electrosmog que afecta a tu ciclo | Spiro Square X / Pack Hogar | Engaged ≥2 aperturas 30d (priorizar mujeres) | ✏️ |
-| 15 | 30 may | Sáb | 8:30 | FJA | (historia de cierre del mes — qué he aprendido en mayo) | Sin CTA / reply | Lista completa | ✏️ |
-| 16 | 31 may | Dom | 9:00 | EKO ⭐ | Hoy termina mayo. Y esta oferta también | SpiroDisc + Stroom Master | Compradores SpiroDisc sin Stroom + engaged 30d | ⭐ (en plan) |
+| 14 | 28 may | Jue | 8:00 | FJA | Hoy es el Día de la Salud de la Mujer. Y tengo algo que decirte (SIEMBRA precio) | SpiroCard / aviso subida | Lista principal activa | ✅ |
+| 15 | 29 may | Vie | 8:00 | EPI | Cuántas horas al día lleva tu cuerpo expuesto a radiofrecuencia de contacto (VALOR) | SpiroCard + SpiroDisc | Lista principal - excluir compradores 30d | ✅ |
+| 16 | 30 may | Sáb | 9:00 | EKO | Quedan menos de 48 horas al precio actual de la SpiroCard y el SpiroDisc (ÚLTIMAS 48H) | SpiroCard + SpiroDisc | Engaged 30d - excluir compradores Card/Disc 90d | ✅ |
+| 17 | 31 may | Dom | 9:00 +15:00 | EKO | Hoy a medianoche sube el precio. Último aviso (ÚLTIMO DÍA) | SpiroCard + SpiroDisc | Engaged + sin compra Card/Disc 90d; reenvío a no-aperturas | ✅ |
 
-**Distribución:** EPI 4 · FJA 8 · EKO 4. Ningún perfil engaged recibe más de 4 emails/semana (Smart Sending 48h activo).
+**Distribución mes:** EPI 5 · FJA 8 · EKO 5 = **17 envíos** (añadido el 29 may por la campaña de precio; justificado por deadline real).
 
-**Nota anclas:** los 3 emails ancla del plan original (#12, #13, #16) están escritos en el apartado 3.
+**Notas:**
+- El combo SpiroDisc + Stroom (ancla original del 31) queda **superado** por la campaña de precio Card + Disc. Reservar el combo Stroom para junio.
+- ⚠️ **Validar antes del 28:** % de subida, precio actual y precio nuevo de SpiroCard y SpiroDisc, testimonios reales.
+- Anclas #12 (25) y #13 (27) siguen en el apartado 3.
 
 ---
 
