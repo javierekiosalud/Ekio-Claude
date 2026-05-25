@@ -1,0 +1,98 @@
+{
+  "_nota": "Schema de referencia (valores estáticos). En producción usar el snippet Liquid 03-SHOPIFY-CODE/snippets/ekio-schema-deep5.liquid, que rellena precio/imágenes/disponibilidad dinámicamente. El bloque aggregateRating está OMITIDO a propósito: no hay reseñas reales de EKIO Light. Añadirlo solo cuando existan reviews verificadas y con el reviewCount real.",
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Product",
+      "@id": "https://electrosmogespana.com/products/ekio-light-deep-5#product",
+      "name": "Ekio Light Deep 5 — Panel de Fotobiomodulación",
+      "description": "Panel de fotobiomodulación de uso doméstico con 5 longitudes de onda terapéuticas (630, 660, 727, 810 y 850 nm), luz roja e infrarrojo cercano. Patente española OEPM U202532624. Diseñado para apoyar la recuperación muscular, el sueño, el dolor articular y la energía celular.",
+      "brand": { "@type": "Brand", "name": "Ekio Electrosmog España" },
+      "manufacturer": {
+        "@type": "Organization",
+        "name": "EKIO Bienestar S.L.",
+        "url": "https://electrosmogespana.com"
+      },
+      "category": "Fotobiomodulación / Terapia de luz roja",
+      "image": [
+        "https://electrosmogespana.com/cdn/shop/files/deep5_main.png",
+        "https://electrosmogespana.com/cdn/shop/files/deep5_angle.png",
+        "https://electrosmogespana.com/cdn/shop/files/deep5_use.png",
+        "https://electrosmogespana.com/cdn/shop/files/deep5_lateral.png"
+      ],
+      "sku": "EKL-DEEP5",
+      "mpn": "EKL-DEEP5",
+      "additionalProperty": [
+        { "@type": "PropertyValue", "name": "Longitudes de onda", "value": "630, 660, 727, 810, 850 nm" },
+        { "@type": "PropertyValue", "name": "Patente", "value": "OEPM U202532624 (modelo de utilidad, 157 países)" },
+        { "@type": "PropertyValue", "name": "Garantía", "value": "2 años + 30 días de devolución" }
+      ],
+      "offers": {
+        "@type": "Offer",
+        "url": "https://electrosmogespana.com/products/ekio-light-deep-5",
+        "price": "650.00",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock",
+        "priceValidUntil": "2026-12-31",
+        "itemCondition": "https://schema.org/NewCondition",
+        "seller": { "@type": "Organization", "name": "EKIO Bienestar S.L." },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "ES",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 30,
+          "returnMethod": "https://schema.org/ReturnByMail",
+          "returnFees": "https://schema.org/FreeReturn"
+        },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": { "@type": "MonetaryAmount", "value": "0", "currency": "EUR" },
+          "shippingDestination": { "@type": "DefinedRegion", "addressCountry": "ES" },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": { "@type": "QuantitativeValue", "minValue": 0, "maxValue": 1, "unitCode": "DAY" },
+            "transitTime": { "@type": "QuantitativeValue", "minValue": 1, "maxValue": 2, "unitCode": "DAY" }
+          }
+        }
+      },
+      "warranty": {
+        "@type": "WarrantyPromise",
+        "durationOfWarranty": { "@type": "QuantitativeValue", "value": 2, "unitCode": "ANN" }
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://electrosmogespana.com/products/ekio-light-deep-5#faq",
+      "mainEntity": [
+        { "@type": "Question", "name": "¿Es seguro usar luz roja e infrarroja en casa?", "acceptedAnswer": { "@type": "Answer", "text": "Sí, usado según las instrucciones. La fotobiomodulación es luz no ionizante y no térmica. El Deep 5 está diseñado para uso doméstico. No mires directamente a los LEDs: usa las gafas incluidas. Hay contraindicaciones a tener en cuenta: epilepsia fotosensible, embarazo, fármacos fotosensibilizantes o tratamiento oncológico activo. En esos casos, consulta antes con tu médico." } },
+        { "@type": "Question", "name": "¿Cuánto tiempo tarda en notarse?", "acceptedAnswer": { "@type": "Answer", "text": "Varía según la persona y el objetivo. En la literatura publicada, muchos usuarios reportan mejoras en sueño y energía desde la primera o segunda semana de uso regular. Para dolor articular o recuperación, los efectos suelen ser progresivos a lo largo de varias semanas. Los resultados varían y no se pueden garantizar." } },
+        { "@type": "Question", "name": "¿Puedo usarlo si tengo una condición médica?", "acceptedAnswer": { "@type": "Answer", "text": "La fotobiomodulación es un complemento, no un sustituto del tratamiento médico. Si tienes una patología, tomas medicación fotosensibilizante, estás embarazada o en tratamiento oncológico, consulta con tu médico antes de empezar. Puedes reservar una consultoría con nuestro especialista para valorar tu caso." } },
+        { "@type": "Question", "name": "¿Qué diferencia hay entre el Deep 5 y un panel barato de Amazon?", "acceptedAnswer": { "@type": "Answer", "text": "Tres cosas: las 5 longitudes de onda (630/660/727/810/850 nm) frente a las 2 habituales (660/850); la irradiancia real a la distancia de uso, que determina si la luz es terapéutica o decorativa; y el respaldo — patente OEPM en 157 países, soporte en España y garantía de 2 años. Cualquier panel con diodos rojos no es fotobiomodulación." } },
+        { "@type": "Question", "name": "¿La patente es real? ¿Qué protege?", "acceptedAnswer": { "@type": "Answer", "text": "Sí. Es el modelo de utilidad español U202532624 de la Oficina Española de Patentes y Marcas (OEPM), registrado en 157 países. Protege el diseño del dispositivo multiespectral. No es un producto de importación con un logo encima." } },
+        { "@type": "Question", "name": "¿Funciona para personas mayores?", "acceptedAnswer": { "@type": "Answer", "text": "Sí. La fotobiomodulación se ha investigado en todas las edades adultas; la edad no es una contraindicación. Para personas mayores con varias patologías o medicación, recomendamos valorar el protocolo con nuestro especialista." } },
+        { "@type": "Question", "name": "¿Cuánto tiempo debo usarlo por sesión?", "acceptedAnswer": { "@type": "Answer", "text": "La pauta habitual es de 10 a 20 minutos por zona, a la distancia indicada, varios días por semana. En la caja incluimos una guía de uso y puedes ajustar el protocolo con la consultoría." } },
+        { "@type": "Question", "name": "¿Consume mucha electricidad?", "acceptedAnswer": { "@type": "Answer", "text": "No. Una sesión de 10-20 minutos consume una fracción de lo que cuesta una bombilla halógena encendida una hora. El consumo por sesión es mínimo." } },
+        { "@type": "Question", "name": "¿Qué pasa si no estoy satisfecho?", "acceptedAnswer": { "@type": "Answer", "text": "Tienes 30 días para devolverlo sin preguntas con la Garantía Tranquilidad Ekio. Además, el hardware tiene 2 años de garantía técnica. Si no es para ti, lo devuelves y te reembolsamos." } },
+        { "@type": "Question", "name": "¿Puedo pagarlo a plazos?", "acceptedAnswer": { "@type": "Answer", "text": "Sí. En el checkout puedes fraccionar el pago, lo que deja el Deep 5 en torno a 54 €/mes en 12 cuotas. El precio del panel es 650 €." } }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://electrosmogespana.com/products/ekio-light-deep-5#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://electrosmogespana.com" },
+        { "@type": "ListItem", "position": 2, "name": "Fotobiomodulación", "item": "https://electrosmogespana.com/collections/fotobiomodulacion" },
+        { "@type": "ListItem", "position": 3, "name": "Ekio Light Deep 5" }
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://electrosmogespana.com/#organization",
+      "name": "EKIO Bienestar S.L.",
+      "alternateName": "Ekio Electrosmog España",
+      "url": "https://electrosmogespana.com",
+      "logo": "https://electrosmogespana.com/cdn/shop/files/ekio-logo.png",
+      "address": { "@type": "PostalAddress", "addressLocality": "Valladolid", "addressCountry": "ES" }
+    }
+  ]
+}

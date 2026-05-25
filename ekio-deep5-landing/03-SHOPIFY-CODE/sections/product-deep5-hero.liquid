@@ -1,0 +1,163 @@
+{%- comment -%}
+  ============================================================
+  EKIO LIGHT DEEP 5 — SECCIÓN HERO (ABOVE THE FOLD)
+  COMPATIBLE CON DAWN · CSS SCOPEADO BAJO .ekio-deep5
+  USA product.* DINÁMICO + METAFIELDS ekio.* CON FALLBACK
+  INSTALAR: SUBIR A /sections/ Y AÑADIR EN LA PLANTILLA DE PRODUCTO
+  ============================================================
+{%- endcomment -%}
+
+{{ 'ekio-deep5.css' | asset_url | stylesheet_tag }}
+
+{%- comment -%} VARIABLES BASE CON FALLBACK A METAFIELDS Y SETTINGS {%- endcomment -%}
+{%- assign p = product -%}
+{%- assign patente = p.metafields.ekio.patente | default: 'OEPM U202532624 · 157 países' -%}
+{%- assign longitudes = p.metafields.ekio.longitudes_onda | default: '630 · 660 · 727 · 810 · 850 nm' -%}
+{%- assign garantia_anios = p.metafields.ekio.garantia_anios | default: 2 -%}
+{%- assign cuota = p.price | divided_by: 1200.0 | ceil -%}
+
+<section class="ekio-deep5" data-section-id="{{ section.id }}">
+
+  {%- comment -%} BREADCRUMB (SCHEMA EN snippets/ekio-schema-deep5.liquid) {%- endcomment -%}
+  <nav class="ek-breadcrumb" aria-label="Migas de pan">
+    <a href="{{ routes.root_url }}">Inicio</a>
+    <span aria-hidden="true">›</span>
+    <a href="/collections/fotobiomodulacion">Fotobiomodulación</a>
+    <span aria-hidden="true">›</span>
+    <span aria-current="page">{{ p.title | default: 'Ekio Light Deep 5' }}</span>
+  </nav>
+
+  <div class="ek-hero">
+
+    {%- comment -%} COLUMNA IZQUIERDA: GALERÍA STICKY {%- endcomment -%}
+    <div class="ek-gallery">
+      <div class="ek-gallery-main">
+        {%- if p.featured_image -%}
+          <img id="ekMainImg"
+               src="{{ p.featured_image | image_url: width: 900 }}"
+               srcset="{{ p.featured_image | image_url: width: 600 }} 600w,
+                       {{ p.featured_image | image_url: width: 900 }} 900w,
+                       {{ p.featured_image | image_url: width: 1200 }} 1200w"
+               sizes="(max-width: 749px) 100vw, 45vw"
+               width="900" height="900"
+               alt="{{ p.featured_image.alt | default: 'Panel de fotobiomodulación Ekio Light Deep 5 con luz roja e infrarroja' | escape }}"
+               fetchpriority="high">
+        {%- else -%}
+          {%- comment -%} FALLBACK: PLACEHOLDER MIENTRAS NO HAYA IMAGEN REAL {%- endcomment -%}
+          <div class="ek-img-placeholder">Imagen Deep 5</div>
+        {%- endif -%}
+        <span class="ek-patent-badge">🔬 Patente {{ patente }}</span>
+      </div>
+
+      {%- if p.images.size > 1 -%}
+        <div class="ek-thumbs" role="list">
+          {%- for img in p.images limit: 6 -%}
+            <button type="button" class="ek-thumb{% if forloop.first %} is-active{% endif %}"
+                    role="listitem"
+                    data-full="{{ img | image_url: width: 1200 }}"
+                    aria-label="Ver imagen {{ forloop.index }} de {{ p.title }}">
+              <img src="{{ img | image_url: width: 160 }}" width="80" height="80" loading="lazy"
+                   alt="{{ img.alt | default: p.title | escape }}">
+            </button>
+          {%- endfor -%}
+        </div>
+      {%- endif -%}
+    </div>
+
+    {%- comment -%} COLUMNA DERECHA: INFO DE COMPRA {%- endcomment -%}
+    <div class="ek-buybox">
+      <span class="ek-category-badge">Fotobiomodulación Premium</span>
+
+      <p class="ek-hook">🔬 Vivimos bajo luz artificial el 90 % del día. A tus células les falta el espectro del sol.</p>
+
+      <h1 class="ek-h1">Recupera tu energía celular con la luz que tu cuerpo dejó de recibir</h1>
+
+      <p class="ek-subhead">Panel de fotobiomodulación con 5 longitudes de onda terapéuticas. La luz roja e infrarroja que tus mitocondrias necesitan — en 10 minutos al día, en tu casa.</p>
+
+      {%- comment -%} RATING: SOLO SI EXISTEN REVIEWS REALES (METAFIELD). NO INVENTAR. {%- endcomment -%}
+      {%- if p.metafields.reviews.rating.value != blank -%}
+        <div class="ek-rating" aria-label="Valoración media">
+          <span class="ek-stars">★★★★★</span>
+          <span>{{ p.metafields.reviews.rating.value }} · {{ p.metafields.reviews.rating_count }} reseñas</span>
+        </div>
+      {%- endif -%}
+
+      <ul class="ek-hero-bullets">
+        <li><strong>5 longitudes de onda</strong> ({{ longitudes }}) — donde casi todos los paneles emiten solo 2</li>
+        <li><strong>Energía, sueño y recuperación</strong> — respaldado por la literatura de fotobiomodulación</li>
+        <li><strong>Patente española OEPM</strong> registrada en 157 países — no es importación con un logo</li>
+      </ul>
+
+      <div class="ek-price-row">
+        <span class="ek-price">{{ p.price | money }}</span>
+        {%- if p.compare_at_price > p.price -%}
+          <span class="ek-price-compare">{{ p.compare_at_price | money }}</span>
+        {%- endif -%}
+        <span class="ek-finance">o desde ≈ {{ cuota }} €/mes en 12 cuotas</span>
+      </div>
+
+      {%- comment -%} FORMULARIO DE COMPRA NATIVO DE SHOPIFY {%- endcomment -%}
+      {%- form 'product', p, id: 'ekProductForm', class: 'ek-form' -%}
+        <input type="hidden" name="id" value="{{ p.selected_or_first_available_variant.id }}">
+        <button type="submit" name="add" class="ek-cta ek-cta-primary"
+                {% unless p.available %}disabled{% endunless %}>
+          {%- if p.available -%}Quiero empezar mi recuperación{%- else -%}Agotado temporalmente{%- endunless -%}
+        </button>
+      {%- endform -%}
+
+      <ul class="ek-trust-inline">
+        <li>🔒 Pago 100 % seguro</li>
+        <li>↩️ 30 días de devolución</li>
+        <li>📦 Envío 24-48 h</li>
+        <li>🛡️ {{ garantia_anios }} años de garantía</li>
+      </ul>
+
+      <p class="ek-patent-seal">🔬 Patente registrada {{ patente }}</p>
+    </div>
+  </div>
+
+  {%- comment -%} BARRA STICKY ADD-TO-CART (MÓVIL + SCROLL) {%- endcomment -%}
+  <div class="ek-sticky-bar" id="ekStickyBar" aria-hidden="true">
+    <div class="ek-sticky-inner">
+      <div class="ek-sticky-info">
+        <span class="ek-sticky-title">Ekio Light Deep 5</span>
+        <span class="ek-sticky-price">{{ p.price | money }} · ≈ {{ cuota }} €/mes</span>
+      </div>
+      <button type="submit" form="ekProductForm" name="add" class="ek-cta ek-cta-sticky"
+              {% unless p.available %}disabled{% endunless %}>Añadir</button>
+    </div>
+  </div>
+
+  {%- comment -%} SCHEMA JSON-LD: PRODUCT + FAQ + BREADCRUMB + ORGANIZATION {%- endcomment -%}
+  {%- render 'ekio-schema-deep5', product: p -%}
+</section>
+
+<script src="{{ 'ekio-deep5.js' | asset_url }}" defer></script>
+
+{% schema %}
+{
+  "name": "Deep 5 · Hero",
+  "tag": "section",
+  "class": "ekio-deep5-section",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Ajustes del hero del Ekio Light Deep 5"
+    },
+    {
+      "type": "paragraph",
+      "content": "El precio, las imágenes y la disponibilidad se toman del producto automáticamente. Los datos de patente/longitudes se leen de los metafields ekio.* (ver config/metafields-deep5.json)."
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_sticky",
+      "label": "Activar barra sticky de compra al hacer scroll",
+      "default": true
+    }
+  ],
+  "presets": [
+    { "name": "Deep 5 · Hero" }
+  ],
+  "enabled_on": { "templates": ["product"] }
+}
+{% endschema %}

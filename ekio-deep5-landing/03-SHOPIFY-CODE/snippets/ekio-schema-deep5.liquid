@@ -1,0 +1,100 @@
+{%- comment -%}
+  ============================================================
+  EKIO LIGHT DEEP 5 — JSON-LD (PRODUCT + FAQ + BREADCRUMB + ORGANIZATION)
+  RENDER: {% render 'ekio-schema-deep5', product: product %}
+  PRECIO / IMÁGENES / DISPONIBILIDAD DINÁMICOS DESDE EL PRODUCTO
+  aggregateRating SOLO SI HAY REVIEWS REALES (METAFIELD). NO INVENTAR.
+  ============================================================
+{%- endcomment -%}
+{%- assign p = product -%}
+{%- assign patente = p.metafields.ekio.patente | default: 'OEPM U202532624 (157 países)' -%}
+{%- assign desc = p.metafields.ekio.descripcion_seo | default: 'Panel de fotobiomodulación con 5 longitudes de onda terapéuticas (630, 660, 727, 810 y 850 nm), luz roja e infrarrojo cercano. Patente española OEPM. Diseñado para apoyar la recuperación muscular, el sueño, el dolor articular y la energía celular.' -%}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Product",
+      "@id": "{{ shop.url }}{{ p.url }}#product",
+      "name": {{ p.title | default: 'Ekio Light Deep 5' | json }},
+      "description": {{ desc | json }},
+      "brand": { "@type": "Brand", "name": "Ekio Electrosmog España" },
+      "manufacturer": { "@type": "Organization", "name": "EKIO Bienestar S.L.", "url": "{{ shop.url }}" },
+      "sku": {{ p.selected_or_first_available_variant.sku | default: 'EKL-DEEP5' | json }},
+      "image": [
+        {%- for img in p.images limit: 5 -%}
+          {{ img | image_url: width: 1200 | prepend: 'https:' | json }}{%- unless forloop.last -%},{%- endunless -%}
+        {%- else -%}
+          "{{ shop.url }}/cdn/shop/files/deep5_main.png"
+        {%- endfor -%}
+      ],
+      "additionalProperty": [
+        { "@type": "PropertyValue", "name": "Longitudes de onda", "value": "630, 660, 727, 810, 850 nm" },
+        { "@type": "PropertyValue", "name": "Patente", "value": {{ patente | json }} }
+      ],
+      "offers": {
+        "@type": "Offer",
+        "url": "{{ shop.url }}{{ p.url }}",
+        "price": "{{ p.price | divided_by: 100.0 }}",
+        "priceCurrency": "{{ cart.currency.iso_code | default: 'EUR' }}",
+        "availability": "{% if p.available %}https://schema.org/InStock{% else %}https://schema.org/OutOfStock{% endif %}",
+        "priceValidUntil": "{{ 'now' | date: '%Y' }}-12-31",
+        "itemCondition": "https://schema.org/NewCondition",
+        "seller": { "@type": "Organization", "name": "EKIO Bienestar S.L." },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "ES",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 30,
+          "returnFees": "https://schema.org/FreeReturn"
+        },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": { "@type": "MonetaryAmount", "value": "0", "currency": "EUR" },
+          "shippingDestination": { "@type": "DefinedRegion", "addressCountry": "ES" }
+        }
+      }
+      {%- comment -%} ACTIVAR SOLO CON REVIEWS REALES:
+      ,"aggregateRating": { "@type": "AggregateRating", "ratingValue": "{{ p.metafields.reviews.rating.value }}", "reviewCount": "{{ p.metafields.reviews.rating_count }}" }
+      {%- endcomment -%}
+      {%- if p.metafields.reviews.rating.value != blank and p.metafields.reviews.rating_count != blank -%}
+      ,"aggregateRating": { "@type": "AggregateRating", "ratingValue": "{{ p.metafields.reviews.rating.value }}", "reviewCount": "{{ p.metafields.reviews.rating_count }}" }
+      {%- endif -%}
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "{{ shop.url }}{{ p.url }}#faq",
+      "mainEntity": [
+        { "@type": "Question", "name": "¿Es seguro usar luz roja e infrarroja en casa?", "acceptedAnswer": { "@type": "Answer", "text": "Sí, siguiendo las instrucciones. Es luz no ionizante y no térmica. Incluye gafas de protección. Contraindicaciones: epilepsia fotosensible, embarazo, fármacos fotosensibilizantes o tratamiento oncológico activo; en esos casos consulta con tu médico." } },
+        { "@type": "Question", "name": "¿Cuánto tarda en notarse?", "acceptedAnswer": { "@type": "Answer", "text": "Varía. Muchos usuarios reportan mejoras en sueño y energía desde la 1ª-2ª semana; para dolor o recuperación, los efectos son progresivos. Los resultados varían y no se garantizan." } },
+        { "@type": "Question", "name": "¿Puedo usarlo si tengo una condición médica?", "acceptedAnswer": { "@type": "Answer", "text": "Es un complemento, no un sustituto del tratamiento médico. Si tienes una patología, medicación fotosensibilizante, embarazo o tratamiento oncológico, consúltalo con tu médico antes de empezar." } },
+        { "@type": "Question", "name": "¿Qué diferencia hay con un panel barato de Amazon?", "acceptedAnswer": { "@type": "Answer", "text": "5 longitudes de onda frente a 2, irradiancia real a distancia de uso, y respaldo: patente OEPM en 157 países, soporte en España y 2 años de garantía." } },
+        { "@type": "Question", "name": "¿La patente es real y qué protege?", "acceptedAnswer": { "@type": "Answer", "text": "Sí: modelo de utilidad U202532624 de la OEPM, registrado en 157 países, verificable en la base de datos pública de la OEPM. Protege el diseño del dispositivo multiespectral." } },
+        { "@type": "Question", "name": "¿Funciona para personas mayores?", "acceptedAnswer": { "@type": "Answer", "text": "Sí. La edad no es contraindicación. En personas con varias patologías o medicación, recomendamos ajustar el protocolo con nuestro especialista." } },
+        { "@type": "Question", "name": "¿Cuánto debo usarlo por sesión?", "acceptedAnswer": { "@type": "Answer", "text": "10-20 minutos por zona, a la distancia indicada, varios días por semana. Incluye guía de uso." } },
+        { "@type": "Question", "name": "¿Consume mucha electricidad?", "acceptedAnswer": { "@type": "Answer", "text": "No. Una sesión de 10-20 minutos consume una fracción mínima; no se nota en la factura." } },
+        { "@type": "Question", "name": "¿Qué pasa si no estoy satisfecho?", "acceptedAnswer": { "@type": "Answer", "text": "Garantía Tranquilidad Ekio: 30 días para devolverlo sin preguntas, más 2 años de garantía técnica del hardware." } },
+        { "@type": "Question", "name": "¿Puedo pagar a plazos?", "acceptedAnswer": { "@type": "Answer", "text": "Sí. En el checkout puedes fraccionar el pago: el Deep 5 (650 €) queda en torno a 54 €/mes en 12 cuotas." } }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "{{ shop.url }}{{ p.url }}#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "{{ shop.url }}" },
+        { "@type": "ListItem", "position": 2, "name": "Fotobiomodulación", "item": "{{ shop.url }}/collections/fotobiomodulacion" },
+        { "@type": "ListItem", "position": 3, "name": {{ p.title | default: 'Ekio Light Deep 5' | json }} }
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "{{ shop.url }}/#organization",
+      "name": "EKIO Bienestar S.L.",
+      "alternateName": "Ekio Electrosmog España",
+      "url": "{{ shop.url }}",
+      "address": { "@type": "PostalAddress", "addressLocality": "Valladolid", "addressCountry": "ES" }
+    }
+  ]
+}
+</script>

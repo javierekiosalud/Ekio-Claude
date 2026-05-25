@@ -1,0 +1,207 @@
+/* ============================================================
+   EKIO LIGHT DEEP 5 — ESTILOS (MEDICAL LUXURY)
+   TODO SCOPEADO BAJO .ekio-deep5 PARA NO AFECTAR AL THEME
+   TOKENS ALINEADOS CON LA MARCA EKIO (--red #E84A4A / --gold #E0B43A)
+   + ACENTO NIR NARANJA. MOBILE-FIRST.
+   ============================================================ */
+
+.ekio-deep5,
+.ekio-deep5 * { box-sizing: border-box; }
+
+.ekio-deep5 {
+  /* PALETA */
+  --bg: #07090F;
+  --bg2: #0D1119;
+  --card: #141A26;
+  --card-soft: #1A2230;
+  --red: #E84A4A;          /* ROJO LUZ TERAPÉUTICA */
+  --red-dark: #D63D3D;
+  --nir: #FF6B35;          /* NARANJA NIR INFRARROJO */
+  --gold: #E0B43A;         /* ORO MEDICAL LUXURY / PATENTE */
+  --green: #34C759;        /* DISPONIBLE / GARANTÍA */
+  --text: #EAEEF4;
+  --text-soft: #C8D0DC;
+  --text-dim: #9AA4B2;
+  --border: rgba(255,255,255,0.08);
+  --glow: rgba(232,74,74,0.30);
+
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+.ekio-deep5 h1, .ekio-deep5 h2, .ekio-deep5 h3 { line-height: 1.18; letter-spacing: -0.01em; }
+.ekio-deep5 .ek-narrow { max-width: 720px; margin: 0 auto; padding: 0 24px; }
+.ekio-deep5 .ek-wide { max-width: 1100px; margin: 0 auto; padding: 0 24px; }
+.ekio-deep5 sup a { color: var(--gold); text-decoration: none; font-size: 0.7em; }
+
+/* ===== BREADCRUMB ===== */
+.ekio-deep5 .ek-breadcrumb { max-width: 1100px; margin: 0 auto; padding: 16px 24px; font-size: 13px; color: var(--text-dim); }
+.ekio-deep5 .ek-breadcrumb a { color: var(--text-dim); text-decoration: none; }
+.ekio-deep5 .ek-breadcrumb a:hover { color: var(--gold); }
+.ekio-deep5 .ek-breadcrumb span { margin: 0 6px; }
+
+/* ===== HERO ===== */
+.ekio-deep5 .ek-hero {
+  max-width: 1100px; margin: 0 auto; padding: 16px 24px 56px;
+  display: grid; gap: 40px; grid-template-columns: 1fr;
+}
+@media (min-width: 900px) {
+  .ekio-deep5 .ek-hero { grid-template-columns: 45% 1fr; gap: 56px; align-items: start; }
+  .ekio-deep5 .ek-gallery { position: sticky; top: 24px; }
+}
+
+.ekio-deep5 .ek-gallery-main { position: relative; border-radius: 18px; overflow: hidden; background: var(--card); }
+.ekio-deep5 .ek-gallery-main img { width: 100%; height: auto; display: block; }
+.ekio-deep5 .ek-img-placeholder { aspect-ratio: 1; display: grid; place-items: center; color: var(--text-dim); }
+.ekio-deep5 .ek-patent-badge {
+  position: absolute; left: 14px; bottom: 14px;
+  background: rgba(7,9,15,0.82); border: 1px solid rgba(224,180,58,0.4);
+  color: var(--gold); font-size: 12px; font-weight: 600; padding: 7px 12px; border-radius: 999px; backdrop-filter: blur(6px);
+}
+.ekio-deep5 .ek-thumbs { display: flex; gap: 10px; margin-top: 14px; flex-wrap: wrap; }
+.ekio-deep5 .ek-thumb { width: 72px; height: 72px; border-radius: 10px; overflow: hidden; border: 2px solid var(--border); background: var(--card); cursor: pointer; padding: 0; }
+.ekio-deep5 .ek-thumb.is-active { border-color: var(--red); }
+.ekio-deep5 .ek-thumb img { width: 100%; height: 100%; object-fit: cover; }
+
+/* ===== BUYBOX ===== */
+.ekio-deep5 .ek-category-badge { display: inline-block; font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; color: var(--gold); border: 1px solid rgba(224,180,58,0.35); padding: 5px 12px; border-radius: 999px; margin-bottom: 18px; }
+.ekio-deep5 .ek-hook { background: rgba(224,180,58,0.08); border-left: 3px solid var(--gold); padding: 10px 14px; border-radius: 6px; font-size: 14px; color: var(--text-soft); margin-bottom: 18px; }
+.ekio-deep5 .ek-h1 { font-size: clamp(28px, 4vw, 42px); font-weight: 800; margin-bottom: 16px; }
+.ekio-deep5 .ek-subhead { color: var(--text-dim); font-size: 17px; margin-bottom: 20px; }
+.ekio-deep5 .ek-rating { display: flex; gap: 8px; align-items: center; font-size: 14px; color: var(--text-soft); margin-bottom: 16px; }
+.ekio-deep5 .ek-stars { color: var(--gold); letter-spacing: 2px; }
+.ekio-deep5 .ek-hero-bullets { list-style: none; padding: 0; margin: 0 0 24px; display: grid; gap: 10px; }
+.ekio-deep5 .ek-hero-bullets li { padding-left: 28px; position: relative; color: var(--text-soft); font-size: 15px; }
+.ekio-deep5 .ek-hero-bullets li::before { content: "✓"; position: absolute; left: 0; color: var(--green); font-weight: 700; }
+
+.ekio-deep5 .ek-price-row { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; margin-bottom: 20px; }
+.ekio-deep5 .ek-price { font-size: 34px; font-weight: 800; color: var(--text); }
+.ekio-deep5 .ek-price-compare { text-decoration: line-through; color: var(--text-dim); font-size: 20px; }
+.ekio-deep5 .ek-finance { width: 100%; font-size: 14px; color: var(--gold); }
+
+/* ===== CTA ===== */
+.ekio-deep5 .ek-cta {
+  width: 100%; border: 0; cursor: pointer; border-radius: 12px;
+  font-size: 17px; font-weight: 700; padding: 18px 24px; color: #fff;
+  background: linear-gradient(135deg, var(--red) 0%, var(--nir) 100%);
+  box-shadow: 0 8px 30px var(--glow); transition: transform .15s ease, box-shadow .15s ease;
+}
+.ekio-deep5 .ek-cta:hover { transform: translateY(-2px); box-shadow: 0 12px 40px var(--glow); }
+.ekio-deep5 .ek-cta:focus-visible { outline: 3px solid var(--gold); outline-offset: 3px; }
+.ekio-deep5 .ek-cta[disabled] { opacity: .5; cursor: not-allowed; box-shadow: none; }
+.ekio-deep5 .ek-trust-inline { list-style: none; display: flex; flex-wrap: wrap; gap: 14px; padding: 16px 0 0; margin: 0; font-size: 13px; color: var(--text-dim); }
+.ekio-deep5 .ek-trust-inline.ek-center { justify-content: center; }
+.ekio-deep5 .ek-patent-seal { margin-top: 14px; font-size: 13px; color: var(--gold); }
+
+/* ===== STICKY BAR ===== */
+.ekio-deep5 .ek-sticky-bar {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 50;
+  background: rgba(13,17,25,0.96); border-top: 1px solid var(--border); backdrop-filter: blur(10px);
+  transform: translateY(100%); transition: transform .25s ease; padding: 10px 16px;
+}
+.ekio-deep5 .ek-sticky-bar.is-visible { transform: translateY(0); }
+.ekio-deep5 .ek-sticky-inner { max-width: 1100px; margin: 0 auto; display: flex; align-items: center; gap: 14px; }
+.ekio-deep5 .ek-sticky-info { display: flex; flex-direction: column; flex: 1; }
+.ekio-deep5 .ek-sticky-title { font-weight: 700; font-size: 14px; }
+.ekio-deep5 .ek-sticky-price { font-size: 13px; color: var(--gold); }
+.ekio-deep5 .ek-cta-sticky { width: auto; padding: 12px 28px; font-size: 15px; }
+
+/* ===== TRUST BAR ===== */
+.ekio-deep5 .ek-trustbar { background: var(--bg2); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+.ekio-deep5 .ek-trustbar-inner { max-width: 1100px; margin: 0 auto; padding: 14px 24px; display: flex; flex-wrap: wrap; justify-content: center; gap: 22px; font-size: 13px; color: var(--text-soft); }
+
+/* ===== BLOQUES GENERALES ===== */
+.ekio-deep5 .ek-block { padding: 60px 0; }
+.ekio-deep5 .ek-block h2 { font-size: clamp(24px, 3vw, 34px); font-weight: 800; margin-bottom: 18px; }
+.ekio-deep5 .ek-block p { color: var(--text-soft); margin-bottom: 16px; }
+.ekio-deep5 .ek-disclaimer { font-size: 13px; color: var(--text-dim); font-style: italic; }
+.ekio-deep5 .ek-foot { font-size: 12px; color: var(--text-dim); }
+.ekio-deep5 .ek-link-cta { color: var(--gold); font-weight: 600; text-decoration: none; }
+
+/* PROBLEMA */
+.ekio-deep5 .ek-bignum { font-size: clamp(64px, 12vw, 120px); font-weight: 800; color: var(--red); line-height: 1; margin-bottom: 8px; }
+.ekio-deep5 .ek-bignum span { font-size: 0.5em; color: var(--text-dim); }
+.ekio-deep5 .ek-symptoms { color: var(--text-soft); padding-left: 20px; margin-bottom: 18px; }
+.ekio-deep5 .ek-symptoms li { margin-bottom: 6px; }
+
+/* CÓMO FUNCIONA */
+.ekio-deep5 .ek-steps { display: grid; gap: 20px; grid-template-columns: 1fr; margin-bottom: 20px; }
+@media (min-width: 760px) { .ekio-deep5 .ek-steps { grid-template-columns: repeat(3, 1fr); } }
+.ekio-deep5 .ek-step { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 24px; }
+.ekio-deep5 .ek-step-n { display: inline-grid; place-items: center; width: 38px; height: 38px; border-radius: 50%; background: linear-gradient(135deg, var(--red), var(--nir)); font-weight: 800; margin-bottom: 12px; }
+.ekio-deep5 .ek-step h3 { font-size: 17px; margin-bottom: 8px; }
+.ekio-deep5 .ek-step p { font-size: 14px; margin: 0; }
+.ekio-deep5 .ek-tech-note { background: var(--bg2); border: 1px solid var(--border); border-radius: 10px; padding: 14px 18px; }
+.ekio-deep5 .ek-tech-note summary { cursor: pointer; color: var(--gold); font-weight: 600; }
+.ekio-deep5 .ek-tech-note p { font-size: 14px; margin: 12px 0 0; }
+
+/* BENEFICIOS GRID */
+.ekio-deep5 .ek-grid { display: grid; gap: 18px; grid-template-columns: 1fr; }
+@media (min-width: 620px) { .ekio-deep5 .ek-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 960px) { .ekio-deep5 .ek-grid { grid-template-columns: repeat(4, 1fr); } }
+.ekio-deep5 .ek-grid-3 { grid-template-columns: 1fr; }
+@media (min-width: 760px) { .ekio-deep5 .ek-grid-3 { grid-template-columns: repeat(3, 1fr); } }
+.ekio-deep5 .ek-bcard { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 22px; transition: border-color .2s; }
+.ekio-deep5 .ek-bcard:hover { border-color: rgba(232,74,74,0.4); }
+.ekio-deep5 .ek-bcard h3 { font-size: 16px; margin-bottom: 8px; color: var(--text); }
+.ekio-deep5 .ek-bcard p { font-size: 13.5px; margin: 0; color: var(--text-dim); }
+
+/* COMPOSICIÓN LED — ESPECTRO ANIMADO */
+.ekio-deep5 .ek-spectrum { display: flex; gap: 12px; align-items: flex-end; justify-content: space-between; margin: 24px 0; padding: 24px; background: var(--bg2); border-radius: 16px; }
+.ekio-deep5 .ek-wave { flex: 1; text-align: center; }
+.ekio-deep5 .ek-wave-bar { display: block; height: 90px; border-radius: 8px 8px 0 0; background: var(--wl); box-shadow: 0 0 24px var(--wl); margin-bottom: 10px; transform-origin: bottom; transform: scaleY(0.3); transition: transform .8s ease; }
+.ekio-deep5 .ek-spectrum.is-in .ek-wave-bar { transform: scaleY(1); }
+.ekio-deep5 .ek-wave b { font-size: 14px; display: block; }
+.ekio-deep5 .ek-wave small { font-size: 11px; color: var(--text-dim); }
+.ekio-deep5 .ek-compare-spectrum, .ekio-deep5 .ek-spec-table, .ekio-deep5 .ek-vs-table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 14px; }
+.ekio-deep5 .ek-compare-spectrum th, .ekio-deep5 .ek-compare-spectrum td,
+.ekio-deep5 .ek-spec-table th, .ekio-deep5 .ek-spec-table td,
+.ekio-deep5 .ek-vs-table th, .ekio-deep5 .ek-vs-table td { border: 1px solid var(--border); padding: 12px 14px; text-align: left; }
+.ekio-deep5 .ek-yes { color: var(--green); font-weight: 700; }
+.ekio-deep5 .ek-mono { font-family: "JetBrains Mono", ui-monospace, monospace; color: var(--text); font-size: 13px; }
+.ekio-deep5 .ek-vs-hl { background: rgba(232,74,74,0.10); }
+.ekio-deep5 .ek-vs-table thead th { color: var(--text); }
+
+/* FAQ ACCORDION */
+.ekio-deep5 .ek-accordion { border-top: 1px solid var(--border); }
+.ekio-deep5 .ek-acc-item { border-bottom: 1px solid var(--border); }
+.ekio-deep5 .ek-acc-q { width: 100%; background: none; border: 0; color: var(--text); text-align: left; font-size: 16px; font-weight: 600; padding: 18px 0; cursor: pointer; display: flex; justify-content: space-between; gap: 16px; align-items: center; }
+.ekio-deep5 .ek-acc-q:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
+.ekio-deep5 .ek-acc-icon { color: var(--red); font-size: 22px; flex-shrink: 0; transition: transform .2s; }
+.ekio-deep5 .ek-acc-q[aria-expanded="true"] .ek-acc-icon { transform: rotate(45deg); }
+.ekio-deep5 .ek-acc-a { padding: 0 0 18px; }
+.ekio-deep5 .ek-acc-a p { font-size: 14.5px; margin: 0; color: var(--text-soft); }
+
+/* GARANTÍA */
+.ekio-deep5 .ek-guarantee-card { background: var(--card); border: 1px solid rgba(52,199,89,0.3); border-radius: 18px; padding: 36px; text-align: center; }
+.ekio-deep5 .ek-shield { font-size: 44px; margin-bottom: 10px; }
+.ekio-deep5 .ek-return-steps { display: flex; flex-wrap: wrap; justify-content: center; gap: 14px; margin-top: 18px; }
+.ekio-deep5 .ek-return-steps span { background: var(--bg2); border: 1px solid var(--border); padding: 10px 16px; border-radius: 999px; font-size: 13px; color: var(--text-soft); }
+
+/* CTA FINAL */
+.ekio-deep5 .ek-final-inner { text-align: center; background: radial-gradient(ellipse at 50% 0%, rgba(232,74,74,0.12), transparent 65%); border-radius: 20px; padding: 48px 28px; }
+.ekio-deep5 .ek-final-price { font-size: 26px; font-weight: 800; margin: 18px 0; }
+.ekio-deep5 .ek-final .ek-cta { max-width: 420px; margin: 0 auto; }
+
+/* UPSELL */
+.ekio-deep5 .ek-ucard { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 22px; }
+.ekio-deep5 .ek-ucard h3 { color: var(--gold); margin-bottom: 8px; }
+.ekio-deep5 .ek-ucard p { font-size: 14px; }
+.ekio-deep5 .ek-ucard a { color: var(--red); text-decoration: none; font-weight: 600; font-size: 14px; }
+
+/* REFERENCIAS */
+.ekio-deep5 .ek-reflist { font-size: 12.5px; color: var(--text-dim); padding-left: 20px; }
+.ekio-deep5 .ek-reflist li { margin-bottom: 8px; }
+.ekio-deep5 .ek-reflist a { color: var(--gold); }
+
+/* ===== ANIMACIÓN DE ENTRADA (INTERSECTION OBSERVER) ===== */
+.ekio-deep5 .reveal { opacity: 0; transform: translateY(24px); transition: opacity .6s ease, transform .6s ease; }
+.ekio-deep5 .reveal.is-in { opacity: 1; transform: none; }
+@media (prefers-reduced-motion: reduce) {
+  .ekio-deep5 .reveal { opacity: 1; transform: none; transition: none; }
+  .ekio-deep5 .ek-wave-bar { transform: scaleY(1); transition: none; }
+  .ekio-deep5 .ek-cta { transition: none; }
+}

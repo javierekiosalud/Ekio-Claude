@@ -1,0 +1,49 @@
+{
+  "_instrucciones": "Crear estos metafields en Shopify Admin › Configuración › Datos personalizados › Productos. Namespace 'ekio'. Luego rellenar los valores en el producto Ekio Light Deep 5. El código tiene fallback si están vacíos, pero usarlos evita hardcodear y facilita futuras fichas.",
+  "namespace": "ekio",
+  "metafields": [
+    {
+      "key": "patente",
+      "name": "Patente",
+      "type": "single_line_text_field",
+      "valor_recomendado": "OEPM U202532624 · 157 países",
+      "uso": "Badge de patente en hero, galería y schema. NO incluir 'PCT'."
+    },
+    {
+      "key": "longitudes_onda",
+      "name": "Longitudes de onda",
+      "type": "single_line_text_field",
+      "valor_recomendado": "630 · 660 · 727 · 810 · 850 nm",
+      "uso": "Bullets del hero y specs."
+    },
+    {
+      "key": "irradiancia",
+      "name": "Irradiancia medida",
+      "type": "single_line_text_field",
+      "valor_recomendado": "PENDIENTE — rellenar con mW/cm² a X cm desde ficha técnica real",
+      "uso": "Tabla de especificaciones y comparativa de calidad."
+    },
+    {
+      "key": "garantia_anios",
+      "name": "Años de garantía",
+      "type": "number_integer",
+      "valor_recomendado": "2",
+      "uso": "Trust bar, garantía, schema warranty. (Devolución 30 días es aparte.)"
+    },
+    {
+      "key": "descripcion_seo",
+      "name": "Descripción SEO (schema)",
+      "type": "multi_line_text_field",
+      "valor_recomendado": "Panel de fotobiomodulación con 5 longitudes de onda terapéuticas (630, 660, 727, 810 y 850 nm), luz roja e infrarrojo cercano. Patente española OEPM. Diseñado para apoyar la recuperación muscular, el sueño, el dolor articular y la energía celular.",
+      "uso": "description del Product schema."
+    },
+    {
+      "key": "estudios_pubmed",
+      "name": "Estudios PubMed (PMIDs)",
+      "type": "single_line_text_field",
+      "valor_recomendado": "28070154, 27874264, 24286286, 31662383, 39883205, 38378043",
+      "uso": "Referencia interna de los estudios citados en la ficha."
+    }
+  ],
+  "_nota_reviews": "El rating se lee de p.metafields.reviews.rating (estándar de apps tipo Judge.me/Loox). NO crear un rating manual inventado: el código solo muestra rating y aggregateRating si esos metafields tienen valor real."
+}
