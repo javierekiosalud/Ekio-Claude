@@ -15,47 +15,47 @@
 
 ## PREVIEW TEXT
 
-> No te lo digo a última hora. Te lo digo ahora para que decidas con calma.
+> No es un correo de celebración. Es uno de verdad.
 
 ---
 
 ## BODY
 
-Hoy es el Día Internacional de la Salud de la Mujer.
+Hay una cosa que las mujeres hacen que los hombres hacemos mucho menos.
 
-Y no voy a mandarte un correo de celebración. Voy a mandarte uno de los que a mí me gustan: uno honesto.
+Aguantar.
 
-Llevo 15 años acompañando a pacientes. Y hay un patrón que sigo viendo.
+Aguantar el cansancio. Aguantar el insomnio. Aguantar los ciclos que ya no son como antes. Seguir adelante y decirse que seguramente es el estrés, la edad, el ritmo de vida. Que ya pasará.
 
-Mujeres con cansancio crónico sin causa médica aparente. Ciclos irregulares. Insomnio. Sensación de que el cuerpo no descansa aunque duermas. Y cuando pregunto por sus hábitos... aparece siempre la misma imagen.
+Llevo quince años sentado al otro lado de la consulta. Y lo que más me ha enseñado ese tiempo no está en ningún libro.
 
-El móvil en el sujetador mientras trabajan.
+Es esto: que cuando una mujer por fin pide ayuda, normalmente lleva años sintiéndose mal.
 
-El móvil en la mesilla, a 20 centímetros de la cabeza, encendido toda la noche.
+Hoy es el Día Internacional de la Salud de la Mujer. Y no quiero mandarte un correo con descuentos ni con listas de consejos. Quiero mandarte uno honesto.
 
-El móvil en el bolso, pegado al cuerpo, durante horas.
+Porque hay algo que veo constantemente y que casi nadie nombra.
 
-No digo que el móvil cause todo esto. Digo que el cuerpo está absorbiendo una radiofrecuencia constante, a distancia cero, durante muchas horas al día. Y que eso merece atención.
+El cuerpo femenino es increíblemente sensible. No es una debilidad: es precisamente lo que lo hace tan capaz de gestar, de intuir, de notar lo que otros no notan. Esa misma sensibilidad es la que acusa antes que nadie lo que está en el entorno.
 
-La SpiroCard existe exactamente para eso.
+La radiofrecuencia que emite el móvil que llevas en el sujetador.
 
-No cambia tus hábitos. No te pide que tires el móvil. Va en tu cartera o en tu bolso, y filtra la emisión electromagnética de tus dispositivos personales de manera continua. Tecnología SPIRO: filtra, no bloquea. Vida útil permanente.
+El campo electromagnético del router que pusiste en el dormitorio porque era lo más cómodo.
 
-Y ahora la parte que quiero decirte con tiempo:
+La pantalla encendida a 20 centímetros de tu cabeza durante toda la noche.
 
-El 1 de junio, el precio de la SpiroCard y del SpiroDisc sube. Más de un 20%.
+No te estoy culpando. Te estoy diciendo lo que veo. Lo que pocas veces se dice en voz alta.
 
-No es una táctica de marketing. Llevamos tres años sin tocar los precios. Mientras tanto, las materias primas han subido, los costes de producción han subido, la inflación ha hecho lo suyo. Hasta ahora hemos absorbido todo eso. El 1 de junio ya no podemos seguir haciéndolo sin comprometer la calidad del producto.
+La SpiroCard es lo más sencillo que existe para empezar. Va en tu cartera. Filtra la emisión de tus dispositivos personales sin que tengas que cambiar nada. Sin baterías. Sin mantenimiento. Sin que nadie lo sepa más que tú.
 
-El precio actual se mantiene hasta el 31 de mayo a las 23:59. Si lo estabas pensando, tienes hasta entonces.
+Y quiero decirte algo más, con tiempo, porque me parece lo correcto:
 
-Te lo digo hoy, jueves, para que no te pille desprevenida. Para que puedas decidir con calma, sin la presión del último momento.
+El 1 de junio sube su precio. Más de un 20%. Llevamos tres años sin tocarlo, absorbiendo costes que han ido subiendo. Ya no podemos más.
 
-Sin cuenta atrás en rojo. Sin urgencia fabricada. El precio sube porque los costes suben, y lo hemos aguantado todo lo que hemos podido.
+Te lo digo hoy, no el domingo a las once de la noche. Para que si lo estabas pensando, puedas decidir con calma. Sin presión. Sin cuenta atrás.
 
-**[ Ver la SpiroCard antes del 31 de mayo → ]**
+**[ Ver la SpiroCard → ]**
 
-Cuídate,
+Cuídate de verdad.
 Javier
 
 ---
@@ -66,7 +66,7 @@ Javier
 
 ## P.S.
 
-Si ya tienes una SpiroCard o un SpiroDisc, no necesitas hacer nada. Este correo es para quien todavía no los tiene.
+Si ya la tienes, este correo no es para ti. Pero si hay alguien en tu vida que lo necesita, ya sabes qué regalarle antes del 31.
 
 ---
 
