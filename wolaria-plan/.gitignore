@@ -3,5 +3,7 @@ package-lock.json
 package.json
 generate.js
 fill_template.py
+fill_xlsx.py
 unpacked-original/
 WO-012-original.docx
+Next-original.xlsx
