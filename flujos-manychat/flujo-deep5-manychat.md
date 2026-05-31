@@ -19,7 +19,7 @@
 ## RESUMEN DEL FLUJO PUBLICADO
 
 ```
-2 DISPARADORES (comentarios + DM) · keywords DEEP5/deep5/Deep5/DEEPCINCO/deepcinco/DeepCinco
+2 DISPARADORES (comentarios + DM) · keywords DEEP5/deep5/Deep5/DEEPCINCO/deepcinco/DeepCinco/DEEP 5/deep 5/Deep 5
         ↓
 M1  Hook + 2 botones (📗 Sí, mándamelo / 🤔 Cuéntame más)
         │                          │
@@ -48,7 +48,7 @@ Ambos disparadores cuelgan del nodo "Cuando..." y activan la misma secuencia.
 
 ### 1) Comentarios de publicaciones o Reels (Comment-to-DM)
 - **Alcance:** Todas las publicaciones o Reels.
-- **Keywords (los comentarios que incluyen):** `DEEP5`, `deep5`, `Deep5`, `DEEPCINCO`, `deepcinco`, `DeepCinco`.
+- **Keywords (los comentarios que incluyen):** `DEEP5`, `deep5`, `Deep5`, `DEEPCINCO`, `deepcinco`, `DeepCinco`, `DEEP 5`, `deep 5`, `Deep 5`.
 - **Respuesta pública:** "Sí, múltiples respuestas aleatorias" — 3 respuestas que
   rotan (evita patrón de bot y amplía alcance):
   1. `¡Te mando el Ebook Deep 5 por DM ahora mismo! 📗`
@@ -57,14 +57,15 @@ Ambos disparadores cuelgan del nodo "Cuando..." y activan la misma secuencia.
 
 ### 2) Mensaje de Instagram (DM directo)
 - **Tipo:** "Detecta palabras específicas en un mensaje".
-- **Keywords (el mensaje contiene):** `DEEP5`, `deep5`, `Deep5`, `DEEPCINCO`, `deepcinco`, `DeepCinco`.
+- **Keywords (el mensaje contiene):** `DEEP5`, `deep5`, `Deep5`, `DEEPCINCO`, `deepcinco`, `DeepCinco`, `DEEP 5`, `deep 5`, `Deep 5`.
 
 ### POR QUÉ TODAS LAS VARIANTES SON CRÍTICAS
 > ManyChat confirma en su propia interfaz que **las palabras clave distinguen
 > mayúsculas y minúsculas**. En Instagram el teclado en mayúsculas no añade
 > tilde y la gente escribe sin acentos. Sin las variantes `deep5`/`Deep5`/
 > `DEEPCINCO`/`deepcinco`/`DeepCinco` se perdería a la mayoría de quien sí
-> quiere el Ebook.
+> quiere el Ebook. Las variantes con espacio (`DEEP 5`/`deep 5`/`Deep 5`)
+> cubren a quienes escriben la palabra y el número separados.
 >
 > ⚠️ **No incluir variantes con "guía", "manual", "sueño" o "dormir"** —
 > pertenecen a los flujos GUÍA y SUEÑO respectivamente.
@@ -135,7 +136,7 @@ https://electrosmogespana.com/
 
 | Paso | Tipo de bloque ManyChat | Notas |
 |---|---|---|
-| Disparadores | Comment-to-DM (Growth Tool) + Keyword DM | 6 variantes case-sensitive; respuesta pública rotativa (3 versiones) |
+| Disparadores | Comment-to-DM (Growth Tool) + Keyword DM | 9 variantes case-sensitive; respuesta pública rotativa (3 versiones) |
 | M1 | Instagram · Texto + 2 botones | **Tipo: "como Respuesta privada"** — crítico para publicar |
 | M1-bis | Instagram · Texto + 1 botón | Converge a M2 con "Seleccionar paso existente" |
 | M2 | Instagram · Texto con enlace Drive | Entrega del Ebook |

@@ -107,16 +107,18 @@ QA FLUJO "DEEP5" — ya está LIVE, validar funcionamiento real
 □ 1. Comenta "DEEP5" en un post desde OTRA cuenta → llega DM de M1.
 □ 2. Comenta "deep5" (minúscula) → también dispara (case-sensitive).
 □ 3. Comenta "DEEPCINCO" → también dispara.
-□ 4. Envía "Deep5" por DM directo → dispara M1.
-□ 5. Pulsa "Sí, mándamelo" → llega M2 con el enlace de Drive.
-□ 6. El enlace de Drive abre el Ebook SIN pedir acceso (incógnito + móvil).
-□ 7. Rama "Cuéntame más" → M1-bis → "Claro, mándamelo" → entrega (M2).
-□ 8. Se aplica el tag deep5-entregada al contacto (ver en Contactos).
-□ 9. keyword_origen queda como "DEEP5" en el perfil del contacto.
-□ 10. ~23 h después llega M3 con la pregunta + enlace a la web.
-□ 11. La respuesta pública al comentario aparece y rota entre las 3 versiones.
-□ 12. NO colisiona con el flujo "GUÍA — Manual Higiene EM" (keywords distintas).
-□ 13. NO colisiona con el flujo "SUEÑO — Guía del Sueño" (keywords distintas).
+□ 4. Comenta "DEEP 5" (con espacio) → también dispara.
+□ 5. Comenta "deep 5" (minúscula, con espacio) → también dispara.
+□ 6. Envía "Deep 5" por DM directo → dispara M1.
+□ 7. Pulsa "Sí, mándamelo" → llega M2 con el enlace de Drive.
+□ 8. El enlace de Drive abre el Ebook SIN pedir acceso (incógnito + móvil).
+□ 9. Rama "Cuéntame más" → M1-bis → "Claro, mándamelo" → entrega (M2).
+□ 10. Se aplica el tag deep5-entregada al contacto (ver en Contactos).
+□ 11. keyword_origen queda como "DEEP5" en el perfil del contacto.
+□ 12. ~23 h después llega M3 con la pregunta + enlace a la web.
+□ 13. La respuesta pública al comentario aparece y rota entre las 3 versiones.
+□ 14. NO colisiona con el flujo "GUÍA — Manual Higiene EM" (keywords distintas).
+□ 15. NO colisiona con el flujo "SUEÑO — Guía del Sueño" (keywords distintas).
 ──────────────────────────────────────────────
 ```
 
