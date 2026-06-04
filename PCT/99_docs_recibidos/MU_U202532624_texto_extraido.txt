@@ -1,0 +1,689 @@
+
+
+--- PAGE 1 ---
+
+registro de
+    modelo de utilidad
+Dpto. de Registo de Patentes
+
+
+--- PAGE 2 ---
+
+Justificante
+de presentación
+Descripción
+Reivindicaciones
+Figuras
+indice
+
+
+--- PAGE 3 ---
+
+Justificante de presentación electrónica de solicitud de modelo de utilidad
+Este documento es un justificante de que se ha recibido una solicitud española de modelo de utilidad
+por vía electrónica utilizando la conexión segura de la O.E.P.M. De acuerdo con lo dispuesto en el art.
+16.1 del Reglamento de ejecución de la Ley 24/2015 de Patentes, se han asignado a su solicitud un
+número de expediente y una fecha de recepción de forma automática. La fecha de presentación de la
+solicitud a la que se refiere el art. 24 de la Ley le será comunicada posteriormente.
+Número de solicitud:
+U202532624
+Fecha de recepción:
+24 diciembre 2025, 12:14 (CET)
+Oficina receptora:
+OEPM Madrid
+Su referencia:
+Francisco Javier Andrés A
+Solicitante:
+Francisco Javier Andrés Andrés
+Número de solicitantes:
+1
+País:
+ES
+Título:
+Dispositivo de iluminación multiespectral para aplicaciones terapéuticas
+y circadianas
+Documentos enviados:
+Descripcion.pdf (7 p.)
+Reivindicaciones.pdf (2 p.)
+Dibujos.pdf (1 p.)
+OLF-ARCHIVE.zip
+POWATT.pdf (2 p.)
+package-data.xml
+es-request.xml
+application-body.xml
+es-fee-sheet.xml
+request.pdf
+Enviados por:
+CN=OEPM
+Fecha y hora de
+recepción:
+24 diciembre 2025, 12:14 (CET)
+Codificación del envío:
+97:C5:09:BC:14:56:49:4E:26:D5:4E:D0:49:1B:AB:21:95:3C:C0:AA
+
+
+--- PAGE 4 ---
+
+AVISO IMPORTANTE
+Las tasas pagaderas al solicitar y durante la tramitación de una patente o un modelo de utilidad son las
+que se recogen en el Apartado "Tasas y precios públicos" de la página web de la OEPM
+(http://www.oepm.es/es/propiedad_industrial/tasas/). Consecuentemente, si recibe una comunicación
+informándole de la necesidad de hacer un pago por la inscripción de su patente o su modelo de utilidad
+en un "registro central" o en un "registro de internet" posiblemente se trate de un fraude.
+La anotación en este tipo de autodenominados "registros" no despliega ningún tipo de eficacia jurídica
+ni tiene carácter oficial.
+En estos casos le aconsejamos que se ponga en contacto con la Oficina Española de Patentes y
+Marcas en el correo electrónico informacion@oepm.es.
+ADVERTENCIA: POR DISPOSICIÓN LEGAL LOS DATOS CONTENIDOS EN ESTA SOLICITUD
+PODRÁN SER PUBLICADOS EN EL BOLETÍN OFICIAL DE LA PROPIEDAD INDUSTRIAL E
+INSCRITOS EN EL REGISTRO DE PATENTES DE LA OEPM, SIENDO AMBAS BASES DE DATOS
+DE CARÁCTER PÚBLICO Y ACCESIBLES VÍA REDES MUNDIALES DE INFORMÁTICA.
+Para cualquier aclaración puede contactar con la O.E.P.M.
+/Madrid, Oficina Receptora/
+
+
+--- PAGE 5 ---
+
+Página  de 
+1
+6
+Solicitud de Modelo de Utilidad
+Información de solicitud
+Referencia de usuario
+Francisco Javier Andrés A
+ID de la solicitud
+0000042881
+54
+Título de la invención
+Dispositivo de iluminación multiespectral para aplicaciones 
+terapéuticas y circadianas
+Partes intervinientes
+71
+Solicitante 1
+Tratamiento
+D.
+Apellidos
+Andrés Andrés
+Nombre
+Francisco Javier
+Nacionalidad
+España
+NIF
+09338115T
+País
+España
+
+
+--- PAGE 6 ---
+
+Página  de 
+2
+6
+Provincia
+Las Palmas
+Código Postal
+35610
+Localidad
+Antigua
+Dirección
+Calle Alcalde Francisco Berriel Jordán, nº 29
+Porcentaje de titularidad
+100,00%
+El solicitante también es inventor
+Declaración de derechos
+El solicitante ha adquirido el derecho a la patente de la siguiente manera:
+No aplica
+74
+Representante 1
+Nacionalidad
+España
+Nombre de la organización
+La Fábrica de Inventos SL
+NIF
+B09542119
+País
+España
+Provincia
+Burgos
+Código Postal
+09003
+
+
+--- PAGE 7 ---
+
+Página  de 
+3
+6
+Localidad
+Burgos
+Dirección
+Plaza Tesla 22 bis 1A
+ 
+Teléfono
+653476608
+Correo electrónico
+patriciagarcia@lafabricadeinventos.com
+Poder de representación
+Se adjunta copia del poder de representación
+72
+Inventor 1
+Tratamiento
+D.
+Apellidos
+Andrés Andrés
+Nombre
+Francisco Javier
+Nacionalidad
+España
+NIF
+09338115T
+País
+España
+Provincia
+Las Palmas
+Código Postal
+35610
+
+
+--- PAGE 8 ---
+
+Página  de 
+4
+6
+Localidad
+Antigua
+Dirección
+Calle Alcalde Francisco Berriel Jordán, nº 29
+Dirección de notificación
+Medio de notificación
+Correo electrónico
+País
+España
+Provincia
+Burgos
+Código Postal
+09003
+Localidad
+Burgos
+Dirección
+Plaza Tesla 22 bis 1A
+Correo electrónico
+patriciagarcia@lafabricadeinventos.com
+Declaraciones
+Datos no proporcionados
+
+
+--- PAGE 9 ---
+
+Página  de 
+5
+6
+Documentos adjuntos
+Documentos de la memoria
+Tipo de documento
+Nombre del archivo
+Nombre del archivo 
+del sistema
+Página n.
+º
+Otra información
+Descripción
+Descripción Francisco 
+Javier Andrés Andrés.pdf
+Descripcion.pdf
+7
+Reivindicaciones
+Reivindicaciones Francisco 
+Javier Andrés Andrés 9.pdf
+Reivindicaciones.pdf
+2
+N.º de 
+reivindicaciones: 9
+Dibujos
+Dibujo Francisco Javier 
+Andrés Andrés 1.pdf
+Dibujos.pdf
+1
+Número de dibujos: 
+1
+Archivo de 
+preconversión
+Dispositivo de iluminacion 
+multiespectral para 
+aplicaciones JAB (1).zip
+OLF-ARCHIVE.zip
+Documentos adicionales
+Tipo de documento
+Nombre del archivo
+Nombre del archivo del 
+sistema
+Página n.º
+Otra información
+Poder de 
+representación
+Autorizacion Francisco 
+Javier Andrés Andrés.pdf
+POWATT.pdf
+2
+Tasas
+Método de pago
+Pago ya realizado
+Selección de tasas
+Código
+Descripción de la tasa
+Importe 
+(EUR)
+Código de barras
+Cantidad
+Subtotal
+IE01
+Solicitud electrónica de demanda 
+de depósito
+87,03
+909992100200185130606380
+1
+87,03
+Total EUR 87,03
+
+
+--- PAGE 10 ---
+
+Página  de 
+6
+6
+Protección de Datos
+He leído la información sobre protección de datos
+Información sobre Protección de Datos
+Responsable
+Oficina Española de Patentes y Marcas, O.A. Paseo de la Castellana 75, 28071 MADRID.
+Finalidad
+Tramitación del expediente y publicidad registral.
+Legitimación
+Ley 39/2015 del Procedimiento Administrativo Común de las Administraciones Públicas y Ley 24/2015 
+de Patentes.
+Destinatarios
+El nombre y apellidos, nacionalidad y dirección postal del solicitante y, en su caso, los de su 
+representante, así como el nombre y apellidos del inventor, se inscribirán en el Registro de Patentes y 
+se publicarán en el Boletín Oficial de la Propiedad Industrial y en las bases de datos de la OEPM. Estos 
+datos serán transferidos a las organizaciones internacionales competentes en materia de Propiedad 
+Industrial.
+Derechos
+Los derechos reconocidos por la legislación vigente en materia de Protección de Datos se podrán 
+ejercitar a través del correo electrónico protecciondedatos@oepm.es.
+Información 
+adicional
+Ver más https://www.oepm.es/es/protecciondatosInvenciones.html
+ATENCIÓN: Por solicitante debe entenderse a aquella persona que inste el trámite de que se trate.
+El solicitante autoriza a la OEPM a consultar sus datos identificativos en la Agencia Estatal de 
+Administración Tributaria (AEAT), con el fin de que se graben correctamente en el sistema de gestión de 
+invenciones
+  Notas adicionales
+Firmas:
+
+
+--- PAGE 11 ---
+
+2
+DESCRIPCIÓN
+Dispositivo de iluminación multiespectral para aplicaciones terapéuticas y
+circadianas
+OBJETO DE LA INVENCIÓN
+5
+La invención, tal y como el título de la presente memoria descriptiva establece, es un
+dispositivo de iluminación multiespectral para aplicaciones terapéuticas y circadianas.
+Se trata de una innovación que aporta ventajas desconocidas hasta ahora dentro de las
+técnicas actuales.
+SECTOR DE LA TÉCNICA
+10
+La presente invención se enmarca dentro del sector de necesidades corrientes de la
+vida, en la subclase de ciencias médicas o veterinarias e higiene, especialmente en el
+apartado de electroterapia, magnetoterapia, radioterapia y terapia por ultrasonidos,
+concretamente en el apartado que corresponde a radioterapia utilizando radiación
+luminosa.
+15
+De igual forma, se circunscribe en el sector de mecánica, iluminación, calefacción,
+armamento y voladura, en la subclase de iluminación, especialmente en detalles o
+características de funcionamiento de los dispositivos o sistemas de iluminación y
+combinaciones estructurales de dispositivos de iluminación con otros objetos, no
+previstas en otro lugar.
+20
+ESTADO DE LA TÉCNICA
+La presente invención surge como respuesta a diversas necesidades actuales
+relacionadas con la salud y el bienestar.
+Entre las principales causas se encuentra la falta de exposición a la luz solar natural,
+debido a que muchas personas pasan gran parte de su tiempo en interiores, lo que
+25
+puede generar deficiencia de vitamina D, alteraciones del ritmo circadiano y
+afectaciones en la salud mental.
+
+
+--- PAGE 12 ---
+
+3
+Asimismo, se consideran la búsqueda de soluciones no invasivas para mejorar la salud
+y los problemas dermatológicos comunes, como acné, envejecimiento prematuro y
+pérdida de elasticidad en la piel, que afectan a gran parte de la población.
+De igual forma, se considera la presencia de alteraciones en el sueño y niveles elevados
+5
+de estrés, derivados de ritmos de vida acelerados y uso de pantallas, que impactan
+negativamente en la salud física y mental.
+También se tienen en cuenta las limitaciones de los dispositivos de terapia de luz
+existentes, que suelen ofrecer espectros reducidos y poca personalización, y el
+creciente interés en soluciones de bienestar integral, capaces de abordar de manera
+10
+holística múltiples aspectos de la salud física, mental y emocional.
+En consecuencia, la presente invención proporciona un dispositivo de iluminación
+multiespectral para aplicaciones terapéuticas y circadianas capaz de replicar los
+beneficios de la luz solar y ofrecer terapias personalizadas adaptadas a las necesidades
+individuales, superando las limitaciones de los dispositivos existentes y promoviendo el
+15
+bienestar general y la calidad de vida.
+Actualmente, se desconoce la existencia de ningún dispositivo de iluminación
+multiespectral para aplicaciones terapéuticas y circadianas, que presente características
+técnicas estructurales y constitutivas iguales o semejantes a las descritas en esta
+memoria descriptiva, según se reivindica.
+20
+DESCRIPCIÓN DE LA INVENCIÓN
+Es objeto de la presente invención la creación de un dispositivo de iluminación
+multiespectral para aplicaciones terapéuticas y circadianas que aporta una innovación
+notable dentro de su campo de aplicación en el estado de la técnica actual, estando los
+detalles caracterizadores que lo hacen posible convenientemente recogidos en las
+25
+reivindicaciones finales que acompañan la presente descripción.
+La invención se refiere a un dispositivo de iluminación multiespectral para aplicaciones
+terapéuticas y circadianas que comprende una lámpara que incorpora un panel
+multiespectral (serie de luces LED con diferentes longitudes de onda), un módulo LED
+central de alta densidad y potencia, y un sistema electrónico configurado para controlar
+30
+de manera independiente el encendido, apagado y regulación de intensidad de los LEDs
+del panel multiespectral y del módulo LED central, permitiendo la emisión de longitudes
+
+
+--- PAGE 13 ---
+
+4
+de onda seleccionadas de forma diferenciada, y asegurando de esta manera que la
+iluminación
+pueda
+adaptarse
+a
+distintos
+objetivos
+terapéuticos
+y
+necesidades
+individuales.
+El módulo LED puede tener las siguientes longitudes de onda, o una combinación de
+5
+ellas: 295, 385, 405, 485, 630, 670, 727, 850, 935 y 1050 nm.
+Esta invención aborda de manera efectiva la falta de exposición a la luz natural y las
+limitaciones de los métodos de terapia de luz convencionales al proporcionar un sistema
+que emite un espectro completo, incluyendo infrarrojo, rojo, cian, violeta y ultravioleta,
+permitiendo tratar una amplia gama de necesidades de salud de manera integral, desde
+10
+la regeneración celular y recuperación muscular hasta la regulación del sueño y el
+fortalecimiento del sistema inmunológico.
+Además, permite personalizar la exposición lumínica según objetivos individuales,
+optimizando los efectos terapéuticos y maximizando la eficacia de cada sesión.
+La innovación proporciona resultados superiores mediante la combinación sinérgica de
+15
+múltiples longitudes de onda, ofreciendo beneficios integrales para la salud física,
+mental y emocional en un solo dispositivo. Su diseño versátil y funcional permite su uso
+en hogares, oficinas, gimnasios y centros de estética, integrando la terapia de luz de
+manera práctica en la rutina diaria, mientras que su eficiencia energética asegura un
+consumo optimizado sin comprometer la experiencia del usuario.
+20
+De forma complementaria, el sistema ofrece una experiencia de usuario intuitiva y
+segura, con modos preconfigurados y opciones personalizables que facilitan su manejo
+incluso sin experiencia previa, al tiempo que incorpora innovaciones exclusivas que
+combinan luz ultravioleta y roja para tratamientos dermatológicos efectivos y contribuyen
+a la regulación del sueño y la reducción del estrés.
+25
+En conjunto, la invención representa una solución integral, no invasiva y avanzada,
+capaz de mejorar significativamente el bienestar y la calidad de vida de los usuarios,
+superando las limitaciones de los dispositivos existentes en el mercado.
+Se contempla que la lámpara pueda tener una carcasa fabricada en un material rígido
+tal como aluminio anodizado, que proporcione soporte estructural y protección de los
+30
+componentes internos, contribuyendo a la durabilidad del dispositivo y a la seguridad
+de los usuarios.
+
+
+--- PAGE 14 ---
+
+5
+Asimismo, la lámpara puede incluir un diseño compatible con diferentes aplicaciones
+de montaje, permitiendo su instalación en pared, puerta o soporte móvil, de manera que
+se adapte a distintos entornos de uso y facilite su integración en espacios domésticos,
+clínicos o profesionales.
+5
+Del mismo modo, el panel multiespectral puede estar formado por LEDs discretos que
+emiten longitudes de onda seleccionadas entre UVB, UVA, violeta, cian, rojo, rojo
+profundo, infrarrojo cercano, infrarrojo, infrarrojo profundo e infrarrojo lejano, ofreciendo
+la posibilidad de cubrir un amplio espectro terapéutico y circadiano.
+Las longitudes de onda pueden ser de 295, 385, 405, 485, 630, 670, 727, 850, 935 y
+10
+1050 nm.
+Por otra parte, el dispositivo puede incluir medios de regulación de intensidad luminosa
+y temporizadores individuales para cada grupo de LEDs del panel multiespectral y para
+el módulo LED central, permitiendo configurar sesiones con intensidades y duraciones
+específicas de acuerdo con los objetivos de cada usuario.
+15
+De igual forma, el sistema puede comprender difusores ópticos y ópticas de
+polimetilmetacrilato (PMMA) posicionados sobre los LEDs del panel multiespectral y
+sobre el módulo LED central, con la finalidad de suavizar y dirigir de manera uniforme
+la luz emitida, optimizando la homogeneidad y eficacia de la iluminación.
+Asimismo, se puede disponer de un sistema de ventilación interna silenciosa y filtrado
+20
+eléctrico, diseñado para mantener la temperatura estable y reducir las emisiones
+electromagnéticas, garantizando un funcionamiento seguro y confortable durante la
+exposición.
+Además, el dispositivo puede incluir limitadores de potencia y de tiempo para los LEDs
+ultravioletas, asegurando que la exposición se mantenga dentro de parámetros seguros
+25
+y controlados, reduciendo posibles riesgos derivados de la radiación UV.
+Del mismo modo, pueden incorporarse medios de montaje ajustable, que permitan
+variar la inclinación del panel multiespectral para dirigir la luz hacia la zona de aplicación
+deseada,
+aumentando
+la
+versatilidad
+y
+adaptabilidad
+del
+sistema
+a
+distintas
+necesidades terapéuticas.
+
+
+--- PAGE 15 ---
+
+7
+terapéuticos y de bienestar sin requerir supervisión continua ni intervenciones
+complejas.
+EXPLICACIÓN DE LAS FIGURAS
+Para completar la descripción que se está realizando y con objeto de ayudar a la mejor
+5
+compresión de las características de la invención, se acompaña a la presente memoria
+descriptiva, como parte integrante de la misma, de una figura en la que, con carácter
+ilustrativo y no limitativo, se ha representado lo siguiente.
+La figura 1 ilustra un ejemplo del dispositivo de iluminación multiespectral para
+aplicaciones terapéuticas y circadianas.
+10
+REALIZACIÓN PREFERENTE DE LA INVENCIÓN.
+El dispositivo de iluminación multiespectral para aplicaciones terapéuticas y circadianas,
+objeto de esta invención, comprende una lámpara (1) que incorpora un panel
+multiespectral (2) formado por LEDs de diferentes longitudes de onda, un módulo LED
+central de alta densidad y potencia, y un sistema electrónico configurado para controlar
+15
+de manera independiente el encendido, apagado y regulación de intensidad de los LEDs
+del panel multiespectral (2) y del módulo LED central, permitiendo la emisión de
+longitudes de onda seleccionadas de forma diferenciada, garantizando una iluminación
+versátil y adaptada a distintos requerimientos de terapia lumínica y regulación
+circadiana.
+20
+En un modo de realización preferente, la lámpara (1) comprende una carcasa fabricada
+en un material rígido tal como aluminio anodizado, proporcionando soporte estructural
+y protección de los componentes internos, asegurando la durabilidad del dispositivo y
+la seguridad de los usuarios.
+Con preferencia, la lámpara (1) presenta un diseño compatible con diferentes
+25
+aplicaciones de montaje, incluyendo pared, puerta o soporte móvil, permitiendo su
+integración en distintos entornos y facilitando la instalación en espacios domésticos,
+clínicos o profesionales.
+Por lo general, el panel multiespectral (2) incluye LEDs discretos que emiten longitudes
+de onda seleccionadas entre UVB, UVA, violeta, cian, rojo, rojo profundo, infrarrojo
+30
+cercano, infrarrojo, infrarrojo profundo e infrarrojo lejano, asegurando un espectro
+amplio y completo para diversas aplicaciones terapéuticas y circadianas.
+
+
+--- PAGE 16 ---
+
+8
+Preferentemente, el dispositivo comprende medios de regulación de intensidad
+luminosa y temporizadores individuales para cada grupo de LEDs del panel
+multiespectral (2) y para el módulo LED central, permitiendo programar sesiones con
+intensidades y duraciones específicas, adaptando la exposición lumínica a los
+5
+requerimientos de cada usuario.
+De otro modo preferente, el sistema incluye difusores ópticos y ópticas de PMMA
+posicionados sobre los LEDs del panel multiespectral (2) y sobre el módulo LED central,
+configurados para suavizar y dirigir de manera uniforme la luz emitida, optimizando la
+homogeneidad y eficacia del tratamiento lumínico.
+10
+Por lo general, el dispositivo comprende un sistema de ventilación interna silenciosa y
+filtrado
+eléctrico,
+manteniendo
+la
+temperatura
+estable
+y
+reduciendo
+emisiones
+electromagnéticas, garantizando un funcionamiento seguro y confortable durante las
+sesiones de iluminación.
+Con preferencia, se incorporan limitadores de potencia y tiempo para los LEDs
+15
+ultravioletas, asegurando una exposición segura y controlada, conforme a los
+parámetros de seguridad establecidos para la radiación ultravioleta.
+De otro modo preferente, el dispositivo comprende medios de montaje ajustable,
+inclinables, permitiendo variar la inclinación del panel multiespectral (2) para dirigir la
+luz hacia la zona de aplicación deseada, facilitando una orientación precisa de la
+20
+iluminación según las necesidades del usuario.
+Por lo general, el módulo LED central comprende varios chips LED integrados en un
+único sustrato, formando un módulo compacto que genera irradiación concentrada en
+el centro del panel multiespectral (2), proporcionando iluminación focalizada y un efecto
+terapéutico más profundo y eficiente, focalizado en áreas específicas del cuerpo.
+25
+Preferentemente, el módulo LED central integra al menos cinco longitudes de onda
+distintas, tales como 670, 727, 850, 935 y 1050 nm, y comprende medios de regulación
+de intensidad luminosa independientes respecto de los LEDs del panel multiespectral
+(2), permitiendo ajustar la potencia de salida de cada longitud de onda de forma
+diferenciada y optimizando la personalización de la terapia lumínica.
+30
+De otro modo preferente, el dispositivo incluye componentes electrónicos de control de
+corriente para los LEDs, configurados para asegurar un funcionamiento estable, sin
+
+
+--- PAGE 17 ---
+
+9
+parpadeo perceptible y sin generación de interferencias electromagnéticas, y que
+permiten almacenar y seleccionar perfiles de usuario individualizados, facilitando la
+configuración
+de
+parámetros
+de
+iluminación
+según
+necesidades
+específicas
+y
+garantizando una experiencia de uso segura y eficiente.
+5
+Por lo general, el dispositivo comprende una pantalla OLED y un sistema de control
+digital intuitivo, configurados para permitir al usuario seleccionar programas automáticos
+o ajustar manualmente cada parámetro de operación, facilitando la personalización de
+la terapia de luz según las necesidades individuales y asegurando una experiencia de
+uso cómoda y precisa.
+10
+Descrita suficientemente la naturaleza de la presente invención, así como la manera de
+ponerla en práctica, no se considera necesario hacer más extensa su explicación para
+que cualquier experto en la materia comprenda su alcance y las ventajas que de ella se
+derivan, haciéndose constar que, dentro de su esencialidad, podrá ser llevada a la
+práctica en otros modos de realización que difieran en detalle de la indicada a título de
+15
+ejemplo, y a las cuales alcanzará igualmente la protección que se recaba siempre que
+no se altere, cambie o modifique su principio fundamental.
+
+
+--- PAGE 18 ---
+
+10
+REIVINDICACIONES
+1.
+Dispositivo de iluminación multiespectral para aplicaciones terapéuticas y
+circadianas, caracterizado por que comprende una lámpara (1) que incorpora un panel
+multiespectral (2) con LEDs de diferentes longitudes de onda, un módulo LED central,
+5
+y un sistema electrónico configurado de control de manera independiente de los LEDs
+del panel multiespectral (2) y del módulo LED central.
+2.
+Dispositivo de iluminación multiespectral para aplicaciones terapéuticas y
+circadianas, según la reivindicación 1, caracterizado por que la lámpara (1) comprende
+una carcasa de aluminio anodizado.
+10
+3.
+Dispositivo de iluminación multiespectral para aplicaciones terapéuticas y
+circadianas, según la reivindicación 1, caracterizado por que el panel multiespectral (2)
+incluye LEDs discretos que emiten longitudes de onda seleccionadas entre UVB, UVA,
+violeta, cian, rojo, rojo profundo, infrarrojo cercano, infrarrojo, infrarrojo profundo e
+infrarrojo lejano.
+15
+4.
+Dispositivo de iluminación multiespectral para aplicaciones terapéuticas y
+circadianas, según la reivindicación 1, caracterizado por que comprende difusores
+ópticos y ópticas de PMMA posicionados sobre los LEDs del panel multiespectral (2) y
+sobre el módulo LED central.
+5.
+Dispositivo de iluminación multiespectral para aplicaciones terapéuticas y
+20
+circadianas, según la reivindicación 1, caracterizado por que comprende un sistema de
+ventilación interna y filtrado eléctrico.
+6.
+Dispositivo de iluminación multiespectral para aplicaciones terapéuticas y
+circadianas, según la reivindicación 3, caracterizado por que comprende limitadores de
+potencia y tiempo para los LEDs ultravioletas.
+25
+7.
+Dispositivo de iluminación multiespectral para aplicaciones terapéuticas y
+circadianas, según la reivindicación 1, caracterizado por que comprende medios de
+montaje inclinables del panel multiespectral (2).
+8.
+Dispositivo de iluminación multiespectral para aplicaciones terapéuticas y
+circadianas, según la reivindicación 1, caracterizado por que el módulo LED central
+30
+integra al menos cinco longitudes de onda distintas, tales como 670, 727, 850, 935 y
+1050 nm.
+
+
+--- PAGE 19 ---
+
+11
+9.
+Dispositivo de iluminación multiespectral para aplicaciones terapéuticas y
+circadianas, según la reivindicación 1, caracterizado por que comprende una pantalla
+OLED y un sistema de control.
+
+
+--- PAGE 20 ---
+
+12
+DIBUJOS
+5
+10
+Figura 1
