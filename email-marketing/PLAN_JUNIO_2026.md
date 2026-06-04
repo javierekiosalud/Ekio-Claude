@@ -51,28 +51,58 @@ SEMANA 4 (29-30 jun) → CIERRE: reflexión y anticipo de julio
 
 ## Calendario completo
 
+### SEMANA 0 · 5-7 junio · APERTURA (3 emails en 3 días)
+
 | # | Fecha | Día | NL | Fase | Asunto | Producto |
 |---|-------|-----|----|------|--------|---------|
 | 01 | 5 jun | Vie | FJA | 🌱 Apertura | Ha empezado junio. Y tengo algo que cambiar. | — |
-| 02 | 8 jun | Lun | EPI | 🌱 Siembra | Cuánta luz natural recibe tu cuerpo de media al día | Ekio Light (seed) |
-| 03 | 11 jun | Jue | FJA | 🌱 Siembra | El verano que me di cuenta de que seguía sin descansar | — |
-| 04 | 13 jun | Sáb | EKO | 🛒 Venta ligera | Este verano, protección donde vayas | SpiroCard + SpiroDisc |
-| 05 | 16 jun | Lun | EPI | 📚 Valor | Lo que la luz roja le hace a tus mitocondrias | Ekio Light (ciencia) |
-| 06 | 18 jun | Jue | FJA | 📚 Valor | El verano de mis hijos y las pantallas | Ekio Light + SpiroCard |
-| 07 | 20 jun | Sáb | EKO | 🛒 Venta directa | Ekio Light: lo que el sol hace cuando no puedes salir | Ekio Light |
-| 08 | 21 jun | Dom | FJA | ☀️ Anchor Solsticio | Hoy es el día más largo del año. Y seguramente lo pasarás en interior. | Reflexivo |
-| 09 | 23 jun | Mar | EPI | 📚 Valor | Lo que el exceso de luz azul hace al cerebro de un niño | Ekio Light + SpiroCard |
-| 10 | 25 jun | Jue | FJA | 💬 Personal | Las vacaciones que yo recuerdo y las que tienen mis hijos | — |
-| 11 | 27 jun | Sáb | EKO | 🛒 Venta familia | Ekio Light para toda la familia este verano | Ekio Light |
-| 12 | 30 jun | Mar | FJA | 🔄 Cierre | Seis meses de 2026. Lo que está cambiando en los hogares que cuidan. | Reflexivo |
+| 02 | 6 jun | Sáb | EKO | 🛒 Transición | Nuevo catálogo. Y algo que este mes queremos contarte. | SpiroCard + SpiroDisc (nuevos precios) + tease Ekio Light |
+| 03 | 7 jun | Dom | EPI | 🌱 Siembra | El mes de la luz. Por qué junio debería ser diferente para tu biología. | Seed conceptual |
 
-**Total: 12 emails — cadencia media: 3/semana**
+### SEMANA 1 · 9-14 junio
+
+| # | Fecha | Día | NL | Fase | Asunto | Producto |
+|---|-------|-----|----|------|--------|---------|
+| 04 | 9 jun | Mar | EPI | 🌱 Siembra | Cuánta luz natural recibe tu cuerpo de media al día | Ekio Light (seed) |
+| 05 | 11 jun | Jue | FJA | 🌱 Siembra | El verano que me di cuenta de que seguía sin descansar | — |
+| 06 | 13 jun | Sáb | EKO | 🛒 Venta ligera | Este verano, protección donde vayas | SpiroCard + SpiroDisc |
+
+### SEMANA 2 · 15-21 junio
+
+| # | Fecha | Día | NL | Fase | Asunto | Producto |
+|---|-------|-----|----|------|--------|---------|
+| 07 | 16 jun | Lun | EPI | 📚 Valor | Lo que la luz roja le hace a tus mitocondrias | Ekio Light (ciencia) |
+| 08 | 18 jun | Jue | FJA | 📚 Valor | El verano de mis hijos y las pantallas | Ekio Light + SpiroCard |
+| 09 | 20 jun | Sáb | EKO | 🛒 Venta directa | Ekio Light: lo que el sol hace cuando no puedes salir | Ekio Light |
+| 10 | 21 jun | Dom | FJA | ☀️ Anchor Solsticio | Hoy es el día más largo del año. Y seguramente lo pasarás en interior. | Reflexivo |
+
+### SEMANA 3 · 23-28 junio
+
+| # | Fecha | Día | NL | Fase | Asunto | Producto |
+|---|-------|-----|----|------|--------|---------|
+| 11 | 23 jun | Mar | EPI | 📚 Valor | Lo que el exceso de luz azul hace al cerebro de un niño | Ekio Light + SpiroCard |
+| 12 | 25 jun | Jue | FJA | 💬 Personal | Las vacaciones que yo recuerdo y las que tienen mis hijos | — |
+| 13 | 27 jun | Sáb | EKO | 🛒 Venta familia | Ekio Light para toda la familia este verano | Ekio Light |
+
+### SEMANA 4 · 30 junio
+
+| # | Fecha | Día | NL | Fase | Asunto | Producto |
+|---|-------|-----|----|------|--------|---------|
+| 14 | 30 jun | Mar | FJA | 🔄 Cierre | Seis meses de 2026. Lo que está cambiando en los hogares que cuidan. | Reflexivo |
+
+**Total: 14 emails — cadencia semana 0: 3/días · semanas 1-4: 3/semana**
+
+> ⚠️ **Nota Smart Sending:** El EPI del dom 7 y el EPI del mar 9 van separados 48h justas — correcto. El EKO del sáb 6 y el EKO del sáb 13 van con 7 días de separación — sin problema.
 
 ---
 
 ## Detalle por email
 
 ---
+
+---
+
+## Detalle por email — SEMANA 0
 
 ### Email 01 · Viernes 5 junio · 8:00
 **Newsletter:** Javier Andrés (FJA)
@@ -87,7 +117,38 @@ SEMANA 4 (29-30 jun) → CIERRE: reflexión y anticipo de julio
 
 ---
 
-### Email 02 · Lunes 8 junio · 8:00
+---
+
+### Email 02 · Sábado 6 junio · 9:00
+**Newsletter:** Ekio Electrosmog (EKO)
+**Fase:** Transición — Post price-increase + apertura de mes
+**Asunto principal:** Nuevo catálogo. Y algo que este mes queremos contarte.
+**A/B 1:** Los precios de la Card y el Disc ya están actualizados. Y hay una novedad.
+**A/B 2:** Junio empieza. El catálogo SPIRO también.
+**Preview text:** Ya subió el precio. Ya está hecho. Lo que viene ahora es diferente.
+**Ángulo:** Cierre limpio de la campaña de mayo (el precio ya subió, sin drama). Presentación del nuevo catálogo con los precios actualizados de SpiroCard y SpiroDisc. Y un tease genuino: "Este mes vamos a hablar de algo que no hemos contado antes. De la luz. Y de por qué el verano debería ser el mes más saludable del año, pero para la mayoría no lo es." Sin revelar Ekio Light por nombre todavía — crea intriga.
+**CTA:** Ver el catálogo actualizado.
+**Segmento:** Engaged ≥2 aperturas 30d, excluir compradores Card/Disc 90d.
+**Smart Sending:** 48h.
+
+---
+
+### Email 03 · Domingo 7 junio · 8:00
+**Newsletter:** El Precio Invisible (EPI)
+**Fase:** Siembra — Seed conceptual del mes
+**Asunto principal:** El mes de la luz. Por qué junio debería ser diferente para tu biología.
+**A/B 1:** Hoy empieza la quincena con más luz del año. Y casi nadie la aprovecha.
+**A/B 2:** Junio tiene algo que ningún otro mes tiene. Y no es el calor.
+**Preview text:** No es sobre la vitamina D. Es sobre algo que los médicos todavía no miden rutinariamente.
+**Ángulo:** Email de apertura científica del mes. Sin profundidad técnica todavía — pura paradoja: junio es el mes de más luz del hemisferio norte y también en el que más tiempo pasamos en interior (AC, pantallas, oficinas). Introduce el concepto de que la biología humana evolucionó con luz solar completa — no con la luz blanca-azulada de los LED. No se nombra aún el espectro rojo ni el NIR — eso llega el martes 9. Solo se siembra la pregunta: ¿cuánta luz real recibe tu cuerpo en verano?
+**CTA:** No hay producto. Solo: "El martes te cuento los datos exactos. Y son peores de lo que crees."
+**Segmento:** Lista principal activa.
+
+---
+
+## Detalle por email — SEMANA 1
+
+### Email 04 · Martes 9 junio · 8:00
 **Newsletter:** El Precio Invisible (EPI)
 **Fase:** Siembra — Déficit de luz
 **Asunto principal:** Cuánta luz natural recibe tu cuerpo de media al día (y cuánta debería)
@@ -106,7 +167,7 @@ SEMANA 4 (29-30 jun) → CIERRE: reflexión y anticipo de julio
 
 ---
 
-### Email 03 · Jueves 11 junio · 8:00
+### Email 05 · Jueves 11 junio · 8:00
 **Newsletter:** Javier Andrés (FJA)
 **Fase:** Siembra — El verano roto
 **Asunto principal:** El verano que me di cuenta de que seguía sin descansar
@@ -120,7 +181,7 @@ SEMANA 4 (29-30 jun) → CIERRE: reflexión y anticipo de julio
 
 ---
 
-### Email 04 · Sábado 13 junio · 9:00
+### Email 06 · Sábado 13 junio · 9:00
 **Newsletter:** Ekio Electrosmog (EKO)
 **Fase:** Venta ligera — Travel protection
 **Asunto principal:** Este verano, protección donde vayas
@@ -135,7 +196,11 @@ SEMANA 4 (29-30 jun) → CIERRE: reflexión y anticipo de julio
 
 ---
 
-### Email 05 · Lunes 16 junio · 8:00
+---
+
+## Detalle por email — SEMANA 2
+
+### Email 07 · Lunes 16 junio · 8:00
 **Newsletter:** El Precio Invisible (EPI)
 **Fase:** Valor — Ciencia PBM
 **Asunto principal:** Lo que la luz roja le hace a tus mitocondrias (y por qué eso importa en verano)
@@ -156,7 +221,7 @@ SEMANA 4 (29-30 jun) → CIERRE: reflexión y anticipo de julio
 
 ---
 
-### Email 06 · Jueves 18 junio · 8:00
+### Email 08 · Jueves 18 junio · 8:00
 **Newsletter:** Javier Andrés (FJA)
 **Fase:** Valor — Niños y pantallas en verano
 **Asunto principal:** El verano de mis hijos y las pantallas
@@ -170,7 +235,7 @@ SEMANA 4 (29-30 jun) → CIERRE: reflexión y anticipo de julio
 
 ---
 
-### Email 07 · Sábado 20 junio · 9:00
+### Email 09 · Sábado 20 junio · 9:00
 **Newsletter:** Ekio Electrosmog (EKO)
 **Fase:** Venta directa — Ekio Light
 **Asunto principal:** Ekio Light: lo que el sol hace cuando no puedes salir
@@ -185,7 +250,7 @@ SEMANA 4 (29-30 jun) → CIERRE: reflexión y anticipo de julio
 
 ---
 
-### Email 08 · Domingo 21 junio · 9:00 ☀️ ANCHOR: Solsticio de verano
+### Email 10 · Domingo 21 junio · 9:00 ☀️ ANCHOR: Solsticio de verano
 **Newsletter:** Javier Andrés (FJA)
 **Fase:** Anchor simbólico
 **Asunto principal:** Hoy es el día más largo del año. Y seguramente lo pasarás en interior.
@@ -199,7 +264,11 @@ SEMANA 4 (29-30 jun) → CIERRE: reflexión y anticipo de julio
 
 ---
 
-### Email 09 · Martes 23 junio · 8:00
+---
+
+## Detalle por email — SEMANA 3
+
+### Email 11 · Martes 23 junio · 8:00
 **Newsletter:** El Precio Invisible (EPI)
 **Fase:** Valor — Luz azul en niños
 **Asunto principal:** Lo que el exceso de luz azul hace al cerebro de un niño en verano
@@ -218,7 +287,7 @@ SEMANA 4 (29-30 jun) → CIERRE: reflexión y anticipo de julio
 
 ---
 
-### Email 10 · Jueves 25 junio · 8:00
+### Email 12 · Jueves 25 junio · 8:00
 **Newsletter:** Javier Andrés (FJA)
 **Fase:** Personal — Contraste generacional
 **Asunto principal:** Las vacaciones que yo recuerdo y las que tienen mis hijos
@@ -231,7 +300,7 @@ SEMANA 4 (29-30 jun) → CIERRE: reflexión y anticipo de julio
 
 ---
 
-### Email 11 · Sábado 27 junio · 9:00
+### Email 13 · Sábado 27 junio · 9:00
 **Newsletter:** Ekio Electrosmog (EKO)
 **Fase:** Venta — Campaña familia verano
 **Asunto principal:** Ekio Light para toda la familia este verano
@@ -245,7 +314,11 @@ SEMANA 4 (29-30 jun) → CIERRE: reflexión y anticipo de julio
 
 ---
 
-### Email 12 · Martes 30 junio · 8:00
+---
+
+## Detalle por email — SEMANA 4
+
+### Email 14 · Martes 30 junio · 8:00
 **Newsletter:** Javier Andrés (FJA)
 **Fase:** Cierre — Reflexión de medio año
 **Asunto principal:** Seis meses de 2026. Lo que está cambiando en los hogares que cuidan.
@@ -306,14 +379,16 @@ SEMANA 4 (29-30 jun) → CIERRE: reflexión y anticipo de julio
 | # | Email | Estado |
 |---|-------|--------|
 | 01 | FJA · 5 jun · Apertura | ✏️ Por escribir |
-| 02 | EPI · 8 jun · Luz natural | ✏️ Por escribir |
-| 03 | FJA · 11 jun · Verano sin descanso | ✏️ Por escribir |
-| 04 | EKO · 13 jun · Travel protection | ✏️ Por escribir |
-| 05 | EPI · 16 jun · Mitocondrias y luz roja | ✏️ Por escribir |
-| 06 | FJA · 18 jun · Niños y pantallas | ✏️ Por escribir |
-| 07 | EKO · 20 jun · Ekio Light venta | ✏️ Por escribir |
-| 08 | FJA · 21 jun · Solsticio anchor | ✏️ Por escribir |
-| 09 | EPI · 23 jun · Luz azul en niños | ✏️ Por escribir |
-| 10 | FJA · 25 jun · Contraste generacional | ✏️ Por escribir |
-| 11 | EKO · 27 jun · Familia verano | ✏️ Por escribir |
-| 12 | FJA · 30 jun · Cierre semestre | ✏️ Por escribir |
+| 02 | EKO · 6 jun · Nuevo catálogo + tease | ✏️ Por escribir |
+| 03 | EPI · 7 jun · Seed mes de la luz | ✏️ Por escribir |
+| 04 | EPI · 9 jun · Luz natural y lux | ✏️ Por escribir |
+| 05 | FJA · 11 jun · Verano sin descanso | ✏️ Por escribir |
+| 06 | EKO · 13 jun · Travel protection | ✏️ Por escribir |
+| 07 | EPI · 16 jun · Mitocondrias y luz roja | ✏️ Por escribir |
+| 08 | FJA · 18 jun · Niños y pantallas | ✏️ Por escribir |
+| 09 | EKO · 20 jun · Ekio Light venta | ✏️ Por escribir |
+| 10 | FJA · 21 jun · Solsticio anchor | ✏️ Por escribir |
+| 11 | EPI · 23 jun · Luz azul en niños | ✏️ Por escribir |
+| 12 | FJA · 25 jun · Contraste generacional | ✏️ Por escribir |
+| 13 | EKO · 27 jun · Familia verano | ✏️ Por escribir |
+| 14 | FJA · 30 jun · Cierre semestre | ✏️ Por escribir |
