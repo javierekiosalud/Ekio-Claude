@@ -1,67 +1,59 @@
 # Email 02 · Sábado 6 junio 2026 · 9:00 — SEMANA 0: TRANSICIÓN
 **Newsletter:** Ekio Electrosmog (EKO)
-**Tono:** Directo, limpio, voz de marca
-**Producto:** SpiroCard + SpiroDisc (nuevos precios) + tease Ekio Light
+**Tono:** Directo, voz de marca, foco único
+**Producto:** SpiroCard + SpiroDisc (ángulo viaje de verano)
 **Segmento Klaviyo:** Engaged ≥2 aperturas 30d; excluir compradores Card/Disc 90d
-**Objetivo:** Cerrar el tema del precio de mayo sin drama. Presentar catálogo actualizado. Abrir intriga sobre el tema del mes sin revelar el producto.
+**Objetivo:** Email de entrada al verano. Un solo conflicto (el router del alojamiento), dos productos con su función clara. Sin mezclas.
 
 ---
 
 ## ASUNTO
 
-**Principal:** Nuevo catálogo. Y algo que este mes queremos contarte.
-**A/B 1:** Los precios de la Card y el Disc ya están actualizados. Y hay una novedad.
-**A/B 2:** Junio empieza. El catálogo SPIRO también.
+**Principal:** El primer fin de semana largo de junio. ¿Llevas la Card?
+**A/B 1:** Hotel, casa rural, apartamento. Hay un router WiFi que no has elegido tú.
+**A/B 2:** Tu cuerpo no sabe que estás de vacaciones. La SpiroCard, sí.
 
 ## PREVIEW TEXT
 
-> Ya subió el precio. Ya está hecho. Lo que viene ahora es diferente.
+> El WiFi del alojamiento no lo pones tú. Pero el campo que emite, sí lo recibes.
 
 ---
 
 ## BODY
 
-El 1 de junio actualizamos los precios.
+El primer fin de semana largo de junio.
 
-La SpiroCard y el SpiroDisc tienen ahora sus nuevos precios en el catálogo. Si los compraste antes del 31 de mayo, bien hecho. Si no, los tienes disponibles ahora al precio actualizado.
+Para mucha gente, es el primero de los de verdad. El plan cambia, el trabajo puede esperar y hay algún sitio al que ir.
 
-Mismos productos. Misma tecnología SPIRO. Misma garantía de 30 días sin preguntas.
+Hotel. Casa rural. Apartamento de la playa. Casa de los suegros.
+
+Y en todos ellos, un router WiFi que no has elegido tú. A veces en el pasillo. A veces en el salón. A veces en la habitación de al lado, encendido toda la noche.
+
+Tu cuerpo no sabe que estás de vacaciones.
+
+La SpiroCard va en el bolsillo. En la cartera. En el bolso. Filtra la emisión de tus dispositivos personales estés donde estés. Sin hacer nada. Sin cambiar ningún hábito. Sin baterías.
+
+El SpiroDisc lo pones en la habitación del alojamiento y cubre siete metros de radio. Una pieza. Sin instalación. Para llevarte y traerte.
+
+Este verano, la protección viaja contigo.
 
 **[ Ver SpiroCard y SpiroDisc → ]**
 
----
-
-Y ahora algo diferente.
-
-Este mes, en Ekio, vamos a hablar de luz.
-
-No de electrosmog, por una vez. De algo que el verano debería darte en abundancia y que la mayoría de personas no recibe en realidad.
-
-De por qué junio es el mes con más horas de luz del año y también, paradójicamente, en el que menos luz biológicamente útil llega al cuerpo.
-
-Ayer Javier ya te lanzó la primera pregunta. Esta semana te damos los datos. Y te contamos qué hemos preparado nosotros para eso.
-
-Hasta el lunes.
-
 Ekio Electrosmog
-
-**[ Ir al catálogo → ]**
 
 ---
 
 ## CTA BUTTON COPY
 
-- Arriba: **Ver SpiroCard y SpiroDisc**
-- Abajo: **Ir al catálogo**
+**Ver SpiroCard y SpiroDisc**
 
 ## P.S.
 
-*(Sin P.S. El tease es el cierre. No añadir más información.)*
+Garantía de 30 días sin preguntas. Si no lo sientes útil, lo devuelves y te reembolsamos.
 
 ---
 
 ## NOTAS
-- ⚠️ **VALIDAR antes de enviar:** precios actualizados de SpiroCard y SpiroDisc en €. Enlace directo a las páginas de producto.
-- No se nombra Ekio Light en ningún momento — solo se insinúa ("algo que hemos preparado"). La curiosidad es el activo.
-- La referencia al email de Javier del viernes crea continuidad entre newsletters y refuerza la sensación de ecosistema comunicativo coherente.
-- ⚠️ **Smart Sending:** esta semana son 3 emails en 3 días (plan aprobado). Desactivar Smart Sending para los emails 01, 02 y 03 de esta semana 0. Reactivar a partir del email 04 (mar 9 jun).
+- ⚠️ **VALIDAR antes de enviar:** enlace directo a páginas de SpiroCard y SpiroDisc con precios actualizados.
+- Foco único: viaje de verano. Sin administrativo, sin tease de Ekio Light. Eso viene después.
+- ⚠️ **Smart Sending OFF** esta semana — 3 emails en 3 días (plan aprobado). Reactivar desde email 04 (mar 9 jun).
