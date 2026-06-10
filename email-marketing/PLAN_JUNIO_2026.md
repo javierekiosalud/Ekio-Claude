@@ -64,15 +64,15 @@ SEMANA 4 (29-30 jun) → CIERRE: reflexión y anticipo de julio
 | # | Fecha | Día | NL | Fase | Asunto | Producto |
 |---|-------|-----|----|------|--------|---------|
 | 04 | 9 jun | Mar | EPI | 🌱 Siembra | Cuánta luz natural recibe tu cuerpo de media al día | Ekio Light (seed) |
-| 05 | 11 jun | Jue | FJA | 🌱 Siembra | El verano que me di cuenta de que seguía sin descansar | — |
-| 06 | 13 jun | Sáb | EKO | 🛒 Venta ligera | Este verano, protección donde vayas | SpiroCard + SpiroDisc |
+| 05 | 12 jun | Vie | FJA | 🌱 Siembra | Lo que veo cada septiembre en quienes han tenido un mal verano | — |
+| 06 | 14 jun | Dom | EKO | 🛒 Venta ligera | Este verano, protección donde vayas | SpiroCard + SpiroDisc |
 
 ### SEMANA 2 · 15-21 junio
 
 | # | Fecha | Día | NL | Fase | Asunto | Producto |
 |---|-------|-----|----|------|--------|---------|
 | 07 | 16 jun | Lun | EPI | 📚 Valor | Lo que la luz roja le hace a tus mitocondrias | Ekio Light (ciencia) |
-| 08 | 18 jun | Jue | FJA | 📚 Valor | El verano de mis hijos y las pantallas | Ekio Light + SpiroCard |
+| 08 | 18 jun | Jue | FJA | 📚 Valor | Lo que veo en los niños que atiendo cuando acaba el colegio | Ekio Light + SpiroCard |
 | 09 | 20 jun | Sáb | EKO | 🛒 Venta directa | Ekio Light: lo que el sol hace cuando no puedes salir | Ekio Light |
 | 10 | 21 jun | Dom | FJA | ☀️ Anchor Solsticio | Hoy es el día más largo del año. Y seguramente lo pasarás en interior. | Reflexivo |
 
@@ -81,7 +81,7 @@ SEMANA 4 (29-30 jun) → CIERRE: reflexión y anticipo de julio
 | # | Fecha | Día | NL | Fase | Asunto | Producto |
 |---|-------|-----|----|------|--------|---------|
 | 11 | 23 jun | Mar | EPI | 📚 Valor | Lo que el exceso de luz azul hace al cerebro de un niño | Ekio Light + SpiroCard |
-| 12 | 25 jun | Jue | FJA | 💬 Personal | Las vacaciones que yo recuerdo y las que tienen mis hijos | — |
+| 12 | 25 jun | Jue | FJA | 💬 Personal | Lo que me cuentan los padres en septiembre (y lo que eso explica) | — |
 | 13 | 27 jun | Sáb | EKO | 🛒 Venta familia | Ekio Light para toda la familia este verano | Ekio Light |
 
 ### SEMANA 4 · 30 junio
@@ -358,6 +358,19 @@ SEMANA 4 (29-30 jun) → CIERRE: reflexión y anticipo de julio
 | Leads tag interesado-spiro | Incluir en EKO SpiroCard/Disc | Retargeting activo |
 
 **Smart Sending:** 48h activado en todos los EKO. EPI y FJA: respetar cadencia de 3/semana.
+
+---
+
+## Directriz de tono FJA — junio 2026
+
+> **Los emails de Javier Andrés (FJA) se escriben siempre desde la experiencia profesional como experto en contaminación electromagnética y salud, no desde anécdotas de vida personal.**
+>
+> Correcto: "Llevo 15 años atendiendo a personas con electrohipersensibilidad. Lo que veo cada septiembre en quienes han pasado mal el verano es..."
+> Correcto: "En consulta, los padres me traen a sus hijos en octubre con un patrón que se repite: sueño irregular, irritabilidad, fatiga..."
+> Incorrecto: "El verano pasado yo fui de vacaciones y noté que..."
+> Incorrecto: "Mis hijos tienen este problema en verano..."
+>
+> Javier es la voz de la autoridad clínica. Primera persona sí — pero desde el rol de experto que ha observado cientos de casos, no desde la vida doméstica privada.
 
 ---
 
