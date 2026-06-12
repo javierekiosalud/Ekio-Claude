@@ -209,51 +209,89 @@ Wolaria es el **paraguas institucional de la Junta de Castilla y León** que com
 
 **Sí.** No hay incompatibilidad legal entre ambos préstamos participativos. La Plataforma Financiera de la Junta de Castilla y León incluye productos de SODICAL Y de ENISA. La condición es **declarar todas las ayudas recibidas o solicitadas** en cada formulario (transparencia obligatoria).
 
-### 4.2. Propuesta de arquitectura financiera para Ekio BioTech S.L.
+### 4.2. Propuesta de arquitectura financiera para Ekio BioTech S.L. — PLAN REVISADO (12/06/2026)
 
 | Fuente | Importe | Naturaleza | Estado |
 |---|---|---|---|
 | Préstamo Iberaval | **70.000 €** | Garantizado | ✅ Aprobado |
 | Ronda Seed privada | **350.000 €** | Capital + prima | 🟡 En curso (FEAC) |
-| **SODICAL — Instrumento Innovación** | **200.000 €** | Préstamo participativo (regional) | 🔵 A solicitar Q3 2026 |
-| **ENISA — Startups y Pymes** | **300.000 €** | Préstamo participativo (nacional) | 🔵 A solicitar Q3-Q4 2026 |
-| **TOTAL recursos** | **920.000 €** | | |
+| **SODICAL — Instrumento Innovación** | **200.000 €** | Préstamo participativo (regional) | 🔵 PRIORIDAD 1 — solicitud Q4 2026 |
+| **ENISA — Startups y Pymes** | **200.000 €** | Préstamo participativo (nacional) | 🔵 PRIORIDAD 2 — solicitud Q1-Q2 2027 |
+| **TOTAL recursos** | **820.000 €** | | |
 
-**Notas estratégicas:**
-- La ronda seed privada **debe cerrarse parcial o totalmente antes de solicitar ENISA** para acreditar fondos propios ≥ importe solicitado.
-- SODICAL puede tramitarse en paralelo o con leve antelación a ENISA.
-- Iberaval ya aprobado actúa como señal de validación bancaria → potencia ambas solicitudes.
-- El total 920k€ cubre con holgura las 5 partidas del uso de fondos (producción, SFPA, marketing, certificaciones, operaciones).
+### 4.3. Por qué SODICAL es PRIORIDAD 1 y ENISA es PRIORIDAD 2
 
-### 4.3. Secuencia operativa recomendada
+**SODICAL (Q4 2026) — viable de inmediato:**
+- Palanca real Wolaria-ICECYL (mismo paraguas Junta Castilla y León) → reduce drásticamente el riesgo percibido del comité.
+- Acepta empresas recién constituidas con proyecto innovador respaldado por programa público.
+- **NO exige fondos propios ≥ importe solicitado** (a diferencia de ENISA).
+- Documentación más flexible: el plan de negocio y la memoria técnica son las piezas centrales.
+
+**ENISA (Q1-Q2 2027) — requiere preparación adicional:**
+- Exige fondos propios contables ≥ importe solicitado **inscritos en Registro Mercantil**.
+- Exige cuentas anuales depositadas (ahora Ekio opera como autónomo, sin SL operativa).
+- Necesita primero: constitución Ekio BioTech S.L. + aportación FEAC formalizada + escritura inscrita + idealmente un ejercicio cerrado.
+- Importe revisado a 200.000 € (no 300.000 €) para asegurar margen sobre fondos propios.
+
+### 4.4. ⚠️ Aclaración crítica sobre el patrimonio aportable (PGC español, NRV 6ª)
+
+El patrimonio del autónomo aportable a Ekio BioTech S.L. vía FEAC tiene **dos valoraciones distintas**:
+
+**Sí capitalizable en patrimonio neto contable (= fondos propios ENISA):**
+- Stock e inventario (a precio de coste)
+- Equipos, vehículos, mobiliario (valor razonable)
+- Tesorería disponible
+- Cuentas a cobrar pendientes
+- Patente registrada U202532624 y costes PCT (si documentados: tasas OEPM, honorarios PI)
+
+**NO capitalizable como intangible autogenerado (aunque tengan valor fiscal o de mercado):**
+- Cartera de clientes generada internamente
+- Marca Ekio (autogenerada)
+- Know-how y reputación profesional
+
+A efectos del régimen FEAC (art. 87 LIS) la valoración fiscal puede ser superior por valor razonable; pero **ENISA mira fondos propios contables, no valoración fiscal**.
+
+**Horquilla realista estimada del patrimonio capitalizable: 80.000 – 180.000 €** (a confirmar por el agente jurídico-fiscal en otra línea de trabajo).
+
+### 4.5. Secuencia operativa revisada (cronograma maestro)
 
 ```
-JUL 2026 — Aceleración Wolaria intensiva: terminación cartas respaldo
-AGO 2026 — Cierre parcial ronda seed (≥200k€ inscritos en RM)
-SEP 2026 — Solicitud SODICAL (Instrumento Innovación, 200k€)
-OCT 2026 — Solicitud ENISA (Startups y Pymes, 300k€)
-NOV 2026 — Cierre total ronda seed (350k€)
-DIC 2026 — Resolución SODICAL esperada
-ENE 2027 — Resolución ENISA esperada
-FEB 2027 — Formalización notarial y desembolsos
+JUN-JUL 2026 — Constitución Ekio BioTech S.L. + escritura FEAC + inscripción RM
+JUL-AGO 2026 — Cierre parcial ronda seed (≥150k€) inscrito en RM
+AGO 2026     — Cartas de respaldo Wolaria emitidas (SODICAL + ENISA)
+SEP 2026     — Plan negocio + memoria técnica + modelo financiero cerrados
+OCT 2026     — ⭐ SOLICITUD SODICAL (Instrumento Innovación, 200k€)
+NOV-DIC 2026 — Cierre total ronda seed (350k€) + primer ejercicio Ekio BioTech
+ENE-FEB 2027 — Resolución y formalización SODICAL
+MAR 2027     — Cuentas anuales 2026 depositadas (necesario para ENISA)
+ABR 2027     — ⭐ SOLICITUD ENISA (Startups y Pymes, 200k€)
+JUN-JUL 2027 — Resolución y desembolso ENISA
 ```
 
 ---
 
-## 5. CONFIRMACIONES PENDIENTES ANTES DE PASAR AL AGENTE 02
+## 5. CONFIRMACIONES DEL CEO (recibidas 12/06/2026)
 
-Para blindar el expediente, AGENTE 01 necesita confirmar con el CEO de Ekio:
-
-| # | Confirmación necesaria | Impacto |
+| # | Confirmación | Respuesta |
 |---|---|---|
-| 1 | ¿Está ya constituida Ekio BioTech S.L. o sigue el proceso FEAC en curso? | Determina ventana de solicitud ENISA |
-| 2 | Fecha objetivo de cierre de la ronda seed (parcial y total) | Determina cumplimiento de fondos propios ENISA |
-| 3 | Importe ENISA objetivo: ¿confirmar 300.000 €? (implica auditoría obligatoria) | Define exigencias de informe auditor |
-| 4 | Importe SODICAL objetivo: ¿confirmar 200.000 €? | Define encaje en Instrumento Innovación |
-| 5 | ¿Wolaria está dispuesto a emitir cartas formales para SODICAL y ENISA? | Activa o no AGENTE 06 |
-| 6 | Cuentas anuales 2024 y 2025 — ¿están depositadas o pendientes? | Riesgo bloqueante para ENISA |
-| 7 | ¿Hay certificados AEAT/TGSS al corriente disponibles? | Bloqueante para ambas |
-| 8 | Sectores aceptados en Wolaria — ¿Ekio está en la vertical "biohealth"? | Argumento clave en narrativa |
+| 1 | Importe SODICAL objetivo | ✅ 200.000 € |
+| 2 | Importe ENISA objetivo | ✅ 200.000 € (reducido desde 300k por restricción de fondos propios) |
+| 3 | Estado Ekio BioTech S.L. | 🟡 Constitución en curso vía aportación FEAC del autónomo |
+| 4 | Valoración patrimonio aportable | 🟡 Indeterminada (objetivo 250k€, realista 80-180k€ contables) |
+| 5 | Cuentas anuales depositadas | 🔴 Ninguna aún (operación actual como autónomo) — BLOQUEANTE para ENISA |
+| 6 | Aplazamientos AEAT/TGSS | 🟡 En vigor, no deudas vencidas — documentar correctamente |
+| 7 | Cartas respaldo Wolaria | ✅ Activar AGENTE 06 con prioridad |
+| 8 | Estrategia general | ✅ SODICAL prioridad 1, ENISA prioridad 2 |
+
+## 6. RIESGOS BLOQUEANTES Y MITIGACIONES
+
+| Riesgo | Severidad | Mitigación |
+|---|---|---|
+| Patrimonio aportable < 200k€ contables | 🔴 Alto | Cerrar ronda seed parcial ≥150k€ antes de solicitar ENISA |
+| Sin cuentas depositadas Ekio BioTech | 🔴 Alto (ENISA) / Bajo (SODICAL) | SODICAL acepta SL recién constituida; ENISA esperar ejercicio cerrado |
+| Aplazamientos AEAT/TGSS | 🟡 Medio | Documentar plan de pagos; ambos aceptan "al corriente con aplazamiento" |
+| Solapamiento temporal SODICAL/ENISA | 🟡 Medio | Plan separa por 3-4 meses; declarar siempre solicitud cruzada |
+| Patente MU contablemente no documentada | 🟡 Medio | Agregar al activo intangible con tasas OEPM + honorarios PI documentados |
 
 ---
 
