@@ -22,7 +22,7 @@
 
 ## BODY
 
-Esta tarde, a las [HORA], hacemos un directo en Instagram.
+Esta tarde, a las 16:00, hacemos un directo en Instagram.
 
 [@electrosmog_espana](https://www.instagram.com/electrosmog_espana) — apúntalo.
 
