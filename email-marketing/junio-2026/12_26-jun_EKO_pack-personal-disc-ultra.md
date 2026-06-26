@@ -24,7 +24,7 @@
 
 Esta semana hemos hablado de lo que la ciencia publicó en 2025.
 
-De lo que la OMS encargó revisar y lo que encontró. De lo que Mariana Aróstegui lleva diciendo sobre el entorno y la microbiota. De por qué los límites de exposición actuales no están calibrados para la evidencia disponible.
+De lo que la OMS encargó revisar y lo que encontró. De por qué los límites de exposición actuales no están calibrados para la evidencia disponible. De por qué hoy, 24 de junio, existe un Día Internacional de la Contaminación Electromagnética y cada año importa más.
 
 Hoy no añadimos más información. Hoy hay dos decisiones.
 
@@ -67,7 +67,11 @@ Ekio Electrosmog
 
 ## P.S.
 
-Si tienes dudas sobre cuál de los dos es más urgente para tu situación concreta, responde a este correo. Orientamos sin compromiso.
+La entrevista con Mariana Aróstegui la reprogramamos — la tendremos pronto. Cuando ocurra, tú serás el primero en saberlo.
+
+---
+
+**P.P.S.** Si tienes dudas sobre cuál de los dos es más urgente para tu situación concreta, responde a este correo. Orientamos sin compromiso.
 
 ---
 
