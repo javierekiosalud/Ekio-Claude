@@ -86,4 +86,4 @@ Las fuentes de este email: PMID 27912059 (DOI: 10.1016/j.cell.2016.11.003) y PMI
 - La cadena mecanística: CEM → estrés oxidativo → melatonina reducida → desincronización circadiana → microbiota sin ritmo. Cada eslabón citado por separado — no se afirma el efecto directo CEM→microbiota (evidencia aún limitada para exposición residencial crónica)
 - Teaser "próxima semana" apunta a Mariana Aróstegui sin comprometer la fecha exacta del directo
 - Smart Sending ON: 72h desde EKO sáb 12 (8:00). ✓
-- Siguiente email: FJA jue 17 — Javier desde consulta + SPIRO como recomendación clínica
+- Siguiente email: FJA jue 16 — Javier desde consulta + SPIRO como recomendación clínica
