@@ -40,9 +40,14 @@ O si prefieres, a plazos desde **54€/mes en 12 cuotas**.
 
 **¿Qué es el Deep 5?**
 
-Un panel de terapia de luz roja e infrarroja cercana con 5 longitudes de onda: 630, 660, 727, 810 y 850 nm. La longitud de 727 nm es única en el mercado — activa la señalización circadiana del metabolismo energético, el eslabón que conecta la luz con el ritmo interno del cuerpo.
+Un panel de terapia de luz roja e infrarroja cercana. 107W de potencia real. Cero contaminación electromagnética propia (0 µT a 7,5 cm). Sin parpadeo. Vida útil de más de 100.000 horas.
 
-107W de potencia real. Cero contaminación electromagnética propia (0 µT a 7,5 cm). Sin parpadeo. Vida útil de más de 100.000 horas.
+Lo que incluye:
+- ✓ **630 nm** — regeneración celular y piel
+- ✓ **660 nm** — antiinflamación y recuperación muscular
+- ✓ **727 nm** — señalización circadiana del metabolismo energético (longitud de onda exclusiva)
+- ✓ **810 nm** — activación mitocondrial profunda
+- ✓ **850 nm** — penetración en tejidos y articulaciones
 
 Y viene con el **Ekio Light System** completo — 268€ en valor adicional:
 - ✓ Acceso completo a Ekio Coach (incluido el programa de 21 días)
