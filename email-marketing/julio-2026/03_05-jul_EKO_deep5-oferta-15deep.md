@@ -10,13 +10,13 @@
 
 ## ASUNTO
 
-**Principal:** La app te lo ha mostrado. El panel que lo desbloquea todo, hoy con 15%.
-**A/B 1:** Deep 5 de Ekio Light. 15% de descuento este fin de semana. Cupón: 15Deep.
-**A/B 2:** 97,50€ de ahorro. 5 longitudes de onda. Ekio Light System incluido. Este domingo.
+**Principal:** La app te lo ha mostrado. El panel que lo desbloquea todo, con 15% todo julio.
+**A/B 1:** Deep 5 de Ekio Light. 15% de descuento todo el mes de julio. Cupón: 15Deep.
+**A/B 2:** 97,50€ de ahorro. 5 longitudes de onda. Ekio Light System incluido. Todo julio.
 
 ## PREVIEW TEXT
 
-> Llevas dos días usando la app. Dentro hay un programa de 21 días que pone "Para compradores". Este domingo puedes entrar.
+> Llevas dos días con la app. Dentro hay un programa de 21 días que pone "Para compradores". Este mes puedes entrar.
 
 ---
 
@@ -28,9 +28,9 @@ Ya has visto el plan solar. El Ekio Score. Los bloques del día.
 
 Y si has explorado los programas, habrás visto uno que pone "Para compradores": **21 días de ritmo solar**. El programa de sincronización circadiana completo, diseñado para usar con panel de luz roja. El más avanzado de la app.
 
-Hoy puedes entrar.
+Este mes puedes entrar.
 
-**Deep 5 de Ekio Light — este fin de semana con 15% de descuento.**
+**Deep 5 de Ekio Light — 15% de descuento durante todo julio.**
 
 Cupón: **15Deep**
 Precio normal: ~~650€~~
@@ -72,7 +72,7 @@ Ekio Electrosmog
 
 ## P.S.
 
-El cupón **15Deep** es válido este fin de semana. Si tienes dudas sobre si el Deep 5 encaja con lo que buscas, responde a este correo antes de decidir. Te orientamos.
+El cupón **15Deep** es válido durante todo julio. Si tienes dudas sobre si el Deep 5 encaja con lo que buscas, responde a este correo antes de decidir. Te orientamos.
 
 ---
 
@@ -85,6 +85,6 @@ El cupón **15Deep** es válido este fin de semana. Si tienes dudas sobre si el 
 - 5 longitudes de onda: 630, 660, 727, 810, 850 nm
 - 0 µT a 7,5 cm — cero CEM propia (relevante para audiencia Ekio)
 - Patente MU U202532624 registrada en 157 países
-- ⚠️ CONFIRMAR: ¿el cupón 15Deep tiene fecha de caducidad o es válido todo julio?
+- Cupón 15Deep válido todo julio (confirmado).
 - Smart Sending ON: 49h desde FJA vie 3 (8:00). ✓
 - URL producto: https://electrosmogespana.com/products/deep-5-ekio-light
