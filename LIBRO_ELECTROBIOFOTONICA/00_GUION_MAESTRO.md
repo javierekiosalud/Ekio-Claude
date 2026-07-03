@@ -1,10 +1,11 @@
 # GUÍA DE HIGIENE ELECTROMAGNÉTICA
-## Electrobiofotónica: el arte de vivir en armonía con las frecuencias invisibles
+## Electrobiofotónica: vive en armonía con las frecuencias invisibles
 
 > **Guión maestro del libro** — Documento de trabajo para desarrollo por capítulos.
 > Autor: Francisco Javier Andrés (EKIO / Ekio BioTech).
-> Formato objetivo: libro práctico ilustrado para Amazon KDP (tapa blanda + Kindle).
-> Estado: ESQUELETO v1 — pendiente de completar capítulo a capítulo.
+> Formato objetivo: guía práctica ilustrada para Amazon KDP (tapa blanda + Kindle).
+> **Extensión objetivo: ~100 páginas.** Breve, directo, accionable.
+> Estado: ESQUELETO v2 (versión reducida) — pendiente de completar capítulo a capítulo.
 
 ---
 
@@ -13,207 +14,151 @@
 | Campo | Propuesta |
 |---|---|
 | **Título** | *Electrobiofotónica* |
-| **Subtítulo** | Guía práctica de higiene electromagnética para recuperar tu energía en un mundo lleno de frecuencias invisibles |
-| **Género / categoría KDP** | Salud, bienestar, medicina alternativa / hogar saludable |
-| **Extensión objetivo** | 180–240 páginas (≈ 45.000–60.000 palabras) |
-| **Tono** | Divulgativo, cercano, con humor, storytelling y mucho ejemplo cotidiano |
-| **Lector ideal** | Persona curiosa sin conocimientos técnicos: familias, madres/padres, personas con fatiga o mala calidad de sueño, biohackers principiantes |
+| **Subtítulo** | Guía breve de higiene electromagnética para recuperar tu energía en 30 días |
+| **Categoría KDP** | Salud, bienestar / hogar saludable |
+| **Extensión objetivo** | **~100 páginas (≈ 22.000–28.000 palabras)** |
+| **Tono** | Divulgativo, cercano, con humor; storytelling ligero y mucha acción |
+| **Lector ideal** | Persona sin conocimientos técnicos: familias, personas con fatiga o mal sueño, biohackers principiantes |
 | **Promesa** | "En 30 días tu casa y tu cuerpo estarán en paz con las frecuencias invisibles" |
 | **Soluciones estrella** | **Spiro** (armonización de campos electromagnéticos) + **Ekio Light** (fotobiomodulación / luz roja e infrarroja) |
 
 ---
 
-## 1. ¿QUÉ ES LA ELECTROBIOFOTÓNICA? (el concepto que da nombre al libro)
+## 1. LA IDEA (el concepto que da nombre al libro)
 
-**Electro + Bio + Fotónica.** La idea central que hilvana todo el libro:
+**Electro + Bio + Fotónica.**
 
-- **ELECTRO** → los campos electromagnéticos (CEM) artificiales que nos rodean (wifi, móvil, 5G, red eléctrica, Bluetooth…).
-- **BIO** → tu cuerpo es un sistema bioeléctrico: el corazón, las neuronas, las mitocondrias… todo funciona con electricidad y luz.
-- **FOTÓNICA** → la luz (natural y terapéutica) como nutriente y como medicina; la fotobiomodulación.
+- **ELECTRO** → los campos electromagnéticos artificiales que nos rodean (wifi, móvil, 5G, red eléctrica).
+- **BIO** → tu cuerpo es un sistema bioeléctrico: corazón, neuronas, mitocondrias.
+- **FOTÓNICA** → la luz (natural y terapéutica) como nutriente y medicina.
 
-> **Tesis del libro:** vivimos inmersos en un "clima electromagnético" que nunca antes existió, y a la vez nos falta la luz correcta. La higiene electromagnética consiste en **reducir el ruido** (armonizar CEM con Spiro) y **reponer la señal buena** (luz con Ekio Light). No es miedo: es higiene, como lavarse las manos o ventilar la casa.
+> **Tesis:** vivimos con demasiado "ruido" electromagnético y muy poca "luz buena". La higiene electromagnética consiste en **bajar el ruido (Spiro)** y **reponer la señal (Ekio Light)**. No es miedo: es higiene.
 
-⚠️ **Nota de rigor (traffic-light de evidencia):** el libro usará un semáforo en cada afirmación:
-- 🟢 Evidencia sólida (estudios revisados, consenso)
-- 🟡 Evidencia emergente / plausible / mecanismo conocido
-- 🔴 Hipótesis o testimonio (se etiqueta como tal, nunca se vende como hecho)
-
-Esto protege legalmente y da credibilidad. **Disclaimer médico** en las primeras páginas.
+⚠️ **Rigor:** semáforo de evidencia en cada afirmación → 🟢 sólida / 🟡 emergente / 🔴 hipótesis. Disclaimer médico al inicio.
 
 ---
 
-## 2. ESTRUCTURA GENERAL (arquitectura del libro)
+## 2. ESTRUCTURA (versión reducida ~100 págs)
 
-El libro se divide en **4 grandes bloques + apéndices**, siguiendo un viaje del lector:
+De 22 capítulos pasamos a **10 capítulos cortos** + apéndices. Reparto de páginas orientativo:
 
 ```
-PARTE I   → ENTENDER   "¿Qué me está pasando?"      (el problema, sin miedo)
-PARTE II  → MEDIR      "¿Cómo está mi entorno?"     (diagnóstico práctico)
-PARTE III → ACTUAR     "¿Qué hago, habitación por habitación?"  (soluciones)
-PARTE IV  → BRILLAR    "Recuperar la luz y la energía"          (fotobiomodulación)
-APÉNDICES → herramientas, protocolos de bolsillo, glosario
+Intro + concepto ............ 8 págs
+Parte I  — ENTENDER ......... 22 págs  (Cap. 1–3)
+Parte II — MEDIR ............ 14 págs  (Cap. 4–5)
+Parte III— ACTUAR ........... 28 págs  (Cap. 6–8)
+Parte IV — BRILLAR .......... 16 págs  (Cap. 9)
+Parte V  — PLAN 30 DÍAS ..... 8 págs   (Cap. 10)
+Apéndices ................... 4 págs
+                             ≈ 100 págs
 ```
 
-Cada capítulo tiene la **misma estructura repetida** (para que sea fácil de usar "en cada momento"):
+**Cada capítulo, misma plantilla corta** (para que sea fácil de usar en cada momento):
 
-1. 🎬 **Historia de apertura** (storytelling: un personaje cotidiano)
-2. 🧠 **La idea clave** (explicada con analogías simples)
-3. 🔬 **La ciencia en 3 minutos** (con semáforo de evidencia)
-4. 🖍️ **Diagrama / ilustración**
-5. ✅ **Acción de hoy** (1 cosa concreta que hacer)
-6. 🗣️ **Mito vs realidad** (desmontar exageraciones y bulos, en ambas direcciones)
-
----
-
-## 3. PERSONAJES Y STORYTELLING (el hilo narrativo)
-
-Para que sea "divertido y fácil", el libro sigue a una familia ficticia a lo largo de los capítulos:
-
-- **Marta**, 42 años, agotada, duerme mal, "está siempre enchufada". → arquetipo del lector.
-- **Leo**, su hijo adolescente, con el móvil pegado a la cabeza y wifi en el cuarto.
-- **El abuelo Tomás**, escéptico gracioso ("en mi época no había wifi y vivíamos igual").
-- **La Dra. Elena**, vecina y guía, que introduce la ciencia sin dramatizar.
-- **"Spiro"** y **"Fotón"** → dos mascotas-concepto ilustradas que explican las soluciones (un guiño de marca sin ser publicidad agresiva).
-
-> Cada capítulo abre con una escena de esta familia. Al final del libro, la casa y la energía de Marta han cambiado. **Arco narrativo completo = engagement.**
+1. 🎬 **Micro-historia** (3–5 líneas, la familia)
+2. 🧠 **La idea clave** (una analogía)
+3. 🔬 **Ciencia en 60 segundos** (con semáforo 🟢🟡🔴)
+4. 🖍️ **1 diagrama**
+5. ✅ **Acción de hoy** (una sola cosa concreta)
 
 ---
 
-## 4. ÍNDICE DETALLADO (capítulo a capítulo)
+## 3. STORYTELLING (hilo narrativo ligero)
 
-### PARTE I — ENTENDER: el mundo invisible en el que vives
+Una familia recorre el libro, pero en dosis breves (nada de capítulos largos):
 
-**Cap. 1 — El día que Marta se dio cuenta**
-El despertar. Fatiga, insomnio, niebla mental. La escena que engancha. Qué NO es este libro (no es tecnofobia).
+- **Marta**, 42, agotada y duerme mal → el lector.
+- **Leo**, hijo adolescente pegado al móvil.
+- **Abuelo Tomás**, escéptico gracioso.
+- **Dra. Elena**, vecina que aporta la ciencia sin dramatizar.
+- **"Spiro"** y **"Fotón"**, dos mascotas-concepto ilustradas.
 
-**Cap. 2 — Eres un ser eléctrico y luminoso**
-Tu cuerpo como orquesta bioeléctrica. El corazón, las neuronas, las mitocondrias. 🟢 Ritmos circadianos y luz. Introducción suave a la fotónica biológica.
-
-**Cap. 3 — El clima electromagnético: qué cambió en 20 años**
-Del primer Nokia al 5G y el hogar lleno de antenas. Tipos de CEM: campos eléctricos, magnéticos, radiofrecuencia, luz azul. Analogía: "el smog que no ves ni hueles".
-
-**Cap. 4 — ¿Esto me hace daño? La ciencia sin histeria**
-Qué dice la evidencia de verdad (🟢🟡🔴). ICNIRP vs. estudios independientes. El concepto de "individuos electrosensibles". Honestidad: lo que sabemos y lo que no.
-
-**Cap. 5 — La otra cara: la luz que nos falta**
-Vivimos bajo techo, con luz artificial y sin sol. El déficit de infrarrojo. Aquí nace la **fotobiomodulación** como pieza que faltaba. Puente hacia la Parte IV.
+> Arco simple: Marta mide → actúa → recupera energía en 30 días.
 
 ---
 
-### PARTE II — MEDIR: conviértete en detective de tu propia casa
+## 4. ÍNDICE DETALLADO (10 capítulos)
 
-**Cap. 6 — No puedes mejorar lo que no mides**
-Introducción a la medición. Por qué medir antes de comprar nada.
+### INTRO — Bienvenido a lo invisible
+Qué es este libro y qué NO es (no es tecnofobia). El concepto electrobiofotónica en 2 páginas. Disclaimer.
 
-**Cap. 7 — Tu kit de detective**
-Medidores básicos, apps, y cuándo pedir una medición profesional (servicio EKIO). Diagrama de "qué mide cada aparato".
+### PARTE I — ENTENDER
 
-**Cap. 8 — El mapa de calor de tu hogar**
-Ejercicio práctico: dibuja el plano de tu casa y marca los puntos calientes. Plantilla imprimible.
+**Cap. 1 — Eres un ser eléctrico y luminoso**
+Tu cuerpo como orquesta bioeléctrica. 🟢 Ritmos circadianos y luz. Por qué te importa.
 
-**Cap. 9 — El dormitorio: la zona cero**
-Por qué el sitio donde pasas 8 horas es el más importante. Medición junto a la cama, cabecero, mesilla.
+**Cap. 2 — El clima electromagnético (qué cambió en 20 años)**
+Tipos de CEM en simple: eléctrico, magnético, radiofrecuencia, luz azul. La analogía del "smog que no ves".
 
----
+**Cap. 3 — ¿Esto me hace daño? La ciencia sin histeria**
+Lo que la evidencia dice y lo que no (🟢🟡🔴). Principio de precaución. Y la otra cara: la luz que nos falta.
 
-### PARTE III — ACTUAR: higiene electromagnética habitación por habitación
+### PARTE II — MEDIR
 
-**Cap. 10 — Las 5 reglas de oro de la higiene electromagnética**
-Distancia, tiempo, apagado, blindaje/armonización, y luz. El "lavado de manos" digital.
+**Cap. 4 — Conviértete en detective de tu casa**
+Medir antes de comprar nada. Kit básico + cuándo pedir medición profesional (EKIO). El mapa de calor del hogar (plantilla).
 
-**Cap. 11 — El dormitorio saludable**
-Protocolo completo: móvil fuera, wifi nocturno, cabezal, corriente. Aquí entra **Spiro** como armonizador. Antes/después de Marta.
+**Cap. 5 — El dormitorio: zona cero**
+Por qué el sitio donde pasas 8 h es lo primero. Qué mirar junto a la cama.
 
-**Cap. 12 — La cocina y el salón**
-Inducción, microondas, router, smart TV, altavoces inteligentes. Dónde poner el router y por qué.
+### PARTE III — ACTUAR
 
-**Cap. 13 — El cuarto de los niños**
-El capítulo más emocional. Cerebros en desarrollo, uso de pantallas, sueño de Leo. 🟡 Recomendaciones prudentes tipo "principio de precaución".
+**Cap. 6 — Las 5 reglas de oro + el dormitorio saludable**
+Distancia, tiempo, apagado, armonización y luz. Protocolo completo del dormitorio. Aquí entra **Spiro**. Antes/después de Marta.
 
-**Cap. 14 — La oficina y el teletrabajo**
-Portátil, monitores, cargadores, auriculares. Higiene para quien trabaja 8h enchufado. Micro-pausas de luz.
+**Cap. 7 — El resto de la casa (cocina, salón, niños, oficina)**
+Router, inducción, smart TV, cuarto de los niños, teletrabajo. Todo en formato checklist por estancia.
 
-**Cap. 15 — Fuera de casa: móvil, coche, ciudad, viajes**
-Cómo llevar el móvil, manos libres, modo avión, coche eléctrico, aviones. Higiene de bolsillo.
+**Cap. 8 — Fuera de casa + Spiro a fondo**
+Móvil, coche, viajes, higiene de bolsillo. Qué hace Spiro y qué NO (honestidad). Cómo y dónde usarlo.
 
-**Cap. 16 — Spiro a fondo: armonizar en lugar de tener miedo**
-Capítulo dedicado a la tecnología de armonización de campos. Qué hace, qué NO hace (honestidad), cómo se usa, dónde colocarlo. 🟡 Mecanismo y testimonios etiquetados. Casos de uso reales.
+### PARTE IV — BRILLAR
 
----
+**Cap. 9 — Recupera tu luz: fotobiomodulación con Ekio Light**
+La luz como nutriente. 🟢 Mitocondria y luz roja en simple. Qué es la PBM y qué no. Protocolos por objetivo (sueño, energía, piel, recuperación) con distancias y tiempos. El binomio **Spiro + Ekio Light** = bajar ruido + reponer señal.
 
-### PARTE IV — BRILLAR: recupera tu luz con la fotobiomodulación
+### PARTE V — EL PLAN
 
-**Cap. 17 — La luz como nutriente**
-El sol, el infrarrojo, la luz roja. Por qué la luz es información para tus células. 🟢 Cromóforos, citocromo c oxidasa, mitocondria explicado en simple.
+**Cap. 10 — Tu reto de 30 días**
+Calendario semana a semana con checklist marcable. Semana 1 medir · 2 dormitorio · 3 resto de la casa · 4 luz y hábitos. Cómo mantenerlo sin volverte fanático (el abuelo Tomás cede).
 
-**Cap. 18 — Qué es la fotobiomodulación (y qué no)**
-Longitudes de onda (nm), dosis (J/cm²), rojo vs. infrarrojo cercano. El semáforo de evidencia por aplicación (piel, dolor, sueño, energía). Honestidad sobre lo que promete.
-
-**Cap. 19 — Ekio Light en tu rutina diaria**
-Cómo integrar la luz roja/infrarroja: mañana para energía, noche para reparar. Protocolos por objetivo (sueño, piel, recuperación, ánimo). Distancias y tiempos concretos.
-
-**Cap. 20 — El binomio perfecto: reducir ruido + reponer señal**
-La gran síntesis de la electrobiofotónica: **Spiro baja el ruido electromagnético, Ekio Light repone la luz buena.** Cómo se complementan. El "reset diario" del cuerpo.
+### APÉNDICES (breves)
+- **A. Tarjetas de protocolo de bolsillo** (una por estancia).
+- **B. FAQ** ("¿el wifi da cáncer?" con rigor) + glosario mínimo.
+- **C. Recursos EKIO** (medición, Spiro, Ekio Light) + bibliografía con semáforo.
+- **D. Nota legal / disclaimer médico.**
 
 ---
 
-### PARTE V — EL PLAN: 30 días hacia una vida en armonía
+## 5. ILUSTRACIONES (7, para mantenerlo ligero)
 
-**Cap. 21 — Tu reto de 30 días de higiene electromagnética**
-Calendario día a día. Semana 1 medir, semana 2 dormitorio, semana 3 resto de la casa, semana 4 luz y hábitos. Checklist marcable.
-
-**Cap. 22 — Cómo mantenerlo (sin volverte un fanático)**
-Vida real, equilibrio, familia escéptica (el abuelo Tomás cede). El objetivo no es el miedo, es la calidad de vida.
-
----
-
-### APÉNDICES
-
-- **A. Protocolos de bolsillo** (tarjetas resumen imprimibles/recortables).
-- **B. Glosario ilustrado** de términos (CEM, RF, nm, J/cm², Hz…).
-- **C. Preguntas frecuentes** (FAQ tipo "¿el wifi da cáncer?" respondidas con rigor).
-- **D. Kit de medición y recursos EKIO** (dónde medir, dónde comprar Spiro y Ekio Light).
-- **E. Bibliografía y estudios** con semáforo de evidencia.
-- **F. Nota legal / disclaimer médico.**
-
----
-
-## 5. LISTA DE ILUSTRACIONES Y DIAGRAMAS (para el ilustrador)
-
-Cada uno pensado para ser sencillo, tipo infografía amable:
-
-1. "El cuerpo eléctrico" — silueta humana con corazón, cerebro y mitocondria iluminados.
-2. "El espectro electromagnético" — de la radio a la luz visible, con dónde caen wifi/5G/luz roja.
-3. "Mapa de calor del hogar" — plano de casa con zonas rojas/verdes.
-4. "Distancia = seguridad" — el mismo aparato a 1 cm vs 1 m (la ley del inverso del cuadrado, en dibujo).
+1. "El cuerpo eléctrico" — silueta con corazón, cerebro y mitocondria.
+2. "El espectro electromagnético" — de la radio a la luz, con wifi/5G/luz roja.
+3. "Mapa de calor del hogar" — plano con zonas rojas/verdes.
+4. "Distancia = seguridad" — mismo aparato a 1 cm vs 1 m.
 5. "El dormitorio ideal" antes/después.
-6. "Cómo funciona la fotobiomodulación" — luz roja entrando en la célula → mitocondria → energía (ATP).
-7. "El binomio Spiro + Ekio Light" — ruido bajando / luz subiendo.
-8. "Reloj circadiano" — luz a lo largo del día.
-9. Mascotas "Spiro" y "Fotón".
-10. Tarjetas de protocolo de bolsillo (una por habitación).
+6. "Cómo funciona la fotobiomodulación" — luz roja → mitocondria → energía (ATP).
+7. "El binomio Spiro + Ekio Light" — ruido baja / luz sube.
+
+(Las mascotas Spiro y Fotón pueden reutilizarse como iconos recurrentes, sin contar como láminas.)
 
 ---
 
 ## 6. PRINCIPIOS EDITORIALES (para las próximas versiones de Claude)
 
-Reglas para quien complete los capítulos:
-
-1. **Rigor con semáforo.** Nunca afirmar como hecho lo que es hipótesis. Etiqueta 🟢🟡🔴.
-2. **Cero miedo tóxico.** El tono es empoderar, no aterrar. Evitar catastrofismo.
-3. **Legal-safe.** Sin claims médicos de curación. Spiro y Ekio Light se presentan como bienestar/higiene, no como tratamiento de enfermedades. Disclaimer siempre.
-4. **Storytelling primero.** Cada capítulo abre con la familia; la ciencia va después.
-5. **Práctico y accionable.** Cada capítulo cierra con UNA acción concreta.
-6. **Voz de marca EKIO** pero sin ser un folleto: el 80% es valor, el 20% producto.
-7. **Ejemplos cotidianos** por encima de tecnicismos.
-8. **Fuentes:** validar claims científicos vía PubMed antes de escribir la sección 🔬.
+1. **Brevedad.** Frases cortas. Capítulos de 8–12 págs máximo. Si algo no es accionable, fuera.
+2. **Rigor con semáforo** 🟢🟡🔴. Nunca vender hipótesis como hecho.
+3. **Cero miedo tóxico.** Empoderar, no aterrar.
+4. **Legal-safe.** Sin claims de curación. Spiro y Ekio Light = bienestar/higiene, con disclaimer.
+5. **Storytelling en dosis pequeñas.** La familia abre, no ocupa.
+6. **Voz EKIO 80% valor / 20% producto.**
+7. **Validar la ciencia con PubMed** antes de escribir la sección 🔬.
 
 ---
 
-## 7. SIGUIENTES PASOS SUGERIDOS
+## 7. SIGUIENTES PASOS
 
-- [ ] Validar el título y subtítulo (test A/B de portada en Amazon).
-- [ ] Confirmar disclaimer legal con asesoría (claims de producto).
-- [ ] Escribir Cap. 1 completo como "capítulo piloto" para fijar el tono.
-- [ ] Brief para ilustrador con las 10 ilustraciones.
-- [ ] Definir estrategia de lanzamiento KDP (categorías, keywords, reseñas iniciales).
+- [ ] Validar título/subtítulo y portada.
+- [ ] Escribir Cap. 1 como piloto para fijar tono y densidad (≈10 págs).
+- [ ] Brief para ilustrador (7 láminas).
+- [ ] Estrategia de lanzamiento KDP (categorías, keywords, primeras reseñas).
