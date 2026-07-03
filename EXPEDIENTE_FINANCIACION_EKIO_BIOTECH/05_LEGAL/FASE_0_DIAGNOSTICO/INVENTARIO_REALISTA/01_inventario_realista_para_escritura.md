@@ -4,7 +4,7 @@
 >
 > **Sustituye** al documento previo "Documento provisional de valoración de activos, pasivos, intangibles y estructura empresarial" (1.526.605 € brutos / 1.396.605 € netos), que se considera **no defendible** para escritura por activar fondo de comercio autogenerado, cartera de clientes autogenerada y valor de personas — todas partidas prohibidas por PGC NRV 5ª y 19ª.
 >
-> **Fecha:** 2026-06-12. **Validación obligatoria:** asesor fiscal habilitado + notario Alejandro Marcos Hidalgo antes de firma.
+> **Fecha:** 2026-06-29 (actualización con datos aportados por Javier). **Validación obligatoria:** asesor fiscal habilitado + notario Alejandro Marcos Hidalgo antes de firma.
 
 ---
 
@@ -100,19 +100,21 @@
 
 ---
 
-### BLOQUE 3 · SOFTWARE PROPIO — 5.000 € (PROVISIONAL)
+### BLOQUE 3 · SOFTWARE PROPIO — 500 €
 
-> Software desarrollado internamente por **Cristian de Moya Llanos** (empleado de Javier autónomo desde enero 2026) y por Javier. Sin facturas externas. Valor activable = **coste laboral imputable** documentado. Cifra provisional sujeta a refinamiento con asesor fiscal en función de horas reales imputadas.
+> Software desarrollado internamente por **Cristian de Moya Llanos** (empleado de Javier autónomo desde enero 2026) y por Javier. Sin facturas externas.
+>
+> **Confirmado por Javier (2026-06-29):** Cristian ha dedicado en total **4 horas** al software interno → coste laboral imputable **≈ 350 €**. Añadido margen mínimo por licencias/hosting → **500 €** total activable.
 
-| Software | Desarrollador | Titularidad | Valor provisional | Método |
+| Software | Desarrollador | Titularidad | Valor activable | Método |
 |---|---|---|---|---|
-| **EKIO Coach** | Cristian de Moya + Javier | Javier autónomo ✅ (LPI 97.4 cubre empleado, además cláusula expresa pendiente — addendum) | **2.000-3.000 €** | Coste laboral imputable |
-| **EKIO APP (CRM interno)** | Cristian de Moya + Javier | Javier autónomo ✅ (idem) | **2.000-3.000 €** | Coste laboral imputable |
+| **EKIO Coach + EKIO APP** conjuntamente | Cristian de Moya (4 h) + Javier | Javier autónomo ✅ (LPI 97.4 cubre empleado; addendum contractual pendiente para blindaje) | **500 €** | Coste laboral imputable Cristian (350 €) + otros costes menores documentables (150 €) |
 | **App control paneles con IA** | Desarrollo conjunto con **AIR Institute** (cotitular según contrato existente) | Cotitularidad → NO aportable en exclusiva. Revisar contrato. | **0 €** | En desarrollo, cotitularidad |
-| **SUBTOTAL SOFTWARE** | | | **5.000 €** (provisional) | |
+| **SUBTOTAL SOFTWARE** | | | **500 €** | |
 
+> **Aviso importante:** el coste laboral imputado (4 h × ~87 €/h bruto = 350 €) es muy bajo porque el software está en estado incipiente. Esto es coherente con no inflar el balance, pero significa que **EKIO Coach y EKIO APP tienen hoy poco valor contable como activo intangible**. Su valor estratégico (facilita gestión y experiencia cliente) va al dataroom.
+>
 > **Acciones pendientes:**
-> - Refinamiento cifra: estimar horas de Cristian dedicadas a EKIO Coach + EKIO APP desde enero 2026 + coste/hora bruto. Si Cristian dedica 30 % de su tiempo a software interno x 5 meses x coste mensual, podemos llegar a 5-8 k€ defendibles con coherencia. **Pedirle a Óscar de Castro (o nuevo asesor) la imputación correcta.**
 > - **Addendum cláusula cesión IP al contrato de Cristian** (pendiente, ver `04_addendums_pendientes.md`).
 > - **Revisar contrato AIR Institute** para determinar régimen de la app con IA antes de cualquier decisión sobre su titularidad.
 >
@@ -139,15 +141,17 @@
 
 ---
 
-### BLOQUE 5 · DOMINIOS Y ECOMMERCE — 3.500 € (PROVISIONAL)
+### BLOQUE 5 · DOMINIOS Y ECOMMERCE — 4.500 €
+
+> **Confirmado por Javier (2026-06-29):** hay facturas que justifican la creación de la tienda Shopify + todos los pagos a la propia plataforma Shopify → **~4.500 €** activables como coste histórico documentado. Añadido dominios por su renovación acumulada.
 
 | Activo | Titularidad | Valor activable | Método |
 |---|---|---|---|
-| Desarrollo del tema Shopify Dawn personalizado | Hay factura del desarrollador (F1) | **3.000 €** | Coste desarrollo facturado (cifra a refinar con factura) |
+| Desarrollo del tema Shopify Dawn personalizado + pagos plataforma Shopify | Hay facturas (F1 + confirmación 2026-06-29) | **4.000 €** | Coste facturado documentado |
 | Dominios web (electrosmogespana.com + variantes) | Javier persona física (F2) | **500 €** | Coste registro + renovaciones acumuladas |
-| **SUBTOTAL DOMINIO + ECOMMERCE** | | **3.500 €** | |
+| **SUBTOTAL DOMINIO + ECOMMERCE** | | **4.500 €** | |
 
-> **Pendiente:** localizar la factura del desarrollador del tema para ajustar el valor exacto. Si la factura es mayor, se sube; si es menor o inexistente, se baja.
+> **Pendiente para el asesor fiscal:** dependiendo del tratamiento contable histórico, parte de los pagos recurrentes a Shopify pueden considerarse gasto y no activo. El asesor confirmará qué porcentaje se activa (típicamente sólo el desarrollo/adaptación inicial del tema, no la cuota mensual). Cifra conservadora provisional: 4.500 €.
 
 ---
 
@@ -175,15 +179,15 @@
 |---|---|---|
 | 1 · Tangibles | **44.755 €** | Stock sin Spiro, obsoleto al 50 %, reforma sólo activable, mobiliario completo |
 | 2 · IP | **1.750 €** | Sólo MU U202532624 a coste. PCT no aportable hoy |
-| 3 · Software | **5.000 €** (provisional) | Coste laboral imputable Cristian + Javier; refinar |
-| 4 · Marcas | **1.500 €** (provisional) | EKIO LIGHT + EKIO Electrosmog a coste registro. EKO WiFi excluida |
-| 5 · Dominio/ecommerce | **3.500 €** (provisional) | Tema Shopify según factura + dominios |
+| 3 · Software | **500 €** | Coste laboral Cristian (4 h = 350 €) + otros costes menores (Javier confirmó cifra 2026-06-29) |
+| 4 · Marcas | **1.500 €** (provisional) | 3 marcas EKIO OEPM confirmadas registradas. Pendiente nº expediente + clases Niza. EKO WiFi excluida |
+| 5 · Dominio/ecommerce | **4.500 €** | Facturas de tema Shopify + pagos plataforma + dominios (Javier confirmó cifra 2026-06-29) |
 | 6 · RRSS | 0 € en balance | Traspaso operativo. Valor en dataroom |
-| 7 · BBDD | 0 € en balance | Traspaso operativo + cesión RGPD. Valor en dataroom |
+| 7 · BBDD | 0 € en balance | Traspaso operativo + cesión RGPD. **Valor 200-300 k€ en dataroom** (ver `02_dataroom_narrativa_inversor.md`) |
 | 8 · Contratos | 0 € en balance | Novación / subrogación contrato a contrato |
 | 9 · Equipo | 0 € en balance | Sucesión empresa art. 44 ET (Cristian) + continuación freelances |
 | 11 · Know-how | 0 € en balance | Aflora en fondo comercio implícito UEA |
-| **TOTAL ACTIVOS APORTADOS** | **~56.505 €** (provisional) | Defendible para escritura |
+| **TOTAL ACTIVOS APORTADOS** | **~53.005 €** | Defendible para escritura |
 
 ---
 
@@ -215,15 +219,15 @@ Si se traspasan **todos** los pasivos a Ekio BioTech:
 | **Subvención CyL 7.000 €** | **SE QUEDA EN JAVIER PERSONA FÍSICA** | Subvención nominativa al autónomo. Devolución personal directa |
 | **PASIVOS QUE SE TRASPASAN A EKIO BIOTECH** | | **16.729 €** |
 
-### Balance aportado resultante (Escenario A)
+### Balance aportado resultante (Escenario A) — actualizado 2026-06-29
 
 | | Importe |
 |---|---|
-| Activos aportados | **~56.505 €** |
+| Activos aportados | **~53.005 €** |
 | Pasivos que se traspasan | **16.729 €** |
-| **Patrimonio neto aportado (positivo)** | **~+39.776 €** ✅ |
+| **Patrimonio neto aportado (positivo)** | **~+36.276 €** ✅ |
 | Capital social Ekio BioTech | **10.000 €** |
-| Diferencia aportada como **prima de emisión** o reservas | **~29.776 €** |
+| Diferencia aportada como **prima de emisión** o reservas | **~26.276 €** |
 
 > Esto deja un balance limpio: capital social bajo, prima de emisión inicial documentable, sin patrimonio neto negativo. Compatible con FEAC.
 
@@ -286,10 +290,12 @@ Si se traspasan **todos** los pasivos a Ekio BioTech:
 - [ ] **Verificar plazo y forma vigente comunicación AEAT** del régimen FEAC.
 - [ ] **Blindaje del domicilio social en Cubo de Benavente**: signos reales de gestión efectiva (oficina/sala alquilada, gasto recurrente local, actas de junta celebradas en Cubo) para evitar recalificación AEAT del domicilio fiscal a Valladolid.
 
-### PCT (en función del resultado reunión Patricia García — K6)
+### PCT — Resultado reunión Patricia García (confirmado 2026-06-29)
 
-- [ ] **Confirmar fecha real de filing PCT** acordada con Patricia.
-- [ ] **Confirmar nombre del solicitante**: Ekio BioTech S.L. (si la sociedad está constituida a tiempo) o plan B con cesión global posterior.
+- ✅ **Opción B acordada:** filing PCT se **RETRASA** hasta que Ekio BioTech S.L. esté constituida e inscrita.
+- **Consecuencia crítica en el calendario:** la constitución de Ekio BioTech tiene que estar cerrada e inscrita con NIF definitivo **antes del filing PCT**. La fecha tope absoluta para no perder prioridad del MU U202532624 (fecha 24/12/2025) es **24/12/2026**.
+- Pendiente: confirmar con Patricia la **fecha exacta de filing PCT** acordada, para fijar deadline duro de constitución.
+- **Ventaja de opción B:** el PCT sale directamente a nombre de Ekio BioTech S.L. → **NO hay cesión posterior en fases nacionales** (ahorro estimado 5-15 k€ + evitar bandera roja en DD inversora).
 
 ---
 
@@ -297,9 +303,9 @@ Si se traspasan **todos** los pasivos a Ekio BioTech:
 
 | | Doc. original "valoración provisional" | Inventario realista (este documento) |
 |---|---|---|
-| Total activos brutos | 1.526.605 € | **~56.505 €** |
+| Total activos brutos | 1.526.605 € | **~53.005 €** |
 | Total pasivos | 130.000 € | 103.729 € real (16.729 € traspasados) |
-| Valor neto patrimonial | 1.396.605 € | **+39.776 €** (patrimonio neto positivo aportado a Ekio BioTech) |
+| Valor neto patrimonial | 1.396.605 € | **+36.276 €** (patrimonio neto positivo aportado a Ekio BioTech) |
 | Riesgo responsabilidad solidaria fundadores (arts. 73-77 LSC) | **MUY ALTO** (sobrevaloración masiva) | Bajo (valoración prudente y documentada) |
 | Riesgo comprobación valores AEAT | **MUY ALTO** | Bajo |
 | Riesgo bandera roja en DD inversora | **Crítico** (balance hinchado) | Mínimo (balance limpio + dataroom potente) |
