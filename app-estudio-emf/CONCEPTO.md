@@ -48,14 +48,18 @@ electrosensibles) y hábitos — y recibe:
 
 ## 4. Lógica de recomendación (v1)
 
-| Escenario detectado | Recomendación principal | Alternativa |
+**Regla base (siempre, en todos los niveles):** 1 SPIRO Card (97€) por cada persona de la
+casa con móvil propio. Es la primera recomendación del informe, destacada, con cantidad y
+precio total (N × 97€). El cuestionario pregunta expresamente cuántas personas tienen móvil.
+
+| Escenario detectado | Protección de espacios (se suma a las Cards) | Alternativa |
 |---|---|---|
 | Antena <100 m o score ≥65 | SPIRO Disc Ultra (929€) | Pack Oasis (825€) |
 | Smart home / mesh / score 45-64 | SPIRO Disc X (597€) | Square X (257€) |
-| Score 25-44 | SPIRO Square X (257€) | Square (147€) |
-| Score <25 | SPIRO Card (97€) | — |
+| Score 25-44 | SPIRO Square X (257€) | — |
+| Score <25 | SPIRO Square (147€) | — |
 | Niños en casa | + Pack Infantil (420€) | |
-| Móvil intensivo pegado al cuerpo | + Card X (167€) | |
+| Móvil intensivo pegado al cuerpo | + Card X (167€) como upgrade de la Card | |
 | Problemas de sueño | + Pack Spiro Sueño | |
 | Fatiga o mal descanso | Ekio Light Deep 5 (650€) | |
 | Resto | IGNIS (120€) como entrada a fotobiomodulación | |

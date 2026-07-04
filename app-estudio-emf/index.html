@@ -210,6 +210,10 @@ const STEPS = [
       { id: "habitantes", text: "¿Cuántas personas viven en la casa?", opts: [
         { t: "1", pts: 0 }, { t: "2", pts: 1 }, { t: "3–4", pts: 2 }, { t: "5 o más", pts: 3 },
       ]},
+      { id: "moviles_personas", text: "¿Cuántas personas de la casa tienen móvil propio?", hint: "Nos sirve para dimensionar la protección personal.", opts: [
+        { t: "1", pts: 1, phones: 1 }, { t: "2", pts: 2, phones: 2 }, { t: "3", pts: 3, phones: 3 },
+        { t: "4", pts: 4, phones: 4 }, { t: "5 o más", pts: 5, phones: 5 },
+      ]},
       { id: "perfiles", text: "¿Hay alguno de estos perfiles en casa?", hint: "Puedes marcar varios.", multi: true, opts: [
         { t: "Niños menores de 12 años", pts: 8, flag: "ninos" },
         { t: "Embarazo", pts: 8, flag: "embarazo" },
@@ -503,11 +507,29 @@ function hygieneTips() {
 }
 
 /* ── recomendación de productos ── */
+function getSelectedOpt(qid) {
+  for (const s of STEPS) {
+    const q = s.questions.find(x => x.id === qid);
+    if (q) {
+      const a = answers[qid];
+      return a === undefined ? null : q.opts[Array.isArray(a) ? a[0] : a];
+    }
+  }
+  return null;
+}
+
 function productRecs(score) {
   const recs = [];
   const has = f => flags.has(f);
 
-  // 1. producto "héroe" según severidad y contexto
+  // 0. BASE — regla de la casa: 1 SPIRO Card por persona con móvil, siempre
+  const phones = getSelectedOpt("moviles_personas")?.phones || 1;
+  recs.push({ ...CATALOG.card, badge: "La base · 1 por persona", hero: true, qty: phones,
+    why: phones > 1
+      ? `En tu casa hay ${phones} personas con móvil propio. La protección empieza por el dispositivo que cada una lleva encima todo el día: una SPIRO Card por persona.`
+      : "La protección empieza por el dispositivo que llevas encima todo el día: tu móvil. La SPIRO Card va contigo a todas partes." });
+
+  // 1. protección de espacios según severidad y contexto
   if (has("antena_cerca") || score >= 65) {
     recs.push({ ...CATALOG.discultra, badge: "Recomendación principal", hero: true,
       why: "Con una antena cercana o carga muy alta, necesitas el filtro de mayor intensidad de la gama SPIRO." });
@@ -519,23 +541,21 @@ function productRecs(score) {
     recs.push({ ...CATALOG.squarex, badge: "Alternativa por zonas",
       why: "Si prefieres empezar protegiendo la zona más crítica: el dormitorio." });
   } else if (score >= 25) {
-    recs.push({ ...CATALOG.squarex, badge: "Recomendación principal", hero: true,
+    recs.push({ ...CATALOG.squarex, badge: "Protección de espacios",
       why: "Exposición moderada con foco en espacios concretos: SQUARE X protege dormitorio o salón, la zona donde más horas pasáis." });
-    recs.push({ ...CATALOG.square, badge: "Opción de entrada",
-      why: "Para empezar por el router y los dispositivos inteligentes, el punto de origen de gran parte de la emisión." });
   } else {
-    recs.push({ ...CATALOG.card, badge: "Recomendación principal", hero: true,
-      why: "Tu casa está bien: refuerza la protección personal del dispositivo que siempre te acompaña, el móvil." });
+    recs.push({ ...CATALOG.square, badge: "Protección de espacios",
+      why: "Tu casa está bien: completa la base personal cubriendo el router y los dispositivos inteligentes, el origen de gran parte de la emisión." });
   }
 
   // 2. complementos por perfil
   if (has("ninos") || has("ninos_pantallas")) recs.push({ ...CATALOG.packinfantil, badge: "Por los niños",
     why: "Hay menores en casa: su habitación y sus dispositivos merecen protección específica." });
-  if ((has("movil_intensivo") || has("movil_cuerpo")) && !recs.some(r => r.name.includes("CARD"))) {
-    recs.push({ ...CATALOG.cardx, badge: "Protección personal",
-      why: "Uso intensivo del móvil pegado al cuerpo: añade una capa de protección que va contigo." });
+  if (has("movil_intensivo") || has("movil_cuerpo")) {
+    recs.push({ ...CATALOG.cardx, badge: "Mejora tu Card",
+      why: "Para quien usa el móvil de forma intensiva y pegado al cuerpo: la CARD X es la versión avanzada de la SPIRO Card." });
   }
-  if (has("sueno") && !recs.some(r => r.name.includes("SUEÑO"))) recs.push({ ...CATALOG.packsueno, badge: "Para el descanso",
+  if (has("sueno")) recs.push({ ...CATALOG.packsueno, badge: "Para el descanso",
     why: "Has indicado problemas de sueño: este pack está pensado para el entorno del dormitorio." });
 
   // 3. Ekio Light — bienestar y apoyo
@@ -547,7 +567,7 @@ function productRecs(score) {
     light.push({ ...CATALOG.ignis, badge: "Fotobiomodulación",
       why: "La forma más accesible de sumar terapia de luz a tu rutina de bienestar, con protección CEM incluida." });
   }
-  return { spiro: recs.slice(0, 3), light };
+  return { spiro: recs.slice(0, 4), light };
 }
 
 /* ── render resultados ── */
@@ -624,15 +644,20 @@ function renderResults() {
 }
 
 function prodCard(p) {
+  const qty = p.qty || 1;
+  const priceHtml = !p.price ? ""
+    : qty > 1
+      ? `<div style="font-size:12px;font-weight:600;color:#66708a">${qty} × ${p.price} €</div>${qty * p.price} €`
+      : p.price + " €";
   return `<div class="prod ${p.hero ? "hero-prod" : ""}">
     <div class="col">
       <span class="badge">${p.badge}</span>
-      <h4>${p.name}</h4>
+      <h4>${qty > 1 ? qty + " × " : ""}${p.name}</h4>
       <p>${p.why}</p>
       <p style="margin-top:6px;color:#7a8499;font-size:12.5px">${p.desc}</p>
       <a class="cta" href="${p.url}" target="_blank">Ver producto →</a>
     </div>
-    <div class="price">${p.price ? p.price + " €" : ""}</div>
+    <div class="price" style="text-align:right">${priceHtml}</div>
   </div>`;
 }
 
