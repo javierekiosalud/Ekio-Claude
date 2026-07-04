@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EKIO — Estudio Electromagnético de tu Hogar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  :root {
+    --navy: #0d1b3e;
+    --blue: #0d47a1;
+    --cyan: #4fc3f7;
+    --ink: #1a1a2e;
+    --ok: #2e9e5b;
+    --warn: #e6a817;
+    --high: #e07020;
+    --danger: #d9483b;
+  }
+  body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    color: var(--ink);
+    background: #f4f7fb;
+    min-height: 100vh;
+  }
+  .top {
+    background: var(--navy);
+    color: #fff;
+    padding: 18px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 50;
+  }
+  .logo { font-size: 20px; font-weight: 900; letter-spacing: -1px; }
+  .logo em { color: var(--cyan); font-style: normal; }
+  .top small { font-size: 12px; opacity: .75; }
+
+  .wrap { max-width: 760px; margin: 0 auto; padding: 28px 20px 80px; }
+
+  /* progress */
+  .progress { display: flex; gap: 6px; margin-bottom: 26px; }
+  .progress span { flex: 1; height: 6px; border-radius: 4px; background: #dde5f0; transition: background .3s; }
+  .progress span.done { background: var(--cyan); }
+  .step-label { font-size: 12px; font-weight: 700; letter-spacing: .8px; text-transform: uppercase; color: var(--blue); margin-bottom: 8px; }
+
+  .card {
+    background: #fff;
+    border-radius: 14px;
+    padding: 30px 28px;
+    box-shadow: 0 4px 20px rgba(13,27,62,.07);
+  }
+  .card h2 { font-size: 24px; color: var(--navy); margin-bottom: 6px; letter-spacing: -.5px; }
+  .card > p.intro { color: #556; font-size: 14.5px; margin-bottom: 22px; line-height: 1.5; }
+
+  .q { margin-bottom: 24px; }
+  .q h3 { font-size: 15.5px; margin-bottom: 10px; color: var(--ink); }
+  .q .hint { font-size: 12.5px; color: #7a8499; margin-top: -6px; margin-bottom: 10px; }
+
+  .opts { display: flex; flex-wrap: wrap; gap: 8px; }
+  .opts button {
+    border: 1.5px solid #d5deec;
+    background: #fff;
+    border-radius: 9px;
+    padding: 10px 16px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all .15s;
+    color: var(--ink);
+    font-family: inherit;
+  }
+  .opts button:hover { border-color: var(--cyan); }
+  .opts button.sel {
+    background: var(--blue);
+    border-color: var(--blue);
+    color: #fff;
+    font-weight: 600;
+  }
+  .opts.multi button.sel { background: var(--navy); border-color: var(--navy); }
+
+  .nav-row { display: flex; justify-content: space-between; margin-top: 30px; gap: 12px; }
+  .btn {
+    border: none;
+    border-radius: 9px;
+    padding: 13px 28px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    font-family: inherit;
+    transition: opacity .15s;
+  }
+  .btn:disabled { opacity: .4; cursor: not-allowed; }
+  .btn-primary { background: var(--blue); color: #fff; }
+  .btn-ghost { background: transparent; color: var(--blue); border: 1.5px solid #d5deec; }
+
+  /* ─── results ─── */
+  .score-hero {
+    text-align: center;
+    padding: 34px 24px 28px;
+    border-radius: 14px;
+    color: #fff;
+    margin-bottom: 22px;
+    background: var(--navy);
+    position: relative;
+    overflow: hidden;
+  }
+  .score-hero::before {
+    content: '';
+    position: absolute; inset: 0;
+    background: radial-gradient(circle 400px at 20% 90%, rgba(21,101,192,.4), transparent);
+  }
+  .score-hero > * { position: relative; }
+  .gauge { width: 170px; height: 170px; margin: 0 auto 14px; }
+  .score-num { font-size: 42px; font-weight: 900; }
+  .score-level { font-size: 15px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; margin-top: 4px; }
+  .score-desc { font-size: 14px; opacity: .85; max-width: 480px; margin: 12px auto 0; line-height: 1.55; }
+
+  .section-title { font-size: 18px; color: var(--navy); margin: 30px 0 14px; font-weight: 800; }
+
+  .zone { display: flex; align-items: center; gap: 12px; background: #fff; border-radius: 10px; padding: 14px 16px; margin-bottom: 8px; box-shadow: 0 2px 8px rgba(13,27,62,.05); }
+  .zone .dot { width: 14px; height: 14px; border-radius: 50%; flex-shrink: 0; }
+  .zone .zname { font-weight: 700; font-size: 14px; flex: 1; }
+  .zone .zval { font-size: 12.5px; color: #66708a; }
+
+  .tip { display: flex; gap: 12px; background: #fff; border-radius: 10px; padding: 14px 16px; margin-bottom: 8px; box-shadow: 0 2px 8px rgba(13,27,62,.05); font-size: 14px; line-height: 1.5; }
+  .tip .ic { font-size: 18px; flex-shrink: 0; }
+  .tip b { color: var(--navy); }
+
+  .prod {
+    display: flex; gap: 16px;
+    background: #fff; border-radius: 12px;
+    padding: 18px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 10px rgba(13,27,62,.06);
+    border: 1.5px solid transparent;
+  }
+  .prod.hero-prod { border-color: var(--cyan); background: linear-gradient(180deg, #f2fbff, #fff); }
+  .prod .badge { font-size: 10.5px; font-weight: 800; letter-spacing: .6px; text-transform: uppercase; color: var(--blue); background: #e3f2fd; border-radius: 5px; padding: 3px 8px; display: inline-block; margin-bottom: 6px; }
+  .prod h4 { font-size: 15.5px; color: var(--navy); margin-bottom: 4px; }
+  .prod p { font-size: 13.5px; color: #556; line-height: 1.5; }
+  .prod .price { font-size: 16px; font-weight: 900; color: var(--navy); white-space: nowrap; }
+  .prod .col { flex: 1; }
+  .prod .cta { display: inline-block; margin-top: 8px; font-size: 13px; font-weight: 700; color: var(--blue); text-decoration: none; }
+
+  .disclaimer { font-size: 11.5px; color: #8a93a8; line-height: 1.5; margin-top: 30px; padding-top: 16px; border-top: 1px solid #e2e8f2; }
+
+  .lead-box { background: var(--navy); color: #fff; border-radius: 12px; padding: 24px; margin-top: 28px; text-align: center; }
+  .lead-box h3 { font-size: 18px; margin-bottom: 6px; }
+  .lead-box p { font-size: 13.5px; opacity: .85; margin-bottom: 14px; }
+  .lead-box input {
+    width: 100%; max-width: 320px;
+    padding: 12px 14px; border-radius: 8px; border: none;
+    font-size: 14px; font-family: inherit; margin-bottom: 10px;
+  }
+  .lead-box .btn { background: var(--cyan); color: var(--navy); }
+
+  .hidden { display: none; }
+  @media (max-width: 560px) {
+    .card { padding: 22px 18px; }
+    .prod { flex-direction: column; }
+  }
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="logo">EK<em>IO</em> <span style="font-weight:400;font-size:14px;opacity:.8">· Estudio EMF del Hogar</span></div>
+  <small>Gratis · 3 minutos</small>
+</header>
+
+<div class="wrap">
+  <div class="progress" id="progress"></div>
+  <div id="app"></div>
+</div>
+
+<script>
+/* ══════════════════════════════════════════════════
+   EKIO · Estudio Electromagnético del Hogar — MVP
+   Motor de puntuación + recomendaciones Spiro / Ekio Light
+═══════════════════════════════════════════════════ */
+
+const STEPS = [
+  /* ── 1. VIVIENDA ── */
+  {
+    label: "Paso 1 · Tu vivienda",
+    title: "Cuéntanos cómo es tu casa",
+    intro: "El tipo de vivienda y su tamaño determinan cuántos focos de emisión conviven contigo y a qué distancia.",
+    questions: [
+      { id: "tipo", text: "¿En qué tipo de vivienda vives?", opts: [
+        { t: "Piso en bloque", pts: 8 },
+        { t: "Casa adosada", pts: 4 },
+        { t: "Casa independiente", pts: 0 },
+        { t: "Ático / última planta", pts: 10 },
+      ]},
+      { id: "m2", text: "¿Cuántos metros cuadrados tiene aproximadamente?", opts: [
+        { t: "Menos de 70 m²", pts: 6 },
+        { t: "70–120 m²", pts: 3 },
+        { t: "Más de 120 m²", pts: 1 },
+      ]},
+    ],
+  },
+
+  /* ── 2. HABITANTES ── */
+  {
+    label: "Paso 2 · Quién vive en casa",
+    title: "¿Quién vive contigo?",
+    intro: "Los niños, embarazadas y personas sensibles son los perfiles a los que más protege una buena higiene electromagnética.",
+    questions: [
+      { id: "habitantes", text: "¿Cuántas personas viven en la casa?", opts: [
+        { t: "1", pts: 0 }, { t: "2", pts: 1 }, { t: "3–4", pts: 2 }, { t: "5 o más", pts: 3 },
+      ]},
+      { id: "perfiles", text: "¿Hay alguno de estos perfiles en casa?", hint: "Puedes marcar varios.", multi: true, opts: [
+        { t: "Niños menores de 12 años", pts: 8, flag: "ninos" },
+        { t: "Embarazo", pts: 8, flag: "embarazo" },
+        { t: "Persona electrosensible", pts: 10, flag: "sensible" },
+        { t: "Mayores de 70 años", pts: 4, flag: "mayores" },
+        { t: "Ninguno", pts: 0, exclusive: true },
+      ]},
+      { id: "sintomas", text: "¿Alguien nota alguna de estas molestias de forma habitual?", hint: "Puedes marcar varias. No es un diagnóstico: nos ayuda a priorizar las zonas de la casa.", multi: true, opts: [
+        { t: "Duerme mal / se despierta cansado", pts: 6, flag: "sueno" },
+        { t: "Dolores de cabeza frecuentes", pts: 4 },
+        { t: "Fatiga o falta de energía", pts: 4, flag: "fatiga" },
+        { t: "Dificultad para concentrarse", pts: 3 },
+        { t: "Nada de esto", pts: 0, exclusive: true },
+      ]},
+    ],
+  },
+
+  /* ── 3. DORMITORIO ── */
+  {
+    label: "Paso 3 · El dormitorio",
+    title: "Tu dormitorio: la zona crítica",
+    intro: "Pasas un tercio de tu vida durmiendo. Es donde la higiene electromagnética tiene mayor impacto.",
+    questions: [
+      { id: "movil_noche", text: "¿Dónde duerme tu móvil?", opts: [
+        { t: "En la mesilla, encendido con WiFi/datos", pts: 10, flag: "movil_mesilla" },
+        { t: "En la mesilla, en modo avión", pts: 2 },
+        { t: "Fuera del dormitorio", pts: 0 },
+      ]},
+      { id: "router_dorm", text: "¿A qué distancia está el router WiFi del dormitorio principal?", opts: [
+        { t: "Dentro del dormitorio", pts: 12, flag: "router_dorm" },
+        { t: "En la habitación de al lado (pared compartida)", pts: 8, flag: "router_cerca" },
+        { t: "A más de 5 metros / otra planta", pts: 2 },
+      ]},
+      { id: "dorm_extra", text: "¿Qué hay dentro del dormitorio?", hint: "Puedes marcar varios.", multi: true, opts: [
+        { t: "TV o smart TV", pts: 4 },
+        { t: "Asistente de voz (Alexa, Google…)", pts: 5 },
+        { t: "Despertador/radio enchufado junto a la cama", pts: 3 },
+        { t: "Cargadores conectados junto a la cama", pts: 3 },
+        { t: "Vigilabebés (baby monitor)", pts: 6, flag: "babymonitor" },
+        { t: "Nada de esto", pts: 0, exclusive: true },
+      ]},
+    ],
+  },
+
+  /* ── 4. FUENTES INTERNAS ── */
+  {
+    label: "Paso 4 · Focos dentro de casa",
+    title: "Tecnología dentro de tu casa",
+    intro: "Cada dispositivo inalámbrico es un pequeño emisor. Lo importante es cuántos, dónde y cuántas horas.",
+    questions: [
+      { id: "wifi", text: "¿Cómo funciona tu WiFi?", opts: [
+        { t: "Encendido 24 h, un solo router", pts: 8, flag: "wifi24" },
+        { t: "Encendido 24 h + repetidores o mesh", pts: 12, flag: "mesh" },
+        { t: "Lo apago por la noche", pts: 3 },
+        { t: "Uso cable (Ethernet) principalmente", pts: 0 },
+      ]},
+      { id: "dispositivos", text: "¿Qué tenéis en casa?", hint: "Puedes marcar varios.", multi: true, opts: [
+        { t: "Teléfono inalámbrico fijo (DECT)", pts: 6, flag: "dect" },
+        { t: "Microondas de uso frecuente", pts: 3 },
+        { t: "Placa de inducción", pts: 3 },
+        { t: "Domótica / enchufes y luces inteligentes", pts: 6, flag: "smarthome" },
+        { t: "Consolas / VR con mando inalámbrico", pts: 3 },
+        { t: "Smartwatches o pulseras (se llevan de noche)", pts: 4 },
+        { t: "Nada de esto", pts: 0, exclusive: true },
+      ]},
+      { id: "num_moviles", text: "¿Cuántos móviles, tablets y portátiles hay en uso habitual?", opts: [
+        { t: "1–2", pts: 1 }, { t: "3–5", pts: 4 }, { t: "6–9", pts: 7 }, { t: "10 o más", pts: 10 },
+      ]},
+    ],
+  },
+
+  /* ── 5. ENTORNO Y COMUNIDAD ── */
+  {
+    label: "Paso 5 · Entorno y comunidad",
+    title: "Lo que llega de fuera",
+    intro: "Antenas, redes de los vecinos e infraestructuras: la parte de la exposición que no controlas… pero sí puedes mitigar.",
+    questions: [
+      { id: "antena", text: "¿Ves alguna antena de telefonía desde casa?", opts: [
+        { t: "Sí, a menos de 100 m", pts: 14, flag: "antena_cerca" },
+        { t: "Sí, entre 100 y 300 m", pts: 8, flag: "antena_media" },
+        { t: "Más lejos / no veo ninguna", pts: 1 },
+        { t: "No lo sé", pts: 4 },
+      ]},
+      { id: "vecinos", text: "¿Cuántas redes WiFi de vecinos detecta tu móvil?", hint: "Ábrelo un momento y mira la lista de redes disponibles.", opts: [
+        { t: "Menos de 5", pts: 1 },
+        { t: "Entre 5 y 15", pts: 5 },
+        { t: "Más de 15", pts: 9, flag: "muchas_redes" },
+      ]},
+      { id: "infra", text: "¿Hay alguna de estas infraestructuras cerca?", hint: "Puedes marcar varias.", multi: true, opts: [
+        { t: "Línea de alta tensión a la vista (<200 m)", pts: 8, flag: "alta_tension" },
+        { t: "Transformador eléctrico en el edificio o pegado", pts: 8, flag: "transformador" },
+        { t: "Contador inteligente en pared de dormitorio", pts: 6 },
+        { t: "Motor de ascensor o garaje junto a una habitación", pts: 4 },
+        { t: "Ninguna", pts: 0, exclusive: true },
+      ]},
+    ],
+  },
+
+  /* ── 6. HÁBITOS ── */
+  {
+    label: "Paso 6 · Hábitos",
+    title: "Cómo usáis la tecnología",
+    intro: "La exposición no depende solo de los aparatos: depende sobre todo de los hábitos. Aquí está la mitad de la solución.",
+    questions: [
+      { id: "horas_movil", text: "¿Cuántas horas al día usas el móvil?", opts: [
+        { t: "Menos de 2 h", pts: 1 }, { t: "2–4 h", pts: 4 }, { t: "4–7 h", pts: 7 }, { t: "Más de 7 h", pts: 10, flag: "movil_intensivo" },
+      ]},
+      { id: "movil_cuerpo", text: "¿Llevas el móvil pegado al cuerpo (bolsillo, sujetador…)?", opts: [
+        { t: "Casi siempre", pts: 7, flag: "movil_cuerpo" },
+        { t: "A veces", pts: 4 },
+        { t: "Casi nunca (bolso, mesa…)", pts: 0 },
+      ]},
+      { id: "llamadas", text: "¿Cómo haces las llamadas largas?", opts: [
+        { t: "Móvil pegado a la oreja", pts: 6 },
+        { t: "Auriculares inalámbricos (Bluetooth)", pts: 4 },
+        { t: "Auriculares de cable / altavoz", pts: 0 },
+      ]},
+      { id: "ninos_pantallas", text: "Si hay niños: ¿usan pantallas con WiFi a diario?", opts: [
+        { t: "Sí, más de 2 h al día", pts: 8, flag: "ninos_pantallas" },
+        { t: "Sí, menos de 2 h", pts: 4 },
+        { t: "Casi nunca", pts: 1 },
+        { t: "No hay niños", pts: 0 },
+      ]},
+    ],
+  },
+];
+
+const MAX_SCORE = 120; // techo práctico para normalizar a 100
+
+/* ── catálogo real (electrosmogespana.com) ── */
+const CATALOG = {
+  card:      { name: "SPIRO® CARD", price: 97,  desc: "Tarjeta EMF para el móvil. Protección personal para quien lleva el teléfono encima todo el día.", url: "https://electrosmogespana.com" },
+  cardx:     { name: "SPIRO® CARD X", price: 167, desc: "Filtro EMF avanzado de uso diario: móvil, portátil y desplazamientos.", url: "https://electrosmogespana.com" },
+  square:    { name: "SPIRO® SQUARE", price: 147, desc: "Filtrado electromagnético para dispositivos inteligentes: router, smart TV, asistentes de voz.", url: "https://electrosmogespana.com" },
+  squarex:   { name: "SPIRO® SQUARE X", price: 257, desc: "Protección de espacios completos. El más elegido para el dormitorio y el salón.", url: "https://electrosmogespana.com" },
+  disc:      { name: "SPIRO® DISC", price: 255, desc: "Filtro multifunción para espacios y electrodomésticos.", url: "https://electrosmogespana.com" },
+  discx:     { name: "SPIRO® DISC X", price: 597, desc: "Para hogares inteligentes y espacios de alta exposición: cubre viviendas completas con domótica.", url: "https://electrosmogespana.com" },
+  discultra: { name: "SPIRO® DISC ULTRA", price: 929, desc: "Filtro de alta intensidad. Diseñado para entornos con antenas de telefonía cercanas o cargas muy altas.", url: "https://electrosmogespana.com" },
+  packinfantil: { name: "PACK INFANTIL SPIRO", price: 420, desc: "Protección pensada para los más pequeños de la casa: su habitación y sus dispositivos.", url: "https://electrosmogespana.com" },
+  packfamilia:  { name: "PACK FAMILIA", price: 445, desc: "Cobertura equilibrada para toda la familia: espacios comunes + protección personal.", url: "https://electrosmogespana.com" },
+  packoasis:    { name: "PACK OASIS ELECTROMAGNÉTICO", price: 825, desc: "La solución integral: convierte tu casa en un oasis frente al electrosmog interior y exterior.", url: "https://electrosmogespana.com" },
+  packsueno:    { name: "PACK SPIRO SUEÑO", price: null, desc: "Combinación específica para el dormitorio y el descanso profundo.", url: "https://electrosmogespana.com" },
+  ignis:     { name: "IGNIS de Ekio Light", price: 120, desc: "Terapia de luz + protección CEM en formato compacto. La puerta de entrada a la fotobiomodulación.", url: "https://electrosmogespana.com" },
+  deep5:     { name: "EKIO LIGHT · Deep 5 (luz roja)", price: 650, desc: "Panel de luz roja e infrarroja para energía celular, descanso y recuperación en casa.", url: "https://electrosmogespana.com" },
+  deep7:     { name: "EKIO LIGHT · Deep 7 (roja + cyan)", price: 650, desc: "Panel rojo + cyan: recuperación y equilibrio, con protocolo para piel y ritmos circadianos.", url: "https://electrosmogespana.com" },
+  spectrum10:{ name: "EKIO LIGHT · Full Spectrum 10", price: 2500, desc: "El panel de espectro completo para uso familiar intensivo o profesional.", url: "https://electrosmogespana.com" },
+};
+
+/* ── estado ── */
+let stepIdx = 0;
+const answers = {};   // id -> índice u array de índices
+const flags = new Set();
+
+const $app = document.getElementById("app");
+const $progress = document.getElementById("progress");
+
+function renderProgress() {
+  $progress.innerHTML = STEPS.map((_, i) =>
+    `<span class="${i <= stepIdx ? "done" : ""}"></span>`).join("") + `<span class="${stepIdx >= STEPS.length ? "done" : ""}"></span>`;
+}
+
+function renderStep() {
+  renderProgress();
+  const s = STEPS[stepIdx];
+  $app.innerHTML = `
+    <div class="card">
+      <div class="step-label">${s.label}</div>
+      <h2>${s.title}</h2>
+      <p class="intro">${s.intro}</p>
+      ${s.questions.map((q, qi) => `
+        <div class="q">
+          <h3>${q.text}</h3>
+          ${q.hint ? `<p class="hint">${q.hint}</p>` : ""}
+          <div class="opts ${q.multi ? "multi" : ""}" data-q="${q.id}">
+            ${q.opts.map((o, oi) => `<button data-oi="${oi}">${o.t}</button>`).join("")}
+          </div>
+        </div>`).join("")}
+      <div class="nav-row">
+        <button class="btn btn-ghost" id="back" ${stepIdx === 0 ? "disabled" : ""}>← Atrás</button>
+        <button class="btn btn-primary" id="next" disabled>${stepIdx === STEPS.length - 1 ? "Ver mi informe →" : "Siguiente →"}</button>
+      </div>
+    </div>`;
+
+  // restaurar selecciones previas
+  s.questions.forEach(q => {
+    const prev = answers[q.id];
+    if (prev === undefined) return;
+    const box = $app.querySelector(`[data-q="${q.id}"]`);
+    (Array.isArray(prev) ? prev : [prev]).forEach(oi => {
+      box.querySelector(`[data-oi="${oi}"]`)?.classList.add("sel");
+    });
+  });
+  updateNext();
+
+  $app.querySelectorAll(".opts").forEach(box => {
+    const q = s.questions.find(x => x.id === box.dataset.q);
+    box.addEventListener("click", e => {
+      const btn = e.target.closest("button");
+      if (!btn) return;
+      const oi = +btn.dataset.oi;
+      if (q.multi) {
+        const opt = q.opts[oi];
+        if (opt.exclusive) {
+          box.querySelectorAll("button").forEach(b => b.classList.remove("sel"));
+          btn.classList.add("sel");
+          answers[q.id] = [oi];
+        } else {
+          // deseleccionar la exclusiva si estaba
+          q.opts.forEach((o, i) => { if (o.exclusive) box.querySelector(`[data-oi="${i}"]`)?.classList.remove("sel"); });
+          btn.classList.toggle("sel");
+          answers[q.id] = [...box.querySelectorAll("button.sel")].map(b => +b.dataset.oi);
+        }
+      } else {
+        box.querySelectorAll("button").forEach(b => b.classList.remove("sel"));
+        btn.classList.add("sel");
+        answers[q.id] = oi;
+      }
+      updateNext();
+    });
+  });
+
+  document.getElementById("back").onclick = () => { stepIdx--; renderStep(); window.scrollTo(0, 0); };
+  document.getElementById("next").onclick = () => {
+    stepIdx++;
+    if (stepIdx >= STEPS.length) renderResults();
+    else renderStep();
+    window.scrollTo(0, 0);
+  };
+
+  function updateNext() {
+    const ok = s.questions.every(q => {
+      const a = answers[q.id];
+      return q.multi ? Array.isArray(a) && a.length > 0 : a !== undefined;
+    });
+    document.getElementById("next").disabled = !ok;
+  }
+}
+
+/* ── scoring ── */
+function compute() {
+  let total = 0;
+  flags.clear();
+  const byStep = STEPS.map(s => {
+    let sub = 0, max = 0;
+    s.questions.forEach(q => {
+      max += q.multi
+        ? q.opts.filter(o => !o.exclusive).reduce((a, o) => a + o.pts, 0)
+        : Math.max(...q.opts.map(o => o.pts));
+      const a = answers[q.id];
+      const idxs = Array.isArray(a) ? a : [a];
+      idxs.forEach(oi => {
+        const o = q.opts[oi];
+        if (!o) return;
+        sub += o.pts;
+        if (o.flag) flags.add(o.flag);
+      });
+    });
+    return { label: s.label.replace(/Paso \d · /, ""), sub, max };
+  });
+  byStep.forEach(z => total += z.sub);
+  const score = Math.min(100, Math.round(total / MAX_SCORE * 100));
+  return { score, byStep };
+}
+
+function levelInfo(score) {
+  if (score < 25) return { name: "Exposición baja", color: "var(--ok)", hex: "#2e9e5b",
+    desc: "Tu casa está por debajo de la media. Con unos pocos ajustes de higiene electromagnética consolidas un entorno excelente." };
+  if (score < 45) return { name: "Exposición moderada", color: "var(--warn)", hex: "#e6a817",
+    desc: "Hay varios focos activos que suman exposición innecesaria, sobre todo en las horas de descanso. Con hábitos + protección puntual se corrige bien." };
+  if (score < 65) return { name: "Exposición alta", color: "var(--high)", hex: "#e07020",
+    desc: "Tu hogar acumula una carga electromagnética notable entre focos internos y externos. Merece la pena actuar de forma estructurada: hábitos, prioridades por zonas y filtrado." };
+  return { name: "Exposición muy alta", color: "var(--danger)", hex: "#d9483b",
+    desc: "La combinación de fuentes internas, entorno y hábitos sitúa tu vivienda en el rango más alto. Te recomendamos un plan de acción completo — y valorar una consultoría personalizada." };
+}
+
+/* ── recomendaciones de higiene (gratuitas) ── */
+function hygieneTips() {
+  const t = [];
+  if (flags.has("movil_mesilla")) t.push(["📱", "<b>Modo avión al dormir</b> o móvil fuera del dormitorio. Es el cambio con mejor ratio esfuerzo/beneficio de toda la lista."]);
+  if (flags.has("wifi24") || flags.has("mesh")) t.push(["📶", "<b>Apaga el WiFi por la noche</b> (muchos routers lo programan solos). 8 horas menos de emisión cada día, gratis."]);
+  if (flags.has("router_dorm") || flags.has("router_cerca")) t.push(["📍", "<b>Aleja el router de los dormitorios</b>: cada metro de distancia reduce la intensidad de forma exponencial (ley del cuadrado inverso)."]);
+  if (flags.has("dect")) t.push(["☎️", "<b>Sustituye el teléfono DECT</b> por uno de cable o un modelo ECO-DECT: los DECT clásicos emiten 24 h aunque no los uses."]);
+  if (flags.has("movil_cuerpo")) t.push(["👖", "<b>Saca el móvil del bolsillo</b> cuando no lo uses: en bolso o mesa. Y activa el modo avión si lo llevas pegado haciendo deporte."]);
+  if (flags.has("movil_intensivo")) t.push(["⏱️", "<b>Llamadas largas con auriculares de cable o altavoz</b>, y descarga contenido en WiFi para consumirlo en modo avión."]);
+  if (flags.has("ninos_pantallas")) t.push(["🧒", "<b>Tablets de los niños en modo avión</b> siempre que sea posible: descarga los contenidos antes y desactiva WiFi durante el uso."]);
+  if (flags.has("babymonitor")) t.push(["👶", "<b>Vigilabebés a 2+ metros de la cuna</b> y elige modelos con activación por voz (VOX) en vez de emisión continua."]);
+  if (flags.has("smarthome")) t.push(["🏠", "<b>Domótica por cable donde puedas</b> (Ethernet/PLC) y agrupa los dispositivos smart lejos de dormitorios."]);
+  t.push(["🔌", "<b>Cable Ethernet para teletrabajo y TV</b>: más rápido, más estable y sin emisión inalámbrica."]);
+  t.push(["🌙", "<b>Despeja la mesilla</b>: nada enchufado a menos de 1 metro de la cabeza (cargadores, radio, lámparas con transformador)."]);
+  return t.slice(0, 7);
+}
+
+/* ── recomendación de productos ── */
+function productRecs(score) {
+  const recs = [];
+  const has = f => flags.has(f);
+
+  // 1. producto "héroe" según severidad y contexto
+  if (has("antena_cerca") || score >= 65) {
+    recs.push({ ...CATALOG.discultra, badge: "Recomendación principal", hero: true,
+      why: "Con una antena cercana o carga muy alta, necesitas el filtro de mayor intensidad de la gama SPIRO." });
+    recs.push({ ...CATALOG.packoasis, badge: "Alternativa integral",
+      why: "Si prefieres una solución por zonas en lugar de un único filtro central." });
+  } else if (has("smarthome") || has("mesh") || score >= 45) {
+    recs.push({ ...CATALOG.discx, badge: "Recomendación principal", hero: true,
+      why: "Tu casa combina varios focos simultáneos (WiFi/mesh, domótica, dispositivos). El DISC X está diseñado justo para ese escenario." });
+    recs.push({ ...CATALOG.squarex, badge: "Alternativa por zonas",
+      why: "Si prefieres empezar protegiendo la zona más crítica: el dormitorio." });
+  } else if (score >= 25) {
+    recs.push({ ...CATALOG.squarex, badge: "Recomendación principal", hero: true,
+      why: "Exposición moderada con foco en espacios concretos: SQUARE X protege dormitorio o salón, la zona donde más horas pasáis." });
+    recs.push({ ...CATALOG.square, badge: "Opción de entrada",
+      why: "Para empezar por el router y los dispositivos inteligentes, el punto de origen de gran parte de la emisión." });
+  } else {
+    recs.push({ ...CATALOG.card, badge: "Recomendación principal", hero: true,
+      why: "Tu casa está bien: refuerza la protección personal del dispositivo que siempre te acompaña, el móvil." });
+  }
+
+  // 2. complementos por perfil
+  if (has("ninos") || has("ninos_pantallas")) recs.push({ ...CATALOG.packinfantil, badge: "Por los niños",
+    why: "Hay menores en casa: su habitación y sus dispositivos merecen protección específica." });
+  if ((has("movil_intensivo") || has("movil_cuerpo")) && !recs.some(r => r.name.includes("CARD"))) {
+    recs.push({ ...CATALOG.cardx, badge: "Protección personal",
+      why: "Uso intensivo del móvil pegado al cuerpo: añade una capa de protección que va contigo." });
+  }
+  if (has("sueno") && !recs.some(r => r.name.includes("SUEÑO"))) recs.push({ ...CATALOG.packsueno, badge: "Para el descanso",
+    why: "Has indicado problemas de sueño: este pack está pensado para el entorno del dormitorio." });
+
+  // 3. Ekio Light — bienestar y apoyo
+  const light = [];
+  if (has("fatiga") || has("sueno")) {
+    light.push({ ...CATALOG.deep5, badge: "Fotobiomodulación",
+      why: "Fatiga o mal descanso: la luz roja e infrarroja apoya la energía celular y los ritmos de descanso. 10-15 min al día." });
+  } else {
+    light.push({ ...CATALOG.ignis, badge: "Fotobiomodulación",
+      why: "La forma más accesible de sumar terapia de luz a tu rutina de bienestar, con protección CEM incluida." });
+  }
+  return { spiro: recs.slice(0, 3), light };
+}
+
+/* ── render resultados ── */
+function renderResults() {
+  renderProgress();
+  const { score, byStep } = compute();
+  const lvl = levelInfo(score);
+  const tips = hygieneTips();
+  const { spiro, light } = productRecs(score);
+
+  const circumference = 2 * Math.PI * 70;
+  const dash = circumference * score / 100;
+
+  $app.innerHTML = `
+    <div class="score-hero">
+      <svg class="gauge" viewBox="0 0 170 170">
+        <circle cx="85" cy="85" r="70" fill="none" stroke="rgba(255,255,255,.15)" stroke-width="14"/>
+        <circle cx="85" cy="85" r="70" fill="none" stroke="${lvl.hex}" stroke-width="14"
+          stroke-linecap="round" stroke-dasharray="${dash} ${circumference}"
+          transform="rotate(-90 85 85)"/>
+        <text x="85" y="80" text-anchor="middle" fill="#fff" font-size="38" font-weight="900">${score}</text>
+        <text x="85" y="104" text-anchor="middle" fill="rgba(255,255,255,.7)" font-size="13">/ 100</text>
+      </svg>
+      <div class="score-level" style="color:${lvl.hex}">${lvl.name}</div>
+      <p class="score-desc">${lvl.desc}</p>
+    </div>
+
+    <div class="section-title">📊 Desglose por áreas</div>
+    ${byStep.map(z => {
+      const pct = z.max ? z.sub / z.max : 0;
+      const c = pct < .25 ? "#2e9e5b" : pct < .5 ? "#e6a817" : pct < .7 ? "#e07020" : "#d9483b";
+      return `<div class="zone">
+        <span class="dot" style="background:${c}"></span>
+        <span class="zname">${z.label}</span>
+        <span class="zval">${Math.round(pct * 100)}% de carga</span>
+      </div>`;
+    }).join("")}
+
+    <div class="section-title">✅ Tu plan de higiene electromagnética (gratis)</div>
+    ${tips.map(([ic, txt]) => `<div class="tip"><span class="ic">${ic}</span><span>${txt}</span></div>`).join("")}
+
+    <div class="section-title">🛡️ Protección SPIRO recomendada para tu caso</div>
+    ${spiro.map(p => prodCard(p)).join("")}
+
+    <div class="section-title">💡 Y para tu bienestar: Ekio Light</div>
+    ${light.map(p => prodCard(p)).join("")}
+
+    <div class="lead-box">
+      <h3>Recibe tu informe completo en PDF</h3>
+      <p>Te enviamos este estudio con el plan de acción detallado por estancias, y una guía de higiene electromagnética.</p>
+      <input type="email" placeholder="Tu email" id="lead-email">
+      <br>
+      <button class="btn" onclick="alert('MVP: aquí se conecta con Klaviyo (lista Estudio EMF) y se dispara el flow con el PDF.')">Enviar mi informe →</button>
+    </div>
+
+    <div class="nav-row">
+      <button class="btn btn-ghost" id="restart">↺ Repetir el estudio</button>
+      <a class="btn btn-primary" href="https://electrosmogespana.com" style="text-decoration:none;text-align:center">Ver la tienda EKIO →</a>
+    </div>
+
+    <p class="disclaimer">
+      Este estudio es una herramienta orientativa de autoevaluación basada en tus respuestas; no constituye una medición
+      profesional con instrumentos ni un diagnóstico médico. Los productos SPIRO® y Ekio Light son productos de bienestar
+      y no están destinados a diagnosticar, tratar, curar o prevenir ninguna enfermedad. Para una evaluación con mediciones
+      reales en tu vivienda, solicita nuestra consultoría personalizada.
+    </p>`;
+
+  document.getElementById("restart").onclick = () => {
+    stepIdx = 0;
+    Object.keys(answers).forEach(k => delete answers[k]);
+    renderStep();
+    window.scrollTo(0, 0);
+  };
+}
+
+function prodCard(p) {
+  return `<div class="prod ${p.hero ? "hero-prod" : ""}">
+    <div class="col">
+      <span class="badge">${p.badge}</span>
+      <h4>${p.name}</h4>
+      <p>${p.why}</p>
+      <p style="margin-top:6px;color:#7a8499;font-size:12.5px">${p.desc}</p>
+      <a class="cta" href="${p.url}" target="_blank">Ver producto →</a>
+    </div>
+    <div class="price">${p.price ? p.price + " €" : ""}</div>
+  </div>`;
+}
+
+renderStep();
+</script>
+</body>
+</html>
