@@ -48,12 +48,31 @@ electrosensibles) y hábitos — y recibe:
 
 ## 4. Lógica de recomendación (v1)
 
-**Regla base (siempre, en todos los niveles):** 1 SPIRO Card (97€) por cada persona de la
-casa con móvil propio. Es la primera recomendación del informe, destacada, con cantidad y
-precio total (N × 97€). El cuestionario pregunta expresamente cuántas personas tienen móvil.
+**Reglas base (siempre, en todos los niveles):**
 
-| Escenario detectado | Protección de espacios (se suma a las Cards) | Alternativa |
+1. **1 SPIRO Card (97€) por cada persona de la casa con móvil propio.** Primera posición del
+   stack, destacada, con cantidad y precio total (N × 97€). El cuestionario pregunta
+   expresamente cuántas personas tienen móvil.
+2. **Electricidad sucia en toda evaluación** (Paso 7 del cuestionario): estado de la toma de
+   tierra (lo básico — sin tierra la contaminación eléctrica no tiene salida), antigüedad de
+   la instalación, nº de aparatos enchufados a la vez y, lo más importante, **placas solares
+   con inversor** (el inversor es el mayor generador de electricidad sucia de la vivienda).
+3. **Si hay inversor solar → Pack Protección Stroom Master (655€)**: filtros para derivar a
+   tierra la electricidad sucia antes de que se propague por la instalación. Es la pieza nº 2
+   del stack en ese caso.
+4. **Si no hay inversor → casi siempre Stroom Master Pro (220€) en el dormitorio principal.**
+
+El informe presenta un **Stack priorizado** (orden de compra 1..N) con total, y técnicas de
+venta: anclaje de precio (€/día durante un año), compra por fases ("empieza por el nº 1 y el
+nº 2"), social proof suave ("el más elegido"), coste de la inacción en niveles altos, y CTA
+a consultoría con medición profesional en exposición muy alta. El Socket Tester (21€) actúa
+como producto de entrada de bajo compromiso cuando la tierra está sin comprobar.
+
+| Escenario detectado | Recomendación (se suma a Cards + Stroom) | Alternativa |
 |---|---|---|
+| Placas solares con inversor | Pack Protección Stroom Master (655€) + Medidor Electricidad Sucia (216€) para verificar | — |
+| Sin inversor | Stroom Master Pro (220€) dormitorio principal | — |
+| Tierra sin comprobar / enchufes sin tierra | + Ekio Socket Tester (21€) | electricista |
 | Antena <100 m o score ≥65 | SPIRO Disc Ultra (929€) | Pack Oasis (825€) |
 | Smart home / mesh / score 45-64 | SPIRO Disc X (597€) | Square X (257€) |
 | Score 25-44 | SPIRO Square X (257€) | — |
@@ -63,6 +82,9 @@ precio total (N × 97€). El cuestionario pregunta expresamente cuántas person
 | Problemas de sueño | + Pack Spiro Sueño | |
 | Fatiga o mal descanso | Ekio Light Deep 5 (650€) | |
 | Resto | IGNIS (120€) como entrada a fotobiomodulación | |
+
+Informe de ejemplo generado: `INFORME_EJEMPLO_ESTUDIO_EMF.pdf` (caso: adosada + inversor
+solar + 2 niños → stack de 7 piezas, 2.966€, anclado a 8,13€/día).
 
 ## 5. Compliance
 

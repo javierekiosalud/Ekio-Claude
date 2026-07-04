@@ -143,6 +143,48 @@
   .prod .col { flex: 1; }
   .prod .cta { display: inline-block; margin-top: 8px; font-size: 13px; font-weight: 700; color: var(--blue); text-decoration: none; }
 
+  /* ─── stack ─── */
+  .stack-box {
+    background: #fff;
+    border: 2px solid var(--cyan);
+    border-radius: 14px;
+    padding: 22px 20px;
+    box-shadow: 0 6px 24px rgba(13,27,62,.10);
+  }
+  .stack-intro { font-size: 13.5px; color: #556; line-height: 1.55; margin-bottom: 16px; }
+  .stack-row {
+    display: flex; align-items: center; gap: 14px;
+    padding: 11px 4px;
+    border-bottom: 1px solid #edf1f8;
+  }
+  .stack-n {
+    width: 26px; height: 26px; flex-shrink: 0;
+    border-radius: 50%;
+    background: var(--navy); color: #fff;
+    font-size: 13px; font-weight: 800;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .stack-name { flex: 1; font-size: 14px; font-weight: 700; color: var(--navy); }
+  .stack-name small { display: block; font-size: 12px; font-weight: 400; color: #7a8499; margin-top: 1px; }
+  .stack-price { font-size: 13.5px; color: var(--ink); white-space: nowrap; text-align: right; }
+  .stack-total {
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 14px 4px 4px;
+    font-size: 17px; font-weight: 900; color: var(--navy);
+  }
+  .stack-anchor { font-size: 13px; color: #556; line-height: 1.55; margin-top: 10px; background: #f2fbff; border-radius: 8px; padding: 10px 12px; }
+
+  .prod-alt {
+    margin: -4px 0 10px 26px;
+    background: #f7fafd;
+    border-left: 3px solid #d5deec;
+    border-radius: 0 10px 10px 0;
+    padding: 12px 14px;
+    font-size: 13px; color: #556; line-height: 1.5;
+  }
+  .prod-alt b { color: var(--navy); }
+  .prod-alt .price-inline { font-weight: 800; color: var(--navy); }
+
   .disclaimer { font-size: 11.5px; color: #8a93a8; line-height: 1.5; margin-top: 30px; padding-top: 16px; border-top: 1px solid #e2e8f2; }
 
   .lead-box { background: var(--navy); color: #fff; border-radius: 12px; padding: 24px; margin-top: 28px; text-align: center; }
@@ -339,27 +381,63 @@ const STEPS = [
       ]},
     ],
   },
+
+  /* ── 7. ELECTRICIDAD SUCIA ── */
+  {
+    label: "Paso 7 · Electricidad sucia",
+    title: "Tu instalación eléctrica",
+    intro: "La contaminación no solo viaja por el aire: también circula por los cables. La toma de tierra y la calidad de la instalación son la base de la higiene eléctrica de tu casa.",
+    questions: [
+      { id: "toma_tierra", text: "¿La toma de tierra de tu casa está en buen estado?", hint: "Es la base: sin una buena tierra, la contaminación eléctrica no tiene por dónde salir.", opts: [
+        { t: "Sí, comprobada por un profesional", pts: 0 },
+        { t: "Creo que sí, pero nunca la he comprobado", pts: 6, flag: "tierra_sin_comprobar" },
+        { t: "Hay enchufes sin toma de tierra", pts: 12, flag: "sin_tierra" },
+        { t: "No lo sé", pts: 6, flag: "tierra_sin_comprobar" },
+      ]},
+      { id: "instalacion", text: "¿Qué antigüedad tiene la instalación eléctrica?", opts: [
+        { t: "Menos de 10 años", pts: 0 },
+        { t: "10–25 años", pts: 3 },
+        { t: "25–40 años", pts: 7, flag: "instalacion_vieja" },
+        { t: "Más de 40 años / sin reformar", pts: 10, flag: "instalacion_vieja" },
+      ]},
+      { id: "enchufados", text: "¿Cuántos aparatos soléis tener enchufados a la vez?", hint: "Cuenta también los que están en espera (standby): TV, cargadores, pequeños electrodomésticos…", opts: [
+        { t: "Pocos: desenchufamos lo que no se usa", pts: 1 },
+        { t: "Bastantes (10–20)", pts: 4 },
+        { t: "Muchos: casi todo enchufado siempre", pts: 8, flag: "muchos_enchufados" },
+      ]},
+      { id: "solar", text: "¿Tenéis placas solares con inversor?", hint: "El inversor es la mayor fuente de electricidad sucia de una vivienda: contamina toda la instalación.", opts: [
+        { t: "Sí, en casa", pts: 14, flag: "inversor" },
+        { t: "No, pero los vecinos pegados sí", pts: 6, flag: "inversor_cerca" },
+        { t: "No", pts: 0 },
+      ]},
+    ],
+  },
 ];
 
-const MAX_SCORE = 120; // techo práctico para normalizar a 100
+const MAX_SCORE = 150; // techo práctico para normalizar a 100
 
 /* ── catálogo real (electrosmogespana.com) ── */
+const SHOP = "https://electrosmogespana.com/products/";
 const CATALOG = {
-  card:      { name: "SPIRO® CARD", price: 97,  desc: "Tarjeta EMF para el móvil. Protección personal para quien lleva el teléfono encima todo el día.", url: "https://electrosmogespana.com" },
-  cardx:     { name: "SPIRO® CARD X", price: 167, desc: "Filtro EMF avanzado de uso diario: móvil, portátil y desplazamientos.", url: "https://electrosmogespana.com" },
-  square:    { name: "SPIRO® SQUARE", price: 147, desc: "Filtrado electromagnético para dispositivos inteligentes: router, smart TV, asistentes de voz.", url: "https://electrosmogespana.com" },
-  squarex:   { name: "SPIRO® SQUARE X", price: 257, desc: "Protección de espacios completos. El más elegido para el dormitorio y el salón.", url: "https://electrosmogespana.com" },
-  disc:      { name: "SPIRO® DISC", price: 255, desc: "Filtro multifunción para espacios y electrodomésticos.", url: "https://electrosmogespana.com" },
-  discx:     { name: "SPIRO® DISC X", price: 597, desc: "Para hogares inteligentes y espacios de alta exposición: cubre viviendas completas con domótica.", url: "https://electrosmogespana.com" },
-  discultra: { name: "SPIRO® DISC ULTRA", price: 929, desc: "Filtro de alta intensidad. Diseñado para entornos con antenas de telefonía cercanas o cargas muy altas.", url: "https://electrosmogespana.com" },
-  packinfantil: { name: "PACK INFANTIL SPIRO", price: 420, desc: "Protección pensada para los más pequeños de la casa: su habitación y sus dispositivos.", url: "https://electrosmogespana.com" },
-  packfamilia:  { name: "PACK FAMILIA", price: 445, desc: "Cobertura equilibrada para toda la familia: espacios comunes + protección personal.", url: "https://electrosmogespana.com" },
-  packoasis:    { name: "PACK OASIS ELECTROMAGNÉTICO", price: 825, desc: "La solución integral: convierte tu casa en un oasis frente al electrosmog interior y exterior.", url: "https://electrosmogespana.com" },
-  packsueno:    { name: "PACK SPIRO SUEÑO", price: null, desc: "Combinación específica para el dormitorio y el descanso profundo.", url: "https://electrosmogespana.com" },
-  ignis:     { name: "IGNIS de Ekio Light", price: 120, desc: "Terapia de luz + protección CEM en formato compacto. La puerta de entrada a la fotobiomodulación.", url: "https://electrosmogespana.com" },
-  deep5:     { name: "EKIO LIGHT · Deep 5 (luz roja)", price: 650, desc: "Panel de luz roja e infrarroja para energía celular, descanso y recuperación en casa.", url: "https://electrosmogespana.com" },
-  deep7:     { name: "EKIO LIGHT · Deep 7 (roja + cyan)", price: 650, desc: "Panel rojo + cyan: recuperación y equilibrio, con protocolo para piel y ritmos circadianos.", url: "https://electrosmogespana.com" },
-  spectrum10:{ name: "EKIO LIGHT · Full Spectrum 10", price: 2500, desc: "El panel de espectro completo para uso familiar intensivo o profesional.", url: "https://electrosmogespana.com" },
+  card:      { name: "SPIRO® CARD", price: 97,  desc: "Tarjeta EMF para el móvil. Protección personal para quien lleva el teléfono encima todo el día.", url: SHOP + "spiro-card-proteccion-electromagnetica" },
+  cardx:     { name: "SPIRO® CARD X", price: 167, desc: "Filtro EMF avanzado de uso diario: móvil, portátil y desplazamientos.", url: SHOP + "spiro-card-x" },
+  square:    { name: "SPIRO® SQUARE", price: 147, desc: "Filtrado electromagnético para dispositivos inteligentes: router, smart TV, asistentes de voz.", url: SHOP + "spiro-square" },
+  squarex:   { name: "SPIRO® SQUARE X", price: 257, desc: "Protección de espacios completos. El más elegido para el dormitorio y el salón.", url: SHOP + "spiro-square-x" },
+  disc:      { name: "SPIRO® DISC", price: 255, desc: "Filtro multifunción para espacios y electrodomésticos.", url: SHOP + "spiro-disc" },
+  discx:     { name: "SPIRO® DISC X", price: 597, desc: "Para hogares inteligentes y espacios de alta exposición: cubre viviendas completas con domótica.", url: SHOP + "spiro-disc-x" },
+  discultra: { name: "SPIRO® DISC ULTRA", price: 929, desc: "Filtro de alta intensidad. Diseñado para entornos con antenas de telefonía cercanas o cargas muy altas.", url: SHOP + "spiro-disc-ultra" },
+  packinfantil: { name: "PACK INFANTIL SPIRO", price: 420, desc: "Protección pensada para los más pequeños de la casa: su habitación y sus dispositivos.", url: SHOP + "proteccion-infantil" },
+  packfamilia:  { name: "PACK FAMILIA", price: 445, desc: "Cobertura equilibrada para toda la familia: espacios comunes + protección personal.", url: SHOP + "pack-spiro-familia-proteccion-completa-con-2-spiro-card-1-spiro-disc" },
+  packoasis:    { name: "PACK OASIS ELECTROMAGNÉTICO", price: 825, desc: "La solución integral: convierte tu casa en un oasis frente al electrosmog interior y exterior.", url: SHOP + "pack-oasis-electromagnetico" },
+  packsueno:    { name: "PACK SPIRO SUEÑO", price: null, desc: "Combinación específica para el dormitorio y el descanso profundo.", url: SHOP + "pack-kits-spiro-sueno" },
+  stroom:    { name: "STROOM MASTER PRO®", price: 220, desc: "Filtro de electricidad sucia para el dormitorio principal: limpia la red eléctrica donde duermes.", url: SHOP + "stroom-master-pro" },
+  packstroom:{ name: "PACK PROTECCIÓN STROOM MASTER", price: 655, desc: "Kit de filtros de electricidad sucia para tratar la instalación completa y derivar a tierra la contaminación antes de que se propague por la casa.", url: SHOP + "master-pro" },
+  sockettester:{ name: "Ekio Socket Tester", price: 21, desc: "Comprueba en segundos si tus enchufes tienen toma de tierra y si está bien conectada.", url: SHOP + "ekio-socket-tester" },
+  medidorsucia:{ name: "Medidor Profesional de Electricidad Sucia", price: 216, desc: "Mide la electricidad sucia real de cada enchufe y verifica el antes/después de los filtros.", url: SHOP + "medidor-profesional-de-electricidad-sucia" },
+  ignis:     { name: "IGNIS de Ekio Light", price: 120, desc: "Terapia de luz + protección CEM en formato compacto. La puerta de entrada a la fotobiomodulación.", url: SHOP + "ignis-de-ekio-light-terapia-de-luz-y-proteccion-contra-cem" },
+  deep5:     { name: "EKIO LIGHT · Deep 5 (luz roja)", price: 650, desc: "Panel de luz roja e infrarroja para energía celular, descanso y recuperación en casa.", url: SHOP + "panel-luz-roja-deep-5" },
+  deep7:     { name: "EKIO LIGHT · Deep 7 (roja + cyan)", price: 650, desc: "Panel rojo + cyan: recuperación y equilibrio, con protocolo para piel y ritmos circadianos.", url: SHOP + "panel-luz-roja-deep-5" },
+  spectrum10:{ name: "EKIO LIGHT · Full Spectrum 10", price: 2500, desc: "El panel de espectro completo para uso familiar intensivo o profesional.", url: SHOP + "lampara-full-spectrum-ekio-light" },
 };
 
 /* ── estado ── */
@@ -501,9 +579,14 @@ function hygieneTips() {
   if (flags.has("ninos_pantallas")) t.push(["🧒", "<b>Tablets de los niños en modo avión</b> siempre que sea posible: descarga los contenidos antes y desactiva WiFi durante el uso."]);
   if (flags.has("babymonitor")) t.push(["👶", "<b>Vigilabebés a 2+ metros de la cuna</b> y elige modelos con activación por voz (VOX) en vez de emisión continua."]);
   if (flags.has("smarthome")) t.push(["🏠", "<b>Domótica por cable donde puedas</b> (Ethernet/PLC) y agrupa los dispositivos smart lejos de dormitorios."]);
+  if (flags.has("sin_tierra")) t.push(["⚡", "<b>Prioridad: llama a un electricista</b> para llevar toma de tierra a todos los enchufes. Sin tierra, la contaminación eléctrica no tiene por dónde salir de tu casa."]);
+  else if (flags.has("tierra_sin_comprobar")) t.push(["⚡", "<b>Comprueba tu toma de tierra</b>: es la base de toda la higiene eléctrica. Un comprobador de enchufes te lo dice en segundos."]);
+  if (flags.has("instalacion_vieja")) t.push(["🔧", "<b>Revisión de la instalación eléctrica</b>: con más de 25 años, un electricista debería verificar tierra, diferencial y estado del cableado."]);
+  if (flags.has("muchos_enchufados")) t.push(["🔋", "<b>Desenchufa lo que no uses</b> y corta los standby con regletas con interruptor: menos aparatos conectados = menos electricidad sucia circulando."]);
+  if (flags.has("inversor")) t.push(["☀️", "<b>Tu inversor solar es el mayor foco de electricidad sucia de la casa</b>: pide que revisen su puesta a tierra y filtra la línea para derivar esa contaminación antes de que entre en la instalación."]);
   t.push(["🔌", "<b>Cable Ethernet para teletrabajo y TV</b>: más rápido, más estable y sin emisión inalámbrica."]);
   t.push(["🌙", "<b>Despeja la mesilla</b>: nada enchufado a menos de 1 metro de la cabeza (cargadores, radio, lámparas con transformador)."]);
-  return t.slice(0, 7);
+  return t.slice(0, 8);
 }
 
 /* ── recomendación de productos ── */
@@ -519,55 +602,80 @@ function getSelectedOpt(qid) {
 }
 
 function productRecs(score) {
-  const recs = [];
   const has = f => flags.has(f);
+  const stack = []; // orden = prioridad de compra
 
-  // 0. BASE — regla de la casa: 1 SPIRO Card por persona con móvil, siempre
+  // 1. BASE — regla de la casa: 1 SPIRO Card por persona con móvil, siempre
   const phones = getSelectedOpt("moviles_personas")?.phones || 1;
-  recs.push({ ...CATALOG.card, badge: "La base · 1 por persona", hero: true, qty: phones,
+  stack.push({ ...CATALOG.card, badge: "La base · 1 por persona", hero: true, qty: phones,
+    stackWhy: "Protección personal 24/7",
     why: phones > 1
       ? `En tu casa hay ${phones} personas con móvil propio. La protección empieza por el dispositivo que cada una lleva encima todo el día: una SPIRO Card por persona.`
       : "La protección empieza por el dispositivo que llevas encima todo el día: tu móvil. La SPIRO Card va contigo a todas partes." });
 
-  // 1. protección de espacios según severidad y contexto
-  if (has("antena_cerca") || score >= 65) {
-    recs.push({ ...CATALOG.discultra, badge: "Recomendación principal", hero: true,
-      why: "Con una antena cercana o carga muy alta, necesitas el filtro de mayor intensidad de la gama SPIRO." });
-    recs.push({ ...CATALOG.packoasis, badge: "Alternativa integral",
-      why: "Si prefieres una solución por zonas en lugar de un único filtro central." });
-  } else if (has("smarthome") || has("mesh") || score >= 45) {
-    recs.push({ ...CATALOG.discx, badge: "Recomendación principal", hero: true,
-      why: "Tu casa combina varios focos simultáneos (WiFi/mesh, domótica, dispositivos). El DISC X está diseñado justo para ese escenario." });
-    recs.push({ ...CATALOG.squarex, badge: "Alternativa por zonas",
-      why: "Si prefieres empezar protegiendo la zona más crítica: el dormitorio." });
-  } else if (score >= 25) {
-    recs.push({ ...CATALOG.squarex, badge: "Protección de espacios",
-      why: "Exposición moderada con foco en espacios concretos: SQUARE X protege dormitorio o salón, la zona donde más horas pasáis." });
+  // 2. ELECTRICIDAD SUCIA — inversor solar manda; si no, Stroom Master en dormitorio principal
+  if (has("inversor")) {
+    stack.push({ ...CATALOG.packstroom, badge: "Imprescindible con placas solares", hero: true,
+      stackWhy: "Filtra la electricidad sucia del inversor",
+      why: "Tu inversor solar es el mayor generador de electricidad sucia de la vivienda: contamina TODA la instalación cada hora de sol. Este kit de filtros la deriva a tierra antes de que se propague por la casa. Con placas solares, es la pieza más importante de tu plan." });
   } else {
-    recs.push({ ...CATALOG.square, badge: "Protección de espacios",
+    stack.push({ ...CATALOG.stroom, badge: "Dormitorio principal",
+      stackWhy: "Limpia la red eléctrica donde duermes",
+      why: has("inversor_cerca")
+        ? "Los inversores solares de los vecinos meten electricidad sucia en la red que compartís. El STROOM MASTER filtra la instalación en la estancia que más importa: donde duermes 8 horas cada noche."
+        : "La electricidad sucia circula por los cables de todas las casas — la tuya también. Un STROOM MASTER en el dormitorio principal limpia la red justo donde tu cuerpo se regenera cada noche." });
+  }
+
+  // 3. PROTECCIÓN DE ESPACIOS según severidad y contexto
+  if (has("antena_cerca") || score >= 65) {
+    stack.push({ ...CATALOG.discultra, badge: "Tu caso lo pide", hero: true,
+      stackWhy: "Máxima intensidad para tu nivel de carga",
+      why: "Con una antena cercana o carga muy alta, los filtros estándar se quedan cortos: el DISC ULTRA es el de mayor intensidad de la gama SPIRO, diseñado exactamente para casos como el tuyo.",
+      alt: { ...CATALOG.packoasis, why: "Alternativa por zonas: el Pack Oasis reparte la protección por estancias en lugar de un único filtro central." } });
+  } else if (has("smarthome") || has("mesh") || score >= 45) {
+    stack.push({ ...CATALOG.discx, badge: "Para tu hogar conectado", hero: true,
+      stackWhy: "Cubre todos los focos simultáneos",
+      why: "Tu casa combina varios focos a la vez (WiFi/mesh, domótica, dispositivos). El DISC X está diseñado justo para ese escenario: un solo filtro que cubre la vivienda completa.",
+      alt: { ...CATALOG.squarex, why: "Si prefieres ir por fases, empieza por la zona más crítica con el SQUARE X: el dormitorio." } });
+  } else if (score >= 25) {
+    stack.push({ ...CATALOG.squarex, badge: "El más elegido para el dormitorio",
+      stackWhy: "Protege la estancia donde más horas pasáis",
+      why: "Exposición moderada con foco en espacios concretos: el SQUARE X protege dormitorio o salón, la zona donde más horas pasáis. Es el filtro de espacios más elegido por nuestros clientes." });
+  } else {
+    stack.push({ ...CATALOG.square, badge: "Protección de espacios",
+      stackWhy: "Cubre router y dispositivos inteligentes",
       why: "Tu casa está bien: completa la base personal cubriendo el router y los dispositivos inteligentes, el origen de gran parte de la emisión." });
   }
 
-  // 2. complementos por perfil
-  if (has("ninos") || has("ninos_pantallas")) recs.push({ ...CATALOG.packinfantil, badge: "Por los niños",
-    why: "Hay menores en casa: su habitación y sus dispositivos merecen protección específica." });
-  if (has("movil_intensivo") || has("movil_cuerpo")) {
-    recs.push({ ...CATALOG.cardx, badge: "Mejora tu Card",
-      why: "Para quien usa el móvil de forma intensiva y pegado al cuerpo: la CARD X es la versión avanzada de la SPIRO Card." });
-  }
-  if (has("sueno")) recs.push({ ...CATALOG.packsueno, badge: "Para el descanso",
-    why: "Has indicado problemas de sueño: este pack está pensado para el entorno del dormitorio." });
+  // 4. COMPLEMENTOS por perfil
+  if (has("ninos") || has("ninos_pantallas")) stack.push({ ...CATALOG.packinfantil, badge: "Por los niños",
+    stackWhy: "Su habitación y sus dispositivos",
+    why: "Hay menores en casa, y son los que más años de exposición tienen por delante. Su habitación y sus dispositivos merecen protección específica." });
+  if (has("sin_tierra") || has("tierra_sin_comprobar")) stack.push({ ...CATALOG.sockettester, badge: "Empieza por aquí · " + CATALOG.sockettester.price + "€",
+    stackWhy: "Comprueba tu toma de tierra en segundos",
+    why: "No sabes si tu toma de tierra funciona — y es la base de todo: sin tierra, la electricidad sucia no tiene salida. Por " + CATALOG.sockettester.price + "€ sales de dudas hoy mismo, enchufe por enchufe." });
+  if (has("movil_intensivo") || has("movil_cuerpo")) stack.push({ ...CATALOG.cardx, badge: "Upgrade para el usuario intensivo",
+    stackWhy: "La Card avanzada para quien más usa el móvil",
+    why: "Alguien en casa usa el móvil de forma intensiva y pegado al cuerpo: para esa persona, sube su Card a la CARD X, la versión avanzada." });
+  if (has("sueno")) stack.push({ ...CATALOG.packsueno, badge: "Para el descanso",
+    stackWhy: "Kit específico del dormitorio",
+    why: "Has indicado problemas de sueño: este pack combina la protección específica del entorno de descanso." });
+  if (has("inversor")) stack.push({ ...CATALOG.medidorsucia, badge: "Para verificarlo tú mismo",
+    stackWhy: "Mide el antes/después de los filtros",
+    why: "Con inversor solar, medir es creer: comprueba la electricidad sucia de cada enchufe y verifica con números la diferencia cuando instales los filtros." });
 
-  // 3. Ekio Light — bienestar y apoyo
+  // 5. EKIO LIGHT — bienestar y recuperación
   const light = [];
   if (has("fatiga") || has("sueno")) {
     light.push({ ...CATALOG.deep5, badge: "Fotobiomodulación",
-      why: "Fatiga o mal descanso: la luz roja e infrarroja apoya la energía celular y los ritmos de descanso. 10-15 min al día." });
+      stackWhy: "Recupera energía y descanso",
+      why: "Proteger frena el desgaste; la luz roja ayuda a recuperar. Con la fatiga o el mal descanso que habéis indicado, 10-15 minutos al día de Deep 5 apoyan la energía celular y los ritmos de descanso." });
   } else {
     light.push({ ...CATALOG.ignis, badge: "Fotobiomodulación",
-      why: "La forma más accesible de sumar terapia de luz a tu rutina de bienestar, con protección CEM incluida." });
+      stackWhy: "Tu entrada a la terapia de luz",
+      why: "La forma más accesible de sumar terapia de luz a tu rutina de bienestar, con protección CEM incluida. El complemento natural de un hogar protegido." });
   }
-  return { spiro: recs.slice(0, 4), light };
+  return { stack: stack.slice(0, 6), light };
 }
 
 /* ── render resultados ── */
@@ -576,7 +684,13 @@ function renderResults() {
   const { score, byStep } = compute();
   const lvl = levelInfo(score);
   const tips = hygieneTips();
-  const { spiro, light } = productRecs(score);
+  const { stack, light } = productRecs(score);
+  const all = [...stack, ...light];
+  const priced = all.filter(p => p.price);
+  const total = priced.reduce((a, p) => a + p.price * (p.qty || 1), 0);
+  const phones = getSelectedOpt("moviles_personas")?.phones || 1;
+  const habitantes = ["1","2","3-4","5+"][answers["habitantes"]] || "1";
+  const perDay = (total / 365).toFixed(2).replace(".", ",");
 
   const circumference = 2 * Math.PI * 70;
   const dash = circumference * score / 100;
@@ -609,10 +723,31 @@ function renderResults() {
     <div class="section-title">✅ Tu plan de higiene electromagnética (gratis)</div>
     ${tips.map(([ic, txt]) => `<div class="tip"><span class="ic">${ic}</span><span>${txt}</span></div>`).join("")}
 
-    <div class="section-title">🛡️ Protección SPIRO recomendada para tu caso</div>
-    ${spiro.map(p => prodCard(p)).join("")}
+    <div class="section-title">🎯 Tu Stack EKIO — plan priorizado para tu casa</div>
+    <div class="stack-box">
+      <p class="stack-intro">Este es tu plan completo en orden de prioridad, construido con tus respuestas.
+      Si prefieres ir por fases, <b>empieza por el nº 1 y el nº 2</b>: son la base sobre la que se apoya todo lo demás.</p>
+      ${all.map((p, i) => {
+        const qty = p.qty || 1;
+        const line = p.price ? (qty > 1 ? `${qty} × ${p.price} € = <b>${qty * p.price} €</b>` : `<b>${p.price} €</b>`) : "ver tienda";
+        return `<div class="stack-row">
+          <span class="stack-n">${i + 1}</span>
+          <span class="stack-name">${qty > 1 ? qty + " × " : ""}${p.name}<small>${p.stackWhy || ""}</small></span>
+          <span class="stack-price">${line}</span>
+        </div>`;
+      }).join("")}
+      <div class="stack-total">
+        <span>Tu protección completa</span>
+        <span>${total} €</span>
+      </div>
+      <p class="stack-anchor">Son <b>${perDay} € al día durante un año</b> protegiendo a ${habitantes === "1" ? "ti" : `las ${habitantes} personas de tu casa`} las 24 horas — sin pilas, sin mantenimiento y sin cambiar vuestra forma de vivir.</p>
+      ${score >= 65 ? `<p class="stack-anchor" style="margin-top:6px">⚠️ Con tu nivel de exposición, cada mes sin actuar es un mes más de carga acumulada. Y si quieres ir sobre seguro, nuestra <b>consultoría con medición profesional en tu vivienda</b> convierte este plan en un traje a medida.</p>` : ""}
+    </div>
 
-    <div class="section-title">💡 Y para tu bienestar: Ekio Light</div>
+    <div class="section-title">🛡️ Tu plan, pieza a pieza</div>
+    ${stack.map(p => prodCard(p) + (p.alt ? prodCardAlt(p.alt) : "")).join("")}
+
+    <div class="section-title">💡 Y para recuperar: Ekio Light</div>
     ${light.map(p => prodCard(p)).join("")}
 
     <div class="lead-box">
@@ -641,6 +776,11 @@ function renderResults() {
     renderStep();
     window.scrollTo(0, 0);
   };
+}
+
+function prodCardAlt(a) {
+  return `<div class="prod-alt">💬 <b>Alternativa: ${a.name}</b> · <span class="price-inline">${a.price} €</span> — ${a.why}
+    <a class="cta" href="${a.url}" target="_blank" style="font-size:12.5px"> Ver →</a></div>`;
 }
 
 function prodCard(p) {
