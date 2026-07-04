@@ -240,6 +240,17 @@ const STEPS = [
         { t: "70–120 m²", pts: 3 },
         { t: "Más de 120 m²", pts: 1 },
       ]},
+      { id: "dormitorios", text: "¿Cuántos dormitorios tiene?", opts: [
+        { t: "1", pts: 3 }, { t: "2", pts: 2 }, { t: "3", pts: 1 }, { t: "4 o más", pts: 0 },
+      ]},
+      { id: "estancias", text: "¿Qué otras estancias tiene tu casa?", hint: "Marca todas las que tengáis: el informe te dará recomendaciones estancia por estancia.", multi: true, opts: [
+        { t: "Salón", pts: 1, flag: "salon" },
+        { t: "Cocina", pts: 1, flag: "cocina" },
+        { t: "Despacho / zona de teletrabajo", pts: 4, flag: "despacho" },
+        { t: "Garaje en la propia vivienda", pts: 2, flag: "garaje" },
+        { t: "Cuarto de lavadora / plancha", pts: 2, flag: "lavadero" },
+        { t: "Bajo cubierta habitable", pts: 3, flag: "bajocubierta" },
+      ]},
     ],
   },
 
@@ -262,6 +273,12 @@ const STEPS = [
         { t: "Persona electrosensible", pts: 10, flag: "sensible" },
         { t: "Mayores de 70 años", pts: 4, flag: "mayores" },
         { t: "Ninguno", pts: 0, exclusive: true },
+      ]},
+      { id: "reparto", text: "¿Cómo se reparten los dormitorios?", hint: "Por ejemplo: 3 habitaciones = dormitorio principal + habitación de los niños + despacho.", opts: [
+        { t: "Cada persona o pareja tiene el suyo", pts: 0 },
+        { t: "Los niños comparten habitación", pts: 1, flag: "ninos_comparten" },
+        { t: "Un dormitorio hace también de despacho", pts: 5, flag: "dormitorio_despacho" },
+        { t: "Alguien duerme en el salón u otra estancia", pts: 4, flag: "duerme_salon" },
       ]},
       { id: "sintomas", text: "¿Alguien nota alguna de estas molestias de forma habitual?", hint: "Puedes marcar varias. No es un diagnóstico: nos ayuda a priorizar las zonas de la casa.", multi: true, opts: [
         { t: "Duerme mal / se despierta cansado", pts: 6, flag: "sueno" },
@@ -414,7 +431,7 @@ const STEPS = [
   },
 ];
 
-const MAX_SCORE = 150; // techo práctico para normalizar a 100
+const MAX_SCORE = 165; // techo práctico para normalizar a 100
 
 /* ── catálogo real (electrosmogespana.com) ── */
 const SHOP = "https://electrosmogespana.com/products/";
@@ -433,6 +450,8 @@ const CATALOG = {
   stroom:    { name: "STROOM MASTER PRO®", price: 220, desc: "Filtro de electricidad sucia para el dormitorio principal: limpia la red eléctrica donde duermes.", url: SHOP + "stroom-master-pro" },
   packstroom:{ name: "PACK PROTECCIÓN STROOM MASTER", price: 655, desc: "Kit de filtros de electricidad sucia para tratar la instalación completa y derivar a tierra la contaminación antes de que se propague por la casa.", url: SHOP + "master-pro" },
   sockettester:{ name: "Ekio Socket Tester", price: 21, desc: "Comprueba en segundos si tus enchufes tienen toma de tierra y si está bien conectada.", url: SHOP + "ekio-socket-tester" },
+  regleta:   { name: "REGLETA APANTALLADA DANELL D-6700", price: 93, desc: "Regleta apantallada que corta los campos eléctricos de los equipos conectados en tu zona de trabajo.", url: SHOP + "regleta-apantallada-danell-d-6700" },
+  packoficina:{ name: "PACK OFICINA SPIRO", price: 470, desc: "Square X + Stroom Master: la protección completa para quien trabaja muchas horas en el mismo punto.", url: SHOP + "pack-oficina-spiro-square-x-stroom-master" },
   medidorsucia:{ name: "Medidor Profesional de Electricidad Sucia", price: 216, desc: "Mide la electricidad sucia real de cada enchufe y verifica el antes/después de los filtros.", url: SHOP + "medidor-profesional-de-electricidad-sucia" },
   ignis:     { name: "IGNIS de Ekio Light", price: 120, desc: "Terapia de luz + protección CEM en formato compacto. La puerta de entrada a la fotobiomodulación.", url: SHOP + "ignis-de-ekio-light-terapia-de-luz-y-proteccion-contra-cem" },
   deep5:     { name: "EKIO LIGHT · Deep 5 (luz roja)", price: 650, desc: "Panel de luz roja e infrarroja para energía celular, descanso y recuperación en casa.", url: SHOP + "panel-luz-roja-deep-5" },
@@ -651,6 +670,12 @@ function productRecs(score) {
   if (has("ninos") || has("ninos_pantallas")) stack.push({ ...CATALOG.packinfantil, badge: "Por los niños",
     stackWhy: "Su habitación y sus dispositivos",
     why: "Hay menores en casa, y son los que más años de exposición tienen por delante. Su habitación y sus dispositivos merecen protección específica." });
+  if (has("despacho") || has("dormitorio_despacho")) stack.push({ ...CATALOG.regleta, badge: "Para tu despacho",
+    stackWhy: "Corta los campos eléctricos de tu zona de trabajo",
+    why: has("dormitorio_despacho")
+      ? "Trabajas en la misma habitación donde alguien duerme: los equipos enchufados emiten campo eléctrico también de noche. La regleta apantallada lo corta de raíz, y con su interruptor apagas todo el puesto al terminar."
+      : "Pasas horas de trabajo rodeado de equipos enchufados a un palmo: la regleta apantallada corta los campos eléctricos del puesto y con su interruptor eliminas los standby al acabar la jornada.",
+    alt: { ...CATALOG.packoficina, why: "Si el despacho es tu segunda casa, el Pack Oficina (Square X + Stroom Master) protege el puesto completo." } });
   if (has("sin_tierra") || has("tierra_sin_comprobar")) stack.push({ ...CATALOG.sockettester, badge: "Empieza por aquí · " + CATALOG.sockettester.price + "€",
     stackWhy: "Comprueba tu toma de tierra en segundos",
     why: "No sabes si tu toma de tierra funciona — y es la base de todo: sin tierra, la electricidad sucia no tiene salida. Por " + CATALOG.sockettester.price + "€ sales de dudas hoy mismo, enchufe por enchufe." });
@@ -675,7 +700,34 @@ function productRecs(score) {
       stackWhy: "Tu entrada a la terapia de luz",
       why: "La forma más accesible de sumar terapia de luz a tu rutina de bienestar, con protección CEM incluida. El complemento natural de un hogar protegido." });
   }
-  return { stack: stack.slice(0, 6), light };
+  return { stack: stack.slice(0, 7), light };
+}
+
+/* ── mapa de estancias ── */
+function roomMap() {
+  const has = f => flags.has(f);
+  const rooms = [];
+  rooms.push(["🛏️", "Dormitorio principal",
+    has("inversor")
+      ? "Móvil en modo avión, mesilla despejada y la instalación ya filtrada por el Pack Stroom Master. Es la estancia que más te devuelve por cada mejora."
+      : "Stroom Master en el enchufe, móvil en modo avión y mesilla despejada. Duermes 8 horas aquí: es la estancia que más te devuelve por cada mejora."]);
+  if (has("ninos")) rooms.push(["🧸", has("ninos_comparten") ? "Habitación de los niños (compartida)" : "Habitación de los niños",
+    "Pack Infantil + tablets en modo avión + nada inalámbrico enchufado junto a las camas. Son los que más años de exposición tienen por delante."]);
+  if (has("despacho") || has("dormitorio_despacho")) rooms.push(["💻", has("dormitorio_despacho") ? "Despacho (comparte dormitorio)" : "Despacho",
+    "Regleta apantallada para el puesto, conexión por cable Ethernet y todo apagado al acabar la jornada." + (has("dormitorio_despacho") ? " Al compartir con dormitorio, apagar el puesto por la noche es innegociable." : "")]);
+  if (has("salon")) rooms.push(["🛋️", "Salón",
+    "La TV y los asistentes de voz concentran la emisión: conéctalos por cable si puedes. Es la zona ideal para el filtro de espacios de tu stack."]);
+  if (has("cocina")) rooms.push(["🍳", "Cocina",
+    "Microondas e inducción emiten sobre todo en uso: mantén 1-2 metros de distancia mientras funcionan y no te apoyes en la encimera de la inducción."]);
+  if (has("garaje")) rooms.push(["🚗", "Garaje",
+    "Motor de puerta y cuadro eléctrico: comprueba qué habitación queda al otro lado de la pared — mejor que no sea un cabecero de cama."]);
+  if (has("lavadero")) rooms.push(["🧺", "Cuarto de lavadora",
+    "Los motores de lavadora y secadora generan picos: evita que compartan pared con un cabecero y desenchúfalas al terminar."]);
+  if (has("bajocubierta")) rooms.push(["🏠", "Bajo cubierta",
+    "Es la zona más expuesta a antenas del entorno (menos obstáculos). Evita dormitorios permanentes ahí si hay antena a la vista."]);
+  if (has("duerme_salon")) rooms.push(["⚠️", "Zona de descanso improvisada",
+    "Alguien duerme en una estancia de paso: aplica ahí las mismas reglas que en un dormitorio — nada emitiendo cerca de la cabeza durante la noche."]);
+  return rooms;
 }
 
 /* ── render resultados ── */
@@ -719,6 +771,9 @@ function renderResults() {
         <span class="zval">${Math.round(pct * 100)}% de carga</span>
       </div>`;
     }).join("")}
+
+    <div class="section-title">🏠 Tu casa, estancia por estancia</div>
+    ${roomMap().map(([ic, name, txt]) => `<div class="tip"><span class="ic">${ic}</span><span><b>${name}.</b> ${txt}</span></div>`).join("")}
 
     <div class="section-title">✅ Tu plan de higiene electromagnética (gratis)</div>
     ${tips.map(([ic, txt]) => `<div class="tip"><span class="ic">${ic}</span><span>${txt}</span></div>`).join("")}

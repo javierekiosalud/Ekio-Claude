@@ -68,11 +68,18 @@ nº 2"), social proof suave ("el más elegido"), coste de la inacción en nivele
 a consultoría con medición profesional en exposición muy alta. El Socket Tester (21€) actúa
 como producto de entrada de bajo compromiso cuando la tierra está sin comprobar.
 
+**Mapa de estancias:** el cuestionario pregunta nº de dormitorios, estancias de la casa
+(salón, cocina, despacho, garaje, cuarto de lavadora, bajo cubierta) y cómo se reparten los
+dormitorios entre los habitantes (ej.: 3 habitaciones = principal + niños compartiendo +
+despacho). El informe incluye una sección "Tu casa, estancia por estancia" con la
+recomendación específica de cada una.
+
 | Escenario detectado | Recomendación (se suma a Cards + Stroom) | Alternativa |
 |---|---|---|
 | Placas solares con inversor | Pack Protección Stroom Master (655€) + Medidor Electricidad Sucia (216€) para verificar | — |
 | Sin inversor | Stroom Master Pro (220€) dormitorio principal | — |
 | Tierra sin comprobar / enchufes sin tierra | + Ekio Socket Tester (21€) | electricista |
+| Despacho / teletrabajo (o dormitorio-despacho) | + Regleta Apantallada Danell D-6700 (93€) | Pack Oficina (470€) |
 | Antena <100 m o score ≥65 | SPIRO Disc Ultra (929€) | Pack Oasis (825€) |
 | Smart home / mesh / score 45-64 | SPIRO Disc X (597€) | Square X (257€) |
 | Score 25-44 | SPIRO Square X (257€) | — |
