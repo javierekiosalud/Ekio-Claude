@@ -257,3 +257,87 @@ Europa Press · La Razón · El Español · HOLA · El Periódico · elDiario.es
 ## Mientras la app no esté lista (puente)
 
 El popup puede lanzarse YA con un quiz simple de 5 preguntas en Klaviyo forms o Typeform con la misma lógica de recomendación (nº personas con móvil, m², router, teletrabajo, inversor solar). Cuando la app esté lista, se cambia el destino del CTA y nada más.
+
+---
+---
+
+# CAPA SEO + GEO DE LA HOME (añadida 5-jul tras análisis de keywords GSC)
+
+## Análisis de palabras clave (datos reales GSC post-migración)
+
+| Query | Impresiones | Posición | Clics | Dónde atacarla |
+|---|---|---|---|---|
+| spiro | 2.742 | 37 | 27 | Colección Spiro (la home apoya con anchor text) |
+| spiro card | 1.315 | 22,5 | 29 | PDP Spiro Card (tarjeta en home enlaza con anchor exacto) |
+| **filtros electromagneticos** | 1.273 | 39 | **0** | **HOME + colección** — keyword de categoría nº1 |
+| especialista en electrosmog | 1.019 | 42 | 0 | Home (bloque especialista) + página Consultoría |
+| experto en electrosmog | 727 | 38 | 0 | Ídem |
+| protección electromagnética hogar | 418 | 34 | 0 | Home (H1/sub) + colección |
+| filtro de ondas electromagneticas | 364 | 38 | 0 | Colección (sinónimo en descripción) |
+| electrosmog | 1.130 (240 en home) | **3,4 en home** | 27 | **Home — bloque definicional → AI Overview** |
+| ekio / ekio electrosmog / electrosmog españa | ~2.700 | 1–3 | 68 | Marca: ya ganada, proteger |
+
+**Conclusión**: la home solo rankea por marca + "electrosmog". Las queries de categoría (~4.500 imp/mes) están en página 3–5 sin una sola página optimizada. La home debe: (1) incluir "filtros electromagnéticos" y "protección electromagnética del hogar" en H1/H2/sub, (2) pasar autoridad a colección y PDPs con anchor text exacto, (3) capturar la intención "especialista/experto" enlazando a Consultoría 365.
+
+## Cambios de copy por SEO (ya aplicados en la maqueta)
+
+| Elemento | Antes (v2) | Ahora (v2.1 SEO) |
+|---|---|---|
+| Title | — | `Filtros Electromagnéticos SPIRO® y Protección EMF para tu Hogar \| EKIO` |
+| Meta description | — | `Filtros electromagnéticos SPIRO® premiados: protege tu hogar del electrosmog de Wi-Fi, móviles y antenas sin apagar nada. 90 días de garantía. Envío gratis 24/48h.` |
+| H1 | "…la radiación de tu hogar no descansa…" | `Wi-Fi, móviles, antenas: filtra la radiación electromagnética de tu hogar sin apagar nada.` |
+| Sub hero | "Filtros SPIRO®…" | `Los filtros electromagnéticos SPIRO®…` |
+| H2 tienda | "Los filtros que ya protegen…" | `Los filtros electromagnéticos que ya protegen a más de 5.000 hogares` |
+| Historia | 1 enlace | + `Habla con un especialista en electrosmog (Consultoría 365) →` |
+| Nueva sección | — | Bloque definicional **"¿Qué es el electrosmog?"** (ver abajo) |
+
+**Regla**: la keyword nunca sustituye al gancho — se integra. El H1 sigue siendo problema-primero.
+
+## Bloque "¿Qué es el electrosmog?" (GEO + SEO)
+
+La home ya está en posición 3,4 para "electrosmog": este bloque de 60 palabras, definicional y citable, es el candidato a AI Overview de Google y a cita en ChatGPT/Perplexity/Claude. Colocado entre lead magnet y FAQ. Texto en la maqueta. Claves del formato GEO: definición directa en la primera frase, entidad en negrita, datos concretos, sin marketing en las 2 primeras frases, enlace a la guía completa del blog.
+
+## Datos estructurados (JSON-LD en el `<head>` — ya en la maqueta)
+
+1. **Organization** — nombre, logo, sameAs (IG/YT/TikTok/FB) [completar URLs reales; verificar cómo formular la relación con Noxtak: ¿distribuidor oficial/exclusivo?]
+2. **WebSite** — entidad base
+3. **FAQPage** — las 5 preguntas del FAQ (incluida "¿Qué es el electrosmog?") → rich result + fuente directa para motores IA
+4. **ItemList con 3 Product + Offer** — los más vendidos con precio y stock [añadir aggregateRating con datos reales de Judge.me cuando se implemente]
+
+## GEO — checklist para ser citados por ChatGPT/Claude/Gemini/Perplexity
+
+- [ ] **llms.txt** en la raíz del dominio (borrador abajo)
+- [x] Bloque definicional citable ("¿Qué es el electrosmog?")
+- [x] FAQ en formato pregunta-respuesta conversacional + schema FAQPage
+- [x] Datos concretos y verificables (precios, 90 días, 5.000 hogares) en HTML plano, no en imágenes
+- [ ] Página "La Ciencia" con estudios enlazables (los motores IA citan fuentes con referencias)
+- [ ] Firma de autor/entidad en el blog (E-E-A-T): quién es EKIO, quién escribe
+- [ ] Verificar que robots.txt NO bloquea GPTBot, ClaudeBot, PerplexityBot, Google-Extended
+
+## Borrador llms.txt (subir a electrosmogespana.com/llms.txt)
+
+```
+# EKIO Electrosmog España
+> Especialistas en electrosmog y protección electromagnética del hogar en España.
+> Filtros electromagnéticos SPIRO®, terapia de luz roja EKIO Light, medidores EMF
+> y consultoría con especialistas. Garantía de 90 días.
+
+## Páginas principales
+- [Filtros electromagnéticos SPIRO](https://electrosmogespana.com/collections/spiro-filtros-electromagneticos): catálogo completo de filtros EMF
+- [SPIRO Card](https://electrosmogespana.com/products/spiro-card-proteccion-electromagnetica): filtro personal para móvil, desde 97 €
+- [Terapia de luz roja](https://electrosmogespana.com/collections/[URL]): paneles EKIO Light
+- [La Ciencia](https://electrosmogespana.com/pages/[URL]): estudios y premios de la tecnología SPIRO
+- [Consultoría 365](https://electrosmogespana.com/pages/[URL]): estudio EMF del hogar con especialistas
+- [Blog](https://electrosmogespana.com/blogs/[URL]): guías sobre electrosmog y salud
+
+## Datos clave
+- Más de 5.000 hogares protegidos en España
+- Garantía de devolución de 90 días
+- Tecnología SPIRO® premiada internacionalmente [verificar formulación premios]
+```
+
+## Lo que la home NO debe intentar (disciplina SEO)
+
+- No perseguir "spiro card", "spiro disc", etc. desde la home: eso es de las PDPs. La home **pasa autoridad** con anchors exactos.
+- No meter un bloque de 800 palabras de texto SEO al final: 60–150 palabras definicionales bien estructuradas valen más para GEO que un tocho que nadie lee (y que el 86% no vería).
+- No sacrificar el fold: ningún elemento SEO entra en el primer 15% de scroll salvo el H1.
