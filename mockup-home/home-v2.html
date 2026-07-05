@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MAQUETA — Home v2 EKIO | electrosmogespana.com</title>
+<style>
+  :root{
+    --navy:#132f4e;
+    --navy-dark:#0c2038;
+    --amber:#e8a13c;
+    --amber-dark:#c9852a;
+    --ink:#1b2430;
+    --gray:#5c6773;
+    --bg-soft:#f5f7fa;
+    --bg-warm:#faf6ef;
+    --line:#e3e8ee;
+    --star:#f5a623;
+    --ok:#2e8b57;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:#fff;line-height:1.55}
+  img{max-width:100%}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+  h1,h2,h3{line-height:1.2}
+  h2{font-size:clamp(24px,4vw,34px);margin-bottom:10px}
+  .kicker{font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--amber-dark);font-weight:700;margin-bottom:8px}
+  section{padding:56px 0}
+  .btn{display:inline-block;border:none;cursor:pointer;text-decoration:none;font-weight:700;border-radius:8px;text-align:center;transition:transform .1s ease, box-shadow .1s ease}
+  .btn:active{transform:scale(.98)}
+  .btn-primary{background:var(--navy);color:#fff;padding:16px 28px;font-size:17px;box-shadow:0 4px 14px rgba(19,47,78,.25)}
+  .btn-primary:hover{background:var(--navy-dark)}
+  .btn-ghost{background:transparent;color:var(--navy);padding:15px 24px;font-size:15px;border:2px solid var(--navy)}
+  .btn-amber{background:var(--amber);color:var(--navy-dark);padding:16px 28px;font-size:17px}
+  .btn-amber:hover{background:var(--amber-dark);color:#fff}
+  .stars{color:var(--star);letter-spacing:2px}
+  .note{display:inline-block;background:#fff8e6;border:1px dashed var(--amber-dark);color:#7a5b17;font-size:12px;padding:4px 10px;border-radius:6px;margin-top:10px}
+
+  /* ANNOUNCEMENT BAR */
+  .bar{background:var(--navy-dark);color:#fff;font-size:13px;font-weight:600;letter-spacing:.06em;text-align:center;height:38px;overflow:hidden;position:relative}
+  .bar-inner{display:flex;flex-direction:column;animation:rotateBar 9s infinite}
+  .bar-inner span{height:38px;display:flex;align-items:center;justify-content:center;padding:0 12px}
+  @keyframes rotateBar{
+    0%,28%{transform:translateY(0)}
+    33%,61%{transform:translateY(-38px)}
+    66%,94%{transform:translateY(-76px)}
+    100%{transform:translateY(0)}
+  }
+
+  /* HEADER */
+  header{position:sticky;top:0;background:#fff;border-bottom:1px solid var(--line);z-index:50}
+  .nav{display:flex;align-items:center;justify-content:space-between;height:62px}
+  .logo{font-weight:900;font-size:24px;letter-spacing:.05em;color:var(--ink);text-decoration:none}
+  .logo small{display:block;font-size:8px;letter-spacing:.42em;font-weight:600;color:var(--gray)}
+  .menu{display:none;gap:26px;font-size:14px;font-weight:600}
+  .menu a{color:var(--ink);text-decoration:none}
+  .menu a.hl{color:var(--amber-dark)}
+  .nav-icons{display:flex;gap:16px;font-size:20px}
+  .burger{font-size:24px;background:none;border:none;cursor:pointer}
+  @media(min-width:880px){.menu{display:flex}.burger{display:none}}
+
+  /* HERO */
+  .hero{padding:0 0 40px}
+  .hero-grid{display:grid;gap:24px}
+  @media(min-width:880px){.hero-grid{grid-template-columns:1.05fr .95fr;align-items:center;padding-top:30px}}
+  .hero-photo{position:relative;border-radius:0 0 18px 18px;overflow:hidden;background:
+    radial-gradient(circle at 72% 30%, rgba(232,161,60,.35), transparent 45%),
+    linear-gradient(160deg,#e9d9bd 0%, #d9c09a 45%, #b98d5f 100%);
+    min-height:210px;display:flex;align-items:flex-end;cursor:pointer}
+  @media(min-width:880px){.hero-photo{border-radius:18px;min-height:420px}}
+  .photo-label{background:rgba(12,32,56,.82);color:#fff;font-size:12.5px;padding:12px 16px;width:100%;line-height:1.5}
+  .photo-label b{color:var(--amber)}
+  .hero-copy{padding:26px 0 0}
+  .hero-copy h1{font-size:clamp(28px,5.4vw,42px);font-weight:850;letter-spacing:-.01em}
+  .hero-copy h1 em{font-style:normal;color:var(--amber-dark)}
+  .hero-sub{margin:16px 0 22px;font-size:16.5px;color:var(--gray);max-width:52ch}
+  .hero-ctas{display:flex;flex-direction:column;gap:12px;max-width:420px}
+  @media(min-width:880px){.hero-ctas{flex-direction:row;max-width:none;align-items:center}}
+  .hero-proof{margin-top:16px;font-size:14px;color:var(--gray)}
+  .hero-proof b{color:var(--ink)}
+
+  /* PRODUCTS */
+  .sect-soft{background:var(--bg-soft)}
+  .prod-grid{display:grid;gap:16px;margin-top:26px}
+  @media(min-width:760px){.prod-grid{grid-template-columns:repeat(3,1fr)}}
+  .card{background:#fff;border:1px solid var(--line);border-radius:14px;overflow:hidden;display:flex;flex-direction:column}
+  .card-img{height:170px;display:flex;align-items:center;justify-content:center;font-weight:800;color:#fff;font-size:15px;text-align:center;padding:12px}
+  .ci-1{background:linear-gradient(145deg,#26476e,#132f4e)}
+  .ci-2{background:linear-gradient(145deg,#3b3f8f,#232659)}
+  .ci-3{background:linear-gradient(145deg,#155e63,#0c3b3e)}
+  .card-body{padding:18px;display:flex;flex-direction:column;gap:8px;flex:1}
+  .card-body h3{font-size:17px}
+  .price{font-size:22px;font-weight:850}
+  .price small{font-size:13px;color:var(--gray);font-weight:600}
+  .card .micro{font-size:14px;color:var(--gray);flex:1}
+  .badge-top{align-self:flex-start;background:var(--amber);color:var(--navy-dark);font-size:11px;font-weight:800;letter-spacing:.06em;padding:3px 9px;border-radius:99px;text-transform:uppercase}
+  .see-all{display:block;text-align:center;margin-top:22px;font-weight:700;color:var(--navy)}
+
+  /* CATEGORY DOORS */
+  .doors{display:grid;gap:16px;margin-top:26px}
+  @media(min-width:760px){.doors{grid-template-columns:repeat(3,1fr)}}
+  .door{border:1px solid var(--line);border-radius:14px;padding:24px;background:#fff}
+  .door h3{font-size:19px;margin-bottom:8px}
+  .door p{font-size:14.5px;color:var(--gray);margin-bottom:16px}
+  .door p b{color:var(--ink)}
+  .door .btn{width:100%;padding:13px}
+
+  /* REVIEWS */
+  .rev-grid{display:grid;gap:14px;margin-top:26px}
+  @media(min-width:760px){.rev-grid{grid-template-columns:repeat(3,1fr)}}
+  .rev{background:#fff;border:1px solid var(--line);border-radius:14px;padding:20px;font-size:14.5px}
+  .rev p{margin:10px 0;color:var(--ink)}
+  .rev .who{display:flex;align-items:center;gap:10px;margin-top:12px}
+  .avatar{width:38px;height:38px;border-radius:50%;background:var(--navy);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:15px}
+  .who small{display:block;color:var(--gray);font-size:12.5px}
+  .verified{color:var(--ok);font-size:12px;font-weight:700}
+
+  /* PRESS */
+  .press{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:30px 0}
+  .press-row{display:flex;flex-wrap:wrap;gap:14px 30px;align-items:center;justify-content:center;margin-top:14px}
+  .press-row span{font-weight:800;font-size:17px;color:#9aa4ae;font-family:Georgia,serif}
+  .press h2{font-size:14px;letter-spacing:.15em;text-align:center;color:var(--gray)}
+
+  /* GUARANTEE */
+  .guar{background:var(--navy);color:#fff;text-align:center}
+  .guar h2{color:#fff}
+  .guar .big{font-size:clamp(26px,4.6vw,36px)}
+  .guar p{max-width:60ch;margin:14px auto 26px;color:#cfd9e4;font-size:16.5px}
+  .badges{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;max-width:680px;margin:0 auto}
+  @media(min-width:760px){.badges{grid-template-columns:repeat(4,1fr)}}
+  .badges div{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18);border-radius:10px;padding:14px 10px;font-size:13.5px;font-weight:700}
+  .price-anchor{margin-top:22px;font-size:15px;color:var(--amber)}
+
+  /* STORY */
+  .story{background:var(--bg-warm)}
+  .story .inner{max-width:680px;margin:0 auto;text-align:center}
+  .story p{margin:14px 0;font-size:16.5px;color:#40474f}
+  .story a{color:var(--navy);font-weight:700}
+
+  /* LEAD MAGNET */
+  .lead .box{background:var(--bg-soft);border:1px solid var(--line);border-radius:18px;padding:34px 24px;max-width:680px;margin:0 auto;text-align:center}
+  .lead form{display:flex;flex-direction:column;gap:10px;max-width:420px;margin:20px auto 0}
+  @media(min-width:640px){.lead form{flex-direction:row}}
+  .lead input{flex:1;padding:14px 16px;border:1.5px solid var(--line);border-radius:8px;font-size:15px}
+  .lead .micro{font-size:12.5px;color:var(--gray);margin-top:12px}
+
+  /* FAQ */
+  .faq details{border-bottom:1px solid var(--line);padding:16px 0}
+  .faq summary{font-weight:700;font-size:16px;cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:14px}
+  .faq summary::after{content:"+";font-size:20px;color:var(--amber-dark)}
+  .faq details[open] summary::after{content:"–"}
+  .faq details p{margin-top:10px;color:var(--gray);font-size:15px;max-width:70ch}
+
+  /* FINAL CTA */
+  .final{background:var(--navy-dark);color:#fff;text-align:center}
+  .final h2{color:#fff;font-size:clamp(24px,4.4vw,34px)}
+  .final p{color:#cfd9e4;margin:12px 0 26px}
+  .final .hero-ctas{margin:0 auto;justify-content:center}
+  .final .btn-ghost{color:#fff;border-color:#fff}
+
+  footer{background:#0a1a2c;color:#8fa1b3;font-size:13px;text-align:center;padding:26px 20px}
+
+  /* POPUP BOTTOM SHEET */
+  .sheet-backdrop{position:fixed;inset:0;background:rgba(10,20,35,.5);opacity:0;pointer-events:none;transition:opacity .25s;z-index:98}
+  .sheet{position:fixed;left:0;right:0;bottom:0;background:#fff;border-radius:20px 20px 0 0;padding:26px 22px 30px;transform:translateY(105%);transition:transform .3s ease;z-index:99;max-width:560px;margin:0 auto;box-shadow:0 -8px 40px rgba(0,0,0,.25)}
+  .popup-open .sheet{transform:translateY(0)}
+  .popup-open .sheet-backdrop{opacity:1;pointer-events:auto}
+  .sheet .grab{width:44px;height:4px;background:var(--line);border-radius:99px;margin:0 auto 18px}
+  .sheet .close-x{position:absolute;top:14px;right:16px;background:none;border:none;font-size:22px;color:var(--gray);cursor:pointer}
+  .sheet h3{font-size:23px;margin-bottom:8px}
+  .sheet p{font-size:15px;color:var(--gray);margin-bottom:18px}
+  .sheet p b{color:var(--ink)}
+  .sheet .btn{width:100%}
+  .sheet .later{display:block;text-align:center;margin-top:14px;color:var(--gray);font-size:14px;background:none;border:none;cursor:pointer;width:100%}
+  .sheet .mini-card{position:absolute;top:-26px;right:22px;width:74px;height:48px;background:linear-gradient(145deg,#26476e,#132f4e);border-radius:8px;box-shadow:0 6px 18px rgba(0,0,0,.3);color:#fff;font-size:9px;font-weight:800;display:flex;align-items:center;justify-content:center}
+  .reopen{position:fixed;bottom:18px;right:18px;z-index:97;background:var(--amber);color:var(--navy-dark);border:none;border-radius:99px;padding:12px 18px;font-weight:800;font-size:13px;cursor:pointer;box-shadow:0 4px 14px rgba(0,0,0,.25)}
+
+  .maqueta-tag{position:fixed;top:0;left:0;background:#d33;color:#fff;font-size:10px;font-weight:800;letter-spacing:.08em;padding:3px 10px;z-index:100;border-radius:0 0 8px 0}
+</style>
+</head>
+<body>
+<div class="maqueta-tag">MAQUETA v2 — 07/2026</div>
+
+<!-- 0. BARRA DE ANUNCIO (rotativa) -->
+<div class="bar" aria-label="Anuncios">
+  <div class="bar-inner">
+    <span>✓ 90 DÍAS DE GARANTÍA — SI NO NOTAS LA DIFERENCIA, TE DEVOLVEMOS EL DINERO</span>
+    <span>✓ ENVÍO GRATIS 24/48h EN ESPAÑA</span>
+    <span>✓ PAGA EN 12 MESES SIN INTERESES CON SEQURA</span>
+  </div>
+</div>
+
+<!-- 1. HEADER -->
+<header>
+  <div class="wrap nav">
+    <a class="logo" href="#">EKIO<small>ELECTROSMOG</small></a>
+    <nav class="menu">
+      <a href="#tienda">Tienda</a>
+      <a href="#">La Ciencia</a>
+      <a href="#">Terapia de Luz Roja</a>
+      <a href="#" class="hl">¿Qué SPIRO necesito?</a>
+      <a href="#">Contacto</a>
+    </nav>
+    <div class="nav-icons"><span>🔍</span><span>🛒</span><button class="burger" aria-label="Menú">☰</button></div>
+  </div>
+</header>
+
+<!-- 2. HERO -->
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-photo" onclick="alert('→ Enlace a /collections/spiro-filtros-electromagneticos (la foto entera es clicable: hoy recibe 41 clics muertos)')">
+      <div class="photo-label">
+        📷 <b>FOTO (dirección de arte):</b> salón español al atardecer, luz cálida. Padre/madre y niño en el sofá con tablet en uso. <b>SPIRO CARD en primer plano, enfocada, saliendo de la funda del móvil.</b> Ondas sutiles solo alrededor de los dispositivos. Toda la imagen enlaza a la colección SPIRO.
+      </div>
+    </div>
+    <div class="hero-copy">
+      <h1>Wi-Fi, móviles, antenas: la radiación de tu hogar no descansa ni de noche. <em>Fíltrala sin apagar nada.</em></h1>
+      <p class="hero-sub">Filtros SPIRO® con tecnología premiada internacionalmente. Más de 5.000 hogares protegidos en España. Y si en 90 días no notas la diferencia, te devolvemos el dinero.</p>
+      <div class="hero-ctas">
+        <a class="btn btn-primary" href="#tienda">VER FILTROS SPIRO →</a>
+        <a class="btn btn-ghost" href="#" onclick="openSheet();return false;">¿No sabes cuál necesitas? Haz el test (2 min)</a>
+      </div>
+      <p class="hero-proof"><span class="stars">★★★★★</span> <b>4,8/5</b> — según +[N] reseñas verificadas <span class="note">N = cifra real de Judge.me</span></p>
+    </div>
+  </div>
+</section>
+
+<!-- 3. LOS MÁS ELEGIDOS -->
+<section class="sect-soft" id="tienda">
+  <div class="wrap">
+    <p class="kicker">Los más vendidos</p>
+    <h2>Los filtros que ya protegen a más de 5.000 hogares</h2>
+    <p style="color:var(--gray)">Empieza por donde empiezan todos: una SPIRO Card por cada persona con móvil.</p>
+    <div class="prod-grid">
+      <div class="card">
+        <div class="card-img ci-1">SPIRO® CARD<br><small style="font-weight:400">(foto producto real)</small></div>
+        <div class="card-body">
+          <span class="badge-top">La puerta de entrada</span>
+          <h3>SPIRO® Card</h3>
+          <div class="stars" style="font-size:13px">★★★★★</div>
+          <p class="micro">La base de toda protección: 1 por persona con móvil. Cabe en la funda.</p>
+          <div class="price">97 € <small>o 8,08 €/mes</small></div>
+          <a class="btn btn-primary" href="#" style="padding:13px">AÑADIR AL CARRITO</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-img ci-2">SPIRO® DISC<br><small style="font-weight:400">(foto producto real)</small></div>
+        <div class="card-body">
+          <span class="badge-top">El favorito del hogar</span>
+          <h3>SPIRO® Disc</h3>
+          <div class="stars" style="font-size:13px">★★★★★</div>
+          <p class="micro">El multifunción del hogar: dormitorio, salón y electrodomésticos.</p>
+          <div class="price">255 € <small>o 21,25 €/mes</small></div>
+          <a class="btn btn-primary" href="#" style="padding:13px">AÑADIR AL CARRITO</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-img ci-3">SPIRO® SQUARE X<br><small style="font-weight:400">(foto producto real)</small></div>
+        <div class="card-body">
+          <span class="badge-top">Para el router</span>
+          <h3>SPIRO® Square X</h3>
+          <div class="stars" style="font-size:13px">★★★★★</div>
+          <p class="micro">Para el router y los dispositivos que nunca se apagan.</p>
+          <div class="price">257 € <small>o 21,42 €/mes</small></div>
+          <a class="btn btn-primary" href="#" style="padding:13px">AÑADIR AL CARRITO</a>
+        </div>
+      </div>
+    </div>
+    <a class="see-all" href="#">Ver toda la colección SPIRO →</a>
+  </div>
+</section>
+
+<!-- 4. PUERTAS DE CATEGORÍA -->
+<section>
+  <div class="wrap">
+    <p class="kicker">Catálogo</p>
+    <h2>Elige por dónde empezar</h2>
+    <div class="doors">
+      <div class="door">
+        <h3>Filtros SPIRO</h3>
+        <p><b>Duerme y vive sin interferencias.</b> Filtra la contaminación electromagnética de móviles, Wi-Fi y antenas — sin bloquear la señal y sin cambiar tus rutinas.</p>
+        <a class="btn btn-primary" href="#">VER FILTROS SPIRO →</a>
+      </div>
+      <div class="door">
+        <h3>Terapia de Luz Roja</h3>
+        <p><b>Recarga tu energía con luz.</b> Paneles de luz roja e infrarroja para recuperación, descanso y vitalidad, diseñados con criterios de bajo CEM.</p>
+        <a class="btn btn-primary" href="#">VER LUZ ROJA →</a>
+      </div>
+      <div class="door">
+        <h3>Medidores</h3>
+        <p><b>Mide lo que te rodea.</b> Descubre en minutos cuánta radiación y electricidad sucia hay en tu casa — y sabrás exactamente qué corregir.</p>
+        <a class="btn btn-primary" href="#">VER MEDIDORES →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 5. RESEÑAS -->
+<section class="sect-soft">
+  <div class="wrap">
+    <p class="kicker">Opiniones verificadas</p>
+    <h2>Lo que notan los que ya viven con SPIRO</h2>
+    <span class="note">⚠️ EJEMPLOS — sustituir por reseñas reales del widget Judge.me (foto + nombre + producto)</span>
+    <div class="rev-grid">
+      <div class="rev">
+        <span class="stars">★★★★★</span> <span class="verified">✓ Compra verificada</span>
+        <p>"Llevaba meses durmiendo mal sin saber por qué. Con el Disc en el dormitorio noté el cambio la segunda semana."</p>
+        <div class="who"><div class="avatar">M</div><div><b>[Nombre real]</b><small>SPIRO® Disc</small></div></div>
+      </div>
+      <div class="rev">
+        <span class="stars">★★★★★</span> <span class="verified">✓ Compra verificada</span>
+        <p>"Teletrabajo 8 horas al día. Desde que llevo la Card en la funda, los dolores de cabeza de la tarde han desaparecido."</p>
+        <div class="who"><div class="avatar">J</div><div><b>[Nombre real]</b><small>SPIRO® Card</small></div></div>
+      </div>
+      <div class="rev">
+        <span class="stars">★★★★★</span> <span class="verified">✓ Compra verificada</span>
+        <p>"Lo compré escéptica por la garantía de 90 días. No lo he devuelto: mis hijos duermen mejor y yo también."</p>
+        <div class="who"><div class="avatar">C</div><div><b>[Nombre real]</b><small>Pack Familia</small></div></div>
+      </div>
+    </div>
+    <p style="text-align:center;margin-top:20px;font-weight:700">★ 4,8/5 en +[N] reseñas verificadas · <a href="#" style="color:var(--navy)">Leer todas →</a></p>
+  </div>
+</section>
+
+<!-- 6. PRENSA -->
+<div class="press">
+  <div class="wrap">
+    <h2>NOS HAS VISTO EN</h2>
+    <div class="press-row">
+      <span>Europa Press</span><span>LA RAZÓN</span><span>El Español</span><span>¡HOLA!</span><span>El Periódico</span><span>elDiario.es</span>
+    </div>
+  </div>
+</div>
+
+<!-- 7. GARANTÍA -->
+<section class="guar">
+  <div class="wrap">
+    <h2 class="big">Pruébalo 90 días en tu casa. Sin riesgo.</h2>
+    <p>Instala tus filtros SPIRO y vive con ellos tres meses. Si no notas mejoría en tu descanso y tu bienestar, te devolvemos el 100% de tu dinero. Sin preguntas, sin letra pequeña.</p>
+    <div class="badges">
+      <div>✓ Garantía 90 días</div>
+      <div>✓ Envío gratis 24/48h</div>
+      <div>✓ 12 meses sin intereses</div>
+      <div>✓ Asesoramiento personal</div>
+    </div>
+    <p class="price-anchor">Protección personal desde 97 € · Paga desde 8,08 €/mes</p>
+  </div>
+</section>
+
+<!-- 8. HISTORIA -->
+<section class="story">
+  <div class="wrap inner">
+    <p class="kicker">Nuestra historia</p>
+    <h2>Somos EKIO. La tecnología que te cuida.</h2>
+    <p>Vivimos en la era más tecnológica de la historia: pantallas, Wi-Fi, antenas, dispositivos que no se apagan jamás. Investigando, descubrimos algo inquietante: los dolores de cabeza, el insomnio y la fatiga no siempre son solo estrés.</p>
+    <p>Por eso existe EKIO: para que no tengas que elegir entre la tecnología y tu bienestar. Hoy, más de 5.000 hogares en España viven conectados <em>y</em> protegidos.</p>
+    <p><a href="#">Conoce la ciencia detrás de SPIRO →</a></p>
+  </div>
+</section>
+
+<!-- 9. LEAD MAGNET -->
+<section class="lead">
+  <div class="wrap">
+    <div class="box">
+      <h2>¿Cuánta radiación hay en tu casa? Descúbrelo gratis.</h2>
+      <p style="color:var(--gray);margin-top:8px">Descarga la <b>Guía de Higiene Electromagnética</b>: los 7 focos de exposición más comunes en los hogares españoles y cómo corregirlos esta misma semana (varios, sin gastar un euro).</p>
+      <form onsubmit="alert('→ Alta en lista Klaviyo \'Guía Higiene EM\' + flujo de bienvenida');return false;">
+        <input type="email" placeholder="Tu email" required>
+        <button class="btn btn-amber" type="submit">ENVIARME LA GUÍA GRATIS</button>
+      </form>
+      <p class="micro">Sin spam. Solo ciencia útil. Date de baja cuando quieras.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 10. FAQ -->
+<section class="faq">
+  <div class="wrap">
+    <p class="kicker">Resolvemos dudas</p>
+    <h2>Las preguntas que nos hacen antes de comprar</h2>
+    <details>
+      <summary>¿Esto funciona de verdad?</summary>
+      <p>La tecnología SPIRO® ha sido premiada internacionalmente y cuenta con estudios de laboratorio publicados. Míralos en <a href="#">La Ciencia</a>. Y si en tu casa no notas la diferencia en 90 días, te devolvemos el dinero.</p>
+    </details>
+    <details>
+      <summary>¿Tengo que apagar el Wi-Fi o renunciar a algo?</summary>
+      <p>No. SPIRO filtra la contaminación electromagnética sin bloquear la señal. Tu casa funciona igual; tu cuerpo lo nota distinto.</p>
+    </details>
+    <details>
+      <summary>¿Qué producto necesito?</summary>
+      <p>Regla básica: una SPIRO Card por persona con móvil, y un filtro de espacio (Disc o Square) según el tamaño del hogar. En 2 minutos te lo decimos exacto: <a href="#" onclick="openSheet();return false;">haz el test</a>.</p>
+    </details>
+    <details>
+      <summary>¿Cuánto tarda en notarse?</summary>
+      <p>Cada persona es distinta: lo más habitual es notar cambios en el descanso durante las primeras semanas. Por eso la garantía es de 90 días, no de 15.</p>
+    </details>
+    <details>
+      <summary>¿Y si me cuesta pagarlo de una vez?</summary>
+      <p>Puedes dividirlo hasta en 12 meses sin intereses con seQura, desde 8,08 €/mes.</p>
+    </details>
+  </div>
+</section>
+
+<!-- 11. CTA FINAL -->
+<section class="final">
+  <div class="wrap">
+    <h2>Tu casa no va a tener menos tecnología el año que viene.</h2>
+    <p>La exposición no baja sola. Protégete hoy y pruébalo 90 días sin riesgo.</p>
+    <div class="hero-ctas">
+      <a class="btn btn-amber" href="#tienda">VER FILTROS SPIRO →</a>
+      <a class="btn btn-ghost" href="#" onclick="openSheet();return false;">HACER EL TEST (2 MIN)</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  MAQUETA — footer real de la tienda sin cambios (enlaces, legal, pagos).<br>
+  Generado a partir de Content/COPY_HOME_NUEVA_2026-07.md · Datos: Clarity 60 días.
+</footer>
+
+<!-- POPUP — RECOMENDADOR SPIRO (bottom-sheet) -->
+<div class="sheet-backdrop" onclick="closeSheet()"></div>
+<div class="sheet" role="dialog" aria-label="Recomendador SPIRO">
+  <div class="mini-card">SPIRO®</div>
+  <div class="grab"></div>
+  <button class="close-x" onclick="closeSheet()" aria-label="Cerrar">✕</button>
+  <h3>¿Qué SPIRO necesita tu casa?</h3>
+  <p>Cada hogar es distinto: personas, móviles, Wi-Fi, metros. Responde 5 preguntas y te decimos exactamente qué filtros necesitas — <b>sin comprar de más</b>.</p>
+  <button class="btn btn-primary" onclick="alert('→ Abre la app recomendador SPIRO (o quiz Klaviyo/Typeform mientras la app no esté lista).\n\nAl final del quiz: gate de email antes del resultado.')">EMPEZAR EL TEST (2 MIN) →</button>
+  <button class="later" onclick="closeSheet()">Ahora no</button>
+</div>
+<button class="reopen" onclick="openSheet()">▶ Ver popup</button>
+
+<script>
+  function openSheet(){document.body.classList.add('popup-open')}
+  function closeSheet(){document.body.classList.remove('popup-open')}
+  document.addEventListener('keydown',e=>{if(e.key==='Escape')closeSheet()});
+  // Demo del disparador real: 8s O 35% de scroll (lo primero). En producción: + exit-intent y supresión 30 días.
+  let shown=false;
+  const t=setTimeout(()=>{if(!shown){shown=true;openSheet()}},8000);
+  window.addEventListener('scroll',()=>{
+    if(!shown && window.scrollY/(document.body.scrollHeight-innerHeight)>0.35){shown=true;clearTimeout(t);openSheet()}
+  },{passive:true});
+</script>
+</body>
+</html>
