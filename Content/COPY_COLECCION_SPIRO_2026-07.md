@@ -71,9 +71,11 @@ La pregunta nº1 ("¿cuál necesito?") solo se responde en el FAQ del final. El 
 5. SPIRO® Square X — 257 € — "Para el router"
 6. SPIRO® Disc X — 597 € — "Hogares inteligentes"
 7. SPIRO® Disc Ultra — 929 € — "Máxima intensidad"
-8. → Tarjeta final: "¿Toda la familia? Mira los **Packs SPIRO** (ahorra hasta X%)" → enlaza a la colección de packs (que ya rankea pos 5,9 para "spiro")
+8. **Stroom Master Pro® — 219,99 € — etiqueta "Complemento · Electricidad sucia"** *(decisión Javier 6-jul: se queda en la colección — es el complemento natural de todo sistema SPIRO y encaja con la regla de venta "electricidad sucia en todo estudio EMF". Enmarcado como complemento, no como un filtro SPIRO más.)*
+9. → Tarjeta final: "¿Toda la familia? Mira los **Packs SPIRO** (ahorra hasta X%)" → enlaza a la colección de packs (que ya rankea pos 5,9 para "spiro")
 
-**Fuera de esta colección**: Deep 5, Deep 7 y Lámpara Full Spectrum (→ solo en colección Luz Roja). Stroom Master Pro → a Medidores/Accesorios, y se menciona en el texto como complemento contra electricidad sucia.
+**Fuera de esta colección**: Deep 5, Deep 7 y Lámpara Full Spectrum (→ solo en colección Luz Roja).
+**En la tabla comparativa**: fila adicional "+ Stroom Master" separada visualmente — "casi siempre recomendable; imprescindible con inversor solar o instalación antigua".
 
 ### TABLA COMPARATIVA (nueva sección bajo el grid — CRO + GEO)
 
