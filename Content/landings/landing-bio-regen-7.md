@@ -13,7 +13,7 @@
 | **Título producto (admin)** | Panel Ekio Light Bio Regen 7 — Sistema de Regeneración Celular |
 | **URL slug (handle)** | `bio-regen-7-panel-regeneracion-celular` |
 | **Meta title (≤60ch)** | `Bio Regen 7 — Panel Regeneración Celular 7 Ondas \| Ekio` |
-| **Meta description (≤155ch)** | `Panel de 70 LEDs y 7 longitudes de onda — incluye azul antibacteriano (485nm) e IR profundo (940nm). Regenera piel, repara tejido y reduce dolor. Patente española.` |
+| **Meta description (≤155ch)** | `Panel de 70 LEDs y 7 longitudes de onda — incluye azul antibacteriano (485nm) e IR profundo (940nm). Regenera piel, repara tejido y reduce dolor. Modelo de Utilidad español.` |
 | **Tipo de producto** | Panel de fotobiomodulación |
 | **Vendedor** | Ekio Light |
 | **Tags** | `ekio-light, panel-luz-roja, fotobiomodulacion, bio-regen-7, intermedio, regeneracion, piel, dolor, deporte, recuperacion` |
@@ -37,7 +37,7 @@ repara tu tejido y elimina el dolor.
 
 **SUBTÍTULO:**
 ```
-70 LEDs · 7 longitudes de onda · patente española.
+70 LEDs · 7 longitudes de onda · Modelo de Utilidad español (PCT en tramitación).
 El primer panel doméstico que combina luz azul antibacteriana
 (485 nm) con infrarrojo profundo (940 nm) — para regeneración
 celular completa: piel, tejido conectivo y músculo profundo.
@@ -50,7 +50,7 @@ celular completa: piel, tejido conectivo y músculo profundo.
 | 🔬 | **7 longitudes de onda** — espectro completo de regeneración |
 | 🔵 | **Azul 485 nm + IR profundo 940 nm** — los dos diferenciadores |
 | 💪 | **Cuerpo completo** — piel, articulaciones, músculo profundo |
-| 🇪🇸 | **Patente española** — registrada en 157 países |
+| 🇪🇸 | **Modelo de Utilidad español** — U202532624 · PCT en tramitación |
 
 **BLOQUE PRECIO:**
 ```
@@ -71,7 +71,7 @@ celular completa: piel, tejido conectivo y músculo profundo.
 
 **TRUST BAR:**
 ```
-🚚 Envío gratis 24-48h  ·  ↩️ 30 días para devolver  ·  🔒 Pago 100% seguro  ·  🇪🇸 Patente española
+🚚 Envío gratis 24-48h  ·  ↩️ 30 días para devolver  ·  🔒 Pago 100% seguro  ·  🇪🇸 Modelo de Utilidad español
 ```
 
 ---
@@ -86,8 +86,9 @@ POR QUÉ CONFIAR EN EKIO LIGHT
 🛡️  30 DÍAS PARA PROBARLO SIN RIESGO
     Si no notas la diferencia, te devolvemos el 100%.
 
-🏆  PATENTE ESPAÑOLA · 157 PAÍSES
-    Modelo de utilidad U202532624 — único en su categoría.
+🏆  MODELO DE UTILIDAD ESPAÑOL · U202532624
+    Protección internacional (PCT) en tramitación — único en su categoría.
+    [⚠️ confirmar con Patricia García antes de publicar el nº]
 
 🔬  RESPALDO CIENTÍFICO PUBLICADO
     Mecanismos avalados por estudios indexados en PubMed.
@@ -116,14 +117,18 @@ hasta el tejido conectivo y muscular profundo.
 Pero la luz sola no basta. Por eso se entrega como un sistema completo.
 ```
 
-**BLOQUE "QUÉ INCLUYE EL SISTEMA BIO REGEN 7":**
+**BLOQUE "QUÉ INCLUYE EL SISTEMA BIO REGEN 7":** *(sistema ampliado — decisión Javier 6-jul: + bombilla roja y + Vitamina B50 respecto al Deep 5)*
 
 | Icono | Componente | Función |
 |---|---|---|
-| 🟠 | **Panel Bio Regen 7** | 7 longitudes de onda. Regeneración celular en piel + tejido + músculo. |
-| 🟡 | **Bombilla Ámbar** | Para la rutina nocturna — protege la melatonina y activa el sueño profundo. |
-| 💊 | **Vitamina C Lighting** *(marca propia EKIO)* | Antioxidante sinérgico — amplifica la respuesta redox de la PBM. |
-| 📘 | **Guía PDF "Activación de Energía"** | Protocolos de regeneración: nutrición, luz, higiene electromagnética. |
+| 🟠 | **Panel Bio Regen 7** | 7 longitudes de onda + 1 COB. Regeneración celular en piel + tejido + músculo. |
+| 🔴 | **Bombilla de luz roja** *(NUEVO en el sistema)* | Para el ritual de noche y el dormitorio — luz sin componente azul que acompaña la regeneración nocturna. |
+| 🟡 | **Bombilla Ámbar 1800K** | La luz del atardecer — no suprime la melatonina y prepara el sueño profundo. |
+| 💊 | **Vitamina C de Ekio** | Antioxidante sinérgico — amplifica la respuesta redox de la PBM. |
+| 💊 | **Vitamina B50 de Ekio** *(NUEVO en el sistema)* | Complejo B para el metabolismo energético celular — el combustible de la reparación. |
+| 📘 | **Guía PDF "Regeneración"** | Protocolos: luz, nutrición, ritmo circadiano e higiene electromagnética. |
+
+> **Nota vs Deep 5**: el sistema del Deep 5 lleva bombilla ámbar + Vitamina C. El Bio Regen 7 amplía a **6 componentes** añadiendo la **bombilla roja** y la **Vitamina B50**. En Shopify montar como bundle y reflejarlo en la foto "sistema completo".
 
 ---
 
@@ -199,7 +204,7 @@ Lo que regenera el Bio Regen 7 cuando lo usas todos los días.
 | **Voltaje** | AC 100-240 V |
 | **Amperaje** | 0.5-1.5 A |
 | **Cobertura** | Cuerpo completo (rotando posiciones) |
-| **Patente** | Modelo de utilidad U202532624 (157 países vía PCT) |
+| **Patente** | Modelo de Utilidad español U202532624 · PCT en tramitación |
 | **Certificaciones** | RoHS · FCC · CE · WEEE |
 | **EMF** | Bajo — transformador externo |
 | **Origen** | Diseñado en España |
@@ -299,7 +304,7 @@ BIO REGEN 7 añade:
 ```
 La regeneración celular no es magia. Es bioquímica fotónica.
 Y por primera vez tienes el espectro completo de regeneración
-en un sistema doméstico con patente española.
+en un sistema doméstico con Modelo de Utilidad español (PCT en tramitación).
 
 Activa tu regeneración. Empieza hoy.
 ```
