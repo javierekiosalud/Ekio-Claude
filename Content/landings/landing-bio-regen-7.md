@@ -201,11 +201,11 @@ Lo que regenera el Bio Regen 7 cuando lo usas todos los días.
 |---|---|
 | **Modelo técnico** | EKLO LIGHT 70 |
 | **Nombre comercial** | Bio Regen 7 |
-| **Nº LEDs** | 70 LEDs |
-| **Longitudes de onda** | 485 / 630 / 660 / 727 / 810 / 850 / 940 nm |
+| **Nº LEDs** | 70 LEDs + 1 COB (660 + 850 nm) |
+| **Longitudes de onda** | 485 / 630 / 660 / **727** (exclusiva EKIO) / 810 / 850 / 940 nm |
 | **Voltaje** | AC 100-240 V |
 | **Amperaje** | 0.5-1.5 A |
-| **Cobertura** | Cuerpo completo (rotando posiciones) |
+| **Cobertura** | Cuerpo completo (rotando posiciones) + **iluminación ambiental de estancia** |
 | **Patente** | Modelo de Utilidad español U202532624 · PCT en tramitación |
 | **Certificaciones** | RoHS · FCC · CE · WEEE |
 | **EMF** | Bajo — transformador externo |
