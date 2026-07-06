@@ -129,16 +129,19 @@ La puerta de entrada a la gama EKIO Light.
 
 | Spec | Valor |
 |---|---|
-| LEDs | 13 |
+| LEDs | 13 (chip dual: rojo + NIR por LED) |
 | Longitudes de onda | 660 nm (rojo) + 850 nm (infrarrojo cercano) |
-| COB | — |
-| Formato | Portátil, terapia local |
+| Modos de luz | 3: solo rojo · solo NIR · combinado — + **modo pulsado 10 Hz** |
+| Niveles de brillo | 5 (del 20% al 100%) |
+| Temporizador | 6 niveles: 5/10/15/20/25/30 min, con apagado automático y memoria de ajustes |
+| Irradiancia | >150 mW/cm² en contacto |
+| CEM | **0 µT (safe)** según ficha del fabricante — coherente con el estándar EKIO de bajo CEM |
 | Flicker | Cero flicker |
-| CEM | Bajo campo electromagnético (diseño EKIO) |
-| Alimentación | [CONFIRMAR: batería/USB-C/red] |
-| Dimensiones y peso | [CONFIRMAR] |
-| Irradiancia a 10 cm | [CONFIRMAR mW/cm²] |
-| Temporizador | [CONFIRMAR] |
+| Alimentación | **Batería recargable · carga USB-C** (cable incluido) — sin cables mientras lo usas |
+| Material | Aluminio + policarbonato |
+| Vida útil LEDs | >20.000 horas |
+| Dimensiones | 162 × 90 × 45 mm |
+| En la caja | Dispositivo + cable USB-C + manual |
 | Garantía | Devolución 30 días |
 
 ---
@@ -147,9 +150,10 @@ La puerta de entrada a la gama EKIO Light.
 
 **H2:** `Así de simple: 10 minutos, casi a diario`
 1. Coloca el Core a **20 cm** de la zona
-2. **10 minutos por zona**, piel limpia y descubierta
-3. **4–6 días por semana** durante 4 semanas para valorar resultados
-4. Combínalo: cuello por la mañana, rodilla después de entrenar
+2. **10 minutos por zona**, piel limpia y descubierta (usa el temporizador: 5–30 min)
+3. **Frecuencia según necesidad**: mantenimiento 1 sesión/día · moderada 2/día · intensiva 3/día *(pauta del fabricante)*
+4. **Constancia**: valora resultados a partir de 4–6 semanas de uso regular
+5. Combínalo: cuello por la mañana, rodilla después de entrenar — la batería USB-C te lo permite en cualquier sitio
 
 **Tres mini-protocolos:**
 - **Dolor articular**: 10 min sobre la articulación, 5 días/semana
@@ -186,6 +190,12 @@ La puerta de entrada a la gama EKIO Light.
 ---
 
 ## 🏁 BLOQUE 9 — DISCLAIMER + CIERRE
+
+**Precauciones (del manual del fabricante — incluir en la PDP):**
+- No mirar directamente a los LEDs durante el uso
+- No recomendado para niños ni embarazadas
+- Si tomas medicación fotosensibilizante o tienes sensibilidad cutánea, consulta antes a tu médico
+- No sumergir en agua ni usar mojado; desconectar de la corriente durante el uso y la limpieza
 
 **Disclaimer (mismo texto legal que el resto de la gama):**
 > Los dispositivos Ekio Light son equipos de bienestar para uso doméstico. No son productos sanitarios y no están destinados a diagnosticar, tratar o curar enfermedades. Ante cualquier patología, consulta a un profesional de la salud.
@@ -226,7 +236,8 @@ La puerta de entrada a la gama EKIO Light.
 ## ✅ CHECKLIST DE PUBLICACIÓN
 - [ ] Renombrar IGNIS → Core con redirección 301 automática marcada
 - [ ] Pegar precio: 140 € · garantía 30 días en la ficha
-- [ ] Completar specs [CONFIRMAR]: alimentación, dimensiones/peso, irradiancia, timer (distancia de uso confirmada: 20 cm)
+- [ ] ~~Completar specs~~ ✅ Specs completas (manual fabricante 6-jul): batería USB-C, >150 mW/cm², timer 5-30 min, 3 modos + pulsado 10 Hz, 162×90×45 mm
+- [ ] ⚠️ **Manual en español**: el manual OEM viene solo en inglés ("AI3PRO") — la normativa de consumo exige instrucciones en castellano. Crear manual propio EKIO (además: quita el nombre OEM del producto y refuerza marca). El QR del manual puede llevar a una página/PDF de EKIO
 - [ ] Subir 4 fotos con los alt text de arriba
 - [ ] Pegar schema con rating real de Judge.me (migrar reseñas del IGNIS)
 - [ ] Añadirlo a colección Luz Roja en 1ª posición (escalera) y al hub
