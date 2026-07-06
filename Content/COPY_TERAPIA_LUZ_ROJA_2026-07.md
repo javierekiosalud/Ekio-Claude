@@ -49,6 +49,13 @@ Sois la única marca de luz roja que es a la vez especialista en electrosmog: **
 
 *(Specs Core y COBs confirmados por Javier 6-jul. El ángulo biohacking se aplica al Bio Spectrum 11 en tarjeta, comparativa y FAQ.)*
 
+### BIO SPECTRUM 11 = PRODUCTO ESTRELLA (decisión Javier 6-jul)
+- Tarjeta con borde ámbar + tag "⭐ Producto estrella" en la gama
+- **Sección spotlight propia** en el hub (id `#estrella`, fondo oscuro): "Bio Spectrum 11: el panel del auténtico biohacker" con 4 diferenciales — (1) **único con UV-A + UV-B** (síntesis de vitamina D en casa), (2) 11 longitudes · 210 LEDs · 2 COB → decenas de tratamientos, (3) **totalmente personalizable** (cada panel se configura a medida), (4) **Modelo de Utilidad U202532624** con protección internacional en tramitación
+- Fila "Personalizable" añadida a la comparativa (solo Bio Spectrum: ✓)
+- ⚠️ **CAUTELA LEGAL**: el MU U202532624 es la base del PCT previsto para julio 2026 (riesgo de publicación BOPI ya identificado en ese expediente). **Confirmar con Patricia García** que publicar el número en la web no interfiere; si hay duda, publicar "Modelo de Utilidad español propio" sin número hasta el filing.
+- Nota de coherencia: el claim "patente española registrada en 157 países" de las landings de mayo debe reformularse — lo correcto es "Modelo de Utilidad español + protección internacional (PCT) en tramitación". Revisar las 3 landings antes de pegarlas en Shopify.
+
 ### Bombillas — la puerta de 17,50 € (añadido 6-jul)
 Sección propia en el hub, entre la comparativa y el bloque de fotobiomodulación:
 **H2:** `Empieza tu higiene lumínica por 17,50 €`
