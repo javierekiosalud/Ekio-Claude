@@ -146,7 +146,7 @@ La puerta de entrada a la gama EKIO Light.
 ## 📅 BLOQUE 6 — PROTOCOLO DE USO
 
 **H2:** `Así de simple: 10 minutos, casi a diario`
-1. Coloca el Core a **[X] cm** de la zona *(confirmar distancia con specs de irradiancia)*
+1. Coloca el Core a **20 cm** de la zona
 2. **10 minutos por zona**, piel limpia y descubierta
 3. **4–6 días por semana** durante 4 semanas para valorar resultados
 4. Combínalo: cuello por la mañana, rodilla después de entrenar
@@ -154,7 +154,7 @@ La puerta de entrada a la gama EKIO Light.
 **Tres mini-protocolos:**
 - **Dolor articular**: 10 min sobre la articulación, 5 días/semana
 - **Recuperación deportiva**: 10 min sobre el músculo en las 2h posteriores al ejercicio
-- **Facial**: 10 min a [X] cm, 3-4 días/semana, por la noche
+- **Facial**: 10 min a 20 cm, 3–4 días/semana, por la noche
 
 ---
 
@@ -226,7 +226,7 @@ La puerta de entrada a la gama EKIO Light.
 ## ✅ CHECKLIST DE PUBLICACIÓN
 - [ ] Renombrar IGNIS → Core con redirección 301 automática marcada
 - [ ] Pegar precio: 140 € · garantía 30 días en la ficha
-- [ ] Completar specs [CONFIRMAR]: alimentación, dimensiones/peso, irradiancia, timer, distancia de uso
+- [ ] Completar specs [CONFIRMAR]: alimentación, dimensiones/peso, irradiancia, timer (distancia de uso confirmada: 20 cm)
 - [ ] Subir 4 fotos con los alt text de arriba
 - [ ] Pegar schema con rating real de Judge.me (migrar reseñas del IGNIS)
 - [ ] Añadirlo a colección Luz Roja en 1ª posición (escalera) y al hub
