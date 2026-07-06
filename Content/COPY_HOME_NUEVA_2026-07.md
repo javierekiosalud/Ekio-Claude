@@ -212,8 +212,25 @@ Europa Press · La Razón · El Español · HOLA · El Periódico · elDiario.es
 
 ## Comportamiento (tan importante como el copy)
 
-- **Disparador**: a los **8 segundos** O al **35% de scroll** O en **exit-intent** (lo primero que ocurra). NUNCA en el primer segundo (es la 1ª causa de quick backs añadidos, y ya tenéis un 8,47%).
-- **Supresión**: si se cierra, no reaparece en 30 días (cookie). No mostrar a quien ya está suscrito a Klaviyo ni a quien llega desde un email (UTM medium=email). No mostrar en checkout ni en carrito.
+### Cascada por intención de página (decisión Javier 6-jul: dos lead magnets, cada uno en su sitio)
+
+| Dónde | Popup | Por qué |
+|---|---|---|
+| **Home** | TEST recomendador (8s / 35% scroll / exit-intent, lo primero) | Visitante frío-templado: el test orienta y captura el email en máxima motivación |
+| **Colección Spiro** | Sin popup temporizado. Solo **exit-intent con la GUÍA**: "¿Te vas sin decidirte? Llévate gratis la Guía de Higiene Electromagnética" | El test ya está on-page (banner + pie de tabla); el exit-intent con la guía es la segunda oferta para el escéptico que se iba sin nada |
+| **Blog / La Ciencia** | GUÍA | Intención informacional: quiere aprender, no elegir producto todavía |
+| **PDPs / carrito / checkout** | Nada | Jamás interrumpir a quien ya compra |
+
+**Regla de unión**: quien deja el email en cualquiera de los dos imanes deja de ver popups en TODO el sitio (supresión global vía Klaviyo).
+
+**Klaviyo — dos listas, dos flujos, un embudo**:
+- Lista "Test SPIRO" → flujo de recomendación de producto (caliente: 3-4 emails hacia la compra, segmentado por resultado del test)
+- Lista "Guía Higiene EM" → nurture educativo cuyo objetivo final es llevar al TEST
+- KPI comparativo: tasa test→compra vs guía→compra para decidir dónde invertir contenido
+
+### Reglas generales
+- **Disparador home**: a los **8 segundos** O al **35% de scroll** O en **exit-intent** (lo primero que ocurra). NUNCA en el primer segundo (es la 1ª causa de quick backs añadidos, y ya tenéis un 8,47%).
+- **Supresión**: si se cierra, no reaparece en 30 días (cookie). No mostrar a quien ya está suscrito a Klaviyo ni a quien llega desde un email (UTM medium=email).
 - **Móvil**: formato **bottom-sheet** (sube desde abajo, ocupa ~65% de pantalla), no modal a pantalla completa — Google penaliza los interstitials intrusivos en móvil.
 - **Cierre**: X visible arriba a la derecha + tap fuera del popup. Sin dark patterns.
 
