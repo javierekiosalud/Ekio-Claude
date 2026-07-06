@@ -38,15 +38,24 @@ Sois la única marca de luz roja que es a la vez especialista en electrosmog: **
 
 | | **Core** | **Deep 5** | **Bio Regén 7** | **Bio Spectrum 11** |
 |---|---|---|---|---|
-| Nivel | Entrada | Iniciación panel | Intermedio | Profesional |
+| Nivel | Entrada · **Portátil** | Iniciación panel | Intermedio | Profesional · **Biohacking** |
 | Origen | Evolución del IGNIS | — | antes Deep 7 Cyan | antes Full Spectrum 10 |
-| Longitudes | [CONFIRMAR] | 5 | 7 | 11 |
-| LEDs | [CONFIRMAR] | 70 | 70 | 210 |
-| Diferenciador | Puerta de entrada a la fotobiomodulación | 727 nm (leptina) | + Azul 485 nm + IR profundo 940 nm | + UV-B (vitamina D) + UV-A + IR 1050 nm |
-| Para quién | Probar la luz roja / zonas concretas | Energía y uso diario en casa | Piel + articulaciones + músculo | Clínica, atletas, longevidad |
-| Precio | [CONFIRMAR — ref. IGNIS 120 €] | 650 € | 970 € | 2.500 € |
+| Longitudes | 2 | 5 | 7 | 11 |
+| LEDs | 13 | 70 | 70 | 210 |
+| **COB** | — | — | **1** | **2** |
+| Diferenciador | **Terapia local**: portátil, va donde lo necesitas (rodilla, cuello, cara, viaje) | 727 nm (leptina) | + Azul 485 nm + IR profundo 940 nm | + UV-B (vitamina D) + UV-A + IR 1050 nm |
+| Para quién | Zonas concretas y viaje | Energía y uso diario en casa | Piel + articulaciones + músculo | Clínica, atletas, **biohacking**, longevidad |
+| Precio | **140 €** | 650 € | 970 € | 2.500 € |
 
-⚠️ **Pendiente de Javier**: precio, LEDs y longitudes del Core.
+*(Specs Core y COBs confirmados por Javier 6-jul. El ángulo biohacking se aplica al Bio Spectrum 11 en tarjeta, comparativa y FAQ.)*
+
+### Bombillas — la puerta de 17,50 € (añadido 6-jul)
+Sección propia en el hub, entre la comparativa y el bloque de fotobiomodulación:
+**H2:** `Empieza tu higiene lumínica por 17,50 €`
+- **Bombilla de luz roja** — 17,50 € — ritual de noche, dormitorio, sin componente azul
+- **Bombilla ámbar 1800K** — 17,50 € — "la luz del fuego": salón después del atardecer
+- **Pack Salón y Dormitorio** — 29,70 € (antes 50 €) — las dos combinadas
+Ángulo: cero flicker certificado + bajo CEM (coherente con el diferenciador de marca). Funciona como producto de entrada/captación y primer paso del ladder hacia el Core (140 €) y los paneles.
 
 ---
 
