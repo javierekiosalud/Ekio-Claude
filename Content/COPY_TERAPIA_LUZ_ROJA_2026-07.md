@@ -71,14 +71,24 @@ Sección propia en el hub, entre la comparativa y el bloque de fotobiomodulació
 
 ## COPY NUEVO — SECCIÓN A SECCIÓN
 
-### 1. HERO
-> # Terapia de luz roja en casa, con ciencia y sin electrosmog
-> Los únicos paneles de fotobiomodulación diseñados por especialistas en contaminación electromagnética: **cero flicker, bajo CEM y patente española** registrada en 157 países. Cuatro modelos, de la puerta de entrada al equipo profesional.
->
-> **[ELEGIR MI PANEL →]** *(ancla a comparativa)* · [Ver la gama completa] *(colección)*
-> ★ 4,8/5 · Envío gratis · Pago a plazos seQura · 🇪🇸 Patente española
+> **REESTRUCTURA 6-jul (feedback Javier)**: esta es una landing INTERMEDIA — el visitante llega en modo "¿esto es para mí?" y hay que llevarle a "quiero un panel EKIO Light". La página es una **escalera de conciencia**: síntoma → mecanismo → "es para mí" → "por qué EKIO" → "este modelo". Orden final: Hero conexión → Objetivos (con panel recomendado) → Qué es la fotobiomodulación → Por qué EKIO Light → Gama → Comparativa → Bombillas → FAQ → CTA.
 
-**📷 FOTO**: persona usando un panel en un salón real español (no gimnasio americano de stock), luz cálida de la habitación + glow rojo del panel. El panel se ve entero, con la marca legible.
+### 1. HERO (conexión, no specs)
+> # Pasas el 90% de tu vida bajo techo. Tu cuerpo lo nota.
+> Cansancio que no se va, piel apagada, recuperación lenta, noches de mal sueño… No siempre falta algo: a veces lo que falta es la **luz con la que tu biología evolucionó**. La **terapia de luz roja en casa** se la devuelve — en sesiones de 10 minutos.
+>
+> **¿QUÉ QUIERES RECUPERAR?** [⚡ Energía] [✨ Piel] [💪 Dolor] [😴 Sueño] *(chips → ancla #objetivos)*
+> **[EMPEZAR POR MI OBJETIVO ↓]**
+> ★ 4,8/5 · Miles de estudios publicados sobre fotobiomodulación · 🇪🇸 Patente española
+
+**📷 FOTO**: persona NORMAL (no fitness model) usando el panel en un salón español real, en pijama o ropa de casa, leyendo o con un café. Debe transmitir "esto encaja en mi vida", no "esto es de gimnasio".
+
+### 1b. OBJETIVOS (justo tras el hero — el puente mental)
+**H2:** `¿Qué quieres recuperar?` — 4 tarjetas síntoma-primero, cada una cierra con su producto:
+- ⚡ Energía ("si te levantas cansado…") → **Panel recomendado: Deep 5**
+- ✨ Piel → **Bio Regén 7**
+- 💪 Dolor ("si arrastras una rodilla…") → **Zona concreta: Core (140 €) · Cuerpo: Bio Regén 7**
+- 😴 Sueño → **Empieza por 17,50 €: bombilla roja**
 
 ### 2. LA GAMA — 4 tarjetas escalera (comprables)
 **H2:** `Elige tu nivel: de la primera sesión al uso profesional`
