@@ -237,7 +237,7 @@ La puerta de entrada a la gama EKIO Light.
 - [ ] Renombrar IGNIS → Core con redirección 301 automática marcada
 - [ ] Pegar precio: 140 € · garantía 30 días en la ficha
 - [ ] ~~Completar specs~~ ✅ Specs completas (manual fabricante 6-jul): batería USB-C, >150 mW/cm², timer 5-30 min, 3 modos + pulsado 10 Hz, 162×90×45 mm
-- [ ] ⚠️ **Manual en español**: el manual OEM viene solo en inglés ("AI3PRO") — la normativa de consumo exige instrucciones en castellano. Crear manual propio EKIO (además: quita el nombre OEM del producto y refuerza marca). El QR del manual puede llevar a una página/PDF de EKIO
+- [ ] ⚠️ **Manual en español**: el manual OEM viene solo en inglés ("AI3PRO") — la normativa de consumo exige instrucciones en castellano. **Manual EKIO diseñado: `mockup-home/manual-core-ekio.html`** (imprimible a PDF en A5 con Cmd+P y usable como página destino del QR). Pendiente: fotos reales, email/WhatsApp de soporte y QR definitivo
 - [ ] Subir 4 fotos con los alt text de arriba
 - [ ] Pegar schema con rating real de Judge.me (migrar reseñas del IGNIS)
 - [ ] Añadirlo a colección Luz Roja en 1ª posición (escalera) y al hub

@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Manual de uso — EKIO Light Core | Terapia de Luz Roja Local</title>
+<meta name="robots" content="noindex">
+<style>
+  :root{
+    --navy:#132f4e; --navy-dark:#0c2038; --amber:#e8a13c; --amber-dark:#c9852a;
+    --red-glow:#e74c3c; --ink:#1b2430; --gray:#5c6773; --bg-soft:#f5f7fa;
+    --bg-warm:#faf6ef; --line:#e3e8ee; --ok:#2e8b57;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:#d8dde3;line-height:1.5;font-size:13px}
+
+  /* Páginas A5 */
+  .page{width:148mm;min-height:210mm;background:#fff;margin:18px auto;padding:14mm 12mm;position:relative;box-shadow:0 4px 18px rgba(0,0,0,.18);display:flex;flex-direction:column}
+  @media print{
+    body{background:#fff}
+    .page{margin:0;box-shadow:none;page-break-after:always;width:auto;min-height:auto}
+    .no-print{display:none}
+    @page{size:A5;margin:0}
+  }
+  .pagenum{position:absolute;bottom:8mm;right:12mm;font-size:10px;color:var(--gray)}
+  .pagefoot{position:absolute;bottom:8mm;left:12mm;font-size:9.5px;color:var(--gray);letter-spacing:.08em}
+
+  h1,h2,h3{line-height:1.2}
+  h2{font-size:19px;margin-bottom:10px;color:var(--navy)}
+  h3{font-size:13.5px;margin:14px 0 6px}
+  p{margin-bottom:8px}
+  .kicker{font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--amber-dark);font-weight:800;margin-bottom:6px}
+  .note{display:inline-block;background:#fff8e6;border:1px dashed var(--amber-dark);color:#7a5b17;font-size:10px;padding:3px 8px;border-radius:6px;margin-top:8px}
+
+  /* PORTADA */
+  .cover{background:linear-gradient(165deg,#1a0f0f 0%, #2b1216 55%, #0c2038 100%);color:#fff;justify-content:space-between}
+  .cover .logo{font-weight:900;font-size:26px;letter-spacing:.05em}
+  .cover .logo small{display:block;font-size:8px;letter-spacing:.42em;font-weight:600;color:#b8c4d0}
+  .cover-art{background:radial-gradient(circle at 50% 45%, rgba(231,76,60,.7), rgba(231,76,60,.15) 60%, transparent 78%);border:1px solid rgba(255,255,255,.15);border-radius:16px;height:88mm;display:flex;align-items:center;justify-content:center;text-align:center;font-size:11px;color:#e8d5d0;padding:16px;margin:10mm 0}
+  .cover h1{font-size:30px;font-weight:850}
+  .cover .sub{color:#e8d5d0;font-size:13.5px;margin-top:6px}
+  .cover .footer-cover{display:flex;justify-content:space-between;align-items:flex-end;font-size:10.5px;color:#b8c4d0}
+  .badge-manual{background:var(--amber);color:var(--navy-dark);font-weight:800;font-size:10.5px;letter-spacing:.12em;padding:5px 12px;border-radius:99px;align-self:flex-start}
+
+  /* componentes */
+  .box{background:var(--bg-soft);border:1px solid var(--line);border-radius:10px;padding:10px 12px;margin:8px 0}
+  .box-warm{background:var(--bg-warm);border:1px solid var(--amber);border-radius:10px;padding:10px 12px;margin:8px 0}
+  .steps-num{counter-reset:s;list-style:none;margin:8px 0}
+  .steps-num li{counter-increment:s;display:flex;gap:10px;padding:5px 0;align-items:flex-start}
+  .steps-num li::before{content:counter(s);min-width:20px;height:20px;border-radius:50%;background:var(--navy);color:#fff;font-weight:800;font-size:11px;display:flex;align-items:center;justify-content:center;margin-top:1px}
+  table{border-collapse:collapse;width:100%;font-size:11px;margin:8px 0}
+  th{background:var(--navy);color:#fff;text-align:left;padding:6px 8px;font-size:10px}
+  td{padding:5px 8px;border-top:1px solid var(--line);vertical-align:top}
+  tr:nth-child(even) td{background:#fafbfc}
+  td b{color:var(--navy)}
+  .chip{display:inline-block;background:var(--navy);color:#fff;font-weight:800;font-size:10px;padding:2px 8px;border-radius:99px;margin-right:4px}
+  ul.dots{margin:6px 0 6px 16px}
+  ul.dots li{padding:2.5px 0}
+
+  /* diagrama dispositivo */
+  .device{background:linear-gradient(145deg,#241318,#12090b);border-radius:14px;padding:14px;display:grid;grid-template-columns:1fr 1fr;gap:10px;color:#fff;margin:10px 0}
+  .device .screen{grid-column:1/-1;background:radial-gradient(circle at 50% 45%, rgba(231,76,60,.55), transparent 72%);border:1px solid rgba(255,255,255,.2);border-radius:10px;height:34mm;display:flex;align-items:center;justify-content:center;font-size:10px;color:#e8d5d0;text-align:center;padding:10px}
+  .btn-diag{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.25);border-radius:8px;padding:8px;font-size:10.5px}
+  .btn-diag b{color:var(--amber);display:block;font-size:12px;margin-bottom:2px}
+
+  .zona-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin:8px 0}
+  .zona{background:#fff;border:1px solid var(--line);border-radius:8px;padding:8px;font-size:10.5px;text-align:center}
+  .zona b{display:block;font-size:11px}
+
+  .qr{width:22mm;height:22mm;border:2px solid var(--navy);border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:8.5px;text-align:center;color:var(--gray);padding:3px}
+
+  .print-hint{max-width:148mm;margin:14px auto;background:var(--navy);color:#fff;border-radius:10px;padding:12px 16px;font-size:12.5px}
+</style>
+</head>
+<body>
+
+<div class="print-hint no-print">🖨️ <b>Para generar el PDF</b>: Cmd+P → tamaño A5 → márgenes: ninguno → "Guardar como PDF". Este mismo archivo sirve como página web destino del QR de la caja. <span style="opacity:.7">Las zonas marcadas son placeholders de foto/QR reales.</span></div>
+
+<!-- PÁGINA 1 — PORTADA -->
+<div class="page cover">
+  <div style="display:flex;justify-content:space-between;align-items:flex-start">
+    <div class="logo">EKIO<small>LIGHT</small></div>
+    <span class="badge-manual">MANUAL DE USO · ESPAÑOL</span>
+  </div>
+  <div>
+    <div class="cover-art">📷 FOTO: el Core en primer plano, LEDs encendidos con glow rojo, sobre fondo oscuro. Sin texto sobre la imagen.</div>
+    <h1>Core</h1>
+    <p class="sub">Terapia de luz roja local y portátil · 660 nm + 850 nm</p>
+  </div>
+  <div class="footer-cover">
+    <span>electrosmogespana.com</span>
+    <span>La tecnología que te cuida</span>
+  </div>
+</div>
+
+<!-- PÁGINA 2 — BIENVENIDA + CAJA -->
+<div class="page">
+  <p class="kicker">Bienvenido</p>
+  <h2>Acabas de darle a tu cuerpo la luz que le faltaba</h2>
+  <p>Tu <b>EKIO Light Core</b> es un dispositivo de <b>fotobiomodulación</b>: emite luz roja (660 nm) e infrarroja cercana (850 nm) — las dos longitudes de onda más estudiadas de esta terapia — para estimular la producción de energía de tus células, justo en la zona donde lo apliques.</p>
+  <p>La luz penetra en el tejido, las mitocondrias la absorben y la zona responde: reparación, recuperación y bienestar. Sin batería que cambiar, sin apps, sin complicaciones.</p>
+
+  <div class="box-warm">
+    <b>💡 ¿Por qué el 850 nm "no se ve"?</b><br>
+    El infrarrojo cercano es invisible al ojo humano. Verás encendidos los LEDs rojos; los infrarrojos trabajan aunque apenas los percibas. Es normal — y es señal de que la luz llega más profundo.
+  </div>
+
+  <h3>📦 Qué hay en la caja</h3>
+  <ul class="dots">
+    <li>1 × EKIO Light Core</li>
+    <li>1 × Cable de carga USB-C</li>
+    <li>1 × Este manual</li>
+  </ul>
+
+  <h3>🔋 Antes del primer uso: carga completa</h3>
+  <ol class="steps-num">
+    <li>Conecta el cable USB-C al puerto de carga del Core.</li>
+    <li><b>Luz roja parpadeando</b> = cargando.</li>
+    <li><b>Luz verde fija</b> = carga completa. Desconecta el cable.</li>
+    <li>Si la batería baja de nivel, el indicador verde parpadea: recárgalo pronto (protección automática de batería incluida).</li>
+  </ol>
+  <p style="font-size:11px;color:var(--gray)">Consejo: usa el Core siempre <b>desconectado del cable</b> — para eso tiene batería.</p>
+  <span class="pagefoot">EKIO LIGHT · CORE</span><span class="pagenum">2</span>
+</div>
+
+<!-- PÁGINA 3 — CONOCE TU CORE -->
+<div class="page">
+  <p class="kicker">Conoce tu Core</p>
+  <h2>Dos botones. Todo bajo control.</h2>
+  <div class="device">
+    <div class="screen">📷 FOTO/ILUSTRACIÓN: frontal del Core con los 13 LEDs numerados, pantalla y botones señalizados con flechas</div>
+    <div class="btn-diag"><b>⏻ Encendido</b>Mantén pulsado 2 segundos para encender. Pulsación breve durante el uso: apagado manual.</div>
+    <div class="btn-diag"><b>M · Modos</b>Cambia el modo de luz con cada pulsación. La pantalla muestra el modo 1 segundo y vuelve al tiempo.</div>
+    <div class="btn-diag"><b>T · Temporizador</b>Elige la duración de la sesión: 5 / 10 / 15 / 20 / 25 / 30 minutos.</div>
+    <div class="btn-diag"><b>☀ Brillo</b>5 niveles de intensidad, del 20% al 100%. Pulsa brevemente para ajustar.</div>
+  </div>
+
+  <h3>Los 4 modos de luz</h3>
+  <table>
+    <thead><tr><th>Modo</th><th>Pantalla</th><th>Qué hace</th><th>Ideal para</th></tr></thead>
+    <tbody>
+      <tr><td><b>Rojo + Infrarrojo</b></td><td>RR</td><td>660 + 850 nm a la vez (modo por defecto)</td><td>Uso general — el que más usarás</td></tr>
+      <tr><td><b>Solo Rojo</b></td><td>R</td><td>660 nm</td><td>Piel y zonas superficiales</td></tr>
+      <tr><td><b>Solo Infrarrojo</b></td><td>IR</td><td>850 nm</td><td>Músculo y articulación profunda</td></tr>
+      <tr><td><b>Pulsado 10 Hz</b></td><td>P</td><td>Rojo + IR en pulsos de 10 Hz</td><td>Sesiones de recuperación</td></tr>
+    </tbody>
+  </table>
+  <p style="font-size:11px;color:var(--gray)">El Core <b>recuerda tus ajustes</b> (modo, brillo y tiempo) entre sesiones. Se apaga solo al terminar el temporizador.</p>
+  <span class="pagefoot">EKIO LIGHT · CORE</span><span class="pagenum">3</span>
+</div>
+
+<!-- PÁGINA 4 — PROTOCOLO EKIO -->
+<div class="page">
+  <p class="kicker">El método EKIO</p>
+  <h2>Tu protocolo: 10 minutos, casi a diario</h2>
+  <ol class="steps-num">
+    <li>Coloca el Core a <b>20 cm</b> de la zona, con la piel limpia y descubierta.</li>
+    <li>Elige <b>10 minutos</b> en el temporizador (T) y el modo <b>RR</b>.</li>
+    <li>Relájate. El Core se apaga solo al terminar.</li>
+    <li>Frecuencia: <b>mantenimiento</b> 1 sesión/día · <b>moderada</b> 2/día · <b>intensiva</b> 3/día.</li>
+    <li>Sé constante: los resultados se valoran a partir de <b>4–6 semanas</b> de uso regular.</li>
+  </ol>
+
+  <h3>Las zonas favoritas</h3>
+  <div class="zona-grid">
+    <div class="zona">🦵 <b>Rodilla</b>antes/después del deporte</div>
+    <div class="zona">💆 <b>Cuello</b>tensión de pantallas</div>
+    <div class="zona">💪 <b>Hombro</b>sobrecargas</div>
+    <div class="zona">🙂 <b>Cara</b>colágeno y luminosidad</div>
+    <div class="zona">🦶 <b>Pies y manos</b>articulaciones pequeñas</div>
+    <div class="zona">🧳 <b>De viaje</b>tu rutina, donde estés</div>
+  </div>
+
+  <h3>Tres protocolos exprés</h3>
+  <table>
+    <thead><tr><th>Objetivo</th><th>Pauta</th><th>Modo</th></tr></thead>
+    <tbody>
+      <tr><td><b>Dolor articular</b></td><td>10 min sobre la articulación · 5 días/semana</td><td>RR o IR</td></tr>
+      <tr><td><b>Recuperación deportiva</b></td><td>10 min en las 2 h posteriores al ejercicio</td><td>RR o P</td></tr>
+      <tr><td><b>Facial</b></td><td>10 min a 20 cm · 3–4 días/semana · por la noche</td><td>R</td></tr>
+    </tbody>
+  </table>
+  <div class="box-warm" style="font-size:11px">📱 <b>¿Quieres protocolos más completos?</b> Escanea el QR de la última página: guías por objetivo, vídeos y novedades de la gama EKIO Light.</div>
+  <span class="pagefoot">EKIO LIGHT · CORE</span><span class="pagenum">4</span>
+</div>
+
+<!-- PÁGINA 5 — SEGURIDAD Y FICHA -->
+<div class="page">
+  <p class="kicker">Uso seguro</p>
+  <h2>Precauciones</h2>
+  <ul class="dots">
+    <li><b>No mires directamente a los LEDs</b> durante el uso.</li>
+    <li>No recomendado para <b>niños ni embarazadas</b>.</li>
+    <li>Si tomas <b>medicación fotosensibilizante</b> o tienes sensibilidad cutánea, consulta antes a tu médico. Si notas malestar, interrumpe el uso.</li>
+    <li><b>No lo sumerjas en agua</b> ni lo uses mojado.</li>
+    <li>Límpialo desconectado, con un paño seco o ligeramente húmedo.</li>
+    <li>Guárdalo en un lugar fresco y seco, lejos de luz solar intensa y altas temperaturas.</li>
+    <li>Usa solo los accesorios incluidos.</li>
+  </ul>
+
+  <h2 style="margin-top:14px">Ficha técnica</h2>
+  <table>
+    <tbody>
+      <tr><td><b>LEDs</b></td><td>13 (chip dual rojo + NIR)</td><td><b>Irradiancia</b></td><td>&gt;150 mW/cm² en contacto</td></tr>
+      <tr><td><b>Longitudes</b></td><td>660 nm + 850 nm</td><td><b>CEM</b></td><td>0 µT (safe) · cero flicker</td></tr>
+      <tr><td><b>Modos</b></td><td>RR · R · IR · Pulsado 10 Hz</td><td><b>Brillo</b></td><td>5 niveles (20–100%)</td></tr>
+      <tr><td><b>Temporizador</b></td><td>5–30 min · apagado automático</td><td><b>Batería</b></td><td>Recargable · USB-C</td></tr>
+      <tr><td><b>Material</b></td><td>Aluminio + policarbonato</td><td><b>Vida útil</b></td><td>&gt;20.000 h</td></tr>
+      <tr><td><b>Dimensiones</b></td><td>162 × 90 × 45 mm</td><td><b>Modelo</b></td><td>EKIO Light Core</td></tr>
+    </tbody>
+  </table>
+
+  <div class="box" style="font-size:10.5px;color:var(--gray)">
+    Los dispositivos Ekio Light son equipos de bienestar para uso doméstico. No son productos sanitarios y no están destinados a diagnosticar, tratar o curar enfermedades. Ante cualquier patología, consulta a un profesional de la salud. No deseches este producto con la basura doméstica: llévalo a un punto de recogida de residuos electrónicos (RAEE).
+  </div>
+  <span class="pagefoot">EKIO LIGHT · CORE</span><span class="pagenum">5</span>
+</div>
+
+<!-- PÁGINA 6 — GARANTÍA + SIGUIENTE PASO -->
+<div class="page" style="justify-content:space-between">
+  <div>
+    <p class="kicker">Estamos contigo</p>
+    <h2>Garantía y soporte</h2>
+    <div class="box-warm">
+      <b>↩️ Devolución de 30 días.</b> Pruébalo con calma. Si no es para ti, te devolvemos el dinero — sin preguntas. Escríbenos y lo gestionamos.
+    </div>
+    <p style="margin-top:10px"><b>¿Dudas, protocolos o soporte?</b><br>
+    📧 [email de soporte] · 💬 WhatsApp: [número]<br>
+    🌐 electrosmogespana.com</p>
+
+    <h2 style="margin-top:16px">Tu siguiente paso en la luz</h2>
+    <p>El Core es la puerta de entrada. Cuando quieras cubrir el cuerpo completo o más espectro, la gama crece contigo:</p>
+    <table>
+      <tbody>
+        <tr><td><b>Deep 5</b></td><td>El panel de iniciación — con la exclusiva 727 nm</td></tr>
+        <tr><td><b>Bio Regén 7</b></td><td>Piel y recuperación profunda (azul 485 + IR 940)</td></tr>
+        <tr><td><b>Bio Spectrum 11 ⭐</b></td><td>El espectro completo del sol — único con UV-A+UV-B</td></tr>
+      </tbody>
+    </table>
+    <p style="font-size:11px;color:var(--gray)">Como cliente EKIO Light tienes condiciones especiales al ampliar tu equipo: escríbenos.</p>
+  </div>
+  <div style="display:flex;gap:12px;align-items:center;justify-content:space-between;margin-top:10px">
+    <div>
+      <b style="font-size:12px">Escanea para protocolos completos,<br>vídeos y tu registro de garantía:</b>
+      <p style="font-size:10px;color:var(--gray);margin-top:4px">electrosmogespana.com/pages/core</p>
+    </div>
+    <div class="qr">[QR → página Core con captura de email]</div>
+  </div>
+  <span class="pagefoot">EKIO LIGHT · CORE · Manual v1 · 07/2026</span><span class="pagenum">6</span>
+</div>
+
+</body>
+</html>
