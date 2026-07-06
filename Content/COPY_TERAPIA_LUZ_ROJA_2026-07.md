@@ -113,7 +113,7 @@ Cada tarjeta → enlace al protocolo/guía correspondiente del blog (material ya
 - ✓ Patente española · registrada en 157 países
 - ✓ Cero flicker · bajo CEM verificado
 - ✓ Diseñado y soportado desde España
-- ✓ Envío gratis · pago a plazos · [garantía X — CONFIRMAR política en Ekio Light]
+- ✓ Envío gratis · pago a plazos · **Devolución de 30 días** *(confirmado Javier 6-jul: Ekio Light = 30 días, NO los 90 de SPIRO — no mezclar nunca las dos garantías; la barra de anuncio en páginas Ekio Light debe mostrar la de 30 días)*
 
 ### 7. FAQ (schema FAQPage)
 1. **¿Qué es la terapia de luz roja y para qué sirve?** — resumen definicional + beneficios con moderación de claims
