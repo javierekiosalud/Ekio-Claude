@@ -126,9 +126,11 @@ Pero la luz sola no basta. Por eso se entrega como un sistema completo.
 | 🟡 | **Bombilla Ámbar 1800K** | La luz del atardecer — no suprime la melatonina y prepara el sueño profundo. |
 | 💊 | **Vitamina C de Ekio** | Antioxidante sinérgico — amplifica la respuesta redox de la PBM. |
 | 💊 | **Vitamina B50 de Ekio** *(NUEVO en el sistema)* | Complejo B para el metabolismo energético celular — el combustible de la reparación. |
-| 📘 | **Guía PDF "Regeneración"** | Protocolos: luz, nutrición, ritmo circadiano e higiene electromagnética. |
+| 📱 | **Guía de Uso Interactiva Ekio Light** *(gratis)* | Protocolos por objetivo — sueño, recuperación, dolor, antiaging, metabolismo — con distancias y tiempos. |
+| 🤖 | **App Ekio Coach — acceso completo** *(gratis)* | Coach virtual del estilo de vida Ekio: aprende el porqué, integra la luz en tu rutina y evoluciona hacia el protocolo 360. |
 
-> **Nota vs Deep 5**: el sistema del Deep 5 lleva bombilla ámbar + Vitamina C. El Bio Regen 7 amplía a **6 componentes** añadiendo la **bombilla roja** y la **Vitamina B50**. En Shopify montar como bundle y reflejarlo en la foto "sistema completo".
+> **Nota vs Deep 5**: el sistema del Deep 5 lleva bombilla ámbar + Vitamina C. El Bio Regen 7 amplía añadiendo **bombilla roja**, **Vitamina B50** y refleja los dos activos digitales gratuitos (Guía de Uso Interactiva + App Ekio Coach). En Shopify montar como bundle y reflejarlo en la foto "sistema completo".
+> **Ojo**: NO es una "guía PDF Regeneración" — son la **Guía de Uso Interactiva** y la **App Ekio Coach** (activos digitales gratuitos, comunes a la gama Ekio Light).
 
 ---
 
