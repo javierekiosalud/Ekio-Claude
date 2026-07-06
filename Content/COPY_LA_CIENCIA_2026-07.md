@@ -93,25 +93,33 @@ Cierre de sección: `¿Quieres profundizar más? Todo el Learning Center oficial
 
 ---
 
-## 5. CÓMO LO MEDIMOS
+## 5. STROOM MASTER® Y LA ELECTRICIDAD SUCIA *(decisión Javier 6-jul: la página habla solo de SPIRO, Stroom Master, NOXTAK y Joaquín Machado — fuera mediciones de Javier y estudios de EKIO)*
 
-**H2:** `Y además, lo puedes medir en tu propia casa`
-> La evidencia de laboratorio está arriba. Pero hay otra que puedes generar tú: medir tu casa antes y después. Nuestros especialistas usan medidores profesionales de campos electromagnéticos y de electricidad sucia en cada estudio EMF — y tú puedes hacer lo mismo con un medidor doméstico.
+**H2:** `Stroom Master®: la ciencia contra la electricidad sucia`
+> Los filtros SPIRO actúan sobre la contaminación que viaja por el aire. Pero hay otra que viaja **por dentro de tus cables**: cada dispositivo inyecta armónicos y transitorios de vuelta a la instalación — la **electricidad sucia**. Los SPIRO de una habitación no pueden alcanzar esa fuente.
+>
+> **El problema de los filtros convencionales**: reducen armónicos, pero generan sus propias emisiones de baja frecuencia al funcionar — por eso muchas personas electrosensibles se sienten peor con ellos. NOXTAK trabajó años con personas EHS hasta desarrollar la respuesta.
+>
+> **Stroom Master®** es un filtro electrónico activo de paso bajo con **9 películas SPIRO integradas** que filtran las emisiones del propio filtro. El único diseñado específicamente para electrosensibles — el complemento natural de todo sistema SPIRO.
 
-- CTA 1: `Ver medidores EMF →` (colección)
-- CTA 2: `Pedir un Estudio EMF de mi hogar →` (Consultoría)
-- **[VÍDEO]**: aquí vive el vídeo de Javier midiendo en directo (el retirado de la home) — con botón de play manual, no autoplay.
+Beneficios al limpiar la red (fuente: Learning Center): mejora del Wi-Fi · protección de aparatos · mayor rendimiento de SPIRO · ciberseguridad.
+CTAs: `Ver Stroom Master →` (PDP/colección) · `La aplicación completa en el Learning Center →` (spirosolution.com/es/aplicaciones/dirty-electricity/)
 
 ---
 
-## 6. NUESTROS ESPECIALISTAS *(captura "especialista en electrosmog" — 1.019 imp/mes sin dueño)*
+## 6. EL CREADOR: JOSÉ JOAQUÍN MACHADO
 
-**H2:** `Especialistas en electrosmog, no vendedores de miedo`
-> Detrás de EKIO está [Javier Andrés + presentación breve: años midiendo hogares, formación, apariciones en prensa — Europa Press, La Razón, El Español…]. Hemos medido cientos de hogares españoles y estudiado los casos de más de 5.000 clientes. No creemos en el alarmismo: creemos en medir, filtrar y comprobar.
+**H2:** `José Joaquín Machado, el investigador detrás de SPIRO®`
+> **José Joaquín Machado** es el creador de la tecnología SPIRO® y fundador de **NOXTAK®**. Más de una década investigando el electrosmog, desde las nanopartículas de oro (JASRI, 2012) hasta el nanomagnetismo aplicado del filtrado pasivo SPIRO.
 >
-> Si tu caso necesita más que un filtro — teletrabajo intensivo, electrohipersensibilidad, una antena cerca, un piso con domótica — pide un **Estudio EMF personalizado**: medimos tu casa estancia por estancia y te entregamos un plan priorizado.
+> Firmó el **análisis bioenergético GDV sobre radiación de telefonía móvil (2021)** y el estudio de **energía ambiental en zonas de alta contaminación 4G/5G/Wi-Fi/Bluetooth**, y lideró el seguimiento de **357 pacientes EHS durante 5 años** — más de 1.500 casos documentados. Bajo su dirección, SPIRO ha sido premiada en Ginebra, Edison Awards y German Innovation Award.
 
-CTA: `CONSULTORÍA 365 — Estudio EMF de tu hogar →`
+[Completar con bio oficial de Noxtak: formación, cargos, hitos con año + foto de prensa]
+CTA: `Conoce NOXTAK® →` (noxtak.com)
+Schema: **Person** (José Joaquín Machado) añadido al JSON-LD — GEO: los motores IA resuelven "¿quién creó SPIRO?" citándonos.
+FAQs añadidas: "¿Quién es Joaquín Machado?" y "¿Qué es el Stroom Master y en qué se diferencia de otros filtros?"
+
+> Nota: la keyword "especialista en electrosmog" (1.019 imp) que iba a capturar esta página pasa a trabajarse en la página de Consultoría 365 / Sobre nosotros — NO aquí.
 
 ---
 
