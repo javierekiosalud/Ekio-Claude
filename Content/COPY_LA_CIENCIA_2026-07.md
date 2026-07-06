@@ -119,7 +119,7 @@ CTA: `Conoce NOXTAK® →` (noxtak.com)
 Schema: **Person** (José Joaquín Machado) añadido al JSON-LD — GEO: los motores IA resuelven "¿quién creó SPIRO?" citándonos.
 FAQs añadidas: "¿Quién es Joaquín Machado?" y "¿Qué es el Stroom Master y en qué se diferencia de otros filtros?"
 
-> Nota: la keyword "especialista en electrosmog" (1.019 imp) que iba a capturar esta página pasa a trabajarse en la página de Consultoría 365 / Sobre nosotros — NO aquí.
+> Nota: la keyword "especialista en electrosmog" (1.019 imp) NO se trabaja en esta página. Decisión Javier 6-jul: **en Consultoría no se hace nada — se queda tal y como está**. La keyword queda aparcada sin página asignada (si algún día se retoma, sería en el blog o en Sobre nosotros, no en Consultoría).
 
 ---
 
