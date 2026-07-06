@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>La Ciencia de SPIRO®: Estudios, Premios y Evidencia | EKIO</title>
+<meta name="description" content="13 estudios de laboratorios como MORLAB e IGEF, 3 premios internacionales y 357 pacientes EHS estudiados. La evidencia detrás de los filtros SPIRO®, explicada y enlazada.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://electrosmogespana.com/"},
+        {"@type": "ListItem", "position": 2, "name": "La Ciencia", "item": "https://electrosmogespana.com/pages/la-ciencia"}
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "¿SPIRO tiene estudios científicos?", "acceptedAnswer": {"@type": "Answer", "text": "Sí: 13 documentos publicados entre laboratorios acreditados (MORLAB), institutos de bioensayo (IGEF, Alemania), un estudio longitudinal con 357 pacientes electrohipersensibles (2014-2018) y un artículo en revista. Todos están enlazados en esta página."}},
+        {"@type": "Question", "name": "¿Quién ha desarrollado la tecnología SPIRO?", "acceptedAnswer": {"@type": "Answer", "text": "NOXTAK, tras más de una década de investigación en nanomagnetismo aplicado iniciada con el descubrimiento de las propiedades de las nanopartículas de oro (JASRI, 2012). EKIO es su distribuidor oficial en España."}},
+        {"@type": "Question", "name": "¿SPIRO reduce la radiación del móvil?", "acceptedAnswer": {"@type": "Answer", "text": "Los tests SAR del laboratorio MORLAB midieron reducción de los picos de emisión, y los tests OTA muestran que la señal del móvil no empeora con SPIRO. Los informes completos están enlazados en la página."}},
+        {"@type": "Question", "name": "¿Qué premios tiene la tecnología SPIRO?", "acceptedAnswer": {"@type": "Answer", "text": "Medalla de Oro en Inventions de Genève, Plata en los Edison Awards y ganadora del German Innovation Award."}},
+        {"@type": "Question", "name": "¿Puedo comprobar los resultados en mi casa?", "acceptedAnswer": {"@type": "Answer", "text": "Sí: con un medidor EMF antes/después, o pidiendo un Estudio EMF a los especialistas de EKIO. Además, todos los filtros SPIRO tienen 90 días de garantía de devolución."}}
+      ]
+    }
+  ]
+}
+</script>
+<style>
+  :root{
+    --navy:#132f4e; --navy-dark:#0c2038; --amber:#e8a13c; --amber-dark:#c9852a;
+    --ink:#1b2430; --gray:#5c6773; --bg-soft:#f5f7fa; --bg-warm:#faf6ef;
+    --line:#e3e8ee; --star:#f5a623; --ok:#2e8b57;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:#fff;line-height:1.55}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+  h1,h2,h3{line-height:1.2}
+  h2{font-size:clamp(22px,3.6vw,30px);margin-bottom:10px}
+  section{padding:48px 0}
+  .kicker{font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--amber-dark);font-weight:700;margin-bottom:8px}
+  .btn{display:inline-block;border:none;cursor:pointer;text-decoration:none;font-weight:700;border-radius:8px;text-align:center}
+  .btn-primary{background:var(--navy);color:#fff;padding:14px 24px;font-size:15px}
+  .btn-ghost{background:transparent;color:var(--navy);padding:13px 20px;font-size:14px;border:2px solid var(--navy)}
+  .btn-amber{background:var(--amber);color:var(--navy-dark);padding:14px 24px;font-size:15px}
+  .note{display:inline-block;background:#fff8e6;border:1px dashed var(--amber-dark);color:#7a5b17;font-size:12px;padding:4px 10px;border-radius:6px;margin-top:10px}
+
+  .bar{background:var(--navy-dark);color:#fff;font-size:13px;font-weight:600;letter-spacing:.06em;text-align:center;height:38px;overflow:hidden}
+  .bar-inner{display:flex;flex-direction:column;animation:rotateBar 9s infinite}
+  .bar-inner span{height:38px;display:flex;align-items:center;justify-content:center;padding:0 12px}
+  @keyframes rotateBar{0%,28%{transform:translateY(0)}33%,61%{transform:translateY(-38px)}66%,94%{transform:translateY(-76px)}100%{transform:translateY(0)}}
+
+  header{position:sticky;top:0;background:#fff;border-bottom:1px solid var(--line);z-index:50}
+  .nav{display:flex;align-items:center;justify-content:space-between;height:62px}
+  .logo{font-weight:900;font-size:24px;letter-spacing:.05em;color:var(--ink);text-decoration:none}
+  .logo small{display:block;font-size:8px;letter-spacing:.42em;font-weight:600;color:var(--gray)}
+  .menu{display:none;gap:26px;font-size:14px;font-weight:600}
+  .menu a{color:var(--ink);text-decoration:none}
+  .menu a.hl{color:var(--amber-dark)}
+  .menu a.active{border-bottom:2.5px solid var(--amber)}
+  .nav-icons{display:flex;gap:16px;font-size:20px}
+  .burger{font-size:24px;background:none;border:none;cursor:pointer}
+  @media(min-width:880px){.menu{display:flex}.burger{display:none}}
+
+  /* HERO */
+  .hero{background:var(--navy);color:#fff;padding:60px 0 50px}
+  .hero h1{font-size:clamp(28px,5vw,44px);font-weight:850;max-width:22ch}
+  .hero p.lead{margin:18px 0 24px;font-size:17px;color:#cfd9e4;max-width:62ch}
+  .chips{display:flex;flex-wrap:wrap;gap:10px}
+  .chips a{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.28);color:#fff;padding:9px 16px;border-radius:99px;font-size:13.5px;font-weight:700;text-decoration:none}
+  .chips a:hover{background:var(--amber);color:var(--navy-dark);border-color:var(--amber)}
+  .stats{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:34px}
+  @media(min-width:760px){.stats{grid-template-columns:repeat(4,1fr)}}
+  .stats div{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.16);border-radius:12px;padding:16px 12px;text-align:center}
+  .stats b{display:block;font-size:26px;color:var(--amber)}
+  .stats span{font-size:12.5px;color:#cfd9e4}
+
+  /* PASOS */
+  .steps{display:grid;gap:16px;margin-top:24px}
+  @media(min-width:760px){.steps{grid-template-columns:repeat(3,1fr)}}
+  .step{border:1px solid var(--line);border-radius:14px;padding:22px;background:#fff}
+  .step .num{width:34px;height:34px;border-radius:50%;background:var(--navy);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;margin-bottom:12px}
+  .step h3{font-size:16.5px;margin-bottom:8px}
+  .step p{font-size:14px;color:var(--gray)}
+  .callout{margin-top:26px;background:var(--bg-warm);border-left:4px solid var(--amber);border-radius:0 12px 12px 0;padding:22px}
+  .callout h3{font-size:17px;margin-bottom:8px}
+  .callout p{font-size:15px;color:#40474f;max-width:75ch}
+
+  /* ESTUDIOS */
+  .studies{background:var(--bg-soft)}
+  .cat{margin-top:30px}
+  .cat h3{font-size:17px;display:flex;align-items:center;gap:8px;margin-bottom:12px}
+  .tbl-scroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:#fff}
+  table{border-collapse:collapse;width:100%;min-width:600px;font-size:13.5px}
+  th{background:var(--navy);color:#fff;text-align:left;padding:10px 14px;font-size:12.5px;letter-spacing:.03em}
+  td{padding:10px 14px;border-top:1px solid var(--line);vertical-align:top}
+  tr:nth-child(even) td{background:#fafbfc}
+  td a.pdf{color:var(--navy);font-weight:700;white-space:nowrap}
+  td a.pdf::before{content:"📄 "}
+
+  /* PREMIOS */
+  .awards{display:grid;gap:16px;margin-top:24px}
+  @media(min-width:760px){.awards{grid-template-columns:repeat(3,1fr)}}
+  .award{border:1px solid var(--line);border-radius:14px;padding:26px 20px;text-align:center;background:#fff}
+  .award .medal{font-size:38px}
+  .award h3{font-size:16px;margin:10px 0 4px}
+  .award p{font-size:13.5px;color:var(--gray)}
+  .award b{color:var(--amber-dark)}
+
+  /* MEDIR */
+  .measure{background:var(--bg-warm)}
+  .measure .inner{display:grid;gap:24px}
+  @media(min-width:880px){.measure .inner{grid-template-columns:1fr 1fr;align-items:center}}
+  .video-ph{background:linear-gradient(145deg,#26476e,#0c2038);border-radius:14px;min-height:220px;display:flex;align-items:center;justify-content:center;color:#fff;flex-direction:column;gap:10px;cursor:pointer}
+  .video-ph .play{width:60px;height:60px;border-radius:50%;background:var(--amber);display:flex;align-items:center;justify-content:center;font-size:22px;color:var(--navy-dark)}
+  .video-ph small{font-size:12px;color:#cfd9e4;padding:0 20px;text-align:center}
+
+  /* ESPECIALISTAS */
+  .team .box{display:grid;gap:22px;border:1px solid var(--line);border-radius:16px;padding:28px;background:#fff}
+  @media(min-width:760px){.team .box{grid-template-columns:200px 1fr;align-items:center}}
+  .avatar-ph{background:linear-gradient(145deg,#d9c09a,#b98d5f);border-radius:14px;min-height:200px;display:flex;align-items:flex-end;justify-content:center;color:#fff;font-size:11.5px;text-align:center;padding:10px}
+  .team p{font-size:15px;color:#40474f;margin:10px 0}
+
+  /* NO HACE */
+  .nolist{list-style:none;margin-top:18px;max-width:760px}
+  .nolist li{padding:12px 0;border-bottom:1px solid var(--line);font-size:15.5px}
+  .nolist li b.no{color:#c0392b}
+  .nolist li b.si{color:var(--ok)}
+
+  /* FAQ */
+  .faq details{border-bottom:1px solid var(--line);padding:15px 0}
+  .faq summary{font-weight:700;font-size:15.5px;cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:14px}
+  .faq summary::after{content:"+";font-size:20px;color:var(--amber-dark)}
+  .faq details[open] summary::after{content:"–"}
+  .faq details p{margin-top:10px;color:var(--gray);font-size:14.5px;max-width:72ch}
+
+  .final{background:var(--navy-dark);color:#fff;text-align:center}
+  .final h2{color:#fff}
+  .final .ctas{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin-top:22px}
+  .final .btn-ghost{color:#fff;border-color:#fff}
+
+  footer{background:#0a1a2c;color:#8fa1b3;font-size:13px;text-align:center;padding:26px 20px}
+  .maqueta-tag{position:fixed;top:0;left:0;background:#d33;color:#fff;font-size:10px;font-weight:800;letter-spacing:.08em;padding:3px 10px;z-index:100;border-radius:0 0 8px 0}
+  .crumbs{font-size:13px;color:var(--gray);padding:14px 0}
+  .crumbs a{color:var(--gray)}
+</style>
+</head>
+<body>
+<div class="maqueta-tag">MAQUETA LA CIENCIA — 07/2026</div>
+
+<div class="bar">
+  <div class="bar-inner">
+    <span>✓ 90 DÍAS DE GARANTÍA — SI NO NOTAS LA DIFERENCIA, TE DEVOLVEMOS EL DINERO</span>
+    <span>✓ ENVÍO GRATIS 24/48h EN ESPAÑA</span>
+    <span>✓ PAGA EN 12 MESES SIN INTERESES CON SEQURA</span>
+  </div>
+</div>
+
+<header>
+  <div class="wrap nav">
+    <a class="logo" href="home-v2.html">EKIO<small>ELECTROSMOG</small></a>
+    <nav class="menu">
+      <a href="coleccion-spiro-v2.html">Tienda</a>
+      <a href="#" class="active">La Ciencia</a>
+      <a href="#">Terapia de Luz Roja</a>
+      <a href="#" class="hl">¿Qué SPIRO necesito?</a>
+      <a href="#">Contacto</a>
+    </nav>
+    <div class="nav-icons"><span>🔍</span><span>🛒</span><button class="burger">☰</button></div>
+  </div>
+</header>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="wrap">
+    <h1>No te pedimos que creas. Te enseñamos las pruebas.</h1>
+    <p class="lead">Una década de investigación, 13 estudios de laboratorio descargables, 3 premios internacionales de innovación y 357 pacientes electrohipersensibles estudiados durante 5 años. Esta página existe para que compruebes la evidencia tú mismo.</p>
+    <div class="chips">
+      <a href="#como">Cómo funciona</a>
+      <a href="#estudios">Estudios</a>
+      <a href="#premios">Premios</a>
+      <a href="#especialistas">Nuestros especialistas</a>
+    </div>
+    <div class="stats">
+      <div><b>13</b><span>estudios publicados</span></div>
+      <div><b>3</b><span>premios internacionales</span></div>
+      <div><b>357</b><span>pacientes EHS (2014–2018)</span></div>
+      <div><b>+1.500</b><span>casos documentados</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="wrap crumbs"><a href="home-v2.html">Inicio</a> / <b>La Ciencia</b></div>
+
+<!-- CÓMO FUNCIONA -->
+<section id="como">
+  <div class="wrap">
+    <p class="kicker">La explicación simple</p>
+    <h2>Cómo funciona SPIRO®, en 3 pasos</h2>
+    <div class="steps">
+      <div class="step"><div class="num">1</div><h3>SPIRO® genera un campo coherente</h3><p>El material, basado en nanopartículas de oro y nanomagnetismo aplicado, crea un campo ordenado a su alrededor — sin pilas, sin corriente, sin mantenimiento.</p></div>
+      <div class="step"><div class="num">2</div><h3>Los CEM artificiales se filtran</h3><p>Al atravesar ese campo, las emisiones de móviles, Wi-Fi y antenas se reorganizan: la señal sigue funcionando, la desorganización que afecta a tu biología se reduce.</p></div>
+      <div class="step"><div class="num">3</div><h3>Tu cuerpo responde a la coherencia</h3><p>Los estudios de variabilidad cardíaca y calidad del sueño (más abajo) midieron esa respuesta en personas reales.</p></div>
+    </div>
+    <div class="callout">
+      <h3>Por qué bloquear la señal es mala idea (y SPIRO® no la bloquea)</h3>
+      <p>Los productos que bloquean o apantallan obligan a tu móvil a <b>subir la potencia</b> para mantener la conexión — más emisión, no menos. SPIRO® trabaja al revés: filtra sin bloquear. La prueba: los tests OTA muestran que con SPIRO la señal <b>mejora</b> mientras la exposición se reduce. No es la intensidad de la señal: es su polarización.</p>
+      <p style="margin-top:10px"><a href="#" style="color:var(--navy);font-weight:700">¿Quieres la física completa? → Página de Tecnología SPIRO</a></p>
+    </div>
+  </div>
+</section>
+
+<!-- ESTUDIOS -->
+<section class="studies" id="estudios">
+  <div class="wrap">
+    <p class="kicker">Evidencia enlazada</p>
+    <h2>Los estudios, uno a uno</h2>
+    <p style="color:var(--gray);max-width:75ch">Publicados por NOXTAK® — desarrollador de la tecnología SPIRO®, del que EKIO es <b>distribuidor oficial en España</b> — y por los laboratorios e institutos citados. Haz clic y léelos: no hace falta que nos creas a nosotros.</p>
+
+    <div class="cat">
+      <h3>🔬 Laboratorios acreditados — SAR y señal</h3>
+      <div class="tbl-scroll"><table>
+        <thead><tr><th>Estudio</th><th>Organismo</th><th>Qué demuestra</th><th>Documento</th></tr></thead>
+        <tbody>
+          <tr><td>Test SAR — Spiro Card</td><td>MORLAB</td><td>Reducción de picos de emisión del móvil</td><td><a class="pdf" href="https://spirosolution.com/wp-content/uploads/2022/10/MORLAB-SAR-Test-Spiro-Card.pdf" target="_blank">Ver PDF</a></td></tr>
+          <tr><td>Evaluación SAR EN62209-2 — Spiro L3 (2015)</td><td>MORLAB</td><td>Medición SAR bajo norma europea</td><td><a class="pdf" href="https://spirosolution.com/wp-content/uploads/2025/09/2015.11.17-MORLAB-SAR-Test-L3-SZ15100123S02.pdf" target="_blank">Ver PDF</a></td></tr>
+          <tr><td>Test OTA de señal — LG G6</td><td>Lab. RF</td><td>La señal del móvil no empeora: mejora</td><td><a class="pdf" href="https://spirosolution.com/wp-content/uploads/2022/10/LG-G6-OTA-Summation-Test-Report.pdf" target="_blank">Ver PDF</a></td></tr>
+          <tr><td>Test OTA de señal — ZTE Axon</td><td>Lab. RF</td><td>Ídem, segundo dispositivo</td><td><a class="pdf" href="https://spirosolution.com/wp-content/uploads/2022/10/ZTE-AXON-OTA-Summation-Test-Report.pdf" target="_blank">Ver PDF</a></td></tr>
+          <tr><td>Informe CE RF — rendimiento de antena (L2)</td><td>Lab. RF</td><td>Rendimiento de antena con filtrado activo</td><td><a class="pdf" href="https://spirosolution.com/wp-content/uploads/2025/09/Antenna-Performance-Test-Report-Spiro-L2.pdf" target="_blank">Ver PDF</a></td></tr>
+        </tbody>
+      </table></div>
+    </div>
+
+    <div class="cat">
+      <h3>🧫 Bioensayos — instituto IGEF (Alemania)</h3>
+      <div class="tbl-scroll"><table>
+        <thead><tr><th>Estudio</th><th>Año</th><th>Documento</th></tr></thead>
+        <tbody>
+          <tr><td>Prueba biofísica Spiro Level 2</td><td>2014</td><td><a class="pdf" href="https://spirosolution.com/wp-content/uploads/2023/08/IGEF-Report-2014_2-Biophysical-testing-of-the-Spiro-Level-2.pdf" target="_blank">Ver PDF</a></td></tr>
+          <tr><td>Prueba biofísica Spiro Level 3</td><td>2014</td><td><a class="pdf" href="https://spirosolution.com/wp-content/uploads/2023/08/IGEF-Report-2014_3-Biophysical-testing-of-the-Spiro-Level-3.pdf" target="_blank">Ver PDF</a></td></tr>
+          <tr><td>Prueba Spiro Level 5</td><td>2016</td><td><a class="pdf" href="https://spirosolution.com/wp-content/uploads/2023/08/IGEF-Report-2016_Spiro-Level-5-Report-E.pdf" target="_blank">Ver PDF</a></td></tr>
+          <tr><td>Informe Spiro Level 4 (NOXTAK)</td><td>2023</td><td><a class="pdf" href="https://noxtak.com/wp-content/uploads/2023/08/Spiro-Level-4-Report.pdf" target="_blank">Ver PDF</a></td></tr>
+        </tbody>
+      </table></div>
+    </div>
+
+    <div class="cat">
+      <h3>❤️ Clínicos y de campo — personas reales</h3>
+      <div class="tbl-scroll"><table>
+        <thead><tr><th>Estudio</th><th>Muestra</th><th>Qué midió</th><th>Documento</th></tr></thead>
+        <tbody>
+          <tr><td>Estudio longitudinal EHS (2014–2018) + prevalencia a 5 años</td><td><b>357 pacientes</b></td><td>Recuperación de personas electrohipersensibles con protocolo SPIRO</td><td><a class="pdf" href="https://spirosolution.com/wp-content/uploads/2024/10/PrevalenceandEffectsofEHSSPIROLongitudinalStudyFinal-2.pdf" target="_blank">Ver PDF</a></td></tr>
+          <tr><td>Influencia de SPIRO en la condición psicofisiológica humana (revista JABB)</td><td>—</td><td>VFC, estrés y sueño bajo exposición a móvil, WLAN, ELF y EHF</td><td><a class="pdf" href="https://spirosolution.com/wp-content/uploads/2022/10/JABB-09-002791-1.pdf" target="_blank">Ver PDF</a></td></tr>
+        </tbody>
+      </table></div>
+    </div>
+
+    <div class="cat">
+      <h3>🎓 Trabajos académicos</h3>
+      <div class="tbl-scroll"><table>
+        <thead><tr><th>Trabajo</th><th>Autor</th><th>Documento</th></tr></thead>
+        <tbody>
+          <tr><td>TFE sobre tecnología SPIRO</td><td>Joaquín Machado</td><td><a class="pdf" href="https://spirosolution.com/wp-content/uploads/2024/10/TFE-JOAQUIN-MACHADO.pdf" target="_blank">Ver PDF</a></td></tr>
+          <tr><td>TFE sobre tecnología SPIRO</td><td>Marianella Romero</td><td><a class="pdf" href="https://spirosolution.com/wp-content/uploads/2024/10/TFE-MARIANELLA-ROMERO.pdf" target="_blank">Ver PDF</a></td></tr>
+        </tbody>
+      </table></div>
+    </div>
+
+    <p style="margin-top:22px;font-size:14.5px">¿Quieres profundizar más? Todo el Learning Center oficial de SPIRO está en <a href="https://spirosolution.com/es/" target="_blank" style="color:var(--navy);font-weight:700">spirosolution.com/es →</a></p>
+  </div>
+</section>
+
+<!-- PREMIOS -->
+<section id="premios">
+  <div class="wrap">
+    <p class="kicker">Reconocimiento internacional</p>
+    <h2>Premiada donde se premia la innovación real</h2>
+    <div class="awards">
+      <div class="award"><div class="medal">🥇</div><h3>Inventions de Genève</h3><p>Salón Internacional de Invenciones de Ginebra<br><b>Medalla de Oro</b></p></div>
+      <div class="award"><div class="medal">🥈</div><h3>Edison Awards</h3><p>Estados Unidos<br><b>Plata</b></p></div>
+      <div class="award"><div class="medal">🏆</div><h3>German Innovation Award</h3><p>Alemania<br><b>Ganador</b></p></div>
+    </div>
+    <span class="note">Confirmar con Noxtak el año exacto de cada premio para añadirlo (refuerza schema y citabilidad)</span>
+  </div>
+</section>
+
+<!-- CÓMO LO MEDIMOS -->
+<section class="measure">
+  <div class="wrap inner">
+    <div>
+      <p class="kicker">Compruébalo tú</p>
+      <h2>Y además, lo puedes medir en tu propia casa</h2>
+      <p style="color:#40474f;font-size:15.5px;margin:12px 0 20px">La evidencia de laboratorio está arriba. Pero hay otra que puedes generar tú: medir tu casa antes y después. Nuestros especialistas usan medidores profesionales de campos electromagnéticos y de electricidad sucia en cada estudio EMF — y tú puedes hacer lo mismo con un medidor doméstico.</p>
+      <div style="display:flex;flex-wrap:wrap;gap:10px">
+        <a class="btn btn-primary" href="#">VER MEDIDORES EMF →</a>
+        <a class="btn btn-ghost" href="#">PEDIR UN ESTUDIO EMF →</a>
+      </div>
+    </div>
+    <div class="video-ph" onclick="alert('→ Vídeo de Javier midiendo en directo (retirado de la home, su sitio es este). Play manual, no autoplay.')">
+      <div class="play">▶</div>
+      <small>📹 VÍDEO: Javier midiendo un salón en directo — antes y después de colocar SPIRO</small>
+    </div>
+  </div>
+</section>
+
+<!-- ESPECIALISTAS -->
+<section id="especialistas">
+  <div class="wrap">
+    <p class="kicker">Quiénes somos</p>
+    <h2>Especialistas en electrosmog, no vendedores de miedo</h2>
+    <div class="team" style="margin-top:22px"><div class="box">
+      <div class="avatar-ph">📷 FOTO: Javier con medidor en mano, en un salón real (no de estudio)</div>
+      <div>
+        <p>Detrás de EKIO está <b>[Javier Andrés — presentación breve: años midiendo hogares, formación, trayectoria]</b>, con apariciones en Europa Press, La Razón, El Español, ¡HOLA! y El Periódico. Hemos medido cientos de hogares españoles y acompañado a más de 5.000 clientes. No creemos en el alarmismo: creemos en <b>medir, filtrar y comprobar</b>.</p>
+        <p>Si tu caso necesita más que un filtro — teletrabajo intensivo, electrohipersensibilidad, una antena cercana, un piso con domótica — pide un <b>Estudio EMF personalizado</b>: medimos tu casa estancia por estancia y te entregamos un plan priorizado.</p>
+        <a class="btn btn-amber" href="#">CONSULTORÍA 365 — ESTUDIO EMF DE TU HOGAR →</a>
+      </div>
+    </div></div>
+  </div>
+</section>
+
+<!-- LO QUE NO HACE -->
+<section style="padding-top:20px">
+  <div class="wrap">
+    <h2>Seamos claros: lo que SPIRO® no hace</h2>
+    <ul class="nolist">
+      <li><b class="no">✗</b> No bloquea la señal del móvil, el Wi-Fi ni el Bluetooth — tus dispositivos funcionan igual.</li>
+      <li><b class="no">✗</b> No es un producto médico ni sustituye a un tratamiento.</li>
+      <li><b class="no">✗</b> No sustituye las buenas prácticas: apagar el Wi-Fi de noche, alejar el móvil de la cama y cablear lo que se pueda siguen siendo recomendables.</li>
+      <li><b class="si">✓</b> Lo que sí hace: filtrar la contaminación electromagnética de tu entorno, con la evidencia que has visto arriba y <b>90 días de garantía</b> para comprobarlo en tu casa.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq" style="background:var(--bg-soft)">
+  <div class="wrap">
+    <h2>Preguntas frecuentes sobre la ciencia SPIRO®</h2>
+    <details><summary>¿SPIRO® tiene estudios científicos?</summary><p>Sí: 13 documentos publicados entre laboratorios acreditados (MORLAB), institutos de bioensayo (IGEF, Alemania), un estudio longitudinal con 357 pacientes EHS (2014–2018) y un artículo en revista. Todos enlazados en esta página.</p></details>
+    <details><summary>¿Quién ha desarrollado la tecnología SPIRO®?</summary><p>NOXTAK®, tras más de una década de investigación en nanomagnetismo aplicado iniciada con el descubrimiento de las propiedades de las nanopartículas de oro (JASRI, 2012). EKIO es su distribuidor oficial en España.</p></details>
+    <details><summary>¿SPIRO® reduce la radiación del móvil?</summary><p>Los tests SAR de MORLAB midieron reducción de los picos de emisión, y los tests OTA muestran que la señal no empeora. Los informes completos están enlazados arriba.</p></details>
+    <details><summary>¿Qué premios tiene la tecnología SPIRO®?</summary><p>Medalla de Oro en Inventions de Genève, Plata en los Edison Awards y ganadora del German Innovation Award.</p></details>
+    <details><summary>¿Puedo comprobar los resultados en mi casa?</summary><p>Sí: con un medidor EMF antes/después, o pidiendo un Estudio EMF a nuestros especialistas. Y con 90 días de garantía: si no notas la diferencia, te devolvemos el dinero.</p></details>
+  </div>
+</section>
+
+<!-- CTA FINAL -->
+<section class="final">
+  <div class="wrap">
+    <h2>Ahora que has visto las pruebas</h2>
+    <div class="ctas">
+      <a class="btn btn-amber" href="coleccion-spiro-v2.html">VER FILTROS SPIRO →</a>
+      <a class="btn btn-ghost" href="#">HACER EL TEST (2 MIN)</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  MAQUETA — footer real de la tienda sin cambios.<br>
+  Generada desde Content/COPY_LA_CIENCIA_2026-07.md · Evidencia: spirosolution.com (NOXTAK®) · 6-jul-2026.
+</footer>
+</body>
+</html>
