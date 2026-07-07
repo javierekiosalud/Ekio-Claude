@@ -382,3 +382,20 @@ hasta ahora.
 - [ ] **Disclaimer UV-B reforzado visible en la ficha (no solo en pie)**
 - [ ] Publicar como **draft** primero → revisar → publicar
 - [ ] Solicitar indexación en Google Search Console
+
+---
+
+## 💎 CAPA PREMIUM (rediseño 6-jul — ver maqueta `mockup-home/pdp-bio-spectrum-11-v2.html`)
+
+Decisión Javier: tratar la PDP como producto premium, no como plantilla de gama. Cambios clave sobre este documento:
+
+1. **CTA primario = "CONFIGURAR MI BIO SPECTRUM 11 →"** (la configuración a medida es el rito premium); compra directa "configuración estándar — 2.500 €" pasa a secundario; terciario "Agenda 15 minutos con el equipo" (alto ticket = contacto humano)
+2. **Lenguaje visual propio**: hero oscuro con acentos dorados y titular serifa — "El espectro completo del sol. Configurado para ti."
+3. **Barra superior en tono reaseguro** (configuración a medida · envío asegurado · devolución 30 días · financiación), no descuento
+4. **Bloque "¿Por qué vale más del doble que el Bio Regén 7?"** — la objeción de precio respondida de frente con tabla comparativa directa
+5. **Ancla de precio racional**: sesión en clínica 30–60 € [VALIDAR dato] → amortización en semanas de uso familiar
+6. **Grid de 12 tratamientos con nombre y λ** (vitamina D, longevidad, ocular 670, metabolismo 727, dolor profundo 1050, luz ambiental…) — sustituye a "decenas de tratamientos"
+7. **Value stack desglosado**: panel + gafas + 2 bombillas (35 €) + pack LAITTIN completo (109 €) + Guía/App gratis = "más de 140 € en extras incluidos"
+8. **Proceso de configuración en 3 pasos** (hablamos → configuramos → llega listo con tu programa cargado)
+9. **Testimonio profesional único** (conseguir 1 real de clínica/entrenador/biohacker con credencial)
+10. **FAQ +2**: proceso de configuración · uso profesional con factura IVA desglosado y amortización
