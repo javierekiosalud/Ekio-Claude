@@ -1,0 +1,987 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EKIO — Líderes en tecnología que te cuida</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; color: #1a1a2e; background: #fff; padding-bottom: 60px; }
+
+  /* ─── ANNOUNCEMENT BAR ─── */
+  .announcement-bar {
+    background: #0d1b3e;
+    color: #fff;
+    font-size: 12.5px;
+    font-weight: 500;
+    padding: 9px 0;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  .announcement-track {
+    display: inline-flex;
+    animation: ticker 35s linear infinite;
+  }
+  .announcement-track span { padding: 0 28px; display: inline-flex; align-items: center; gap: 8px; }
+  .announcement-track span::after { content: "·"; color: #4fc3f7; font-size: 18px; }
+  @keyframes ticker { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+
+  /* ─── NAV ─── */
+  nav {
+    background: #fff;
+    border-bottom: 1px solid #eee;
+    padding: 0 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 68px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 12px rgba(0,0,0,.06);
+  }
+  .nav-logo img { height: 36px; }
+  .nav-logo-text { font-size: 20px; font-weight: 900; color: #0d1b3e; letter-spacing: -1px; }
+  .nav-logo-text em { color: #4fc3f7; font-style: normal; }
+  .nav-links { display: flex; gap: 28px; list-style: none; align-items: center; }
+  .nav-links a { text-decoration: none; color: #333; font-size: 13.5px; font-weight: 500; transition: color .2s; }
+  .nav-links a:hover, .nav-links .active > a { color: #0d47a1; }
+  .nav-right { display: flex; align-items: center; gap: 16px; }
+  .nav-cta { background: #0d47a1; color: #fff; padding: 10px 22px; border-radius: 7px; font-size: 13px; font-weight: 700; text-decoration: none; white-space: nowrap; }
+  .nav-icon { font-size: 20px; color: #555; text-decoration: none; }
+
+  /* ─────────────────────────────────────────
+     HERO: "EL PRECIO INVISIBLE"
+  ───────────────────────────────────────── */
+  .hero {
+    background: #0d1b3e;
+    min-height: 88vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 80px 64px 60px;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(circle 600px at 20% 80%, rgba(21,101,192,.25), transparent),
+      radial-gradient(circle 400px at 80% 20%, rgba(79,195,247,.12), transparent);
+  }
+  .hero-rings {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: .06;
+  }
+  .hero-rings svg { width: 900px; height: 900px; }
+  .hero-content { position: relative; z-index: 1; max-width: 860px; }
+  .hero-eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid rgba(79,195,247,.35);
+    background: rgba(79,195,247,.08);
+    color: #4fc3f7;
+    padding: 7px 18px;
+    border-radius: 30px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: .8px;
+    text-transform: uppercase;
+    margin-bottom: 28px;
+  }
+  .hero h1 {
+    font-size: 62px;
+    font-weight: 900;
+    color: #fff;
+    line-height: 1.05;
+    margin-bottom: 12px;
+    letter-spacing: -2px;
+  }
+  .hero h1 .invisible-price {
+    position: relative;
+    color: #4fc3f7;
+    display: inline-block;
+  }
+  .hero h1 .invisible-price::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0; right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, #4fc3f7, transparent);
+    border-radius: 2px;
+  }
+  .hero-subtitle {
+    font-size: 21px;
+    color: rgba(255,255,255,.65);
+    margin: 24px auto 36px;
+    max-width: 620px;
+    line-height: 1.5;
+  }
+  .hero-subtitle strong { color: #fff; }
+  .hero-ctas { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; margin-bottom: 40px; }
+  .btn-hero-main {
+    background: #4fc3f7;
+    color: #0d1b3e;
+    padding: 16px 32px;
+    border-radius: 9px;
+    font-weight: 800;
+    font-size: 15px;
+    text-decoration: none;
+    display: inline-block;
+    transition: transform .15s, box-shadow .15s;
+    box-shadow: 0 4px 20px rgba(79,195,247,.3);
+  }
+  .btn-hero-main:hover { transform: translateY(-2px); box-shadow: 0 8px 28px rgba(79,195,247,.4); }
+  .btn-hero-ghost {
+    background: transparent;
+    color: #fff;
+    border: 1.5px solid rgba(255,255,255,.3);
+    padding: 16px 28px;
+    border-radius: 9px;
+    font-weight: 600;
+    font-size: 15px;
+    text-decoration: none;
+    display: inline-block;
+    transition: border-color .2s;
+  }
+  .btn-hero-ghost:hover { border-color: rgba(255,255,255,.6); }
+  .hero-social-proof { display: flex; align-items: center; justify-content: center; gap: 28px; flex-wrap: wrap; }
+  .proof-item { display: flex; align-items: center; gap: 8px; color: rgba(255,255,255,.55); font-size: 13px; }
+  .proof-item strong { color: rgba(255,255,255,.85); }
+  .proof-divider { width: 1px; height: 28px; background: rgba(255,255,255,.15); }
+
+  /* ─── EL PRECIO INVISIBLE — Bloque de educación ─── */
+  .precio-invisible {
+    background: #fff;
+    padding: 90px 64px;
+  }
+  .pi-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center; }
+  .pi-text .pi-label { font-size: 11px; font-weight: 800; color: #4fc3f7; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 14px; }
+  .pi-text h2 { font-size: 42px; font-weight: 900; line-height: 1.1; color: #0d1b3e; margin-bottom: 20px; }
+  .pi-text h2 em { font-style: normal; color: #0d47a1; }
+  .pi-text p { font-size: 17px; color: #555; line-height: 1.7; margin-bottom: 16px; }
+  .pi-text p strong { color: #0d1b3e; }
+  .pi-cta { display: inline-flex; align-items: center; gap: 8px; color: #0d47a1; font-weight: 700; font-size: 15px; text-decoration: none; margin-top: 8px; }
+  .pi-stats { display: flex; flex-direction: column; gap: 16px; }
+  .pi-stat-card {
+    background: #f4f8ff;
+    border-left: 4px solid #0d47a1;
+    border-radius: 0 12px 12px 0;
+    padding: 22px 24px;
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .pi-stat-card .stat-icon { font-size: 32px; flex-shrink: 0; margin-top: 2px; }
+  .pi-stat-card .stat-text strong { display: block; font-size: 14px; color: #0d1b3e; margin-bottom: 4px; }
+  .pi-stat-card .stat-text span { font-size: 13px; color: #666; line-height: 1.5; }
+  .pi-stat-card.red { border-color: #e53935; background: #fff5f5; }
+  .pi-stat-card.amber { border-color: #f57c00; background: #fff8f0; }
+  .pi-stat-card.green { border-color: #2e7d32; background: #f1f8f1; }
+
+  /* ─── TRUST BAR ─── */
+  .trust-bar {
+    background: #0d1b3e;
+    padding: 22px 64px;
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    flex-wrap: wrap;
+  }
+  .trust-item { display: flex; align-items: center; gap: 10px; font-size: 13px; font-weight: 600; color: rgba(255,255,255,.85); }
+  .trust-item .ti { font-size: 20px; }
+  .trust-item small { display: block; font-size: 11px; color: rgba(255,255,255,.45); font-weight: 400; }
+
+  /* ─── SECTION WRAPPER ─── */
+  .section { padding: 80px 64px; }
+  .section.bg-off { background: #f6f9ff; }
+  .section.bg-dark { background: #0d1b3e; }
+  .sh { text-align: center; margin-bottom: 48px; }
+  .sh .tag { display: inline-block; background: #e3f0ff; color: #0d47a1; padding: 5px 16px; border-radius: 20px; font-size: 11px; font-weight: 800; text-transform: uppercase; letter-spacing: 1.2px; margin-bottom: 14px; }
+  .sh .tag.light { background: rgba(79,195,247,.15); color: #4fc3f7; }
+  .sh h2 { font-size: 36px; font-weight: 900; color: #0d1b3e; line-height: 1.15; }
+  .sh h2.white { color: #fff; }
+  .sh p { font-size: 16px; color: #666; margin-top: 12px; }
+  .sh p.white { color: rgba(255,255,255,.6); }
+
+  /* ─── TOP SELLERS ─── */
+  .products-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 22px; }
+  .pc {
+    border: 1px solid #e4ecf9;
+    border-radius: 16px;
+    overflow: hidden;
+    background: #fff;
+    transition: box-shadow .2s, transform .2s;
+    position: relative;
+  }
+  .pc:hover { box-shadow: 0 10px 36px rgba(13,71,161,.14); transform: translateY(-5px); }
+  .pc .pbadge { position: absolute; top: 12px; left: 12px; background: #0d47a1; color: #fff; font-size: 10.5px; font-weight: 800; padding: 4px 10px; border-radius: 12px; z-index: 1; letter-spacing: .3px; }
+  .pc .pbadge.red { background: #e53935; }
+  .pc .pbadge.purple { background: #7b1fa2; }
+  .pc .pbadge.green { background: #2e7d32; }
+  .pc-img { height: 175px; display: flex; align-items: center; justify-content: center; font-size: 60px; }
+  .pc-img.i1 { background: linear-gradient(135deg, #e3f2fd, #bbdefb); }
+  .pc-img.i2 { background: linear-gradient(135deg, #ede7f6, #d1c4e9); }
+  .pc-img.i3 { background: linear-gradient(135deg, #e8f5e9, #c8e6c9); }
+  .pc-img.i4 { background: linear-gradient(135deg, #fff8e1, #ffecb3); }
+  .pc-body { padding: 18px; }
+  .pc-cat { font-size: 10.5px; font-weight: 700; color: #0d47a1; text-transform: uppercase; letter-spacing: .6px; }
+  .pc-name { font-size: 16px; font-weight: 800; color: #0d1b3e; margin: 5px 0 6px; }
+  .pc-desc { font-size: 12.5px; color: #777; line-height: 1.55; margin-bottom: 12px; }
+  .pc-stars { color: #ffc107; font-size: 13px; }
+  .pc-count { font-size: 11.5px; color: #aaa; }
+  .pc-footer { display: flex; align-items: center; justify-content: space-between; margin-top: 14px; }
+  .pc-price { font-size: 22px; font-weight: 900; color: #0d47a1; line-height: 1; }
+  .pc-old { font-size: 12px; color: #bbb; text-decoration: line-through; display: block; margin-bottom: 2px; }
+  .btn-cart { background: #0d47a1; color: #fff; border: none; padding: 10px 14px; border-radius: 8px; font-size: 13px; font-weight: 700; cursor: pointer; transition: background .15s; }
+  .btn-cart:hover { background: #0a3480; }
+
+  /* ─── CATEGORIES ─── */
+  .cats-grid { display: grid; grid-template-columns: 2fr 1fr 1fr; grid-template-rows: repeat(2, 180px); gap: 14px; }
+  .cat-card { border-radius: 16px; display: flex; align-items: flex-end; padding: 22px; position: relative; overflow: hidden; cursor: pointer; transition: transform .2s; text-decoration: none; }
+  .cat-card:hover { transform: scale(1.02); }
+  .cat-card.span2 { grid-row: span 2; align-items: flex-end; min-height: 374px; }
+  .cat-card .cat-icon { position: absolute; top: 20px; right: 22px; font-size: 48px; opacity: .7; }
+  .cat-card .cat-label { color: #fff; z-index: 1; }
+  .cat-card .cat-label .cl-tag { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; opacity: .7; margin-bottom: 4px; }
+  .cat-card .cat-label h3 { font-size: 20px; font-weight: 800; margin-bottom: 4px; }
+  .cat-card .cat-label p { font-size: 12px; opacity: .8; }
+  .cat-card::after { content: '→'; position: absolute; bottom: 22px; right: 22px; color: rgba(255,255,255,.6); font-size: 18px; }
+  .c1 { background: linear-gradient(160deg, #0d1b3e 0%, #1565c0 100%); }
+  .c2 { background: linear-gradient(160deg, #880e4f, #e91e63); }
+  .c3 { background: linear-gradient(160deg, #1b5e20, #43a047); }
+  .c4 { background: linear-gradient(160deg, #e65100, #ff8f00); }
+  .c5 { background: linear-gradient(160deg, #4a148c, #9c27b0); }
+
+  /* ─── SOCIAL PROOF ─── */
+  .reviews-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; }
+  .rev-card { background: #f6f9ff; border: 1px solid #dce8ff; border-radius: 16px; padding: 28px; position: relative; }
+  .rev-card::before { content: '"'; position: absolute; top: 14px; right: 18px; font-size: 64px; color: #c8d8f5; font-family: Georgia; line-height: 1; }
+  .rev-stars { color: #ffc107; font-size: 17px; margin-bottom: 14px; }
+  .rev-text { font-size: 14.5px; line-height: 1.7; color: #333; margin-bottom: 20px; font-style: italic; }
+  .rev-text .highlight { background: #e3f0ff; color: #0d47a1; padding: 1px 5px; border-radius: 3px; font-style: normal; font-weight: 600; }
+  .rev-person { display: flex; align-items: center; gap: 12px; }
+  .rev-avatar { width: 44px; height: 44px; border-radius: 50%; background: linear-gradient(135deg, #0d47a1, #4fc3f7); display: flex; align-items: center; justify-content: center; color: #fff; font-weight: 800; font-size: 17px; flex-shrink: 0; }
+  .rev-info strong { display: block; font-size: 13.5px; color: #0d1b3e; }
+  .rev-info span { font-size: 12px; color: #999; }
+  .rev-verified { display: flex; align-items: center; gap: 4px; font-size: 11px; color: #2e7d32; font-weight: 600; margin-top: 3px; }
+  .stats-row { display: flex; justify-content: center; gap: 0; margin-top: 40px; background: #0d1b3e; border-radius: 16px; overflow: hidden; }
+  .stat-box { flex: 1; text-align: center; padding: 28px 20px; border-right: 1px solid rgba(255,255,255,.08); }
+  .stat-box:last-child { border-right: none; }
+  .stat-big { font-size: 38px; font-weight: 900; color: #4fc3f7; line-height: 1; }
+  .stat-label { font-size: 12px; color: rgba(255,255,255,.5); margin-top: 6px; }
+
+  /* ─── "LÍDERES" — Bloque de posicionamiento ─── */
+  .lideres {
+    background: linear-gradient(160deg, #0d1b3e 0%, #0a3480 100%);
+    padding: 90px 64px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .lideres::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle 500px at 50% 50%, rgba(79,195,247,.08), transparent);
+  }
+  .lideres-inner { position: relative; z-index: 1; max-width: 740px; margin: 0 auto; }
+  .lideres-label { font-size: 11px; font-weight: 800; color: #4fc3f7; letter-spacing: 2.5px; text-transform: uppercase; margin-bottom: 18px; }
+  .lideres h2 { font-size: 50px; font-weight: 900; color: #fff; line-height: 1.05; margin-bottom: 18px; letter-spacing: -1.5px; }
+  .lideres h2 em { font-style: normal; color: #4fc3f7; }
+  .lideres p { font-size: 18px; color: rgba(255,255,255,.65); line-height: 1.6; margin-bottom: 40px; }
+  .lideres-pillars { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-top: 48px; text-align: left; }
+  .pillar {
+    background: rgba(255,255,255,.06);
+    border: 1px solid rgba(255,255,255,.1);
+    border-radius: 14px;
+    padding: 28px;
+  }
+  .pillar .p-num { font-size: 36px; font-weight: 900; color: rgba(79,195,247,.3); line-height: 1; margin-bottom: 10px; }
+  .pillar h3 { font-size: 16px; font-weight: 800; color: #fff; margin-bottom: 8px; }
+  .pillar p { font-size: 13px; color: rgba(255,255,255,.55); line-height: 1.6; }
+
+  /* ─── TEST EMF ─── */
+  .test-banner {
+    margin: 0 64px;
+    background: linear-gradient(135deg, #0d47a1, #1565c0);
+    border-radius: 20px;
+    padding: 56px 64px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 48px;
+    align-items: center;
+  }
+  .test-banner h2 { font-size: 32px; font-weight: 900; color: #fff; line-height: 1.2; margin-bottom: 14px; }
+  .test-banner p { font-size: 15px; color: rgba(255,255,255,.75); line-height: 1.6; margin-bottom: 24px; }
+  .btn-test { display: inline-flex; align-items: center; gap: 8px; background: #fff; color: #0d47a1; padding: 14px 26px; border-radius: 9px; font-weight: 800; font-size: 14px; text-decoration: none; }
+  .test-items { display: flex; flex-direction: column; gap: 10px; }
+  .test-item-row { background: rgba(255,255,255,.1); border-radius: 10px; padding: 14px 18px; display: flex; align-items: center; gap: 12px; color: #fff; font-size: 13.5px; }
+  .test-item-row .ti { font-size: 22px; }
+
+  /* ─── FAQ ─── */
+  .faq-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+  .faq-item { border: 1px solid #e0eaff; border-radius: 12px; }
+  .faq-q { padding: 20px 22px; font-size: 14.5px; font-weight: 700; color: #0d1b3e; display: flex; justify-content: space-between; align-items: center; cursor: pointer; gap: 12px; }
+  .faq-q .arr { color: #0d47a1; font-size: 18px; flex-shrink: 0; }
+  .faq-a { padding: 0 22px 20px; font-size: 13.5px; color: #555; line-height: 1.7; border-top: 1px solid #f0f5ff; padding-top: 14px; }
+
+  /* ─── PRESS ─── */
+  .press-row { display: flex; justify-content: center; align-items: center; gap: 28px; flex-wrap: wrap; }
+  .press-pill { background: #f0f4ff; border: 1px solid #d8e4ff; padding: 12px 22px; border-radius: 9px; font-size: 13px; font-weight: 700; color: #444; }
+
+  /* ─── INSTAGRAM ─── */
+  .ig-grid { display: grid; grid-template-columns: repeat(6, 1fr); gap: 8px; }
+  .ig-tile { aspect-ratio: 1; border-radius: 10px; position: relative; overflow: hidden; cursor: pointer; }
+  .ig-tile-bg { width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; font-size: 32px; }
+  .ig-tile-hover { position: absolute; inset: 0; background: rgba(13,27,62,.7); display: flex; align-items: center; justify-content: center; color: #fff; font-size: 11.5px; font-weight: 600; text-align: center; padding: 10px; opacity: 0; transition: opacity .2s; }
+  .ig-tile:hover .ig-tile-hover { opacity: 1; }
+
+  /* ─── FOOTER CTA ─── */
+  .footer-cta {
+    background: #0d1b3e;
+    padding: 80px 64px;
+    text-align: center;
+  }
+  .footer-cta h2 { font-size: 42px; font-weight: 900; color: #fff; margin-bottom: 14px; letter-spacing: -1px; }
+  .footer-cta p { color: rgba(255,255,255,.6); font-size: 17px; margin-bottom: 32px; }
+  .fcta-buttons { display: flex; justify-content: center; gap: 14px; flex-wrap: wrap; }
+  .fcta-sub { color: rgba(255,255,255,.4); font-size: 12.5px; margin-top: 18px; }
+
+  /* ─── FOOTER ─── */
+  footer { background: #080e1c; color: rgba(255,255,255,.6); padding: 56px 64px 32px; }
+  .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 48px; margin-bottom: 44px; }
+  .footer-brand-name { font-size: 20px; font-weight: 900; color: #fff; margin-bottom: 14px; }
+  .footer-brand-name em { color: #4fc3f7; font-style: normal; }
+  .footer-brand-desc { font-size: 13px; line-height: 1.7; max-width: 260px; }
+  .footer-tagline { font-size: 12px; color: #4fc3f7; font-weight: 700; margin-top: 12px; letter-spacing: .5px; }
+  .footer-col h4 { color: #fff; font-size: 11px; font-weight: 800; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 18px; }
+  .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 11px; }
+  .footer-col ul li a { color: rgba(255,255,255,.5); text-decoration: none; font-size: 13px; transition: color .2s; }
+  .footer-col ul li a:hover { color: #4fc3f7; }
+  .footer-bottom { border-top: 1px solid rgba(255,255,255,.08); padding-top: 26px; display: flex; justify-content: space-between; align-items: center; font-size: 12px; flex-wrap: wrap; gap: 14px; }
+  .payment-icons { display: flex; gap: 8px; }
+  .pay-pill { background: rgba(255,255,255,.07); border-radius: 5px; padding: 4px 11px; font-size: 11px; font-weight: 600; color: rgba(255,255,255,.5); }
+  .cert-row { display: flex; gap: 12px; margin-top: 20px; flex-wrap: wrap; }
+  .cert-badge { border: 1px solid rgba(79,195,247,.25); color: #4fc3f7; font-size: 11px; font-weight: 700; padding: 5px 12px; border-radius: 6px; }
+
+  /* ─── POPUP ─── */
+  .popup-backdrop { position: fixed; inset: 0; background: rgba(0,0,0,.7); z-index: 200; display: flex; align-items: center; justify-content: center; }
+  .popup-box { background: #fff; border-radius: 20px; overflow: hidden; width: 580px; max-width: 94vw; display: grid; grid-template-columns: 1fr 1fr; box-shadow: 0 24px 80px rgba(0,0,0,.4); position: relative; }
+  .popup-close { position: absolute; top: 12px; right: 14px; background: none; border: none; font-size: 22px; cursor: pointer; color: rgba(255,255,255,.6); z-index: 2; }
+  .popup-left { background: linear-gradient(160deg, #0d1b3e 0%, #0d47a1 100%); padding: 38px 30px; color: #fff; }
+  .pop-tag { display: inline-block; background: rgba(79,195,247,.18); color: #4fc3f7; font-size: 10.5px; font-weight: 800; padding: 5px 13px; border-radius: 20px; margin-bottom: 18px; text-transform: uppercase; letter-spacing: .8px; }
+  .popup-left h3 { font-size: 22px; font-weight: 900; line-height: 1.2; margin-bottom: 14px; }
+  .popup-left p { font-size: 13px; color: rgba(255,255,255,.7); line-height: 1.6; }
+  .popup-visual { font-size: 72px; text-align: center; margin-top: 28px; }
+  .popup-right { padding: 38px 30px; display: flex; flex-direction: column; justify-content: center; }
+  .popup-right h4 { font-size: 17px; font-weight: 800; color: #0d1b3e; margin-bottom: 6px; }
+  .popup-right .pop-sub { font-size: 13px; color: #888; margin-bottom: 22px; }
+  .pop-input { width: 100%; padding: 12px 14px; border: 1.5px solid #ddd; border-radius: 8px; font-size: 13.5px; margin-bottom: 10px; transition: border-color .2s; }
+  .pop-input:focus { outline: none; border-color: #0d47a1; }
+  .pop-btn { width: 100%; background: #0d47a1; color: #fff; border: none; padding: 14px; border-radius: 8px; font-weight: 800; font-size: 14px; cursor: pointer; }
+  .pop-dismiss { text-align: center; margin-top: 12px; font-size: 12px; color: #bbb; cursor: pointer; }
+  .pop-privacy { text-align: center; font-size: 11px; color: #ccc; margin-top: 8px; }
+
+  /* ─── FLOATING ELEMENTS ─── */
+  .whatsapp-fab { position: fixed; bottom: 80px; right: 24px; background: #25d366; width: 56px; height: 56px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 28px; box-shadow: 0 4px 18px rgba(37,211,102,.45); cursor: pointer; z-index: 90; text-decoration: none; transition: transform .2s; }
+  .whatsapp-fab:hover { transform: scale(1.08); }
+  .sticky-bar { position: fixed; bottom: 0; left: 0; right: 0; background: #fff; border-top: 1px solid #eee; padding: 11px 24px; display: flex; align-items: center; justify-content: center; gap: 12px; font-size: 13px; z-index: 80; box-shadow: 0 -4px 18px rgba(0,0,0,.07); }
+  .sticky-bar strong { color: #0d47a1; }
+  .sticky-sequra { font-weight: 900; color: #00c4a0; font-size: 15px; }
+</style>
+</head>
+<body>
+
+<!-- ══════════════════════════════════════
+     POPUP — Lead Magnet "El precio invisible"
+══════════════════════════════════════ -->
+<div class="popup-backdrop" id="popup">
+  <div class="popup-box">
+    <button class="popup-close" onclick="document.getElementById('popup').style.display='none'">✕</button>
+    <div class="popup-left">
+      <div class="pop-tag">Descarga gratuita</div>
+      <h3>Descubre el precio invisible que estás pagando ahora mismo</h3>
+      <p>La guía que explica por qué te despiertas cansado, tienes menos energía y te cuesta concentrarte — aunque hagas todo bien.</p>
+      <div class="popup-visual">📋</div>
+    </div>
+    <div class="popup-right">
+      <h4>Quiero saber mi precio invisible</h4>
+      <p class="pop-sub">Más de 3.400 familias ya la tienen. Gratis, sin spam.</p>
+      <input class="pop-input" type="text" placeholder="Tu nombre">
+      <input class="pop-input" type="email" placeholder="Tu email">
+      <button class="pop-btn">Enviarme la guía gratuita →</button>
+      <p class="pop-dismiss" onclick="document.getElementById('popup').style.display='none'">No me interesa proteger mi familia</p>
+      <p class="pop-privacy">🔒 Sin spam. Baja cuando quieras.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ANNOUNCEMENT BAR -->
+<div class="announcement-bar">
+  <div class="announcement-track">
+    <span>🔬 Patente PCT registrada en 157 países</span>
+    <span>🚚 Envío gratis en pedidos +50€</span>
+    <span>⭐ +5.000 familias protegidas en España</span>
+    <span>💳 Paga en 3, 6 o 12 meses con SeQura</span>
+    <span>🧪 Certificado IEC 62471</span>
+    <span>↩️ 90 días de garantía total sin preguntas</span>
+    <span>🔬 Patente PCT registrada en 157 países</span>
+    <span>🚚 Envío gratis en pedidos +50€</span>
+    <span>⭐ +5.000 familias protegidas en España</span>
+    <span>💳 Paga en 3, 6 o 12 meses con SeQura</span>
+    <span>🧪 Certificado IEC 62471</span>
+    <span>↩️ 90 días de garantía total sin preguntas</span>
+  </div>
+</div>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo-text">EK<em>I</em>O <span style="font-size:13px;font-weight:500;color:#999">Electrosmog</span></div>
+  <ul class="nav-links">
+    <li class="active"><a href="#">Home</a></li>
+    <li><a href="#">Protección EMF ▾</a></li>
+    <li><a href="#">Terapia de Luz Roja ▾</a></li>
+    <li><a href="#">Suplementos ▾</a></li>
+    <li><a href="#">Diagnóstico ▾</a></li>
+    <li><a href="#">Blog</a></li>
+  </ul>
+  <div class="nav-right">
+    <a href="#" class="nav-icon">🔍</a>
+    <a href="#" class="nav-icon">👤</a>
+    <a href="#" class="nav-icon">🛒</a>
+    <a href="#" class="nav-cta">Ver productos →</a>
+  </div>
+</nav>
+
+
+<!-- ══════════════════════════════════════
+     HERO — "El precio invisible"
+══════════════════════════════════════ -->
+<section class="hero">
+  <div class="hero-rings">
+    <svg viewBox="0 0 900 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="450" cy="450" r="420" stroke="white" stroke-width="1"/>
+      <circle cx="450" cy="450" r="320" stroke="white" stroke-width="1"/>
+      <circle cx="450" cy="450" r="220" stroke="white" stroke-width="1"/>
+      <circle cx="450" cy="450" r="120" stroke="white" stroke-width="1"/>
+    </svg>
+  </div>
+  <div class="hero-content">
+    <div class="hero-eyebrow">🏆 Líderes en tecnología que te cuida · España</div>
+    <h1>
+      Hay un precio que pagas<br>
+      cada día sin saberlo.<br>
+      <span class="invisible-price">El precio invisible.</span>
+    </h1>
+    <p class="hero-subtitle">
+      El cansancio sin explicación. El sueño que no repara. La concentración que no llega.<br>
+      <strong>No es estrés. Es electrosmog.</strong> Y nosotros somos los líderes en eliminarlo.
+    </p>
+    <div class="hero-ctas">
+      <a href="#" class="btn-hero-main">Descubrir mi precio invisible →</a>
+      <a href="#" class="btn-hero-ghost">Ver tecnología Ekio</a>
+    </div>
+    <div class="hero-social-proof">
+      <div class="proof-item">
+        <span style="color:#ffc107;font-size:17px">★★★★★</span>
+        <span><strong>4.9/5</strong> · +1.200 opiniones</span>
+      </div>
+      <div class="proof-divider"></div>
+      <div class="proof-item">
+        <span>🔬</span>
+        <span><strong>Patente PCT</strong> · 157 países</span>
+      </div>
+      <div class="proof-divider"></div>
+      <div class="proof-item">
+        <span>🏠</span>
+        <span><strong>+5.000</strong> familias protegidas</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════
+     BLOQUE 1 — QUÉ ES EL PRECIO INVISIBLE
+══════════════════════════════════════ -->
+<section class="precio-invisible">
+  <div class="pi-layout">
+    <div class="pi-text">
+      <div class="pi-label">El problema que nadie ve</div>
+      <h2>Cada día que no actúas,<br>pagas un precio que <em>no aparece en ninguna factura</em></h2>
+      <p>Tu cuerpo lleva años absorbing campos electromagnéticos invisibles. El WiFi, el 5G, los electrodomésticos, el router del vecino. <strong>No lo ves. No lo hueles. Pero lo pagas.</strong></p>
+      <p>Lo pagas con noches sin descanso real. Con dolores de cabeza sin causa. Con niños que no se concentran. Con energía que no vuelve aunque duermas 8 horas.</p>
+      <a href="#" class="pi-cta">Calcular mi precio invisible → <span>📊</span></a>
+    </div>
+    <div class="pi-stats">
+      <div class="pi-stat-card red">
+        <div class="stat-icon">😴</div>
+        <div class="stat-text">
+          <strong>El 68% de los españoles tiene sueño no reparador</strong>
+          <span>La principal causa en zonas urbanas: exposición EMF nocturna. La mayoría no lo sabe.</span>
+        </div>
+      </div>
+      <div class="pi-stat-card amber">
+        <div class="stat-icon">📡</div>
+        <div class="stat-text">
+          <strong>Los hogares españoles tienen de media 14 fuentes EMF activas</strong>
+          <span>Router, móviles, SmartTV, microondas, contadores inteligentes… todas emitiendo 24h.</span>
+        </div>
+      </div>
+      <div class="pi-stat-card green">
+        <div class="stat-icon">✅</div>
+        <div class="stat-text">
+          <strong>Con Ekio, el 94% nota mejora en el sueño en menos de 14 días</strong>
+          <span>Sin desconectarte. Sin cambiar tu estilo de vida. Solo con tecnología que te cuida.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- TRUST BAR -->
+<div class="trust-bar">
+  <div class="trust-item">
+    <span class="ti">🔒</span>
+    <div><span>Patente PCT</span><small>Registrada en 157 países</small></div>
+  </div>
+  <div class="trust-item">
+    <span class="ti">🧪</span>
+    <div><span>Certificado IEC 62471</span><small>Seguridad fotobiológica</small></div>
+  </div>
+  <div class="trust-item">
+    <span class="ti">↩️</span>
+    <div><span>90 días garantía</span><small>Devolución sin preguntas</small></div>
+  </div>
+  <div class="trust-item">
+    <span class="ti">🚚</span>
+    <div><span>Envío gratis</span><small>En pedidos superiores a 50€</small></div>
+  </div>
+  <div class="trust-item">
+    <span class="ti">📄</span>
+    <div><span>Avalado por PubMed</span><small>Estudios peer-reviewed</small></div>
+  </div>
+</div>
+
+
+<!-- ══════════════════════════════════════
+     TOP SELLERS
+══════════════════════════════════════ -->
+<section class="section">
+  <div class="sh">
+    <div class="tag">🔥 Más elegidos esta semana</div>
+    <h2>Empieza a eliminar tu precio invisible hoy</h2>
+    <p>Los productos que más familias han elegido para transformar su bienestar · Con envío en 24h</p>
+  </div>
+  <div class="products-grid">
+    <div class="pc">
+      <div class="pbadge red">Nº1 en ventas</div>
+      <div class="pc-img i1">💡</div>
+      <div class="pc-body">
+        <div class="pc-cat">Terapia de Luz</div>
+        <div class="pc-name">Pack Dormitorio y Salón</div>
+        <p class="pc-desc">Bombilla Roja + Amarilla. Duerme mejor desde la primera noche. El primer paso para recuperar tu energía.</p>
+        <div class="pc-stars">★★★★★</div>
+        <div class="pc-count">4.9 · 127 opiniones verificadas</div>
+        <div class="pc-footer">
+          <div>
+            <span class="pc-old">39€</span>
+            <span class="pc-price">29,70€</span>
+          </div>
+          <button class="btn-cart">+ Añadir</button>
+        </div>
+      </div>
+    </div>
+    <div class="pc">
+      <div class="pbadge purple">Más popular</div>
+      <div class="pc-img i2">🛡️</div>
+      <div class="pc-body">
+        <div class="pc-cat">Protección EMF</div>
+        <div class="pc-name">Spiro Card</div>
+        <p class="pc-desc">Protección personal EMF en formato tarjeta. Llévalo contigo. La solución más vendida de Ekio.</p>
+        <div class="pc-stars">★★★★★</div>
+        <div class="pc-count">4.8 · 243 opiniones verificadas</div>
+        <div class="pc-footer">
+          <div>
+            <span class="pc-old">&nbsp;</span>
+            <span class="pc-price">77€</span>
+          </div>
+          <button class="btn-cart">+ Añadir</button>
+        </div>
+      </div>
+    </div>
+    <div class="pc">
+      <div class="pbadge" style="background:#00838f">Mejor valorado</div>
+      <div class="pc-img i3">🔵</div>
+      <div class="pc-body">
+        <div class="pc-cat">Protección Hogar</div>
+        <div class="pc-name">Spiro Disc</div>
+        <p class="pc-desc">Cubre toda tu habitación. El dormitorio donde más tiempo pasas, por fin libre de precio invisible.</p>
+        <div class="pc-stars">★★★★★</div>
+        <div class="pc-count">4.9 · 89 opiniones verificadas</div>
+        <div class="pc-footer">
+          <div>
+            <span class="pc-old">&nbsp;</span>
+            <span class="pc-price">205€</span>
+          </div>
+          <button class="btn-cart">+ Añadir</button>
+        </div>
+      </div>
+    </div>
+    <div class="pc">
+      <div class="pbadge green">Kit ahorro</div>
+      <div class="pc-img i4">🏠</div>
+      <div class="pc-body">
+        <div class="pc-cat">Pack Hogar Completo</div>
+        <div class="pc-name">Pack Protección Hogar</div>
+        <p class="pc-desc">La solución completa para eliminar el precio invisible en toda la casa. El más elegido por familias.</p>
+        <div class="pc-stars">★★★★★</div>
+        <div class="pc-count">4.9 · 56 opiniones verificadas</div>
+        <div class="pc-footer">
+          <div>
+            <span class="pc-old">349€</span>
+            <span class="pc-price">282€</span>
+          </div>
+          <button class="btn-cart">+ Añadir</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div style="text-align:center;margin-top:32px">
+    <a href="#" style="display:inline-block;border:1.5px solid #0d47a1;color:#0d47a1;padding:12px 32px;border-radius:8px;font-weight:700;text-decoration:none;font-size:14px;">Ver todos los productos →</a>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════
+     CATEGORÍAS
+══════════════════════════════════════ -->
+<section class="section bg-off">
+  <div class="sh">
+    <div class="tag">Nuestras líneas</div>
+    <h2>¿Por dónde quieres empezar<br>a eliminar tu precio invisible?</h2>
+  </div>
+  <div class="cats-grid">
+    <a href="#" class="cat-card c1 span2">
+      <div class="cat-icon">🛡️</div>
+      <div class="cat-label">
+        <div class="cl-tag">Línea principal</div>
+        <h3>Protección EMF Spiro</h3>
+        <p>Para tu persona, tu dormitorio y tu hogar completo</p>
+      </div>
+    </a>
+    <a href="#" class="cat-card c2">
+      <div class="cat-icon">💡</div>
+      <div class="cat-label">
+        <div class="cl-tag">Luz y energía</div>
+        <h3>Terapia de Luz Roja</h3>
+        <p>Recupera tu energía y sueño profundo</p>
+      </div>
+    </a>
+    <a href="#" class="cat-card c3">
+      <div class="cat-icon">🌿</div>
+      <div class="cat-label">
+        <div class="cl-tag">Protección interna</div>
+        <h3>Suplementos EMF</h3>
+        <p>Defiende tu cuerpo desde dentro</p>
+      </div>
+    </a>
+    <a href="#" class="cat-card c4">
+      <div class="cat-icon">📡</div>
+      <div class="cat-label">
+        <div class="cl-tag">Primer paso</div>
+        <h3>Diagnóstico EMF</h3>
+        <p>Mide el precio invisible en tu casa</p>
+      </div>
+    </a>
+    <a href="#" class="cat-card c5">
+      <div class="cat-icon">🎓</div>
+      <div class="cat-label">
+        <div class="cl-tag">Servicio premium</div>
+        <h3>Consultoría 360</h3>
+        <p>Auditoría completa y plan personalizado</p>
+      </div>
+    </a>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════
+     SOCIAL PROOF
+══════════════════════════════════════ -->
+<section class="section">
+  <div class="sh">
+    <div class="tag">⭐ Testimonios reales</div>
+    <h2>Ellos ya dejaron de pagar<br>el precio invisible</h2>
+    <p>Más de 5.000 familias españolas que transformaron su bienestar con EKIO</p>
+  </div>
+  <div class="reviews-grid">
+    <div class="rev-card">
+      <div class="rev-stars">★★★★★</div>
+      <p class="rev-text">"Llevaba 3 años con insomnio. Médico, nutricionista, psicóloga… nadie encontraba la causa. En cuanto puse el Spiro Disc, <span class="highlight">dormí del tirón esa misma noche</span>. Llevo 4 meses así."</p>
+      <div class="rev-person">
+        <div class="rev-avatar">M</div>
+        <div class="rev-info">
+          <strong>María G. — Madrid</strong>
+          <span>Pack Hogar · hace 2 meses</span>
+          <div class="rev-verified">✅ Compra verificada</div>
+        </div>
+      </div>
+    </div>
+    <div class="rev-card">
+      <div class="rev-stars">★★★★★</div>
+      <p class="rev-text">"Mis hijos no se podían concentrar. Les medí el dormitorio con el Safe and Sound Pro: <span class="highlight">14 veces por encima del límite recomendado</span>. Ahora con el Spiro Square, los niveles son normales."</p>
+      <div class="rev-person">
+        <div class="rev-avatar">C</div>
+        <div class="rev-info">
+          <strong>Carlos M. — Barcelona</strong>
+          <span>Spiro Square · hace 3 meses</span>
+          <div class="rev-verified">✅ Compra verificada</div>
+        </div>
+      </div>
+    </div>
+    <div class="rev-card">
+      <div class="rev-stars">★★★★★</div>
+      <p class="rev-text">"Era escéptica total. Lo que me convenció fue la patente y los estudios PubMed. Compré el pack y en 10 días <span class="highlight">mi energía por las tardes volvió</span>. Ahora se lo cuento a todo el mundo."</p>
+      <div class="rev-person">
+        <div class="rev-avatar">A</div>
+        <div class="rev-info">
+          <strong>Ana R. — Valencia</strong>
+          <span>Pack Dormitorio · hace 1 mes</span>
+          <div class="rev-verified">✅ Compra verificada</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="stats-row">
+    <div class="stat-box"><div class="stat-big">4.9</div><div style="color:#ffc107;margin-top:4px">★★★★★</div><div class="stat-label">Puntuación media</div></div>
+    <div class="stat-box"><div class="stat-big">+1.200</div><div class="stat-label">Opiniones verificadas</div></div>
+    <div class="stat-box"><div class="stat-big">97%</div><div class="stat-label">Lo recomendarían</div></div>
+    <div class="stat-box"><div class="stat-big">+5.000</div><div class="stat-label">Familias protegidas</div></div>
+    <div class="stat-box"><div class="stat-big">14 días</div><div class="stat-label">Primeros resultados</div></div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════
+     BLOQUE LÍDERES — Posicionamiento
+══════════════════════════════════════ -->
+<section class="lideres">
+  <div class="lideres-inner">
+    <div class="lideres-label">Nuestro posicionamiento</div>
+    <h2>Somos los <em>líderes</em><br>en tecnología que te cuida</h2>
+    <p>Mientras el mundo te vende más tecnología que te consume, nosotros somos los primeros en darte tecnología que devuelve. La que repara. La que protege. La que cuida.</p>
+    <div class="lideres-pillars">
+      <div class="pillar">
+        <div class="p-num">01</div>
+        <h3>Ciencia demostrable</h3>
+        <p>Patente PCT en 157 países. Estudios en PubMed. Certificado IEC 62471. No son promesas — son documentos.</p>
+      </div>
+      <div class="pillar">
+        <div class="p-num">02</div>
+        <h3>Sin renunciar a nada</h3>
+        <p>La tecnología Spiro no bloquea señales ni cambia tu vida. Te protege mientras sigues conectado. Así cuida la tecnología que te cuida.</p>
+      </div>
+      <div class="pillar">
+        <div class="p-num">03</div>
+        <h3>Resultados medibles</h3>
+        <p>Puedes medir el antes y el después con un medidor EMF. El precio invisible se puede cuantificar. Y eliminar.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════
+     TEST EMF
+══════════════════════════════════════ -->
+<section class="section bg-off" style="padding-top:40px;padding-bottom:40px;">
+  <div class="test-banner">
+    <div>
+      <h2>¿Cuál es tu precio invisible ahora mismo?</h2>
+      <p>En 3 minutos recibirás una evaluación personalizada de tu exposición EMF y la recomendación exacta para tu situación.</p>
+      <a href="#" class="btn-test">🔍 Calcular mi precio invisible gratis →</a>
+      <p style="font-size:12px;color:rgba(255,255,255,.45);margin-top:12px">+2.400 personas lo han hecho esta semana</p>
+    </div>
+    <div class="test-items">
+      <div class="test-item-row"><span class="ti">📶</span> ¿Cuántos dispositivos WiFi hay en tu hogar?</div>
+      <div class="test-item-row"><span class="ti">😴</span> ¿Te despiertas cansado aunque hayas dormido 8h?</div>
+      <div class="test-item-row"><span class="ti">📱</span> ¿Duermes con el móvil a menos de 1 metro?</div>
+      <div class="test-item-row"><span class="ti">🏙️</span> ¿Vives en zona urbana con cobertura 5G?</div>
+      <div class="test-item-row" style="background:rgba(255,255,255,.2)"><span class="ti">✅</span> <strong>Tu nivel de precio invisible + solución personalizada</strong></div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════
+     FAQ
+══════════════════════════════════════ -->
+<section class="section">
+  <div class="sh">
+    <div class="tag">Preguntas frecuentes</div>
+    <h2>Todo lo que necesitas saber<br>antes de eliminar tu precio invisible</h2>
+  </div>
+  <div class="faq-grid">
+    <div class="faq-item">
+      <div class="faq-q">¿Tiene evidencia científica la protección EMF de Ekio? <span class="arr">+</span></div>
+      <div class="faq-a">Sí. La tecnología Spiro tiene Patente PCT en 157 países y está respaldada por estudios publicados en PubMed. No es pseudociencia — es tecnología con documentación verificable.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">¿Por dónde empiezo si nunca he comprado en Ekio? <span class="arr">+</span></div>
+      <div class="faq-a">El Pack Bombillas (29,70€) es la puerta de entrada perfecta: mejora el sueño desde la primera noche y no requiere instalación. Para protección EMF completa, el Spiro Card (77€) es el más popular.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">¿Cuándo voy a notar resultados? <span class="arr">+</span></div>
+      <div class="faq-a">El 94% de nuestros clientes nota mejora en el sueño en menos de 14 días. Para energía y concentración, el rango habitual es 2-4 semanas. Si no notas nada en 90 días, te devolvemos el dinero.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">¿Los productos Ekio cortan el WiFi o el 5G? <span class="arr">+</span></div>
+      <div class="faq-a">No. La tecnología que te cuida no te desconecta. Los productos Ekio no bloquean ni interfieren con ninguna señal. Sigues con WiFi, 5G y todos tus dispositivos — solo que protegido.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">¿Puedo pagar a plazos? <span class="arr">+</span></div>
+      <div class="faq-a">Sí. A través de SeQura puedes pagar en 3, 6 o 12 meses sin intereses en muchos de nuestros productos. También aceptamos Visa, Mastercard, PayPal y Bizum.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">¿Qué garantía tienen los productos? <span class="arr">+</span></div>
+      <div class="faq-a">90 días de garantía total. Si no notas mejora o el producto no cumple tus expectativas, te devolvemos el 100% del dinero sin hacer preguntas. Porque la tecnología que te cuida también cuida de tu compra.</div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════
+     PRESS
+══════════════════════════════════════ -->
+<section class="section bg-off" style="padding-top:44px;padding-bottom:44px">
+  <p style="text-align:center;font-size:11.5px;font-weight:800;color:#bbb;letter-spacing:2px;text-transform:uppercase;margin-bottom:28px">El precio invisible, en los medios</p>
+  <div class="press-row">
+    <div class="press-pill">El Español</div>
+    <div class="press-pill">ABC Diario</div>
+    <div class="press-pill">EFE Servicios</div>
+    <div class="press-pill">El Periódico</div>
+    <div class="press-pill">eldiario.es</div>
+    <div class="press-pill">La Razón</div>
+    <div class="press-pill">HOLA!</div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════
+     INSTAGRAM
+══════════════════════════════════════ -->
+<section class="section">
+  <div class="sh">
+    <div class="tag">@electrosmog_espana</div>
+    <h2>La comunidad que ya eliminó<br>su precio invisible</h2>
+    <p>Únete a +50.000 personas que aprenden a protegerse cada semana</p>
+  </div>
+  <div class="ig-grid">
+    <div class="ig-tile"><div class="ig-tile-bg" style="background:linear-gradient(135deg,#0d1b3e,#1565c0)">📡</div><div class="ig-tile-hover">Medición EMF real en dormitorio</div></div>
+    <div class="ig-tile"><div class="ig-tile-bg" style="background:linear-gradient(135deg,#880e4f,#e91e63)">💡</div><div class="ig-tile-hover">Antes/después con bombilla roja</div></div>
+    <div class="ig-tile"><div class="ig-tile-bg" style="background:linear-gradient(135deg,#1b5e20,#43a047)">😴</div><div class="ig-tile-hover">Caso real: de insomnio a 7h diarias</div></div>
+    <div class="ig-tile"><div class="ig-tile-bg" style="background:linear-gradient(135deg,#e65100,#ff8f00)">🛡️</div><div class="ig-tile-hover">Cómo funciona la Patente PCT</div></div>
+    <div class="ig-tile"><div class="ig-tile-bg" style="background:linear-gradient(135deg,#4a148c,#9c27b0)">📊</div><div class="ig-tile-hover">Estudio PubMed: los datos reales</div></div>
+    <div class="ig-tile"><div class="ig-tile-bg" style="background:linear-gradient(135deg,#006064,#00838f)">🏠</div><div class="ig-tile-hover">Auditoría EMF completa de una familia</div></div>
+  </div>
+  <p style="text-align:center;margin-top:20px;font-size:15px;font-weight:600;color:#0d47a1">Síguenos → @electrosmog_espana</p>
+</section>
+
+
+<!-- ══════════════════════════════════════
+     FOOTER CTA
+══════════════════════════════════════ -->
+<section class="footer-cta">
+  <h2>Deja de pagar el precio invisible.</h2>
+  <p>Únete a las +5.000 familias que ya eligieron la tecnología que les cuida. 90 días de garantía total.</p>
+  <div class="fcta-buttons">
+    <a href="#" class="btn-hero-main" style="font-size:15px">Descubrir mi precio invisible →</a>
+    <a href="#" class="btn-hero-ghost" style="font-size:15px">Ver todos los productos</a>
+  </div>
+  <p class="fcta-sub">⭐ 4.9/5 · +1.200 opiniones · Patente PCT · IEC 62471 · Hecho en España</p>
+</section>
+
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-grid">
+    <div>
+      <div class="footer-brand-name">EK<em>I</em>O <span style="font-weight:400;font-size:13px;color:rgba(255,255,255,.35)">Electrosmog</span></div>
+      <p class="footer-brand-desc">Líderes en tecnología que te cuida. Protección frente a campos electromagnéticos respaldada por ciencia y patente internacional.</p>
+      <div class="footer-tagline">🏆 Líderes en tecnología que te cuida · España</div>
+      <div class="cert-row">
+        <span class="cert-badge">Patente PCT</span>
+        <span class="cert-badge">IEC 62471</span>
+        <span class="cert-badge">WEEE</span>
+        <span class="cert-badge">PubMed</span>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Productos</h4>
+      <ul>
+        <li><a href="#">Spiro Card</a></li>
+        <li><a href="#">Spiro Disc</a></li>
+        <li><a href="#">Spiro Square</a></li>
+        <li><a href="#">Ekio Light</a></li>
+        <li><a href="#">Suplementos</a></li>
+        <li><a href="#">Medidores EMF</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Empresa</h4>
+      <ul>
+        <li><a href="#">Sobre nosotros</a></li>
+        <li><a href="#">Blog electrosmog</a></li>
+        <li><a href="#">Consultoría 360</a></li>
+        <li><a href="#">Contacto</a></li>
+        <li><a href="#">Prensa</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Ayuda</h4>
+      <ul>
+        <li><a href="#">Envíos y devoluciones</a></li>
+        <li><a href="#">Garantía 90 días</a></li>
+        <li><a href="#">Cómo instalar</a></li>
+        <li><a href="#">Privacidad</a></li>
+        <li><a href="#">Aviso legal</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 Ekio Electrosmog España · Todos los derechos reservados</span>
+    <div class="payment-icons">
+      <span class="pay-pill">VISA</span>
+      <span class="pay-pill">MC</span>
+      <span class="pay-pill">PayPal</span>
+      <span class="pay-pill">SeQura</span>
+      <span class="pay-pill">Bizum</span>
+    </div>
+  </div>
+</footer>
+
+
+<!-- WHATSAPP FAB -->
+<a href="#" class="whatsapp-fab" title="Habla con nosotros">💬</a>
+
+<!-- SEQURA STICKY -->
+<div class="sticky-bar">
+  <span>💳 Págalo a tu ritmo · <strong>en 3, 6 o 12 meses</strong> con <span class="sticky-sequra">SeQura</span></span>
+  <a href="#" style="font-size:12px;color:#0d47a1;font-weight:700">Conoce más →</a>
+</div>
+
+</body>
+</html>

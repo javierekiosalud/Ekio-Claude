@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>¿Qué SPIRO necesito? Test de 2 minutos | EKIO</title>
+<meta name="description" content="Responde 5 preguntas y descubre exactamente qué filtros electromagnéticos SPIRO necesita tu casa — sin comprar de más. Gratis, 2 minutos, con tu plan personalizado.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://electrosmogespana.com/"},
+        {"@type": "ListItem", "position": 2, "name": "¿Qué SPIRO necesito?", "item": "https://electrosmogespana.com/pages/que-spiro-necesito"}
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "name": "¿Qué SPIRO necesito? — Test recomendador de EKIO",
+      "description": "Test gratuito de 5 preguntas que calcula el plan de protección electromagnética exacto para cada hogar: SPIRO Cards por persona, filtro de espacio y electricidad sucia."
+    }
+  ]
+}
+</script>
+<style>
+  :root{
+    --navy:#132f4e; --navy-dark:#0c2038; --amber:#e8a13c; --amber-dark:#c9852a;
+    --ink:#1b2430; --gray:#5c6773; --bg-soft:#f5f7fa; --bg-warm:#faf6ef;
+    --line:#e3e8ee; --star:#f5a623; --ok:#2e8b57;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bg-soft);line-height:1.55}
+  .wrap{max-width:760px;margin:0 auto;padding:0 20px}
+  h1,h2,h3{line-height:1.2}
+  .kicker{font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--amber-dark);font-weight:700;margin-bottom:8px}
+  .btn{display:inline-block;border:none;cursor:pointer;text-decoration:none;font-weight:700;border-radius:8px;text-align:center}
+  .btn-primary{background:var(--navy);color:#fff;padding:15px 26px;font-size:15px}
+  .btn-amber{background:var(--amber);color:var(--navy-dark);padding:15px 26px;font-size:15px}
+  .btn-ghost{background:transparent;color:var(--navy);padding:12px 18px;font-size:13.5px;border:2px solid var(--navy)}
+  .note{display:inline-block;background:#fff8e6;border:1px dashed var(--amber-dark);color:#7a5b17;font-size:12px;padding:4px 10px;border-radius:6px;margin-top:10px}
+
+  .bar{background:var(--navy-dark);color:#fff;font-size:13px;font-weight:600;letter-spacing:.06em;text-align:center;height:38px;display:flex;align-items:center;justify-content:center}
+  header{position:sticky;top:0;background:#fff;border-bottom:1px solid var(--line);z-index:50}
+  .nav{display:flex;align-items:center;justify-content:space-between;height:62px;max-width:1080px;margin:0 auto;padding:0 20px}
+  .logo{font-weight:900;font-size:24px;letter-spacing:.05em;color:var(--ink);text-decoration:none}
+  .logo small{display:block;font-size:8px;letter-spacing:.42em;font-weight:600;color:var(--gray)}
+  .menu{display:none;gap:26px;font-size:14px;font-weight:600}
+  .menu a{color:var(--ink);text-decoration:none}
+  .menu a.active{color:var(--amber-dark);border-bottom:2.5px solid var(--amber)}
+  .nav-icons{display:flex;gap:16px;font-size:20px}
+  .burger{font-size:24px;background:none;border:none;cursor:pointer}
+  @media(min-width:880px){.menu{display:flex}.burger{display:none}}
+
+  /* INTRO */
+  .intro{text-align:center;padding:46px 0 30px}
+  .intro h1{font-size:clamp(26px,4.6vw,38px);font-weight:850}
+  .intro p{color:var(--gray);max-width:52ch;margin:14px auto 0;font-size:16px}
+  .meta-chips{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:13px;font-weight:700;color:var(--navy)}
+  .meta-chips span{background:#fff;border:1px solid var(--line);border-radius:99px;padding:7px 14px}
+
+  /* QUIZ CARD */
+  .quiz-card{background:#fff;border:1px solid var(--line);border-radius:18px;padding:28px 24px;margin:10px 0 50px;box-shadow:0 8px 30px rgba(19,47,78,.08)}
+  .progress{height:6px;background:var(--bg-soft);border-radius:99px;overflow:hidden;margin-bottom:8px}
+  .progress div{height:100%;background:linear-gradient(90deg,var(--amber),var(--amber-dark));width:0%;transition:width .3s ease;border-radius:99px}
+  .pstep{font-size:12px;color:var(--gray);font-weight:700;letter-spacing:.06em;margin-bottom:18px}
+  .q h2{font-size:clamp(19px,3vw,24px);margin-bottom:6px}
+  .q .why{font-size:13px;color:var(--gray);margin-bottom:18px}
+  .opts{display:grid;gap:10px}
+  .opt{display:flex;align-items:center;gap:12px;background:var(--bg-soft);border:2px solid var(--line);border-radius:12px;padding:14px 16px;cursor:pointer;font-size:15px;font-weight:600;transition:border-color .12s ease, background .12s ease;text-align:left;width:100%}
+  .opt:hover{border-color:var(--amber)}
+  .opt .ic{font-size:20px}
+  .opt small{display:block;font-weight:400;color:var(--gray);font-size:12.5px}
+  .backlink{background:none;border:none;color:var(--gray);font-size:13px;cursor:pointer;margin-top:16px;text-decoration:underline}
+
+  /* EMAIL GATE */
+  .gate{text-align:center}
+  .gate .lock{font-size:40px}
+  .gate h2{font-size:clamp(20px,3.2vw,26px);margin:10px 0 6px}
+  .gate p{color:var(--gray);font-size:14.5px;max-width:46ch;margin:0 auto 18px}
+  .gate form{display:flex;flex-direction:column;gap:10px;max-width:400px;margin:0 auto}
+  @media(min-width:640px){.gate form{flex-direction:row}}
+  .gate input{flex:1;padding:14px 16px;border:1.5px solid var(--line);border-radius:8px;font-size:15px}
+  .gate .micro{font-size:12px;color:var(--gray);margin-top:12px}
+
+  /* RESULTADO */
+  .res .head{text-align:center;margin-bottom:22px}
+  .res .head h2{font-size:clamp(21px,3.4vw,27px)}
+  .res .head p{color:var(--gray);font-size:14.5px;margin-top:6px}
+  .stack-item{display:flex;gap:14px;align-items:flex-start;background:var(--bg-soft);border:1px solid var(--line);border-radius:14px;padding:16px;margin-bottom:10px}
+  .stack-item .pri{min-width:30px;height:30px;border-radius:50%;background:var(--navy);color:#fff;font-weight:800;font-size:14px;display:flex;align-items:center;justify-content:center;margin-top:2px}
+  .stack-item.p1{border:2px solid var(--amber);background:var(--bg-warm)}
+  .stack-item h3{font-size:15.5px}
+  .stack-item .why{font-size:13px;color:var(--gray);margin:3px 0 6px}
+  .stack-item .pr{font-weight:850;font-size:15px}
+  .stack-item .pr small{color:var(--gray);font-weight:600;font-size:12px}
+  .stack-item a{font-size:13px;color:var(--navy);font-weight:800}
+  .total{background:var(--navy);color:#fff;border-radius:14px;padding:18px;display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between;align-items:center;margin:16px 0}
+  .total b{font-size:22px}
+  .total small{display:block;font-size:12.5px;color:#cfd9e4}
+  .res .ctas{display:flex;flex-direction:column;gap:10px;margin-top:14px}
+  @media(min-width:640px){.res .ctas{flex-direction:row}}
+  .res .ctas .btn{flex:1}
+  .talk{text-align:center;font-size:13.5px;color:var(--gray);margin-top:16px}
+  .talk a{color:var(--navy);font-weight:800}
+
+  footer{background:#0a1a2c;color:#8fa1b3;font-size:13px;text-align:center;padding:26px 20px}
+  .maqueta-tag{position:fixed;top:0;left:0;background:#d33;color:#fff;font-size:10px;font-weight:800;letter-spacing:.08em;padding:3px 10px;z-index:100;border-radius:0 0 8px 0}
+  .hidden{display:none}
+</style>
+</head>
+<body>
+<div class="maqueta-tag">MAQUETA TEST SPIRO — 07/2026</div>
+
+<div class="bar">✓ GRATIS · 2 MINUTOS · TU PLAN DE PROTECCIÓN PERSONALIZADO</div>
+
+<header>
+  <div class="nav">
+    <a class="logo" href="home-v2.html">EKIO<small>ELECTROSMOG</small></a>
+    <nav class="menu">
+      <a href="coleccion-spiro-v2.html">Tienda</a>
+      <a href="la-ciencia-v2.html">La Ciencia</a>
+      <a href="terapia-luz-roja-v2.html">Terapia de Luz Roja</a>
+      <a href="que-spiro-necesito-v2.html" class="active">¿Qué SPIRO necesito?</a>
+      <a href="#">Contacto</a>
+    </nav>
+    <div class="nav-icons"><span>🔍</span><span>🛒</span><button class="burger">☰</button></div>
+  </div>
+</header>
+
+<!-- INTRO -->
+<div class="wrap intro" id="intro">
+  <p class="kicker">El test de EKIO</p>
+  <h1>¿Qué SPIRO necesita tu casa?</h1>
+  <p>Cada hogar es distinto: personas, móviles, Wi-Fi, metros, instalación. Responde <b>5 preguntas</b> y te decimos exactamente qué filtros necesitas — <b>sin comprar de más</b>.</p>
+  <div class="meta-chips"><span>⏱️ 2 minutos</span><span>🎯 Plan priorizado</span><span>💶 Con precios exactos</span><span>🤝 Sin compromiso</span></div>
+</div>
+
+<!-- QUIZ -->
+<div class="wrap">
+  <div class="quiz-card">
+    <div class="progress"><div id="pbar"></div></div>
+    <p class="pstep" id="pstep">PREGUNTA 1 DE 5</p>
+
+    <!-- P1 -->
+    <div class="q" id="q1">
+      <h2>¿Cuántas personas con móvil vivís en casa?</h2>
+      <p class="why">La regla base de EKIO: cada persona con móvil necesita su protección personal.</p>
+      <div class="opts">
+        <button class="opt" onclick="ans('personas',1,2)"><span class="ic">👤</span>1 persona</button>
+        <button class="opt" onclick="ans('personas',2,2)"><span class="ic">👥</span>2 personas</button>
+        <button class="opt" onclick="ans('personas',3,2)"><span class="ic">👨‍👩‍👧</span>3 personas</button>
+        <button class="opt" onclick="ans('personas',4,2)"><span class="ic">👨‍👩‍👧‍👦</span>4 o más</button>
+      </div>
+    </div>
+
+    <!-- P2 -->
+    <div class="q hidden" id="q2">
+      <h2>¿Cómo es tu vivienda?</h2>
+      <p class="why">El tamaño y los dispositivos determinan el filtro de espacio que necesitas.</p>
+      <div class="opts">
+        <button class="opt" onclick="ans('vivienda','pequena',3)"><span class="ic">🏢</span>Piso pequeño <small>hasta ~70 m²</small></button>
+        <button class="opt" onclick="ans('vivienda','media',3)"><span class="ic">🏠</span>Piso o casa mediana <small>70–120 m²</small></button>
+        <button class="opt" onclick="ans('vivienda','grande',3)"><span class="ic">🏡</span>Casa grande <small>más de 120 m²</small></button>
+        <button class="opt" onclick="ans('vivienda','domotica',3)"><span class="ic">📡</span>Hogar inteligente <small>domótica, muchos dispositivos conectados</small></button>
+      </div>
+    </div>
+
+    <!-- P3 -->
+    <div class="q hidden" id="q3">
+      <h2>¿Dónde está el router Wi-Fi?</h2>
+      <p class="why">El router es el emisor continuo más potente de la casa.</p>
+      <div class="opts">
+        <button class="opt" onclick="ans('router','dormitorio',4)"><span class="ic">🛏️</span>En un dormitorio o cerca de donde dormimos</button>
+        <button class="opt" onclick="ans('router','salon',4)"><span class="ic">🛋️</span>En el salón o zona de paso</button>
+        <button class="opt" onclick="ans('router','lejos',4)"><span class="ic">📦</span>En una zona apartada (despacho, recibidor)</button>
+        <button class="opt" onclick="ans('router','apagado',4)"><span class="ic">🌙</span>Lo apagamos por la noche</button>
+      </div>
+    </div>
+
+    <!-- P4 -->
+    <div class="q hidden" id="q4">
+      <h2>¿Alguien teletrabaja o pasa más de 6 h al día con pantallas?</h2>
+      <p class="why">La alta exposición personal cambia la protección recomendada.</p>
+      <div class="opts">
+        <button class="opt" onclick="ans('teletrabajo',true,5)"><span class="ic">💻</span>Sí</button>
+        <button class="opt" onclick="ans('teletrabajo',false,5)"><span class="ic">🚶</span>No</button>
+      </div>
+    </div>
+
+    <!-- P5 -->
+    <div class="q hidden" id="q5">
+      <h2>¿Tenéis inversor solar o una instalación eléctrica antigua?</h2>
+      <p class="why">La electricidad sucia viaja por los cables — los filtros de aire no llegan ahí.</p>
+      <div class="opts">
+        <button class="opt" onclick="ans('sucia','si',6)"><span class="ic">☀️</span>Sí, tenemos placas solares / inversor</button>
+        <button class="opt" onclick="ans('sucia','antigua',6)"><span class="ic">🏚️</span>La instalación tiene más de 25 años</button>
+        <button class="opt" onclick="ans('sucia','no',6)"><span class="ic">✅</span>No, instalación moderna sin placas</button>
+        <button class="opt" onclick="ans('sucia','nose',6)"><span class="ic">🤷</span>No lo sé</button>
+      </div>
+    </div>
+
+    <!-- GATE EMAIL -->
+    <div class="q gate hidden" id="q6">
+      <div class="lock">🎯</div>
+      <h2>Tu plan está listo. ¿Dónde te lo enviamos?</h2>
+      <p>Recibirás el detalle de tu recomendación, el porqué de cada producto y un enlace directo para conseguirlo.</p>
+      <form onsubmit="showResult();return false;">
+        <input type="email" placeholder="Tu email" required>
+        <button class="btn btn-amber" type="submit">VER MI RECOMENDACIÓN →</button>
+      </form>
+      <p class="micro">Sin spam. Tu plan + consejos de higiene electromagnética. Baja cuando quieras.</p>
+      <span class="note">⚠️ Integración: alta en lista Klaviyo "Test SPIRO" + propiedad de perfil con el resultado → flujo de recomendación (3-4 emails). Paridad con keyword TEST de ManyChat.</span>
+    </div>
+
+    <!-- RESULTADO -->
+    <div class="q res hidden" id="q7">
+      <div class="head">
+        <p class="kicker">Tu plan personalizado</p>
+        <h2 id="res-title">El plan SPIRO de tu casa</h2>
+        <p id="res-sub"></p>
+      </div>
+      <div id="stack"></div>
+      <div class="total">
+        <div><small>Tu protección completa</small><b id="total-eur"></b></div>
+        <div style="text-align:right"><small>o con seQura</small><b id="total-mes" style="font-size:16px"></b></div>
+      </div>
+      <div class="ctas">
+        <a class="btn btn-primary" href="coleccion-spiro-v2.html">VER MI PLAN EN LA TIENDA →</a>
+        <button class="btn btn-ghost" onclick="restart()">Repetir el test</button>
+      </div>
+      <p class="talk">¿Prefieres que lo veamos juntos? <a href="#" onclick="alert('→ Agenda telefónica / WhatsApp EKIO');return false;">Agenda una llamada gratuita de 15 minutos →</a></p>
+    </div>
+
+    <button class="backlink hidden" id="backbtn" onclick="goBack()">← Volver a la pregunta anterior</button>
+  </div>
+</div>
+
+<footer>
+  MAQUETA — el test vive en /pages/que-spiro-necesito (o como app propia cuando esté lista; se cambia el destino y nada más).<br>
+  Lógica: regla base EKIO (1 Card/persona + filtro de espacio + electricidad sucia). Generada 6-jul-2026.
+</footer>
+
+<script>
+const state={};
+let historyStack=[1];
+function show(n){
+  document.querySelectorAll('.q').forEach(q=>q.classList.add('hidden'));
+  document.getElementById('q'+n).classList.remove('hidden');
+  const steps={1:'PREGUNTA 1 DE 5',2:'PREGUNTA 2 DE 5',3:'PREGUNTA 3 DE 5',4:'PREGUNTA 4 DE 5',5:'PREGUNTA 5 DE 5',6:'ÚLTIMO PASO',7:'RESULTADO'};
+  document.getElementById('pstep').textContent=steps[n];
+  document.getElementById('pbar').style.width=(n>=6?100:(n-1)/5*100)+'%';
+  document.getElementById('backbtn').classList.toggle('hidden', n===1||n===7);
+  if(n===7){document.getElementById('intro').classList.add('hidden')}
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+function ans(key,val,next){state[key]=val;historyStack.push(next);show(next)}
+function goBack(){historyStack.pop();show(historyStack[historyStack.length-1])}
+function restart(){historyStack=[1];document.getElementById('intro').classList.remove('hidden');show(1)}
+
+function showResult(){
+  const s=state;
+  const items=[];
+  // 1. Cards (regla base: 1 por persona; teletrabajo → 1 Card X)
+  const n=s.personas;
+  if(s.teletrabajo){
+    items.push({pri:1,name:(n>1?(n-1)+'× SPIRO® Card + 1× SPIRO® Card X':'1× SPIRO® Card X'),
+      why:'La base: una protección personal por cada persona con móvil. La Card X para quien pasa +6 h con pantallas.',
+      price:(n-1)*97+167, link:'pdp-spiro-card-v2.html'});
+  }else{
+    items.push({pri:1,name:n+'× SPIRO® Card',
+      why:'La base de todo: una por cada persona con móvil. Va en la funda y os acompaña a todas partes.',
+      price:n*97, link:'pdp-spiro-card-v2.html'});
+  }
+  // 2. Filtro de espacio
+  const esp={pequena:{name:'SPIRO® Disc',why:'El multifunción que cubre tu piso: dormitorio y salón con un solo filtro.',price:255},
+             media:{name:'SPIRO® Disc',why:'Cubre la zona principal de la casa; si hay segunda planta, se amplía más adelante.',price:255},
+             grande:{name:'SPIRO® Disc X',why:'Tu superficie necesita el filtro de espacios de alta cobertura.',price:597},
+             domotica:{name:'SPIRO® Disc X',why:'Hogar inteligente: muchos emisores simultáneos piden el filtro avanzado.',price:597}}[s.vivienda];
+  items.push({pri:2,name:esp.name,why:esp.why,price:esp.price,link:'coleccion-spiro-v2.html'});
+  // 3. Router
+  if(s.router==='dormitorio'||s.router==='salon'){
+    items.push({pri:3,name:'SPIRO® Square X',why:s.router==='dormitorio'?'Tu router emite toda la noche junto a donde dormís: es tu punto crítico.':'El router en zona de vida: filtrado dedicado para el emisor continuo.',price:257,link:'coleccion-spiro-v2.html'});
+  }
+  // 4. Electricidad sucia
+  if(s.sucia==='si'||s.sucia==='antigua'||s.sucia==='nose'){
+    items.push({pri:items.length+1,name:'Stroom Master Pro®',
+      why:s.sucia==='si'?'Con inversor solar, la electricidad sucia es casi segura: los filtros de aire no llegan a los cables.':(s.sucia==='antigua'?'Las instalaciones antiguas acumulan armónicos: el Stroom Master limpia la red.':'Ante la duda, medir o filtrar la red: es el complemento que casi todo hogar necesita.'),
+      price:219.99,link:'coleccion-spiro-v2.html'});
+  }
+  // Render
+  const total=items.reduce((a,i)=>a+i.price,0);
+  document.getElementById('res-sub').textContent=
+    `Para ${n} persona${n>1?'s':''} · vivienda ${ {pequena:'pequeña',media:'mediana',grande:'grande',domotica:'inteligente'}[s.vivienda] } · en orden de prioridad:`;
+  document.getElementById('stack').innerHTML=items.map((i,ix)=>`
+    <div class="stack-item ${ix===0?'p1':''}">
+      <div class="pri">${ix+1}</div>
+      <div style="flex:1">
+        <h3>${i.name} ${ix===0?'<span style="font-size:11px;background:var(--amber);color:var(--navy-dark);padding:2px 8px;border-radius:99px;font-weight:800;margin-left:6px">EMPIEZA AQUÍ</span>':''}</h3>
+        <p class="why">${i.why}</p>
+        <p class="pr">${i.price.toLocaleString('es-ES',{minimumFractionDigits:i.price%1?2:0})} € · <a href="${i.link}">ver producto →</a></p>
+      </div>
+    </div>`).join('');
+  document.getElementById('total-eur').textContent=total.toLocaleString('es-ES',{minimumFractionDigits:2})+' €';
+  document.getElementById('total-mes').textContent='desde '+(total/12).toLocaleString('es-ES',{maximumFractionDigits:2})+' €/mes';
+  historyStack.push(7);show(7);
+}
+</script>
+</body>
+</html>
