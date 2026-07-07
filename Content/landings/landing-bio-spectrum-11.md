@@ -119,15 +119,18 @@ de salud integrativa y biohackers avanzados que quieren la herramienta
 de referencia, no la del mercado de consumo.
 ```
 
-**BLOQUE "QUÉ INCLUYE EL SISTEMA BIO SPECTRUM 11":**
+**BLOQUE "QUÉ INCLUYE EL SISTEMA BIO SPECTRUM 11":** *(sistema profesional ampliado — decisión Javier 6-jul: pack completo de 4 suplementos LAITTIN + bombilla roja + activos digitales)*
 
 | Icono | Componente | Función |
 |---|---|---|
-| 🟢 | **Panel Bio Spectrum 11** | 11 longitudes de onda · 210 LEDs · cuerpo completo. |
-| 🥽 | **Gafas de protección UV** *(obligatorias)* | Para uso seguro de las longitudes UV-B y UV-A. |
-| 🟡 | **Bombilla Ámbar** | Manejo de la luz nocturna — protección circadiana. |
-| 💊 | **Vitamina C Lighting** *(marca propia EKIO)* | Antioxidante de alto rendimiento. |
-| 📘 | **Guía PDF "Activación de Energía"** | + protocolos clínicos avanzados (incluye uso seguro de UV). |
+| ⭐ | **Panel Bio Spectrum 11 + gafas UV** | 11 longitudes · 210 LEDs · 2 COB (660+850 nm) · incluida la exclusiva 727 nm. Gafas de protección UV obligatorias incluidas. |
+| 🔴 | **Bombilla de luz roja** | Ritual de noche y dormitorio — luz sin componente azul. |
+| 🟡 | **Bombilla Ámbar 1800K** | La luz del atardecer — protege la melatonina, activa el sueño profundo. |
+| 💊 | **Pack completo LAITTIN by EKIO (1 mes)** | Los 4: **Vitamina C Electro Pro** (redox) · **Vitamina B50 Electro Complex** (metabolismo energético) · **Vitamina D3+K2 Electro Premium** (sinergia con el UV-B del panel) · **Probiotic Electro Vital** (eje intestino-piel-inmunidad). |
+| 📱 | **Guía de Uso Interactiva Ekio Light** *(gratis)* | Protocolos por objetivo con distancias, tiempos y uso seguro de UV. |
+| 🤖 | **App Ekio Coach — acceso completo** *(gratis)* | Coach virtual del estilo de vida Ekio hacia el protocolo 360. |
+
+> **Diferencia vs resto de gama**: el Bio Spectrum 11 lleva el **pack completo de 4 suplementos** (el Deep 5 solo Vit C; el Bio Regén 7 añade Vit B50). La **D3+K2 tiene sinergia directa con el UV-B** del panel (ambas rutas de vitamina D). En Shopify montar como bundle. NO es "guía PDF" — son Guía de Uso Interactiva + App Ekio Coach.
 
 ---
 
