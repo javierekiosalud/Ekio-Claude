@@ -39,7 +39,7 @@ tu sueño y tu metabolismo desde la primera sesión.
 
 **SUBTÍTULO:**
 ```
-70 LEDs · 5 longitudes de onda · diseño y patente española.
+70 LEDs · 5 longitudes de onda · diseño español y Modelo de Utilidad propio.
 Para todo el cuerpo: piel, sueño, energía y antiinflamación.
 Incluye 727 nm — la longitud que activa la función mitocondrial
 del tejido adiposo, donde se regula la leptina:
@@ -51,7 +51,7 @@ la hormona que controla tu saciedad y tu metabolismo.
 | Icono | Texto |
 |---|---|
 | 🔬 | **5 longitudes de onda** — 630, 660, 727, 810 y 850 nm |
-| 🇪🇸 | **Patente española** — registrada en 157 países |
+| 🇪🇸 | **Modelo de Utilidad español · PCT en tramitación|
 | ⚡ | **+40% ATP en 20 minutos** — energía celular real |
 | 🌙 | **+27% sueño profundo** — estudio clínico Beijing 2012 |
 
@@ -133,7 +133,10 @@ Por eso el Deep 5 no se vende solo. Se entrega como un programa.
 | 🔴 | **Panel Deep 5** | Fotobiomodulación de 5 longitudes de onda. El núcleo de la activación mitocondrial. |
 | 🟡 | **Bombilla Ámbar** | Para la rutina nocturna. La luz ámbar no suprime la melatonina y prepara el sueño profundo. |
 | 💊 | **Vitamina C Lighting** *(marca propia EKIO)* | Antioxidante sinérgico: amplifica la respuesta redox de la fotobiomodulación. |
-| 📘 | **Guía PDF "Activación de Energía"** | Protocolo paso a paso: vitaminas, alimentación mitocondrial, luz roja, higiene electromagnética. |
+| 📱 | **Guía de Uso Interactiva Ekio Light** *(gratis)* | Protocolos por objetivo — sueño, recuperación, dolor, antiaging, metabolismo — con distancias y tiempos. |
+| 🤖 | **App Ekio Coach — acceso completo** *(gratis)* | Coach virtual del estilo de vida Ekio: aprende el porqué, integra la luz y evoluciona hacia el protocolo 360. |
+
+> **Nota (6-jul)**: NO es "guía PDF" — son la Guía de Uso Interactiva y la App Ekio Coach (activos digitales gratuitos comunes a la gama). Escalera de suplementos de la gama: Deep 5 → Vit C · Bio Regén 7 → Vit C + B50 · Bio Spectrum 11 → pack completo de 4 LAITTIN.
 
 **FRASE CIERRE:**
 ```
@@ -236,7 +239,7 @@ Especificaciones del Panel Deep 5.
 | **Irradiancia óptima** | 20-40 mW/cm² a 15-25 cm |
 | **Dosis recomendada** | 10-30 J/cm² por sesión |
 | **Cobertura** | Todo el cuerpo (cara, torso, espalda, extremidades) |
-| **Patente** | Modelo de utilidad U202532624 (157 países vía PCT) |
+| **Patente** | Modelo de Utilidad español U202532624 · PCT en tramitación |
 | **Certificaciones** | RoHS · FCC · CE · WEEE |
 | **EMF** | Bajo — transformador externo alejado del cuerpo |
 | **Material** | Aluminio anodizado |
