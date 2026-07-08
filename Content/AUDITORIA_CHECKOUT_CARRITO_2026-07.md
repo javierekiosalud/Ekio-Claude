@@ -31,7 +31,7 @@ El checkout **sí tiene una fuga real pero menor**: de 111 personas que llegan a
 | **Schema Plus for SEO** | Datos estructurados | Global | 28,99 $/mes | ⚠️ Fuente de schema Product — verificar duplicidad |
 | **Appstle℠ Loyalty** | Puntos/fidelización | Global + carrito | 30 $/mes | Widget de puntos |
 | **Sharpei Subscriptions** | Suscripciones | PDP | Por uso | ¿Activa en los suplementos LAITTIN? |
-| **Aftersell** | Upsell **post-compra** (pág. de gracias) | Post-checkout | Por uso | ✅ Confirmado activo: Configuración → Pantalla de pago → Página poscompra → "Servicio posventa" seleccionado. Falta verificar si tiene ofertas configuradas dentro de la app |
+| **Aftersell** | Upsell **post-compra** (pág. de gracias) | Post-checkout | Por uso | 🔴 **ROTA — ver H10 abajo** |
 | **GOAFFPRO** | Marketing de afiliados | Global | ? | Programa de afiliados activo — sin relación confirmada con los cupones (ver H2) |
 | **Chaty Chat Buttons & WhatsApp** | Botón flotante WhatsApp | Global | 15 $/mes | ⚠️ Shopify lo marca con **"Acción necesaria"** |
 | **EKIO CRM Sync** / **EKIO MCP Server** | Apps propias | Backend | — | Integraciones internas, no tocan conversión |
@@ -88,6 +88,10 @@ Con Klaviyo instalado, el flow de **abandoned checkout** debería estar activo c
 Shopify señala esta app explícitamente. Puede ser un aviso de facturación, permisos o configuración rota del botón de WhatsApp.
 **Fix**: entrar en la app y resolver el aviso — 2 minutos.
 
+### 🔴 H10 — Aftersell: rota desde hace meses, pagando sin ningún beneficio (verificado 8-jul)
+Instalada el 31 de marzo, con **0 extensiones activas y 0 functions activas** (de 3 áreas disponibles cada una) — es decir, nunca ha tenido ni un solo upsell configurado. Al intentar abrir su panel de configuración, la app **crashea con un Critical Error** (`TypeError: Cannot read properties of undefined (reading 'featureFlags')`, Error ID `5e29720ea51e401aa2020ab199697283`): ni siquiera se puede configurar desde dentro. Más de 3 meses de facturación por uso sin retorno alguno.
+**Fix**: (opcional, máx. 1 semana) reportar el error a soporte de Aftersell con el Error ID por si es un bug puntual; si no hay solución rápida, **desinstalar** (Admin → Apps → Aftersell → Desinstalar app). Decisión y ejecución de Javier — no es una acción que deba tomarse sin su confirmación.
+
 ---
 
 ## C. PLAN DE ACCIÓN PRIORIZADO (actualizado con el funnel real)
@@ -111,7 +115,7 @@ Shopify señala esta app explícitamente. Puede ser un aviso de facturación, pe
 | 8 | Regalo por umbral en el drawer (bombilla ámbar a partir de 150-200 €) | AOV |
 | 9 | Gancho de cuenta + puntos Appstle en la página de gracias (10/13 compran como invitados) | Retención/LTV |
 | 10 | Revisar Sharpei: ¿suscripciones activas en suplementos LAITTIN? Si no, activarlas (producto consumible = suscripción natural) o desinstalar | LTV o higiene |
-| 11 | Verificar qué ofertas tiene configuradas Aftersell en la página de gracias — si ninguna, es coste puro sin uso | AOV / higiene de coste |
+| 11 | Aftersell: reportar el error a soporte (1 semana de margen) o desinstalar directamente | Corta el coste sin uso desde marzo |
 
 ## KPIs a 30 días (baseline real, 8 jun–8 jul 2026)
 - **Sesión → Carrito**: 3,80% → 5%+ (prioridad 1 — depende del rediseño home/colección/PDP/SEO, no de este documento)
