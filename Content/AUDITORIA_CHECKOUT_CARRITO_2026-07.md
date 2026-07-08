@@ -26,7 +26,7 @@ El checkout **sí tiene una fuga real pero menor**: de 111 personas que llegan a
 
 | App | Rol | Zona | Coste | Nota |
 |---|---|---|---|---|
-| **UpCart Cart Drawer** | Drawer de carrito | Carrito | 29,99 $/mes + uso | ✅ Único drawer activo — AOV.ai ya eliminada (ver H0) |
+| **UpCart Cart Drawer** | Drawer de carrito | Carrito | 29,99 $/mes + uso | ✅ Único drawer activo, generando €167/30d en upsells (24,57% conv.) — configuración incompleta, ver H4 |
 | **Judge.me Reviews** | Reseñas | PDP/home | 15 $/mes | ✓ La que usamos en todo el copy nuevo |
 | **Schema Plus for SEO** | Datos estructurados | Global | 28,99 $/mes | ⚠️ Fuente de schema Product — verificar duplicidad |
 | **Appstle℠ Loyalty** | Puntos/fidelización | Global + carrito | 30 $/mes | Widget de puntos |
@@ -50,7 +50,7 @@ El checkout **sí tiene una fuga real pero menor**: de 111 personas que llegan a
 ## B. HALLAZGOS (de más grave a menor)
 
 ### ✅ H0 — Doble drawer: resuelto (AOV.ai eliminada, 8-jul)
-Confirmado: **AOV.ai Cart Drawer ya ha sido desinstalada**. **UpCart** queda como único drawer activo — sin conflicto de DOM/JS en la etapa de "Añadido al carrito". Hallazgo cerrado. Queda pendiente el punto original de H4: configurar bien UpCart con cross-sells, mensaje seQura y refuerzo de garantía.
+Confirmado: **AOV.ai Cart Drawer ya ha sido desinstalada**. **UpCart** queda como único drawer activo — sin conflicto de DOM/JS en la etapa de "Añadido al carrito". Hallazgo cerrado. Queda pendiente el punto de H4: UpCart ya vende (€167/30 días) pero le falta terminar la configuración (ver H4).
 
 ### 🔴 H1 — Verificar duplicidad de schema Product (Judge.me + Schema Plus for SEO)
 Judge.me gestiona las reseñas y **Schema Plus for SEO** (28,99 $/mes) también genera datos estructurados de producto. Si ambas emiten un `Product`/`Review` schema para la misma PDP, Google puede recibir señales contradictorias y descartar el rich snippet de estrellas — coherente con el CTR del 0,7% que documentamos en las PDPs pese a estar en página 1.
@@ -65,12 +65,17 @@ Redefinido el problema real: **tres nombres distintos para, aparentemente, el mi
 ### ✅ H3 — Propinas: descartado (verificado 8-jul)
 Comprobado en Configuración → Pantalla de pago → Propinas: la casilla "Mostrar opciones de propina en la pantalla de pago" está **desmarcada**. Las 19 referencias detectadas en el código eran parte del motor estándar de checkout de Shopify, no la función activada. Sin acción — hallazgo cerrado.
 
-### 🟠 H4 — El drawer UpCart está infrautilizado (pagas por él y no vende)
-Tienes un drawer de pago cuyo valor es precisamente vender más en el carrito, y las señales muestran poco aprovechamiento. Lo que UpCart debería estar haciendo:
-- **Cross-sell inteligente en el drawer** (la mina de oro): Card en carrito → "Añade la Card de tu pareja" / Disc en carrito → "Complétalo con el Stroom Master (electricidad sucia)" / cualquier SPIRO → bombilla ámbar 17,50 € (add-on impulsivo perfecto)
-- **Mensaje seQura en el drawer**: con AOV de 285 €, "o desde 23,75 €/mes" bajo el total es EL argumento — que no aparezca solo en el checkout
-- **Refuerzo de garantía bajo el botón**: "✓ 90 días de garantía · devolución gratuita" (hoy el carrito casi no tiene señales de confianza: 4 menciones)
-- Al ser envío gratis universal, no hay barra de progreso de envío → usarla para **regalo por importe**: "Te faltan X € para la bombilla ámbar de regalo" (umbral 150-200 €)
+### 🟠 H4 — UpCart: funciona, pero a medio configurar (verificado 8-jul, panel propio de la app)
+**Corrección sobre el diagnóstico inicial**: UpCart SÍ vende — últimos 30 días: **€167 de upsell revenue**, 289 impresiones, **24,57% de conversión en el carrito** (buena cifra para upsells). No es una app muerta como Aftersell.
+
+Lo que sí confirma el panel que falta:
+- **Add-ons revenue: €0,00** — sin usar
+- **Subscriptions revenue: €0,00** — sin usar (valorar solo para LAITTIN, consumible)
+- **Discounts: 0 live, 0 draft** — el regalo por umbral ("Te faltan X € para la bombilla ámbar de regalo") no está creado
+- **Setup guide: 4 de 5 tareas** — falta una, sin identificar aún
+- El único carrito configurado sigue con el nombre por defecto **"Untitled cart"** — indicio de que se configuró una vez y no se ha vuelto a tocar
+
+**Fix**: (1) completar la 5ª tarea del setup guide; (2) crear la regla de descuento/regalo por umbral en la sección Discounts de UpCart; (3) revisar si los cross-sells actuales (los que generan los €167) son los óptimos (Card→2ª Card, Disc→Stroom Master) o solo una recomendación genérica; (4) valorar activar Add-ons para complementos de bajo precio (bombilla ámbar 17,50 €); (5) mensaje seQura y refuerzo de garantía bajo el botón, si el editor de UpCart lo permite.
 
 ### 🟠 H5 — Los 10% de descuento erosionan el AOV sin estrategia
 Descuento plano del 10% para todos = -10% de margen sin contrapartida. Mejor escalera: 10% solo primera compra (código único Klaviyo) · regalo físico en vez de % para umbrales · puntos Appstle como alternativa al descuento directo (ya pagas la app).
