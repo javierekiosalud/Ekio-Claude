@@ -32,7 +32,7 @@ El checkout **sí tiene una fuga real pero menor**: de 111 personas que llegan a
 | **Schema Plus for SEO** | Datos estructurados | Global | 28,99 $/mes | ⚠️ Fuente de schema Product — verificar duplicidad |
 | **Appstle℠ Loyalty** | Puntos/fidelización | Global + carrito | 30 $/mes | Widget de puntos |
 | **Sharpei Subscriptions** | Suscripciones | PDP | Por uso | ¿Activa en los suplementos LAITTIN? |
-| **Aftersell** | Upsell **post-compra** (pág. de gracias) | Post-checkout | Por uso | No detectado antes (solo carga ahí) — ¿tiene ofertas configuradas? |
+| **Aftersell** | Upsell **post-compra** (pág. de gracias) | Post-checkout | Por uso | ✅ Confirmado activo: Configuración → Pantalla de pago → Página poscompra → "Servicio posventa" seleccionado. Falta verificar si tiene ofertas configuradas dentro de la app |
 | **GOAFFPRO** | Marketing de afiliados | Global | ? | Programa de afiliados activo — sin relación confirmada con los cupones (ver H2) |
 | **Chaty Chat Buttons & WhatsApp** | Botón flotante WhatsApp | Global | 15 $/mes | ⚠️ Shopify lo marca con **"Acción necesaria"** |
 | **EKIO CRM Sync** / **EKIO MCP Server** | Apps propias | Backend | — | Integraciones internas, no tocan conversión |
@@ -64,9 +64,8 @@ Judge.me gestiona las reseñas y **Schema Plus for SEO** (28,99 $/mes) también 
 Redefinido el problema real: **tres nombres distintos para, aparentemente, el mismo 10%**, sin que el análisis pueda distinguir qué campaña generó cada pedido (154,50 € descontados en 5/13 pedidos de la semana, ≈600-700 €/mes en descuentos — cifra que ahora hay que leer como **coste de campaña**, no como pérdida). Preguntas abiertas para Javier/Isabela: ¿ekio10, 10EKIO y des10ekio corresponden a canales o momentos distintos (ej. abandono de carrito vs. win-back vs. newsletter), o son variantes accidentales del mismo cupón creadas en momentos distintos?
 **Fix**: (1) si son el mismo propósito, consolidar en **un único código activo** con nombre memorable y desactivar los duplicados — simplifica soporte y mide mejor; (2) si cada uno pertenece a un flujo distinto (recomendado), **renombrarlos por función** (ej. `VUELVE10` para win-back, `BIENVENIDA10` para primera compra) para poder medir qué campaña convierte mejor en Klaviyo/Shopify; (3) mantener el campo de cupón en el checkout — aquí sí tiene sentido, es un canal de retención real, no una fuga.
 
-### 🟠 H3 — Propinas posiblemente activas en la pantalla de pago
-El checkout muestra 19 referencias a "tip/propina". Si están activas (Configuración → Pantalla de pago → Propinas), estás pidiendo propina por vender un filtro EMF: fricción, extrañeza y un paso más.
-**Fix (1 min)**: verificar y desactivar.
+### ✅ H3 — Propinas: descartado (verificado 8-jul)
+Comprobado en Configuración → Pantalla de pago → Propinas: la casilla "Mostrar opciones de propina en la pantalla de pago" está **desmarcada**. Las 19 referencias detectadas en el código eran parte del motor estándar de checkout de Shopify, no la función activada. Sin acción — hallazgo cerrado.
 
 ### 🟠 H4 — El drawer UpCart está infrautilizado (pagas por él y no vende)
 Tienes un drawer de pago cuyo valor es precisamente vender más en el carrito, y las señales muestran poco aprovechamiento. Lo que UpCart debería estar haciendo:
