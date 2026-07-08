@@ -18,7 +18,7 @@
 ### Lectura honesta — dónde está el problema de verdad
 **No es principalmente un problema de checkout.** La fuga más grande y la que empeora es la de **arriba del funnel**: solo 3,8 de cada 100 sesiones añaden algo al carrito, y esa tasa ha caído (-26% relativo) frente al periodo más amplio. Es exactamente lo que ya diagnosticamos y estamos arreglando con el rediseño de home/colección/PDPs/SEO: snippets sin estrellas por el conflicto de schema (H1), copy débil, CTR del 0,7% en Google. **Esa sigue siendo la prioridad número 1 del negocio.**
 
-El checkout **sí tiene una fuga real pero menor**: de 111 personas que llegan a pagar, se van **70** sin completar (63%). Con un volumen de 41 pedidos/mes, recuperar aunque sea 8-10 checkouts más al mes (subir del 37% a ~45%) es +20% de pedidos — el ajuste de UpCart/AOV.ai, cupones y propinas de este documento sigue mereciendo la pena, pero como **prioridad 2, no como bloqueante**.
+El checkout **sí tiene una fuga real pero menor**: de 111 personas que llegan a pagar, se van **70** sin completar (63%). Con un volumen de 41 pedidos/mes, recuperar aunque sea 8-10 checkouts más al mes (subir del 37% a ~45%) es +20% de pedidos — el ajuste de UpCart/AOV.ai y propinas de este documento sigue mereciendo la pena, pero como **prioridad 2, no como bloqueante**.
 
 ---
 
@@ -33,7 +33,7 @@ El checkout **sí tiene una fuga real pero menor**: de 111 personas que llegan a
 | **Appstle℠ Loyalty** | Puntos/fidelización | Global + carrito | 30 $/mes | Widget de puntos |
 | **Sharpei Subscriptions** | Suscripciones | PDP | Por uso | ¿Activa en los suplementos LAITTIN? |
 | **Aftersell** | Upsell **post-compra** (pág. de gracias) | Post-checkout | Por uso | No detectado antes (solo carga ahí) — ¿tiene ofertas configuradas? |
-| **GOAFFPRO** | Marketing de afiliados | Global | ? | 🆕 Programa de afiliados activo — posible origen de los cupones genéricos (ver H2) |
+| **GOAFFPRO** | Marketing de afiliados | Global | ? | Programa de afiliados activo — sin relación confirmada con los cupones (ver H2) |
 | **Chaty Chat Buttons & WhatsApp** | Botón flotante WhatsApp | Global | 15 $/mes | ⚠️ Shopify lo marca con **"Acción necesaria"** |
 | **EKIO CRM Sync** / **EKIO MCP Server** | Apps propias | Backend | — | Integraciones internas, no tocan conversión |
 | **Knowledge Base** | Desconocida | ? | ? | Verificar para qué se instaló |
@@ -58,9 +58,11 @@ Confirmado en Shopify Admin → Apps: **UpCart Cart Drawer** (29,99 $/mes + uso)
 Judge.me gestiona las reseñas y **Schema Plus for SEO** (28,99 $/mes) también genera datos estructurados de producto. Si ambas emiten un `Product`/`Review` schema para la misma PDP, Google puede recibir señales contradictorias y descartar el rich snippet de estrellas — coherente con el CTR del 0,7% que documentamos en las PDPs pese a estar en página 1.
 **Fix**: revisar en Schema Plus si tiene el módulo de reseñas de producto activado; si lo tiene, desactivarlo y dejar que solo Judge.me emita ese schema (o generarlo desde el tema, como en las maquetas nuevas). Validar en validator.schema.org y en Search Console → Mejoras → Fragmentos enriquecidos.
 
-### 🔴 H2 — Fuga de cupones: ~660 €/mes, y probablemente ligada al programa de afiliados (GOAFFPRO)
-El 38% de los pedidos llega con un 10% de descuento usando **tres códigos genéricos distintos** (ekio10, 10EKIO, des10ekio) — 154,50 € descontados en una semana ≈ 600-700 €/mes. Nuevo dato: tenéis **GOAFFPRO (marketing de afiliados) instalado** — es muy probable que estos códigos sean en realidad códigos de afiliado mal configurados como genéricos compartidos en vez de únicos por afiliado, lo que explicaría que circulen tan ampliamente.
-**Fix**: (1) revisar en GOAFFPRO si estos 3 códigos están vinculados a afiliados concretos — si es así, el problema no es "matarlos" sino **regenerar códigos únicos por afiliado** con tracking real; (2) para descuentos de campaña pública, usar **descuentos automáticos** (sin campo que rellenar, sin fuga a Google); (3) los códigos de Klaviyo/ManyChat, siempre únicos y de un solo uso.
+### 🟠 H2 — Cupones legítimos (no es una fuga), pero sin trazabilidad ni consolidación
+**Corrección de Javier (8-jul)**: ekio10, 10EKIO y des10ekio **no son códigos filtrados** — son cupones que EKIO entrega deliberadamente en distintas promociones, por ejemplo para incentivar la siguiente compra. Descartado el descarte de GOAFFPRO/afiliados como causa; no hay fuga que tapar.
+
+Redefinido el problema real: **tres nombres distintos para, aparentemente, el mismo 10%**, sin que el análisis pueda distinguir qué campaña generó cada pedido (154,50 € descontados en 5/13 pedidos de la semana, ≈600-700 €/mes en descuentos — cifra que ahora hay que leer como **coste de campaña**, no como pérdida). Preguntas abiertas para Javier/Isabela: ¿ekio10, 10EKIO y des10ekio corresponden a canales o momentos distintos (ej. abandono de carrito vs. win-back vs. newsletter), o son variantes accidentales del mismo cupón creadas en momentos distintos?
+**Fix**: (1) si son el mismo propósito, consolidar en **un único código activo** con nombre memorable y desactivar los duplicados — simplifica soporte y mide mejor; (2) si cada uno pertenece a un flujo distinto (recomendado), **renombrarlos por función** (ej. `VUELVE10` para win-back, `BIENVENIDA10` para primera compra) para poder medir qué campaña convierte mejor en Klaviyo/Shopify; (3) mantener el campo de cupón en el checkout — aquí sí tiene sentido, es un canal de retención real, no una fuga.
 
 ### 🟠 H3 — Propinas posiblemente activas en la pantalla de pago
 El checkout muestra 19 referencias a "tip/propina". Si están activas (Configuración → Pantalla de pago → Propinas), estás pidiendo propina por vender un filtro EMF: fricción, extrañeza y un paso más.
@@ -100,7 +102,7 @@ Shopify señala esta app explícitamente. Puede ser un aviso de facturación, pe
 |---|---|---|---|
 | 1 | **Comprobar en incógnito qué drawer se ve de verdad (UpCart o AOV.ai) y desinstalar el otro** | Carrito real + Admin → Apps | Coste + posible conflicto en la etapa donde ya se pierde el 34% |
 | 2 | Desactivar propinas (si activas) | Configuración → Pantalla de pago | Fricción fuera del 63% que abandona en checkout |
-| 3 | Revisar en GOAFFPRO si ekio10/10EKIO/des10ekio son códigos de afiliado mal configurados → regenerar únicos | GOAFFPRO + Descuentos | ~660 €/mes recuperados + atribución real |
+| 3 | Confirmar con Isabela el propósito de cada cupón (ekio10/10EKIO/des10ekio) y consolidar/renombrar por función (ej. VUELVE10, BIENVENIDA10) | Descuentos + Klaviyo | Atribución real por campaña, no ahorro |
 | 4 | Comprobar si Schema Plus duplica el Product schema de Judge.me → desactivar módulo si aplica | Schema Plus | CTR orgánico (impacto en la fuga del 96%, prioridad 1) |
 | 5 | Resolver el aviso "Acción necesaria" de Chaty | Apps → Chaty | Higiene |
 | 6 | Verificar flow de checkout abandonado en Klaviyo — con 70 abandonos/mes en checkout, es el ROI más rápido de todo este documento (con Isabela) | Klaviyo | Recuperación directa de las 70 personas/mes que abandonan pagando |
@@ -119,6 +121,6 @@ Shopify señala esta app explícitamente. Puede ser un aviso de facturación, pe
 - **Carrito → Checkout**: 65,7% → 72%+ (cross-sells y confianza en el drawer que quede activo)
 - **Checkout → Compra**: 36,9% → 45%+ (H0 doble drawer, H3 propinas, flow de abandono H8) — equivale a ~9-10 pedidos extra/mes con el volumen actual
 - **Tasa de conversión global**: 0,92% → 1,3%+ combinando las tres mejoras
-- % pedidos con cupón genérico: 38% → <10% (solo códigos únicos atribuidos vía GOAFFPRO/Klaviyo)
+- Cupones consolidados por función (ekio10/10EKIO/des10ekio → nomenclatura clara) con atribución de campaña visible en Klaviyo/Shopify
 - AOV: 285 € → 310 €+ (cross-sell drawer + regalo por umbral)
 - Estrellas visibles en SERPs de PDPs (tras limpieza de schema): 0 → sí
