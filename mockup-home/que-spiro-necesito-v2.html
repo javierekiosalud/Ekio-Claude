@@ -289,6 +289,11 @@ function showResult(){
       why:s.sucia==='si'?'Con inversor solar, la electricidad sucia es casi segura: los filtros de aire no llegan a los cables.':(s.sucia==='antigua'?'Las instalaciones antiguas acumulan armónicos: el Stroom Master limpia la red.':'Ante la duda, medir o filtrar la red: es el complemento que casi todo hogar necesita.'),
       price:219.99,link:'coleccion-spiro-v2.html'});
   }
+  // Hint Pack Personal: 1 persona sin teletrabajo + Square X en el plan = existe como pack
+  let packHint='';
+  if(s.personas===1 && !s.teletrabajo && (s.router==='dormitorio'||s.router==='salon')){
+    packHint=`<div class="stack-item" style="border:2px dashed var(--amber)"><div class="pri" style="background:var(--amber);color:var(--navy-dark)">💡</div><div style="flex:1"><h3>Tu combo existe como Pack Protección Personal</h3><p class="why">Card + Square X (y bombilla ámbar de regalo) en una sola compra.</p><p class="pr">350 € · <a href="pdp-pack-personal-v2.html">ver el pack →</a></p></div></div>`;
+  }
   // Render
   const total=items.reduce((a,i)=>a+i.price,0);
   document.getElementById('res-sub').textContent=
@@ -301,7 +306,7 @@ function showResult(){
         <p class="why">${i.why}</p>
         <p class="pr">${i.price.toLocaleString('es-ES',{minimumFractionDigits:i.price%1?2:0})} € · <a href="${i.link}">ver producto →</a></p>
       </div>
-    </div>`).join('');
+    </div>`).join('')+packHint;
   document.getElementById('total-eur').textContent=total.toLocaleString('es-ES',{minimumFractionDigits:2})+' €';
   document.getElementById('total-mes').textContent='desde '+(total/12).toLocaleString('es-ES',{maximumFractionDigits:2})+' €/mes';
   historyStack.push(7);show(7);
