@@ -72,10 +72,10 @@ Lo que sí confirma el panel que falta:
 - **Add-ons revenue: €0,00** — sin usar
 - **Subscriptions revenue: €0,00** — sin usar (valorar solo para LAITTIN, consumible)
 - **Discounts: 0 live, 0 draft** — el regalo por umbral ("Te faltan X € para la bombilla ámbar de regalo") no está creado
-- **Setup guide: 4 de 5 tareas** — falta una, sin identificar aún
+- **Setup guide: 4 de 5 tareas** — la que falta es **"Add triggered rewards"** (confirmado 8-jul): "reglas de recompensa avanzadas que combinan condiciones — valor de carrito, productos, colecciones — con descuentos". Es literalmente la función que implementa el regalo por umbral.
 - El único carrito configurado sigue con el nombre por defecto **"Untitled cart"** — indicio de que se configuró una vez y no se ha vuelto a tocar
 
-**Fix**: (1) completar la 5ª tarea del setup guide; (2) crear la regla de descuento/regalo por umbral en la sección Discounts de UpCart; (3) revisar si los cross-sells actuales (los que generan los €167) son los óptimos (Card→2ª Card, Disc→Stroom Master) o solo una recomendación genérica; (4) valorar activar Add-ons para complementos de bajo precio (bombilla ámbar 17,50 €); (5) mensaje seQura y refuerzo de garantía bajo el botón, si el editor de UpCart lo permite.
+**Fix**: (1) botón **"Add triggered rewards"** en el setup guide → crear regla: condición "valor de carrito ≥ 150-200 €" *(Javier decide umbral exacto)* → recompensa "bombilla ámbar 1800K gratis" (17,50 € de valor) → mensaje con barra de progreso tipo "Te faltan X € para la bombilla ámbar de regalo"; (2) revisar si los cross-sells actuales (los que generan los €167) son los óptimos (Card→2ª Card, Disc→Stroom Master) o solo una recomendación genérica; (3) valorar Add-ons para complementos de bajo precio; (4) mensaje seQura y refuerzo de garantía bajo el botón, si el editor lo permite.
 
 ### 🟠 H5 — Los 10% de descuento erosionan el AOV sin estrategia
 Descuento plano del 10% para todos = -10% de margen sin contrapartida. Mejor escalera: 10% solo primera compra (código único Klaviyo) · regalo físico en vez de % para umbrales · puntos Appstle como alternativa al descuento directo (ya pagas la app).
