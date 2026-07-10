@@ -22,7 +22,7 @@
 | Administrador único | Francisco Javier Andrés Andrés |
 | Notario | **Alejandro Marcos Hidalgo** · c/ Constitución, Valladolid |
 | Sociedad preexistente | EKIO Bienestar S.L. → queda **en hibernación** (avalista Iberaval). Sin actividad, cuentas atrasadas al día. Liquidación diferida a cancelación/sustitución del aval |
-| Sociedad fuera del perímetro | **EcoWiFi** (marca registrada) se reserva fuera de Ekio BioTech para futura sociedad hermana bajo Ekio Holdings |
+| Sociedad fuera del perímetro | **EkoWifi Conectados y Protegidos** (marca OEPM M 4286006, clase 38, concedida 11/06/2025) se reserva fuera de Ekio BioTech para futura sociedad hermana bajo Ekio Holdings |
 
 ---
 
@@ -30,9 +30,9 @@
 
 ### BLOQUE 1 · ACTIVOS TANGIBLES — 44.755 €
 
-#### 1.1. Stock de producto (33.475 €)
+#### 1.1. Stock de producto (52.275 €)
 
-> Valorado a **coste de fabricación** confirmado por el aportante. Spiro (toda la línea) **excluida del aporte** por estar en liquidación. Stock obsoleto al **50 % VNR** (acuerdo con aportante).
+> Valorado a **coste de fabricación/adquisición** confirmado por el aportante. **Línea Spiro INCLUIDA en el aporte** (decisión de Javier 2026-07-03, revirtiendo la exclusión inicial): se valora a coste con la cautela de que, si a fecha de otorgamiento el precio de liquidación resulta inferior al coste, se aplicará deterioro (VNR). Stock obsoleto al **50 % VNR** (acuerdo con aportante).
 
 | Producto | Unidades | Coste unitario | Valor activable | Método |
 |---|---|---|---|---|
@@ -46,12 +46,17 @@
 | Fundas/layers Spiro Card y Square X | 1 lote | — | 350 € | Coste residual |
 | Cajas packaging | 1 lote | — | 575 € | Coste |
 | Stock obsoleto medidores CEM (al 50 %) | 1 lote | 1.500 € original | **750 €** | Coste menos deterioro |
-| **Spiro Disc X, Card, Square, Square X, Ultra, Disc X adicional** | — | — | **EXCLUIDOS** | Línea en liquidación, fuera del aporte |
-| **SUBTOTAL STOCK** | | | **33.475 €** | |
+| Spiro Disc X | 20 | 200 € | 4.000 € | Coste adquisición |
+| Spiro Card | 30 | 50 € | 1.500 € | Coste adquisición |
+| Spiro Square | 30 | 90 € | 2.700 € | Coste adquisición |
+| Spiro Square X | 30 | 170 € | 5.100 € | Coste adquisición |
+| Spiro Ultra | 8 | 500 € | 4.000 € | Coste adquisición |
+| Spiro Disc X (modelo adicional) | 5 | 300 € | 1.500 € | Coste adquisición |
+| **SUBTOTAL STOCK** | | | **52.275 €** | |
 
 > **Documentación requerida para notario:** facturas de compra/fabricación del stock activable (Bloque B5: faltan algunas). Lo que no tenga factura se documenta con inventario fotográfico + albarán + declaración responsable del aportante.
 >
-> **Spiro (18.800 € en el doc original)**: queda en patrimonio personal de Javier autónomo. Se liquidará comercialmente sin pasar por Ekio BioTech.
+> **Cautela sobre la línea Spiro (18.800 € a coste):** al estar la línea en fase de liquidación comercial, el asesor fiscal debe verificar a fecha de otorgamiento que el precio de venta neto no ha caído por debajo del coste; si ha caído, se dota deterioro por la diferencia (criterio VNR, PGC NRV 10ª). El contrato de distribución con Noxtak sigue vigente y se cede a la sociedad, lo que da coherencia comercial a la inclusión del stock.
 
 #### 1.2. Mobiliario y equipos de oficina (7.180 €)
 
@@ -81,7 +86,7 @@
 
 > **Nota:** el local en sí (alquiler 393 €/mes a nombre de Javier autónomo) NO se aporta. El contrato de alquiler se renueva/sustituye a nombre de Ekio BioTech S.L. (sucursal en Valladolid).
 
-#### **TOTAL BLOQUE 1: 44.755 €**
+#### **TOTAL BLOQUE 1: 63.555 €**
 
 ---
 
@@ -122,22 +127,22 @@
 
 ---
 
-### BLOQUE 4 · MARCAS REGISTRADAS — 1.500 € (PROVISIONAL)
+### BLOQUE 4 · SIGNOS DISTINTIVOS OEPM — 1.500 € (documentados 2026-07-03)
 
-> Las 3 marcas declaradas registradas en OEPM (K1). Valor activable = **coste de registro + renovaciones** (criterio prudente PGC). Si en el futuro se hace tasación por royalty relief para ronda, se actualiza.
+> Datos registrales extraídos de la documentación OEPM/Marplan aportada por Javier. Valor activable = **coste de registro + honorarios de agente** (criterio prudente PGC). Agente: Marplan Abogados (Granada).
 
-| Marca | Estado | Titularidad | Valor provisional | Método |
-|---|---|---|---|---|
-| **EKIO LIGHT** | Registrada OEPM | Javier Andrés p.f. | ~500 € | Coste registro |
-| **EKIO Electrosmog** | Registrada OEPM | Javier Andrés p.f. | ~500 € | Coste registro |
-| **EKO WiFi** | Registrada OEPM | Javier Andrés p.f. | **EXCLUIDA del aporte → futura sociedad hermana** | — |
-| **EKIO** (denominativa, sin sufijo) | A verificar si registrada | A confirmar | A determinar | — |
-| **SUBTOTAL MARCAS aportadas a Ekio BioTech** | | | **1.500 €** (provisional, sin EKO WiFi) | |
+| Signo distintivo | Expediente | Clase | Estado real | Valor | Observación |
+|---|---|---|---|---|---|
+| **EKIO ELECTROSMOG** | **N 0467723** | 9 | **Nombre comercial CONCEDIDO** (comunicación Marplan 25/02/2025) | ~750 € | ⚠️ Es NOMBRE COMERCIAL, no marca. Transmisible igualmente. Verificar si el Título de Propiedad fue expedido/recogido (Marplan lo ofrecía por 120 € en feb 2025) |
+| **EKIO LIGHT** | **M 4357232** | 11 | **SOLICITUD DE MARCA EN TRÁMITE** — publicada BOPI 24/03/2026, plazo oposiciones venció ~24/05/2026, resolución pendiente | ~750 € | ⚠️ NO concedida aún. La solicitud es transmisible (art. 46 Ley 17/2001 de Marcas): en la escritura se aporta como "derechos derivados de la solicitud de marca en tramitación". **Verificar en sede OEPM si ya se resolvió** |
+| **EkoWifi Conectados y Protegidos** (figurativa) | **M 4286006** | 38 | **Marca CONCEDIDA 11/06/2025** (solicitud 07/10/2024, española por transformación) | **EXCLUIDA del aporte → futura sociedad hermana** | Título de registro en poder de Javier ✅ |
+| **EKIO** (denominativa, sin sufijo) | — | — | Sin evidencia de registro | — | Verificar en OEPM; si no está registrada, valorar registro (~150 €/clase) |
+| **SUBTOTAL SIGNOS DISTINTIVOS aportados a Ekio BioTech** | | | | **1.500 €** | Refinar con facturas Marplan |
 
-> **Acciones pendientes (URGENTES, antes de escritura):**
-> - **Verificar nº de expediente OEPM** de cada marca + clases Niza + fecha concesión. Esto va literal en la escritura.
-> - Confirmar si la **marca "EKIO" denominativa pura** (sin Light / Electrosmog) está también registrada. Si no, **registrar YA** (riesgo de tercero) — ~150 €/clase.
-> - **EKO WiFi**: aclarar grafía exacta ("EKO WiFi", "EcoWiFi", "EKIO WiFi"?) y formalizar que NO se aporta a Ekio BioTech, sino que se reserva para futura sociedad hermana bajo Ekio Holdings.
+> **Acciones pendientes:**
+> - **Consultar en sede electrónica OEPM el estado actual de M 4357232 (EKIO LIGHT)**: si ya está concedida, la escritura la describe como marca concedida; si sigue en trámite, como solicitud transmisible.
+> - **Confirmar Título de Propiedad del nombre comercial N 0467723** (EKIO ELECTROSMOG): si no se recogió, solicitarlo a OEPM directamente (la expedición del título puede pedirse sin intermediario).
+> - Localizar **facturas de Marplan** (solicitudes + honorarios) para fijar el coste activable exacto.
 
 ---
 
@@ -177,17 +182,17 @@
 
 | Bloque | Valor para escritura | Observación |
 |---|---|---|
-| 1 · Tangibles | **44.755 €** | Stock sin Spiro, obsoleto al 50 %, reforma sólo activable, mobiliario completo |
+| 1 · Tangibles | **63.555 €** | Stock CON Spiro (18.800 € a coste, cautela VNR), obsoleto al 50 %, reforma sólo activable, mobiliario completo |
 | 2 · IP | **1.750 €** | Sólo MU U202532624 a coste. PCT no aportable hoy |
 | 3 · Software | **500 €** | Coste laboral Cristian (4 h = 350 €) + otros costes menores (Javier confirmó cifra 2026-06-29) |
-| 4 · Marcas | **1.500 €** (provisional) | 3 marcas EKIO OEPM confirmadas registradas. Pendiente nº expediente + clases Niza. EKO WiFi excluida |
+| 4 · Signos distintivos | **1.500 €** | Nombre comercial N 0467723 (EKIO ELECTROSMOG, concedido) + solicitud marca M 4357232 (EKIO LIGHT, en trámite). EkoWifi M 4286006 excluida |
 | 5 · Dominio/ecommerce | **4.500 €** | Facturas de tema Shopify + pagos plataforma + dominios (Javier confirmó cifra 2026-06-29) |
 | 6 · RRSS | 0 € en balance | Traspaso operativo. Valor en dataroom |
 | 7 · BBDD | 0 € en balance | Traspaso operativo + cesión RGPD. **Valor 200-300 k€ en dataroom** (ver `02_dataroom_narrativa_inversor.md`) |
 | 8 · Contratos | 0 € en balance | Novación / subrogación contrato a contrato |
 | 9 · Equipo | 0 € en balance | Sucesión empresa art. 44 ET (Cristian) + continuación freelances |
 | 11 · Know-how | 0 € en balance | Aflora en fondo comercio implícito UEA |
-| **TOTAL ACTIVOS APORTADOS** | **~53.005 €** | Defendible para escritura |
+| **TOTAL ACTIVOS APORTADOS** | **~71.805 €** | Defendible para escritura |
 
 ---
 
@@ -219,15 +224,15 @@ Si se traspasan **todos** los pasivos a Ekio BioTech:
 | **Subvención CyL 7.000 €** | **SE QUEDA EN JAVIER PERSONA FÍSICA** | Subvención nominativa al autónomo. Devolución personal directa |
 | **PASIVOS QUE SE TRASPASAN A EKIO BIOTECH** | | **16.729 €** |
 
-### Balance aportado resultante (Escenario A) — actualizado 2026-06-29
+### Balance aportado resultante (Escenario A) — actualizado 2026-07-03
 
 | | Importe |
 |---|---|
-| Activos aportados | **~53.005 €** |
+| Activos aportados | **~71.805 €** |
 | Pasivos que se traspasan | **16.729 €** |
-| **Patrimonio neto aportado (positivo)** | **~+36.276 €** ✅ |
+| **Patrimonio neto aportado (positivo)** | **~+55.076 €** ✅ |
 | Capital social Ekio BioTech | **10.000 €** |
-| Diferencia aportada como **prima de emisión** o reservas | **~26.276 €** |
+| Diferencia aportada como **prima de asunción** | **~45.076 €** |
 
 > Esto deja un balance limpio: capital social bajo, prima de emisión inicial documentable, sin patrimonio neto negativo. Compatible con FEAC.
 
@@ -303,9 +308,9 @@ Si se traspasan **todos** los pasivos a Ekio BioTech:
 
 | | Doc. original "valoración provisional" | Inventario realista (este documento) |
 |---|---|---|
-| Total activos brutos | 1.526.605 € | **~53.005 €** |
+| Total activos brutos | 1.526.605 € | **~71.805 €** |
 | Total pasivos | 130.000 € | 103.729 € real (16.729 € traspasados) |
-| Valor neto patrimonial | 1.396.605 € | **+36.276 €** (patrimonio neto positivo aportado a Ekio BioTech) |
+| Valor neto patrimonial | 1.396.605 € | **+55.076 €** (patrimonio neto positivo aportado a Ekio BioTech) |
 | Riesgo responsabilidad solidaria fundadores (arts. 73-77 LSC) | **MUY ALTO** (sobrevaloración masiva) | Bajo (valoración prudente y documentada) |
 | Riesgo comprobación valores AEAT | **MUY ALTO** | Bajo |
 | Riesgo bandera roja en DD inversora | **Crítico** (balance hinchado) | Mínimo (balance limpio + dataroom potente) |

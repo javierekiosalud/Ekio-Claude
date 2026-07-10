@@ -20,11 +20,11 @@ Posteriormente (Q4 2026 – Q1 2027) está prevista una **ampliación de capital
 
 | Magnitudes de la aportación (detalle en Anexos I-III) | Importe |
 |---|---|
-| Activos aportados (valoración prudente, coste/mercado el menor) | **53.005 €** |
+| Activos aportados (valoración prudente, coste/mercado el menor) | **71.805 €** |
 | Pasivos asumidos por la sociedad (con consentimiento del acreedor) | **16.729 €** |
-| **Patrimonio neto aportado** | **36.276 €** |
+| **Patrimonio neto aportado** | **55.076 €** |
 | Capital social a suscribir | **10.000 €** (10.000 participaciones de 1 € valor nominal) |
-| Prima de asunción | **26.276 €** |
+| Prima de asunción | **45.076 €** |
 
 ---
 
@@ -35,7 +35,7 @@ Posteriormente (Q4 2026 – Q1 2027) está prevista una **ampliación de capital
 | Elemento | Contenido |
 |---|---|
 | **Denominación** | EKIO BIOTECH, S.L. (unipersonal). Certificación negativa RMC **[PENDIENTE — se solicitará con alternativas: "Ekio BioTech S.L.", "Ekio Biotech Salud S.L.", "Ekio Light Biotech S.L."]** |
-| **Socio único fundador** | Francisco Javier Andrés Andrés, mayor de edad, DNI **[PENDIENTE]**, vecino de **[PENDIENTE: domicilio personal]**, estado civil **[PENDIENTE — si casado, indicar régimen económico matrimonial: relevante porque la aportación es de bienes del negocio]** |
+| **Socio único fundador** | Francisco Javier Andrés Andrés, mayor de edad, **DNI 09338115T**, **soltero**, con domicilio en Barrio de Arriba, 39 — 49327 Cubo de Benavente (Zamora) |
 | **Domicilio social** | Barrio de Arriba, 39 — 49327 Cubo de Benavente (Zamora) |
 | **Sucursal / centro de trabajo** | Local en Valladolid (arrendado, 393 €/mes) — se hará constar como centro de trabajo, no como domicilio social |
 | **Capital social** | 10.000 €, dividido en 10.000 participaciones de 1 € de valor nominal, numeradas de la 1 a la 10.000, íntegramente asumidas y desembolsadas mediante aportación no dineraria |
@@ -77,8 +77,7 @@ Se aporta el **negocio en funcionamiento** del empresario individual: la totalid
 
 | Elemento excluido | Motivo |
 |---|---|
-| Stock de la línea "Spiro" (distribución de tercero, en liquidación) | Línea en cierre; se liquidará desde el patrimonio personal |
-| Marca "EKO WiFi" (OEPM) | Reservada para futura línea de negocio independiente bajo la holding |
+| Marca "EkoWifi Conectados y Protegidos" (OEPM M 4286006, figurativa, clase 38, concedida 11/06/2025) | Reservada para futura línea de negocio independiente bajo la holding |
 | Préstamo CaixaBank con aval de Iberaval (80.000 €) | El aval está prestado por EKIO Bienestar S.L.; su traspaso exige novación con la entidad, que se negociará por separado |
 | Obligación de reintegro de subvención Junta de Castilla y León (7.000 € pendientes) | Obligación nominativa del empresario persona física |
 | Solicitud PCT en preparación | Aún no presentada; se presentará directamente a nombre de EKIO BIOTECH S.L. una vez constituida (criterio acordado con la agente de propiedad industrial) |
@@ -89,14 +88,14 @@ Se aporta el **negocio en funcionamiento** del empresario individual: la totalid
 
 | # | Categoría | Descripción resumida | Valor |
 |---|---|---|---|
-| 1 | Existencias | Stock de paneles de fabricación propia (Deep 5 ×25; Bioregén 7 ×25; Biospectrum ×10; Panel Core ×60), accesorios, medidores y packaging, a coste de fabricación/adquisición; partida obsoleta deteriorada al 50 % | **33.475 €** |
+| 1 | Existencias | Stock de paneles de fabricación propia (Deep 5 ×25; Bioregén 7 ×25; Biospectrum ×10; Panel Core ×60), línea de distribución Spiro (Disc X, Card, Square, Square X, Ultra — con contrato de distribución Noxtak que se cede), accesorios, medidores y packaging, a coste de fabricación/adquisición; partida obsoleta deteriorada al 50 %; la partida Spiro sujeta a verificación VNR a fecha de otorgamiento | **52.275 €** |
 | 2 | Inmovilizado material | Mobiliario y equipos de oficina (equipos informáticos Apple y PC, impresoras, mobiliario), según relación unitaria | **7.180 €** |
 | 3 | Inmovilizado material | Instalación eléctrica en local arrendado (1.000 €) y mobiliario de decoración (3.100 €) | **4.100 €** |
 | 4 | Inmovilizado intangible | **Modelo de utilidad U202532624** (OEPM), titularidad del aportante, libre de cargas y gravámenes, valorado a coste de obtención documentado con factura (La Fábrica de Inventos) | **1.750 €** |
-| 5 | Inmovilizado intangible | Marcas registradas OEPM: **EKIO LIGHT** [expediente PENDIENTE] y **EKIO ELECTROSMOG** [expediente PENDIENTE], a coste de registro | **1.500 €** |
+| 5 | Inmovilizado intangible | Signos distintivos OEPM: **nombre comercial N 0467723 "EKIO ELECTROSMOG"** (clase 9, concedido) y **derechos derivados de la solicitud de marca M 4357232 "EKIO LIGHT"** (clase 11, publicada BOPI 24/03/2026, en tramitación — transmisible ex art. 46 Ley 17/2001), a coste de registro y honorarios de agente (Marplan Abogados) | **1.500 €** |
 | 6 | Inmovilizado intangible | Software de gestión propio (EKIO Coach, EKIO APP), a coste de desarrollo interno documentado | **500 €** |
 | 7 | Inmovilizado intangible | Tienda online Shopify (desarrollo del tema y configuración, con facturas) y nombres de dominio (electrosmogespana.com y conexos) | **4.500 €** |
-| | **TOTAL ACTIVOS** | | **53.005 €** |
+| | **TOTAL ACTIVOS** | | **71.805 €** |
 
 *(El inventario unitario con número de serie/lote, facturas y fotografías se aportará como anexo a la escritura. El stock se re-cortará a la fecha exacta del otorgamiento, pues las ventas continúan; la cifra final puede variar ligeramente.)*
 
@@ -116,11 +115,11 @@ Se aporta el **negocio en funcionamiento** del empresario individual: la totalid
 
 | | |
 |---|---|
-| Activos aportados | 53.005 € |
+| Activos aportados | 71.805 € |
 | Pasivos asumidos | (16.729 €) |
-| **Patrimonio neto aportado** | **36.276 €** |
+| **Patrimonio neto aportado** | **55.076 €** |
 | Aplicado a capital social | 10.000 € |
-| Aplicado a prima de asunción | 26.276 € |
+| Aplicado a prima de asunción | 45.076 € |
 
 ---
 
@@ -177,7 +176,7 @@ Existe un condicionante externo de calendario: la solicitud internacional **PCT*
 - [ ] DNI del fundador.
 - [ ] Certificación negativa de denominación (RMC) — o encargo a la Notaría.
 - [ ] Título de concesión del modelo de utilidad U202532624 (OEPM) + factura de La Fábrica de Inventos.
-- [ ] Títulos de registro de marcas EKIO LIGHT y EKIO ELECTROSMOG **[números de expediente PENDIENTES de localizar]**.
+- [ ] Documentación OEPM del **nombre comercial N 0467723 "EKIO ELECTROSMOG"** (concedido; verificar expedición del Título de Propiedad) y de la **solicitud de marca M 4357232 "EKIO LIGHT"** (comprobar en sede OEPM si ya ha sido concedida a fecha de otorgamiento; si sigue en trámite, se aporta como solicitud transmisible ex art. 46 LM).
 - [ ] Inventario unitario valorado del stock e inmovilizado, cortado a fecha de otorgamiento, con facturas disponibles y reportaje fotográfico de lo no facturado.
 - [ ] Facturas del desarrollo de la tienda Shopify y titularidad de dominios.
 - [ ] Contrato laboral del trabajador que se subroga (D. Cristian de Moya Llanos, alta enero 2026).
@@ -193,7 +192,7 @@ Existe un condicionante externo de calendario: la solicitud internacional **PCT*
 1. **Una escritura o varias:** ¿documentamos la constitución con aportación del negocio en una única escritura con anexos (inventario, balance, memoria FEAC), o prefiere protocolizar los contratos accesorios de cesión (marcas OEPM, dominios, subrogaciones) por separado?
 2. **Asunción de pasivos:** forma de reflejar la asunción de los préstamos CaixaBank condicionada al consentimiento del acreedor.
 3. **Descripción de la propiedad industrial:** nivel de detalle que exige para que el Registro Mercantil de Zamora inscriba sin defectos (¿copia certificada del título OEPM incorporada a la matriz?).
-4. **Estado civil y régimen económico del aportante:** documentación que precisa si hay gananciales.
+4. **Aportación de solicitud de marca en trámite (M 4357232 "EKIO LIGHT"):** ¿cómo prefiere documentar la cesión de los derechos derivados de la solicitud (art. 46 Ley de Marcas) para su posterior inscripción en la OEPM, y qué ocurre en la escritura si la marca se concede entre la firma y la inscripción registral?
 5. **Denominación:** ¿aprecia riesgo de calificación por semejanza con la preexistente "EKIO Bienestar S.L." (del mismo titular, que permanecerá inactiva)?
 6. **Cláusula estatutaria de libre transmisión a sociedades 100 % del socio** (para el canje posterior): redacción que recomiende.
 7. **Canje de valores (2ª escritura):** documentación y plazos que estime para encadenarla tras la inscripción de la primera.
@@ -207,7 +206,7 @@ Para coherencia interna del expediente de financiación, la valoración de la fu
 
 | Plano | Cifra | Dónde vive | Para qué sirve |
 |---|---|---|---|
-| **1. Contable / escritura** | Activos 53.005 € · PN aportado **36.276 €** (capital 10.000 € + prima 26.276 €) | Escritura + Registro Mercantil + contabilidad de apertura | Constitución defendible ante notario, RM y AEAT. Sin responsabilidad por sobrevaloración |
+| **1. Contable / escritura** | Activos 71.805 € · PN aportado **55.076 €** (capital 10.000 € + prima 45.076 €) | Escritura + Registro Mercantil + contabilidad de apertura | Constitución defendible ante notario, RM y AEAT. Sin responsabilidad por sobrevaloración |
 | **2. Comercial / dataroom** | **1,0 – 1,95 M€** de valor estratégico documentado (BBDD 200-300k; IP 100-250k; marcas 50-100k; ecommerce 250-500k; RRSS 80-150k; contratos 100-200k; know-how 200-400k; software 20-50k) | `02_dataroom_narrativa_inversor.md` | Negociación con inversores. Sostiene el pre-money |
 | **3. Ronda / pre-money** | Target **1,2 – 1,5 M€** pre-money → con ronda de 800 k€, post-money 2,0 – 2,3 M€; Javier (vía holding) conserva ~60-65 % | Term sheet y pacto de socios | La diferencia entre plano 1 y plano 3 se captura vía **prima de emisión** en la ampliación de la ronda |
 
