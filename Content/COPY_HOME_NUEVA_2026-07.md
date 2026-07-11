@@ -379,3 +379,27 @@ La home ya está en posición 3,4 para "electrosmog": este bloque de 60 palabras
 9. **GEO**: FAQ nueva "¿Qué es el precio invisible?" (página + schema FAQPage) — EKIO se apropia del concepto ante los motores IA; ItemList ampliado con Deep 5; Organization description ahora cubre las dos líneas ("distribuidores oficiales de SPIRO + creadores de EKIO Light y LAITTIN").
 
 **Regla que se conserva de la v2**: todo lo comprable sigue en el primer 20% de scroll; el título/meta SEO de categoría no cambian.
+
+## v3.1 — CORRECCIÓN SEO/GEO CON DATOS GSC COMPLETOS (11-jul, petición Javier)
+
+**Investigación**: universo completo de keywords GSC (pre + post migración). Volúmenes reales por familia:
+spiro 43.955 imp · **electrosmog 11.426** · filtros electromagnéticos 7.025 · **ekio (marca) 6.138** · luz roja + terapia de luz roja 4.204 · protección electromagnética 1.194 · radiación electromagnética 394 (⚠️ casi toda es "medidor/detector de…" = intención de MEDIDORES, no genérica) · contaminación electromagnética 136 (bajo volumen pero término de marca; "qué es la contaminación electromagnética" ya rankea nº1).
+
+**Error corregido**: la v3 puso "radiación electromagnética" en el H1 — la familia más pequeña y de intención equivocada — e ignoró "electrosmog", la keyword genérica más grande de la home (donde ya rankea 3,4).
+
+### Mapa keyword → elemento de la home (aplicado en maqueta)
+
+| Keyword (imp) | Elemento |
+|---|---|
+| ekio electrosmog / ekio (6.138) | **Title**: `EKIO Electrosmog — Filtros SPIRO® y Terapia de Luz Roja` (55c) + Organization schema |
+| **electrosmog** (11.426, pos 3,4) | **H1** + meta + cierre del método ("protocolo 360 contra el electrosmog") + FAQ definicional existente |
+| contaminación electromagnética (marca) | **H1** (aposición que define electrosmog — GEO) + meta + FAQ precio invisible |
+| terapia de luz roja (558; hub en pos 27) | Title + meta + sub del hero literal "(terapia de luz roja EKIO Light)" + puerta RECUPERA → refuerza al hub |
+| filtros electromagnéticos SPIRO (7.025) | Meta + sub + puerta FILTRA + ItemList (target principal: colección) |
+| medidor de radiación electromagnética (342) | Puerta MIDE con frase exacta → anchor hacia la PDP del detector (que ya rankea 8-13) |
+| spiro (43.955) | Anchors "VER FILTROS SPIRO" → colección/PDPs (target principal fuera de la home) |
+
+### H1 final
+> **El precio invisible: lo que el electrosmog — la contaminación electromagnética de tu hogar — te cobra cada día.**
+
+Concepto de marca (GEO/citable) + la keyword grande + el término de marca definido en aposición + "hogar". La emoción y el SEO en la misma frase.
