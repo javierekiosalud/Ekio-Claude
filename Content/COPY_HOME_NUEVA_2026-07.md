@@ -358,3 +358,24 @@ La home ya está en posición 3,4 para "electrosmog": este bloque de 60 palabras
 - No perseguir "spiro card", "spiro disc", etc. desde la home: eso es de las PDPs. La home **pasa autoridad** con anchors exactos.
 - No meter un bloque de 800 palabras de texto SEO al final: 60–150 palabras definicionales bien estructuradas valen más para GEO que un tocho que nadie lee (y que el 86% no vería).
 - No sacrificar el fold: ningún elemento SEO entra en el primer 15% de scroll salvo el H1.
+
+---
+---
+
+# REVISIÓN v3 — HOME DE MARCA: "EL PRECIO INVISIBLE" (11-jul, feedback Javier)
+
+**Motivo**: la v2.1 sobre-corrigió hacia SPIRO — EKIO vende un ecosistema (filtros + luz roja + suplementos + medidores) y la home debe conectar con "el precio invisible" y "tecnología que te cuida" sin perder lo que el heatmap validó (CTA SPIRO arriba).
+
+## Cambios aplicados (en maqueta home-v2.html)
+
+1. **H1 híbrido concepto+keyword (SEO/GEO)**: `El precio invisible: lo que la radiación electromagnética de tu hogar te cobra cada día sin que lo sepas.` — el concepto de marca abre (entidad citable para GEO) y la keyword lo explica en la misma frase. Sub reescrito con golpes cortos: "Duermes peor. Te levantas cansado. Tu energía ya no es la que era. No es la edad ni el estrés…" + las dos vías: **filtramos lo que te daña** (filtros electromagnéticos SPIRO®) / **te devolvemos lo que te falta** (luz roja EKIO Light).
+2. **CTAs del hero sin cambios de fondo**: primario "VER FILTROS SPIRO →" (el ganador del heatmap se mantiene); secundario ahora "Descubre tu precio invisible — haz el test (2 min)".
+3. **Nueva franja de síntomas** bajo el hero (fondo navy): "¿Te reconoces? Cada día que no actúas, pagas un precio que no aparece en ninguna factura" + 4 chips (duermo mal / me levanto cansado / dolores de cabeza / piel y energía apagadas) → tests.
+4. **Los más vendidos ampliado a 4**: los 3 SPIRO + **EKIO Light Deep 5** (650 €, "Recupera tu energía") — la home ya no es monoproducto. H2: "Lo que más eligen los hogares EKIO".
+5. **Puertas → EL MÉTODO EKIO**: "Tres pasos para dejar de pagar el precio invisible" — **1 MIDE** (medidores/test) → **2 FILTRA** (SPIRO + Stroom Master) → **3 RECUPERA** (EKIO Light + LAITTIN). Cierre: "el protocolo 360 de EKIO". Los textos de los botones se mantienen literales (validados por heatmap).
+6. **Historia**: añadido el remate "A esa factura que nadie ve la llamamos el precio invisible — y EKIO existe para que dejes de pagarla."
+7. **CTA final**: H2 "Deja de pagar el precio invisible." + "Tu casa no va a tener menos tecnología el año que viene…"
+8. **Barra de anuncios**: garantía scoped — "90 DÍAS DE GARANTÍA EN FILTROS SPIRO" (regla 90 SPIRO / 30 Ekio Light).
+9. **GEO**: FAQ nueva "¿Qué es el precio invisible?" (página + schema FAQPage) — EKIO se apropia del concepto ante los motores IA; ItemList ampliado con Deep 5; Organization description ahora cubre las dos líneas ("distribuidores oficiales de SPIRO + creadores de EKIO Light y LAITTIN").
+
+**Regla que se conserva de la v2**: todo lo comprable sigue en el primer 20% de scroll; el título/meta SEO de categoría no cambian.
