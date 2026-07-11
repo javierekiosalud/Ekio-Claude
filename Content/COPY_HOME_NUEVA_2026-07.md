@@ -451,3 +451,8 @@ Hero → Trust bar (4 señales, "desde 2011", "+5.000 hogares") → 2 rutas (pro
 - Keywords integradas en H1 + los 10 H2/H3 (era la crítica principal de Javier).
 
 **Nota**: home v2 (SPIRO-first) y v3 ("precio invisible") quedan en el historial de git por si se quieren comparar. Esta v4 es la línea a producción.
+
+## HOME v4 — ajustes 11-jul (feedback Javier)
+1. **Distribuidor oficial SPIRO® en España** — ahora VISIBLE en 2 puntos: (a) 1ª celda de la trust bar, (b) dentro de la ruta de protección ("Como distribuidores oficiales de SPIRO® en España…"). Ya estaba en el schema Organization.
+2. **Panel estrella Bio Spectrum 11** — añadido a la ruta de luz roja: "el único panel con UV-A y UV-B y Modelo de Utilidad español propio". ⚠️ CORRECCIÓN: el panel con UV-A/B + MU es el **Bio Spectrum 11** (buque insignia), NO el Bio Regén 7 (intermedio, sin UV). Se publica "Modelo de Utilidad español propio" SIN el número U202532624 hasta confirmación de Patricia García (cautela PCT).
+3. **Reseñas** — nueva sección dedicada antes del lead magnet: 3 tarjetas de testimonio (estrellas + texto + producto + "compra verificada") + agregado "★4,8/5 sobre [N] opiniones". Marcadas como ejemplos ilustrativos → sustituir por widget Judge.me real y cifra N.

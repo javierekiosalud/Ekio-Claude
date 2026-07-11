@@ -153,6 +153,14 @@
     .proof-card { border: 1px solid rgba(18,38,56,.1); border-radius: 22px; padding: 20px; background: #fffdf8; }
     .proof-card strong { display: block; font-size: 18px; margin-bottom: 8px; }
     .proof-card p { color: var(--ekio-muted); margin: 0; font-size: 14px; }
+    .reviews { background: #fffdf8; }
+    .reviews-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 14px; }
+    .review { border: 1px solid rgba(18,38,56,.1); border-radius: 22px; padding: 22px; background: #fffdf8; }
+    .review .stars { color: var(--ekio-amber); letter-spacing: 2px; font-size: 15px; }
+    .review p { margin: 12px 0; color: var(--ekio-ink); line-height: 1.5; font-size: 15px; }
+    .review .who { font-size: 13px; color: var(--ekio-muted); }
+    .review .who b { color: var(--ekio-ink); }
+    .review .ok { color: var(--ekio-ok); font-weight: 800; }
     .lead { background: linear-gradient(135deg,#eef4f4,#fffdf8); }
     .lead-box { border:1px solid rgba(18,38,56,.1); border-radius:24px; padding:32px; background:#fffdf8; max-width:720px; margin:0 auto; text-align:center; }
     .lead-box form { display:flex; gap:10px; max-width:440px; margin:18px auto 0; flex-wrap:wrap; }
@@ -222,9 +230,9 @@
     </header>
 
     <section class="trust" aria-label="Confianza operativa">
-      <div>Orientación antes de comprar<small>Test SPIRO y test Ekio Light gratis</small></div>
+      <div>Distribuidor oficial SPIRO®<small>Tecnología SPIRO® en España</small></div>
       <div>90 días de garantía<small>En filtros SPIRO — condición enlazada</small></div>
-      <div>Atención humana<small>Asesoramiento especializado EKIO</small></div>
+      <div>Orientación antes de comprar<small>Test SPIRO y test Ekio Light gratis</small></div>
       <div>+5.000 hogares<small>Protegidos en España desde 2011</small></div>
     </section>
 
@@ -240,17 +248,17 @@
       <div class="paths">
         <article class="path spiro" id="spiro">
           <div>
-            <span class="pill">Reducir exposición</span>
+            <span class="pill">Distribuidor oficial en España</span>
             <h3>Protección contra la contaminación electromagnética</h3>
-            <p>Filtros SPIRO® para móviles, Wi-Fi, router, dormitorio, teletrabajo y espacios con dispositivos activos — sin bloquear la señal ni cambiar tus rutinas.</p>
+            <p>Como <b>distribuidores oficiales de SPIRO® en España</b>, te ofrecemos los filtros electromagnéticos para móviles, Wi-Fi, router, dormitorio, teletrabajo y espacios con dispositivos activos — sin bloquear la señal ni cambiar tus rutinas.</p>
           </div>
           <a class="btn btn-blue" href="que-spiro-necesito-v2.html">ENCONTRAR MI SPIRO →</a>
         </article>
         <article class="path light" id="ekio-light">
           <div>
-            <span class="pill">Recuperar energía</span>
+            <span class="pill">Tecnología propia EKIO</span>
             <h3>Terapia de luz roja en casa</h3>
-            <p>Paneles Ekio Light de luz roja e infrarroja para energía, descanso, piel y recuperación — con una rutina adaptada a tu uso, zona, portabilidad y presupuesto.</p>
+            <p>Paneles Ekio Light de luz roja e infrarroja para energía, descanso, piel y recuperación. Del Core portátil al <b>Bio Spectrum 11</b> — el único panel con <b>UV-A y UV-B</b> y <b>Modelo de Utilidad español propio</b>.</p>
           </div>
           <a class="btn btn-red" href="que-panel-necesito-v2.html">ELEGIR MI EKIO LIGHT →</a>
         </article>
@@ -357,6 +365,36 @@
         <article class="proof-card"><strong>Nos has visto en</strong><p>Europa Press, EFE Comunica y Mundo Corporativo, con el contexto de cada publicación.</p></article>
         <article class="proof-card"><strong>90 días de garantía en SPIRO</strong><p>Condiciones visibles y enlace a la política real. Si no notas la diferencia, te devolvemos el dinero.</p></article>
       </div>
+    </section>
+
+    <!-- RESEÑAS -->
+    <section class="reviews" id="resenas">
+      <div class="section-head">
+        <div>
+          <div class="kicker">Opiniones verificadas</div>
+          <h2 class="serif">Lo que notan quienes ya viven con EKIO</h2>
+        </div>
+        <p>Reseñas reales de clientes, gestionadas por Judge.me. Con producto identificado y verificación de compra.</p>
+      </div>
+      <div class="reviews-grid">
+        <article class="review">
+          <div class="stars">★★★★★</div>
+          <p>"Teletrabajo 8 horas al día. Con la SPIRO Card en la funda y el filtro en la mesa, los dolores de cabeza de la tarde han desaparecido."</p>
+          <div class="who"><b>[Nombre real]</b> · SPIRO® Card · <span class="ok">✓ Compra verificada</span></div>
+        </article>
+        <article class="review">
+          <div class="stars">★★★★★</div>
+          <p>"Llevaba meses durmiendo mal sin saber por qué. Con el SPIRO Disc en el dormitorio noté el cambio la segunda semana."</p>
+          <div class="who"><b>[Nombre real]</b> · SPIRO® Disc · <span class="ok">✓ Compra verificada</span></div>
+        </article>
+        <article class="review">
+          <div class="stars">★★★★★</div>
+          <p>"Uso el panel Ekio Light 10 minutos cada mañana. Mi energía y mi descanso han cambiado de verdad — no me lo esperaba."</p>
+          <div class="who"><b>[Nombre real]</b> · Ekio Light Deep 5 · <span class="ok">✓ Compra verificada</span></div>
+        </article>
+      </div>
+      <p style="text-align:center;margin-top:22px;font-weight:900">★ 4,8/5 sobre <span class="serif" style="color:var(--ekio-amber-dark)">[N]</span> opiniones verificadas · <a href="#" style="color:var(--ekio-blue);text-decoration:none">Leer todas →</a></p>
+      <p style="text-align:center;font-size:12px;color:var(--ekio-muted);margin-top:8px">⚠️ Ejemplos ilustrativos — sustituir por reseñas reales del widget Judge.me (foto + nombre + texto) y la cifra real de N.</p>
     </section>
 
     <!-- LEAD MAGNET -->
