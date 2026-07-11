@@ -403,3 +403,51 @@ spiro 43.955 imp · **electrosmog 11.426** · filtros electromagnéticos 7.025 �
 > **El precio invisible: lo que el electrosmog — la contaminación electromagnética de tu hogar — te cobra cada día.**
 
 Concepto de marca (GEO/citable) + la keyword grande + el término de marca definido en aposición + "hogar". La emoción y el SEO en la misma frase.
+
+---
+---
+
+# HOME v4 — DEFINITIVA (11-jul, sobre la plantilla de Javier + SEO/GEO)
+
+**Base**: plantilla `ekio-home-plantilla-definitiva.html` aportada por Javier (estética cálida mediterránea crema/ámbar/serif, enfoque de ecosistema y orientación-no-miedo). Sobre ella se aplica lo que faltaba para producción: keywords en H1 y en TODOS los H2, schema JSON-LD, enlaces reales del ecosistema, title/meta, precios y copy final (las notas internas de la plantilla se convirtieron en copy).
+
+## Title / Meta
+- Title: `EKIO Electrosmog: Protección Electromagnética y Luz Roja`
+- Meta: `Filtros electromagnéticos SPIRO® contra el electrosmog de tu hogar y paneles de terapia de luz roja Ekio Light para recuperar tu energía. Te orientamos antes de comprar. 90 días de garantía en filtros SPIRO.`
+
+## H1 (keyword + emoción + las dos líneas)
+Kicker: "Tecnología que te cuida" · **H1: "Protege tu hogar del electrosmog y recupera tu energía."**
+Lleva: protege hogar + **electrosmog** (keyword, home rankea pos 3,4) + beneficio emocional. Encaja con las dos líneas: SPIRO protege / Ekio Light recupera.
+
+## Mapa keyword → H2 (cada sección ataca una keyword sin canibalizar)
+| Sección | H2 | Keyword |
+|---|---|---|
+| Rutas | ¿Protección frente al electrosmog o recuperación con luz? | electrosmog + intención dual |
+| — path 1 (h3) | Protección contra la contaminación electromagnética | contaminación electromagnética |
+| — path 2 (h3) | Terapia de luz roja en casa | terapia de luz roja (anchor al hub) |
+| Productos | Filtros SPIRO y paneles Ekio Light más vendidos | filtros SPIRO + Ekio Light |
+| Método | Comprende. Protege. Recupera. | marca (sin keyword, es el método) |
+| Aprende (GEO) | Qué es el electrosmog, SPIRO y la terapia de luz roja | 3 entidades citables |
+| Historia | La confianza necesita una persona detrás. | marca |
+| Prueba social | Prueba real, sin exagerar. | confianza |
+| Lead magnet | ¿Cuánto electrosmog hay en tu casa? | electrosmog |
+| FAQ | Dudas sobre electrosmog y protección electromagnética | electrosmog + protección electromagnética |
+
+## Estructura (respeta la plantilla de Javier)
+Hero → Trust bar (4 señales, "desde 2011", "+5.000 hogares") → 2 rutas (protección/recuperación) → 3 productos con precio (Card 97 / Disc 255 / Deep 5 650) → Método EKIO (Comprende-Protege-Recupera) → Aprende (4 bloques GEO citables) → Historia (Javier fundador) → Prueba social honesta → Lead magnet (guía) → FAQ (4) → CTA final.
+
+## Decisiones respetadas de la plantilla de Javier
+- Ecosistema, no solo SPIRO (las dos líneas en el hero y en todo el recorrido).
+- Orientación antes que miedo: "Primero te orientamos; después eliges" + CTA "NO SÉ QUÉ NECESITO" al test.
+- Prueba social honesta: sin estrellas inventadas, medios con contexto (Europa Press, EFE Comunica, Mundo Corporativo), garantía enlazada.
+- Estética cálida (crema/ámbar/serif) en vez del navy anterior.
+- "Desde 2011" y Javier Andrés como fundador (datos de la plantilla).
+
+## Aportado por EKIO (lo que la plantilla no traía)
+- Schema JSON-LD: Organization (dos líneas) + WebSite + FAQPage (4Q) + ItemList (3 productos con precio). Validado.
+- Enlaces reales: nav y CTAs → colección, hub luz roja, La Ciencia, los 2 tests, PDPs (Card/Deep 5). Solo queda 1 `href="#"` (Contacto).
+- Precios reales en las tarjetas de producto.
+- Garantía scoped: "90 días en filtros SPIRO" (regla 90 SPIRO / 30 Ekio Light).
+- Keywords integradas en H1 + los 10 H2/H3 (era la crítica principal de Javier).
+
+**Nota**: home v2 (SPIRO-first) y v3 ("precio invisible") quedan en el historial de git por si se quieren comparar. Esta v4 es la línea a producción.

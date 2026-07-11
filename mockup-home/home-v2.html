@@ -1,544 +1,419 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>EKIO Electrosmog — Filtros SPIRO® y Terapia de Luz Roja</title>
-<meta name="description" content="Especialistas en electrosmog: filtros electromagnéticos SPIRO® y terapia de luz roja EKIO Light contra la contaminación electromagnética. Envío gratis 24/48h.">
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Organization",
-      "@id": "https://electrosmogespana.com/#org",
-      "name": "EKIO Electrosmog España",
-      "url": "https://electrosmogespana.com/",
-      "logo": "https://electrosmogespana.com/[RUTA-LOGO].png",
-      "description": "Tecnología que te cuida: especialistas en electrosmog y bienestar. Distribuidores oficiales de la tecnología SPIRO® en España, creadores de los paneles de terapia de luz roja EKIO Light y de los suplementos LAITTIN by EKIO.",
-      "sameAs": [
-        "https://www.instagram.com/[CUENTA]",
-        "https://www.youtube.com/[CANAL]",
-        "https://www.tiktok.com/[CUENTA]",
-        "https://www.facebook.com/[PAGINA]"
-      ]
-    },
-    {
-      "@type": "WebSite",
-      "@id": "https://electrosmogespana.com/#website",
-      "url": "https://electrosmogespana.com/",
-      "name": "EKIO Electrosmog España",
-      "publisher": {"@id": "https://electrosmogespana.com/#org"}
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {"@type": "Question", "name": "¿Qué es el precio invisible?", "acceptedAnswer": {"@type": "Answer", "text": "El precio invisible es el coste que la vida rodeada de tecnología cobra a tu bienestar sin que aparezca en ninguna factura: peor sueño, menos energía, piel apagada y tensión acumulada. Es el concepto con el que EKIO resume el efecto combinado de la contaminación electromagnética y la falta de luz natural — y se elimina por dos vías: filtrando lo que te daña (filtros SPIRO) y devolviéndole al cuerpo lo que le falta (terapia de luz roja EKIO Light)."}},
-        {"@type": "Question", "name": "¿Qué es el electrosmog?", "acceptedAnswer": {"@type": "Answer", "text": "El electrosmog o contaminación electromagnética es el conjunto de campos electromagnéticos artificiales que generan los dispositivos que nos rodean: routers Wi-Fi, móviles, antenas de telefonía, electrodomésticos y redes eléctricas. A diferencia de otros contaminantes, no se ve ni se huele, pero la exposición es continua: 24 horas al día, también mientras duermes."}},
-        {"@type": "Question", "name": "¿Los filtros electromagnéticos SPIRO funcionan de verdad?", "acceptedAnswer": {"@type": "Answer", "text": "La tecnología SPIRO® ha sido premiada internacionalmente y cuenta con estudios de laboratorio publicados. Además, EKIO ofrece 90 días de garantía: si no notas la diferencia, te devolvemos el dinero."}},
-        {"@type": "Question", "name": "¿Tengo que apagar el Wi-Fi o renunciar a la tecnología?", "acceptedAnswer": {"@type": "Answer", "text": "No. Los filtros SPIRO filtran la contaminación electromagnética sin bloquear la señal. Tu casa funciona igual; tu exposición cambia."}},
-        {"@type": "Question", "name": "¿Qué filtro SPIRO necesito para mi casa?", "acceptedAnswer": {"@type": "Answer", "text": "Regla básica: una SPIRO Card por persona con móvil, y un filtro de espacio (SPIRO Disc o Square) según el tamaño del hogar y sus dispositivos. El test gratuito de EKIO lo calcula en 2 minutos."}},
-        {"@type": "Question", "name": "¿Cuánto cuesta la protección electromagnética de un hogar?", "acceptedAnswer": {"@type": "Answer", "text": "La protección personal empieza en 97 € (SPIRO Card) y puede pagarse hasta en 12 meses sin intereses. Los packs de hogar completo van desde 350 €."}}
-      ]
-    },
-    {
-      "@type": "ItemList",
-      "name": "Filtros electromagnéticos SPIRO más vendidos",
-      "itemListElement": [
-        {"@type": "Product", "position": 1, "name": "SPIRO® Card", "description": "Filtro electromagnético personal para móviles. 1 por persona con móvil.", "offers": {"@type": "Offer", "price": "97.00", "priceCurrency": "EUR", "availability": "https://schema.org/InStock"}},
-        {"@type": "Product", "position": 2, "name": "SPIRO® Disc", "description": "Filtro electromagnético multifunción para el hogar: dormitorio, salón y electrodomésticos.", "offers": {"@type": "Offer", "price": "255.00", "priceCurrency": "EUR", "availability": "https://schema.org/InStock"}},
-        {"@type": "Product", "position": 3, "name": "SPIRO® Square X", "description": "Filtro electromagnético para router y dispositivos de emisión continua.", "offers": {"@type": "Offer", "price": "257.00", "priceCurrency": "EUR", "availability": "https://schema.org/InStock"}},
-        {"@type": "Product", "position": 4, "name": "EKIO Light Deep 5", "description": "Panel de terapia de luz roja de 70 LEDs y 5 longitudes de onda, con la exclusiva 727 nm.", "offers": {"@type": "Offer", "price": "650.00", "priceCurrency": "EUR", "availability": "https://schema.org/InStock"}}
-      ]
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>EKIO Electrosmog: Protección Electromagnética y Luz Roja</title>
+  <meta name="description" content="Filtros electromagnéticos SPIRO® contra el electrosmog de tu hogar y paneles de terapia de luz roja Ekio Light para recuperar tu energía. Te orientamos antes de comprar. 90 días de garantía en filtros SPIRO." />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://electrosmogespana.com/#org",
+        "name": "EKIO Electrosmog España",
+        "url": "https://electrosmogespana.com/",
+        "logo": "https://electrosmogespana.com/[RUTA-LOGO].png",
+        "description": "Tecnología que te cuida: especialistas en electrosmog y bienestar. Distribuidores oficiales de la tecnología SPIRO® de filtros electromagnéticos en España, creadores de los paneles de terapia de luz roja Ekio Light y de los suplementos LAITTIN by EKIO.",
+        "sameAs": ["https://www.instagram.com/[CUENTA]","https://www.youtube.com/[CANAL]","https://www.tiktok.com/[CUENTA]","https://www.facebook.com/[PAGINA]"]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://electrosmogespana.com/#website",
+        "url": "https://electrosmogespana.com/",
+        "name": "EKIO Electrosmog España",
+        "publisher": {"@id": "https://electrosmogespana.com/#org"}
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {"@type": "Question", "name": "¿Qué es el electrosmog o contaminación electromagnética?", "acceptedAnswer": {"@type": "Answer", "text": "Electrosmog es el término divulgativo para la contaminación electromagnética: el conjunto de campos electromagnéticos artificiales que generan móviles, routers Wi-Fi, antenas, electrodomésticos y la red eléctrica del hogar. No se ve ni se huele, pero la exposición es continua, también mientras duermes."}},
+          {"@type": "Question", "name": "¿Qué es SPIRO y qué filtro electromagnético necesito?", "acceptedAnswer": {"@type": "Answer", "text": "SPIRO® es una familia de filtros electromagnéticos que reducen la exposición al electrosmog sin bloquear la señal: para uso personal (móvil), dispositivos y espacios del hogar. El filtro adecuado depende de cuántas personas y dispositivos hay, dónde está el router y qué estancias quieres priorizar. El test gratuito de EKIO lo calcula en 2 minutos."}},
+          {"@type": "Question", "name": "¿Qué es la terapia de luz roja y para qué sirve?", "acceptedAnswer": {"@type": "Answer", "text": "La terapia de luz roja (fotobiomodulación) usa luz roja e infrarroja para estimular la función celular: energía, descanso, piel y recuperación. Los paneles Ekio Light están diseñados con criterios de bajo campo electromagnético y cero flicker. El modelo adecuado depende del objetivo, la zona, la portabilidad y el presupuesto."}},
+          {"@type": "Question", "name": "¿Los tests de EKIO diagnostican mi nivel de radiación?", "acceptedAnswer": {"@type": "Answer", "text": "No. Los tests son recomendadores de producto, gratuitos y de 2 minutos. Para conocer niveles concretos de contaminación electromagnética hace falta una medición con un medidor EMF o el asesoramiento de un especialista."}}
+        ]
+      },
+      {
+        "@type": "ItemList",
+        "name": "Productos EKIO más elegidos",
+        "itemListElement": [
+          {"@type": "Product", "position": 1, "name": "SPIRO® Card", "description": "Filtro electromagnético personal para el móvil, contra el electrosmog. 1 por persona con móvil.", "offers": {"@type": "Offer", "price": "97.00", "priceCurrency": "EUR", "availability": "https://schema.org/InStock"}},
+          {"@type": "Product", "position": 2, "name": "SPIRO® Disc", "description": "Filtro electromagnético multifunción para espacios del hogar: dormitorio, salón y router.", "offers": {"@type": "Offer", "price": "255.00", "priceCurrency": "EUR", "availability": "https://schema.org/InStock"}},
+          {"@type": "Product", "position": 3, "name": "EKIO Light Deep 5", "description": "Panel de terapia de luz roja de 70 LEDs y 5 longitudes de onda, con la exclusiva 727 nm.", "offers": {"@type": "Offer", "price": "650.00", "priceCurrency": "EUR", "availability": "https://schema.org/InStock"}}
+        ]
+      }
+    ]
+  }
+  </script>
+  <style>
+    :root {
+      --ekio-ink: #122638;
+      --ekio-ink-soft: #24384a;
+      --ekio-cream: #f6f0e6;
+      --ekio-paper: #fffdf8;
+      --ekio-line: #ded4c4;
+      --ekio-amber: #e7a84d;
+      --ekio-amber-dark: #9b661e;
+      --ekio-blue: #1d5366;
+      --ekio-blue-soft: #e6f0f0;
+      --ekio-red: #8b2f2b;
+      --ekio-red-soft: #f5ddd2;
+      --ekio-muted: #64707c;
+      --ekio-ok: #2d7a58;
+      --radius-lg: 28px;
+      --radius-md: 20px;
+      --shadow-soft: 0 24px 70px rgba(18, 38, 56, .12);
     }
-  ]
-}
-</script>
-<style>
-  :root{
-    --navy:#132f4e;
-    --navy-dark:#0c2038;
-    --amber:#e8a13c;
-    --amber-dark:#c9852a;
-    --ink:#1b2430;
-    --gray:#5c6773;
-    --bg-soft:#f5f7fa;
-    --bg-warm:#faf6ef;
-    --line:#e3e8ee;
-    --star:#f5a623;
-    --ok:#2e8b57;
-  }
-  *{margin:0;padding:0;box-sizing:border-box}
-  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:#fff;line-height:1.55}
-  img{max-width:100%}
-  .wrap{max-width:1080px;margin:0 auto;padding:0 20px}
-  h1,h2,h3{line-height:1.2}
-  h2{font-size:clamp(24px,4vw,34px);margin-bottom:10px}
-  .kicker{font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--amber-dark);font-weight:700;margin-bottom:8px}
-  section{padding:56px 0}
-  .btn{display:inline-block;border:none;cursor:pointer;text-decoration:none;font-weight:700;border-radius:8px;text-align:center;transition:transform .1s ease, box-shadow .1s ease}
-  .btn:active{transform:scale(.98)}
-  .btn-primary{background:var(--navy);color:#fff;padding:16px 28px;font-size:17px;box-shadow:0 4px 14px rgba(19,47,78,.25)}
-  .btn-primary:hover{background:var(--navy-dark)}
-  .btn-ghost{background:transparent;color:var(--navy);padding:15px 24px;font-size:15px;border:2px solid var(--navy)}
-  .btn-amber{background:var(--amber);color:var(--navy-dark);padding:16px 28px;font-size:17px}
-  .btn-amber:hover{background:var(--amber-dark);color:#fff}
-  .stars{color:var(--star);letter-spacing:2px}
-  .note{display:inline-block;background:#fff8e6;border:1px dashed var(--amber-dark);color:#7a5b17;font-size:12px;padding:4px 10px;border-radius:6px;margin-top:10px}
-
-  /* ANNOUNCEMENT BAR */
-  .bar{background:var(--navy-dark);color:#fff;font-size:13px;font-weight:600;letter-spacing:.06em;text-align:center;height:38px;overflow:hidden;position:relative}
-  .bar-inner{display:flex;flex-direction:column;animation:rotateBar 9s infinite}
-  .bar-inner span{height:38px;display:flex;align-items:center;justify-content:center;padding:0 12px}
-  @keyframes rotateBar{
-    0%,28%{transform:translateY(0)}
-    33%,61%{transform:translateY(-38px)}
-    66%,94%{transform:translateY(-76px)}
-    100%{transform:translateY(0)}
-  }
-
-  /* HEADER */
-  header{position:sticky;top:0;background:#fff;border-bottom:1px solid var(--line);z-index:50}
-  .nav{display:flex;align-items:center;justify-content:space-between;height:62px}
-  .logo{font-weight:900;font-size:24px;letter-spacing:.05em;color:var(--ink);text-decoration:none}
-  .logo small{display:block;font-size:8px;letter-spacing:.42em;font-weight:600;color:var(--gray)}
-  .menu{display:none;gap:26px;font-size:14px;font-weight:600}
-  .menu a{color:var(--ink);text-decoration:none}
-  .menu a.hl{color:var(--amber-dark)}
-  .nav-icons{display:flex;gap:16px;font-size:20px}
-  .burger{font-size:24px;background:none;border:none;cursor:pointer}
-  @media(min-width:880px){.menu{display:flex}.burger{display:none}}
-
-  /* HERO */
-  .hero{padding:0 0 40px}
-  .hero-grid{display:grid;gap:24px}
-  @media(min-width:880px){.hero-grid{grid-template-columns:1.05fr .95fr;align-items:center;padding-top:30px}}
-  .hero-photo{position:relative;border-radius:0 0 18px 18px;overflow:hidden;background:
-    radial-gradient(circle at 72% 30%, rgba(232,161,60,.35), transparent 45%),
-    linear-gradient(160deg,#e9d9bd 0%, #d9c09a 45%, #b98d5f 100%);
-    min-height:210px;display:flex;align-items:flex-end;cursor:pointer}
-  @media(min-width:880px){.hero-photo{border-radius:18px;min-height:420px}}
-  .photo-label{background:rgba(12,32,56,.82);color:#fff;font-size:12.5px;padding:12px 16px;width:100%;line-height:1.5}
-  .photo-label b{color:var(--amber)}
-  .hero-copy{padding:26px 0 0}
-  .hero-copy h1{font-size:clamp(28px,5.4vw,42px);font-weight:850;letter-spacing:-.01em}
-  .hero-copy h1 em{font-style:normal;color:var(--amber-dark)}
-  .hero-sub{margin:16px 0 22px;font-size:16.5px;color:var(--gray);max-width:52ch}
-  .hero-ctas{display:flex;flex-direction:column;gap:12px;max-width:420px}
-  @media(min-width:880px){.hero-ctas{flex-direction:row;max-width:none;align-items:center}}
-  .hero-proof{margin-top:16px;font-size:14px;color:var(--gray)}
-  .hero-proof b{color:var(--ink)}
-
-  /* PRODUCTS */
-  .sect-soft{background:var(--bg-soft)}
-  .prod-grid{display:grid;gap:16px;margin-top:26px}
-  @media(min-width:760px){.prod-grid{grid-template-columns:repeat(2,1fr)}}
-  @media(min-width:1000px){.prod-grid{grid-template-columns:repeat(4,1fr)}}
-  .card{background:#fff;border:1px solid var(--line);border-radius:14px;overflow:hidden;display:flex;flex-direction:column}
-  .card-img{height:170px;display:flex;align-items:center;justify-content:center;font-weight:800;color:#fff;font-size:15px;text-align:center;padding:12px}
-  .ci-1{background:linear-gradient(145deg,#26476e,#132f4e)}
-  .ci-2{background:linear-gradient(145deg,#3b3f8f,#232659)}
-  .ci-3{background:linear-gradient(145deg,#155e63,#0c3b3e)}
-  .card-body{padding:18px;display:flex;flex-direction:column;gap:8px;flex:1}
-  .card-body h3{font-size:17px}
-  .price{font-size:22px;font-weight:850}
-  .price small{font-size:13px;color:var(--gray);font-weight:600}
-  .card .micro{font-size:14px;color:var(--gray);flex:1}
-  .badge-top{align-self:flex-start;background:var(--amber);color:var(--navy-dark);font-size:11px;font-weight:800;letter-spacing:.06em;padding:3px 9px;border-radius:99px;text-transform:uppercase}
-  .see-all{display:block;text-align:center;margin-top:22px;font-weight:700;color:var(--navy)}
-
-  /* CATEGORY DOORS */
-  .doors{display:grid;gap:16px;margin-top:26px}
-  @media(min-width:760px){.doors{grid-template-columns:repeat(3,1fr)}}
-  .door{border:1px solid var(--line);border-radius:14px;padding:24px;background:#fff}
-  .door h3{font-size:19px;margin-bottom:8px}
-  .door p{font-size:14.5px;color:var(--gray);margin-bottom:16px}
-  .door p b{color:var(--ink)}
-  .door .btn{width:100%;padding:13px}
-
-  /* REVIEWS */
-  .rev-grid{display:grid;gap:14px;margin-top:26px}
-  @media(min-width:760px){.rev-grid{grid-template-columns:repeat(3,1fr)}}
-  .rev{background:#fff;border:1px solid var(--line);border-radius:14px;padding:20px;font-size:14.5px}
-  .rev p{margin:10px 0;color:var(--ink)}
-  .rev .who{display:flex;align-items:center;gap:10px;margin-top:12px}
-  .avatar{width:38px;height:38px;border-radius:50%;background:var(--navy);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:15px}
-  .who small{display:block;color:var(--gray);font-size:12.5px}
-  .verified{color:var(--ok);font-size:12px;font-weight:700}
-
-  /* PRESS */
-  .press{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:30px 0}
-  .press-row{display:flex;flex-wrap:wrap;gap:14px 30px;align-items:center;justify-content:center;margin-top:14px}
-  .press-row span{font-weight:800;font-size:17px;color:#9aa4ae;font-family:Georgia,serif}
-  .press h2{font-size:14px;letter-spacing:.15em;text-align:center;color:var(--gray)}
-
-  /* GUARANTEE */
-  .guar{background:var(--navy);color:#fff;text-align:center}
-  .guar h2{color:#fff}
-  .guar .big{font-size:clamp(26px,4.6vw,36px)}
-  .guar p{max-width:60ch;margin:14px auto 26px;color:#cfd9e4;font-size:16.5px}
-  .badges{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;max-width:680px;margin:0 auto}
-  @media(min-width:760px){.badges{grid-template-columns:repeat(4,1fr)}}
-  .badges div{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18);border-radius:10px;padding:14px 10px;font-size:13.5px;font-weight:700}
-  .price-anchor{margin-top:22px;font-size:15px;color:var(--amber)}
-
-  /* STORY */
-  .story{background:var(--bg-warm)}
-  .story .inner{max-width:680px;margin:0 auto;text-align:center}
-  .story p{margin:14px 0;font-size:16.5px;color:#40474f}
-  .story a{color:var(--navy);font-weight:700}
-
-  /* LEAD MAGNET */
-  .lead .box{background:var(--bg-soft);border:1px solid var(--line);border-radius:18px;padding:34px 24px;max-width:680px;margin:0 auto;text-align:center}
-  .lead form{display:flex;flex-direction:column;gap:10px;max-width:420px;margin:20px auto 0}
-  @media(min-width:640px){.lead form{flex-direction:row}}
-  .lead input{flex:1;padding:14px 16px;border:1.5px solid var(--line);border-radius:8px;font-size:15px}
-  .lead .micro{font-size:12.5px;color:var(--gray);margin-top:12px}
-
-  /* FAQ */
-  .faq details{border-bottom:1px solid var(--line);padding:16px 0}
-  .faq summary{font-weight:700;font-size:16px;cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:14px}
-  .faq summary::after{content:"+";font-size:20px;color:var(--amber-dark)}
-  .faq details[open] summary::after{content:"–"}
-  .faq details p{margin-top:10px;color:var(--gray);font-size:15px;max-width:70ch}
-
-  /* FINAL CTA */
-  .final{background:var(--navy-dark);color:#fff;text-align:center}
-  .final h2{color:#fff;font-size:clamp(24px,4.4vw,34px)}
-  .final p{color:#cfd9e4;margin:12px 0 26px}
-  .final .hero-ctas{margin:0 auto;justify-content:center}
-  .final .btn-ghost{color:#fff;border-color:#fff}
-
-  footer{background:#0a1a2c;color:#8fa1b3;font-size:13px;text-align:center;padding:26px 20px}
-
-  /* POPUP BOTTOM SHEET */
-  .sheet-backdrop{position:fixed;inset:0;background:rgba(10,20,35,.5);opacity:0;pointer-events:none;transition:opacity .25s;z-index:98}
-  .sheet{position:fixed;left:0;right:0;bottom:0;background:#fff;border-radius:20px 20px 0 0;padding:26px 22px 30px;transform:translateY(105%);transition:transform .3s ease;z-index:99;max-width:560px;margin:0 auto;box-shadow:0 -8px 40px rgba(0,0,0,.25)}
-  .popup-open .sheet{transform:translateY(0)}
-  .popup-open .sheet-backdrop{opacity:1;pointer-events:auto}
-  .sheet .grab{width:44px;height:4px;background:var(--line);border-radius:99px;margin:0 auto 18px}
-  .sheet .close-x{position:absolute;top:14px;right:16px;background:none;border:none;font-size:22px;color:var(--gray);cursor:pointer}
-  .sheet h3{font-size:23px;margin-bottom:8px}
-  .sheet p{font-size:15px;color:var(--gray);margin-bottom:18px}
-  .sheet p b{color:var(--ink)}
-  .sheet .btn{width:100%}
-  .sheet .later{display:block;text-align:center;margin-top:14px;color:var(--gray);font-size:14px;background:none;border:none;cursor:pointer;width:100%}
-  .sheet .mini-card{position:absolute;top:-26px;right:22px;width:74px;height:48px;background:linear-gradient(145deg,#26476e,#132f4e);border-radius:8px;box-shadow:0 6px 18px rgba(0,0,0,.3);color:#fff;font-size:9px;font-weight:800;display:flex;align-items:center;justify-content:center}
-  .reopen{position:fixed;bottom:18px;right:18px;z-index:97;background:var(--amber);color:var(--navy-dark);border:none;border-radius:99px;padding:12px 18px;font-weight:800;font-size:13px;cursor:pointer;box-shadow:0 4px 14px rgba(0,0,0,.25)}
-
-  .maqueta-tag{position:fixed;top:0;left:0;background:#d33;color:#fff;font-size:10px;font-weight:800;letter-spacing:.08em;padding:3px 10px;z-index:100;border-radius:0 0 8px 0}
-</style>
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: var(--ekio-ink); background: #e7dfd2; line-height: 1.55; }
+    a { color: inherit; }
+    img { max-width: 100%; display: block; }
+    .serif { font-family: Georgia, "Times New Roman", serif; font-weight: 700; }
+    .site { max-width: 1220px; margin: 28px auto; border: 1px solid var(--ekio-line); border-radius: 30px; background: var(--ekio-paper); overflow: hidden; box-shadow: var(--shadow-soft); }
+    .top-tag { position: fixed; left: 16px; bottom: 16px; z-index: 100; background: #d33; color: #fff; border-radius: 999px; padding: 8px 14px; font-size: 11px; font-weight: 800; letter-spacing:.06em; }
+    .bar { background: var(--ekio-ink); color: #fffdf8; text-align: center; font-size: 12px; letter-spacing: .04em; padding: 10px 14px; font-weight: 750; }
+    .nav { display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 18px clamp(20px, 4vw, 48px); border-bottom: 1px solid rgba(18, 38, 56, .1); background: rgba(255, 253, 248, .92); position: sticky; top: 0; z-index: 10; backdrop-filter: blur(14px); }
+    .logo { text-decoration: none; font-weight: 950; letter-spacing: .08em; font-size: 23px; line-height: .9; }
+    .logo span { display: block; font-size: 8px; letter-spacing: .42em; font-weight: 800; color: var(--ekio-muted); margin-top: 5px; }
+    .nav-links { display: flex; gap: 22px; align-items: center; font-size: 13px; font-weight: 800; }
+    .nav-links a { text-decoration: none; color: var(--ekio-ink); }
+    .nav-links .highlight { color: var(--ekio-amber-dark); }
+    .mobile-menu { display: none; font-weight: 900; border: 1px solid rgba(18,38,56,.14); border-radius: 999px; padding: 8px 12px; }
+    .hero { display: grid; grid-template-columns: 1.02fr .98fr; gap: 32px; padding: clamp(34px, 5vw, 64px) clamp(20px, 4vw, 48px) 34px; background: radial-gradient(circle at 88% 16%, rgba(231,168,77,.26), transparent 25%), linear-gradient(135deg, #fffdf8 0%, #f8f1e5 58%, #efe1cd 100%); }
+    .kicker { color: var(--ekio-amber-dark); font-weight: 900; letter-spacing: .12em; font-size: 12px; text-transform: uppercase; margin-bottom: 10px; }
+    h1 { font-size: clamp(34px, 5.4vw, 62px); line-height: 1.0; letter-spacing: -.04em; margin: 0; color: var(--ekio-ink); }
+    h1 em { color: var(--ekio-amber-dark); font-style: normal; }
+    .hero-sub { margin: 20px 0 0; color: #3d4a56; font-size: 18px; line-height: 1.62; max-width: 58ch; }
+    .cta-row { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin-top: 26px; }
+    .btn { border-radius: 999px; padding: 14px 20px; font-weight: 900; font-size: 13px; text-decoration: none; display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 46px; border: 1px solid transparent; transition: transform .18s ease, box-shadow .18s ease, background .18s ease; }
+    .btn:hover { transform: translateY(-1px); box-shadow: 0 12px 24px rgba(18,38,56,.12); }
+    .btn-primary { background: var(--ekio-amber); color: var(--ekio-ink); }
+    .btn-blue { background: var(--ekio-ink); color: #fffdf8; }
+    .btn-red { background: var(--ekio-red); color: #fffdf8; }
+    .btn-line { border-color: rgba(18,38,56,.22); color: var(--ekio-ink); background: #fffdf8; }
+    .hero-note { margin-top: 16px; color: var(--ekio-muted); font-size: 13px; }
+    .visual { min-height: 448px; border-radius: var(--radius-lg); background: radial-gradient(circle at 74% 25%, rgba(231,168,77,.35), transparent 24%), linear-gradient(135deg, #d9e4e3 0%, #ead8bf 54%, #c98b6b 100%); position: relative; overflow: hidden; border: 1px solid rgba(18,38,56,.12); }
+    .visual::before { content: ""; position: absolute; inset: 0; background-image: linear-gradient(115deg, rgba(255,255,255,.22), transparent 40%); pointer-events: none; }
+    .window { position: absolute; inset: 28px 28px auto auto; width: 42%; height: 58%; border-radius: 24px; background: linear-gradient(180deg, #fdf8ef, #e8d1b2); box-shadow: 0 22px 60px rgba(18,38,56,.18); }
+    .sofa { position: absolute; left: 36px; right: 36px; bottom: 52px; height: 124px; border-radius: 36px 36px 18px 18px; background: #b68364; }
+    .phone { position: absolute; left: 56px; bottom: 130px; width: 94px; height: 130px; border-radius: 20px; background: linear-gradient(180deg, var(--ekio-blue), var(--ekio-ink)); box-shadow: 0 18px 34px rgba(18,38,56,.25); }
+    .spiro-card { position: absolute; left: 80px; bottom: 172px; width: 74px; height: 44px; border-radius: 13px; background: #fffdf8; color: var(--ekio-blue); display: flex; align-items: center; justify-content: center; font-weight: 950; font-size: 12px; border: 1px solid rgba(29,83,102,.22); }
+    .light-panel { position: absolute; right: 46px; bottom: 82px; width: 116px; height: 154px; border-radius: 24px; background: radial-gradient(circle, #ffb09a 0%, #b6453b 36%, #4a1817 100%); box-shadow: 0 0 46px rgba(139,47,43,.35); }
+    .ambient-label { position: absolute; left: 28px; right: 28px; bottom: 22px; background: rgba(255,253,248,.9); border: 1px solid rgba(18,38,56,.12); border-radius: 18px; padding: 13px 15px; font-size: 13px; color: #334250; }
+    .trust { display: grid; grid-template-columns: repeat(4,1fr); border-top: 1px solid rgba(18,38,56,.1); border-bottom: 1px solid rgba(18,38,56,.1); background: #fffdf8; }
+    .trust div { padding: 18px 20px; border-right: 1px solid rgba(18,38,56,.08); font-size: 13px; font-weight: 850; }
+    .trust div:last-child { border-right: 0; }
+    .trust small { display: block; color: var(--ekio-muted); font-weight: 650; margin-top: 2px; }
+    section { padding: 54px clamp(20px, 4vw, 48px); }
+    h2 { margin: 0; font-size: clamp(26px, 3.6vw, 42px); letter-spacing: -.03em; line-height: 1.1; }
+    .section-head { display: flex; justify-content: space-between; align-items: end; gap: 24px; margin-bottom: 24px; }
+    .section-head p { max-width: 44ch; color: var(--ekio-muted); margin: 0; line-height: 1.55; }
+    .paths { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+    .path { border: 1px solid rgba(18,38,56,.12); border-radius: 26px; padding: 28px; min-height: 268px; display: flex; flex-direction: column; justify-content: space-between; background: #fffdf8; position: relative; overflow: hidden; }
+    .path::after { content: ""; position: absolute; right: -50px; bottom: -50px; width: 160px; height: 160px; border-radius: 50%; background: rgba(18,38,56,.05); }
+    .path.spiro { background: linear-gradient(140deg,#fffdf8,var(--ekio-blue-soft)); }
+    .path.light { background: linear-gradient(140deg,#fffdf8,var(--ekio-red-soft)); }
+    .pill { display: inline-flex; width: max-content; border-radius: 999px; padding: 7px 10px; font-size: 11px; font-weight: 950; letter-spacing: .08em; text-transform: uppercase; background: rgba(18,38,56,.08); margin-bottom: 18px; }
+    .path h3 { font-size: 26px; margin: 0 0 10px; letter-spacing: -.02em; }
+    .path p { color: #4c5963; line-height: 1.5; margin: 0 0 20px; max-width: 48ch; }
+    .products { background: var(--ekio-cream); }
+    .product-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 16px; }
+    .product { background: #fffdf8; border: 1px solid rgba(18,38,56,.1); border-radius: 24px; overflow: hidden; min-height: 100%; display:flex; flex-direction:column; }
+    .product .image { height: 158px; display: flex; align-items: center; justify-content: center; font-weight: 950; color: #fffdf8; letter-spacing: .02em; text-align: center; padding: 20px; }
+    .product:nth-child(1) .image { background: linear-gradient(145deg,var(--ekio-blue),var(--ekio-ink)); }
+    .product:nth-child(2) .image { background: linear-gradient(145deg,#16394a,#081a27); }
+    .product:nth-child(3) .image { background: radial-gradient(circle,#d86c5b,#351110); }
+    .product-body { padding: 20px; display:flex; flex-direction:column; flex:1; }
+    .product h3 { margin: 0 0 4px; font-size: 20px; }
+    .product .cat { font-size:11px; font-weight:900; letter-spacing:.08em; text-transform:uppercase; color:var(--ekio-amber-dark); margin-bottom:8px; }
+    .product p { margin: 0 0 14px; color: var(--ekio-muted); font-size: 14px; line-height: 1.5; flex:1; }
+    .product .price { font-weight:900; font-size:19px; margin-bottom:14px; }
+    .product .price small { font-weight:650; color:var(--ekio-muted); font-size:12px; }
+    .see-all { display:inline-block; margin-top:20px; font-weight:900; font-size:13px; color:var(--ekio-blue); text-decoration:none; }
+    .method { display: grid; grid-template-columns: .9fr 1.1fr; gap: 32px; background: var(--ekio-ink); color: #fffdf8; }
+    .method .kicker { color: var(--ekio-amber); }
+    .method p { color: #d8e0e6; line-height: 1.6; }
+    .steps { display: grid; gap: 12px; }
+    .step { border: 1px solid rgba(255,255,255,.18); border-radius: 22px; padding: 20px; background: rgba(255,255,255,.06); }
+    .step strong { display: block; margin-bottom: 6px; color: var(--ekio-amber); }
+    .step a { color: #fff; font-weight:800; }
+    .answer-grid { display: grid; grid-template-columns: repeat(2,1fr); gap: 14px; }
+    .answer { border: 1px solid rgba(18,38,56,.1); background: #fffdf8; border-radius: 20px; padding: 20px; }
+    .answer h3 { margin: 0 0 8px; font-size: 18px; }
+    .answer p { margin: 0; color: var(--ekio-muted); line-height: 1.55; font-size: 14px; }
+    .answer a { color: var(--ekio-blue); font-weight:800; }
+    .story { background: linear-gradient(135deg,#f6f0e6,#fffdf8); display: grid; grid-template-columns: .82fr 1.18fr; gap: 28px; align-items: center; }
+    .portrait { border-radius: 28px; min-height: 290px; background: linear-gradient(145deg,#d5c2a7,#f5eee3); border: 1px solid rgba(18,38,56,.12); display: flex; align-items: center; justify-content: center; color: #7b6a56; font-weight: 950; text-align: center; padding: 24px; }
+    .story p { color: #3f4b55; line-height: 1.6; }
+    .quote { font-size: 22px; line-height: 1.35; color: var(--ekio-ink); margin: 16px 0; }
+    .story a { color: var(--ekio-blue); font-weight:800; }
+    .proof { background: #fffdf8; }
+    .proof-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 14px; }
+    .proof-card { border: 1px solid rgba(18,38,56,.1); border-radius: 22px; padding: 20px; background: #fffdf8; }
+    .proof-card strong { display: block; font-size: 18px; margin-bottom: 8px; }
+    .proof-card p { color: var(--ekio-muted); margin: 0; font-size: 14px; }
+    .lead { background: linear-gradient(135deg,#eef4f4,#fffdf8); }
+    .lead-box { border:1px solid rgba(18,38,56,.1); border-radius:24px; padding:32px; background:#fffdf8; max-width:720px; margin:0 auto; text-align:center; }
+    .lead-box form { display:flex; gap:10px; max-width:440px; margin:18px auto 0; flex-wrap:wrap; }
+    .lead-box input { flex:1; min-width:200px; padding:14px 16px; border:1px solid var(--ekio-line); border-radius:999px; font-size:15px; }
+    .lead-box .micro { font-size:12px; color:var(--ekio-muted); margin-top:12px; }
+    .faq { background: var(--ekio-cream); }
+    details { background: #fffdf8; border: 1px solid rgba(18,38,56,.1); border-radius: 18px; padding: 16px 18px; margin-top: 10px; }
+    summary { cursor: pointer; font-weight: 850; }
+    details p { margin: 10px 0 0; color: var(--ekio-muted); font-size: 14px; }
+    details a { color: var(--ekio-blue); font-weight:800; }
+    .final { text-align: center; background: var(--ekio-ink); color: #fffdf8; }
+    .final p { color: #d7e1e8; max-width: 62ch; margin: 14px auto 24px; line-height: 1.6; }
+    .footer { background: #081a2a; color: #9fb0bd; text-align: center; padding: 26px 20px; font-size: 12px; }
+    @media (max-width: 860px) {
+      .site { margin: 0; border-radius: 0; border-left: 0; border-right: 0; }
+      .nav-links { display: none; }
+      .mobile-menu { display: inline-flex; }
+      .hero, .method, .story { grid-template-columns: 1fr; }
+      .visual { min-height: 300px; order: 2; }
+      .trust { grid-template-columns: 1fr 1fr; }
+      .paths, .product-grid, .answer-grid, .proof-grid { grid-template-columns: 1fr; }
+      .section-head { display: block; }
+      .section-head p { margin-top: 12px; }
+      .btn { width: 100%; }
+    }
+  </style>
 </head>
 <body>
-<div class="maqueta-tag">MAQUETA v2 — 07/2026</div>
+  <div class="top-tag">MAQUETA HOME v4 · 07/2026</div>
 
-<!-- 0. BARRA DE ANUNCIO (rotativa) -->
-<div class="bar" aria-label="Anuncios">
-  <div class="bar-inner">
-    <span>✓ 90 DÍAS DE GARANTÍA EN FILTROS SPIRO — TE DEVOLVEMOS EL DINERO</span>
-    <span>✓ ENVÍO GRATIS 24/48h EN ESPAÑA</span>
-    <span>✓ PAGA EN 12 MESES SIN INTERESES CON SEQURA</span>
-  </div>
-</div>
+  <main class="site">
+    <div class="bar">90 días de garantía en filtros SPIRO · Envío 24/48h · ¿No sabes qué necesitas? Haz el test gratis</div>
 
-<!-- 1. HEADER -->
-<header>
-  <div class="wrap nav">
-    <a class="logo" href="#">EKIO<small>ELECTROSMOG</small></a>
-    <nav class="menu">
-      <a href="#tienda">Tienda</a>
-      <a href="#">La Ciencia</a>
-      <a href="terapia-luz-roja-v2.html">Terapia de Luz Roja</a>
-      <a href="que-spiro-necesito-v2.html" class="hl">¿Qué SPIRO necesito?</a>
-      <a href="#">Contacto</a>
+    <nav class="nav" aria-label="Navegación principal">
+      <a class="logo" href="home-v2.html">EKIO<span>ELECTROSMOG</span></a>
+      <div class="nav-links">
+        <a href="coleccion-spiro-v2.html">Filtros SPIRO</a>
+        <a href="terapia-luz-roja-v2.html">Terapia de Luz Roja</a>
+        <a href="la-ciencia-v2.html">La Ciencia</a>
+        <a href="#">Contacto</a>
+        <a class="highlight" href="que-spiro-necesito-v2.html">Test</a>
+      </div>
+      <span class="mobile-menu">Menú</span>
     </nav>
-    <div class="nav-icons"><span>🔍</span><span>🛒</span><button class="burger" aria-label="Menú">☰</button></div>
-  </div>
-</header>
 
-<!-- 2. HERO -->
-<section class="hero">
-  <div class="wrap hero-grid">
-    <div class="hero-photo" onclick="alert('→ Enlace a /collections/spiro-filtros-electromagneticos (la foto entera es clicable: hoy recibe 41 clics muertos)')">
-      <div class="photo-label">
-        📷 <b>FOTO (dirección de arte):</b> salón español al atardecer, luz cálida. Padre/madre y niño en el sofá con tablet en uso. <b>SPIRO CARD en primer plano, enfocada, saliendo de la funda del móvil.</b> Ondas sutiles solo alrededor de los dispositivos. Toda la imagen enlaza a la colección SPIRO.
+    <!-- HERO: keyword (electrosmog + hogar) + las dos soluciones + emoción -->
+    <header class="hero">
+      <div>
+        <div class="kicker">Tecnología que te cuida</div>
+        <h1 class="serif">Protege tu hogar del electrosmog y <em>recupera tu energía.</em></h1>
+        <p class="hero-sub">Filtros electromagnéticos SPIRO® para reducir la contaminación electromagnética de móviles, Wi-Fi y antenas — y terapia de luz roja Ekio Light para devolverte el descanso y la vitalidad que la vida moderna te quita. Primero te orientamos; después eliges.</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="coleccion-spiro-v2.html">VER FILTROS SPIRO →</a>
+          <a class="btn btn-red" href="terapia-luz-roja-v2.html">DESCUBRIR EKIO LIGHT</a>
+          <a class="btn btn-line" href="que-spiro-necesito-v2.html">NO SÉ QUÉ NECESITO</a>
+        </div>
+        <p class="hero-note">Recomendadores gratuitos de 2 minutos · Sin diagnóstico · Sin comprar de más.</p>
       </div>
-    </div>
-    <div class="hero-copy">
-      <h1><em>El precio invisible:</em> lo que el electrosmog — la contaminación electromagnética de tu hogar — te cobra cada día.</h1>
-      <p class="hero-sub">Duermes peor. Te levantas cansado. Tu energía ya no es la que era. No es la edad ni el estrés: es el precio invisible de vivir entre pantallas, Wi-Fi y antenas.<br><br>En EKIO lo eliminamos por las dos vías: <b>filtramos lo que te daña</b> (filtros electromagnéticos SPIRO®) y <b>te devolvemos lo que te falta</b> (terapia de luz roja EKIO Light). Tecnología que te cuida — en más de 5.000 hogares, con garantía de devolución.</p>
-      <div class="hero-ctas">
-        <a class="btn btn-primary" href="#tienda">VER FILTROS SPIRO →</a>
-        <a class="btn btn-ghost" href="que-spiro-necesito-v2.html">Descubre tu precio invisible — haz el test (2 min)</a>
+      <div class="visual" aria-label="Escena doméstica con filtro SPIRO y panel de luz roja Ekio Light">
+        <div class="window"></div>
+        <div class="sofa"></div>
+        <div class="phone"></div>
+        <div class="spiro-card">SPIRO</div>
+        <div class="light-panel"></div>
+        <div class="ambient-label"><strong>📷 Dirección visual:</strong> hogar real, cálido y mediterráneo. SPIRO Card y panel de luz roja reconocibles. Sin estética clínica ni miedo.</div>
       </div>
-      <p class="hero-proof"><span class="stars">★★★★★</span> <b>4,8/5</b> — según +[N] reseñas verificadas <span class="note">N = cifra real de Judge.me</span></p>
-    </div>
-  </div>
-</section>
+    </header>
 
-<!-- 2b. EL PRECIO INVISIBLE (franja de síntomas — puente emocional) -->
-<section style="padding:34px 0;background:var(--navy-dark)">
-  <div class="wrap" style="text-align:center">
-    <p class="kicker" style="color:var(--amber)">¿Te reconoces?</p>
-    <h2 style="color:#fff;font-size:clamp(20px,3.2vw,27px)">Cada día que no actúas, pagas un precio que no aparece en ninguna factura</h2>
-    <div style="display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:18px">
-      <a href="que-spiro-necesito-v2.html" style="background:rgba(255,255,255,.09);border:1px solid rgba(255,255,255,.25);color:#fff;border-radius:99px;padding:10px 18px;font-size:13.5px;font-weight:700;text-decoration:none">😴 Duermo mal</a>
-      <a href="que-spiro-necesito-v2.html" style="background:rgba(255,255,255,.09);border:1px solid rgba(255,255,255,.25);color:#fff;border-radius:99px;padding:10px 18px;font-size:13.5px;font-weight:700;text-decoration:none">🔋 Me levanto cansado</a>
-      <a href="que-spiro-necesito-v2.html" style="background:rgba(255,255,255,.09);border:1px solid rgba(255,255,255,.25);color:#fff;border-radius:99px;padding:10px 18px;font-size:13.5px;font-weight:700;text-decoration:none">🤕 Dolores de cabeza</a>
-      <a href="que-panel-necesito-v2.html" style="background:rgba(255,255,255,.09);border:1px solid rgba(255,255,255,.25);color:#fff;border-radius:99px;padding:10px 18px;font-size:13.5px;font-weight:700;text-decoration:none">✨ Piel y energía apagadas</a>
-    </div>
-    <p style="color:#8fa1b3;font-size:13px;margin-top:14px">Ninguno de estos síntomas es "normal". Haz el test y descubre cuánto te está costando →</p>
-  </div>
-</section>
+    <section class="trust" aria-label="Confianza operativa">
+      <div>Orientación antes de comprar<small>Test SPIRO y test Ekio Light gratis</small></div>
+      <div>90 días de garantía<small>En filtros SPIRO — condición enlazada</small></div>
+      <div>Atención humana<small>Asesoramiento especializado EKIO</small></div>
+      <div>+5.000 hogares<small>Protegidos en España desde 2011</small></div>
+    </section>
 
-<!-- 3. LOS MÁS ELEGIDOS -->
-<section class="sect-soft" id="tienda">
-  <div class="wrap">
-    <p class="kicker">Los más vendidos</p>
-    <h2>Lo que más eligen los hogares EKIO</h2>
-    <p style="color:var(--gray)">Los filtros electromagnéticos que ya protegen a más de 5.000 hogares — y la luz que les devuelve la energía. Empieza por donde empiezan todos: una SPIRO Card por persona con móvil.</p>
-    <div class="prod-grid">
-      <div class="card">
-        <div class="card-img ci-1">SPIRO® CARD<br><small style="font-weight:400">(foto producto real)</small></div>
-        <div class="card-body">
-          <span class="badge-top">La puerta de entrada</span>
-          <h3>SPIRO® Card</h3>
-          <div class="stars" style="font-size:13px">★★★★★</div>
-          <p class="micro">La base de toda protección: 1 por persona con móvil. Cabe en la funda.</p>
-          <div class="price">97 € <small>o 8,08 €/mes</small></div>
-          <a class="btn btn-primary" href="#" style="padding:13px">AÑADIR AL CARRITO</a>
+    <!-- 2 RUTAS: cada H3 lleva su keyword (contaminación electromagnética / terapia de luz roja) -->
+    <section id="test">
+      <div class="section-head">
+        <div>
+          <div class="kicker">Elige por necesidad</div>
+          <h2 class="serif">¿Protección frente al electrosmog o recuperación con luz?</h2>
         </div>
+        <p>La primera decisión no es elegir un producto: es entender qué problema quieres resolver. Elige tu punto de partida.</p>
       </div>
-      <div class="card">
-        <div class="card-img ci-2">SPIRO® DISC<br><small style="font-weight:400">(foto producto real)</small></div>
-        <div class="card-body">
-          <span class="badge-top">El favorito del hogar</span>
-          <h3>SPIRO® Disc</h3>
-          <div class="stars" style="font-size:13px">★★★★★</div>
-          <p class="micro">El multifunción del hogar: dormitorio, salón y electrodomésticos.</p>
-          <div class="price">255 € <small>o 21,25 €/mes</small></div>
-          <a class="btn btn-primary" href="#" style="padding:13px">AÑADIR AL CARRITO</a>
-        </div>
+      <div class="paths">
+        <article class="path spiro" id="spiro">
+          <div>
+            <span class="pill">Reducir exposición</span>
+            <h3>Protección contra la contaminación electromagnética</h3>
+            <p>Filtros SPIRO® para móviles, Wi-Fi, router, dormitorio, teletrabajo y espacios con dispositivos activos — sin bloquear la señal ni cambiar tus rutinas.</p>
+          </div>
+          <a class="btn btn-blue" href="que-spiro-necesito-v2.html">ENCONTRAR MI SPIRO →</a>
+        </article>
+        <article class="path light" id="ekio-light">
+          <div>
+            <span class="pill">Recuperar energía</span>
+            <h3>Terapia de luz roja en casa</h3>
+            <p>Paneles Ekio Light de luz roja e infrarroja para energía, descanso, piel y recuperación — con una rutina adaptada a tu uso, zona, portabilidad y presupuesto.</p>
+          </div>
+          <a class="btn btn-red" href="que-panel-necesito-v2.html">ELEGIR MI EKIO LIGHT →</a>
+        </article>
       </div>
-      <div class="card">
-        <div class="card-img ci-3">SPIRO® SQUARE X<br><small style="font-weight:400">(foto producto real)</small></div>
-        <div class="card-body">
-          <span class="badge-top">Para el router</span>
-          <h3>SPIRO® Square X</h3>
-          <div class="stars" style="font-size:13px">★★★★★</div>
-          <p class="micro">Para el router y los dispositivos que nunca se apagan.</p>
-          <div class="price">257 € <small>o 21,42 €/mes</small></div>
-          <a class="btn btn-primary" href="#" style="padding:13px">AÑADIR AL CARRITO</a>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-img" style="background:radial-gradient(circle at 50% 40%, rgba(231,76,60,.6), transparent 70%), linear-gradient(145deg,#241318,#12090b)">EKIO LIGHT DEEP 5<br><small style="font-weight:400">(foto producto real)</small></div>
-        <div class="card-body">
-          <span class="badge-top">Recupera tu energía</span>
-          <h3>EKIO Light Deep 5</h3>
-          <div class="stars" style="font-size:13px">★★★★★</div>
-          <p class="micro">El panel de luz roja favorito para empezar — con la exclusiva 727 nm.</p>
-          <div class="price">650 € <small>o 54,17 €/mes</small></div>
-          <a class="btn btn-primary" href="pdp-deep-5-v2.html" style="padding:13px">VER DEEP 5</a>
-        </div>
-      </div>
-    </div>
-    <a class="see-all" href="coleccion-spiro-v2.html">Ver toda la tienda EKIO →</a>
-  </div>
-</section>
+    </section>
 
-<!-- 4. PUERTAS DE CATEGORÍA -->
-<section>
-  <div class="wrap">
-    <p class="kicker">El método EKIO</p>
-    <h2>Tres pasos para dejar de pagar el precio invisible</h2>
-    <div class="doors">
-      <div class="door">
-        <h3><span style="color:var(--amber-dark)">1 ·</span> MIDE</h3>
-        <p><b>Descubre lo que te rodea.</b> Con un <b>medidor de radiación electromagnética</b> — o con nuestro test gratuito de 2 minutos — sabrás exactamente cuánto electrosmog y electricidad sucia hay en tu casa y qué corregir.</p>
-        <a class="btn btn-primary" href="que-spiro-necesito-v2.html">VER MEDIDORES →</a>
+    <!-- PRODUCTOS: una de cada línea, con precio real -->
+    <section class="products">
+      <div class="section-head">
+        <div>
+          <div class="kicker">Los más elegidos</div>
+          <h2 class="serif">Filtros SPIRO y paneles Ekio Light más vendidos</h2>
+        </div>
+        <p>Tres puertas de entrada, una por cada necesidad. Producto visible pronto, sin convertir la home en un catálogo saturado.</p>
       </div>
-      <div class="door">
-        <h3><span style="color:var(--amber-dark)">2 ·</span> FILTRA</h3>
-        <p><b>Elimina lo que te daña.</b> Los filtros electromagnéticos SPIRO® para el aire y el Stroom Master para tus cables — sin bloquear ninguna señal ni cambiar tus rutinas.</p>
+      <div class="product-grid">
+        <article class="product">
+          <div class="image">SPIRO® CARD<br><small style="font-weight:400">(foto producto real)</small></div>
+          <div class="product-body">
+            <div class="cat">Protección personal</div>
+            <h3>SPIRO® Card</h3>
+            <p>El filtro electromagnético para tu móvil: una por persona con móvil. Cabe en la funda.</p>
+            <div class="price">97 € <small>· o 8,08 €/mes</small></div>
+            <a class="btn btn-line" href="pdp-spiro-card-v2.html">Ver producto</a>
+          </div>
+        </article>
+        <article class="product">
+          <div class="image">SPIRO® DISC<br><small style="font-weight:400">(foto producto real)</small></div>
+          <div class="product-body">
+            <div class="cat">Espacios del hogar</div>
+            <h3>SPIRO® Disc</h3>
+            <p>El multifunción para dormitorio, salón, router y zonas de convivencia.</p>
+            <div class="price">255 € <small>· o 21,25 €/mes</small></div>
+            <a class="btn btn-line" href="coleccion-spiro-v2.html">Ver producto</a>
+          </div>
+        </article>
+        <article class="product">
+          <div class="image">EKIO LIGHT DEEP 5<br><small style="font-weight:400">(foto producto real)</small></div>
+          <div class="product-body">
+            <div class="cat">Recuperación con luz</div>
+            <h3>EKIO Light Deep 5</h3>
+            <p>El panel de terapia de luz roja favorito para empezar, con la exclusiva 727 nm.</p>
+            <div class="price">650 € <small>· o 54,17 €/mes</small></div>
+            <a class="btn btn-line" href="pdp-deep-5-v2.html">Ver paneles</a>
+          </div>
+        </article>
+      </div>
+      <a class="see-all" href="coleccion-spiro-v2.html">Ver toda la tienda EKIO →</a>
+    </section>
+
+    <!-- MÉTODO: marca -->
+    <section class="method">
+      <div>
+        <div class="kicker">El método EKIO</div>
+        <h2 class="serif">Comprende. Protege. Recupera.</h2>
+        <p>El cambio es no empezar desde el miedo ni desde la compra, sino desde una orientación clara. Medir existe, pero no lo convertimos en una barrera de entrada.</p>
+      </div>
+      <div class="steps">
+        <div class="step"><strong>01 · Comprende</strong>Te ayudamos a interpretar qué ocurre en tu entorno y qué ruta tiene más sentido — con el test o con un medidor EMF. <a href="que-spiro-necesito-v2.html">Haz el test →</a></div>
+        <div class="step"><strong>02 · Protege</strong>Los filtros electromagnéticos SPIRO® gestionan la contaminación electromagnética del aire y el Stroom Master la de tus cables. <a href="coleccion-spiro-v2.html">Ver filtros →</a></div>
+        <div class="step"><strong>03 · Recupera</strong>La terapia de luz roja Ekio Light y los suplementos LAITTIN devuelven la energía, el descanso y la piel que la vida moderna te quita. <a href="terapia-luz-roja-v2.html">Ver luz roja →</a></div>
+      </div>
+    </section>
+
+    <!-- APRENDE: bloques GEO citables — cada H3 es una entidad + keyword -->
+    <section id="aprende">
+      <div class="section-head">
+        <div>
+          <div class="kicker">Aprende</div>
+          <h2 class="serif">Qué es el electrosmog, SPIRO y la terapia de luz roja</h2>
+        </div>
+        <p>Respuestas breves y honestas sobre las entidades clave de EKIO — para ti, para Google y para los motores de IA.</p>
+      </div>
+      <div class="answer-grid">
+        <div class="answer"><h3>¿Qué es el electrosmog?</h3><p>Electrosmog es el término divulgativo para la contaminación electromagnética: los campos artificiales de móviles, Wi-Fi, antenas y la red eléctrica del hogar. No se ve, pero la exposición es continua. <a href="la-ciencia-v2.html">La ciencia →</a></p></div>
+        <div class="answer"><h3>¿Qué es SPIRO?</h3><p>SPIRO® es una familia de filtros electromagnéticos para uso personal, dispositivos y espacios del hogar. Reducen la exposición sin bloquear la señal. <a href="coleccion-spiro-v2.html">Ver filtros SPIRO →</a></p></div>
+        <div class="answer"><h3>¿Qué es Ekio Light?</h3><p>Ekio Light son paneles de terapia de luz roja e infrarroja diseñados con bajo campo electromagnético. El modelo depende de tu objetivo, zona y presupuesto. <a href="terapia-luz-roja-v2.html">Ver paneles →</a></p></div>
+        <div class="answer"><h3>¿El test diagnostica?</h3><p>No. Los tests son recomendadores de producto gratuitos. Para conocer niveles concretos hace falta una medición con un medidor EMF o asesoramiento. <a href="que-spiro-necesito-v2.html">Hacer el test →</a></p></div>
+      </div>
+    </section>
+
+    <!-- HISTORIA: marca -->
+    <section class="story" id="consultoria">
+      <div class="portrait">📷 Javier Andrés<br>Fundador de EKIO</div>
+      <div>
+        <div class="kicker">Por qué existe EKIO</div>
+        <h2 class="serif">La confianza necesita una persona detrás.</h2>
+        <p class="quote serif">"Durante años vi personas que cuidaban su alimentación, su descanso y sus hábitos… pero seguían sintiendo que algo en su entorno no les ayudaba."</p>
+        <p>EKIO nace para hacer comprensible una idea sencilla: tu hogar influye en cómo vives. Nuestra misión es desarrollar tecnología y orientación para que tu entorno vuelva a trabajar a favor de tu bienestar — no en contra. <a href="la-ciencia-v2.html">Conoce la ciencia detrás de SPIRO →</a></p>
+      </div>
+    </section>
+
+    <!-- PRUEBA SOCIAL: honesta -->
+    <section class="proof">
+      <div class="section-head">
+        <div>
+          <div class="kicker">Confianza demostrable</div>
+          <h2 class="serif">Prueba real, sin exagerar.</h2>
+        </div>
+        <p>Sin estrellas inventadas, sin logos sin enlace y sin promesas médicas: trayectoria, medios verificables, condiciones claras y reseñas reales.</p>
+      </div>
+      <div class="proof-grid">
+        <article class="proof-card"><strong>★ 4,8/5 · opiniones verificadas</strong><p>Reseñas reales de Judge.me, con producto identificado y enlace a la fuente. <span class="serif" style="color:var(--ekio-amber-dark)">[cifra real de Judge.me]</span></p></article>
+        <article class="proof-card"><strong>Nos has visto en</strong><p>Europa Press, EFE Comunica y Mundo Corporativo, con el contexto de cada publicación.</p></article>
+        <article class="proof-card"><strong>90 días de garantía en SPIRO</strong><p>Condiciones visibles y enlace a la política real. Si no notas la diferencia, te devolvemos el dinero.</p></article>
+      </div>
+    </section>
+
+    <!-- LEAD MAGNET -->
+    <section class="lead">
+      <div class="lead-box">
+        <div class="kicker">Guía gratuita</div>
+        <h2 class="serif" style="font-size:clamp(22px,3vw,30px)">¿Cuánto electrosmog hay en tu casa?</h2>
+        <p style="color:var(--ekio-muted);margin-top:10px">Descarga la <b>Guía de Higiene Electromagnética</b>: los 7 focos de contaminación electromagnética más comunes en los hogares españoles y cómo corregirlos esta misma semana.</p>
+        <form onsubmit="alert('→ Alta en lista Klaviyo Guía Higiene EM');return false;">
+          <input type="email" placeholder="Tu email" required>
+          <button class="btn btn-primary" type="submit">ENVIARME LA GUÍA GRATIS</button>
+        </form>
+        <p class="micro">Sin spam. Solo ciencia útil. Date de baja cuando quieras.</p>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq">
+      <div class="section-head">
+        <div>
+          <div class="kicker">Preguntas frecuentes</div>
+          <h2 class="serif">Dudas sobre electrosmog y protección electromagnética</h2>
+        </div>
+        <p>FAQ visible para ti, para Google y para los motores de respuesta. Breve, honesta y enlazada.</p>
+      </div>
+      <details open>
+        <summary>¿Qué es el electrosmog o contaminación electromagnética?</summary>
+        <p>El conjunto de campos electromagnéticos artificiales de móviles, routers Wi-Fi, antenas y la red eléctrica del hogar. No se ve ni se huele, pero la exposición es continua, también mientras duermes. <a href="la-ciencia-v2.html">La ciencia →</a></p>
+      </details>
+      <details>
+        <summary>¿Qué filtro SPIRO necesito?</summary>
+        <p>Depende de cuántas personas y dispositivos hay, dónde está el router, qué estancias priorizas y si buscas protección personal o de espacio. <a href="que-spiro-necesito-v2.html">Haz el test (2 min) →</a></p>
+      </details>
+      <details>
+        <summary>¿Qué panel de terapia de luz roja Ekio Light necesito?</summary>
+        <p>Depende del objetivo de uso, la zona del cuerpo, si será compartido, la portabilidad y el presupuesto. <a href="que-panel-necesito-v2.html">Haz el test de paneles →</a></p>
+      </details>
+      <details>
+        <summary>¿Los filtros SPIRO bloquean el Wi-Fi o la señal del móvil?</summary>
+        <p>No. La tecnología SPIRO filtra la contaminación electromagnética sin bloquear ninguna señal: tu casa funciona igual, tu exposición cambia.</p>
+      </details>
+    </section>
+
+    <section class="final">
+      <h2 class="serif">Elige tu punto de partida. Si dudas, te orientamos.</h2>
+      <p>EKIO no te empuja a comprar rápido: te ayuda a decidir bien. Filtra el electrosmog que te daña, recupera la energía que te falta — y pruébalo sin riesgo, con garantía de devolución.</p>
+      <div class="cta-row" style="justify-content:center">
         <a class="btn btn-primary" href="coleccion-spiro-v2.html">VER FILTROS SPIRO →</a>
+        <a class="btn btn-red" href="terapia-luz-roja-v2.html">DESCUBRIR EKIO LIGHT</a>
+        <a class="btn btn-line" href="que-spiro-necesito-v2.html">HACER EL TEST</a>
       </div>
-      <div class="door">
-        <h3><span style="color:var(--amber-dark)">3 ·</span> RECUPERA</h3>
-        <p><b>Devuélvele a tu cuerpo lo que le falta.</b> Terapia de luz roja EKIO Light y suplementos LAITTIN: la energía, el descanso y la piel que la vida moderna te quita.</p>
-        <a class="btn btn-primary" href="terapia-luz-roja-v2.html">VER LUZ ROJA →</a>
-      </div>
-    </div>
-    <p style="text-align:center;margin-top:18px;font-size:14px;color:var(--gray)">Mide → Filtra → Recupera: el protocolo 360 de EKIO contra el electrosmog. Cada paso funciona solo — juntos transforman tu casa.</p>
-  </div>
-</section>
+    </section>
 
-<!-- 5. RESEÑAS -->
-<section class="sect-soft">
-  <div class="wrap">
-    <p class="kicker">Opiniones verificadas</p>
-    <h2>Lo que notan los que ya viven con SPIRO</h2>
-    <span class="note">⚠️ EJEMPLOS — sustituir por reseñas reales del widget Judge.me (foto + nombre + producto)</span>
-    <div class="rev-grid">
-      <div class="rev">
-        <span class="stars">★★★★★</span> <span class="verified">✓ Compra verificada</span>
-        <p>"Llevaba meses durmiendo mal sin saber por qué. Con el Disc en el dormitorio noté el cambio la segunda semana."</p>
-        <div class="who"><div class="avatar">M</div><div><b>[Nombre real]</b><small>SPIRO® Disc</small></div></div>
-      </div>
-      <div class="rev">
-        <span class="stars">★★★★★</span> <span class="verified">✓ Compra verificada</span>
-        <p>"Teletrabajo 8 horas al día. Desde que llevo la Card en la funda, los dolores de cabeza de la tarde han desaparecido."</p>
-        <div class="who"><div class="avatar">J</div><div><b>[Nombre real]</b><small>SPIRO® Card</small></div></div>
-      </div>
-      <div class="rev">
-        <span class="stars">★★★★★</span> <span class="verified">✓ Compra verificada</span>
-        <p>"Lo compré escéptica por la garantía de 90 días. No lo he devuelto: mis hijos duermen mejor y yo también."</p>
-        <div class="who"><div class="avatar">C</div><div><b>[Nombre real]</b><small>Pack Familia</small></div></div>
-      </div>
-    </div>
-    <p style="text-align:center;margin-top:20px;font-weight:700">★ 4,8/5 en +[N] reseñas verificadas · <a href="#" style="color:var(--navy)">Leer todas →</a></p>
-  </div>
-</section>
-
-<!-- 6. PRENSA -->
-<div class="press">
-  <div class="wrap">
-    <h2>NOS HAS VISTO EN</h2>
-    <div class="press-row">
-      <span>Europa Press</span><span>LA RAZÓN</span><span>El Español</span><span>¡HOLA!</span><span>El Periódico</span><span>elDiario.es</span>
-    </div>
-  </div>
-</div>
-
-<!-- 7. GARANTÍA -->
-<section class="guar">
-  <div class="wrap">
-    <h2 class="big">Pruébalo 90 días en tu casa. Sin riesgo.</h2>
-    <p>Instala tus filtros SPIRO y vive con ellos tres meses. Si no notas mejoría en tu descanso y tu bienestar, te devolvemos el 100% de tu dinero. Sin preguntas, sin letra pequeña.</p>
-    <div class="badges">
-      <div>✓ Garantía 90 días</div>
-      <div>✓ Envío gratis 24/48h</div>
-      <div>✓ 12 meses sin intereses</div>
-      <div>✓ Asesoramiento personal</div>
-    </div>
-    <p class="price-anchor">Protección personal desde 97 € · Paga desde 8,08 €/mes</p>
-  </div>
-</section>
-
-<!-- 8. HISTORIA -->
-<section class="story">
-  <div class="wrap inner">
-    <p class="kicker">Nuestra historia</p>
-    <h2>Somos EKIO. La tecnología que te cuida.</h2>
-    <p>Vivimos en la era más tecnológica de la historia: pantallas, Wi-Fi, antenas, dispositivos que no se apagan jamás. Investigando, descubrimos algo inquietante: los dolores de cabeza, el insomnio y la fatiga no siempre son solo estrés.</p>
-    <p>A esa factura que nadie ve la llamamos <b>el precio invisible</b> — y EKIO existe para que dejes de pagarla. Sin renunciar a nada: hoy, más de 5.000 hogares en España viven conectados <em>y</em> protegidos.</p>
-    <p><a href="#">Conoce la ciencia detrás de SPIRO →</a> · <a href="#">Habla con un especialista en electrosmog (Consultoría 365) →</a></p>
-  </div>
-</section>
-
-<!-- 9. LEAD MAGNET -->
-<section class="lead">
-  <div class="wrap">
-    <div class="box">
-      <h2>¿Cuánta radiación hay en tu casa? Descúbrelo gratis.</h2>
-      <p style="color:var(--gray);margin-top:8px">Descarga la <b>Guía de Higiene Electromagnética</b>: los 7 focos de exposición más comunes en los hogares españoles y cómo corregirlos esta misma semana (varios, sin gastar un euro).</p>
-      <form onsubmit="alert('→ Alta en lista Klaviyo \'Guía Higiene EM\' + flujo de bienvenida');return false;">
-        <input type="email" placeholder="Tu email" required>
-        <button class="btn btn-amber" type="submit">ENVIARME LA GUÍA GRATIS</button>
-      </form>
-      <p class="micro">Sin spam. Solo ciencia útil. Date de baja cuando quieras.</p>
-    </div>
-  </div>
-</section>
-
-<!-- 9b. QUÉ ES EL ELECTROSMOG (bloque GEO/definicional — la home ya rankea pos 3,4 para "electrosmog") -->
-<section style="padding:40px 0">
-  <div class="wrap" style="max-width:760px">
-    <h2 style="font-size:22px">¿Qué es el electrosmog?</h2>
-    <p style="color:var(--gray);margin-top:10px;font-size:16px">
-      El <b>electrosmog</b> (o contaminación electromagnética) es el conjunto de campos electromagnéticos
-      artificiales que generan los dispositivos que nos rodean: routers Wi-Fi, móviles, antenas de telefonía,
-      electrodomésticos y la propia red eléctrica. A diferencia de otros contaminantes, no se ve ni se huele —
-      pero la exposición es continua, 24 horas al día, también mientras duermes. Los
-      <a href="#tienda" style="color:var(--navy);font-weight:700">filtros electromagnéticos SPIRO®</a> reducen
-      esa exposición sin bloquear la señal de tus dispositivos.
-    </p>
-    <p style="margin-top:12px;font-size:14.5px"><a href="#" style="color:var(--navy);font-weight:700">Guía completa: electrosmog y salud, en el blog →</a></p>
-  </div>
-</section>
-
-<!-- 10. FAQ -->
-<section class="faq">
-  <div class="wrap">
-    <p class="kicker">Resolvemos dudas</p>
-    <h2>Las preguntas que nos hacen antes de comprar</h2>
-    <details>
-      <summary>¿Qué es el precio invisible?</summary>
-      <p>Es el coste que la vida rodeada de tecnología cobra a tu bienestar sin aparecer en ninguna factura: peor sueño, menos energía, piel apagada, tensión acumulada. En EKIO lo eliminamos por dos vías: <b>filtrando lo que te daña</b> (filtros SPIRO) y <b>devolviéndole a tu cuerpo lo que le falta</b> (terapia de luz roja EKIO Light). <a href="que-spiro-necesito-v2.html">Descubre el tuyo con el test →</a></p>
-    </details>
-    <details>
-      <summary>¿Esto funciona de verdad?</summary>
-      <p>La tecnología SPIRO® ha sido premiada internacionalmente y cuenta con estudios de laboratorio publicados. Míralos en <a href="#">La Ciencia</a>. Y si en tu casa no notas la diferencia en 90 días, te devolvemos el dinero.</p>
-    </details>
-    <details>
-      <summary>¿Tengo que apagar el Wi-Fi o renunciar a algo?</summary>
-      <p>No. SPIRO filtra la contaminación electromagnética sin bloquear la señal. Tu casa funciona igual; tu cuerpo lo nota distinto.</p>
-    </details>
-    <details>
-      <summary>¿Qué producto necesito?</summary>
-      <p>Regla básica: una SPIRO Card por persona con móvil, y un filtro de espacio (Disc o Square) según el tamaño del hogar. En 2 minutos te lo decimos exacto: <a href="#" onclick="openSheet();return false;">haz el test</a>.</p>
-    </details>
-    <details>
-      <summary>¿Cuánto tarda en notarse?</summary>
-      <p>Cada persona es distinta: lo más habitual es notar cambios en el descanso durante las primeras semanas. Por eso la garantía es de 90 días, no de 15.</p>
-    </details>
-    <details>
-      <summary>¿Y si me cuesta pagarlo de una vez?</summary>
-      <p>Puedes dividirlo hasta en 12 meses sin intereses con seQura, desde 8,08 €/mes.</p>
-    </details>
-  </div>
-</section>
-
-<!-- 11. CTA FINAL -->
-<section class="final">
-  <div class="wrap">
-    <h2>Deja de pagar el precio invisible.</h2>
-    <p>Tu casa no va a tener menos tecnología el año que viene. Filtra lo que te daña, recupera lo que te falta — y pruébalo sin riesgo, con garantía de devolución.</p>
-    <div class="hero-ctas">
-      <a class="btn btn-amber" href="#tienda">VER FILTROS SPIRO →</a>
-      <a class="btn btn-ghost" href="que-spiro-necesito-v2.html">HACER EL TEST (2 MIN)</a>
-    </div>
-  </div>
-</section>
-
-<footer>
-  MAQUETA — footer real de la tienda sin cambios (enlaces, legal, pagos).<br>
-  Generado a partir de Content/COPY_HOME_NUEVA_2026-07.md · Datos: Clarity 60 días.
-</footer>
-
-<!-- POPUP — RECOMENDADOR SPIRO (bottom-sheet) -->
-<div class="sheet-backdrop" onclick="closeSheet()"></div>
-<div class="sheet" role="dialog" aria-label="Recomendador SPIRO">
-  <div class="mini-card">SPIRO®</div>
-  <div class="grab"></div>
-  <button class="close-x" onclick="closeSheet()" aria-label="Cerrar">✕</button>
-  <h3>¿Qué SPIRO necesita tu casa?</h3>
-  <p>Cada hogar es distinto: personas, móviles, Wi-Fi, metros. Responde 5 preguntas y te decimos exactamente qué filtros necesitas — <b>sin comprar de más</b>.</p>
-  <button class="btn btn-primary" onclick="alert('→ Abre la app recomendador SPIRO (o quiz Klaviyo/Typeform mientras la app no esté lista).\n\nAl final del quiz: gate de email antes del resultado.')">EMPEZAR EL TEST (2 MIN) →</button>
-  <button class="later" onclick="closeSheet()">Ahora no</button>
-</div>
-<button class="reopen" onclick="openSheet()">▶ Ver popup</button>
-
-<script>
-  function openSheet(){document.body.classList.add('popup-open')}
-  function closeSheet(){document.body.classList.remove('popup-open')}
-  document.addEventListener('keydown',e=>{if(e.key==='Escape')closeSheet()});
-  // Demo del disparador real: 8s O 35% de scroll (lo primero). En producción: + exit-intent y supresión 30 días.
-  let shown=false;
-  const t=setTimeout(()=>{if(!shown){shown=true;openSheet()}},8000);
-  window.addEventListener('scroll',()=>{
-    if(!shown && window.scrollY/(document.body.scrollHeight-innerHeight)>0.35){shown=true;clearTimeout(t);openSheet()}
-  },{passive:true});
-</script>
+    <footer class="footer">
+      MAQUETA HOME v4 — basada en la plantilla definitiva de Javier + SEO/GEO, schema y enlaces reales del ecosistema EKIO.<br>
+      Sustituir imágenes, cifra de reseñas y condiciones por datos reales antes de producción.
+    </footer>
+  </main>
 </body>
 </html>
