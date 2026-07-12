@@ -30,13 +30,17 @@ Para optimizar tu tiempo, te sugerimos leerlo en este orden:
   entregables, acciones pendientes y riesgos residuales.
 
 ### 2. **Lectura técnica (2-3 horas)**
-- `04_Claim_Set_v0.2.pdf` — las 25 reivindicaciones propuestas (sistema,
-  método, CRM, distribuido, sostenibilidad).
+- `11_Claim_Set_v0.3.pdf` — **el claim set vigente: 35 reivindicaciones**
+  (sistema, método, CRM, distribuido, sostenibilidad). Consolida el v0.2 +
+  el clúster app-panel + los rangos de onda. **Es el documento a revisar.**
 - `06_Memoria_Descriptiva.pdf` — memoria técnica completa (27 páginas,
   21 secciones) con la justificación de cada claim.
 - `03_Analisis_Prior_Art.pdf` — estado de la técnica con análisis de las
   patentes más cercanas (Vielight US11633621B2 + Zerigo US20230218922A1)
   y gap de novedad.
+- `10_Prioridad_App_Panel.pdf` — **análisis del encargo específico de La
+  Fábrica de Inventos** (priorizar app-panel): catálogo de 23 funciones de
+  la app respecto al panel y justificación de las 7 nuevas reivindicaciones.
 
 ### 3. **Lectura de soporte (1 hora)**
 - `05_Examiner_Red_Team.pdf` — adversarial review propio del claim set
@@ -44,24 +48,42 @@ Para optimizar tu tiempo, te sugerimos leerlo en este orden:
 - `07_Figuras_Spec.pdf` — especificación de las 7 figuras técnicas para
   encargo posterior a ilustrador profesional.
 - `01_Brief_Agente_PCT_SRBA.pdf` — brief operativo interno del proyecto.
+- `09_MU_U202532624_referencia.pdf` — texto completo del MU base de la
+  prioridad (9 reivindicaciones, descripción, figura).
+- `04_Claim_Set_v0.2.pdf` — versión anterior del claim set (25 claims),
+  incluida solo como histórico. **Sustituida por el v0.3.**
 
 ---
 
 ## RESUMEN EJECUTIVO
 
-### Estructura del claim set v0.2 (25 reivindicaciones)
+### Estructura del claim set v0.3 (35 reivindicaciones)
 
 | Bloque | Claims | Contenido |
 |---|---|---|
-| **A** | C1-C15 | Sistema general + panel + sensores + fotodiodo + gemelo digital + motor IA + RL + federado + NPU + cronobiología + wearables + multi-usuario + seguridad |
-| **B** | C16-C20 | Método principal + cold-start + adherencia + multiobjetivo + federado |
-| **C** | C21-C22 | CRM + sistema distribuido cloud |
-| **D** | C23-C25 | Pasaporte Digital de Producto + mantenimiento predictivo + gestión técnica de flota (ex-PaaS) |
+| **A** | C1-C25 | Sistema general + **clúster app-panel (C2-C4, C21-C22, C24-C25)** + panel + rangos de onda + sensores + fotodiodo + modelo multiescala + motor IA/RL + federado + NPU + cronobiología + wearables + multi-usuario + seguridad |
+| **B** | C26-C30 | Método principal + cold-start + adherencia + multiobjetivo + federado |
+| **C** | C31-C32 | CRM + sistema distribuido cloud |
+| **D** | C33-C35 | Pasaporte Digital de Producto + mantenimiento predictivo + gestión técnica de flota (ex-PaaS) |
+
+**Novedades del v0.3 respecto al v0.2:**
+- **+7 reivindicaciones app-panel** (encargo de La Fábrica de Inventos):
+  puente bidireccional app↔panel, fusión wearable→app→panel, explicabilidad
+  (XAI), selección de objetivo, cuestionario post-sesión, timing/bienestar,
+  aviso de mantenimiento. Todas ancladas al panel (SiMD).
+- **+3 reivindicaciones de rango de onda** (C6, C8, C9) marcadas [PROPUESTA]
+  pendientes de tu validación legal y científica.
+- **Corrección de forma** en C1 y C26: introducción de las "zonas de emisión"
+  para dar antecedent basis (§112(b) US / Art. 84 EPC).
 
 **Etiquetado de prioridad:**
-- 2 claims con prioridad MU 24/12/2025 (C2, C3)
-- 2 claims con prioridad parcial MU (C4, C14) — pendientes de tu validación
-- 21 claims con fecha PCT (filing julio 2026 target)
+- 2 claims con prioridad MU 24/12/2025 (C5, C7) — **no tocar**
+- 2 claims con prioridad parcial MU (C10, C20) — pendientes de tu validación
+- El resto con fecha PCT (filing julio 2026 target)
+
+> **⚠️ Aviso de coste:** 35 claims cruza el umbral de tasas por reivindicación
+> excedente de EPO (desde la 16ª). El v0.3 incluye una propuesta de
+> consolidación para tu decisión (Markush de rangos, fusión de APP prioridad 6).
 
 ### Diferencias respecto al borrador SRBA aportado en su día
 
@@ -166,18 +188,22 @@ Estamos a tu entera disposición.
 
 | # | Archivo | Páginas | Contenido |
 |---|---|---|---|
-| 0 | `00_LEEME_ANTES.md` | (este) | Guía de lectura |
-| 1 | `01_Brief_Agente_PCT_SRBA.pdf` | ~10 | Brief operativo interno |
-| 2 | `02_Email_Inicial_Patricia.pdf` | ~6 | Email con 7 cuestiones |
-| 3 | `03_Analisis_Prior_Art.pdf` | ~12 | Estado de la técnica |
-| 4 | `04_Claim_Set_v0.2.pdf` | ~14 | 25 reivindicaciones |
-| 5 | `05_Examiner_Red_Team.pdf` | ~16 | Adversarial review |
-| 6 | `06_Memoria_Descriptiva.pdf` | 27 | Memoria técnica |
-| 7 | `07_Figuras_Spec.pdf` | ~12 | Spec 7 figuras |
-| 8 | `08_Checklist_Final.pdf` | ~12 | Checklist calidad |
+| 0 | `00_LEEME_ANTES.pdf` | (este) | Guía de lectura |
+| 1 | `01_Brief_Agente_PCT_SRBA.pdf` | ~5 | Brief operativo interno |
+| 2 | `02_Email_Inicial_Patricia.pdf` | ~3 | Email con cuestiones estratégicas |
+| 3 | `03_Analisis_Prior_Art.pdf` | ~7 | Estado de la técnica |
+| 4 | `04_Claim_Set_v02.pdf` | 11 | 25 reivindicaciones (histórico, sustituido) |
+| 5 | `05_Examiner_Red_Team.pdf` | 13 | Adversarial review |
+| 6 | `06_Memoria_Descriptiva.pdf` | 22 | Memoria técnica |
+| 7 | `07_Figuras_Spec.pdf` | 9 | Spec 7 figuras |
+| 8 | `08_Checklist_Final.pdf` | 7 | Checklist calidad |
+| 9 | `09_MU_U202532624_referencia.pdf` | 20 | MU base de la prioridad |
+| 10 | `10_Prioridad_App_Panel.pdf` | 6 | Análisis app-panel (encargo Fábrica) |
+| 11 | `11_Claim_Set_v0.3.pdf` | ~14 | **35 reivindicaciones — VIGENTE** |
+| — | `EKIO_PCT_SRBA_resumen_ejecutivo.pdf` | 9 | Resumen visual ejecutivo |
 
-**Total: ~ 109 páginas de material legal-técnico** producido sobre los 6
-documentos de investigación EKIO + el MU U202532624.
+**Documento a revisar como claim set:** el `11_Claim_Set_v0.3.pdf`. El
+`04_Claim_Set_v02.pdf` se conserva solo como histórico.
 
 ---
 

@@ -60,6 +60,35 @@ Nuestra propuesta:
 
 ---
 
+## C-bis — Priorización de la relación app-panel (vuestro encargo)
+
+Siguiendo vuestra indicación de **priorizar todo lo relativo a la app en su
+relación con el panel**, hemos producido un análisis específico (documento
+`10_Prioridad_App_Panel.pdf`) y hemos integrado **7 nuevas reivindicaciones
+app-panel** en el claim set, que pasa de 25 a 35 reivindicaciones (**claim set
+v0.3**, documento `11_Claim_Set_v0.3.pdf`, que sustituye al v0.2).
+
+Puntos clave para vuestra validación:
+
+- **Anclaje SiMD.** Las 7 reivindicaciones app-panel (C2-C4, C21-C22, C24-C25)
+  se han redactado **siempre atadas al panel físico** (la app como medio de
+  intercambio de datos con el panel), nunca como software autónomo, para
+  superar Alice §101 y Art. 52 EPC. ¿Confirmáis que el anclaje es suficiente?
+- **Corrección de forma.** Hemos detectado y corregido un problema de
+  *antecedent basis* en el Claim 1 y en el claim de método: las "zonas de
+  emisión" se usaban sin haber sido introducidas (§112(b) US / Art. 84 EPC).
+- **Rangos de longitud de onda.** Hemos añadido 3 dependientes de rango (C6,
+  C8, C9) marcadas [PROPUESTA], **conservando intactas las reivindicaciones
+  puntuales con prioridad MU** (C5, C7) para no perder la fecha 24/12/2025.
+  Necesitamos vuestro criterio sobre si el rango es materia añadida o
+  "generalización razonable", y sobre los cortes de banda concretos.
+- **Recuento de claims.** 35 reivindicaciones cruzan el umbral de tasas por
+  reivindicación excedente de EPO. Hemos incluido una propuesta de
+  consolidación (Markush de rangos, fusión de las app de prioridad más baja)
+  para vuestra decisión antes de fase nacional.
+
+---
+
 ## D — Reivindicaciones especulativas (BCI, micro-LEDs cuánticos)
 
 **Nuestra decisión es retirarlas de la PCT inicial** y reservar divisional/continuación cuando exista implementación real. Riesgo de rechazo por **insuficiencia (Art. 83 EPC / §112 US)** que podría contaminar la solicitud completa. Se mencionarán únicamente en la descripción como variantes contempladas, sin reivindicarlas. ¿Acuerdo?
