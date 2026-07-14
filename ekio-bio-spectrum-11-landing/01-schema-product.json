@@ -1,0 +1,117 @@
+{
+  "_nota": "Pegar cada bloque en su propio <script type=\"application/ld+json\"> en el <head> de la PDP, o unir los 3 en un array @graph. Sustituir /ruta/imagen por la URL real de la imagen de producto en el CDN de Shopify. Precio 2500 EUR = Ekio Light System completo.",
+  "product": {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Bio Spectrum 11 — Panel de Fotobiomodulación Profesional",
+    "description": "Panel de fotobiomodulación profesional de Ekio Light. Cubre el espectro solar terapéutico completo con 11 longitudes de onda (292–1050 nm) repartidas en 4 circuitos independientes: UV-B (292 nm) para síntesis de vitamina D, luz roja (630–727 nm) para colágeno y renovación celular, infrarrojo cercano y profundo (850–1050 nm) para penetración muscular y ósea, y un módulo COB central de alta densidad (660+850 nm). 210 LEDs perimetrales + COB. Cada circuito tiene intensidad y frecuencia de pulso ajustables de forma independiente. Amparado por el modelo de utilidad español U202532624. El precio incluye el Ekio Light System completo: panel, gafas de protección UV, suplemento D3+K2 Electro Premium, Vitamina C Lighting y bombilla ámbar.",
+    "brand": { "@type": "Brand", "name": "Ekio Light" },
+    "manufacturer": {
+      "@type": "Organization",
+      "name": "Ekio Light",
+      "url": "https://electrosmogespana.com",
+      "description": "Ekio Light es la marca de fotobiomodulación de EKIO Electrosmog España. Distribuidor oficial de SPIRO en España. Titular del modelo de utilidad español U202532624.",
+      "hasCredential": "Modelo de utilidad español U202532624"
+    },
+    "model": "Bio Spectrum 11",
+    "mpn": "BS11-U202532624",
+    "sku": "BIO-SPECTRUM-11",
+    "url": "https://electrosmogespana.com/products/bio-spectrum-11-panel-fotobiomodulacion-profesional",
+    "image": ["https://electrosmogespana.com/ruta/imagen-bio-spectrum-11.jpg"],
+    "category": "Panel de fotobiomodulación / Terapia de luz LED de espectro completo",
+    "isRelatedTo": "Ekio Light System (panel + gafas UV + D3+K2 Electro Premium + Vitamina C Lighting + bombilla ámbar)",
+    "additionalProperty": [
+      { "@type": "PropertyValue", "name": "Número de longitudes de onda", "value": "11" },
+      { "@type": "PropertyValue", "name": "Rango espectral", "value": "292 nm (UV-B) a 1050 nm (infrarrojo profundo)" },
+      { "@type": "PropertyValue", "name": "Circuitos independientes", "value": "4" },
+      { "@type": "PropertyValue", "name": "Número de LEDs", "value": "210 LEDs perimetrales + módulo COB central" },
+      { "@type": "PropertyValue", "name": "Circuito 1 — Azul", "value": "UV-B 292 nm | UV-A 385 nm | Violeta 405 nm | Azul-cian 485 nm" },
+      { "@type": "PropertyValue", "name": "Circuito 2 — Rojo", "value": "630 nm | 660 nm | 670 nm | 727 nm" },
+      { "@type": "PropertyValue", "name": "Circuito 3 — Infrarrojo", "value": "850 nm | 935 nm | 1050 nm" },
+      { "@type": "PropertyValue", "name": "Circuito 4 — COB (central)", "value": "660 nm + 850 nm en módulo Chip-on-Board de alta densidad" },
+      { "@type": "PropertyValue", "name": "Control por circuito", "value": "Intensidad y frecuencia de pulso ajustables de forma independiente en cada circuito" },
+      { "@type": "PropertyValue", "name": "Modo de luz", "value": "Continuo y pulsado, seleccionable por circuito" },
+      { "@type": "PropertyValue", "name": "Modelo de utilidad", "value": "U202532624 — España" },
+      { "@type": "PropertyValue", "name": "Cromóforo diana principal", "value": "Citocromo c oxidasa (Complejo IV de la cadena respiratoria mitocondrial)" },
+      { "@type": "PropertyValue", "name": "Ventana óptica biológica cubierta", "value": "600–1200 nm (Tsai SR & Hamblin MR, J Photochem Photobiol B, 2017)" },
+      { "@type": "PropertyValue", "name": "Gafas de protección UV", "value": "Obligatorias para el circuito Azul (UV-B/UV-A); incluidas en el Ekio Light System" },
+      { "@type": "PropertyValue", "name": "Incluye (Ekio Light System)", "value": "Panel Bio Spectrum 11 + gafas UV + D3+K2 Electro Premium + Vitamina C Lighting + bombilla ámbar" },
+      { "@type": "PropertyValue", "name": "Contraindicaciones", "value": "Piel fotosensible, embarazo, lactancia, medicación fotosensibilizante, antecedentes de cáncer cutáneo o melanoma. Consultar médico antes del uso." }
+    ],
+    "subjectOf": {
+      "@type": "CreativeWork",
+      "name": "Modelo de utilidad español U202532624",
+      "description": "Protección de propiedad industrial sobre el diseño y la combinación espectral del panel Bio Spectrum 11."
+    },
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "EUR",
+      "price": "2500.00",
+      "availability": "https://schema.org/InStock",
+      "url": "https://electrosmogespana.com/products/bio-spectrum-11-panel-fotobiomodulacion-profesional",
+      "itemCondition": "https://schema.org/NewCondition",
+      "seller": { "@type": "Organization", "name": "Ekio Light", "url": "https://electrosmogespana.com" }
+    },
+    "hasMerchantReturnPolicy": {
+      "@type": "MerchantReturnPolicy",
+      "applicableCountry": "ES",
+      "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+      "merchantReturnDays": 30
+    }
+  },
+  "faqPage": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "¿Qué hace diferente al Bio Spectrum 11 de otros paneles de luz roja del mercado?",
+        "acceptedAnswer": { "@type": "Answer", "text": "El Bio Spectrum 11 es el único panel de fotobiomodulación doméstico con 11 longitudes de onda repartidas en 4 circuitos independientes, cubriendo desde UV-B (292 nm) hasta infrarrojo profundo (1050 nm). La mayoría de paneles del mercado ofrecen solo 2 longitudes (660+850 nm). El Bio Spectrum 11 añade UV-B para síntesis de vitamina D, señal circadiana azul-cian (485 nm), infrarrojo a 935 y 1050 nm para tejido profundo, y un módulo COB central de alta densidad. Cada circuito tiene intensidad y pulso ajustables de forma independiente. Amparado por modelo de utilidad español U202532624." }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Sirve un panel LED de fotobiomodulación para estimular la síntesis de vitamina D?",
+        "acceptedAnswer": { "@type": "Answer", "text": "El UV-B (292 nm) convierte el 7-dehidrocolesterol de la piel en previtamina D3, que se isomeriza a vitamina D3 activa: fotoquímica bien establecida (Young AR et al., PNAS 2021). El Bio Spectrum 11 incluye UV-B a 292 nm en el circuito Azul. Lo que no está establecido es cuánto sube la analítica con un panel concreto, porque depende de la dosimetría real. Por eso el protocolo UV-B es corto (2–3 min), con intensidad baja y gafas de protección obligatorias. Se recomienda combinar con D3+K2, incluido en el Ekio Light System." }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Cuál es la diferencia entre el circuito de Infrarrojo y el módulo COB del Bio Spectrum 11?",
+        "acceptedAnswer": { "@type": "Answer", "text": "El circuito Infrarrojo (850/935/1050 nm) recorre los 210 LEDs perimetrales y ofrece cobertura de cuerpo completo. El COB es un módulo físicamente independiente, montado en el centro del panel, que combina 660+850 nm en una fuente de alta densidad para concentrar la dosis sobre una zona concreta (una articulación, el pecho, el abdomen) mientras el resto del cuerpo recibe cobertura general. Tiene su propio circuito, independiente de los otros tres." }
+      },
+      {
+        "@type": "Question",
+        "name": "¿A qué hora del día es mejor usar el panel Bio Spectrum 11?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Depende del circuito. El bloque Azul-cian (485 nm) activa la melanopsina, que sincroniza el reloj circadiano (Mawad K & Van Gelder RN, 2008), por lo que es mejor por la mañana. El circuito Infrarrojo puro (850/935/1050 nm) es invisible y no interfiere con la melatonina, por lo que es compatible con sesiones nocturnas. La base diaria de longevidad (Rojo + Infrarrojo, sin activar Azul) se puede usar en cualquier franja." }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Cómo funciona la respuesta bifásica (curva de Arndt-Schulz) en fotobiomodulación?",
+        "acceptedAnswer": { "@type": "Answer", "text": "La fotobiomodulación sigue una respuesta bifásica dosis-respuesta (Huang YY, Hamblin MR et al., Dose-Response, 2011): poca luz no produce efecto, la dosis correcta genera el máximo beneficio, y excederse inhibe en lugar de estimular. El Bio Spectrum 11 permite ajustar intensidad y pulso por circuito precisamente para alcanzar la dosis óptima, no la máxima." }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Qué es la ventana óptica biológica y por qué importa para elegir un panel de luz?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Es el rango entre 600 y 1200 nm donde la luz penetra la piel en lugar de ser absorbida o reflejada (Tsai SR & Hamblin MR, 2017). Por debajo de 600 nm la hemoglobina y la melanina absorben casi toda la radiación; por encima de 1200 nm la bloquea el agua. Por eso el rojo (630–727 nm) y el infrarrojo (850–1050 nm) llegan al músculo y el tejido profundo, mientras el azul y el UV se quedan en la superficie. El Bio Spectrum 11 cubre toda esta ventana y añade UV para efectos superficiales (vitamina D, señal circadiana)." }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Puedo usar el infrarrojo del Bio Spectrum 11 sin activar la luz roja visible?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Sí. El circuito Infrarrojo (850/935/1050 nm) es independiente del circuito Rojo (630/660/670/727 nm) y se pueden encender por separado. El infrarrojo puro es la opción habitual para sesiones nocturnas: invisible al ojo, sin brillo de luz roja visible y compatible con ojos cerrados." }
+      },
+      {
+        "@type": "Question",
+        "name": "¿En cuánto tiempo se notan los efectos del Bio Spectrum 11?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Plazos orientativos según protocolo: recuperación deportiva desde la primera semana; síntesis de vitamina D medible en analítica a las 4–6 semanas; dolor crónico profundo 4–8 semanas; antiaging cutáneo 12 semanas o más. Los plazos dependen de la frecuencia de uso, la dosimetría y el estado de partida de cada persona." }
+      }
+    ]
+  },
+  "breadcrumb": {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://electrosmogespana.com" },
+      { "@type": "ListItem", "position": 2, "name": "Luz Roja Terapéutica y Fotobiomodulación", "item": "https://electrosmogespana.com/collections/luz-roja-terapeutica" },
+      { "@type": "ListItem", "position": 3, "name": "Bio Spectrum 11 — Panel de Fotobiomodulación Profesional", "item": "https://electrosmogespana.com/products/bio-spectrum-11-panel-fotobiomodulacion-profesional" }
+    ]
+  }
+}
