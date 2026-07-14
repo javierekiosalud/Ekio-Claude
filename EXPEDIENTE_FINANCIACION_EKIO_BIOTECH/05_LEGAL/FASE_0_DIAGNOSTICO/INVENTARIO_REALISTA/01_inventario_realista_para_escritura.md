@@ -28,7 +28,7 @@
 
 ## 2. ACTIVOS APORTADOS — VALORACIÓN PARA ESCRITURA
 
-### BLOQUE 1 · ACTIVOS TANGIBLES — 44.755 €
+### BLOQUE 1 · ACTIVOS TANGIBLES — 63.555 €
 
 #### 1.1. Stock de producto (52.275 €)
 
@@ -163,6 +163,14 @@
 ### BLOQUES 6-9 + 11 · RRSS, BBDD, CONTRATOS, EQUIPO, KNOW-HOW — 0 € EN BALANCE
 
 > **Decisión técnica fundamental:** estos cinco bloques NO se activan en balance (PGC los prohíbe expresamente — fondo de comercio autogenerado, cartera de clientes autogenerada, intangibles no separables, valor de personas). **Pero NO se pierden:** se transmiten dentro de la unidad económica autónoma como fondo de comercio implícito, y se documentan en el dataroom para la ronda.
+
+> **Cláusula de inclusión descriptiva para la escritura (consulta de la Notaría, 2026-07-13):** el notario ha planteado que, al aportarse "la totalidad del negocio", las bases de datos deben quedar incluidas en la transmisión. Es correcto **describirlas como transmitidas**, pero NO asignarles valor individualizado (mismo fundamento PGC NRV 5ª/19ª + valor fiscal cero bajo FEAC art. 78 LIS + responsabilidad solidaria arts. 73-77 LSC por una cifra indefendible). Texto propuesto para incorporar al apartado I de la escritura (Bienes Aportados) o al inventario anexo:
+>
+> > *"Se incluyen igualmente en la presente transmisión, sin valoración contable individualizada por constituir fondo de comercio inherente a la unidad económica que se transmite en su conjunto (arts. 87 LIS y Normas de Registro y Valoración 5ª y 19ª del Plan General de Contabilidad), las bases de datos de clientes y contactos, las cuentas y perfiles en redes sociales y plataformas digitales, los contratos comerciales vigentes y el know-how del negocio."*
+>
+> Esta redacción dice "va todo incluido, no se olvida nada" sin inflar el patrimonio aportado (55.076 €) ni generar un desajuste contable-fiscal. Ver correo a Héctor (`04_email_respuesta_hector.md`) para el texto ya integrado en la comunicación con la Notaría.
+>
+> **Efecto colateral a resolver cuanto antes:** al quedar las bases de datos mencionadas expresamente como transmitidas, se refuerza la obligación de cesión RGPD (comunicación a los 12.400 contactos del cambio de responsable del tratamiento + renegociación de encargados de tratamiento con Klaviyo, Shopify y ManyChat), idealmente resuelta antes de la firma.
 
 | Bloque | Por qué NO se activa | Cómo se traspasa operativamente |
 |---|---|---|

@@ -21,6 +21,12 @@ Muchas gracias por el borrador, va muy bien encaminado. He revisado escritura y 
 
 **6. Retribución del administrador (Art. 21):** el borrador fija que el cargo será retribuido con una asignación anual. Todavía no tengo cerrado el despacho fiscal que me va a asesorar en toda la operación, así que esto lo confirmo en cuanto lo tenga — probablemente en los próximos días.
 
+**7. Sobre las bases de datos que comentaste:** de acuerdo en que queden incluidas expresamente en la transmisión, ya que forman parte del negocio que se aporta en su totalidad. Lo que no me gustaría es asignarles un valor individualizado en euros, porque al ser una cartera de clientes generada por el propio negocio (no comprada a un tercero), la normativa contable (PGC, normas de registro y valoración 5ª y 19ª) no permite activarla como partida aislada, y además su valor fiscal bajo el régimen de neutralidad es cero al ya haberse deducido el gasto de marketing correspondiente en su día. Propongo esta redacción para el apartado de bienes aportados o el inventario anexo, si te parece adecuada:
+
+> *"Se incluyen igualmente en la presente transmisión, sin valoración contable individualizada por constituir fondo de comercio inherente a la unidad económica que se transmite en su conjunto (arts. 87 LIS y Normas de Registro y Valoración 5ª y 19ª del Plan General de Contabilidad), las bases de datos de clientes y contactos, las cuentas y perfiles en redes sociales y plataformas digitales, los contratos comerciales vigentes y el know-how del negocio."*
+
+Así queda constancia de que se transmiten sin necesidad de ponerles una cifra que después sea difícil de defender.
+
 Sobre lo demás:
 
 - Confirmo que mi actividad gira exclusivamente a mi nombre como autónomo en Hacienda, no hay comunidad de bienes ni ninguna otra figura con NIF propio.
