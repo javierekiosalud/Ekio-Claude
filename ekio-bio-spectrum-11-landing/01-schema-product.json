@@ -1,5 +1,5 @@
 {
-  "_nota": "Pegar cada bloque en su propio <script type=\"application/ld+json\"> en el <head> de la PDP, o unir los 3 en un array @graph. Sustituir /ruta/imagen por la URL real de la imagen de producto en el CDN de Shopify. Precio 2500 EUR = Ekio Light System completo.",
+  "_nota": "Pegar cada bloque en su propio <script type=\"application/ld+json\"> en el <head> de la PDP, o unir los 3 en un array @graph. Sustituir /ruta/imagen por la URL real de la imagen de producto en el CDN de Shopify. Precio 2500 EUR = base (panel + gafas UV) + Stack gratis de 385 EUR.",
   "product": {
     "@context": "https://schema.org",
     "@type": "Product",

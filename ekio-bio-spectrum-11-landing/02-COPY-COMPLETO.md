@@ -1,10 +1,10 @@
 # 02 · COPY COMPLETO — Bio Spectrum 11
 
 **Producto:** Bio Spectrum 11 — Panel de fotobiomodulación profesional de espectro completo
-**Precio:** **2.500 €** · incluye el **Ekio Light System** completo (panel + gafas UV + D3+K2 Electro Premium + Vitamina C Lighting + bombilla ámbar)
+**Precio:** **2.500 €** · no vendemos un panel, vendemos un método. Incluye la base (panel + gafas UV) y el **Stack** gratis valorado en 385 € (App Ekio Coach + Guía de Uso Interactiva + bombilla roja y ámbar + pack Vitamina C+B50+D3-K2+Probióticos de Laittin)
 **Financiación:** desde ≈ **208 €/mes** en 12 cuotas
 **Marca / vendor:** Ekio Light · `product_type: Lámparas para terapia de iluminación` · `template_suffix: productos-spiro`
-**Protección industrial:** Modelo de utilidad español **U202532624** (tecnología protegida vía PCT en 157 países)
+**Protección industrial:** Modelo de utilidad español **U202532624** (con protección internacional en tramitación vía PCT)
 
 **Principios aplicados:** voz EKIO (científico · honesto · directo), semáforo de evidencia 🟢🟡🔴 de la guía biohacker, límites legales AEMPS / Reglamento CE 1924/2006 (sin claim de tratamiento, diagnóstico, cura ni prevención de enfermedad).
 
@@ -48,13 +48,13 @@
 - ✓ **Infrarrojo profundo a 1050 nm + módulo COB central** — llega donde los paneles de 3-5 longitudes no llegan: tejido óseo y dosis concentrada por zona
 
 **BADGE DE PATENTE:**
-> 🔬 Modelo de utilidad español U202532624 · Tecnología protegida en 157 países (PCT)
+> 🔬 Modelo de utilidad español U202532624 · protección internacional en tramitación (PCT)
 
 **BADGE DISTRIBUIDOR:**
 > ✔️ Ekio Light · Distribuidor oficial SPIRO
 
 **PRECIO:**
-> **2.500 €** · incluye el **Ekio Light System** completo · o desde ≈ **208 €/mes** en 12 cuotas
+> **2.500 €** · método completo, Stack de 385 € incluido gratis · o desde ≈ **208 €/mes** en 12 cuotas
 
 **CTA PRINCIPAL (botón):**
 > Quiero el espectro completo
@@ -91,7 +91,7 @@
 >
 > Tres circuitos recorren los **210 LEDs perimetrales** del panel (Azul, Rojo, Infrarrojo). El cuarto es el **COB** — un módulo de alta densidad, montado en el centro, con su propia circuitería. Y cada uno de los cuatro tiene **intensidad y frecuencia de pulso ajustables de forma independiente**: no solo eliges qué zona del espectro usar, sino cuánta energía entrega y a qué ritmo la pulsa.
 >
-> Detrás no hay una marca de importación con un logo pegado. Hay un **modelo de utilidad español (U202532624)** que ampara la combinación espectral y el diseño de circuitos, tecnología protegida en 157 países vía PCT, y el respaldo de Ekio Light como distribuidor oficial SPIRO. Eso es lo que separa un dispositivo de fotobiomodulación de espectro completo de una lámpara con diodos rojos.
+> Detrás no hay una marca de importación con un logo pegado. Hay un **modelo de utilidad español (U202532624)** que ampara la combinación espectral y el diseño de circuitos, con protección internacional en tramitación vía PCT, y el respaldo de Ekio Light como distribuidor oficial SPIRO. Eso es lo que separa un dispositivo de fotobiomodulación de espectro completo de una lámpara con diodos rojos.
 
 **Mini-CTA:** → Ver los 4 circuitos en detalle
 
@@ -107,7 +107,7 @@ El circuito que más diferencia al Bio Spectrum 11 de cualquier panel de luz roj
 - **UV-A 385 nm** — útil en acné severo y como luz de diagnóstico fluorescente.
 - **Violeta 405 nm** — antibacteriano profundo, estimula proteoglicanos.
 - **Azul/cian 485 nm** — antibacteriano superficial y señal circadiana de "es de día" vía melanopsina [3].
-- 🥽 **Requiere gafas de protección UV. Siempre. Sin excepción.** (Incluidas en el Ekio Light System.)
+- 🥽 **Requiere gafas de protección UV. Siempre. Sin excepción.** (Incluidas en la base de tu compra.)
 
 ### Circuito 2 — Rojo · 630 · 660 · 670 · 727 nm
 El circuito más amplio en rango espectral visible y el de mayor densidad de evidencia en fotobiomodulación. Independiente del Azul y del COB.
@@ -182,7 +182,7 @@ La fotobiomodulación sigue una respuesta bifásica (hormética): poca luz no ha
 | Modos de luz | Continuo y pulsado, por circuito | Adaptable a relajación o activación |
 | UV-B real | 292 nm (circuito Azul) | Síntesis de vitamina D en meses sin sol [2] |
 | Infrarrojo profundo | Hasta 1050 nm | Alcance a tejido óseo y nervioso |
-| Protección industrial | Modelo de utilidad U202532624 (157 países, PCT) | Tecnología protegida, no importación genérica |
+| Protección industrial | Modelo de utilidad U202532624 (PCT en tramitación) | Tecnología protegida, no importación genérica |
 | Seguridad UV | Gafas de protección UV incluidas | Uso seguro del circuito Azul |
 
 > ⚠️ **Rellenar con la ficha técnica real antes de publicar:** irradiancia (mW/cm² a X cm), potencia total (W), dimensiones y peso, vida útil de los LEDs, voltaje. Si existe ficha PDF, enlazar como descargable.
@@ -242,7 +242,7 @@ La fotobiomodulación sigue una respuesta bifásica (hormética): poca luz no ha
 | Protocolo + guía PDF | No | No | Sí | Sí | **Sí** |
 | Soporte en español | No | No | Sí | Sí | **Sí** |
 
-> **Ancla de valor:** cubrir el mismo espectro con dispositivos separados exigiría un panel rojo+NIR profesional (800-1.200 €) + un equipo UV-B (500-900 €) + un aplicador COB (200-400 €) = 1.500-2.500 €. Y vendrían con circuitos que no se comunican, sin control unificado de intensidad y pulso, sin guía de protocolo y sin soporte en español. El Bio Spectrum 11, con el Ekio Light System completo, resuelve todo eso en una sola herramienta protegida por patente.
+> **Ancla de valor:** cubrir el mismo espectro con dispositivos separados exigiría un panel rojo+NIR profesional (800-1.200 €) + un equipo UV-B (500-900 €) + un aplicador COB (200-400 €) = 1.500-2.500 €. Y vendrían con circuitos que no se comunican, sin control unificado de intensidad y pulso, sin app, sin guía de protocolo y sin soporte en español. El Bio Spectrum 11 resuelve todo eso en una sola herramienta protegida por patente — y encima incluye el Stack de 385 € gratis.
 
 ---
 

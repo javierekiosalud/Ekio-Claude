@@ -111,7 +111,7 @@ Verificar que `electrosmogespana.com/llms.txt` responde 200 y que `robots.txt` *
 ## 5. E-E-A-T y señales de confianza
 
 **En la PDP (texto visible, no solo JSON-LD):**
-- Mencionar el modelo de utilidad U202532624 en el cuerpo, con explicación ("ampara la combinación espectral y el diseño de circuitos, protegida en 157 países vía PCT").
+- Mencionar el modelo de utilidad U202532624 en el cuerpo, con explicación ("ampara la combinación espectral y el diseño de circuitos, con protección internacional en tramitación (PCT)").
 - Bloque de autor firmado (Javier Andrés, fundador de Ekio Light) → crea entidad persona vinculada al producto.
 - Las 7 referencias PubMed visibles en HTML con DOI como hipervínculos (no solo en el PDF descargable).
 - Disclaimer de rigor: "Las referencias provienen de publicaciones revisadas por pares (PubMed) y se presentan con su nivel de evidencia (🟢 establecido, 🟡 preliminar). Ningún claim constituye diagnóstico, tratamiento, cura ni prevención de enfermedad."

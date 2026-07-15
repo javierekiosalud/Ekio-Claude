@@ -36,12 +36,12 @@
 
 1. Hero / Buy box (Bloque 1)
 2. Spec strip: 11 · 4 · 210+COB · U202532624
-3. El problema — medio espectro (Bloque 2)
-4. Los 4 circuitos — accordeon interactivo (Bloque 4)
-5. La ciencia — semáforo de evidencia (Bloque 5)
-6. Intensidad y pulso (Bloque 6)
-7. Protocolos de uso (Bloque 8)
-8. La base + el Stack — panel/gafas incluidos y bonos gratis con precio tachado (Bloque 9)
+3. La base + el Stack — panel/gafas incluidos y bonos gratis con precio tachado (Bloque 9). **Va justo después del spec strip**: en cuanto el usuario ve "11 · 4 · 210+COB · 🇪🇸" entiende que además del panel se lleva el método completo gratis — es el segundo elemento de anclaje de valor, antes de entrar en el argumento del problema.
+4. El problema — medio espectro (Bloque 2)
+5. Los 4 circuitos — accordeon interactivo (Bloque 4)
+6. La ciencia — semáforo de evidencia (Bloque 5)
+7. Intensidad y pulso (Bloque 6)
+8. Protocolos de uso (Bloque 8)
 9. Prueba social *(ver aviso de testimonios abajo)*
 10. Comparativa (Bloque 10)
 11. Seguridad y contraindicaciones (Bloque 11)
@@ -72,7 +72,7 @@ Reutilizar la **animación interactiva del panel** (los 4 circuitos iluminándos
 
 - **Testimonios:** EKIO no tiene aún reviews reales verificadas del Bio Spectrum 11 (producto nuevo). Usar plantillas de formato para rellenar con casos reales; no publicar como reales. Alternativa en lanzamiento: testimonios de paneles hermanos (Deep 5, Bio Regen 7) atribuidos explícitamente a ese producto. **No** declarar `AggregateRating` en schema sin valoraciones reales.
 - **Límite legal:** ningún claim de tratamiento/diagnóstico/cura/prevención de enfermedad. Contraindicaciones visibles en la PDP (no solo en el manual).
-- **Patente:** modelo de utilidad español U202532624 (protegido en 157 países vía PCT). Coherente con el marco usado en la ficha de Deep 5.
+- **Patente:** modelo de utilidad español U202532624 (con protección internacional en tramitación vía PCT). Coherente con el marco usado en la ficha de Deep 5.
 - **No publicado en Shopify por Claude:** el producto NO se ha creado en la tienda. Este paquete es el copy/estructura listo para que lo implementes tú o el equipo de tema.
 
 ---
