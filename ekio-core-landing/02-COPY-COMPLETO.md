@@ -105,11 +105,38 @@ CERO FLICKER · 0 µT · BAJO CEM
 
 ---
 
-## BLOQUE 2 — PARA QUE SIRVE: los 6 usos del Core
+## BLOQUE 1.5 — EL STACK: no vendemos un dispositivo, incluimos el método
 
 **H2:**
 ```
-Un fisio de bolsillo para las zonas que más lo piden.
+El Core no llega solo. Incluye lo que hace que el protocolo funcione de verdad.
+```
+
+**TEXTO:**
+```
+Un dispositivo sin guía y sin seguimiento es solo una luz cara.
+Por eso cada Ekio Light Core incluye, sin coste añadido, el resto
+del método — lo mismo que reciben quienes compran un panel Ekio Light:
+```
+
+| Qué incluye | Valor real | Precio en tu Core |
+|---|---|---|
+| **App Ekio Coach — acceso completo** — coach virtual del estilo de vida Ekio: aprende el porqué, integra la luz en tu rutina y evoluciona hacia el protocolo 360 | ~~177 €~~ | **Gratis** |
+| **Guía de Uso Interactiva Ekio System** — protocolos por objetivo (dolor, recuperación, piel, sueño) con distancias y tiempos exactos para el Core | ~~49 €~~ | **Gratis** |
+| **Valor total incluido: 226 €** | | **Gratis con tu Core a 147 €** |
+
+```
+No compras un dispositivo suelto: compras el dispositivo + el método
+para no dejarlo en el cajón a la segunda semana.
+```
+
+---
+
+## BLOQUE 2 — PARA QUE SIRVE: los 7 usos del Core
+
+**H2:**
+```
+Un fisio de bolsillo — y una luz de compañía — para donde lo necesites.
 ```
 
 **TEXTO DE INTRODUCCION:**
@@ -117,23 +144,26 @@ Un fisio de bolsillo para las zonas que más lo piden.
 Los paneles de cuerpo entero son para la rutina de cabina.
 El Core es para el momento exacto en que lo necesitas:
 la rodilla que te pide atención antes de entrenar, el cuello
-que acusa cinco horas delante de la pantalla, la cara en
-la rutina de noche. Terapia de precisión, no de promedio.
+que acusa cinco horas delante de la pantalla, la rutina de belleza
+facial antes de dormir — o simplemente una luz roja cálida en la
+mesita de noche o en la habitación del hotel de viaje.
+Terapia de precisión, no de promedio.
 ```
 
 | Zona | Uso típico |
 |---|---|
+| **Cara — belleza facial** | Colágeno y luminosidad en sesiones cortas de 10 min — el 660 nm es el clásico de los tratamientos faciales de luz roja, ahora sin cita ni cabina |
 | **Rodilla** | Molestias articulares, calentamiento antes del deporte y recuperación posterior |
 | **Cuello y trapecios** | Tensión acumulada por pantallas y teletrabajo — el uso más frecuente en clientes Ekio |
 | **Hombro y codo** | Sobrecargas de repetición, tendinitis incipiente, recuperación post-entreno |
-| **Cara** | Colágeno y luminosidad en sesiones cortas — el 660 nm es el clásico de los tratamientos faciales |
 | **Pies y manos** | Articulaciones pequeñas, circulación, zonas de difícil acceso con un panel grande |
-| **Viaje** | Batería recargable USB-C: la rutina de luz roja no se queda en casa |
+| **Habitación / mesita de noche** | Como luz de compañía cálida en modo rojo — sin el componente azul que corta la melatonina, ideal antes de dormir |
+| **Viaje** | Batería recargable USB-C: te acompaña como terapia local y como luz roja ambiental en la habitación del hotel — la rutina no se queda en casa |
 
 **MICROCOPY DE UPSELL:**
 ```
 ¿Buscas cubrir el cuerpo entero o iluminar una estancia completa?
-El Core trata una zona; un panel lo cambia todo.
+El Core trata una zona (o te acompaña con su luz); un panel lo cambia todo.
 Mira el Deep 5 → (/products/panel-luz-roja-deep-5)
 ```
 
