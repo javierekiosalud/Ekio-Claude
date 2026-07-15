@@ -1,7 +1,7 @@
 # AUDITORÍA + COPY NUEVO — Hub "Terapia de Luz Roja" (menú principal)
 **URL**: /pages/terapia-de-luz-roja-ekio-light
 **Fecha**: 6 julio 2026
-**Contexto**: rediseño aprovechando el lanzamiento de la nueva gama EKIO Light — 4 productos: **Core** (evolución del IGNIS, entrada), **Deep 5** (650 €), **Bio Regén 7** (970 €, antes Deep 7 Cyan), **Bio Spectrum 11** (2.500 €, antes Full Spectrum 10). Las landings de PDP de Deep 5, Bio Regén 7 y Bio Spectrum 11 ya existen ([Content/landings/](landings/)) — este documento cubre el HUB del menú, que es la página de decisión de la gama.
+**Contexto**: rediseño aprovechando el lanzamiento de la nueva gama EKIO Light — 4 productos: **Core** (147 €, oferta de lanzamiento sobre 175 €), **Deep 5** (650 €), **Bio Regén 7** (970 €, antes Deep 7 Cyan), **Bio Spectrum 11** (2.500 €, antes Full Spectrum 10). Las landings autoritativas de Core, Bio Regén 7 y Bio Spectrum 11 viven ahora en `ekio-core-landing/`, `ekio-bio-regen-7-landing/` y `ekio-bio-spectrum-11-landing/` (fuente de verdad: sus `02-COPY-COMPLETO.md`) — este documento cubre el HUB del menú, que es la página de decisión de la gama.
 
 ---
 
@@ -30,7 +30,7 @@ GSC ya reparte bien: la **colección** captura lo transaccional ("lámpara", "co
 "**luz roja 727 nm**" (vuestra longitud exclusiva/leptina) y "**terapia de luz roja en casa**" están en posición 1. El copy nuevo debe conservar ambas frases literales y ampliarlas.
 
 ### 🟢 D5 — El ángulo que NADIE más puede usar
-Sois la única marca de luz roja que es a la vez especialista en electrosmog: **paneles diseñados con criterios de bajo CEM y cero flicker**. Todos los paneles chinos del mercado bombardean de campos electromagnéticos al usuario a 20 cm de la cara. Este es EL diferenciador de marca del hub (además de patente española en 157 países y el 727 nm).
+Sois la única marca de luz roja que es a la vez especialista en electrosmog: **paneles diseñados con criterios de bajo CEM y cero flicker**. Todos los paneles chinos del mercado bombardean de campos electromagnéticos al usuario a 20 cm de la cara. Este es EL diferenciador de marca del hub (además del Modelo de Utilidad español Nº U202532624 y el 727 nm).
 
 ---
 
@@ -42,19 +42,19 @@ Sois la única marca de luz roja que es a la vez especialista en electrosmog: **
 | Origen | Evolución del IGNIS | — | antes Deep 7 Cyan | antes Full Spectrum 10 |
 | Longitudes | 2 | 5 | 7 | 11 |
 | LEDs | 13 | 70 | 70 | 210 |
-| **COB** | — | — | **1** | **2** |
-| Diferenciador | **Terapia local**: portátil, va donde lo necesitas (rodilla, cuello, cara, viaje) | 727 nm (leptina) | + Azul 485 nm + IR profundo 940 nm | + UV-B (vitamina D) + UV-A + IR 1050 nm |
-| Para quién | Zonas concretas y viaje | Energía y uso diario en casa | Piel + articulaciones + músculo | Clínica, atletas, **biohacking**, longevidad |
-| Precio | **140 €** | 650 € | 970 € | 2.500 € |
+| **COB** | — | — | **1** | 4 circuitos independientes |
+| Diferenciador | **Terapia local**: portátil, va donde lo necesitas (rodilla, cuello, cara, viaje) | 727 nm (leptina) | + Cian 485 nm (ritmo circadiano) + IR profundo 940 nm | + UV-B real (vitamina D) + UV-A + IR 1050 nm |
+| Stack incluido | App + Guía (226 € valor) | — | App + Guía + bombilla roja + Vitamina C+B50 Laittin (300,60 € valor) | App + Guía + bombillas roja/ámbar + Pack Laittin (385 € valor) |
+| Para quién | Zonas concretas y viaje | Energía y uso diario en casa | Piel + articulaciones + recuperación | Clínica, atletas, **biohacking**, longevidad |
+| Precio | **147 €** (oferta, antes 175 €) | 650 € | 970 € | 2.500 € |
 
-*(Specs Core y COBs confirmados por Javier 6-jul. El ángulo biohacking se aplica al Bio Spectrum 11 en tarjeta, comparativa y FAQ.)*
+*(Specs Core y COBs confirmados por Javier 6-jul; precios y Stack sincronizados 15-jul-2026 con los 3 paquetes autoritativos. El ángulo biohacking se aplica al Bio Spectrum 11 en tarjeta, comparativa y FAQ.)*
 
 ### BIO SPECTRUM 11 = PRODUCTO ESTRELLA (decisión Javier 6-jul)
 - Tarjeta con borde ámbar + tag "⭐ Producto estrella" en la gama
-- **Sección spotlight propia** en el hub (id `#estrella`, fondo oscuro): "Bio Spectrum 11: el panel del auténtico biohacker" con 4 diferenciales — (1) **único con UV-A + UV-B** (síntesis de vitamina D en casa), (2) 11 longitudes · 210 LEDs · 2 COB → decenas de tratamientos, (3) **totalmente personalizable** (cada panel se configura a medida), (4) **Modelo de Utilidad U202532624** con protección internacional en tramitación
+- **Sección spotlight propia** en el hub (id `#estrella`, fondo oscuro): "Bio Spectrum 11: el panel del auténtico biohacker" con 4 diferenciales — (1) **único con UV-B real + UV-A** (síntesis de vitamina D en casa), (2) 11 longitudes · 210 LEDs · 4 circuitos independientes → decenas de tratamientos, (3) **totalmente personalizable** (cada panel se configura a medida), (4) **Modelo de Utilidad U202532624** con protección internacional en tramitación
 - Fila "Personalizable" añadida a la comparativa (solo Bio Spectrum: ✓)
-- ⚠️ **CAUTELA LEGAL**: el MU U202532624 es la base del PCT previsto para julio 2026 (riesgo de publicación BOPI ya identificado en ese expediente). **Confirmar con Patricia García** que publicar el número en la web no interfiere; si hay duda, publicar "Modelo de Utilidad español propio" sin número hasta el filing.
-- Nota de coherencia: el claim "patente española registrada en 157 países" de las landings de mayo debe reformularse — lo correcto es "Modelo de Utilidad español + protección internacional (PCT) en tramitación". Revisar las 3 landings antes de pegarlas en Shopify.
+- Nota de coherencia: RESUELTO 15-jul-2026 — el claim se reformuló en todo el sistema como "Modelo de Utilidad español Nº U202532624 (PCT en tramitación)".
 
 ### Bombillas — la puerta de 17,50 € (añadido 6-jul)
 Sección propia en el hub, entre la comparativa y el bloque de fotobiomodulación:
@@ -62,14 +62,14 @@ Sección propia en el hub, entre la comparativa y el bloque de fotobiomodulació
 - **Bombilla de luz roja** — 17,50 € — ritual de noche, dormitorio, sin componente azul
 - **Bombilla ámbar 1800K** — 17,50 € — "la luz del fuego": salón después del atardecer
 - **Pack Salón y Dormitorio** — 29,70 € (antes 50 €) — las dos combinadas
-Ángulo: cero flicker certificado + bajo CEM (coherente con el diferenciador de marca). Funciona como producto de entrada/captación y primer paso del ladder hacia el Core (140 €) y los paneles.
+Ángulo: cero flicker certificado + bajo CEM (coherente con el diferenciador de marca). Funciona como producto de entrada/captación y primer paso del ladder hacia el Core (147 €) y los paneles.
 
 ---
 
 ## SEO ON-PAGE DEL HUB
 
-- **Title**: `Terapia de Luz Roja en Casa — Paneles EKIO Light | Patente Española`
-- **Meta**: `Paneles de fotobiomodulación con patente española: 4 modelos desde [X] € hasta uso profesional. Luz roja e infrarroja con cero flicker y bajo CEM. Envío gratis y pago a plazos.`
+- **Title**: `Terapia de Luz Roja en Casa — Paneles EKIO Light | Modelo de Utilidad Español`
+- **Meta**: `Paneles de fotobiomodulación con Modelo de Utilidad español: 4 modelos desde 147 € hasta uso profesional. Luz roja e infrarroja con cero flicker y bajo CEM. Envío gratis y pago a plazos.`
 - **H1**: `Terapia de luz roja en casa, con ciencia y sin electrosmog` *(conserva la query nº1 literal + diferenciador)*
 - Schema: WebPage + **ItemList (4 productos con precio)** + FAQPage + BreadcrumbList
 - Conservar en el cuerpo, literales: "terapia de luz roja en casa", "luz roja 727 nm", "fotobiomodulación", "luz roja e infrarroja", "panel de luz roja"
@@ -86,7 +86,7 @@ Sección propia en el hub, entre la comparativa y el bloque de fotobiomodulació
 >
 > **¿QUÉ QUIERES RECUPERAR?** [⚡ Energía] [✨ Piel] [💪 Dolor] [😴 Sueño] *(chips → ancla #objetivos)*
 > **[EMPEZAR POR MI OBJETIVO ↓]**
-> ★ 4,8/5 · Miles de estudios publicados sobre fotobiomodulación · 🇪🇸 Patente española
+> ★ 4,8/5 · Miles de estudios publicados sobre fotobiomodulación · 🇪🇸 Modelo de Utilidad español
 
 **📷 FOTO**: persona NORMAL (no fitness model) usando el panel en un salón español real, en pijama o ropa de casa, leyendo o con un café. Debe transmitir "esto encaja en mi vida", no "esto es de gimnasio".
 
@@ -94,16 +94,16 @@ Sección propia en el hub, entre la comparativa y el bloque de fotobiomodulació
 **H2:** `¿Qué quieres recuperar?` — 4 tarjetas síntoma-primero, cada una cierra con su producto:
 - ⚡ Energía ("si te levantas cansado…") → **Panel recomendado: Deep 5**
 - ✨ Piel → **Bio Regén 7**
-- 💪 Dolor ("si arrastras una rodilla…") → **Zona concreta: Core (140 €) · Cuerpo: Bio Regén 7**
+- 💪 Recuperación y acompañamiento del dolor ("si arrastras una rodilla…") → **Zona concreta: Core (147 €) · Cuerpo: Bio Regén 7**
 - 😴 Sueño → **Empieza por 17,50 €: bombilla roja**
 
 ### 2. LA GAMA — 4 tarjetas escalera (comprables)
 **H2:** `Elige tu nivel: de la primera sesión al uso profesional`
 
-- **CORE — [precio]** · "La puerta de entrada" — La evolución del IGNIS: fotobiomodulación esencial para probar la luz roja o tratar zonas concretas. → VER CORE
+- **CORE — 147 € (oferta de lanzamiento, antes 175 €)** · "La puerta de entrada" — 13 LEDs, 660+850 nm, portátil, batería USB-C. Incluye App Ekio Coach + Guía de Uso Interactiva (226 € de valor, gratis). → VER CORE
 - **DEEP 5 — 650 €** · "El favorito para empezar en serio" — 70 LEDs, 5 longitudes de onda incluida la exclusiva **727 nm**. Energía y bienestar diario. → VER DEEP 5
-- **BIO REGÉN 7 — 970 €** · "Piel + recuperación" — 7 longitudes: añade azul 485 nm e infrarrojo profundo 940 nm. Piel, articulaciones y músculo. → VER BIO REGÉN 7
-- **BIO SPECTRUM 11 — 2.500 €** · "El espectro completo del sol terapéutico" — 210 LEDs, 11 longitudes con UV-B (vitamina D) y IR 1050 nm. Clínica, atletas y longevidad. → VER BIO SPECTRUM 11
+- **BIO REGÉN 7 — 970 €** · "Piel + recuperación" — 7 longitudes + 1 COB: añade cian 485 nm e infrarrojo profundo 940 nm. Piel, articulaciones y recuperación. Stack incluido (300,60 € de valor). → VER BIO REGÉN 7
+- **BIO SPECTRUM 11 — 2.500 €** · "El espectro completo del sol terapéutico" — 210 LEDs, 11 longitudes en 4 circuitos con UV-B real (vitamina D) y IR 1050 nm. Stack incluido (385 € de valor). Clínica, atletas y longevidad. → VER BIO SPECTRUM 11
 
 ### 3. COMPARATIVA COMPLETA (tabla HTML — CRO + GEO)
 **H2:** `¿Core, Deep 5, Bio Regén 7 o Bio Spectrum 11?`
@@ -119,15 +119,15 @@ Cierre: `¿Dudas? Escríbenos por WhatsApp y te ayudamos a elegir` *(o el canal 
 ### 5. BENEFICIOS POR OBJETIVO (4 puertas, conectan con protocolos)
 **H2:** `Qué puedes trabajar con la luz roja`
 - **⚡ Energía y vitalidad** — mitocondrias y ATP; la 727 nm y su relación con la leptina *(único de EKIO Light)*
-- **✨ Piel y antienvejecimiento** — colágeno, elasticidad; el azul 485 nm del Bio Regén 7
-- **💪 Dolor y recuperación** — articulaciones y músculo profundo con IR 940–1050 nm
+- **✨ Piel y antienvejecimiento** — colágeno, elasticidad; el cian 485 nm del Bio Regén 7
+- **💪 Recuperación y acompañamiento del dolor** — articulaciones y músculo profundo con IR 940–1050 nm
 - **😴 Descanso y ritmo circadiano** — luz roja por la noche en lugar de pantallas azules
 Cada tarjeta → enlace al protocolo/guía correspondiente del blog (material ya existente en ekio-light-protocolos/).
 
 ### 6. POR QUÉ EKIO LIGHT (el diferenciador imposible de copiar)
 **H2:** `El único panel que no te contamina mientras te cuida`
 > Somos especialistas en contaminación electromagnética. Por eso nuestros paneles están diseñados como ningún otro del mercado: **cero flicker certificado, bajo campo electromagnético** y electrónica apantallada. La mayoría de paneles baratos emiten campos eléctricos y magnéticos elevados a la distancia de uso — exactamente lo que intentas evitar. Con EKIO Light, la luz te cuida sin factura invisible.
-- ✓ Patente española · registrada en 157 países
+- ✓ Modelo de Utilidad español Nº U202532624 (PCT en tramitación)
 - ✓ Cero flicker · bajo CEM verificado
 - ✓ Diseñado y soportado desde España
 - ✓ Envío gratis · pago a plazos · **Devolución de 30 días** *(confirmado Javier 6-jul: Ekio Light = 30 días, NO los 90 de SPIRO — no mezclar nunca las dos garantías; la barra de anuncio en páginas Ekio Light debe mostrar la de 30 días)*
@@ -138,7 +138,7 @@ Cada tarjeta → enlace al protocolo/guía correspondiente del blog (material ya
 3. **¿Qué diferencia hay entre Core, Deep 5, Bio Regén 7 y Bio Spectrum 11?** — resumen de la tabla
 4. **¿Qué es la longitud de onda 727 nm?** *(query en pos 1)* — la longitud exclusiva de EKIO Light y su relación con la leptina/metabolismo
 5. **¿Los paneles de luz roja emiten electrosmog?** — los baratos sí; los EKIO Light están diseñados con bajo CEM y cero flicker *(diferenciador + honestidad)*
-6. **¿Cuánto cuesta un panel de luz roja?** — desde [Core] hasta 2.500 €, pago a plazos
+6. **¿Cuánto cuesta un panel de luz roja?** — desde el Core (147 €, oferta de lanzamiento) hasta 2.500 €, pago a plazos
 
 ### 8. CTA FINAL
 **H2:** `Tu dosis de sol terapéutico, todo el año`
@@ -149,7 +149,7 @@ Cada tarjeta → enlace al protocolo/guía correspondiente del blog (material ya
 ## ARQUITECTURA Y ENLAZADO
 - **Hub** (esta página) = educar + comparar + elegir → enlaza a las 4 PDPs con anchor exacto y a la colección
 - **Colección /collections/productos-luz-roja** = grid transaccional (títulos nuevos, precios) — captura "lámpara/panel/comprar luz roja"
-- **PDPs**: implementar las landings ya escritas (Deep 5, Bio Regén 7, Bio Spectrum 11) + crear la del Core cuando haya specs
+- **PDPs**: implementar las landings ya escritas — Core (`ekio-core-landing/`), Deep 5, Bio Regén 7 (`ekio-bio-regen-7-landing/`) y Bio Spectrum 11 (`ekio-bio-spectrum-11-landing/`)
 - Bombillas (roja/amarilla 1800K) y Pack Salón: quedan en la colección como "empezar por poco" — el hub puede mencionarlas en FAQ de precio
 - Home: la puerta "Terapia de Luz Roja" enlaza aquí (ya en maqueta home v2.1)
 - llms.txt: actualizar línea de luz roja con esta URL y la gama nueva
@@ -163,3 +163,7 @@ Cada tarjeta → enlace al protocolo/guía correspondiente del blog (material ya
 6. GSC: solicitar indexación de hub + 4 PDPs
 
 **KPIs**: CTR clúster luz roja 0,7% → 3%+ · "terapia de luz roja" pos 25 → top 10 · conversión hub→PDP > 25%
+
+---
+
+**ACTUALIZACIÓN 15-jul-2026**: sincronizado con los paquetes autoritativos `ekio-core-landing/`, `ekio-bio-regen-7-landing/` y `ekio-bio-spectrum-11-landing/` — precios (Core 147 €, oferta sobre 175 €), Stack de método por producto, renombrado 485 nm "Azul" → "Cian" en Bio Regén 7, y unificación del claim legal a "Modelo de Utilidad español Nº U202532624 (PCT en tramitación)" en todo el documento.

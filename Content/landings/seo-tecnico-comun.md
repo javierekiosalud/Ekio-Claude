@@ -97,7 +97,7 @@ Crear un snippet por producto en el theme: `/snippets/schema-product-[modelo].li
         {
           "@type": "PropertyValue",
           "name": "Patente",
-          "value": "Modelo de utilidad U202532624 — 157 países vía PCT"
+          "value": "Modelo de Utilidad español U202532624 — PCT en tramitación"
         },
         {
           "@type": "PropertyValue",
@@ -260,7 +260,7 @@ Crear el archivo `llms.txt` en la raíz `https://ekio.es/llms.txt`. En Shopify s
 
 > Tienda especialista en bienestar electromagnético y fotobiomodulación.
 > Diseño y patente española en fotobiomodulación
-> (Modelo de utilidad U202532624 · 157 países vía PCT).
+> (Modelo de Utilidad español U202532624 · PCT en tramitación).
 
 ## Productos Ekio Light — Paneles de fotobiomodulación
 

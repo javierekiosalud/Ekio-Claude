@@ -10,7 +10,7 @@ Admin › **Configuración › Datos personalizados › Productos** → crea, na
 
 | Key | Tipo | Valor |
 |---|---|---|
-| `patente` | Texto | `OEPM U202532624 · 157 países` |
+| `patente` | Texto | `Modelo de Utilidad español U202532624 · PCT en tramitación` |
 | `longitudes_onda` | Texto | `630 · 660 · 727 · 810 · 850 nm` |
 | `irradiancia` | Texto | *(rellenar con la ficha técnica real)* |
 | `garantia_anios` | Entero | `2` |

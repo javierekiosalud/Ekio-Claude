@@ -65,6 +65,6 @@ Auditoría del trabajo de los Agentes 1-3 contra los benchmarks del Agente 0.
 - ✅ Beneficios formulados como "los estudios documentan / los usuarios reportan".
 - ✅ Contraindicaciones visibles (epilepsia fotosensible, embarazo, fotosensibilizantes, oncología).
 - ✅ "Complemento, no sustituto del tratamiento médico" presente.
-- ✅ Patente correcta: OEPM 157 países, **sin** "PCT" (corregido respecto al prompt original).
+- ✅ Patente correcta: Modelo de Utilidad español U202532624, PCT en tramitación (actualizado 15-jul-2026 tras envío del paquete al agente de patentes).
 - ✅ Garantía correcta: 30 días devolución + 2 años (corregido respecto al prompt original).
 - ✅ Sin `aggregateRating` inventado (evita publicidad engañosa y penalización de Google).

@@ -84,7 +84,7 @@ El cupón **15Deep** es válido durante todo julio. Si tienes dudas sobre si el 
 - 727 nm: diferencial único — señalización circadiana del metabolismo energético
 - 5 longitudes de onda: 630, 660, 727, 810, 850 nm
 - 0 µT a 7,5 cm — cero CEM propia (relevante para audiencia Ekio)
-- Patente MU U202532624 registrada en 157 países
+- Modelo de Utilidad español Nº U202532624 (PCT en tramitación)
 - Cupón 15Deep válido todo julio (confirmado).
 - Smart Sending ON: 49h desde FJA vie 3 (8:00). ✓
 - URL producto: https://electrosmogespana.com/products/deep-5-ekio-light

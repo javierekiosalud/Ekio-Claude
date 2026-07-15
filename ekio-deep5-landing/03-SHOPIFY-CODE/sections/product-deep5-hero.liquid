@@ -11,7 +11,7 @@
 
 {%- comment -%} VARIABLES BASE CON FALLBACK A METAFIELDS Y SETTINGS {%- endcomment -%}
 {%- assign p = product -%}
-{%- assign patente = p.metafields.ekio.patente | default: 'OEPM U202532624 · 157 países' -%}
+{%- assign patente = p.metafields.ekio.patente | default: 'Modelo de Utilidad español U202532624 · PCT en tramitación' -%}
 {%- assign longitudes = p.metafields.ekio.longitudes_onda | default: '630 · 660 · 727 · 810 · 850 nm' -%}
 {%- assign garantia_anios = p.metafields.ekio.garantia_anios | default: 2 -%}
 {%- assign cuota = p.price | divided_by: 1200.0 | ceil -%}
@@ -85,7 +85,7 @@
       <ul class="ek-hero-bullets">
         <li><strong>5 longitudes de onda</strong> ({{ longitudes }}) — donde casi todos los paneles emiten solo 2</li>
         <li><strong>Energía, sueño y recuperación</strong> — respaldado por la literatura de fotobiomodulación</li>
-        <li><strong>Patente española OEPM</strong> registrada en 157 países — no es importación con un logo</li>
+        <li><strong>Modelo de Utilidad español</strong> Nº U202532624 (PCT en tramitación) — no es importación con un logo</li>
       </ul>
 
       <div class="ek-price-row">

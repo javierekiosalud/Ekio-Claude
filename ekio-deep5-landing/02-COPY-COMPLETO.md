@@ -32,10 +32,10 @@
 **3 BULLET POINTS HERO:**
 - ✓ **5 longitudes de onda** (630 · 660 · 727 · 810 · 850 nm) — donde casi todos los paneles emiten solo 2
 - ✓ **Energía, sueño y recuperación** — respaldado por la literatura de fotobiomodulación [1][2][5]
-- ✓ **Patente española OEPM** registrada en 157 países — no es un panel de importación con un logo
+- ✓ **Modelo de Utilidad español Nº U202532624** (PCT en tramitación) — no es un panel de importación con un logo
 
 **BADGE DE PATENTE:**
-> 🔬 Patente OEPM U202532624 · Registrada en 157 países
+> 🔬 Modelo de Utilidad español Nº U202532624 · PCT en tramitación
 
 **PRECIO:**
 > **650 €** · o desde ≈ **54 €/mes** en 12 cuotas
@@ -81,7 +81,7 @@
 >
 > No tienes que entender la bioquímica para usarlo. Te sientas o te colocas frente al panel 10-20 minutos, y la luz hace su trabajo a nivel celular. Lo que tú notas, con el uso regular, es lo que reportan los usuarios: más energía estable, mejor descanso, menos molestias.
 >
-> Detrás no hay una marca de importación con un logo pegado. Hay una **patente española OEPM (U202532624)** registrada en 157 países, y 15+ años de práctica clínica del fundador puestos en el diseño. Eso es lo que separa un dispositivo de fotobiomodulación de una lámpara con diodos rojos.
+> Detrás no hay una marca de importación con un logo pegado. Hay un **Modelo de Utilidad español (U202532624)**, con protección internacional en tramitación (PCT), y 15+ años de práctica clínica del fundador puestos en el diseño. Eso es lo que separa un dispositivo de fotobiomodulación de una lámpara con diodos rojos.
 
 **Mini-CTA:** → Ver el Deep 5 en detalle
 
@@ -143,7 +143,7 @@ El Deep 5 encaja con el resto del enfoque EKIO: protección frente al electrosmo
 | Nº de paneles/módulos | 5 módulos de alta potencia | Superficie de tratamiento amplia: cuerpo entero, no solo un punto |
 | Tipo de luz | No ionizante, no térmica | Segura para uso doméstico siguiendo las pautas |
 | Tiempo de sesión | 10-20 min por zona | Cabe en cualquier rutina, sin "obras ni aparatos caros" |
-| Patente | OEPM U202532624 (157 países) | Tecnología protegida, no importación genérica |
+| Patente | Modelo de Utilidad U202532624 (PCT en tramitación) | Tecnología protegida, no importación genérica |
 | Garantía | 2 años hardware + 30 días devolución | Compras con red de seguridad |
 | Soporte | Consultoría y soporte en España | Hablas con alguien que entiende tu caso |
 
@@ -170,7 +170,7 @@ El Deep 5 encaja con el resto del enfoque EKIO: protección frente al electrosmo
 > — [Nombre], [Ciudad] · [tiempo de uso]
 
 **Texto de credibilidad corporativa:**
-> EKIO Bienestar S.L. lleva 15+ años en bienestar y salud, con sede en Valladolid. Nuestra tecnología de fotobiomodulación está protegida por patente OEPM en 157 países. No vendemos talla única: antes de comprar puedes hablar con nuestro especialista para saber si tiene sentido para tu caso.
+> EKIO Bienestar S.L. lleva 15+ años en bienestar y salud, con sede en Valladolid. Nuestra tecnología de fotobiomodulación está amparada por el Modelo de Utilidad español Nº U202532624 (PCT en tramitación). No vendemos talla única: antes de comprar puedes hablar con nuestro especialista para saber si tiene sentido para tu caso.
 
 ---
 
@@ -186,10 +186,10 @@ Depende de la persona y del objetivo. En la literatura publicada, muchos usuario
 La fotobiomodulación es un complemento, no un sustituto de tu tratamiento. Muchos usuarios la combinan con lo que ya hacen. Si tienes una patología, tomas medicación fotosensibilizante, estás embarazada o en tratamiento oncológico, consúltalo primero con tu médico. También puedes reservar una consultoría con nuestro especialista para valorar tu caso concreto antes de decidir.
 
 **4. ¿Qué diferencia hay entre el Deep 5 y los paneles baratos de Amazon?**
-Tres cosas concretas. Primero, el espectro: el Deep 5 emite **5 longitudes de onda** (630/660/727/810/850 nm) frente a las 2 habituales. Segundo, la irradiancia real a la distancia de uso — es lo que decide si la luz es terapéutica o decorativa, y casi nunca aparece en los paneles baratos. Tercero, el respaldo: patente OEPM en 157 países, soporte en España y 2 años de garantía. Cualquier panel con diodos rojos no es fotobiomodulación; la diferencia está en la calidad de los diodos y la dosis, no en el color.
+Tres cosas concretas. Primero, el espectro: el Deep 5 emite **5 longitudes de onda** (630/660/727/810/850 nm) frente a las 2 habituales. Segundo, la irradiancia real a la distancia de uso — es lo que decide si la luz es terapéutica o decorativa, y casi nunca aparece en los paneles baratos. Tercero, el respaldo: Modelo de Utilidad español Nº U202532624 (PCT en tramitación), soporte en España y 2 años de garantía. Cualquier panel con diodos rojos no es fotobiomodulación; la diferencia está en la calidad de los diodos y la dosis, no en el color.
 
 **5. ¿Cómo sé que la patente es real y qué protege exactamente?**
-Es el modelo de utilidad **U202532624** de la Oficina Española de Patentes y Marcas (OEPM), registrado en 157 países. Puedes verificarlo en la base de datos pública de la OEPM. Protege el diseño del dispositivo multiespectral. Para nosotros es la prueba de que esto se diseñó aquí, no se importó con una pegatina.
+Es el modelo de utilidad **U202532624** de la Oficina Española de Patentes y Marcas (OEPM), con protección internacional en tramitación (PCT). Puedes verificarlo en la base de datos pública de la OEPM. Protege el diseño del dispositivo multiespectral. Para nosotros es la prueba de que esto se diseñó aquí, no se importó con una pegatina.
 
 **6. ¿Funciona para personas mayores?**
 Sí. La edad no es una contraindicación; la fotobiomodulación se ha investigado en adultos de todas las edades. En personas mayores con varias patologías o medicación, recomendamos valorar el protocolo con nuestro especialista para ajustar tiempos y zonas.

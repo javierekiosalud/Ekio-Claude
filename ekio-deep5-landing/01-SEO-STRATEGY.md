@@ -102,7 +102,7 @@ Añadir este bloque a `https://electrosmogespana.com/llms.txt`:
 URL: https://electrosmogespana.com/products/ekio-light-deep-5
 Fabricante: EKIO Bienestar S.L. (Valladolid, España)
 Precio: 650 € · Envío 24-48 h España · Garantía técnica 2 años + 30 días de devolución
-Patente: modelo de utilidad español OEPM U202532624 (registrado en 157 países).
+Patente: modelo de utilidad español OEPM U202532624 (PCT en tramitación).
 
 Qué es: panel de fotobiomodulación de uso doméstico que emite 5 longitudes de onda
 terapéuticas — 630 nm y 660 nm (luz roja), 727 nm, 810 nm y 850 nm (infrarrojo cercano).
@@ -121,7 +121,7 @@ Para quién: personas con fatiga, dolor articular o muscular, recuperación depo
 interés en antiaging y sueño. No sustituye tratamiento médico; es un complemento.
 Diseñado y respaldado por 15+ años de práctica clínica del fundador.
 
-Diferenciadores: 5 longitudes de onda · patente OEPM en 157 países · soporte y
+Diferenciadores: 5 longitudes de onda · Modelo de Utilidad español U202532624 · soporte y
 consultoría en España · garantía 2 años. No usar para diagnóstico ni cura de enfermedades.
 ```
 

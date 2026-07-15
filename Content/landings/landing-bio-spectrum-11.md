@@ -51,7 +51,7 @@ atletas de élite, biohackers avanzados y longevidad.
 | 🔬 | **11 longitudes de onda** — el espectro más completo del mercado |
 | ☀️ | **Incluye UV-B** — para síntesis endógena de vitamina D |
 | 🏥 | **Apto uso clínico / profesional** — gafas UV incluidas |
-| 🇪🇸 | **Patente española** — registrada en 157 países |
+| 🇪🇸 | **Modelo de Utilidad español** Nº U202532624 (PCT en tramitación) |
 
 **BLOQUE PRECIO:**
 ```
@@ -216,7 +216,7 @@ Lo que solo el espectro completo puede activar.
 | **Voltaje** | AC 100-240 V |
 | **Amperaje** | 1.5-3.5 A |
 | **Cobertura** | Cuerpo completo (sesión única sin reposicionar) |
-| **Patente** | Modelo de utilidad U202532624 (157 países vía PCT) |
+| **Patente** | Modelo de Utilidad español Nº U202532624 (PCT en tramitación) |
 | **Certificaciones** | RoHS · FCC · CE · WEEE |
 | **Incluye** | Gafas de protección UV obligatorias |
 | **Origen** | Diseñado en España |

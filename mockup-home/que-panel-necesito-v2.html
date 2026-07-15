@@ -233,7 +233,7 @@
 
 <footer>
   MAQUETA — el test vive en /pages/que-panel-ekio-light-necesito.<br>
-  Lógica: gama Ekio Light (Core 140 · Deep 5 650 · Bio Regén 7 970 · Bio Spectrum 11 2.500) + bombillas de entrada. Generada 6-jul-2026.
+  Lógica: gama Ekio Light (Core 147 · Deep 5 650 · Bio Regén 7 970 · Bio Spectrum 11 2.500) + bombillas de entrada. Generada 6-jul-2026, precios sincronizados 15-jul-2026.
 </footer>
 
 <script>
@@ -254,14 +254,14 @@ function goBack(){historyStack.pop();show(historyStack[historyStack.length-1])}
 function restart(){historyStack=[1];document.getElementById('intro').classList.remove('hidden');show(1)}
 
 const PANELES={
-  core:{lvl:'ENTRADA · PORTÁTIL',name:'EKIO Light Core',price:'140 €',mes:'11,67 €/mes',link:'pdp-core-v2.html',
+  core:{lvl:'ENTRADA · PORTÁTIL',name:'EKIO Light Core',price:'147 €',mes:'12,25 €/mes',link:'../ekio-core-landing/index.html',
     why:'Terapia local dirigida: 13 LEDs de 660+850 nm que van exactamente donde los necesitas — y caben en tu bolsa.'},
   deep5:{lvl:'INICIACIÓN · EL FAVORITO',name:'EKIO Light Deep 5',price:'650 €',mes:'54,17 €/mes',link:'pdp-deep-5-v2.html',
     why:'Cuerpo completo con 5 longitudes, incluida la exclusiva 727 nm (leptina y metabolismo). El equilibrio perfecto para empezar en serio.'},
-  bioregen:{lvl:'INTERMEDIO · REGENERACIÓN',name:'EKIO Light Bio Regén 7',price:'970 €',mes:'80,83 €/mes',link:'pdp-bio-regen-7-v2.html',
-    why:'7 longitudes + 1 COB: añade el azul 485 nm (piel) y el infrarrojo profundo 940 nm (tejido y articulación). Donde otros calman, este repara.'},
-  biospectrum:{lvl:'⭐ PROFESIONAL · BIOHACKING',name:'EKIO Light Bio Spectrum 11',price:'2.500 €',mes:'208,33 €/mes',link:'pdp-bio-spectrum-11-v2.html',
-    why:'El espectro completo del sol: 210 LEDs, 11 longitudes y 2 COB. El único con UV-A + UV-B (vitamina D) — y se configura a tu medida.'}
+  bioregen:{lvl:'INTERMEDIO · REGENERACIÓN',name:'EKIO Light Bio Regén 7',price:'970 €',mes:'80,83 €/mes',link:'../ekio-bio-regen-7-landing/index.html',
+    why:'7 longitudes + 1 COB: añade el cian 485 nm (ritmo circadiano) y el infrarrojo profundo 940 nm (tejido y articulación). Acompaña tu recuperación.'},
+  biospectrum:{lvl:'⭐ PROFESIONAL · BIOHACKING',name:'EKIO Light Bio Spectrum 11',price:'2.500 €',mes:'208,33 €/mes',link:'../ekio-bio-spectrum-11-landing/index.html',
+    why:'El espectro completo del sol: 210 LEDs, 11 longitudes en 4 circuitos independientes. El único con UV-B real + UV-A (vitamina D) — y se configura a tu medida.'}
 };
 
 function pick(s){
@@ -301,10 +301,10 @@ function showResult(){
     extras+=`<div class="alt">Cuando quieras dar el salto a cuerpo completo, tu siguiente paso natural es el <a href="pdp-deep-5-v2.html">Deep 5 (650 €) →</a> — y el Core se convierte en tu equipo de viaje.</div>`;
   }
   if(key==='deep5'&&(s.objetivo==='piel'||s.objetivo==='dolor')){
-    extras+=`<div class="alt">Si tu prioridad es la regeneración profunda y el presupuesto acompaña, valora el <a href="pdp-bio-regen-7-v2.html">Bio Regén 7 (970 €) →</a>: azul 485 nm + IR 940 nm.</div>`;
+    extras+=`<div class="alt">Si tu prioridad es la regeneración profunda y el presupuesto acompaña, valora el <a href="../ekio-bio-regen-7-landing/index.html">Bio Regén 7 (970 €) →</a>: cian 485 nm + IR 940 nm.</div>`;
   }
   if(key==='biospectrum'&&s.budget<1200&&s.budget!==9999){
-    extras+=`<div class="alt">Tu objetivo pide el Bio Spectrum 11 (solo él tiene UV-A+UV-B), pero si el presupuesto manda, el <a href="pdp-bio-regen-7-v2.html">Bio Regén 7 (970 €) →</a> cubre piel y recuperación sin UV.</div>`;
+    extras+=`<div class="alt">Tu objetivo pide el Bio Spectrum 11 (solo él tiene UV-B real + UV-A), pero si el presupuesto manda, el <a href="../ekio-bio-regen-7-landing/index.html">Bio Regén 7 (970 €) →</a> cubre piel y recuperación sin UV.</div>`;
   }
   extras+=`<div class="alt">💡 Todos los paneles se entregan como <b>Ekio Light System</b>: bombillas de ritual nocturno, suplementos LAITTIN, Guía de Uso Interactiva y App Ekio Coach.</div>`;
   document.getElementById('extras').innerHTML=extras;
