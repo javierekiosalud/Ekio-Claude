@@ -69,7 +69,7 @@ H1 — Panel de Fotobiomodulación Profesional Bio Spectrum 11
       H3 — La ventana óptica biológica: por qué el infrarrojo atraviesa la piel
   H2 — Protocolos de uso: cómo empezar con el Bio Spectrum 11
       H3 — Longevidad · H3 — Vitamina D · H3 — Recuperación deportiva · H3 — Antiaging
-  H2 — El Ekio Light System: qué incluye tu compra
+  H2 — El Stack Bio Spectrum 11: no vendemos un panel, vendemos un método
   H2 — Seguridad: lo que debes saber antes de usar un panel con UV-B
   H2 — Preguntas frecuentes sobre el Bio Spectrum 11
 ```
@@ -84,7 +84,7 @@ En Shopify el título de producto genera el H1; el cuerpo de descripción empiez
 | Panel frontal fondo oscuro | `Panel de fotobiomodulación Bio Spectrum 11 – vista frontal con 210 LEDs y COB central` |
 | Detalle COB encendido | `Módulo COB de alta densidad del Bio Spectrum 11 encendido, emitiendo 660 y 850 nm` |
 | 4 circuitos encendidos | `Bio Spectrum 11: 4 circuitos independientes encendidos – azul UV, rojo, infrarrojo y COB` |
-| Ekio Light System (kit) | `Ekio Light System: panel Bio Spectrum 11 con gafas UV, D3+K2, vitamina C y bombilla ámbar` |
+| Stack Bio Spectrum 11 (bonos) | `Stack Bio Spectrum 11: App Ekio Coach, guía interactiva, bombillas y pack de suplementos Laittin incluidos gratis` |
 | Persona usando el panel | `Sesión de terapia de luz roja con panel Bio Spectrum 11 para recuperación y antiaging` |
 | Placa de patente / logo | `Panel Bio Spectrum 11 con modelo de utilidad español U202532624 – EKIO Light` |
 
@@ -100,8 +100,8 @@ Nombres de archivo con keyword: `panel-fotobiomodulacion-bio-spectrum-11-frontal
 | PDP Deep 5 | Comparativa | `panel fotobiomodulación Deep 5` |
 | PDP Bio Regen 7 | Comparativa | `panel luz roja Bio Regen 7` |
 | PDP Full Spectrum 10 | Comparativa | `panel Full Spectrum 10` |
-| PDP D3+K2 (Laittin) | Ekio Light System | `suplemento D3+K2 para fotobiomodulación` |
-| PDP Vitamina C Lighting | Ekio Light System | `vitamina C antioxidante EKIO` |
+| PDP Pack Laittin (C+B50+D3-K2+Probióticos) | Stack Bio Spectrum 11 | `pack de suplementos Laittin para fotobiomodulación` |
+| App Ekio Coach | Stack Bio Spectrum 11 | `App Ekio Coach` |
 | PDP Gafas UV | Seguridad / System | `gafas de protección UV para panel LED` |
 | PDP Bombilla ámbar | System / nota circadiana | `bombilla ámbar para ritmo circadiano` |
 | Colección paneles | Breadcrumb | `paneles de fotobiomodulación EKIO Light` |

@@ -9,18 +9,26 @@
 | Tipo de producto | Lámparas para terapia de iluminación |
 | Template suffix | `productos-spiro` (mismo que Deep 5 / Bio Regen 7) |
 | Handle | `bio-spectrum-11-panel-fotobiomodulacion-profesional` |
-| Precio | **2.500,00 €** (incluye Ekio Light System completo) |
+| Precio | **2.500,00 €** (base + Stack del método incluido gratis) |
 | Tags | full spectrum, bio spectrum 11, fotobiomodulación, uv-b |
 | Estado | Draft hasta validar ficha técnica → luego Active |
 
-## Qué incluye el precio (Ekio Light System · 2.500 €)
+## Qué incluye el precio — no vendemos un panel, vendemos un método
+
+**Base (dentro del precio, obligatoria):**
 1. Panel Bio Spectrum 11 (210 LEDs + COB · 11 longitudes · 4 circuitos)
 2. Gafas de protección UV (obligatorias para el circuito Azul)
-3. D3+K2 Electro Premium (Laittin)
-4. Vitamina C Lighting (EKIO)
-5. Bombilla ámbar
 
-> Decisión comercial confirmada: se vende como sistema, no como panel suelto. Reflejar el desglose en la sección "Qué incluye tu compra" (Bloque 9 del copy) y en la galería de imágenes (foto del kit completo).
+**Stack (gratis, patrón Bio Regen 7 — precio tachado → Gratis):**
+| Ítem | Valor real | Precio en la compra |
+|---|---|---|
+| App Ekio Coach — acceso completo | 177 € | Gratis |
+| Guía de Uso Interactiva Ekio System | 49 € | Gratis |
+| Bombilla roja + Bombilla Ámbar de Ekio Light | 50 € | Gratis |
+| Pack Vitamina C + B50 + D3-K2 + Probióticos (Laittin) | 109 € | Gratis |
+| **Valor real del Stack** | **385 €** | **0 €** |
+
+> Decisión comercial confirmada: se vende como método, no como panel suelto (mismo framework que Bio Regen 7). Reflejar el desglose en la sección "La base + el Stack" (Bloque 9 del copy) — la base en `.kit`, el Stack en la sección oscura `.stack-section` con precios tachados, y en la galería de imágenes (foto del kit + captura de la app).
 
 ---
 
@@ -33,7 +41,7 @@
 5. La ciencia — semáforo de evidencia (Bloque 5)
 6. Intensidad y pulso (Bloque 6)
 7. Protocolos de uso (Bloque 8)
-8. El Ekio Light System — qué incluye (Bloque 9)
+8. La base + el Stack — panel/gafas incluidos y bonos gratis con precio tachado (Bloque 9)
 9. Prueba social *(ver aviso de testimonios abajo)*
 10. Comparativa (Bloque 10)
 11. Seguridad y contraindicaciones (Bloque 11)

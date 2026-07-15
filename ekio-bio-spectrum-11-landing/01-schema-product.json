@@ -4,7 +4,7 @@
     "@context": "https://schema.org",
     "@type": "Product",
     "name": "Bio Spectrum 11 — Panel de Fotobiomodulación Profesional",
-    "description": "Panel de fotobiomodulación profesional de Ekio Light. Cubre el espectro solar terapéutico completo con 11 longitudes de onda (292–1050 nm) repartidas en 4 circuitos independientes: UV-B (292 nm) para síntesis de vitamina D, luz roja (630–727 nm) para colágeno y renovación celular, infrarrojo cercano y profundo (850–1050 nm) para penetración muscular y ósea, y un módulo COB central de alta densidad (660+850 nm). 210 LEDs perimetrales + COB. Cada circuito tiene intensidad y frecuencia de pulso ajustables de forma independiente. Amparado por el modelo de utilidad español U202532624. El precio incluye el Ekio Light System completo: panel, gafas de protección UV, suplemento D3+K2 Electro Premium, Vitamina C Lighting y bombilla ámbar.",
+    "description": "Panel de fotobiomodulación profesional de Ekio Light. Cubre el espectro solar terapéutico completo con 11 longitudes de onda (292–1050 nm) repartidas en 4 circuitos independientes: UV-B (292 nm) para síntesis de vitamina D, luz roja (630–727 nm) para colágeno y renovación celular, infrarrojo cercano y profundo (850–1050 nm) para penetración muscular y ósea, y un módulo COB central de alta densidad (660+850 nm). 210 LEDs perimetrales + COB. Cada circuito tiene intensidad y frecuencia de pulso ajustables de forma independiente. Amparado por el modelo de utilidad español U202532624. El precio incluye la base (panel + gafas de protección UV) y el Stack completo del método sin coste añadido: App Ekio Coach (valor 177 €), Guía de Uso Interactiva Ekio System (valor 49 €), Bombilla roja + Bombilla Ámbar de Ekio Light (valor 50 €) y Pack Vitamina C + B50 + D3-K2 + Probióticos de Laittin (valor 109 €) — valor real del Stack: 385 €, incluido gratis.",
     "brand": { "@type": "Brand", "name": "Ekio Light" },
     "manufacturer": {
       "@type": "Organization",
@@ -19,7 +19,7 @@
     "url": "https://electrosmogespana.com/products/bio-spectrum-11-panel-fotobiomodulacion-profesional",
     "image": ["https://electrosmogespana.com/ruta/imagen-bio-spectrum-11.jpg"],
     "category": "Panel de fotobiomodulación / Terapia de luz LED de espectro completo",
-    "isRelatedTo": "Ekio Light System (panel + gafas UV + D3+K2 Electro Premium + Vitamina C Lighting + bombilla ámbar)",
+    "isRelatedTo": "Ekio Light System Bio Spectrum 11: base (panel + gafas UV) + Stack gratis (App Ekio Coach, Guía de Uso Interactiva, bombilla roja + ámbar, Pack Vitamina C+B50+D3-K2+Probióticos Laittin — valor 385 €)",
     "additionalProperty": [
       { "@type": "PropertyValue", "name": "Número de longitudes de onda", "value": "11" },
       { "@type": "PropertyValue", "name": "Rango espectral", "value": "292 nm (UV-B) a 1050 nm (infrarrojo profundo)" },
@@ -35,7 +35,8 @@
       { "@type": "PropertyValue", "name": "Cromóforo diana principal", "value": "Citocromo c oxidasa (Complejo IV de la cadena respiratoria mitocondrial)" },
       { "@type": "PropertyValue", "name": "Ventana óptica biológica cubierta", "value": "600–1200 nm (Tsai SR & Hamblin MR, J Photochem Photobiol B, 2017)" },
       { "@type": "PropertyValue", "name": "Gafas de protección UV", "value": "Obligatorias para el circuito Azul (UV-B/UV-A); incluidas en el Ekio Light System" },
-      { "@type": "PropertyValue", "name": "Incluye (Ekio Light System)", "value": "Panel Bio Spectrum 11 + gafas UV + D3+K2 Electro Premium + Vitamina C Lighting + bombilla ámbar" },
+      { "@type": "PropertyValue", "name": "Base incluida", "value": "Panel Bio Spectrum 11 + gafas de protección UV" },
+      { "@type": "PropertyValue", "name": "Stack incluido gratis (valor 385 €)", "value": "App Ekio Coach (177 €) + Guía de Uso Interactiva Ekio System (49 €) + Bombilla roja y Bombilla Ámbar de Ekio Light (50 €) + Pack Vitamina C + B50 + D3-K2 + Probióticos de Laittin (109 €)" },
       { "@type": "PropertyValue", "name": "Contraindicaciones", "value": "Piel fotosensible, embarazo, lactancia, medicación fotosensibilizante, antecedentes de cáncer cutáneo o melanoma. Consultar médico antes del uso." }
     ],
     "subjectOf": {

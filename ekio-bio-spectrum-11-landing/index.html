@@ -26,7 +26,7 @@
     {
       "@type": "Product",
       "name": "Bio Spectrum 11 — Panel de Fotobiomodulación Profesional",
-      "description": "Panel de fotobiomodulación profesional de Ekio Light. 11 longitudes de onda (292–1050 nm) en 4 circuitos independientes: UV-B (292 nm), luz roja (630–727 nm), infrarrojo cercano y profundo (850–1050 nm) y módulo COB central (660+850 nm). 210 LEDs + COB. Intensidad y pulso ajustables por circuito. Modelo de utilidad español U202532624. El precio incluye el Ekio Light System completo.",
+      "description": "Panel de fotobiomodulación profesional de Ekio Light. 11 longitudes de onda (292–1050 nm) en 4 circuitos independientes: UV-B (292 nm), luz roja (630–727 nm), infrarrojo cercano y profundo (850–1050 nm) y módulo COB central (660+850 nm). 210 LEDs + COB. Intensidad y pulso ajustables por circuito. Modelo de utilidad español U202532624. El precio incluye el panel, las gafas de protección UV y el Stack completo del método sin coste añadido: App Ekio Coach, Guía de Uso Interactiva, Bombilla roja + Bombilla Ámbar, y Pack Vitamina C + B50 + D3-K2 + Probióticos de Laittin (valor real del Stack: 385 €).",
       "brand": {"@type":"Brand","name":"Ekio Light"},
       "manufacturer": {"@type":"Organization","name":"Ekio Light","url":"https://electrosmogespana.com"},
       "model": "Bio Spectrum 11",
@@ -225,6 +225,25 @@
   .kit-total .lbl{font-weight:700;}
   .kit-total .val{font-family:var(--mono);font-size:20px;font-weight:700;color:var(--red);}
 
+  /* STACK — bonos gratuitos (patrón Bio Regen 7) */
+  .stack-section{background:var(--hero-bg);color:var(--hero-ink);}
+  .stack-section .kicker{color:var(--hero-ink-dim);}
+  .stack-section h2{color:#fff;}
+  .stack-section p{color:var(--hero-ink-dim);}
+  .stack-section p b{color:#fff;}
+  .stack-tbl{border:1px solid var(--hero-line);margin-top:24px;overflow:hidden;}
+  .stack-row{display:flex;justify-content:space-between;align-items:center;gap:14px;padding:14px 18px;border-bottom:1px solid var(--hero-line);background:#111113;}
+  .stack-row:last-child{border-bottom:none;}
+  .stack-row .what b{color:#fff;display:block;font-size:14.5px;}
+  .stack-row .what small{display:block;color:var(--hero-ink-dim);font-size:12px;margin-top:2px;}
+  .stack-row .val{white-space:nowrap;text-align:right;font-family:var(--mono);font-size:13.5px;}
+  .stack-row .val .old{color:var(--hero-ink-dim);text-decoration:line-through;margin-right:8px;}
+  .stack-row .val .free{color:#6EDB9A;font-weight:700;}
+  .stack-total{background:color-mix(in srgb,var(--red) 18%,#111113);}
+  .stack-total .what b{color:#fff;}
+  .stack-total .val .free{font-size:16px;}
+  @media(max-width:560px){.stack-row{flex-direction:column;align-items:flex-start;gap:6px;}.stack-row .val{align-self:flex-end;}}
+
   /* TABLE */
   .table-scroll{overflow-x:auto;margin-top:24px;-webkit-overflow-scrolling:touch;}
   table.cmp{width:100%;border-collapse:collapse;font-size:12.5px;min-width:640px;}
@@ -345,7 +364,7 @@
     </ul>
     <div class="price-row">
       <span class="price">2.500&nbsp;€</span>
-      <span class="price-tag">Ekio Light System completo</span>
+      <span class="price-tag">Método completo · Stack de 385 € incluido gratis</span>
     </div>
     <div class="finance">o desde ≈ 208 €/mes en 12 cuotas</div>
     <a class="cta" href="#" onclick="return false;">Quiero el espectro completo</a>
@@ -517,19 +536,46 @@
     </div>
   </section>
 
-  <!-- EKIO LIGHT SYSTEM -->
+  <!-- BASE DEL SISTEMA -->
   <section class="block">
-    <p class="kicker">Qué incluye tu compra</p>
-    <h2>El Ekio Light System: luz + suplementación, todo en la caja</h2>
-    <p>El precio de 2.500 € no es solo el panel. Es el sistema completo — la luz y las materias primas que el cuerpo necesita para usar esa energía.</p>
+    <p class="kicker">La base de tu compra</p>
+    <h2>El Ekio Light System Bio Spectrum 11</h2>
+    <p>El precio de 2.500 € incluye el panel y las gafas de protección UV, obligatorias para usar con seguridad los circuitos UV-B y UV-A. El resto del método —lo que de verdad marca la diferencia frente a "comprar solo un panel"— lo tienes justo debajo, en el Stack.</p>
     <div class="kit">
       <div class="kit-item"><span class="ico">🟢</span><div><div class="t">Panel Bio Spectrum 11</div><div class="d">210 LEDs + COB central · 11 longitudes · cobertura de cuerpo completo en una sesión.</div></div></div>
       <div class="kit-item"><span class="ico">🥽</span><div><div class="t">Gafas de protección UV</div><div class="d">Obligatorias para el uso seguro de las longitudes UV-B y UV-A del panel.</div></div></div>
-      <div class="kit-item highlight"><span class="ico">☀️</span><div><div class="t">D3+K2 Electro Premium (Laittin)</div><div class="d">El UV-B inicia la síntesis de vitamina D; la <b>K2</b> dirige ese calcio al hueso y no a las arterias.</div></div></div>
-      <div class="kit-item"><span class="ico">💊</span><div><div class="t">Vitamina C Lighting (EKIO)</div><div class="d">Antioxidante de alto rendimiento — apoya la respuesta celular al estrés lumínico controlado.</div></div></div>
-      <div class="kit-item"><span class="ico">🟡</span><div><div class="t">Bombilla Ámbar</div><div class="d">Para las horas nocturnas — protege el ritmo circadiano que el panel ayuda a construir de día.</div></div></div>
     </div>
-    <div class="kit-total"><span class="lbl">Ekio Light System completo</span><span class="val">2.500 €</span></div>
+  </section>
+
+  <!-- STACK — no vendemos un panel, vendemos un método -->
+  <section class="block stack-section">
+    <div class="wrap" style="padding:0;">
+      <p class="kicker">No vendemos un panel. Vendemos un método.</p>
+      <h2>El Stack Bio Spectrum 11: todo lo que necesitas para que el protocolo funcione, incluido gratis</h2>
+      <p>Un panel sin ritual, sin guía y sin las materias primas correctas es solo una lámpara cara. Por eso cada Bio Spectrum 11 incluye, sin coste añadido, el resto del método:</p>
+      <div class="stack-tbl">
+        <div class="stack-row">
+          <div class="what"><b>App Ekio Coach — acceso completo</b><small>Coach virtual del estilo de vida Ekio: aprende el porqué, integra la luz en tu rutina y evoluciona hacia el protocolo 360.</small></div>
+          <div class="val"><span class="old">177 €</span><span class="free">Gratis</span></div>
+        </div>
+        <div class="stack-row">
+          <div class="what"><b>Guía de Uso Interactiva Ekio System</b><small>Protocolos por circuito y objetivo — longevidad, vitamina D, recuperación, antiaging — con distancias, tiempos, intensidad y pulso.</small></div>
+          <div class="val"><span class="old">49 €</span><span class="free">Gratis</span></div>
+        </div>
+        <div class="stack-row">
+          <div class="what"><b>Bombilla roja + Bombilla Ámbar de Ekio Light</b><small>Para el ritual de noche y el dormitorio — luz sin componente azul que protege el ritmo circadiano que el panel ayuda a construir de día.</small></div>
+          <div class="val"><span class="old">50 €</span><span class="free">Gratis</span></div>
+        </div>
+        <div class="stack-row">
+          <div class="what"><b>Pack Vitamina C + B50 + D3-K2 + Probióticos de Laittin</b><small>El UV-B inicia la síntesis de vitamina D; la K2 dirige ese calcio al hueso. La C y la B50 sostienen la respuesta celular al estrés lumínico controlado; los probióticos, la base digestiva de todo lo anterior.</small></div>
+          <div class="val"><span class="old">109 €</span><span class="free">Gratis</span></div>
+        </div>
+        <div class="stack-row stack-total">
+          <div class="what"><b>Valor real del Stack: 385 €</b><small>Incluido sin coste en tu Bio Spectrum 11 — 2.500 € en total</small></div>
+          <div class="val"><span class="free">0 €</span></div>
+        </div>
+      </div>
+    </div>
   </section>
 
   <!-- COMPARATIVA -->
@@ -553,7 +599,7 @@
       </table>
     </div>
     <div class="ancla">
-      <b>Ancla de valor:</b> cubrir el mismo espectro con dispositivos separados exigiría un panel rojo+NIR profesional (800-1.200 €) + un equipo UV-B (500-900 €) + un aplicador COB (200-400 €). Y vendrían con circuitos que no se comunican, sin control unificado ni soporte en español. El Bio Spectrum 11, con el Ekio Light System completo, resuelve todo eso en una sola herramienta protegida por patente.
+      <b>Ancla de valor:</b> cubrir el mismo espectro con dispositivos separados exigiría un panel rojo+NIR profesional (800-1.200 €) + un equipo UV-B (500-900 €) + un aplicador COB (200-400 €). Y vendrían con circuitos que no se comunican, sin control unificado, sin app, sin guía y sin soporte en español. El Bio Spectrum 11 resuelve todo eso en una sola herramienta protegida por patente — y encima incluye el Stack de 385 € gratis.
     </div>
   </section>
 
@@ -586,7 +632,7 @@
 
     <div class="faq-label">Sobre la compra</div>
     <div class="faq">
-      <details><summary>¿Por qué 2.500 € y no un panel de 400 €?</summary><p>Porque no estás comparando lo mismo. Un panel de 400 € da 2-3 longitudes en un solo circuito. El Bio Spectrum 11 da 11 longitudes en 4 circuitos independientes, con UV-B real, infrarrojo profundo a 1050 nm y módulo COB. En dispositivos separados costaría entre 1.500 y 2.500 € sin control unificado ni soporte en español. Y el precio incluye el Ekio Light System completo: gafas, D3+K2, vitamina C y bombilla ámbar. En 12 cuotas son ≈ 208 €/mes.</p></details>
+      <details><summary>¿Por qué 2.500 € y no un panel de 400 €?</summary><p>Porque no estás comparando lo mismo. Un panel de 400 € da 2-3 longitudes en un solo circuito. El Bio Spectrum 11 da 11 longitudes en 4 circuitos independientes, con UV-B real, infrarrojo profundo a 1050 nm y módulo COB. En dispositivos separados costaría entre 1.500 y 2.500 € sin control unificado ni soporte en español. Y no vendemos un panel: vendemos un método. El precio incluye el panel, las gafas UV y el Stack completo sin coste añadido (App Ekio Coach, guía interactiva, bombillas roja y ámbar, y el pack de suplementos Laittin — 385 € de valor real). En 12 cuotas son ≈ 208 €/mes.</p></details>
       <details><summary>El UV-B me da un poco de respeto. ¿Es seguro?</summary><p>Es una herramienta seria, y por eso incluimos las gafas de protección UV en la caja y el protocolo UV-B es corto (2-3 min, intensidad baja, temporada sin sol). No la vendemos sin el equipo de seguridad. Si tienes piel fotosensible, embarazo, lactancia, medicación fotosensibilizante o antecedentes de cáncer cutáneo, ese circuito no es para ti — consúltalo con tu médico. Los circuitos rojo e infrarrojo tienen otro perfil de seguridad.</p></details>
       <details><summary>Ya tengo un panel de luz roja. ¿Para qué este?</summary><p>Por lo que a tu panel le falta. Sin UV-B no puedes sintetizar vitamina D. Sin 1050 nm no llegas a hueso. Sin circuitos independientes no puedes dosificar cada zona del espectro por separado ni activar solo el infrarrojo de noche. El Bio Spectrum 11 no es "otro panel de luz roja": es el espectro completo.</p></details>
       <details><summary>¿Cuándo empiezo a notar resultados?</summary><p>Recuperación deportiva: desde la primera semana. Vitamina D: medible en analítica a las 4-6 semanas. Dolor crónico profundo: 4-8 semanas. Antiaging: 12+ semanas. Los resultados varían y la constancia es lo que marca la diferencia.</p></details>

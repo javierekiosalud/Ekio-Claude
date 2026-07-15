@@ -202,19 +202,26 @@ La fotobiomodulación sigue una respuesta bifásica (hormética): poca luz no ha
 
 ---
 
-## BLOQUE 9 — EL EKIO LIGHT SYSTEM (qué incluye tu compra)
+## BLOQUE 9 — LA BASE + EL STACK (no vendemos un panel, vendemos un método)
 
-**Intro:** El precio de 2.500 € no es solo el panel. Es el sistema completo — la luz y las materias primas que el cuerpo necesita para usar esa energía. Todo incluido en la caja.
+**Intro (base):** El precio de 2.500 € incluye el panel y las gafas de protección UV, obligatorias para usar con seguridad los circuitos UV-B y UV-A.
 
-| Incluido | Qué es | Por qué está en el sistema |
+| Incluido en la base | Qué es | Por qué está |
 |---|---|---|
 | 🟢 **Panel Bio Spectrum 11** | 210 LEDs + COB central · 11 longitudes · 4 circuitos | La herramienta: cobertura de cuerpo completo en una sesión |
 | 🥽 **Gafas de protección UV** | Protección certificada | Obligatorias para el uso seguro de las longitudes UV-B y UV-A |
-| ☀️ **D3+K2 Electro Premium (Laittin)** | Suplemento D3 + K2 | El UV-B inicia la síntesis de vitamina D; la K2 dirige el calcio movilizado al hueso, no a las arterias |
-| 💊 **Vitamina C Lighting (EKIO)** | Antioxidante de alto rendimiento | Apoya la respuesta celular al estrés lumínico controlado de la fototerapia |
-| 🟡 **Bombilla Ámbar** | Iluminación nocturna sin azul | Protege de noche el ritmo circadiano que el panel ayuda a construir de día |
 
-> El panel es el motor. El sistema es lo que hace que ese motor tenga combustible, protección y un entorno de luz coherente 24 h.
+**Intro (stack):** Un panel sin ritual, sin guía y sin las materias primas correctas es solo una lámpara cara. Por eso cada Bio Spectrum 11 incluye, sin coste añadido, el resto del método — el **Stack**:
+
+| Stack (gratis, incluido) | Qué es | Valor real | Precio en tu compra |
+|---|---|---|---|
+| 🤖 **App Ekio Coach — acceso completo** | Coach virtual del estilo de vida Ekio: aprende el porqué, integra la luz en tu rutina y evoluciona hacia el protocolo 360 | ~~177 €~~ | **Gratis** |
+| 📱 **Guía de Uso Interactiva Ekio System** | Protocolos por circuito y objetivo — longevidad, vitamina D, recuperación, antiaging — con distancias, tiempos, intensidad y pulso | ~~49 €~~ | **Gratis** |
+| 🔴🟡 **Bombilla roja + Bombilla Ámbar de Ekio Light** | Para el ritual de noche y el dormitorio — luz sin componente azul que protege el ritmo circadiano que el panel ayuda a construir de día | ~~50 €~~ | **Gratis** |
+| 💊 **Pack Vitamina C + B50 + D3-K2 + Probióticos (Laittin)** | El UV-B inicia la síntesis de vitamina D; la K2 dirige ese calcio al hueso. La C y la B50 sostienen la respuesta celular al estrés lumínico; los probióticos, la base digestiva de todo lo anterior | ~~109 €~~ | **Gratis** |
+| **Valor real del Stack** | | **385 €** | **0 €** |
+
+> El panel es el motor. El Stack es lo que hace que ese motor tenga combustible, protocolo, ritual nocturno y soporte diario. Sin él, es solo una lámpara cara — con él, es un método completo.
 
 ---
 
@@ -256,7 +263,7 @@ La fotobiomodulación sigue una respuesta bifásica (hormética): poca luz no ha
 ### FAQ de compra (objeciones)
 
 **1. ¿Por qué 2.500 € y no un panel de 400 €?**
-Porque no estás comparando lo mismo. Un panel de 400 € da 2-3 longitudes en un solo circuito. El Bio Spectrum 11 da 11 longitudes en 4 circuitos independientes, con UV-B real, infrarrojo profundo a 1050 nm y módulo COB — algo que en dispositivos separados costaría entre 1.500 y 2.500 € y aún así no tendría control unificado ni soporte en español. Y el precio incluye el Ekio Light System completo: gafas, D3+K2, vitamina C y bombilla ámbar. En 12 cuotas son ≈ 208 €/mes; repartido en la vida útil del panel, menos de lo que crees por día.
+Porque no estás comparando lo mismo. Un panel de 400 € da 2-3 longitudes en un solo circuito. El Bio Spectrum 11 da 11 longitudes en 4 circuitos independientes, con UV-B real, infrarrojo profundo a 1050 nm y módulo COB — algo que en dispositivos separados costaría entre 1.500 y 2.500 € y aún así no tendría control unificado ni soporte en español. Y no vendemos un panel: vendemos un método. El precio incluye el panel, las gafas UV y el Stack completo sin coste añadido (App Ekio Coach, guía interactiva, bombillas roja y ámbar, y el pack de suplementos Laittin — 385 € de valor real). En 12 cuotas son ≈ 208 €/mes; repartido en la vida útil del panel, menos de lo que crees por día.
 
 **2. El UV-B me da un poco de respeto. ¿Es seguro?**
 Es una herramienta seria, y por eso la tratamos como tal: incluimos las gafas de protección UV en la caja y el protocolo UV-B es corto (2-3 min, intensidad baja, temporada sin sol). No la vendemos sin el equipo de seguridad. Si tienes piel fotosensible, embarazo, lactancia, tomas medicación fotosensibilizante o tienes antecedentes de cáncer cutáneo, ese circuito no es para ti — consúltalo con tu médico. Los circuitos rojo e infrarrojo tienen otro perfil de seguridad.

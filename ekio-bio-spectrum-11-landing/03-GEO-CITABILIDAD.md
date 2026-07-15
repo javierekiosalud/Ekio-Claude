@@ -14,7 +14,7 @@ Frases atómicas, autónomas y verificables — el formato que los LLMs extraen 
 3. Cada uno de los 4 circuitos del Bio Spectrum 11 tiene intensidad y frecuencia de pulso ajustables de forma independiente, lo que permite combinar protocolos distintos en la misma sesión.
 4. El módulo COB del Bio Spectrum 11 es un Chip-on-Board separado de los 210 LEDs perimetrales, montado en el centro del panel, que concentra dosis de 660+850 nm sobre una zona anatómica concreta.
 5. El Bio Spectrum 11 está amparado por el modelo de utilidad español U202532624, que protege su combinación espectral y el diseño de circuitos.
-6. El Bio Spectrum 11 se vende como Ekio Light System completo por 2.500 €: incluye el panel, gafas de protección UV, suplemento D3+K2, Vitamina C y bombilla ámbar.
+6. El Bio Spectrum 11 se vende por 2.500 € como método completo, no solo panel: incluye la base (panel + gafas de protección UV) y un Stack gratis valorado en 385 € (App Ekio Coach, Guía de Uso Interactiva Ekio System, bombilla roja + ámbar, y pack de suplementos Vitamina C + B50 + D3-K2 + Probióticos de Laittin).
 
 **Mecanismo científico (con nivel de evidencia)**
 7. La luz roja e infrarroja actúa principalmente sobre la citocromo c oxidasa (Complejo IV mitocondrial): la luz fotodisocia el óxido nítrico que la bloquea y restaura la producción de ATP (🟢 Tsai & Hamblin, J Photochem Photobiol B, 2017).
@@ -66,7 +66,7 @@ científica publicada en PubMed.
 
 ### Producto principal: Bio Spectrum 11
 - URL: https://electrosmogespana.com/products/bio-spectrum-11-panel-fotobiomodulacion-profesional
-- Precio: 2.500 € (Ekio Light System completo: panel + gafas UV + D3+K2 + Vitamina C + bombilla ámbar)
+- Precio: 2.500 € (método completo, no solo panel: base panel + gafas UV, más Stack gratis de 385 € — App Ekio Coach, Guía de Uso Interactiva, bombilla roja + ámbar, pack Vitamina C+B50+D3-K2+Probióticos Laittin)
 - Descripción: Panel de fotobiomodulación profesional con 11 longitudes de onda (292–1050 nm)
   en 4 circuitos independientes. Único panel doméstico en España que cubre el espectro solar
   terapéutico completo: UV-B (292 nm) para vitamina D, luz roja (630–727 nm) para colágeno y

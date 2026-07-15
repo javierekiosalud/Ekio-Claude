@@ -2,7 +2,7 @@
 
 Ficha de producto (PDP) del **Bio Spectrum 11 — Panel de fotobiomodulación profesional** de Ekio Light, construida con el mismo formato que la PDP de Deep 5.
 
-**Precio:** 2.500 € · incluye el **Ekio Light System** completo (panel + gafas UV + D3+K2 Electro Premium + Vitamina C Lighting + bombilla ámbar).
+**Precio:** 2.500 € · no vendemos un panel, vendemos un método. Incluye la base (panel + gafas UV) y el **Stack** gratis valorado en 385 € (App Ekio Coach 177 € + Guía de Uso Interactiva 49 € + bombilla roja y ámbar 50 € + pack Vitamina C+B50+D3-K2+Probióticos de Laittin 109 €).
 
 Ensamblado a partir de 4 capas de trabajo especializado:
 - **Contenido** → copy narrativo y persuasivo
