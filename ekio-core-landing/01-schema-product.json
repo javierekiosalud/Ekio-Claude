@@ -1,0 +1,195 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Product",
+      "name": "Ekio Light Core — Terapia de Luz Roja Local y Portatil",
+      "description": "Dispositivo portatil de fotobiomodulacion con 13 LEDs de chip dual (660 nm rojo + 850 nm infrarrojo cercano) para terapia de luz local sobre rodilla, cuello, hombro, cara, pies y manos. Bateria USB-C recargable, cero flicker y bajo CEM (0 µT). 3 modos de luz (solo rojo, solo NIR, combinado) mas modo pulsado 10 Hz. 5 niveles de brillo y temporizador 6 niveles (5-30 min). Diseñado por especialistas en electrosmog.",
+      "brand": {
+        "@type": "Brand",
+        "name": "Ekio Light"
+      },
+      "manufacturer": {
+        "@type": "Organization",
+        "name": "Ekio Light",
+        "url": "https://electrosmogespana.com"
+      },
+      "model": "Core",
+      "mpn": "EKIO-LIGHT-CORE",
+      "sku": "EKIO-LIGHT-CORE",
+      "image": [
+        "https://electrosmogespana.com/cdn/shop/files/ekio-light-core-rodilla-luz-roja.webp",
+        "https://electrosmogespana.com/cdn/shop/files/ekio-light-core-mano-tamaño.webp",
+        "https://electrosmogespana.com/cdn/shop/files/ekio-light-core-neceser-viaje.webp",
+        "https://electrosmogespana.com/cdn/shop/files/ekio-light-core-leds-detalle.webp"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Longitudes de onda",
+          "value": "660 nm (rojo terapeutico) + 850 nm (infrarrojo cercano)"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "LEDs",
+          "value": "13 (chip dual: rojo + NIR por LED)"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Modos de luz",
+          "value": "3 (solo rojo, solo NIR, combinado) + modo pulsado 10 Hz"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Niveles de brillo",
+          "value": "5 (del 20% al 100%)"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Temporizador",
+          "value": "6 niveles: 5, 10, 15, 20, 25, 30 min — con apagado automatico y memoria de ajustes"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Irradiancia",
+          "value": ">150 mW/cm² en contacto"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "CEM (campos electromagneticos)",
+          "value": "0 µT (safe) segun ficha del fabricante"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Flicker",
+          "value": "Cero flicker"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Alimentacion",
+          "value": "Bateria recargable — carga USB-C (cable incluido)"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Material",
+          "value": "Aluminio + policarbonato"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Vida util LEDs",
+          "value": ">20.000 horas"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Dimensiones",
+          "value": "162 × 90 × 45 mm"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Contenido de la caja",
+          "value": "Dispositivo Ekio Light Core + cable USB-C + manual"
+        }
+      ],
+      "offers": {
+        "@type": "Offer",
+        "price": "147.00",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition",
+        "priceValidUntil": "2026-12-31",
+        "url": "https://electrosmogespana.com/products/ekio-light-core-terapia-luz-roja-portatil",
+        "seller": {
+          "@type": "Organization",
+          "name": "Ekio Light"
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "ES",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 30
+        }
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "[REAL-JUDGEME]",
+        "reviewCount": "[N-REAL]",
+        "bestRating": "5"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Para que sirve el Ekio Light Core?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El Ekio Light Core es un dispositivo portatil de fotobiomodulacion diseñado para aplicar terapia de luz roja e infrarroja de forma local sobre una zona concreta del cuerpo: rodilla, cuello y trapecios, hombro, codo, cara, pies o manos. Sus 13 LEDs combinan 660 nm (accion superficial: piel y tejido subcutaneo) y 850 nm (accion profunda: musculo y articulacion). No es un panel de cuerpo completo: esta diseñado para tratar una zona especifica con precision y portabilidad."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Que diferencia hay entre el Ekio Light Core y un panel como el Deep 5?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El Core trata una zona concreta del cuerpo (local y portatil, 147 €); el Deep 5 (650 €) es un panel que cubre zonas amplias del cuerpo con 5 longitudes de onda, incluida la exclusiva 727 nm. Si buscas tratar un hombro, una rodilla o el cuello en cualquier sitio, el Core es tu dispositivo. Si buscas irradiar el cuerpo completo o zonas extensas, necesitas un panel. Muchos usuarios tienen los dos: el panel en casa y el Core en el gimnasio o de viaje."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿El 850 nm no se ve? ¿Es normal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Si, es completamente normal. El infrarrojo cercano a 850 nm es invisible al ojo humano. En el Ekio Light Core veras encendidos los LEDs rojos de 660 nm; los de 850 nm emiten aunque apenas los percibas visualmente. Precisamente esa mayor longitud de onda permite que el NIR penetre mas profundo que la luz visible, llegando al musculo y a la articulacion."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuanto tiempo y con que frecuencia se usa el Ekio Light Core?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La pauta del fabricante es 10 minutos por zona, con el dispositivo a unos 20 cm de la piel, 4-6 dias por semana. Existen 3 intensidades segun necesidad: mantenimiento (1 sesion/dia), moderada (2 sesiones/dia) e intensiva (3 sesiones/dia). La constancia importa mas que la duracion: mejor 10 minutos diarios que una sesion larga esporadica. El temporizador integrado (5-30 min) gestiona automaticamente el tiempo y memoriza los ajustes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Emite electrosmog o radiacion electromagnetica?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El Ekio Light Core esta diseñado por especialistas en contaminacion electromagnetica: la ficha tecnica del fabricante certifica 0 µT de CEM y cero flicker. La mayoria de dispositivos baratos de luz roja no cumplen este estandar — emiten campos electromagneticos en la misma zona que intentan cuidar. En EKIO ese criterio es innegociable en toda la gama Ekio Light."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Puedo devolver el Ekio Light Core si no me convence?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Si: toda la gama Ekio Light tiene devolucion de 30 dias. El envio es gratuito en 24-48h desde España. El pago puede aplazarse con seQura (desde 12,25 €/mes). Los dispositivos Ekio Light son equipos de bienestar para uso domestico, no son productos sanitarios y no estan destinados a diagnosticar, tratar o curar enfermedades. Ante cualquier patologia, consulta a un profesional de la salud."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Inicio",
+          "item": "https://electrosmogespana.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Luz Roja Terapeutica y Fotobiomodulacion",
+          "item": "https://electrosmogespana.com/collections/luz-roja-terapeutica"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Ekio Light Core — Terapia de Luz Roja Local y Portatil"
+        }
+      ]
+    }
+  ]
+}
