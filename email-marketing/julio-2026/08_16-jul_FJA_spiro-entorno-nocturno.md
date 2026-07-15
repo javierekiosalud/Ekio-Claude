@@ -1,78 +1,104 @@
 # Email 08 · Jueves 16 julio 2026 · 8:00 — SEMANA 3: FJA SPIRO DESDE CLÍNICA
 **Newsletter:** Javier Andrés (FJA)
-**Tono:** Isra Bravo — autoridad clínica, primera persona profesional
-**Producto:** Pack Personal SPIRO + DISC ULTRA — dos CTAs
-**Segmento Klaviyo:** Lista principal activa; excluir compradores SPIRO y DISC ULTRA 90d
-**Objetivo:** Traducir la ciencia del EPI (martes) a la realidad clínica. Javier nombra el entorno electromagnético nocturno como la variable que falta en los pacientes que hacen todo bien pero no terminan de mejorar. Introduce SPIRO como recomendación clínica concreta. Teaser Mariana Aróstegui.
-**Smart Sending:** ON — EPI mié 15 (8:00) → FJA jue 16 (8:00) = 24h ✓
+**Tono:** Autoridad clínica en primera persona — estilo Isra Bravo. Solo observaciones profesionales de consulta. Sin anécdotas de vida personal.
+**Producto:** Pack Personal SPIRO (ref. 350€) + DISC ULTRA (ref. 929€) — dos capas, dos CTAs
+**Segmento Klaviyo:** Lista principal activa; excluir compradores de SPIRO y DISC ULTRA en los últimos 90 días
+**Objetivo:** Traducir la cadena CEM → melatonina → circadiano → microbiota (Email 07 EPI) a experiencia clínica real. Nombrar el entorno electromagnético nocturno como la variable que falta. Introducir SPIRO como recomendación de consulta, no como venta de marca. Teaser Mariana Aróstegui sin fecha confirmada.
+**Smart Sending:** EPI mié 15 (8:00) → FJA jue 16 (8:00) = 24h — incumple la regla de 48h mínimo. Javier confirmó (15/jul/2026) enviar igual el jueves 16: el contenido es complementario (ciencia → clínica), no repetitivo, riesgo de fatiga bajo.
 
 ---
 
 ## ASUNTO
 
-**Principal:** El síntoma que no desaparece aunque hagas todo bien. Lo que lo cambia.
-**A/B 1:** Tres pacientes. Mismas pautas. Un resultado diferente. La diferencia fue el entorno.
-**A/B 2:** Quince años en consulta y hay algo que la mayoría pasa por alto. El entorno electromagnético nocturno.
+**Principal:** Haces todo bien y algo sigue sin funcionar. Llevo 15 años viendo esta variable.
+**A/B 1:** El protocolo que mejora a medias. Lo que falta casi nunca es lo que imaginas.
+**A/B 2:** Dos pacientes. Mismo protocolo. Resultado distinto. La diferencia fue el entorno donde duermen.
 
 ## PREVIEW TEXT
 
-> En consulta hay un perfil que se repite: hace todo bien y no termina de mejorar. Hasta que cambia una cosa.
+> En consulta hay un perfil que se repite: hace todo bien y no termina de mejorar. Hasta que toca una sola variable.
 
 ---
 
 ## BODY
 
-Hay un perfil que reconozco después de quince años en consulta.
+Hay un perfil que reconozco en cuanto el paciente abre la boca.
 
-Lleva meses trabajando su salud con criterio. Cuida la alimentación. Ha empezado a respetar la luz de la mañana. Duerme sus horas. Hace el protocolo. Y aun así hay algo que no termina de ceder: la energía no sube del todo, el sueño sigue siendo ligero, la digestión oscila sin causa aparente.
+Me cuenta lo que hace. Cuida la alimentación. Sale a la luz de la mañana antes de mirar el teléfono. Respeta el horario de sueño. Ha probado magnesio, melatonina, probióticos. Ha leído, ha aplicado, ha sido constante.
 
-No es falta de constancia. No es falta de información. Es que hay una variable que no ha tocado.
+Y algo no termina de ceder.
 
-El martes El Precio Invisible explicó la cadena: los campos electromagnéticos generan estrés oxidativo, ese estrés compromete la síntesis de melatonina, y sin melatonina correcta el reloj circadiano pierde su señal. La microbiota — que también oscila en ciclos de 24 horas — deja de recibir la referencia que necesita para funcionar con ritmo.
+El sueño es más ligero de lo que debería. La energía al despertar no aparece del todo. La digestión funciona mejor algunos días que otros sin una causa que lo explique. Hay una sensación sostenida de estar al 70% cuando el protocolo debería haber llegado al 90%.
 
-Lo que eso significa en consulta es esto: dos personas con el mismo protocolo de luz, la misma dieta, los mismos suplementos. Una mejora de forma sostenida. La otra tiene avances y retrocesos sin explicación. La diferencia más frecuente que encuentro cuando reviso su historial con detenimiento es el entorno electromagnético nocturno.
+No es falta de esfuerzo. No es un problema de información.
 
-El router encendido junto a la cabeza. El teléfono cargando en la mesita. La tablet que el niño deja en la habitación. Ninguno de estos dispositivos hace un daño dramático en una noche. Pero en 365 noches — y en el contexto de una persona que ya llega con el sistema nervioso sensibilizado — acaban desplazando la señal de melatonina lo suficiente para que el sueño no tenga la profundidad que necesita, y para que la recuperación celular de la noche quede incompleta.
+Es que hay una variable que no ha entrado en el análisis.
+
+El martes, El Precio Invisible explicó la cadena desde la bibliografía: campos electromagnéticos crónicos → estrés oxidativo → síntesis de melatonina comprometida → reloj circadiano sin señal → microbiota desincronizada. Cada eslabón tiene soporte independiente en la literatura científica.
+
+Lo que yo puedo añadir es lo que esa cadena se traduce en consulta.
+
+Dos personas. Mismo protocolo de luz, misma dieta, mismos suplementos. Una mejora de forma sostenida y progresiva. La otra mejora, se estanca, retrocede, sin que haya cambiado nada aparente. Cuando reviso con detalle el historial de la segunda, hay algo que casi siempre aparece: el entorno donde duerme no ha cambiado.
+
+El router lleva encendido desde hace años — en el dormitorio, en el salón de al lado, o en el pasillo a metro y medio de la cabeza. El teléfono carga en la mesita. La señal de los vecinos, de la antena del edificio de enfrente, de la red que emite por todo el edificio, no desaparece cuando apagas tu router.
+
+No es un daño agudo que se mida en una noche. En 365 noches, en un sistema nervioso que ya llega con la tolerancia comprometida, hay consecuencias reales sobre la síntesis de melatonina nocturna y sobre la calidad del sueño profundo.
 
 **Lo que recomiendo en estos casos.**
 
-La primera intervención es siempre gratuita: router apagado de noche, teléfono fuera del dormitorio, modo avión activo. En la mayoría de pacientes con sensibilidad ya instalada, esto solo no es suficiente — porque la señal de los vecinos, de la antena de la calle o del propio edificio no desaparece al apagar tu router.
+El primer paso no cuesta nada: router apagado al dormir, teléfono fuera del dormitorio, modo avión en los dispositivos que no son imprescindibles. En personas con sensibilidad leve, a veces es suficiente.
 
-La segunda intervención es la protección activa. El SPIRO trabaja a otro nivel: no apaga la señal, sino que compensa su efecto sobre el sistema biológico. En clínica, lo que observo con más consistencia en pacientes que lo incorporan es la normalización del sueño profundo — específicamente en las primeras horas de la noche, que son las más críticas para la síntesis de melatonina y para la recuperación mitocondrial.
+En la mayoría de los pacientes que trabajan conmigo — personas que ya tienen el sistema sensibilizado y han agotado otras intervenciones — ese primer paso no cierra la ecuación. La señal exterior no desaparece por apagar los propios dispositivos.
 
-Para protección personal: el **Pack Personal SPIRO** — el dispositivo que acompaña a la persona las 24 horas, dentro y fuera de casa.
+La intervención que añado en esos casos es el SPIRO.
 
-Para el dormitorio y el hogar: el **DISC ULTRA** — el dispositivo de mayor rango para proteger el espacio donde se duerme y se recupera.
+SPIRO no bloquea la señal: actúa sobre el sistema biológico para compensar el efecto que la exposición crónica tiene sobre él. Sin pilas. Sin mantenimiento. Vida útil permanente.
 
-Ambos, juntos, cubren las dos capas que trabajo en consulta.
+Lo que observo con más consistencia en los pacientes que lo incorporan es la normalización del sueño profundo en las primeras horas de la noche — que son las más críticas para la síntesis de melatonina y para la recuperación mitocondrial.
+
+Trabajo con dos dispositivos según el contexto de cada persona.
+
+**Pack Personal SPIRO**
+Protección personal las 24 horas, en todos los entornos. No depende de dónde estés — casa, trabajo, viajes, consulta. Es la primera capa: la que no se queda en casa cuando la persona sale.
+→ Precio de referencia junio 2026: 350€
 
 **[ Ver Pack Personal SPIRO ]**
+
+**DISC ULTRA**
+Protección del espacio donde se duerme. Mayor rango de acción para cubrir el dormitorio completo y el entorno residencial próximo. Es la segunda capa: la que protege el espacio aunque la persona no lleve nada encima.
+→ Precio de referencia junio 2026: 929€
+
 **[ Ver DISC ULTRA ]**
 
-Si tienes dudas sobre cuál de los dos es el punto de partida para tu situación, responde a este correo. Te oriento directamente.
+Si tienes que empezar por uno: el Pack Personal. El espacio viene después.
+
+Si tienes una situación concreta y quieres saber cuál encaja mejor con tu caso, responde a este email. Te oriento.
 
 Javier
 
 ---
 
-## CTA BUTTONS
+## CTA BUTTON COPY
 
 **Ver Pack Personal SPIRO**
-**URL:** [PENDIENTE — confirmar URL producto Pack Personal SPIRO]
+URL: [PENDIENTE — confirmar URL Pack Personal SPIRO en electrosmogespana.com]
 
 **Ver DISC ULTRA**
-**URL:** [PENDIENTE — confirmar URL producto DISC ULTRA]
+URL: [PENDIENTE — confirmar URL DISC ULTRA en electrosmogespana.com]
 
 ## P.S.
 
-Esta semana tenemos previsto un directo con Mariana Aróstegui — bióloga especialista en desincronización biológica, autora de *Desincronizados* y directora de la clínica Bmum. Es exactamente la persona que conecta estos puntos desde la investigación. Te avisamos en cuanto tengamos confirmada la fecha.
+Esta semana tenemos previsto un directo con Mariana Aróstegui — bióloga, directora de la clínica Bmum y autora de *Desincronizados*. Es exactamente la persona que cierra el círculo científico de lo que hemos explicado esta semana. Te avisamos en cuanto se confirme la fecha.
 
 ---
 
 ## NOTAS
-- URLs de SPIRO y DISC ULTRA pendientes de validar antes de enviar
-- Precio Pack Personal SPIRO y DISC ULTRA: confirmar antes del envío (en junio se usó 350€ y 929€)
-- Tono clínico-profesional (directriz FJA): observaciones de consulta, no anécdotas personales
-- El P.S. introduce Mariana Aróstegui sin comprometer fecha — el directo se anuncia en EKO sáb 19
-- Smart Sending ON: 24h desde EPI mié 15 (8:00) ✓ (24h < 48h regla OK)
-- Siguiente email: EKO sáb 19 jul — preventa/teaser directo Mariana + SPIRO oferta o empuje
+
+- **Smart Sending — DECIDIDO:** EPI mié 15 (8:00) → FJA jue 16 (8:00) = 24h, incumple la regla de 48h mínimo entre emails a la misma audiencia. Javier confirmó enviar igual el jueves 16 — excepción aceptada porque el contenido es complementario (ciencia → clínica), no repetitivo.
+- **Precios Pack Personal SPIRO (350€) y DISC ULTRA (929€):** son precios de referencia de junio 2026, marcados explícitamente como tales en el body. Confirmar precio actualizado con Javier antes del envío.
+- **URLs de producto:** pendientes de validar en electrosmogespana.com antes del envío.
+- **Tono FJA:** observaciones de consulta en primera persona profesional. Sin anécdotas de vida personal de Javier. Sin afirmaciones médicas directas ("cura", "trata", "elimina") — lenguaje clínico-observacional: "observo", "lo que encuentro", "lo que recomiendo".
+- **Mecanismo SPIRO:** "filtra, no bloquea" es el diferenciador de marca. En este email se formula como "actúa sobre el sistema biológico para compensar el efecto" — mantener esa línea en cualquier edición.
+- **Continuidad narrativa:** este email retoma explícitamente el "El Precio Invisible del martes" — el lector que leyó el Email 07 tiene la cadena científica y este email la traduce a la consulta. El lector que no lo leyó entiende el argumento igual porque la cadena se resume en una frase.
+- **Teaser Mariana Aróstegui (P.S.):** sin fecha confirmada ni formato concreto del directo. La EKO del sábado 19 mantiene la misma posición de espera. No comprometer nada.
+- **Siguiente email en la secuencia:** EKO sáb 19 jul — ya existe en `09_19-jul_EKO_spiro-oferta-teaser-mariana.md`. Referencia a este email 08 en tercera persona ("el jueves, Javier lo tradujo a consulta").
