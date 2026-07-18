@@ -1,0 +1,37 @@
+%% DIAGRAMA FLUJO MANYCHAT "TEST ADOLESCENTE — Test de exposición del adolescente" — EKIO
+%% SPEC (pendiente de montar + deploy web) · Renderizar en cualquier visor Mermaid (flowchart TD)
+
+flowchart TD
+    %% ── TRIGGERS ──
+    T1["💬 Comentario en publicación/Reel<br/>TESTHIJO / PANTALLAS / GAMER / ADOLESCENTE / ESTUDIA / HIJO / HIJA<br/>(+ variantes minúsculas · todas las publicaciones)"] --> B["📩 Respuesta pública rotativa<br/>(3 versiones, anti-bot)"]
+    T2["✉️ DM directo<br/>el mensaje contiene las keywords"] --> C
+    B --> C["👋 M1 — Hook<br/>6-8 h de pantalla = precio invisible<br/>¿Te paso el test?"]
+
+    %% ── CONFIRMACIÓN / RAMA ──
+    C -->|📲 Sí, quiero el test| E
+    C -->|🤔 Cuéntame más| D["ℹ️ M1-bis<br/>Qué mide el test<br/>📲 Sí, mándamelo"]
+    D -->|converge| E
+
+    %% ── CAPTURA DE EMAIL ──
+    E["✍️ M2 — CAPTURA EMAIL<br/>User Input · validación email<br/>→ system field Email"]
+
+    %% ── ACCIONES ──
+    E --> S1(["🏷️ Tag: test-adolescente-lead<br/>📝 keyword_origen = ADOLESCENTE<br/>📊 Evento Klaviyo: manychat_lead_magnet_entregado<br/>origen = test-adolescente"])
+
+    %% ── ENTREGA WEB ──
+    S1 --> G["✅ M3 — ENTREGA<br/>📲 Test de exposición del adolescente<br/>{{ENLACE_WEB_TEST}} (Vercel)<br/>➡️ el scoring + la venta viven en la web"]
+
+    %% ── DELAY + CIERRE ──
+    G --> W["⏳ Pausa inteligente<br/>23 HORAS"]
+    W --> F["📖 M4 — Seguimiento + cierre<br/>¿Hiciste el test?<br/>👉 electrosmogespana.com"]
+    F --> Z["🏁 FIN"]
+
+    %% ── ESTILOS ──
+    classDef trigger fill:#fde68a,stroke:#b45309,color:#000;
+    classDef msg fill:#dbeafe,stroke:#1e40af,color:#000;
+    classDef integ fill:#dcfce7,stroke:#15803d,color:#000;
+    classDef close fill:#f3f4f6,stroke:#6b7280,color:#000;
+    class T1,T2,B trigger;
+    class C,D,E,G,F,W msg;
+    class S1 integ;
+    class Z close;
