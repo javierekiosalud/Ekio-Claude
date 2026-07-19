@@ -3,7 +3,7 @@
 **Tono:** Autoridad clínica en primera persona — estilo Isra Bravo. Solo observaciones profesionales de consulta. Sin anécdotas de vida personal.
 **Producto:** Deep 5 (panel fotobiomodulación Ekio Light, 650€ → 552,50€ con cupón 15Deep)
 **Segmento Klaviyo:** Lista principal activa; excluir compradores de Deep 5 y Ekio Light en los últimos 90 días
-**Objetivo:** Traducir el mecanismo mitocondrial/CCO y la evidencia clínica del lunes (EPI Email 10) a la experiencia de consulta real. Nombrar el Deep 5 explícitamente como la herramienta que Javier recomienda en casos de sobrecarga física de verano. Introducir precio y cupón. Teaser al EKO del jueves.
+**Objetivo:** Traducir el mecanismo mitocondrial/CCO de la fotobiomodulación a la experiencia de consulta real. Nombrar el Deep 5 explícitamente como la herramienta que Javier recomienda en casos de sobrecarga física de verano. Introducir precio y cupón. Teaser al sábado (La Luz que Repara) para la ciencia en detalle, y al EKO del jueves para la oferta.
 **Smart Sending:** EPI lun 20 jul (9:00) → FJA mié 22 jul (9:00) = 48 horas exactas — CUMPLE.
 
 ---
@@ -11,7 +11,7 @@
 ## ASUNTO
 
 **Principal:** Hay un momento en el verano en que el cuerpo dice basta. Lo veo cada año en consulta.
-**A/B 1:** No te recuperas entre sesiones. No es falta de descanso. Es lo que el lunes explicó El Precio Invisible.
+**A/B 1:** No te recuperas entre sesiones. No es falta de descanso. Hay una razón mitocondrial detrás.
 **A/B 2:** Dolor articular que no cede, músculo que no responde. Hay un patrón. Y una herramienta.
 
 ## PREVIEW TEXT
@@ -30,7 +30,7 @@ Ha estado de vacaciones. Ha hecho más actividad física en tres semanas que en 
 
 Hay otro patrón que reconozco igualmente: la persona que ha llevado un invierno sedentario y en junio, de golpe, pasa a cinco o seis horas diarias de actividad física. El sistema locomotor no estaba preparado para esa demanda. Y el proceso de adaptación se queda a medias porque la biología de la recuperación no tiene los recursos para seguir el ritmo.
 
-El lunes, El Precio Invisible explicó el mecanismo desde tres estudios peer-reviewed. El cuello de botella no es la voluntad ni las horas de sueño. Es energético, y está en la mitocondria. Cuando la enzima citocromo c oxidasa tiene bloqueado su sitio activo por óxido nítrico acumulado en condiciones de estrés celular, la producción de ATP se frena. Y sin ATP, el tejido no puede ejecutar los procesos de reparación — síntesis de proteínas musculares, síntesis de colágeno en tendones, modulación de la inflamación local.
+El mecanismo detrás de esto no es intuición clínica sin más — está documentado en la literatura científica. El cuello de botella no es la voluntad ni las horas de sueño. Es energético, y está en la mitocondria. Cuando la enzima citocromo c oxidasa tiene bloqueado su sitio activo por óxido nítrico acumulado en condiciones de estrés celular, la producción de ATP se frena. Y sin ATP, el tejido no puede ejecutar los procesos de reparación — síntesis de proteínas musculares, síntesis de colágeno en tendones, modulación de la inflamación local. (Si quieres la ciencia exacta con sus fuentes, este sábado en *La Luz que Repara* la desarrollamos en detalle.)
 
 Lo que yo añado desde la consulta es que esto no es teórico.
 
@@ -42,7 +42,7 @@ Es el panel de fotobiomodulación de Ekio Light. Trabaja en el espectro rojo e i
 
 **630 nm** — espectro rojo, regeneración celular y síntesis de colágeno en tejido conectivo.
 
-**660 nm** — rojo profundo, la longitud de onda con mayor acumulación de evidencia en recuperación muscular y modulación de mediadores proinflamatorios. Los estudios que El Precio Invisible citó el lunes trabajan en este rango.
+**660 nm** — rojo profundo, la longitud de onda con mayor acumulación de evidencia en recuperación muscular y modulación de mediadores proinflamatorios.
 
 **850 nm** — infrarrojo cercano, con capacidad de penetración en tejidos profundos. Músculo, tendón, articulación. Aquí es donde el efecto llega a las estructuras que el rojo superficial no alcanza.
 
@@ -84,7 +84,7 @@ El cupón 15Deep baja el precio de 650€ a 552,50€ — y aplica tanto si comp
 ## NOTAS
 
 - **Smart Sending — CUMPLIDO:** EPI lun 20 jul (9:00) → FJA mié 22 jul (9:00) = 48 horas exactas. Cumple la regla mínima. Sin excepciones en este caso.
-- **Continuidad narrativa:** el email retoma explícitamente "El Precio Invisible explicó el lunes" — el lector que leyó el Email 10 tiene la base científica y este email la traduce a la consulta. El lector que no lo leyó entiende el argumento igual porque la cadena se resume en una frase.
+- **Continuidad narrativa:** el email explica el mecanismo mitocondrial/CCO directamente (sin atribuirlo a un EPI del lunes, que esta semana trata de la ley del cuadrado inverso — tema de CEM, no de fotobiomodulación). Teaser hacia adelante: "este sábado en La Luz que Repara" para quien quiera la ciencia completa con fuentes.
 - **Longitudes de onda usadas:** 630nm, 660nm, 850nm — las tres relevantes para el ángulo de recuperación física. La 727nm (circadiano/niños, usada en la semana 2) NO aparece. Separación de ángulos mantenida.
 - **Tono FJA:** observaciones de consulta en primera persona profesional. Sin anécdotas de vida personal de Javier. Sin afirmaciones médicas directas ("cura", "trata", "elimina") — lenguaje clínico-observacional: "observo", "lo que recomiendo", "lo que incorporo al protocolo".
 - **Precio y cupón:** 650€ precio base → 552,50€ con cupón 15Deep (15% dto). Cuotas 54€/mes en 12 meses. Cupón activo todo julio. Confirmar con Shopify antes del envío.
