@@ -1,6 +1,6 @@
 # Email 11 · Miércoles 22 julio 2026 · 9:00 — SEMANA 4: FJA DEEP 5 DESDE CLÍNICA
 **Newsletter:** Javier Andrés (FJA)
-**Tono:** Autoridad clínica en primera persona — estilo Isra Bravo. Solo observaciones profesionales de consulta. Sin anécdotas de vida personal.
+**Tono:** Autoridad clínica en primera persona — estilo Isra Bravo. Arranque con anécdota histórica real (no personal de Javier) que pivota a una viñeta de consulta (paciente sin identificar). Sin anécdotas de vida personal de Javier.
 **Producto:** Deep 5 (panel fotobiomodulación Ekio Light, 650€ → 552,50€ con cupón 15Deep)
 **Segmento Klaviyo:** Lista principal activa; excluir compradores de Deep 5 y Ekio Light en los últimos 90 días
 **Objetivo:** Traducir el mecanismo mitocondrial/CCO de la fotobiomodulación a la experiencia de consulta real. Nombrar el Deep 5 explícitamente como la herramienta que Javier recomienda en casos de sobrecarga física de verano. Introducir precio y cupón. Teaser al sábado (La Luz que Repara) para la ciencia en detalle, y al EKO del jueves para la oferta.
@@ -10,59 +10,55 @@
 
 ## ASUNTO
 
-**Principal:** Hay un momento en el verano en que el cuerpo dice basta. Lo veo cada año en consulta.
-**A/B 1:** No te recuperas entre sesiones. No es falta de descanso. Hay una razón mitocondrial detrás.
-**A/B 2:** Dolor articular que no cede, músculo que no responde. Hay un patrón. Y una herramienta.
+**Principal:** En 1904 le dieron veneno para ratas a un corredor. Y ganó.
+**A/B 1:** La maratón más ridícula de la historia (y qué tiene que ver con tu rodilla)
+**A/B 2:** Durante décadas creímos que era cuestión de aguantar. No lo era.
 
 ## PREVIEW TEXT
 
-> En consulta hay un perfil que aparece cada verano. Llega con sobrecarga acumulada, no con una lesión. La diferencia importa. Y la solución también.
+> Prohibieron el agua a propósito. Querían ver cuánto aguantaba un hombre. Salió como te imaginas.
 
 ---
 
 ## BODY
 
-Hay un perfil que llega a consulta con puntualidad estacional.
+La maratón olímpica de 1904, en San Luis, es probablemente la carrera más ridícula que se ha corrido nunca.
 
-No es una lesión. No hay un golpe, no hay un movimiento mal ejecutado, no hay un accidente. Lo que hay es una sensación que el paciente describe siempre con las mismas palabras: "No me recupero entre sesiones."
+Te sitúo. Cuarenta grados, un camino de tierra, coches de los organizadores levantando polvo delante de los corredores. Salieron treinta y dos. Llegaron catorce.
 
-Ha estado de vacaciones. Ha hecho más actividad física en tres semanas que en los cuatro meses anteriores — senderismo largo, pádel, natación, horas trabajando en la segunda residencia bajo el sol de julio. El sistema musculoesquelético ha absorbido una carga que no tenía prevista. Y algo no encaja: el músculo protesta en sitios donde antes no protestaba. Una rodilla, un tendón de Aquiles, el manguito rotador. La fatiga de la tarde no desaparece aunque duerma. Al día siguiente la articulación duele más que el anterior.
+Uno de ellos, Fred Lorz, hizo una parte del recorrido en coche, entró en el estadio tan fresco, saludó al público y estuvo a punto de llevarse la medalla antes de que alguien se diera cuenta.
 
-Hay otro patrón que reconozco igualmente: la persona que ha llevado un invierno sedentario y en junio, de golpe, pasa a cinco o seis horas diarias de actividad física. El sistema locomotor no estaba preparado para esa demanda. Y el proceso de adaptación se queda a medias porque la biología de la recuperación no tiene los recursos para seguir el ritmo.
+Pero lo bueno viene con el que ganó de verdad, Thomas Hicks. En el kilómetro treinta y pico se venía abajo, y su equipo, en lugar de darle agua, le dio sulfato de estricnina —sí, veneno para ratas, en dosis pequeñas se usaba como estimulante— mezclado con brandy. Se lo dieron dos veces. Cruzó la meta sostenido por dos hombres, con los pies sin tocar el suelo del todo, y hubo que atenderlo de urgencia. Ganó.
 
-El mecanismo detrás de esto no es intuición clínica sin más — está documentado en la literatura científica. El cuello de botella no es la voluntad ni las horas de sueño. Es energético, y está en la mitocondria. Cuando la enzima citocromo c oxidasa tiene bloqueado su sitio activo por óxido nítrico acumulado en condiciones de estrés celular, la producción de ATP se frena. Y sin ATP, el tejido no puede ejecutar los procesos de reparación — síntesis de proteínas musculares, síntesis de colágeno en tendones, modulación de la inflamación local. (Si quieres la ciencia exacta con sus fuentes, este sábado en *La Luz que Repara* la desarrollamos en detalle.)
+¿Y el agua? Es que el agua estaba restringida a propósito. El organizador quería estudiar la deshidratación. Literalmente: quería ver cuánto aguantaba un hombre sin beber.
 
-Lo que yo añado desde la consulta es que esto no es teórico.
+Y aquí está lo que a mí me interesa de esta historia.
 
-**La herramienta que incorporo en estos casos.**
+Durante décadas dimos por hecho que el rendimiento y el aguante eran cuestión de carácter. De apretar. Si te venías abajo era porque no eras lo bastante duro, así que la solución era un estimulante, no un recurso. Tardamos muchísimo en entender algo bastante básico: que el cuerpo no se estaba rindiendo, es que se había quedado sin con qué seguir.
 
-Cuando el paciente llega con ese patrón — sobrecarga acumulada, inflamación de bajo grado que no remite, tendones irritados sin lesión clara, fatiga que no cede con el descanso — la herramienta que añado al protocolo es el Deep 5.
+Ahora quítale la estricnina al pobre Hicks y ponte tú, en julio, volviendo de vacaciones.
 
-Es el panel de fotobiomodulación de Ekio Light. Trabaja en el espectro rojo e infrarrojo cercano con cuatro longitudes de onda que son relevantes para este contexto:
+Porque a consulta me llega todos los veranos la misma persona. Este año fue un hombre de cincuenta y muchos, muy de hablar poco, que venía por la rodilla derecha. Le pregunté qué se había hecho y me dijo que nada. Y era verdad: nada. Tres semanas en el pueblo, mucho andar, pádel con los sobrinos y unas escaleras que en Valladolid no sube jamás. Volvió peor de lo que se fue.
 
-**630 nm** — espectro rojo, regeneración celular y síntesis de colágeno en tejido conectivo.
+Al final de la consulta soltó la frase que oigo cada julio, casi con las mismas palabras: "Es que ya no me recupero de un día para otro."
 
-**660 nm** — rojo profundo, la longitud de onda con mayor acumulación de evidencia en recuperación muscular y modulación de mediadores proinflamatorios.
+Eso no es una queja. Es un dato.
 
-**850 nm** — infrarrojo cercano, con capacidad de penetración en tejidos profundos. Músculo, tendón, articulación. Aquí es donde el efecto llega a las estructuras que el rojo superficial no alcanza.
+Porque cuando alguien duerme sus horas, descansa, y aun así se levanta peor de como se acostó, el problema casi nunca es que no esté apretando lo suficiente. Está más abajo, en la mitocondria, que es donde se fabrica la energía con la que el tejido se repara. Si ahí hay un cuello de botella, puedes descansar todo lo que quieras: la reparación va a ir lenta igual. Es el mismo error de 1904, en pequeñito. Tratar como falta de voluntad lo que es falta de recursos.
 
-No es analgésico. No suprime el dolor para que el paciente siga haciendo daño. Lo que hace —y esto está documentado— es suministrar energía fotónica directamente a las mitocondrias del tejido afectado, liberando el cuello de botella que impide que la reparación ocurra a la velocidad que debería.
+(El sábado, en *La Luz que Repara*, lo explico despacio y con las fuentes. Ahí sí toca ponerse técnico.)
 
-La aplicación en recuperación física es directa: diez a veinte minutos sobre la zona de sobrecarga después del esfuerzo. No requiere protocolo de inicio complejo. Lo que observo con más consistencia en los pacientes que lo incorporan es que la sensación de "no recuperarme entre sesiones" empieza a resolverse en la primera semana.
+En estos casos —sobrecarga acumulada, sin lesión clara, un tendón irritado que no acaba de calmarse— lo que llevo un tiempo añadiendo al protocolo es el Deep 5.
 
-**El Deep 5 en detalle.**
+Es el panel de fotobiomodulación de Ekio Light. Trabaja en rojo e infrarrojo cercano, y el que hace el trabajo importante aquí es el 850 nm: es la longitud de onda que llega de verdad al músculo, al tendón y a la articulación, en vez de quedarse en la piel.
 
-El panel viene con el Ekio Light System incluido: la app Ekio Coach con los protocolos de uso, la guía interactiva, la bombilla ámbar para el entorno nocturno, Vitamina C Electro Pro, gafas de protección y mando a distancia. Todo ello suma 268€ de valor integrado en el precio.
+Diez o quince minutos sobre la zona después del esfuerzo. Ya está, no hay más protocolo.
 
-Precio de referencia: 650€.
+No hace milagros y no quita el dolor de golpe, que además tampoco interesa: el dolor está informando de algo. Lo que sí observo, con bastante regularidad, es que esa sensación de "no me recupero entre un día y otro" empieza a aflojar en la primera semana.
 
-Con el cupón **15Deep**, activo durante todo julio: **552,50€**. O desde **54€/mes** en 12 cuotas.
+Mañana jueves te cuento el Deep 5 con detalle y la oferta de julio.
 
-**[ Ver el Deep 5 ]**
-
-Si tienes una situación concreta de sobrecarga articular o muscular y quieres saber si encaja con tu caso, responde a este email. Te oriento.
-
-El jueves, los detalles completos de la oferta.
+Y si tienes algo entre manos y quieres saber si tu caso encaja, contéstame a este correo. Lo miro.
 
 Javier
 
@@ -84,14 +80,15 @@ El cupón 15Deep baja el precio de 650€ a 552,50€ — y aplica tanto si comp
 ## NOTAS
 
 - **Smart Sending — CUMPLIDO:** EPI lun 20 jul (9:00) → FJA mié 22 jul (9:00) = 48 horas exactas. Cumple la regla mínima. Sin excepciones en este caso.
+- **Storytelling — NUEVA LÍNEA CONFIRMADA (20/jul/2026):** Javier pidió mantener esta estructura en próximos FJA: anécdota histórica real y verificable (no personal de Javier) que pivota a una viñeta de consulta con paciente sin identificar, y de ahí al producto. Datos de 1904 verificados: Fred Lorz completó parte del recorrido en coche, Thomas Hicks recibió sulfato de estricnina y brandy y ganó, 14 de 32 corredores terminaron, el organizador James Sullivan restringió el agua deliberadamente para estudiar deshidratación. El paralelismo se limita al error de diagnóstico (voluntad vs. recursos) — no se usa como afirmación médica.
 - **Continuidad narrativa:** el email explica el mecanismo mitocondrial/CCO directamente (sin atribuirlo a un EPI del lunes, que esta semana trata de la ley del cuadrado inverso — tema de CEM, no de fotobiomodulación). Teaser hacia adelante: "este sábado en La Luz que Repara" para quien quiera la ciencia completa con fuentes.
-- **Longitudes de onda usadas:** 630nm, 660nm, 850nm — las tres relevantes para el ángulo de recuperación física. La 727nm (circadiano/niños, usada en la semana 2) NO aparece. Separación de ángulos mantenida.
-- **Tono FJA:** observaciones de consulta en primera persona profesional. Sin anécdotas de vida personal de Javier. Sin afirmaciones médicas directas ("cura", "trata", "elimina") — lenguaje clínico-observacional: "observo", "lo que recomiendo", "lo que incorporo al protocolo".
+- **Longitudes de onda usadas:** 850nm mencionada explícitamente (penetración profunda). La 727nm (circadiano/niños, usada en la semana 2) NO aparece. Separación de ángulos mantenida.
+- **Tono FJA:** anécdota histórica + viñeta de consulta en primera persona profesional, registro más relajado y menos simétrico que la versión clínico-formal original. Sin anécdotas de vida personal de Javier. Sin afirmaciones médicas directas ("cura", "trata", "elimina") — lenguaje clínico-observacional: "observo", "lo que añado al protocolo".
 - **Precio y cupón:** 650€ precio base → 552,50€ con cupón 15Deep (15% dto). Cuotas 54€/mes en 12 meses. Cupón activo todo julio. Confirmar con Shopify antes del envío.
-- **Ekio Light System:** 268€ de valor incluido. Contenido: app Ekio Coach, guía interactiva, bombilla ámbar, Vitamina C Electro Pro, gafas, mando. Verificar que coincide con la ficha de producto en electrosmogespana.com antes del envío.
+- **Ekio Light System:** no se detalla el desglose de 268€ en esta versión (se deja para el EKO del jueves, que es el email de oferta). Verificar ficha de producto en electrosmogespana.com antes del envío.
 - **URL de producto:** https://electrosmogespana.com/products/deep-5-ekio-light — verificar que está activa y correcta antes del envío.
 - **Sin Bio Regén 7:** la semana 4 está explícitamente centrada en Deep 5. El Bio Regén 7 no aparece en ningún email de esta semana.
-- **Teaser al EKO del jueves:** "El jueves, los detalles completos de la oferta" — no compromete nada del contenido del Email 12 EKO. Fórmula mínima que abre la puerta sin anticipar.
-- **CTA de respuesta directa:** "responde a este email" — mantiene la línea de consulta accesible y humaniza el cierre. Mismo recurso que en el Email 08 FJA SPIRO.
+- **Teaser al EKO del jueves:** "Mañana jueves te cuento el Deep 5 con detalle y la oferta de julio" — no compromete nada del contenido del Email 12 EKO.
+- **CTA de respuesta directa:** "contéstame a este correo" — mantiene la línea de consulta accesible y humaniza el cierre. Mismo recurso que en el Email 08 FJA SPIRO.
 - **Siguiente email en la cadencia:** EKO jue 23 jul 9:00 — venta directa Deep 5. Smart Sending FJA mié 22 (9:00) → EKO jue 23 (9:00) = 24 horas. Excepción permanente confirmada por Javier (15/jul/2026): Miércoles→Jueves siempre serán 24h bajo la cadencia fija, y se acepta como patrón estructural (educa→convierte en caliente), no como incidencia semanal a revisar cada vez.
 - **Segmento:** lista principal activa. Excluir compradores de Deep 5 y cualquier producto Ekio Light en los últimos 90 días.
