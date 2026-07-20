@@ -1,4 +1,4 @@
-# 10 PREGUNTAS CLAVE — VALIDACIÓN DE LO YA DECIDIDO Y REDACTADO
+# 11 PREGUNTAS CLAVE — VALIDACIÓN DE LO YA DECIDIDO Y REDACTADO
 
 > **Enfoque de este documento:** no es una sesión de estrategia abierta — es una **auditoría de segunda opinión** sobre decisiones ya tomadas y cláusulas ya redactadas en el borrador de escritura y estatutos del notario. Cada pregunta parte de "esto es lo que hemos decidido o lo que dice el borrador — ¿está bien, o hay una forma mejor?". Es el documento a usar el lunes con Sara García (Garrigues).
 >
@@ -85,6 +85,14 @@
 **Lo redactado:** los estatutos fijan, por defecto, que el cargo de administrador **será retribuido** con una asignación anual aprobada por la Junta. La sociedad se constituye con patrimonio neto positivo pero sin caja (0 € de tesorería inicial).
 
 **Pregunta:** "¿Es buena práctica dejar ya esta cláusula tal cual en la escritura de constitución, o mejor empezar con el cargo gratuito y modificarlo cuando haya ingresos recurrentes? ¿Cómo afecta cada opción a mi alta en RETA y a la deducibilidad en el Impuesto sobre Sociedades desde el primer ejercicio?"
+
+---
+
+## 11. Subvenciones de la Junta de Castilla y León: ¿es transferible su titularidad, y qué riesgo hay por la deuda pendiente con el mismo organismo?
+
+**La situación:** tengo 2 subvenciones concedidas por la Junta de Castilla y León (importes y estado de cobro pendientes de precisar) y una tercera en tramitación, que querría que pasaran a Ekio BioTech S.L. **Al mismo tiempo, tengo una obligación de reintegro pendiente (7.000 €) frente a esa misma Junta**, que hemos decidido dejar fuera del aporte, en mi esfera personal.
+
+**Pregunta:** "¿Puede la nueva sociedad subrogarse como beneficiaria de estas subvenciones —asumiendo también las obligaciones de mantenimiento pendientes— o requiere autorización expresa previa del órgano concedente? Dado que tengo una deuda de reintegro pendiente con la misma Junta de Castilla y León, ¿hay riesgo de que eso bloquee o condicione la autorización del cambio de titular, o de que la administración compense un pago pendiente de una subvención con la deuda de reintegro de la otra? Para la que está en tramitación, ¿conviene pedir ya el cambio de solicitante a nombre de la sociedad, igual que hicimos con la solicitud de patente PCT, en vez de esperar a que se resuelva a mi nombre?"
 
 ---
 
