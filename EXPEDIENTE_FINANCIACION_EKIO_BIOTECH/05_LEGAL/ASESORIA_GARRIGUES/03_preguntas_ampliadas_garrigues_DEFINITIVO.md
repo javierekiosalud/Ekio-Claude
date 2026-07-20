@@ -1,7 +1,7 @@
-# CONSULTORÍA GARRIGUES — GUION DEFINITIVO
+# CONSULTORÍA GARRIGUES — GUION DEFINITIVO (v2)
 ## Auditoría de la escritura y estatutos antes de firmar · Ekio BioTech S.L.
 
-> **Documento definitivo para la reunión con Sara García Aldonza (Garrigues Valladolid).** Sustituye a los dos anteriores como guion de trabajo. Resultado de una segunda lectura forense de la escritura de constitución (`1 CSL.docx`) y los estatutos (`EEAA.docx`) recibidos de la Notaría, cruzada con todo el expediente del caso.
+> **Documento definitivo para la reunión con Sara García Aldonza (Garrigues Valladolid).** Actualizado el 20/07/2026 con las aclaraciones de Javier: Noxtak y la cesión del arrendamiento están resueltos en la práctica (bajan de prioridad, solo falta formalizarlos bien); los productos de stock no se posicionan como sanitarios (pregunta reformulada); se elimina la pregunta sobre honorarios/encargo completo.
 >
 > **Cómo usarlo:** las **8 primeras son imprescindibles** — si la hora se agota ahí, la reunión habrá valido la pena. El resto está agrupado por bloques temáticos; pasa por ellos según el tiempo que quede. Lleva impresos la escritura, los estatutos y este documento.
 
@@ -38,37 +38,21 @@ Estos son **errores materiales evidentes** ya detectados. No gastes tiempo de la
 
 ---
 
-### 2. Contrato de distribución con Noxtak: ¿puede romperse al aportar el negocio?
+### 2. Motivo económico válido (art. 89.2 LIS): por qué esto puede costarte dinero años después si no se documenta bien
 
-**El contexto:** tengo un contrato de distribución en España de los productos Spiro con Noxtak, firmado por mí como persona física/autónomo. Es una línea de negocio relevante, cuyo stock (≈18.800 €) hemos decidido incluir en la aportación. **La escritura no menciona este contrato**, y la cláusula c) se limita a obligarme a "realizar cuantas gestiones fuesen necesarias" para el cambio de titularidad.
+**Qué es, en términos llanos:** el régimen de neutralidad fiscal (FEAC) existe para que reorganizar una empresa —fusionarla, aportarla, cambiarla de forma— no tenga coste fiscal inmediato, **siempre que la razón de fondo sea empresarial y no fiscal**. La ley incluye una cláusula antiabuso (art. 89.2 LIS): si Hacienda concluye que el objetivo principal (o uno de los principales) de la operación era **eludir o diferir impuestos** en vez de una razón económica real, puede **negar todo el régimen con carácter retroactivo** — años después, en una inspección.
 
-**Pregunta:** *"Si el contrato con Noxtak contiene una cláusula de prohibición de cesión o de cambio de control —o simplemente exige consentimiento previo—, ¿la aportación del negocio a la sociedad podría constituir un **incumplimiento contractual que permita a Noxtak resolver el contrato**? ¿Debo obtener su consentimiento por escrito antes de firmar la escritura, o basta con notificárselo después? ¿Y qué pasa con el stock de Spiro que estoy aportando si el contrato se rompe?"*
+**Qué significaría eso en la práctica:** la ganancia patrimonial que hoy estás diferiendo al aportar tu negocio se convertiría en tributable de golpe, con intereses de demora acumulados desde 2026, y potencialmente sanción. No es un tecnicismo: es el mecanismo exacto por el que Hacienda revierte estas operaciones cuando decide que no le convencen.
 
-> **Por qué:** aportar un negocio cuya línea comercial depende de un contrato con prohibición de cesión, sin pedir permiso, es una de las formas más habituales de romper una relación comercial sin darte cuenta. Y en due diligence, un inversor lo detecta.
+**Por qué tu caso está bien, pero hay que dejarlo dicho:** tienes razones económicas reales y ya identificadas — dar entrada a inversores (SODICAL, ENISA, privados) que no invertirían en un autónomo, aislar el riesgo del negocio de tu patrimonio personal, y construir un grupo con la Holding para futuras líneas. El problema no es que falte el motivo: es que **la escritura no lo dice**. Solo hay una manifestación genérica y marcada con asterisco (pendiente) de que la operación *"se acogerá al régimen de neutralidad fiscal"* — sin explicar por qué.
 
----
+**Por qué importa que esté escrito ya, y no reconstruido después:** si Hacienda audita esto en 2029 y le explicas entonces por qué lo hiciste en 2026, suena a justificación a posteriori — y así lo trata la jurisprudencia. Si en cambio hay una memoria firmada el mismo día de la escritura explicando los motivos, es prueba contemporánea, mucho más difícil de rebatir.
 
-### 3. Arrendamiento del local: ¿la cesión activa la subida del 20 % del art. 32 LAU?
-
-**El contexto:** opero desde un local arrendado (393 €/mes) cuyo contrato está a mi nombre como persona física/autónomo. **La escritura no menciona el arrendamiento** — es más, la cláusula a) dice que la empresa se aporta *"libre de toda carga, gravamen o arrendamiento"*.
-
-**Pregunta:** *"En un arrendamiento para uso distinto de vivienda, el **art. 32 LAU** permite al arrendador **elevar la renta un 20 %** en caso de cesión del contrato, y exige notificación fehaciente en el plazo de un mes. ¿La aportación del negocio a la sociedad constituye 'cesión' a estos efectos y activa ese derecho? ¿Cómo lo estructuramos para minimizar el riesgo — cedemos el contrato, firmamos uno nuevo con la sociedad, o mantengo el arrendamiento a mi nombre y lo subarriendo/cedo el uso a la sociedad?"*
-
-> **Por qué:** es un coste real e inmediato (una subida del 20 % permanente) que se activa por una operación que el arrendador ni siquiera tiene que aprobar — solo notificarse. Y la escritura, tal como está, ni lo contempla.
+**Pregunta:** *"¿Basta con reforzar la cláusula fiscal de la escritura citando expresamente los motivos (entrada de inversores, aislamiento de riesgos, construcción de grupo), o recomendáis además una **memoria justificativa firmada como anexo**, con más detalle? ¿Qué debería incluir esa memoria para ser realmente sólida ante una comprobación?"*
 
 ---
 
-### 4. Motivo económico válido (art. 89.2 LIS): no aparece en la escritura
-
-**Lo que dice la escritura:** la cláusula fiscal se limita a manifestar, con un asterisco pendiente, que *"la presente operación se acogerá al régimen de neutralidad fiscal del Capítulo VII del Título VII de la LIS (art. 87)"*. **No hay ninguna mención al motivo económico válido, ni se incorpora memoria justificativa alguna.**
-
-**Pregunta:** *"El art. 89.2 LIS condiciona la aplicación del régimen a que la operación se realice por motivos económicos válidos. ¿Es suficiente la manifestación genérica que hay ahora, o **conviene incorporar a la escritura una manifestación expresa y una memoria justificativa como anexo** (entrada de inversores, aislamiento de riesgos, construcción de grupo)? ¿Qué peso da la AEAT en una comprobación a que ese motivo estuviera documentado desde el momento de la operación, y no reconstruido después?"*
-
-> **Por qué:** el motivo económico válido es la puerta por la que la AEAT tumba estas operaciones. Documentarlo *a posteriori*, cuando ya te están inspeccionando, vale mucho menos que tenerlo protocolizado desde el día uno.
-
----
-
-### 5. Comunicación a la AEAT del régimen FEAC: tampoco aparece
+### 3. Comunicación a la AEAT del régimen FEAC: tampoco aparece
 
 **Lo que falta:** la escritura no dice nada sobre la obligación de comunicar la operación a la Administración tributaria para acogerse al régimen.
 
@@ -78,7 +62,7 @@ Estos son **errores materiales evidentes** ya detectados. No gastes tiempo de la
 
 ---
 
-### 6. La manifestación de "libre de toda carga y sin adeudar nada a terceros": ¿es exacta?
+### 4. La manifestación de "libre de toda carga y sin adeudar nada a terceros": ¿es exacta?
 
 **Lo que dice la escritura (apartado TÍTULO):** manifiesto que los bienes *"me pertenecen por legítimo título, que **el precio de su adquisición está totalmente satisfecho sin adeudar nada a terceros** por tal concepto, que se hallan **libres de toda carga, gravamen, limitación, prohibición, embargo o retención**"*.
 
@@ -90,7 +74,7 @@ Estos son **errores materiales evidentes** ya detectados. No gastes tiempo de la
 
 ---
 
-### 7. Objeto social vs. manifestación de continuidad de actividad, y el CNAE elegido
+### 5. Objeto social vs. manifestación de continuidad de actividad, y el CNAE elegido
 
 **Lo que dicen los documentos:**
 - La cláusula fiscal manifiesta que *"la sociedad continuará el ejercicio de **la misma actividad empresarial** del negocio transmitido"* (base de la no sujeción a IVA).
@@ -103,7 +87,7 @@ Estos son **errores materiales evidentes** ya detectados. No gastes tiempo de la
 
 ---
 
-### 8. Las subvenciones de la Junta de Castilla y León: ¿se pueden transmitir, y qué riesgo hay con el reintegro pendiente?
+### 6. Las subvenciones de la Junta de Castilla y León: ¿se pueden transmitir, y qué riesgo hay con el reintegro pendiente?
 
 **El contexto:** tengo **2 subvenciones concedidas de la Junta de Castilla y León y una tercera en tramitación**, que querría que pasaran a la sociedad. **Ninguna de las tres aparece en la escritura** — ni incluida ni excluida. Al mismo tiempo, tengo una **obligación de reintegro pendiente (7.000 €) con esa misma Junta**, que sí está excluida expresamente.
 
@@ -111,9 +95,47 @@ Estos son **errores materiales evidentes** ya detectados. No gastes tiempo de la
 
 ---
 
+### 7. Art. 348 bis LSC: no está excluido — riesgo real para una sociedad que reinvierte
+
+**Lo que falta:** los estatutos regulan el derecho de separación (Art. 30) pero **no excluyen el art. 348 bis LSC**, que permite a un socio separarse —obligando a la sociedad a comprarle sus participaciones— si no se reparte al menos el 25 % de los beneficios durante cinco ejercicios.
+
+**Pregunta:** *"Ekio BioTech va a reinvertir todos sus beneficios durante años, no repartir dividendos. ¿**Conviene excluir estatutariamente el art. 348 bis desde la constitución**? Sé que su exclusión posterior exigiría unanimidad o generaría derecho de separación a quien no vote a favor — ¿es entonces ahora, siendo socio único, el único momento en que puedo hacerlo sin coste?"*
+
+> **Por qué:** este es probablemente el hallazgo más valioso de la relectura de los estatutos. Ahora mismo, siendo socio único, excluirlo es gratis y trivial. Con inversores dentro, es prácticamente imposible.
+
+---
+
+### 8. Los productos de stock y el riesgo de que las claims de marketing los reclasifiquen como sanitarios
+
+**Tu aclaración, y por qué no cierra del todo la pregunta:** me confirmas que los productos en stock (Deep 5, Bioregén 7, Biospectrum, Panel Core, línea Spiro) se venden como productos de bienestar de consumo, no como productos sanitarios — de acuerdo, y así se van a comercializar. Pero el Reglamento (UE) 2017/745 no clasifica un producto por cómo lo etiqueta el fabricante, sino **por la finalidad que le atribuyen las comunicaciones sobre él** — y el contenido de marketing de EKIO (ebooks, newsletters) sí incluye referencias a mecanismos científicos de fotobiomodulación, con citas de estudios y descripciones de efectos terapéuticos o de recuperación tisular.
+
+**Pregunta:** *"Los productos en sí se venden como bienestar, no como sanitarios. Pero dado que el contenido de marketing hace afirmaciones sobre mecanismos y efectos terapéuticos citando estudios científicos, **¿dónde está exactamente la línea entre comunicación educativa legítima y una claim que activa la reclasificación como producto sanitario** bajo el MDR? ¿Debería revisar el contenido existente con este criterio antes de que lo haga un inversor en due diligence?"*
+
+> **Por qué se mantiene, aunque reformulada:** no es que el producto sea sanitario — es que las palabras que se usan para venderlo pueden convertirlo en tal, con independencia de la intención comercial. Es una pregunta de bajo coste para Sara y de alto valor si algún día un inversor institucional del sector salud mira el marketing con lupa.
+
+---
+
+# YA RESUELTOS EN LA PRÁCTICA — SOLO FORMALIZAR BIEN
+
+### 9. Contrato de distribución con Noxtak: mecánica del cambio de titular
+
+**Confirmado por Javier:** el cambio de titular del contrato con Noxtak es sencillo — no hay problema de fondo.
+
+**Pregunta (rápida, de formalización):** *"Para dejarlo impecable de cara a un futuro inversor: ¿cuál es la vía más limpia — novación del contrato, endoso, o simple comunicación y nuevo contrato con la sociedad? ¿Conviene tenerlo formalizado antes de firmar la escritura, o puede hacerse después sin problema, dado que el stock de Spiro (≈18.800 €) ya se está aportando?"*
+
+---
+
+### 10. Cesión del arrendamiento del local: mecánica, no viabilidad
+
+**Confirmado por Javier:** la cesión del contrato de arrendamiento es posible, el arrendador no pone problema.
+
+**Pregunta (rápida, de formalización):** *"Aunque el arrendador esté de acuerdo, el art. 32 LAU le da derecho a subir la renta un 20 % en caso de cesión, con independencia de su buena disposición. **¿Hay alguna fórmula que evite activar ese derecho** —por ejemplo, resolver el contrato actual y firmar uno nuevo directamente con la sociedad, en vez de una cesión formal— o es indiferente porque ya está aceptado sin fricción?"*
+
+---
+
 # BLOQUE B — COHERENCIA INTERNA DE LA APORTACIÓN
 
-### 9. "Totalidad del patrimonio empresarial" + tres exclusiones: ¿es coherente?
+### 11. "Totalidad del patrimonio empresarial" + tres exclusiones: ¿es coherente?
 
 **Lo que dice:** *"Los bienes inventariados constituyen la **totalidad** de su patrimonio empresarial"*, y a la vez se excluyen la marca EkoWifi, el préstamo con aval de Iberaval y el reintegro de la subvención.
 
@@ -121,7 +143,7 @@ Estos son **errores materiales evidentes** ya detectados. No gastes tiempo de la
 
 ---
 
-### 10. La cláusula d) de asunción de deudas: ¿anula las exclusiones?
+### 12. La cláusula d) de asunción de deudas: ¿anula las exclusiones?
 
 **Lo que dice la cláusula d):** *"La presente aportación comprende, asimismo, los pagos, gastos, cargas, **deudas**, contribuciones, y **obligaciones de cualquier género** que deriven de la titularidad de la empresa transmitida, todas las cuales **asume expresamente la sociedad**"*.
 
@@ -129,7 +151,7 @@ Estos son **errores materiales evidentes** ya detectados. No gastes tiempo de la
 
 ---
 
-### 11. El balance de situación: ¿de qué fecha, y con qué contabilidad?
+### 13. El balance de situación: ¿de qué fecha, y con qué contabilidad?
 
 **Lo que dice:** *"El compareciente me entrega balance de situación **a fecha \*** para que una, como hago, a la presente."* — Fecha pendiente de rellenar.
 
@@ -139,7 +161,7 @@ Estos son **errores materiales evidentes** ya detectados. No gastes tiempo de la
 
 ---
 
-### 12. La base de datos: la fórmula propuesta
+### 14. La base de datos: la fórmula propuesta
 
 **El contexto:** el notario planteó que, al aportarse "la totalidad del negocio", las bases de datos deben quedar incluidas. Hemos propuesto incluirlas **descriptivamente, sin valor individualizado**, con esta cláusula:
 
@@ -151,17 +173,7 @@ Estos son **errores materiales evidentes** ya detectados. No gastes tiempo de la
 
 # BLOQUE C — ESTATUTOS: LO QUE FALTA PARA UNA SOCIEDAD QUE VA A RECIBIR INVERSIÓN
 
-### 13. Art. 348 bis LSC: no está excluido — riesgo real para una sociedad que reinvierte
-
-**Lo que falta:** los estatutos regulan el derecho de separación (Art. 30) pero **no excluyen el art. 348 bis LSC**, que permite a un socio separarse —obligando a la sociedad a comprarle sus participaciones— si no se reparte al menos el 25 % de los beneficios durante cinco ejercicios.
-
-**Pregunta:** *"Ekio BioTech va a reinvertir todos sus beneficios durante años, no repartir dividendos. ¿**Conviene excluir estatutariamente el art. 348 bis desde la constitución**? Sé que su exclusión posterior exigiría unanimidad o generaría derecho de separación a quien no vote a favor — ¿es entonces ahora, siendo socio único, el único momento en que puedo hacerlo sin coste?"*
-
-> **Por qué:** este es probablemente el hallazgo más valioso de la relectura de los estatutos. Ahora mismo, siendo socio único, excluirlo es gratis y trivial. Con inversores dentro, es prácticamente imposible.
-
----
-
-### 14. Cláusula de arbitraje de equidad, sin institución ni sede
+### 15. Cláusula de arbitraje de equidad, sin institución ni sede
 
 **Lo que dice el Título IX:** *"Todas las cuestiones societarias litigiosas... se someterán al arbitraje de **Equidad** en la forma que establece la Ley de Arbitraje de 23 de Diciembre de 2003."*
 
@@ -169,7 +181,7 @@ Estos son **errores materiales evidentes** ya detectados. No gastes tiempo de la
 
 ---
 
-### 15. Retribución del administrador y la exclusión de la relación de alta dirección
+### 16. Retribución del administrador y la exclusión de la relación de alta dirección
 
 **Lo que dice el Art. 21:** el cargo *"será retribuido"* con una asignación anual fija a aprobar por la Junta. Y añade: *"Quedan excluidas, en todo caso, **las relaciones de alta dirección**"*.
 
@@ -177,7 +189,7 @@ Estos son **errores materiales evidentes** ya detectados. No gastes tiempo de la
 
 ---
 
-### 16. Facultad de avalar a terceros (Art. 23.j)
+### 17. Facultad de avalar a terceros (Art. 23.j)
 
 **Lo que dice:** el órgano de administración puede *"**avalar y afianzar con los bienes y derechos de la sociedad** toda clase de operaciones financieras o de crédito a favor de la propia sociedad, **de terceras personas, físicas o jurídicas**"*.
 
@@ -185,7 +197,7 @@ Estos son **errores materiales evidentes** ya detectados. No gastes tiempo de la
 
 ---
 
-### 17. Transmisión de participaciones a sociedades del grupo: la redacción es ambigua
+### 18. Transmisión de participaciones a sociedades del grupo: la redacción es ambigua
 
 **Lo que dice el Art. 7.I.A):** *"El socio que se proponga transmitir... a persona que no sea socio, o cónyuge, ascendiente o descendiente de algún socio, **o a favor de sociedades pertenecientes al mismo grupo que la transmitente**, deberá comunicarlo..."*
 
@@ -193,7 +205,7 @@ Estos son **errores materiales evidentes** ya detectados. No gastes tiempo de la
 
 ---
 
-### 18. Clases de participaciones y prestaciones accesorias
+### 19. Clases de participaciones y prestaciones accesorias
 
 **Lo que falta:** los estatutos prevén participaciones todas iguales (Art. 5) y reparto de dividendo estrictamente proporcional (Art. 27). No hay previsión de clases de participaciones ni de prestaciones accesorias.
 
@@ -201,17 +213,7 @@ Estos son **errores materiales evidentes** ya detectados. No gastes tiempo de la
 
 ---
 
-# BLOQUE D — RIESGOS REGULATORIOS Y OPERATIVOS
-
-### 19. ¿Son productos sanitarios? El objeto social no lo delimita
-
-**El contexto:** el objeto social incluye la fabricación y comercialización de *"dispositivos de iluminación y fotobiomodulación, paneles y lámparas de luz terapéutica"* destinados *"al bienestar de las personas"*. Vendo estos productos con contenido divulgativo sobre sus efectos, y tengo un modelo de utilidad y un PCT en preparación sobre fotobiomodulación.
-
-**Pregunta:** *"En función de la **finalidad que se atribuya al producto**, estos dispositivos podrían quedar bajo el Reglamento (UE) 2017/745 de productos sanitarios, con obligación de marcado CE sanitario. ¿**Cómo de expuesto estoy** con el posicionamiento comercial actual? ¿El objeto social debería delimitar expresamente que no se comercializan como productos sanitarios, o al contrario conviene dejarlo abierto para el futuro? Y de cara a la due diligence: **¿es el estatus regulatorio del producto algo que un inversor va a mirar con lupa**, y cómo me preparo?"*
-
-> **Por qué:** es el riesgo del que menos hemos hablado y potencialmente el mayor. Un inversor institucional en el sector salud/bienestar mira esto antes que el cap table.
-
----
+# BLOQUE D — RIESGOS OPERATIVOS
 
 ### 20. Subrogación del trabajador y el RDL 5/2023
 
@@ -253,25 +255,22 @@ Estos son **errores materiales evidentes** ya detectados. No gastes tiempo de la
 ### 25. La IP dentro de la operativa
 *"El modelo de utilidad y el futuro PCT quedan dentro de la sociedad operativa, expuesta al riesgo de producto y a la dilución. **¿La dejaríais ahí o la subiríais a la holding**? Si recomendáis moverla, ¿ahora o después de la ronda, y a qué coste fiscal?"*
 
-### 26. Encargo completo
-*"Necesito un despacho que me lleve toda la operación: constitución, canje de valores a la holding, preparación de la ronda y pacto de socios. **¿Lo asumiría Garrigues** para un proyecto de mi tamaño, y en qué horquilla de honorarios?"*
-
 ---
 
 ## CHECKLIST — LO QUE DEBO LLEVARME RESUELTO
 
-- [ ] ¿Pido el certificado del art. 175.2 LGT antes de firmar? (P1)
-- [ ] ¿Necesito consentimiento de Noxtak antes de la escritura? (P2)
-- [ ] ¿La cesión del local activa la subida del 20 %? (P3)
-- [ ] ¿Incorporamos memoria de motivo económico válido a la escritura? (P4)
-- [ ] Plazo y forma exactos de la comunicación a la AEAT (P5)
-- [ ] ¿Matizamos la manifestación de "libre de cargas"? (P6)
-- [ ] ¿Cambiamos el CNAE 2611? (P7)
-- [ ] ¿Excluimos el art. 348 bis LSC ahora que soy socio único? (P13)
-- [ ] ¿Cambiamos el arbitraje de equidad? (P14)
-- [ ] ¿Cargo de administrador retribuido o gratuito de partida? (P15)
-- [ ] ¿Addendum de cesión de IP a Cristian antes de firmar? (P21)
-- [ ] ¿Riesgo regulatorio de producto sanitario? (P19)
+- [ ] ¿Pido el certificado del art. 175.2 LGT antes de firmar? (1)
+- [ ] ¿Reforzamos la cláusula de motivo económico + memoria anexa? (2)
+- [ ] Plazo y forma exactos de la comunicación a la AEAT (3)
+- [ ] ¿Matizamos la manifestación de "libre de cargas"? (4)
+- [ ] ¿Cambiamos el CNAE 2611? (5)
+- [ ] Subvenciones Junta CyL: ¿transferibles, y riesgo con el reintegro? (6)
+- [ ] ¿Excluimos el art. 348 bis LSC ahora que soy socio único? (7)
+- [ ] Marketing y riesgo de reclasificación como producto sanitario (8)
+- [ ] Forma de formalizar Noxtak y la cesión del local (9-10)
+- [ ] ¿Cambiamos el arbitraje de equidad? (15)
+- [ ] ¿Cargo de administrador retribuido o gratuito de partida? (16)
+- [ ] ¿Addendum de cesión de IP a Cristian antes de firmar? (21)
 
 ---
 
@@ -284,6 +283,8 @@ Estos son **errores materiales evidentes** ya detectados. No gastes tiempo de la
 - Un trabajador por cuenta ajena (alta enero 2026) + 4 colaboradores que facturan sin contrato mercantil escrito.
 - Financiación objetivo: SODICAL ~200k (Q4 2026), ENISA ~200k (Q1-Q2 2027), ronda de equity privada.
 - Notaría cierra en agosto: presión para firmar antes.
+- Noxtak y cesión de arrendamiento: sin problema de fondo, solo pendiente de formalizar.
+- Productos de stock: posicionados como bienestar de consumo, no sanitarios.
 
 ---
 
