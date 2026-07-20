@@ -3,7 +3,7 @@
 
 > **Documento definitivo para la reunión con Sara García Aldonza (Garrigues Valladolid).** Actualizado el 20/07/2026 con las aclaraciones de Javier: Noxtak y la cesión del arrendamiento están resueltos en la práctica (bajan de prioridad, solo falta formalizarlos bien); los productos de stock no se posicionan como sanitarios (pregunta reformulada); se elimina la pregunta sobre honorarios/encargo completo.
 >
-> **Cómo usarlo:** las **8 primeras son imprescindibles** — si la hora se agota ahí, la reunión habrá valido la pena. El resto está agrupado por bloques temáticos; pasa por ellos según el tiempo que quede. Lleva impresos la escritura, los estatutos y este documento.
+> **Cómo usarlo:** las **9 primeras son imprescindibles** — si la hora se agota ahí, la reunión habrá valido la pena. El resto está agrupado por bloques temáticos; pasa por ellos según el tiempo que quede. Lleva impresos la escritura, los estatutos y este documento.
 
 ---
 
@@ -24,7 +24,7 @@ Estos son **errores materiales evidentes** ya detectados. No gastes tiempo de la
 
 ---
 
-# LAS 8 IMPRESCINDIBLES
+# LAS 9 IMPRESCINDIBLES
 
 ### 1. Responsabilidad por deudas tributarias del negocio: ¿pedimos el certificado del art. 175.2 LGT antes de firmar?
 
@@ -38,7 +38,19 @@ Estos son **errores materiales evidentes** ya detectados. No gastes tiempo de la
 
 ---
 
-### 2. Motivo económico válido (art. 89.2 LIS): por qué esto puede costarte dinero años después si no se documenta bien
+### 2. La Holding: ¿cuándo hacemos el canje, y qué hay que preparar ya?
+
+**El plan, tal como está diseñado:** Ekio BioTech se constituye ahora recibiendo mi negocio; después, en una **segunda escritura separada**, aporto el 100 % de las participaciones de Ekio BioTech a una nueva sociedad, Ekio Holdings S.L., mediante canje de valores (art. 80 LIS), quedando yo como socio único de la Holding y la Holding como socia única de BioTech. **Ninguno de los dos borradores que tengo menciona esta segunda operación** — es razonable, porque es un otorgamiento distinto, pero deja varias cosas sin resolver.
+
+**La dependencia de calendario que ya sabemos:** el art. 34 LSC impide transmitir participaciones de una sociedad antes de su inscripción en el Registro Mercantil. El canje no puede firmarse hasta que Ekio BioTech esté inscrita, y esa inscripción, tras la firma, suele tardar varias semanas.
+
+**Pregunta:** *"Con la notaría cerrando en agosto y el filing de la solicitud PCT (tope de prioridad 24/12/2026) pendiente de que Ekio BioTech esté constituida, **¿qué calendario realista tenemos para encadenar las dos escrituras** — firma de BioTech, inscripción, y firma del canje a la Holding? ¿Conviene **preparar ya en paralelo los estatutos de Ekio Holdings** (mismo domicilio en Cubo de Benavente, ¿mismo objeto social o solo de tenencia de participaciones?) para no perder tiempo entre una operación y otra? Sobre el canje en sí, siendo yo socio único al 100 % en ambas sociedades: **¿hace falta informe de experto independiente sobre el valor de las participaciones que aporto**, o al ser una S.L. (no una S.A.) queda dentro del régimen general de aportación no dineraria sin ese requisito? Y **¿debe la memoria de motivo económico válido de la primera operación (pregunta 3) mencionar ya expresamente esta segunda operación prevista**, para que ambas se entiendan como un plan de reestructuración único y coherente, o es mejor documentarlas por separado?"*
+
+> **Por qué merece estar entre las imprescindibles:** es la pieza central de toda la arquitectura societaria — sin el canje a tiempo, los inversores entrarían directamente en BioTech en vez de en la Holding, deshaciendo el diseño pensado para aislar riesgos y preparar futuras líneas de negocio (como la marca EkoWifi, ya reservada para una sociedad hermana). Y hay una dependencia de calendario real —inscripción + notaría cerrada en agosto + tope PCT— que conviene planificar ahora, no descubrir tarde. Relacionada con la pregunta 19 (ambigüedad de la cláusula de transmisión a sociedades del grupo en los estatutos de BioTech).
+
+---
+
+### 3. Motivo económico válido (art. 89.2 LIS): por qué esto puede costarte dinero años después si no se documenta bien
 
 **Qué es, en términos llanos:** el régimen de neutralidad fiscal (FEAC) existe para que reorganizar una empresa —fusionarla, aportarla, cambiarla de forma— no tenga coste fiscal inmediato, **siempre que la razón de fondo sea empresarial y no fiscal**. La ley incluye una cláusula antiabuso (art. 89.2 LIS): si Hacienda concluye que el objetivo principal (o uno de los principales) de la operación era **eludir o diferir impuestos** en vez de una razón económica real, puede **negar todo el régimen con carácter retroactivo** — años después, en una inspección.
 
@@ -52,7 +64,7 @@ Estos son **errores materiales evidentes** ya detectados. No gastes tiempo de la
 
 ---
 
-### 3. Comunicación a la AEAT del régimen FEAC: tampoco aparece
+### 4. Comunicación a la AEAT del régimen FEAC: tampoco aparece
 
 **Lo que falta:** la escritura no dice nada sobre la obligación de comunicar la operación a la Administración tributaria para acogerse al régimen.
 
@@ -62,7 +74,7 @@ Estos son **errores materiales evidentes** ya detectados. No gastes tiempo de la
 
 ---
 
-### 4. La manifestación de "libre de toda carga y sin adeudar nada a terceros": ¿es exacta?
+### 5. La manifestación de "libre de toda carga y sin adeudar nada a terceros": ¿es exacta?
 
 **Lo que dice la escritura (apartado TÍTULO):** manifiesto que los bienes *"me pertenecen por legítimo título, que **el precio de su adquisición está totalmente satisfecho sin adeudar nada a terceros** por tal concepto, que se hallan **libres de toda carga, gravamen, limitación, prohibición, embargo o retención**"*.
 
@@ -74,7 +86,7 @@ Estos son **errores materiales evidentes** ya detectados. No gastes tiempo de la
 
 ---
 
-### 5. Objeto social vs. manifestación de continuidad de actividad, y el CNAE elegido
+### 6. Objeto social vs. manifestación de continuidad de actividad, y el CNAE elegido
 
 **Lo que dicen los documentos:**
 - La cláusula fiscal manifiesta que *"la sociedad continuará el ejercicio de **la misma actividad empresarial** del negocio transmitido"* (base de la no sujeción a IVA).
@@ -87,7 +99,7 @@ Estos son **errores materiales evidentes** ya detectados. No gastes tiempo de la
 
 ---
 
-### 6. Las subvenciones de la Junta de Castilla y León: ¿se pueden transmitir, y qué riesgo hay con el reintegro pendiente?
+### 7. Las subvenciones de la Junta de Castilla y León: ¿se pueden transmitir, y qué riesgo hay con el reintegro pendiente?
 
 **El contexto:** tengo **2 subvenciones concedidas de la Junta de Castilla y León y una tercera en tramitación**, que querría que pasaran a la sociedad. **Ninguna de las tres aparece en la escritura** — ni incluida ni excluida. Al mismo tiempo, tengo una **obligación de reintegro pendiente (7.000 €) con esa misma Junta**, que sí está excluida expresamente.
 
@@ -95,7 +107,7 @@ Estos son **errores materiales evidentes** ya detectados. No gastes tiempo de la
 
 ---
 
-### 7. Art. 348 bis LSC: no está excluido — riesgo real para una sociedad que reinvierte
+### 8. Art. 348 bis LSC: no está excluido — riesgo real para una sociedad que reinvierte
 
 **Lo que falta:** los estatutos regulan el derecho de separación (Art. 30) pero **no excluyen el art. 348 bis LSC**, que permite a un socio separarse —obligando a la sociedad a comprarle sus participaciones— si no se reparte al menos el 25 % de los beneficios durante cinco ejercicios.
 
@@ -105,7 +117,7 @@ Estos son **errores materiales evidentes** ya detectados. No gastes tiempo de la
 
 ---
 
-### 8. Los productos de stock y el riesgo de que las claims de marketing los reclasifiquen como sanitarios
+### 9. Los productos de stock y el riesgo de que las claims de marketing los reclasifiquen como sanitarios
 
 **Tu aclaración, y por qué no cierra del todo la pregunta:** me confirmas que los productos en stock (Deep 5, Bioregén 7, Biospectrum, Panel Core, línea Spiro) se venden como productos de bienestar de consumo, no como productos sanitarios — de acuerdo, y así se van a comercializar. Pero el Reglamento (UE) 2017/745 no clasifica un producto por cómo lo etiqueta el fabricante, sino **por la finalidad que le atribuyen las comunicaciones sobre él** — y el contenido de marketing de EKIO (ebooks, newsletters) sí incluye referencias a mecanismos científicos de fotobiomodulación, con citas de estudios y descripciones de efectos terapéuticos o de recuperación tisular.
 
@@ -117,7 +129,7 @@ Estos son **errores materiales evidentes** ya detectados. No gastes tiempo de la
 
 # YA RESUELTOS EN LA PRÁCTICA — SOLO FORMALIZAR BIEN
 
-### 9. Contrato de distribución con Noxtak: mecánica del cambio de titular
+### 10. Contrato de distribución con Noxtak: mecánica del cambio de titular
 
 **Confirmado por Javier:** el cambio de titular del contrato con Noxtak es sencillo — no hay problema de fondo.
 
@@ -125,7 +137,7 @@ Estos son **errores materiales evidentes** ya detectados. No gastes tiempo de la
 
 ---
 
-### 10. Cesión del arrendamiento del local: mecánica, no viabilidad
+### 11. Cesión del arrendamiento del local: mecánica, no viabilidad
 
 **Confirmado por Javier:** la cesión del contrato de arrendamiento es posible, el arrendador no pone problema.
 
@@ -135,7 +147,7 @@ Estos son **errores materiales evidentes** ya detectados. No gastes tiempo de la
 
 # BLOQUE B — COHERENCIA INTERNA DE LA APORTACIÓN
 
-### 11. "Totalidad del patrimonio empresarial" + tres exclusiones: ¿es coherente?
+### 12. "Totalidad del patrimonio empresarial" + tres exclusiones: ¿es coherente?
 
 **Lo que dice:** *"Los bienes inventariados constituyen la **totalidad** de su patrimonio empresarial"*, y a la vez se excluyen la marca EkoWifi, el préstamo con aval de Iberaval y el reintegro de la subvención.
 
@@ -143,7 +155,7 @@ Estos son **errores materiales evidentes** ya detectados. No gastes tiempo de la
 
 ---
 
-### 12. La cláusula d) de asunción de deudas: ¿anula las exclusiones?
+### 13. La cláusula d) de asunción de deudas: ¿anula las exclusiones?
 
 **Lo que dice la cláusula d):** *"La presente aportación comprende, asimismo, los pagos, gastos, cargas, **deudas**, contribuciones, y **obligaciones de cualquier género** que deriven de la titularidad de la empresa transmitida, todas las cuales **asume expresamente la sociedad**"*.
 
@@ -151,7 +163,7 @@ Estos son **errores materiales evidentes** ya detectados. No gastes tiempo de la
 
 ---
 
-### 13. El balance de situación: ¿de qué fecha, y con qué contabilidad?
+### 14. El balance de situación: ¿de qué fecha, y con qué contabilidad?
 
 **Lo que dice:** *"El compareciente me entrega balance de situación **a fecha \*** para que una, como hago, a la presente."* — Fecha pendiente de rellenar.
 
@@ -161,7 +173,7 @@ Estos son **errores materiales evidentes** ya detectados. No gastes tiempo de la
 
 ---
 
-### 14. La base de datos: la fórmula propuesta
+### 15. La base de datos: la fórmula propuesta
 
 **El contexto:** el notario planteó que, al aportarse "la totalidad del negocio", las bases de datos deben quedar incluidas. Hemos propuesto incluirlas **descriptivamente, sin valor individualizado**, con esta cláusula:
 
@@ -173,7 +185,7 @@ Estos son **errores materiales evidentes** ya detectados. No gastes tiempo de la
 
 # BLOQUE C — ESTATUTOS: LO QUE FALTA PARA UNA SOCIEDAD QUE VA A RECIBIR INVERSIÓN
 
-### 15. Cláusula de arbitraje de equidad, sin institución ni sede
+### 16. Cláusula de arbitraje de equidad, sin institución ni sede
 
 **Lo que dice el Título IX:** *"Todas las cuestiones societarias litigiosas... se someterán al arbitraje de **Equidad** en la forma que establece la Ley de Arbitraje de 23 de Diciembre de 2003."*
 
@@ -181,7 +193,7 @@ Estos son **errores materiales evidentes** ya detectados. No gastes tiempo de la
 
 ---
 
-### 16. Retribución del administrador y la exclusión de la relación de alta dirección
+### 17. Retribución del administrador y la exclusión de la relación de alta dirección
 
 **Lo que dice el Art. 21:** el cargo *"será retribuido"* con una asignación anual fija a aprobar por la Junta. Y añade: *"Quedan excluidas, en todo caso, **las relaciones de alta dirección**"*.
 
@@ -189,7 +201,7 @@ Estos son **errores materiales evidentes** ya detectados. No gastes tiempo de la
 
 ---
 
-### 17. Facultad de avalar a terceros (Art. 23.j)
+### 18. Facultad de avalar a terceros (Art. 23.j)
 
 **Lo que dice:** el órgano de administración puede *"**avalar y afianzar con los bienes y derechos de la sociedad** toda clase de operaciones financieras o de crédito a favor de la propia sociedad, **de terceras personas, físicas o jurídicas**"*.
 
@@ -197,7 +209,7 @@ Estos son **errores materiales evidentes** ya detectados. No gastes tiempo de la
 
 ---
 
-### 18. Transmisión de participaciones a sociedades del grupo: la redacción es ambigua
+### 19. Transmisión de participaciones a sociedades del grupo: la redacción es ambigua
 
 **Lo que dice el Art. 7.I.A):** *"El socio que se proponga transmitir... a persona que no sea socio, o cónyuge, ascendiente o descendiente de algún socio, **o a favor de sociedades pertenecientes al mismo grupo que la transmitente**, deberá comunicarlo..."*
 
@@ -205,7 +217,7 @@ Estos son **errores materiales evidentes** ya detectados. No gastes tiempo de la
 
 ---
 
-### 19. Clases de participaciones y prestaciones accesorias
+### 20. Clases de participaciones y prestaciones accesorias
 
 **Lo que falta:** los estatutos prevén participaciones todas iguales (Art. 5) y reparto de dividendo estrictamente proporcional (Art. 27). No hay previsión de clases de participaciones ni de prestaciones accesorias.
 
@@ -215,7 +227,7 @@ Estos son **errores materiales evidentes** ya detectados. No gastes tiempo de la
 
 # BLOQUE D — RIESGOS OPERATIVOS
 
-### 20. Subrogación del trabajador y el RDL 5/2023
+### 21. Subrogación del trabajador y el RDL 5/2023
 
 **El contexto:** aporto el negocio con un trabajador (alta enero 2026) que se subroga ex art. 44 ET. El propio oficial de la notaría marcó este punto con asterisco, indicando que quería verificar si el **RDL 5/2023 de modificaciones estructurales** impone trámites adicionales asimilables a los de una fusión.
 
@@ -223,7 +235,7 @@ Estos son **errores materiales evidentes** ya detectados. No gastes tiempo de la
 
 ---
 
-### 21. Titularidad del software: art. 66 LSC y due diligence
+### 22. Titularidad del software: art. 66 LSC y due diligence
 
 **El contexto:** el software (EKIO Coach, EKIO APP) lo desarrollamos mi empleado Cristian —cuyo contrato **no incluye cláusula de cesión de derechos de propiedad intelectual**— y yo. Y hay una aplicación con IA en desarrollo con **AIR Institute**, con contrato de por medio.
 
@@ -231,7 +243,7 @@ Estos son **errores materiales evidentes** ya detectados. No gastes tiempo de la
 
 ---
 
-### 22. Declaración de titularidad real y libros
+### 23. Declaración de titularidad real y libros
 
 **Lo que falta:** la escritura no incluye acta o manifestación de titularidad real (Ley 10/2010 de prevención del blanqueo).
 
@@ -239,7 +251,7 @@ Estos son **errores materiales evidentes** ya detectados. No gastes tiempo de la
 
 ---
 
-### 23. La sociedad nace sin tesorería
+### 24. La sociedad nace sin tesorería
 
 **El contexto:** el capital y la prima (55.076 €) se desembolsan **íntegramente mediante aportación no dineraria**. La sociedad no recibe ni un euro de caja, y mi tesorería personal actual es prácticamente cero.
 
@@ -249,10 +261,10 @@ Estos son **errores materiales evidentes** ya detectados. No gastes tiempo de la
 
 # BLOQUE E — SI QUEDA TIEMPO
 
-### 24. Empresa Emergente (Ley 28/2022)
+### 25. Empresa Emergente (Ley 28/2022)
 *"¿La constitución mediante aportación de mi negocio de autónomo **me descalifica** para la certificación ENISA de empresa emergente, por tratarse de una operación de reestructuración? Si es así, ¿hay margen de estructuración para conservarla?"*
 
-### 25. La IP dentro de la operativa
+### 26. La IP dentro de la operativa
 *"El modelo de utilidad y el futuro PCT quedan dentro de la sociedad operativa, expuesta al riesgo de producto y a la dilución. **¿La dejaríais ahí o la subiríais a la holding**? Si recomendáis moverla, ¿ahora o después de la ronda, y a qué coste fiscal?"*
 
 ---
@@ -260,17 +272,18 @@ Estos son **errores materiales evidentes** ya detectados. No gastes tiempo de la
 ## CHECKLIST — LO QUE DEBO LLEVARME RESUELTO
 
 - [ ] ¿Pido el certificado del art. 175.2 LGT antes de firmar? (1)
-- [ ] ¿Reforzamos la cláusula de motivo económico + memoria anexa? (2)
-- [ ] Plazo y forma exactos de la comunicación a la AEAT (3)
-- [ ] ¿Matizamos la manifestación de "libre de cargas"? (4)
-- [ ] ¿Cambiamos el CNAE 2611? (5)
-- [ ] Subvenciones Junta CyL: ¿transferibles, y riesgo con el reintegro? (6)
-- [ ] ¿Excluimos el art. 348 bis LSC ahora que soy socio único? (7)
-- [ ] Marketing y riesgo de reclasificación como producto sanitario (8)
-- [ ] Forma de formalizar Noxtak y la cesión del local (9-10)
-- [ ] ¿Cambiamos el arbitraje de equidad? (15)
-- [ ] ¿Cargo de administrador retribuido o gratuito de partida? (16)
-- [ ] ¿Addendum de cesión de IP a Cristian antes de firmar? (21)
+- [ ] Calendario del canje a la Holding: ¿preparamos ya los estatutos de Ekio Holdings en paralelo? (2)
+- [ ] ¿Reforzamos la cláusula de motivo económico + memoria anexa? (3)
+- [ ] Plazo y forma exactos de la comunicación a la AEAT (4)
+- [ ] ¿Matizamos la manifestación de "libre de cargas"? (5)
+- [ ] ¿Cambiamos el CNAE 2611? (6)
+- [ ] Subvenciones Junta CyL: ¿transferibles, y riesgo con el reintegro? (7)
+- [ ] ¿Excluimos el art. 348 bis LSC ahora que soy socio único? (8)
+- [ ] Marketing y riesgo de reclasificación como producto sanitario (9)
+- [ ] Forma de formalizar Noxtak y la cesión del local (10-11)
+- [ ] ¿Cambiamos el arbitraje de equidad? (16)
+- [ ] ¿Cargo de administrador retribuido o gratuito de partida? (17)
+- [ ] ¿Addendum de cesión de IP a Cristian antes de firmar? (22)
 
 ---
 
@@ -290,4 +303,4 @@ Estos son **errores materiales evidentes** ya detectados. No gastes tiempo de la
 
 ## ADVERTENCIA
 
-Documento de preparación. Las respuestas de Garrigues son las que tienen valor profesional; este guion solo ordena las preguntas y señala los puntos detectados en la revisión de los borradores. Anota literalmente lo que diga Sara en las preguntas 1 a 8.
+Documento de preparación. Las respuestas de Garrigues son las que tienen valor profesional; este guion solo ordena las preguntas y señala los puntos detectados en la revisión de los borradores. Anota literalmente lo que diga Sara en las preguntas 1 a 9.
