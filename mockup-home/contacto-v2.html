@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Contacto — Habla con una persona, no con un bot | EKIO Electrosmog</title>
-<meta name="description" content="Escríbenos por WhatsApp, agenda una llamada gratuita o resuelve tu duda al momento con nuestros tests. En EKIO te responde una persona real — normalmente en menos de 24h.">
+<meta name="description" content="Escríbenos por WhatsApp, llámanos directamente o visita nuestro Oasis Electromagnético en Valladolid. En EKIO te responde una persona real — normalmente en menos de 24h.">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -19,14 +19,20 @@
     {
       "@type": "ContactPage",
       "name": "Contacto EKIO Electrosmog España",
-      "description": "Canales de contacto de EKIO Electrosmog España: WhatsApp, llamada telefónica gratuita, email y tests de autodiagnóstico."
+      "description": "Canales de contacto de EKIO Electrosmog España: WhatsApp, teléfono directo, email, y visita presencial al Oasis Electromagnético de Valladolid."
+    },
+    {
+      "@type": "LocalBusiness",
+      "name": "EKIO Electrosmog España — Oasis Electromagnético",
+      "description": "Tienda y oficinas de EKIO Electrosmog España. Espacio de exposición y asesoramiento sobre protección electromagnética y terapia de luz roja, único en el mundo.",
+      "address": {"@type": "PostalAddress", "streetAddress": "Avenida de Palencia 16", "postalCode": "47011", "addressLocality": "Valladolid", "addressCountry": "ES"}
     },
     {
       "@type": "FAQPage",
       "mainEntity": [
-        {"@type": "Question", "name": "¿Cuánto tardáis en responder?", "acceptedAnswer": {"@type": "Answer", "text": "Por WhatsApp, normalmente en el mismo día laborable. Por email, en menos de 24 horas laborables. Las llamadas agendadas se confirman en menos de 2 horas."}},
-        {"@type": "Question", "name": "¿Puedo hablar por teléfono antes de comprar?", "acceptedAnswer": {"@type": "Answer", "text": "Sí. Puedes agendar una llamada gratuita de 15 minutos sin compromiso para resolver dudas sobre qué producto necesitas, antes de decidir."}},
-        {"@type": "Question", "name": "¿Tenéis tienda física?", "acceptedAnswer": {"@type": "Answer", "text": "No, EKIO Electrosmog España opera 100% online, con envío 24/48h a toda España y asesoramiento personalizado por teléfono, WhatsApp y email."}}
+        {"@type": "Question", "name": "¿Cuánto tardáis en responder?", "acceptedAnswer": {"@type": "Answer", "text": "Por WhatsApp, normalmente en el mismo día laborable. Por email, en menos de 24 horas laborables. Y por teléfono, al momento en horario de atención."}},
+        {"@type": "Question", "name": "¿Puedo hablar por teléfono antes de comprar?", "acceptedAnswer": {"@type": "Answer", "text": "Sí. Puedes llamarnos directamente, sin cita previa ni compromiso, para resolver dudas sobre qué producto necesitas antes de decidir."}},
+        {"@type": "Question", "name": "¿Tenéis tienda física?", "acceptedAnswer": {"@type": "Answer", "text": "Sí. Puedes visitarnos en nuestro Oasis Electromagnético, tienda y oficinas de EKIO en Avenida de Palencia 16, 47011 Valladolid — un espacio único en el mundo pensado para que sientas la diferencia antes de decidir."}}
       ]
     }
   ]
@@ -76,8 +82,9 @@
   .hero-team .avatar{width:38px;height:38px;border-radius:50%;background:var(--amber);color:var(--navy-dark);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:14px}
 
   /* CANALES */
-  .channels{display:grid;gap:16px;margin-top:8px}
-  @media(min-width:760px){.channels{grid-template-columns:repeat(3,1fr)}}
+  .channels{display:grid;gap:16px;margin-top:8px;grid-template-columns:1fr}
+  @media(min-width:640px){.channels{grid-template-columns:repeat(2,1fr)}}
+  @media(min-width:980px){.channels{grid-template-columns:repeat(4,1fr)}}
   .channel{background:#fff;border:1.5px solid var(--line);border-radius:16px;padding:26px 22px;text-align:left;display:flex;flex-direction:column}
   .channel.featured{border-color:var(--whatsapp);box-shadow:0 8px 26px rgba(37,211,102,.14)}
   .channel .ic{font-size:30px;margin-bottom:12px}
@@ -186,10 +193,10 @@
       </div>
       <div class="channel">
         <div class="ic">📞</div>
-        <h3>Llamada gratuita de 15 min</h3>
-        <p>¿Prefieres que te lo expliquen en voz? Agenda una llamada sin compromiso — ideal si dudas entre dos productos o tienes un caso particular.</p>
-        <a class="btn btn-primary" href="#" onclick="alert('→ Abrir calendario de reservas (Calendly)');return false;">AGENDAR MI LLAMADA →</a>
-        <p class="meta">✓ Confirmación en menos de 2h</p>
+        <h3>Llámanos directamente</h3>
+        <p>Sin cita previa, sin formularios: marca y habla con nosotros. Ideal si dudas entre dos productos o tienes un caso particular que prefieres contar en voz.</p>
+        <a class="btn btn-primary" href="tel:+34XXXXXXXXX">[TELÉFONO EKIO] →</a>
+        <p class="meta">✓ Al momento, en horario de atención</p>
       </div>
       <div class="channel">
         <div class="ic">✉️</div>
@@ -198,6 +205,35 @@
         <a class="btn btn-ghost" href="#formulario">IR AL FORMULARIO ↓</a>
         <p class="meta">✓ Respuesta en menos de 24h laborables</p>
       </div>
+      <div class="channel">
+        <div class="ic">📍</div>
+        <h3>Visítanos en persona</h3>
+        <p>Nuestro <b>Oasis Electromagnético</b> — tienda y oficinas de EKIO en Valladolid. Un espacio único en el mundo para sentir la diferencia antes de decidir.</p>
+        <a class="btn btn-ghost" href="#visita">VER DIRECCIÓN Y HORARIO ↓</a>
+        <p class="meta">✓ Avenida de Palencia 16, Valladolid</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- OASIS ELECTROMAGNÉTICO -->
+<section id="visita" style="background:linear-gradient(135deg,var(--navy-dark),var(--navy));color:#fff">
+  <div class="wrap" style="display:grid;gap:32px;align-items:center;grid-template-columns:1fr">
+    <div>
+      <p class="kicker" style="color:var(--amber)">Único en el mundo</p>
+      <h2 style="color:#fff">El Oasis Electromagnético</h2>
+      <p style="color:#d8c2bc;max-width:62ch;font-size:16px">No es una tienda al uso: es el único espacio del mundo pensado desde cero para que sientas, en tu propio cuerpo, la diferencia entre un entorno con electrosmog y uno protegido con SPIRO®. Toca los filtros, prueba los paneles Ekio Light y resuelve tus dudas cara a cara con el equipo que hay detrás de la marca.</p>
+      <div style="display:flex;flex-wrap:wrap;gap:24px;margin-top:24px">
+        <div><p style="font-size:12px;letter-spacing:.08em;color:var(--amber);font-weight:800;margin-bottom:4px">DIRECCIÓN</p><p style="font-size:15px">Avenida de Palencia 16<br>47011 Valladolid</p></div>
+        <div><p style="font-size:12px;letter-spacing:.08em;color:var(--amber);font-weight:800;margin-bottom:4px">HORARIO</p><p style="font-size:15px">Lunes a viernes<br>[HORARIO OASIS] — [confirmar con Cristian]</p></div>
+      </div>
+      <div style="margin-top:24px;display:flex;flex-wrap:wrap;gap:12px">
+        <a class="btn btn-amber" href="https://maps.google.com/?q=Avenida+de+Palencia+16,+47011+Valladolid" target="_blank" rel="noopener">CÓMO LLEGAR →</a>
+        <a class="btn btn-ghost" style="color:#fff;border-color:rgba(255,255,255,.5)" href="tel:+34XXXXXXXXX">LLAMAR ANTES DE IR</a>
+      </div>
+    </div>
+    <div style="background:rgba(255,255,255,.06);border:1px dashed rgba(255,255,255,.3);border-radius:16px;min-height:200px;display:flex;align-items:center;justify-content:center;text-align:center;padding:20px;font-size:13px;color:#d8c2bc">
+      📷 FOTO/MAPA: fachada u interior real del Oasis Electromagnético + mapa embebido de Google Maps con la ubicación.
     </div>
   </div>
 </section>
@@ -282,7 +318,7 @@
 <section style="background:var(--bg-soft)">
   <div class="wrap practical">
     <div><div class="ic">🕐</div><h3>Horario de atención</h3><p>Lunes a viernes, 9:00–18:00 (horario peninsular). WhatsApp y email también fuera de horario — se responde el siguiente día laborable.</p></div>
-    <div><div class="ic">🇪🇸</div><h3>100% online, envíos a toda España</h3><p>No tenemos tienda física, pero cada pedido sale en 24/48h desde España con seguimiento.</p></div>
+    <div><div class="ic">🇪🇸</div><h3>Envíos a toda España</h3><p>Compres online o en el Oasis Electromagnético de Valladolid, cada pedido sale en 24/48h con seguimiento.</p></div>
     <div><div class="ic">↩️</div><h3>¿Dudas sobre una devolución?</h3><p>90 días en SPIRO® y 30 días en Ekio Light. Cuéntanoslo por cualquier canal — lo gestionamos sin complicarte la vida.</p></div>
   </div>
 </section>
@@ -291,9 +327,9 @@
 <section class="faq">
   <div class="wrap" style="max-width:760px">
     <h2>Antes de escribirnos, quizá esto ya responde tu duda</h2>
-    <details><summary>¿Cuánto tardáis en responder?</summary><p>Por WhatsApp, normalmente el mismo día laborable. Por email, menos de 24 horas laborables. Las llamadas agendadas se confirman en menos de 2 horas.</p></details>
-    <details><summary>¿Puedo hablar por teléfono antes de comprar?</summary><p>Sí, y te lo recomendamos si dudas entre dos productos. Agenda una llamada gratuita de 15 minutos sin ningún compromiso de compra.</p></details>
-    <details><summary>¿Tenéis tienda física?</summary><p>No. EKIO Electrosmog España opera 100% online, con envío 24/48h a toda España y el mismo asesoramiento personalizado que tendrías en una tienda, por teléfono, WhatsApp o email.</p></details>
+    <details><summary>¿Cuánto tardáis en responder?</summary><p>Por WhatsApp, normalmente el mismo día laborable. Por email, menos de 24 horas laborables. Y por teléfono, al momento en horario de atención.</p></details>
+    <details><summary>¿Puedo hablar por teléfono antes de comprar?</summary><p>Sí, y te lo recomendamos si dudas entre dos productos. Llámanos directamente, sin cita previa ni compromiso de compra.</p></details>
+    <details><summary>¿Tenéis tienda física?</summary><p>Sí. Puedes visitarnos en nuestro <b>Oasis Electromagnético</b>, tienda y oficinas de EKIO en Avenida de Palencia 16, 47011 Valladolid — un espacio único en el mundo pensado para sentir la diferencia antes de decidir.</p></details>
     <details><summary>¿A quién le escribo si tengo un problema con mi pedido?</summary><p>Al mismo canal que prefieras (WhatsApp, email o llamada) — indícanos el motivo "Ya tengo un pedido" y tu número de pedido si lo tienes a mano, y lo resolvemos directamente.</p></details>
   </div>
 </section>
