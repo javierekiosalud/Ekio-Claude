@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>¿Qué SPIRO necesito? Test de 2 minutos | EKIO</title>
-<meta name="description" content="Responde 5 preguntas y descubre exactamente qué filtros electromagnéticos SPIRO necesita tu casa — sin comprar de más. Gratis, 2 minutos, con tu plan personalizado.">
+<title>¿Qué SPIRO necesito? Descubre tu plan de protección | EKIO</title>
+<meta name="description" content="Dos formas de saber qué necesita tu casa: el Estudio Electromagnético del Hogar (completo, con mapa por estancias) o el test rápido de 2 minutos. Gratis, sin compromiso, con precios reales.">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -18,8 +18,15 @@
     },
     {
       "@type": "WebPage",
-      "name": "¿Qué SPIRO necesito? — Test recomendador de EKIO",
-      "description": "Test gratuito de 5 preguntas que calcula el plan de protección electromagnética exacto para cada hogar: SPIRO Cards por persona, filtro de espacio y electricidad sucia."
+      "name": "¿Qué SPIRO necesito? — Encuentra tu plan de protección electromagnética",
+      "description": "Dos herramientas gratuitas de EKIO para saber qué necesita tu hogar: el Estudio Electromagnético del Hogar (análisis completo por estancias con plan de protección) y el test exprés de 5 preguntas que recomienda filtros SPIRO al momento."
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "¿Cuál es la diferencia entre el Estudio del Hogar y el test rápido?", "acceptedAnswer": {"@type": "Answer", "text": "El Estudio Electromagnético del Hogar analiza tu vivienda completa —habitantes, dormitorio, entorno, hábitos e instalación eléctrica— y te da una puntuación, un mapa estancia por estancia y un plan de protección con precios reales; tarda unos 3 minutos. El test rápido de esta misma página se centra solo en qué filtros SPIRO necesitas (Cards, Disc, Square, Stroom Master) y tarda 2 minutos. Si quieres el diagnóstico más completo, empieza por el Estudio; si ya sabes que quieres SPIRO y solo necesitas la cantidad exacta, el test rápido es más directo."}},
+        {"@type": "Question", "name": "¿Los dos test son gratuitos?", "acceptedAnswer": {"@type": "Answer", "text": "Sí, los dos son gratuitos y sin compromiso de compra. Al terminar cualquiera de los dos recibes tu plan personalizado con precios reales del catálogo SPIRO."}}
+      ]
     }
   ]
 }
@@ -59,6 +66,27 @@
   .intro p{color:var(--gray);max-width:52ch;margin:14px auto 0;font-size:16px}
   .meta-chips{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:13px;font-weight:700;color:var(--navy)}
   .meta-chips span{background:#fff;border:1px solid var(--line);border-radius:99px;padding:7px 14px}
+
+  /* PATHS (elige tu camino) */
+  .paths{display:grid;gap:16px;margin:8px 0 40px}
+  @media(min-width:700px){.paths{grid-template-columns:1.15fr 1fr;align-items:stretch}}
+  .path{border-radius:18px;padding:26px 24px;display:flex;flex-direction:column;text-align:left}
+  .path-study{background:linear-gradient(135deg,var(--navy-dark),var(--navy));color:#fff;box-shadow:0 10px 32px rgba(19,47,78,.22)}
+  .path-quick{background:#fff;border:1.5px solid var(--line)}
+  .path .tag{display:inline-block;font-size:11px;font-weight:800;letter-spacing:.06em;padding:4px 10px;border-radius:99px;margin-bottom:12px;width:fit-content}
+  .path-study .tag{background:var(--amber);color:var(--navy-dark)}
+  .path-quick .tag{background:var(--bg-soft);color:var(--navy)}
+  .path h3{font-size:20px;margin-bottom:8px}
+  .path p{font-size:14px;margin-bottom:14px}
+  .path-study p{color:#d6dee8}
+  .path-quick p{color:var(--gray)}
+  .path ul{list-style:none;font-size:13px;margin-bottom:18px}
+  .path-study ul{color:#d6dee8}
+  .path-quick ul{color:var(--gray)}
+  .path li{padding:3px 0}
+  .path .btn{margin-top:auto;width:100%}
+
+  .or-divider{text-align:center;color:var(--gray);font-size:13px;font-weight:700;letter-spacing:.06em;margin:0 0 24px}
 
   /* QUIZ CARD */
   .quiz-card{background:#fff;border:1px solid var(--line);border-radius:18px;padding:28px 24px;margin:10px 0 50px;box-shadow:0 8px 30px rgba(19,47,78,.08)}
@@ -113,7 +141,7 @@
 <body>
 <div class="maqueta-tag">MAQUETA TEST SPIRO — 07/2026</div>
 
-<div class="bar">✓ GRATIS · 2 MINUTOS · TU PLAN DE PROTECCIÓN PERSONALIZADO</div>
+<div class="bar">✓ GRATIS · SIN COMPROMISO · PLAN PERSONALIZADO CON PRECIOS REALES</div>
 
 <header>
   <div class="nav">
@@ -131,14 +159,42 @@
 
 <!-- INTRO -->
 <div class="wrap intro" id="intro">
-  <p class="kicker">El test de EKIO</p>
-  <h1>¿Qué SPIRO necesita tu casa?</h1>
-  <p>Cada hogar es distinto: personas, móviles, Wi-Fi, metros, instalación. Responde <b>5 preguntas</b> y te decimos exactamente qué filtros necesitas — <b>sin comprar de más</b>.</p>
-  <div class="meta-chips"><span>⏱️ 2 minutos</span><span>🎯 Plan priorizado</span><span>💶 Con precios exactos</span><span>🤝 Sin compromiso</span></div>
+  <p class="kicker">Dos caminos, un mismo objetivo</p>
+  <h1>¿Qué necesita tu casa para dejar de exponerte?</h1>
+  <p>Cada hogar es distinto: personas, móviles, Wi-Fi, metros, instalación eléctrica. Elige cómo quieres averiguarlo — un <b>estudio completo de toda la casa</b> o un <b>test exprés</b> centrado solo en SPIRO — y en unos minutos tienes tu plan, <b>sin comprar de más</b>.</p>
+</div>
+
+<!-- ELIGE TU CAMINO -->
+<div class="wrap">
+  <div class="paths">
+    <div class="path path-study">
+      <span class="tag">⭐ RECOMENDADO · EL MÁS COMPLETO</span>
+      <h3>Estudio Electromagnético del Hogar</h3>
+      <p>El análisis completo de tu vivienda: habitantes, dormitorio, entorno, hábitos e instalación eléctrica. Recibes tu puntuación, un <b style="color:#fff">mapa de tu casa estancia por estancia</b> y un plan de protección con precios reales.</p>
+      <ul>
+        <li>⏱️ 3 minutos</li>
+        <li>🗺️ Mapa de la casa por estancias</li>
+        <li>🎁 Regalo exclusivo al terminar</li>
+      </ul>
+      <a class="btn btn-amber" href="https://recursos-web-ekio.vercel.app/" target="_blank" rel="noopener">HACER MI ESTUDIO GRATIS →</a>
+    </div>
+    <div class="path path-quick">
+      <span class="tag">RÁPIDO · SOLO SPIRO</span>
+      <h3>Test exprés de SPIRO</h3>
+      <p>Si ya sabes que quieres protegerte con SPIRO y solo necesitas saber la cantidad exacta: 5 preguntas y tu plan de filtros, aquí mismo, en esta página.</p>
+      <ul>
+        <li>⏱️ 2 minutos</li>
+        <li>🎯 Cards, Disc, Square y Stroom Master</li>
+        <li>💶 Con precios exactos</li>
+      </ul>
+      <a class="btn btn-ghost" href="#quiz-rapido">HACER EL TEST RÁPIDO ↓</a>
+    </div>
+  </div>
 </div>
 
 <!-- QUIZ -->
-<div class="wrap">
+<div class="wrap" id="quiz-rapido">
+  <p class="or-divider">— TEST RÁPIDO DE SPIRO —</p>
   <div class="quiz-card">
     <div class="progress"><div id="pbar"></div></div>
     <p class="pstep" id="pstep">PREGUNTA 1 DE 5</p>
@@ -238,8 +294,8 @@
 </div>
 
 <footer>
-  MAQUETA — el test vive en /pages/que-spiro-necesito (o como app propia cuando esté lista; se cambia el destino y nada más).<br>
-  Lógica: regla base EKIO (1 Card/persona + filtro de espacio + electricidad sucia). Generada 6-jul-2026.
+  MAQUETA — página rediseñada 22-jul-2026 con dos caminos: Estudio Electromagnético del Hogar (app en vivo, recursos-web-ekio.vercel.app) como opción recomendada, y el test rápido de SPIRO original como alternativa exprés en la misma página.<br>
+  Lógica del test rápido: regla base EKIO (1 Card/persona + filtro de espacio + electricidad sucia). Generada 6-jul-2026.
 </footer>
 
 <script>
