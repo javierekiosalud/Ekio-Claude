@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contacto — Habla con una persona, no con un bot | EKIO Electrosmog</title>
+<meta name="description" content="Escríbenos por WhatsApp, agenda una llamada gratuita o resuelve tu duda al momento con nuestros tests. En EKIO te responde una persona real — normalmente en menos de 24h.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://electrosmogespana.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Contacto", "item": "https://electrosmogespana.com/pages/contacto"}
+      ]
+    },
+    {
+      "@type": "ContactPage",
+      "name": "Contacto EKIO Electrosmog España",
+      "description": "Canales de contacto de EKIO Electrosmog España: WhatsApp, llamada telefónica gratuita, email y tests de autodiagnóstico."
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "¿Cuánto tardáis en responder?", "acceptedAnswer": {"@type": "Answer", "text": "Por WhatsApp, normalmente en el mismo día laborable. Por email, en menos de 24 horas laborables. Las llamadas agendadas se confirman en menos de 2 horas."}},
+        {"@type": "Question", "name": "¿Puedo hablar por teléfono antes de comprar?", "acceptedAnswer": {"@type": "Answer", "text": "Sí. Puedes agendar una llamada gratuita de 15 minutos sin compromiso para resolver dudas sobre qué producto necesitas, antes de decidir."}},
+        {"@type": "Question", "name": "¿Tenéis tienda física?", "acceptedAnswer": {"@type": "Answer", "text": "No, EKIO Electrosmog España opera 100% online, con envío 24/48h a toda España y asesoramiento personalizado por teléfono, WhatsApp y email."}}
+      ]
+    }
+  ]
+}
+</script>
+<style>
+  :root{
+    --navy:#132f4e; --navy-dark:#0c2038; --amber:#e8a13c; --amber-dark:#c9852a;
+    --ink:#1b2430; --gray:#5c6773; --bg-soft:#f5f7fa; --bg-warm:#faf6ef;
+    --line:#e3e8ee; --star:#f5a623; --ok:#2e8b57; --whatsapp:#25d366;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:#fff;line-height:1.55}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+  h1,h2,h3{line-height:1.2}
+  h2{font-size:clamp(22px,3.6vw,30px);margin-bottom:10px}
+  section{padding:48px 0}
+  .btn{display:inline-block;border:none;cursor:pointer;text-decoration:none;font-weight:700;border-radius:8px;text-align:center}
+  .btn-primary{background:var(--navy);color:#fff;padding:14px 24px;font-size:15px;box-shadow:0 4px 14px rgba(19,47,78,.25)}
+  .btn-primary:hover{background:var(--navy-dark)}
+  .btn-amber{background:var(--amber);color:var(--navy-dark);padding:14px 24px;font-size:15px}
+  .btn-whatsapp{background:var(--whatsapp);color:#fff;padding:14px 24px;font-size:15px}
+  .btn-ghost{background:transparent;color:var(--navy);padding:12px 20px;font-size:14px;border:2px solid var(--navy)}
+  .stars{color:var(--star);letter-spacing:2px}
+  .note{display:inline-block;background:#fff8e6;border:1px dashed var(--amber-dark);color:#7a5b17;font-size:12px;padding:4px 10px;border-radius:6px;margin-top:10px}
+
+  .bar{background:var(--navy-dark);color:#fff;font-size:13px;font-weight:600;letter-spacing:.06em;text-align:center;height:38px;display:flex;align-items:center;justify-content:center}
+
+  header{position:sticky;top:0;background:#fff;border-bottom:1px solid var(--line);z-index:50}
+  .nav{display:flex;align-items:center;justify-content:space-between;height:62px}
+  .logo{font-weight:900;font-size:24px;letter-spacing:.05em;color:var(--ink);text-decoration:none}
+  .logo small{display:block;font-size:8px;letter-spacing:.42em;font-weight:600;color:var(--gray)}
+  .menu{display:none;gap:26px;font-size:14px;font-weight:600}
+  .menu a{color:var(--ink);text-decoration:none}
+  .menu a.hl{color:var(--amber-dark);border-bottom:2.5px solid var(--amber)}
+  .nav-icons{display:flex;gap:16px;font-size:20px}
+  .burger{font-size:24px;background:none;border:none;cursor:pointer}
+  @media(min-width:880px){.menu{display:flex}.burger{display:none}}
+  .crumbs{font-size:13px;color:var(--gray);padding:14px 0}
+  .crumbs a{color:var(--gray)}
+
+  /* HERO */
+  .hero{background:linear-gradient(135deg,var(--navy-dark),var(--navy));color:#fff;text-align:center}
+  .hero h1{font-size:clamp(28px,4.6vw,42px);font-weight:850;max-width:16ch;margin:0 auto}
+  .hero p{color:#d8c2bc;max-width:56ch;margin:16px auto 0;font-size:16.5px}
+  .hero-team{display:flex;align-items:center;justify-content:center;gap:10px;margin-top:22px;font-size:14px;color:#fff}
+  .hero-team .avatar{width:38px;height:38px;border-radius:50%;background:var(--amber);color:var(--navy-dark);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:14px}
+
+  /* CANALES */
+  .channels{display:grid;gap:16px;margin-top:8px}
+  @media(min-width:760px){.channels{grid-template-columns:repeat(3,1fr)}}
+  .channel{background:#fff;border:1.5px solid var(--line);border-radius:16px;padding:26px 22px;text-align:left;display:flex;flex-direction:column}
+  .channel.featured{border-color:var(--whatsapp);box-shadow:0 8px 26px rgba(37,211,102,.14)}
+  .channel .ic{font-size:30px;margin-bottom:12px}
+  .channel h3{font-size:17px;margin-bottom:6px}
+  .channel p{font-size:14px;color:var(--gray);margin-bottom:16px;flex:1}
+  .channel .btn{width:100%}
+  .channel .meta{font-size:12px;color:var(--ok);font-weight:700;margin-top:10px}
+
+  /* ROUTING */
+  .routing{background:var(--bg-soft)}
+  .route-grid{display:grid;gap:12px;margin-top:20px}
+  @media(min-width:700px){.route-grid{grid-template-columns:repeat(2,1fr)}}
+  .route{background:#fff;border:1px solid var(--line);border-radius:12px;padding:18px 20px;display:flex;align-items:center;gap:14px;text-decoration:none;color:var(--ink);transition:border-color .15s ease}
+  .route:hover{border-color:var(--amber)}
+  .route .ic{font-size:24px}
+  .route h3{font-size:15px}
+  .route p{font-size:12.5px;color:var(--gray);margin-top:2px}
+  .route .arrow{margin-left:auto;color:var(--amber-dark);font-weight:800}
+
+  /* CUIDADO EXTRA */
+  .care{background:var(--bg-warm);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+  .care-box{max-width:760px;margin:0 auto;text-align:center}
+  .care .ic{font-size:36px;margin-bottom:14px}
+  .care h2{font-size:clamp(20px,3.2vw,26px)}
+  .care p{color:var(--gray);font-size:15.5px;margin-top:12px;max-width:64ch;margin-left:auto;margin-right:auto}
+  .care .btn{margin-top:18px}
+
+  /* FORM */
+  .form-wrap{max-width:620px;margin:0 auto}
+  .field{margin-bottom:14px}
+  .field label{display:block;font-size:13px;font-weight:700;margin-bottom:6px;color:var(--navy)}
+  .field input,.field select,.field textarea{width:100%;padding:13px 14px;border:1.5px solid var(--line);border-radius:8px;font-size:15px;font-family:inherit}
+  .field textarea{resize:vertical;min-height:110px}
+  .form-row{display:grid;gap:14px}
+  @media(min-width:600px){.form-row{grid-template-columns:1fr 1fr}}
+  .form-note{font-size:12.5px;color:var(--gray);margin-top:12px;text-align:center}
+
+  /* SELF-SERVICE */
+  .tests-strip{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}
+  .test-pill{background:#fff;border:1.5px solid var(--line);border-radius:99px;padding:9px 16px;font-size:13.5px;font-weight:700;color:var(--navy);text-decoration:none;display:flex;align-items:center;gap:6px}
+  .test-pill:hover{border-color:var(--amber)}
+
+  /* INFO PRÁCTICA */
+  .practical{display:grid;gap:20px;text-align:center}
+  @media(min-width:700px){.practical{grid-template-columns:repeat(3,1fr)}}
+  .practical .ic{font-size:28px;margin-bottom:8px}
+  .practical h3{font-size:15px;margin-bottom:4px}
+  .practical p{font-size:13.5px;color:var(--gray)}
+
+  /* FAQ */
+  .faq details{border-bottom:1px solid var(--line);padding:15px 0}
+  .faq summary{font-weight:700;font-size:15.5px;cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:14px}
+  .faq summary::after{content:"+";font-size:20px;color:var(--amber-dark)}
+  .faq details[open] summary::after{content:"–"}
+  .faq details p{margin-top:10px;color:var(--gray);font-size:14.5px;max-width:72ch}
+
+  footer{background:#0a1a2c;color:#8fa1b3;font-size:13px;text-align:center;padding:26px 20px}
+  .maqueta-tag{position:fixed;top:0;left:0;background:#d33;color:#fff;font-size:10px;font-weight:800;letter-spacing:.08em;padding:3px 10px;z-index:100;border-radius:0 0 8px 0}
+</style>
+</head>
+<body>
+<div class="maqueta-tag">MAQUETA CONTACTO — 07/2026</div>
+
+<div class="bar">✓ TE RESPONDE UNA PERSONA REAL — NO UN BOT, NO UN TICKET</div>
+
+<header>
+  <div class="wrap nav">
+    <a class="logo" href="home-v2.html">EKIO<small>ELECTROSMOG</small></a>
+    <nav class="menu">
+      <a href="coleccion-spiro-v2.html">Tienda</a>
+      <a href="la-ciencia-v2.html">La Ciencia</a>
+      <a href="terapia-luz-roja-v2.html">Terapia de Luz Roja</a>
+      <a href="https://ekio-test-spiro.vercel.app/" target="_blank" rel="noopener">¿Qué SPIRO necesito?</a>
+      <a href="contacto-v2.html" class="hl">Contacto</a>
+    </nav>
+    <div class="nav-icons"><span>🔍</span><span>🛒</span><button class="burger">☰</button></div>
+  </div>
+</header>
+
+<div class="wrap crumbs"><a href="home-v2.html">Inicio</a> / <b>Contacto</b></div>
+
+<!-- HERO -->
+<section class="hero" style="padding:56px 0 46px">
+  <div class="wrap">
+    <h1>Habla con una persona de verdad. <span style="color:var(--amber)">No con un bot.</span></h1>
+    <p>Sabemos que preguntar por electrosmog, un panel de luz roja o el filtro que necesita tu casa no es como preguntar por una camiseta. Por eso en EKIO no hay tickets numerados ni respuestas automáticas: hay alguien al otro lado que lee tu caso y te contesta como persona.</p>
+    <div class="hero-team">
+      <div class="avatar">CM</div>
+      <span>Normalmente te responde <b>Cristian</b>, del equipo EKIO — no una IA de soporte.</span>
+    </div>
+  </div>
+</section>
+
+<!-- CANALES -->
+<section>
+  <div class="wrap">
+    <h2 style="text-align:center">¿Cómo prefieres hablar con nosotros?</h2>
+    <p style="text-align:center;color:var(--gray);max-width:56ch;margin:0 auto 8px">Elige el canal — todos llegan a la misma persona.</p>
+    <div class="channels">
+      <div class="channel featured">
+        <div class="ic">💬</div>
+        <h3>WhatsApp</h3>
+        <p>El más rápido. Escríbenos directamente, manda fotos de tu instalación o del panel si hace falta, y sigue la conversación cuando quieras.</p>
+        <a class="btn btn-whatsapp" href="#" onclick="alert('→ Abrir chat de WhatsApp Business EKIO');return false;">ESCRIBIR POR WHATSAPP</a>
+        <p class="meta">✓ Respuesta el mismo día laborable</p>
+      </div>
+      <div class="channel">
+        <div class="ic">📞</div>
+        <h3>Llamada gratuita de 15 min</h3>
+        <p>¿Prefieres que te lo expliquen en voz? Agenda una llamada sin compromiso — ideal si dudas entre dos productos o tienes un caso particular.</p>
+        <a class="btn btn-primary" href="#" onclick="alert('→ Abrir calendario de reservas (Calendly)');return false;">AGENDAR MI LLAMADA →</a>
+        <p class="meta">✓ Confirmación en menos de 2h</p>
+      </div>
+      <div class="channel">
+        <div class="ic">✉️</div>
+        <h3>Email</h3>
+        <p>Para consultas más largas, dudas técnicas o documentación (facturas, garantías, pedidos). Baja y rellena el formulario.</p>
+        <a class="btn btn-ghost" href="#formulario">IR AL FORMULARIO ↓</a>
+        <p class="meta">✓ Respuesta en menos de 24h laborables</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- AUTODIAGNÓSTICO ANTES DE ESCRIBIR -->
+<section class="routing">
+  <div class="wrap">
+    <h2>¿Y si ya tienes la respuesta en 3 minutos?</h2>
+    <p style="color:var(--gray);max-width:60ch">Antes de escribirnos, prueba uno de estos — resuelven la mayoría de las dudas al momento, sin esperar a que te contestemos:</p>
+    <div class="tests-strip">
+      <a class="test-pill" href="https://recursos-web-ekio.vercel.app/" target="_blank" rel="noopener">🏠 Estudio Electromagnético del Hogar</a>
+      <a class="test-pill" href="https://ekio-test-spiro.vercel.app/" target="_blank" rel="noopener">🎯 ¿Qué SPIRO necesito?</a>
+      <a class="test-pill" href="https://ekio-test-panel.vercel.app/" target="_blank" rel="noopener">💡 ¿Qué panel Ekio Light necesito?</a>
+    </div>
+
+    <h2 style="margin-top:40px">O dinos qué te trae por aquí</h2>
+    <p style="color:var(--gray);max-width:60ch">Elige tu caso y te llevamos directo a lo que necesitas — o al formulario ya preparado con el motivo correcto:</p>
+    <div class="route-grid">
+      <a class="route" href="#formulario" onclick="preset('Antes de comprar — tengo dudas')">
+        <span class="ic">🛒</span>
+        <div><h3>Antes de comprar</h3><p>Tengo dudas sobre qué producto necesito</p></div>
+        <span class="arrow">→</span>
+      </a>
+      <a class="route" href="#formulario" onclick="preset('Ya tengo un pedido')">
+        <span class="ic">📦</span>
+        <div><h3>Ya tengo un pedido</h3><p>Seguimiento, cambios o garantía</p></div>
+        <span class="arrow">→</span>
+      </a>
+      <a class="route" href="#formulario" onclick="preset('Duda técnica sobre un producto')">
+        <span class="ic">🔧</span>
+        <div><h3>Duda técnica</h3><p>Cómo funciona, protocolos, especificaciones</p></div>
+        <span class="arrow">→</span>
+      </a>
+      <a class="route" href="#formulario" onclick="preset('Quiero hablar de una colaboración / prensa / profesional')">
+        <span class="ic">🤝</span>
+        <div><h3>Colaboración o prensa</h3><p>Profesionales, clínicas, afiliación, medios</p></div>
+        <span class="arrow">→</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- CUIDADO EXTRA — LA IDEA "SORPRENDENTE" -->
+<section class="care">
+  <div class="wrap care-box">
+    <div class="ic">💛</div>
+    <h2>¿Tu consulta tiene que ver con electrosensibilidad o un momento de salud delicado?</h2>
+    <p>Sabemos que quien nos escribe por esto no busca una respuesta de manual: busca que alguien lo entienda. Si tu caso tiene que ver con electrosensibilidad, una enfermedad en casa o una situación que te tiene preocupado, dínoslo al principio de tu mensaje — <b>lo leerá directamente Javier</b>, el fundador, y te daremos prioridad y el tiempo que haga falta. No es un protocolo de empresa: es simplemente cómo tratamos a alguien que lo está pasando mal.</p>
+    <a class="btn btn-amber" href="#formulario" onclick="preset('Mi consulta tiene que ver con electrosensibilidad o salud')">ESCRIBIR CON PRIORIDAD →</a>
+  </div>
+</section>
+
+<!-- FORMULARIO -->
+<section id="formulario">
+  <div class="wrap form-wrap">
+    <h2 style="text-align:center">Escríbenos</h2>
+    <p style="text-align:center;color:var(--gray);margin-bottom:26px">Cuéntanos tu caso con el detalle que necesites — cuanto más contexto nos des, mejor te podemos ayudar a la primera.</p>
+    <form onsubmit="alert('→ Envío del formulario a soporte@electrosmogespana.com + alta en Klaviyo \"Contacto web\"');return false;">
+      <div class="form-row">
+        <div class="field"><label>Nombre</label><input type="text" required></div>
+        <div class="field"><label>Email</label><input type="email" required></div>
+      </div>
+      <div class="field">
+        <label>Motivo</label>
+        <select id="motivo">
+          <option>Antes de comprar — tengo dudas</option>
+          <option>Ya tengo un pedido</option>
+          <option>Duda técnica sobre un producto</option>
+          <option>Colaboración / prensa / profesional</option>
+          <option>Mi consulta tiene que ver con electrosensibilidad o salud</option>
+          <option>Otro</option>
+        </select>
+      </div>
+      <div class="field"><label>Tu mensaje</label><textarea placeholder="Cuéntanos con calma — leemos todo, no solo el asunto." required></textarea></div>
+      <button class="btn btn-primary" type="submit" style="width:100%">ENVIAR MENSAJE →</button>
+      <p class="form-note">Sin respuestas automáticas de plantilla. Te contesta una persona del equipo EKIO en menos de 24h laborables.</p>
+    </form>
+  </div>
+</section>
+
+<!-- INFO PRÁCTICA -->
+<section style="background:var(--bg-soft)">
+  <div class="wrap practical">
+    <div><div class="ic">🕐</div><h3>Horario de atención</h3><p>Lunes a viernes, 9:00–18:00 (horario peninsular). WhatsApp y email también fuera de horario — se responde el siguiente día laborable.</p></div>
+    <div><div class="ic">🇪🇸</div><h3>100% online, envíos a toda España</h3><p>No tenemos tienda física, pero cada pedido sale en 24/48h desde España con seguimiento.</p></div>
+    <div><div class="ic">↩️</div><h3>¿Dudas sobre una devolución?</h3><p>90 días en SPIRO® y 30 días en Ekio Light. Cuéntanoslo por cualquier canal — lo gestionamos sin complicarte la vida.</p></div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq">
+  <div class="wrap" style="max-width:760px">
+    <h2>Antes de escribirnos, quizá esto ya responde tu duda</h2>
+    <details><summary>¿Cuánto tardáis en responder?</summary><p>Por WhatsApp, normalmente el mismo día laborable. Por email, menos de 24 horas laborables. Las llamadas agendadas se confirman en menos de 2 horas.</p></details>
+    <details><summary>¿Puedo hablar por teléfono antes de comprar?</summary><p>Sí, y te lo recomendamos si dudas entre dos productos. Agenda una llamada gratuita de 15 minutos sin ningún compromiso de compra.</p></details>
+    <details><summary>¿Tenéis tienda física?</summary><p>No. EKIO Electrosmog España opera 100% online, con envío 24/48h a toda España y el mismo asesoramiento personalizado que tendrías en una tienda, por teléfono, WhatsApp o email.</p></details>
+    <details><summary>¿A quién le escribo si tengo un problema con mi pedido?</summary><p>Al mismo canal que prefieras (WhatsApp, email o llamada) — indícanos el motivo "Ya tengo un pedido" y tu número de pedido si lo tienes a mano, y lo resolvemos directamente.</p></details>
+  </div>
+</section>
+
+<footer>
+  MAQUETA — página de contacto nueva, generada 22-jul-2026. Idea diferenciadora: enrutado de "cuidado extra" para casos de electrosensibilidad/salud (inspirado en el trato humano de Chewy con casos delicados) + transparencia de tiempos de respuesta + cara real del equipo (Cristian) en vez de bot genérico. Enlaza los 3 tests de autodiagnóstico como desvío antes del contacto directo.
+</footer>
+
+<script>
+function preset(motivo){
+  setTimeout(()=>{ const s=document.getElementById('motivo'); if(s){ [...s.options].forEach(o=>{ if(o.value===motivo||o.text===motivo) s.value=o.value; }); } },50);
+}
+</script>
+</body>
+</html>
