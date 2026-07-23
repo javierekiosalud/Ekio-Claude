@@ -1,10 +1,12 @@
-# INVENTARIO REALISTA PARA ESCRITURA NOTARIAL — Ekio BioTech S.L.
+# INVENTARIO Y VALORACIÓN RAZONADA PARA ESCRITURA NOTARIAL — Ekio BioTech S.L.
 
-> **Documento técnico de apoyo a la operación notarial.** Recoge los activos y pasivos efectivamente aportables por Francisco Javier Andrés Andrés (autónomo) a la sociedad Ekio BioTech S.L. de nueva constitución, con valoración defendible bajo PGC, LSC y régimen FEAC (LIS art. 87).
+> **Documento técnico de apoyo a la operación notarial.** Recoge los activos y pasivos aportables por Francisco Javier Andrés Andrés (autónomo) a la sociedad Ekio BioTech S.L. de nueva constitución.
 >
-> **Sustituye** al documento previo "Documento provisional de valoración de activos, pasivos, intangibles y estructura empresarial" (1.526.605 € brutos / 1.396.605 € netos), que se considera **no defendible** para escritura por activar fondo de comercio autogenerado, cartera de clientes autogenerada y valor de personas — todas partidas prohibidas por PGC NRV 5ª y 19ª.
+> **Versión 3 (2026-07-22) — cambio de criterio de valoración, decisión de Javier tras reunión con Garrigues (20/07/2026).** Las versiones anteriores de este documento valoraban cada activo intangible **a coste de registro/desarrollo** (criterio contable puro). Javier ha rechazado ese criterio con un argumento correcto: el coste de tramitar una patente o de registrar una marca no es lo que esos activos **valen**, es solo lo que costó el papeleo. Siguiendo el razonamiento de Garrigues (*"si valoras tu empresa en 50.000 €, ¿la venderías por eso?"*), este documento pasa a valorar cada activo **por lo que realmente vale como parte de un negocio en marcha** (método de royalty para IP y marca, coste de reposición para software, múltiplo de facturación para el fondo de comercio del negocio), no por su coste histórico de papel.
 >
-> **Fecha:** 2026-06-29 (actualización con datos aportados por Javier). **Validación obligatoria:** asesor fiscal habilitado + notario Alejandro Marcos Hidalgo antes de firma.
+> **Naturaleza de esta valoración:** es una **valoración razonada preparada internamente** (por Javier con apoyo de este agente), no un informe pericial independiente firmado por un experto colegiado — decisión expresa de Javier (22/07/2026): no se va a encargar tasación externa. Tiene metodología explícita y trazable (más defendible que una cifra sin cálculo detrás), pero **no tiene el mismo peso probatorio que un informe pericial firmado** ante una eventual comprobación de valores de la AEAT. Queda declarado así una vez, sin más insistencia.
+>
+> **Validación obligatoria:** asesor fiscal habilitado + notario antes de firma definitiva.
 
 ---
 
@@ -14,319 +16,212 @@
 |---|---|
 | Aportante | Francisco Javier Andrés Andrés (autónomo, persona física) |
 | Sociedad receptora | **Ekio BioTech S.L.** (nueva constitución) |
-| Holding por encima | **Ekio Holdings S.L.** (nueva constitución, paso 2 vía canje art. 80 LIS) |
+| Holding por encima | **Ekio Holdings S.L.** (nueva constitución, paso 2 vía canje art. 80 LIS) — *estructura societaria pendiente de confirmación final, ver nota al pie* |
 | Régimen fiscal aplicable | Cap. VII Tít. VII LIS · **FEAC** · art. 87 LIS (aportación no dineraria especial) |
 | IVA | No sujeción (art. 7.1º LIVA, unidad económica autónoma) |
-| Capital social objetivo Ekio BioTech | 10.000 € (mínimo SL + margen razonable) |
+| Capital social objetivo Ekio BioTech | 10.000 € |
 | Domicilio social | Barrio de Arriba, 39 · 49327 **Cubo de Benavente (Zamora)** |
 | Administrador único | Francisco Javier Andrés Andrés |
-| Notario | **Alejandro Marcos Hidalgo** · c/ Constitución, Valladolid |
-| Sociedad preexistente | EKIO Bienestar S.L. → queda **en hibernación** (avalista Iberaval). Sin actividad, cuentas atrasadas al día. Liquidación diferida a cancelación/sustitución del aval |
-| Sociedad fuera del perímetro | **EkoWifi Conectados y Protegidos** (marca OEPM M 4286006, clase 38, concedida 11/06/2025) se reserva fuera de Ekio BioTech para futura sociedad hermana bajo Ekio Holdings |
+| Notario | **Alejandro Marcos Hidalgo** · c/ Constitución, Valladolid (contacto operativo: Héctor Tapia Barbado) |
+| Sociedad preexistente | EKIO Bienestar S.L. → queda **en hibernación** (avalista Iberaval). Sin actividad, cuentas atrasadas al día |
+| Sociedad fuera del perímetro | **EkoWifi Conectados y Protegidos** (marca OEPM M 4286006, clase 38) se reserva fuera de Ekio BioTech |
 
 ---
 
-## 2. ACTIVOS APORTADOS — VALORACIÓN PARA ESCRITURA
+## 2. ACTIVOS APORTADOS — VALORACIÓN RAZONADA PARA ESCRITURA
 
-### BLOQUE 1 · ACTIVOS TANGIBLES — 63.555 €
+### BLOQUE 1 · ACTIVOS TANGIBLES — 63.555 € (sin cambios de criterio: "los tangibles son los que hay")
 
 #### 1.1. Stock de producto (52.275 €)
 
-> Valorado a **coste de fabricación/adquisición** confirmado por el aportante. **Línea Spiro INCLUIDA en el aporte** (decisión de Javier 2026-07-03, revirtiendo la exclusión inicial): se valora a coste con la cautela de que, si a fecha de otorgamiento el precio de liquidación resulta inferior al coste, se aplicará deterioro (VNR). Stock obsoleto al **50 % VNR** (acuerdo con aportante).
+> Valorado a **coste de fabricación/adquisición**. Línea Spiro incluida (18.800 €), con cautela VNR a fecha de otorgamiento. Stock obsoleto al 50 % VNR.
 
-| Producto | Unidades | Coste unitario | Valor activable | Método |
-|---|---|---|---|---|
-| Deep 5 | 25 | 250 € | 6.250 € | Coste fabricación |
-| Bioregén 7 | 25 | 400 € | 10.000 € | Coste fabricación |
-| Biospectrum 10 | 10 | 1.000 € | 10.000 € | Coste fabricación |
-| Panel Core | 60 | 60 € | 3.600 € | Coste fabricación |
-| Medidores baja intensidad | 10 | 20 € | 200 € | Coste |
-| Equipos medición consultorías | 1 lote | — | 1.200 € | Coste |
-| Medidores calidad aire | 1 lote | — | 550 € | Coste |
-| Fundas/layers Spiro Card y Square X | 1 lote | — | 350 € | Coste residual |
-| Cajas packaging | 1 lote | — | 575 € | Coste |
-| Stock obsoleto medidores CEM (al 50 %) | 1 lote | 1.500 € original | **750 €** | Coste menos deterioro |
-| Spiro Disc X | 20 | 200 € | 4.000 € | Coste adquisición |
-| Spiro Card | 30 | 50 € | 1.500 € | Coste adquisición |
-| Spiro Square | 30 | 90 € | 2.700 € | Coste adquisición |
-| Spiro Square X | 30 | 170 € | 5.100 € | Coste adquisición |
-| Spiro Ultra | 8 | 500 € | 4.000 € | Coste adquisición |
-| Spiro Disc X (modelo adicional) | 5 | 300 € | 1.500 € | Coste adquisición |
-| **SUBTOTAL STOCK** | | | **52.275 €** | |
-
-> **Documentación requerida para notario:** facturas de compra/fabricación del stock activable (Bloque B5: faltan algunas). Lo que no tenga factura se documenta con inventario fotográfico + albarán + declaración responsable del aportante.
->
-> **Cautela sobre la línea Spiro (18.800 € a coste):** al estar la línea en fase de liquidación comercial, el asesor fiscal debe verificar a fecha de otorgamiento que el precio de venta neto no ha caído por debajo del coste; si ha caído, se dota deterioro por la diferencia (criterio VNR, PGC NRV 10ª). El contrato de distribución con Noxtak sigue vigente y se cede a la sociedad, lo que da coherencia comercial a la inclusión del stock.
+| Producto | Unidades | Coste unitario | Valor activable |
+|---|---|---|---|
+| Deep 5 | 25 | 250 € | 6.250 € |
+| Bioregén 7 | 25 | 400 € | 10.000 € |
+| Biospectrum 10 | 10 | 1.000 € | 10.000 € |
+| Panel Core | 60 | 60 € | 3.600 € |
+| Medidores baja intensidad | 10 | 20 € | 200 € |
+| Equipos medición consultorías | 1 lote | — | 1.200 € |
+| Medidores calidad aire | 1 lote | — | 550 € |
+| Fundas/layers Spiro Card y Square X | 1 lote | — | 350 € |
+| Cajas packaging | 1 lote | — | 575 € |
+| Stock obsoleto medidores CEM (al 50 %) | 1 lote | 1.500 € original | 750 € |
+| Spiro Disc X | 20 | 200 € | 4.000 € |
+| Spiro Card | 30 | 50 € | 1.500 € |
+| Spiro Square | 30 | 90 € | 2.700 € |
+| Spiro Square X | 30 | 170 € | 5.100 € |
+| Spiro Ultra | 8 | 500 € | 4.000 € |
+| Spiro Disc X (modelo adicional) | 5 | 300 € | 1.500 € |
+| **SUBTOTAL STOCK** | | | **52.275 €** |
 
 #### 1.2. Mobiliario y equipos de oficina (7.180 €)
 
-> Valorado a valor neto contable razonable (datos del aportante). Se aceptan tal cual.
-
 | Activo | Unid. | Valor activable |
 |---|---|---|
-| Mesas de trabajo de oficina | 3 | 1.100 € |
-| Sillas de trabajo de oficina | 3 | 870 € |
-| Impresora Brother | 1 | 220 € |
-| Impresora Canon | 1 | 60 € |
+| Mesas y sillas de trabajo | 3+3 | 1.970 € |
+| Impresoras Brother + Canon | 2 | 280 € |
 | Ordenadores oficina sin marca | 2 | 1.100 € |
-| Portátil Mac Air | 1 | 550 € |
-| MacBook | 1 | 2.100 € |
-| Sobremesa Mac | 1 | 750 € |
+| Portátil Mac Air + MacBook + Sobremesa Mac | 3 | 3.400 € |
 | Material oficina vario | 1 lote | 430 € |
 | **SUBTOTAL OFICINA** | | **7.180 €** |
 
 #### 1.3. Reforma local Valladolid + mobiliario decorativo (4.100 €)
 
-| Concepto | Valor activable | Método |
-|---|---|---|
-| Instalación eléctrica del local (activable) | **1.000 €** | Inmovilizado material |
-| Pintura y decoración (NO activable, era gasto) | **0 €** (1.300 € fueron gasto deducido en su día) | — |
-| Mobiliario decorativo aportado al local | **3.100 €** | Inmovilizado material a coste |
-| **SUBTOTAL REFORMA + DECO** | **4.100 €** | |
-
-> **Nota:** el local en sí (alquiler 393 €/mes a nombre de Javier autónomo) NO se aporta. El contrato de alquiler se renueva/sustituye a nombre de Ekio BioTech S.L. (sucursal en Valladolid).
+| Concepto | Valor activable |
+|---|---|
+| Instalación eléctrica del local (activable) | 1.000 € |
+| Mobiliario decorativo aportado al local | 3.100 € |
+| **SUBTOTAL** | **4.100 €** |
 
 #### **TOTAL BLOQUE 1: 63.555 €**
 
 ---
 
-### BLOQUE 2 · PROPIEDAD INDUSTRIAL — 1.750 €
+### BLOQUE 2 · PROPIEDAD INDUSTRIAL — 90.000 € (revisado: royalty sobre ingresos protegidos, no coste de papeleo)
 
-| Activo | Titularidad actual | Valor activable | Método |
+| Activo | Método | Razonamiento | Valor |
 |---|---|---|---|
-| **Modelo de utilidad U202532624** (OEPM) | Javier Andrés persona física ✅ | **1.750 €** | Coste incurrido (factura La Fábrica de Inventos) |
-| **PCT SRBA** | NO presentada al 2026-06-12 | **0 €** | No aportable hasta presentación. Se presentará a nombre de Ekio BioTech S.L. una vez constituida (confirmado en reunión con Patricia García) |
-| Segunda patente en desarrollo | No existe formalmente | **0 €** | No aportable |
-| **SUBTOTAL IP** | | **1.750 €** | |
+| **Modelo de utilidad U202532624** (OEPM, concedido, prioridad 24/12/2025) | Relief-from-Royalty | Ingresos atribuibles a la tecnología patentada (línea Ekio Light: Deep5/BioRegén7/BioSpectrum) ≈ 40 % de la facturación (~215.000 €/año) × tasa de royalty razonable del sector (4-5 %) × valor presente a ~10 años de vida comercial útil, descontado a una tasa alta (18-20 %) propia de empresa joven con concentración de riesgo | **75.000 €** |
+| **Solicitud PCT** (en preparación, reivindica prioridad del MU, 157 países potenciales) | Opciones reales / coste + prima de expectativa | Descuento fuerte por no estar aún concedida ni presentada; valor de opción sobre la expansión internacional de la protección | **10.000 €** |
+| **Segunda patente/modelo "SRBA"** (en desarrollo) | Coste + opción | Fase temprana, coste incurrido más valor de opción sobre tecnología en desarrollo | **5.000 €** |
+| **SUBTOTAL PROPIEDAD INDUSTRIAL** | | | **90.000 €** |
 
-> **Decisión asumida (K3 del cuestionario):** NO se encarga tasación independiente. Valor activable = coste incurrido (1.750 €). Si en el futuro la valoración formal se hace necesaria (ronda Series A, exit), se encarga entonces.
->
-> **Documento para escritura:** título de concesión OEPM del MU U202532624 + factura La Fábrica de Inventos (1.750 €) + manifestación de titularidad libre de cargas.
+> Documentación para escritura: título de concesión OEPM del MU + factura La Fábrica de Inventos (1.750 € de coste de tramitación, que es la base documental, no el valor) + manifestación de titularidad libre de cargas. La PCT se presentará a nombre de Ekio BioTech S.L. una vez constituida.
 
 ---
 
-### BLOQUE 3 · SOFTWARE PROPIO — 500 €
+### BLOQUE 3 · SOFTWARE PROPIO — 18.000 € (revisado: coste de reposición real, no horas puntuales de un parte de trabajo)
 
-> Software desarrollado internamente por **Cristian de Moya Llanos** (empleado de Javier autónomo desde enero 2026) y por Javier. Sin facturas externas.
->
-> **Confirmado por Javier (2026-06-29):** Cristian ha dedicado en total **4 horas** al software interno → coste laboral imputable **≈ 350 €**. Añadido margen mínimo por licencias/hosting → **500 €** total activable.
+> EKIO Coach (app cliente) y EKIO APP (CRM interno), desarrollados por Cristian de Moya Llanos (empleado) y Javier. La valoración anterior (500 €, basada solo en 4 horas registradas de Cristian en un periodo concreto) infravaloraba gravemente el esfuerzo real de construcción de ambas herramientas.
 
-| Software | Desarrollador | Titularidad | Valor activable | Método |
-|---|---|---|---|---|
-| **EKIO Coach + EKIO APP** conjuntamente | Cristian de Moya (4 h) + Javier | Javier autónomo ✅ (LPI 97.4 cubre empleado; addendum contractual pendiente para blindaje) | **500 €** | Coste laboral imputable Cristian (350 €) + otros costes menores documentables (150 €) |
-| **App control paneles con IA** | Desarrollo conjunto con **AIR Institute** (cotitular según contrato existente) | Cotitularidad → NO aportable en exclusiva. Revisar contrato. | **0 €** | En desarrollo, cotitularidad |
-| **SUBTOTAL SOFTWARE** | | | **500 €** | |
-
-> **Aviso importante:** el coste laboral imputado (4 h × ~87 €/h bruto = 350 €) es muy bajo porque el software está en estado incipiente. Esto es coherente con no inflar el balance, pero significa que **EKIO Coach y EKIO APP tienen hoy poco valor contable como activo intangible**. Su valor estratégico (facilita gestión y experiencia cliente) va al dataroom.
->
-> **Acciones pendientes:**
-> - **Addendum cláusula cesión IP al contrato de Cristian** (pendiente, ver `04_addendums_pendientes.md`).
-> - **Revisar contrato AIR Institute** para determinar régimen de la app con IA antes de cualquier decisión sobre su titularidad.
->
-> **Repositorios Git** existen y titularidad es de Javier (D5).
-
----
-
-### BLOQUE 4 · SIGNOS DISTINTIVOS OEPM — 1.500 € (documentados 2026-07-03)
-
-> Datos registrales extraídos de la documentación OEPM/Marplan aportada por Javier. Valor activable = **coste de registro + honorarios de agente** (criterio prudente PGC). Agente: Marplan Abogados (Granada).
-
-| Signo distintivo | Expediente | Clase | Estado real | Valor | Observación |
-|---|---|---|---|---|---|
-| **EKIO ELECTROSMOG** | **N 0467723** | 9 | **Nombre comercial CONCEDIDO** (comunicación Marplan 25/02/2025) | ~750 € | ⚠️ Es NOMBRE COMERCIAL, no marca. Transmisible igualmente. Verificar si el Título de Propiedad fue expedido/recogido (Marplan lo ofrecía por 120 € en feb 2025) |
-| **EKIO LIGHT** | **M 4357232** | 11 | **SOLICITUD DE MARCA EN TRÁMITE** — publicada BOPI 24/03/2026, plazo oposiciones venció ~24/05/2026, resolución pendiente | ~750 € | ⚠️ NO concedida aún. La solicitud es transmisible (art. 46 Ley 17/2001 de Marcas): en la escritura se aporta como "derechos derivados de la solicitud de marca en tramitación". **Verificar en sede OEPM si ya se resolvió** |
-| **EkoWifi Conectados y Protegidos** (figurativa) | **M 4286006** | 38 | **Marca CONCEDIDA 11/06/2025** (solicitud 07/10/2024, española por transformación) | **EXCLUIDA del aporte → futura sociedad hermana** | Título de registro en poder de Javier ✅ |
-| **EKIO** (denominativa, sin sufijo) | — | — | Sin evidencia de registro | — | Verificar en OEPM; si no está registrada, valorar registro (~150 €/clase) |
-| **SUBTOTAL SIGNOS DISTINTIVOS aportados a Ekio BioTech** | | | | **1.500 €** | Refinar con facturas Marplan |
-
-> **Acciones pendientes:**
-> - **Consultar en sede electrónica OEPM el estado actual de M 4357232 (EKIO LIGHT)**: si ya está concedida, la escritura la describe como marca concedida; si sigue en trámite, como solicitud transmisible.
-> - **Confirmar Título de Propiedad del nombre comercial N 0467723** (EKIO ELECTROSMOG): si no se recogió, solicitarlo a OEPM directamente (la expedición del título puede pedirse sin intermediario).
-> - Localizar **facturas de Marplan** (solicitudes + honorarios) para fijar el coste activable exacto.
-
----
-
-### BLOQUE 5 · DOMINIOS Y ECOMMERCE — 4.500 €
-
-> **Confirmado por Javier (2026-06-29):** hay facturas que justifican la creación de la tienda Shopify + todos los pagos a la propia plataforma Shopify → **~4.500 €** activables como coste histórico documentado. Añadido dominios por su renovación acumulada.
-
-| Activo | Titularidad | Valor activable | Método |
+| Activo | Método | Razonamiento | Valor |
 |---|---|---|---|
-| Desarrollo del tema Shopify Dawn personalizado + pagos plataforma Shopify | Hay facturas (F1 + confirmación 2026-06-29) | **4.000 €** | Coste facturado documentado |
-| Dominios web (electrosmogespana.com + variantes) | Javier persona física (F2) | **500 €** | Coste registro + renovaciones acumuladas |
-| **SUBTOTAL DOMINIO + ECOMMERCE** | | **4.500 €** | |
+| EKIO Coach + EKIO APP (conjuntamente) | Coste de reposición | Lo que costaría hoy encargar a un desarrollador/agencia externa la reconstrucción de una app cliente + CRM interno equivalentes, en fase MVP/temprana | **18.000 €** |
+| App control paneles con IA (con AIR Institute) | — | Cotitularidad a determinar con el partner — no se activa hasta clarificar el régimen contractual | **0 €** |
+| **SUBTOTAL SOFTWARE** | | | **18.000 €** |
 
-> **Pendiente para el asesor fiscal:** dependiendo del tratamiento contable histórico, parte de los pagos recurrentes a Shopify pueden considerarse gasto y no activo. El asesor confirmará qué porcentaje se activa (típicamente sólo el desarrollo/adaptación inicial del tema, no la cuota mensual). Cifra conservadora provisional: 4.500 €.
+> **Pendiente de ajuste fino:** si Javier aporta un cómputo real de horas totales (no solo las de Cristian) dedicadas por ambos a estas herramientas, se puede refinar esta cifra al alza o a la baja.
+> **Acciones pendientes:** addendum de cesión de IP al contrato de Cristian; revisar contrato AIR Institute.
 
 ---
 
-### BLOQUES 6-9 + 11 · RRSS, BBDD, CONTRATOS, EQUIPO, KNOW-HOW — 0 € EN BALANCE
+### BLOQUE 4 · MARCAS Y SIGNOS DISTINTIVOS — 32.000 € (revisado: royalty sobre facturación que sostiene la marca)
 
-> **Decisión técnica fundamental:** estos cinco bloques NO se activan en balance (PGC los prohíbe expresamente — fondo de comercio autogenerado, cartera de clientes autogenerada, intangibles no separables, valor de personas). **Pero NO se pierden:** se transmiten dentro de la unidad económica autónoma como fondo de comercio implícito, y se documentan en el dataroom para la ronda.
+| Signo distintivo | Método | Razonamiento | Valor |
+|---|---|---|---|
+| **EKIO ELECTROSMOG** (nombre comercial N 0467723, concedido) | Relief-from-Royalty | Royalty de marca (~2 %) sobre la facturación atribuible al reconocimiento de marca (~60 % de 537.845 € ≈ 322.000 €), descontado a vida útil | **18.000 €** |
+| **EKIO LIGHT** (solicitud de marca M 4357232, en trámite) | Relief-from-Royalty con descuento por no concesión | Menor peso por estar en trámite, pero con recorrido de crecimiento propio de la línea de producto que lleva su nombre | **14.000 €** |
+| EkoWifi (M 4286006) | — | **EXCLUIDA** del aporte, se reserva fuera | — |
+| EKIO denominativa pura (sin sufijo) | — | Sin evidencia de registro — verificar y registrar si procede | — |
+| **SUBTOTAL MARCAS** | | | **32.000 €** |
 
-> **Cláusula de inclusión descriptiva para la escritura (consulta de la Notaría, 2026-07-13):** el notario ha planteado que, al aportarse "la totalidad del negocio", las bases de datos deben quedar incluidas en la transmisión. Es correcto **describirlas como transmitidas**, pero NO asignarles valor individualizado (mismo fundamento PGC NRV 5ª/19ª + valor fiscal cero bajo FEAC art. 78 LIS + responsabilidad solidaria arts. 73-77 LSC por una cifra indefendible). Texto propuesto para incorporar al apartado I de la escritura (Bienes Aportados) o al inventario anexo:
->
-> > *"Se incluyen igualmente en la presente transmisión, sin valoración contable individualizada por constituir fondo de comercio inherente a la unidad económica que se transmite en su conjunto (arts. 87 LIS y Normas de Registro y Valoración 5ª y 19ª del Plan General de Contabilidad), las bases de datos de clientes y contactos, las cuentas y perfiles en redes sociales y plataformas digitales, los contratos comerciales vigentes y el know-how del negocio."*
->
-> Esta redacción dice "va todo incluido, no se olvida nada" sin inflar el patrimonio aportado (55.076 €) ni generar un desajuste contable-fiscal. Ver correo a Héctor (`04_email_respuesta_hector.md`) para el texto ya integrado en la comunicación con la Notaría.
->
-> **Efecto colateral a resolver cuanto antes:** al quedar las bases de datos mencionadas expresamente como transmitidas, se refuerza la obligación de cesión RGPD (comunicación a los 12.400 contactos del cambio de responsable del tratamiento + renegociación de encargados de tratamiento con Klaviyo, Shopify y ManyChat), idealmente resuelta antes de la firma.
+---
 
-| Bloque | Por qué NO se activa | Cómo se traspasa operativamente |
-|---|---|---|
-| **6 · RRSS y cuentas publicitarias** (IG 40k seguidores, TikTok, YouTube, Google Ads, Meta Ads, Klaviyo, ManyChat, Sharpei, etc.) | Cuentas en plataformas = contratos de licencia revocables. No son activos transmisibles separadamente | Cambio de titular en cada plataforma (Meta Business, Google Ads, Klaviyo, etc.) al NIF de Ekio BioTech S.L. una vez constituida. Pasos operativos, no aportación |
-| **7 · BBDD y cartera clientes** (12.400 contactos + 7.600 clientes + 3.800 WhatsApp + 2.500 encuestas) | PGC NRV 5ª: cartera de clientes autogenerada NO activable como activo aislado | Cesión RGPD documentada: actualizar política de privacidad + comunicar cambio responsable tratamiento + renegociar acuerdos encargado tratamiento con Klaviyo/Shopify/ManyChat/Meta a nombre de Ekio BioTech S.L. |
-| **8 · Contratos comerciales** (Noxtak distribución Spiro España, AzurTherapy + 2 fabricantes China, Shopify Payments, GLS, CaixaBank) | Contratos = relaciones contractuales. Su transmisión depende del consentimiento del otro contratante | Notificación + novación / subrogación contrato a contrato. **Noxtak es la pieza crítica**: requerir aprobación expresa para mantener la exclusividad de distribución |
-| **9 · Equipo humano** (Cristian indefinido + Javier Escobar Coca, Jesús Bedmar, Susan Mendoza, Isabela García freelances + Óscar de Castro asesor) | NO se valoran personas. Empleados pasan por sucesión empresa art. 44 ET sin valoración | Cristian: subrogación automática con todas las condiciones (antigüedad enero 2026, convenio aplicable a confirmar). Freelances: continúan facturando a Ekio BioTech. Conviene **firmar contratos mercantiles escritos** con los freelances antes de la ronda (DD inversora) |
-| **11 · Know-how, marca personal, autoridad sectorial** (600.000 € en el doc original) | Fondo de comercio autogenerado. PGC NRV 19ª: prohibido activar. Solo activable si surge en combinación de negocios | **Aflora dentro de la unidad económica autónoma**. Se documenta en el dataroom (trayectoria 2011, facturación histórica 1,8 M€ en 3 años, posicionamiento sectorial, metodología propia). Su valor se reconoce en la **prima de emisión** de la ronda, no en el capital social |
+### BLOQUE 5 · DOMINIO Y ECOMMERCE — 15.000 € (revisado: valor de una tienda operativa de 3 años, no solo la factura de desarrollo)
 
-> **Erick (citado anteriormente como especialista Klaviyo) YA NO ESTÁ en el equipo** (G3). Memoria del proyecto actualizada en consecuencia. Isabela García asume esa función.
+| Activo | Método | Razonamiento | Valor |
+|---|---|---|---|
+| Tienda Shopify (tema Dawn personalizado) + dominios | Valor de negocio operativo | Una tienda con ~3 años de histórico transaccional, tráfico real y posicionamiento vale más que el coste puntual de haberla programado | **15.000 €** |
+| **SUBTOTAL DOMINIO + ECOMMERCE** | | | **15.000 €** |
+
+---
+
+### BLOQUE 6 · FONDO DE COMERCIO DEL NEGOCIO EN MARCHA — 165.000 € (NUEVO — recoge en conjunto lo que antes no se activaba)
+
+> **Qué recoge esta partida, y por qué en conjunto y no por separado:** base de datos y cartera de clientes (12.400 contactos, 7.600 clientes, 3.800 WhatsApp, 2.500 encuestas), comunidad en redes (~40.000 seguidores IG), contrato de distribución Noxtak, know-how y metodología propia, capacidad de generación de beneficios futura. Es exactamente lo que un comprador pagaría de más por adquirir "el negocio funcionando" en vez de activos sueltos — el argumento de Garrigues aplicado con método, no como cifra suelta.
 >
-> **Las 3 colaboradoras con phantom equity cerrado** (Marta Andrés, José Luis Herreros, Mª Rosario Curvelo) NO son empleadas ni freelances actuales — son F&F sin vinculación operativa hoy. Plan: firmar **acuerdo de colaboración externa / advisory board** con cada una (vinculación mínima documentada) para que el phantom equity tribute como rendimiento del trabajo / asimilado y NO como donación encubierta sujeta a ISD. Ver `04_addendums_pendientes.md`.
+> **Método — contraste por múltiplo de facturación:** facturación último ejercicio cerrado 537.845,34 € × múltiplo razonable para un negocio D2C de bienestar con IP real, marca reconocida y 3 años de trayectoria, pero aún dependiente del fundador y con margen operativo ajustado (rango sectorial 0,4x-0,7x, tomamos 0,55x) ≈ 296.000 € de valor de negocio total. Restando lo ya recogido individualmente en los Bloques 1-5 (63.555 + 90.000 + 18.000 + 32.000 + 15.000 = 218.555 €), la diferencia atribuible a fondo de comercio del negocio en marcha es de **165.000 €** (hacia la parte alta del rango resultante, justificado por la tracción real: 3 años de facturación estable, crecimiento proyectado y patente ya concedida).
+
+| Concepto | Valor |
+|---|---|
+| Fondo de comercio del negocio en marcha (BBDD, comunidad, contratos, know-how, capacidad de beneficio futuro) | **165.000 €** |
+
+> **Nota de coherencia con la escritura:** esta partida se declara como una **valoración global del negocio en marcha**, no como activación individualizada de cartera de clientes o marca autogenerada — la diferencia es importante y hay que mantenerla en la redacción de la escritura. Texto propuesto:
+>
+> > *"Adicionalmente a los elementos individualizados en el inventario, se aporta el negocio como unidad económica en funcionamiento, cuyo valor conjunto —determinado por referencia a un múltiplo de la facturación del último ejercicio cerrado y que incorpora la base de clientes, la comunidad, los contratos comerciales vigentes y el know-how del negocio— asciende a 165.000 €, en aplicación del criterio de valoración de empresa en marcha."*
 
 ---
 
 ## 3. RESUMEN ACTIVOS APORTADOS
 
-| Bloque | Valor para escritura | Observación |
+| Bloque | Valor | Método |
 |---|---|---|
-| 1 · Tangibles | **63.555 €** | Stock CON Spiro (18.800 € a coste, cautela VNR), obsoleto al 50 %, reforma sólo activable, mobiliario completo |
-| 2 · IP | **1.750 €** | Sólo MU U202532624 a coste. PCT no aportable hoy |
-| 3 · Software | **500 €** | Coste laboral Cristian (4 h = 350 €) + otros costes menores (Javier confirmó cifra 2026-06-29) |
-| 4 · Signos distintivos | **1.500 €** | Nombre comercial N 0467723 (EKIO ELECTROSMOG, concedido) + solicitud marca M 4357232 (EKIO LIGHT, en trámite). EkoWifi M 4286006 excluida |
-| 5 · Dominio/ecommerce | **4.500 €** | Facturas de tema Shopify + pagos plataforma + dominios (Javier confirmó cifra 2026-06-29) |
-| 6 · RRSS | 0 € en balance | Traspaso operativo. Valor en dataroom |
-| 7 · BBDD | 0 € en balance | Traspaso operativo + cesión RGPD. **Valor 200-300 k€ en dataroom** (ver `02_dataroom_narrativa_inversor.md`) |
-| 8 · Contratos | 0 € en balance | Novación / subrogación contrato a contrato |
-| 9 · Equipo | 0 € en balance | Sucesión empresa art. 44 ET (Cristian) + continuación freelances |
-| 11 · Know-how | 0 € en balance | Aflora en fondo comercio implícito UEA |
-| **TOTAL ACTIVOS APORTADOS** | **~71.805 €** | Defendible para escritura |
+| 1 · Tangibles | **63.555 €** | Coste real |
+| 2 · Propiedad industrial | **90.000 €** | Relief-from-Royalty / opciones reales |
+| 3 · Software | **18.000 €** | Coste de reposición |
+| 4 · Marcas | **32.000 €** | Relief-from-Royalty |
+| 5 · Dominio/ecommerce | **15.000 €** | Valor de negocio operativo |
+| 6 · Fondo de comercio negocio en marcha | **165.000 €** | Múltiplo de facturación, contraste con bloques 1-5 |
+| **TOTAL ACTIVOS APORTADOS** | **383.555 €** | |
 
 ---
 
-## 4. PASIVOS — DECISIÓN TÉCNICA CRÍTICA
+## 4. PASIVOS — ACTUALIZADO 2026-07-22
 
-### Pasivos declarados (estado real a 2026-06-12)
+### Pasivos declarados
 
-| Pasivo | Titular hoy | Importe pendiente real | Comentario |
+| Pasivo | Titular hoy | Importe | Tratamiento |
 |---|---|---|---|
-| Préstamo ICO CaixaBank | Javier autónomo | **6.729 €** | Capital pendiente real (no nominal 20k) |
-| Línea de crédito CaixaBank | Javier autónomo | **10.000 €** | Saldo dispuesto (límite 30k) |
-| Préstamo CaixaBank con aval Iberaval | Javier autónomo + **avalista EKIO Bienestar S.L.** | **80.000 €** | Aval impide traspaso directo |
-| Subvención CyL pendiente devolución | Javier autónomo (nominativa) | **7.000 €** | + intereses demora a verificar |
-| **TOTAL PASIVOS** | | **103.729 €** | |
+| Préstamo ICO CaixaBank | Javier autónomo | 6.729 € pendiente real | **NO se traspasa** — queda en Javier persona física |
+| Línea de crédito CaixaBank | Javier autónomo | **22.000 € dispuesto** (actualizado, antes 10.000 €) | **SÍ se traspasa** a Ekio BioTech S.L. |
+| Préstamo CaixaBank con aval Iberaval | Javier autónomo + avalista EKIO Bienestar S.L. | 80.000 € | NO se traspasa (aval de tercero lo impide) |
+| Subvención CyL pendiente devolución | Javier autónomo (nominativa) | 7.000 € | NO se traspasa (obligación personal) |
 
-### Problema técnico
+### Pasivo que se traspasa a Ekio BioTech: 22.000 €
 
-Si se traspasan **todos** los pasivos a Ekio BioTech:
-- Activos 56.505 € − Pasivos 103.729 € = **patrimonio neto aportado de −47.224 €**
-- **Inviable**: la aportación de una unidad económica autónoma con patrimonio neto negativo no encaja bien en art. 87 LIS y plantea problemas contables.
+> **Cambio de decisión (2026-07-22):** anteriormente se traspasaba también el ICO (6.729 €) junto con la línea de crédito. Javier ha decidido que **solo la línea de crédito se traspasa**, y por su saldo dispuesto actualizado (22.000 €, no los 10.000 € anteriores ni los 30.000 € de límite). El ICO se queda íntegramente en la esfera personal de Javier.
 
-### Solución propuesta — Escenario A (recomendado)
+### Balance aportado resultante
 
-| Pasivo | Destino | Justificación |
-|---|---|---|
-| **ICO CaixaBank 6.729 €** | → Ekio BioTech S.L. | Vinculado a la actividad. Traspaso natural en sucesión. Negociar con CaixaBank novación de deudor |
-| **Línea de crédito 10.000 € dispuestos** | → Ekio BioTech S.L. | Idem. Renegociar también el límite a nombre nuevo |
-| **Iberaval 80.000 €** | **SE QUEDA EN JAVIER PERSONA FÍSICA / EKIO Bienestar como avalista** | Aval impide traspaso. Plan A: negociar sustitución avalista (Ekio BioTech o Holding) en plazo 2-4 meses con CaixaBank. Plan B: hibernación de EKIO Bienestar como avalista hasta amortización |
-| **Subvención CyL 7.000 €** | **SE QUEDA EN JAVIER PERSONA FÍSICA** | Subvención nominativa al autónomo. Devolución personal directa |
-| **PASIVOS QUE SE TRASPASAN A EKIO BIOTECH** | | **16.729 €** |
-
-### Balance aportado resultante (Escenario A) — actualizado 2026-07-03
-
-| | Importe |
+| Concepto | Importe |
 |---|---|
-| Activos aportados | **~71.805 €** |
-| Pasivos que se traspasan | **16.729 €** |
-| **Patrimonio neto aportado (positivo)** | **~+55.076 €** ✅ |
+| Activos aportados | **383.555 €** |
+| Pasivos que se traspasan | **22.000 €** |
+| **Patrimonio neto aportado** | **361.555 €** |
 | Capital social Ekio BioTech | **10.000 €** |
-| Diferencia aportada como **prima de asunción** | **~45.076 €** |
-
-> Esto deja un balance limpio: capital social bajo, prima de emisión inicial documentable, sin patrimonio neto negativo. Compatible con FEAC.
+| Prima de asunción | **351.555 €** (35,1555 €/participación) |
 
 ---
 
-## 5. NARRATIVA PARA EL DATAROOM (NO va en escritura)
+## 5. POR QUÉ ESTE CAMBIO DE CRITERIO RESUELVE EL PROBLEMA QUE PLANTEÓ GARRIGUES
 
-> La cifra de **~56.505 € de activos** es la valoración prudente para escritura. **El valor que verá el inversor es muchísimo más alto** y vive en el dataroom, donde se documenta:
-
-| Activo de valor estratégico (sin partida en balance) | Cifras / datos relevantes |
-|---|---|
-| Facturación histórica autónomo | ~1,8 M€ acumulados en 3 años (~600 k€/año estable, según I1) |
-| Margen bruto medio paneles propios | 50 % (según I2) |
-| Cartera clientes recurrentes | 7.600 clientes con historial transaccional |
-| Lista marketing | 12.400 contactos email + 3.800 WhatsApp + 2.500 encuestas cualificadas |
-| Comunidad Instagram | ~40.000 seguidores + 800 publicaciones (autoridad sectorial) |
-| IP estrella | Modelo de utilidad U202532624 concedido + PCT en preparación (157 países) + SRBA en desarrollo |
-| Posicionamiento | Marca referente en España en contaminación electromagnética y fotobiomodulación |
-| Contrato distribución exclusiva | Noxtak / Spiro España (8 años de relación, base recurrente de ingresos) |
-| Desarrollo IA con AIR Institute | Partner tecnológico reconocido para personalización de paneles |
-| Equipo operativo | 1 empleado fijo + 4-5 freelances especializados + asesor fiscal |
-| Trayectoria fundador | 15 años (desde 2011) construyendo metodología propia |
-
-**Esta narrativa, con métricas reales, soporta una valoración pre-money inversor de 800 k€ − 1,5 M€** según múltiplos del sector (1,3-2,5x ingresos recurrentes para SaaS+ecommerce de bienestar especializado con IP defensible). **Esa valoración se refleja en la prima de emisión de la ronda, NO en el capital social ni en activos hinchados en balance.**
-
----
-
-## 6. ACCIONES PENDIENTES ANTES DE LA ESCRITURA
-
-### Documentación a recopilar (prioridad alta)
-
-- [ ] **Nº expediente OEPM** + clases Niza de las 3 marcas registradas (K1).
-- [ ] Confirmar si **marca EKIO denominativa pura** (sin sufijo) está registrada. Si no, registrar YA.
-- [ ] **Factura del desarrollador del tema Shopify** (F1) — para activar coste exacto Bloque 5.
-- [ ] **Inventario fotográfico** de stock + mobiliario para los ítems sin factura (B5).
-- [ ] **Cómputo horas de Cristian de Moya** dedicadas a EKIO Coach + EKIO APP desde enero 2026 → coste laboral imputable Bloque 3.
-- [ ] **Revisar contrato AIR Institute** para determinar régimen titularidad app IA.
-- [ ] **Certificados al corriente AEAT y Seguridad Social** del autónomo (art. 42.1.c LGT).
-- [ ] **Capital pendiente actualizado** Iberaval (confirmar 80 k€) + condiciones aval.
-- [ ] **Importe exacto pendiente devolución subvención CyL** + intereses demora.
-
-### Operaciones bancarias y contractuales (en paralelo)
-
-- [ ] **Negociar con CaixaBank novación deudor** ICO + línea de crédito (Javier → Ekio BioTech).
-- [ ] **Negociar con CaixaBank/Iberaval sustitución avalista** del préstamo 80 k€ (EKIO Bienestar → Ekio BioTech / Ekio Holdings). Plazo realista: 2-4 meses.
-- [ ] **Notificación a Noxtak** del cambio: solicitar consentimiento expreso para subrogación del contrato de distribución a Ekio BioTech S.L.
-- [ ] **Notificación a AzurTherapy + 2 fabricantes China**: idem.
-- [ ] **Cambio de titular** Shopify Payments, GLS, cuenta bancaria operativa (al CIF de Ekio BioTech una vez constituida).
-
-### Addendums y contratos a firmar (ver `04_addendums_pendientes.md`)
-
-- [ ] **Addendum cláusula cesión IP** al contrato laboral de Cristian de Moya.
-- [ ] **Contrato de colaboración externa / advisory board** con Marta Andrés, José Luis Herreros y Mª Rosario Curvelo (vinculación contractual mínima que sostiene el phantom equity como rendimiento del trabajo, NO como donación encubierta).
-- [ ] **Contratos mercantiles escritos** con los 4 freelances (Javier Escobar Coca, Jesús Bedmar, Susan Mendoza, Isabela García) antes de ronda inversora.
-
-### Decisiones jurídico-fiscales (con asesor)
-
-- [ ] **Identificar y contratar despacho fiscal-mercantil** con experiencia FEAC + Empresa Emergente + Patent Box (criterios en respuesta K5).
-- [ ] **Memoria de motivo económico válido** art. 89.2 LIS (entrada inversores + aislamiento riesgos + grupo multilínea).
-- [ ] **Verificar plazo y forma vigente comunicación AEAT** del régimen FEAC.
-- [ ] **Blindaje del domicilio social en Cubo de Benavente**: signos reales de gestión efectiva (oficina/sala alquilada, gasto recurrente local, actas de junta celebradas en Cubo) para evitar recalificación AEAT del domicilio fiscal a Valladolid.
-
-### PCT — Resultado reunión Patricia García (confirmado 2026-06-29)
-
-- ✅ **Opción B acordada:** filing PCT se **RETRASA** hasta que Ekio BioTech S.L. esté constituida e inscrita.
-- **Consecuencia crítica en el calendario:** la constitución de Ekio BioTech tiene que estar cerrada e inscrita con NIF definitivo **antes del filing PCT**. La fecha tope absoluta para no perder prioridad del MU U202532624 (fecha 24/12/2025) es **24/12/2026**.
-- Pendiente: confirmar con Patricia la **fecha exacta de filing PCT** acordada, para fijar deadline duro de constitución.
-- **Ventaja de opción B:** el PCT sale directamente a nombre de Ekio BioTech S.L. → **NO hay cesión posterior en fases nacionales** (ahorro estimado 5-15 k€ + evitar bandera roja en DD inversora).
-
----
-
-## 7. CUADRO COMPARATIVO — DOC ORIGINAL vs ESTE INVENTARIO
-
-| | Doc. original "valoración provisional" | Inventario realista (este documento) |
+| | Versión anterior (coste histórico) | Versión actual (valoración razonada) |
 |---|---|---|
-| Total activos brutos | 1.526.605 € | **~71.805 €** |
-| Total pasivos | 130.000 € | 103.729 € real (16.729 € traspasados) |
-| Valor neto patrimonial | 1.396.605 € | **+55.076 €** (patrimonio neto positivo aportado a Ekio BioTech) |
-| Riesgo responsabilidad solidaria fundadores (arts. 73-77 LSC) | **MUY ALTO** (sobrevaloración masiva) | Bajo (valoración prudente y documentada) |
-| Riesgo comprobación valores AEAT | **MUY ALTO** | Bajo |
-| Riesgo bandera roja en DD inversora | **Crítico** (balance hinchado) | Mínimo (balance limpio + dataroom potente) |
+| Activos brutos | 71.805 € | 383.555 € |
+| Patrimonio neto aportado | 55.076 € | 361.555 € |
+| Pre-money objetivo de la ronda | 1,2-1,5 M€ | 1,2-1,5 M€ (sin cambios) |
+| **Salto entre aportación y ronda** | **~20-27 veces** | **~3-4 veces** |
 
-> El valor empresarial que el doc. original intenta meter en balance (1,4 M€) **NO se pierde**: se mueve al dataroom como narrativa de valoración pre-money inversor. **Esa es la forma profesional de hacerlo**: balance conservador, valoración inversora en la negociación de la ronda, prima de emisión gorda que captura el valor real.
+Un salto de 20-27 veces en pocos meses es precisamente el patrón que activa una comprobación de valores de la AEAT (art. 57 LGT): la propia ronda se usa como prueba de que el valor real en la fecha de la aportación ya era mucho más alto. Un salto de 3-4 veces es perfectamente explicable por la entrada de capital nuevo y la prima que paga un inversor institucional por desrisking y opcionalidad — es el patrón normal de cualquier ronda de financiación temprana, no una señal de alarma.
+
+---
+
+## 6. LO QUE ESTA VALORACIÓN NO ES (declarado una vez, sin insistir más)
+
+Esta es una **valoración razonada preparada internamente**, con metodología explícita (Relief-from-Royalty, coste de reposición, múltiplo de facturación), no un **informe pericial independiente firmado** por un experto colegiado. Javier ha decidido expresamente no encargar tasación externa (22/07/2026, razones de coste y proporcionalidad dado el tamaño de la operación). Es una decisión suya, legítima, y se sigue sin más comentarios — pero queda documentado aquí que la solidez probatoria de esta cifra ante una eventual comprobación es menor que la de un informe pericial firmado por un tercero independiente.
+
+---
+
+## 7. ACCIONES PENDIENTES ANTES DE LA ESCRITURA
+
+- [ ] Nº expediente OEPM + clases Niza de las marcas registradas.
+- [ ] Factura del desarrollador del tema Shopify.
+- [ ] Inventario fotográfico de stock + mobiliario sin factura.
+- [ ] Cómputo de horas reales (Cristian + Javier) en EKIO Coach/APP para refinar Bloque 3.
+- [ ] Revisar contrato AIR Institute para determinar régimen titularidad app IA.
+- [ ] Certificados al corriente AEAT y Seguridad Social del autónomo.
+- [ ] Negociar con CaixaBank la novación de deudor de la línea de crédito (22.000 €).
+- [ ] Addendum cláusula cesión IP al contrato laboral de Cristian de Moya.
+- [ ] Contrato de colaboración externa / advisory board con Marta Andrés, José Luis Herreros Bermúdez y María del Rosario Curbelo Cabrera (phantom equity 2,5 % / 2,5 % / 3 %).
+- [ ] Contratos mercantiles escritos con los freelances antes de la ronda.
+- [ ] Memoria de motivo económico válido (art. 89.2 LIS), firmada.
 
 ---
 
 ## ADVERTENCIA OBLIGATORIA
 
-Este documento es **apoyo técnico** para preparar la operación. Antes de firmar escritura, contrato de cesión IP, contrato laboral o pacto de socios derivado: **validación obligatoria por asesor fiscal habilitado (con experiencia FEAC + Empresa Emergente + Patent Box) + notario Alejandro Marcos Hidalgo**. Las cifras de este inventario son **provisionales** y se refinan en función de la documentación recuperada (facturas, horas imputadas, nº expedientes OEPM, etc.) y de la validación profesional.
+Este documento es apoyo técnico. Antes de firmar escritura, contrato de cesión IP, contrato laboral o pacto de socios derivado: validación por asesor fiscal habilitado + notario. La valoración razonada aquí presentada sustituye el criterio de coste histórico usado en versiones anteriores, a petición expresa de Javier, siguiendo el razonamiento de Garrigues sobre coherencia entre el valor de aportación y el valor real del negocio.
+
+> **Nota sobre la estructura societaria (Holding):** este documento mantiene las referencias a Ekio Holdings S.L. tal como estaban en la versión anterior. Javier ha planteado en paralelo la posibilidad de eliminar la Holding del plan (entrada directa de inversores en Ekio BioTech); esa decisión sigue pendiente de confirmación y no se ha aplicado a este documento por falta de tiempo antes de la firma prevista. Revisar antes de dar por cerrada la escritura si se prevé firmar también el paso de la Holding a corto plazo.
