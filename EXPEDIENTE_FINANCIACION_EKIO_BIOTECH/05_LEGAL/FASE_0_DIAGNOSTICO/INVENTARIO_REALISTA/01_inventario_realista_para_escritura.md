@@ -21,7 +21,8 @@
 | Estructura societaria | **SIN HOLDING** (confirmado 22/07/2026). Ekio BioTech S.L. es la única sociedad; los inversores entran directamente en ella |
 | Régimen fiscal aplicable | Cap. VII Tít. VII LIS · **FEAC** · art. 87 LIS (aportación no dineraria especial) |
 | IVA | No sujeción (art. 7.1º LIVA, unidad económica autónoma) |
-| Objetivo adicional de estructuración | **Empresa familiar** (exención Patrimonio art. 4.Ocho Ley 19/1991 + reducción ISD art. 20.6 Ley 29/1987) — requiere retribución del administrador >50 % de sus rendimientos totales |
+| Régimen elegido | **SOCIEDAD OPERATIVA FAMILIAR** (confirmado 23/07/2026) — exención Patrimonio art. 4.Ocho Ley 19/1991 + reducción 95 % ISD art. 20.2.c Ley 29/1987 para transmisión mortis causa a sobrinos (colaterales 3er grado, en defecto de descendientes). Requiere retribución del administrador >50 % de sus rendimientos totales. **Se descarta el régimen de empresa emergente (Ley 28/2022)** |
+| Verificaciones confirmadas por el aportante | Contabilidad Holded **ajustada al Código de Comercio** (art. 87.1 LIS) ✓ · Conjunto aportado constituye **unidad económica autónoma** (art. 7.1º LIVA / art. 87.2 LIS) ✓ |
 | Capital social objetivo Ekio BioTech | 10.000 € |
 | Domicilio social | Barrio de Arriba, 39 · 49327 **Cubo de Benavente (Zamora)** |
 | Administrador único | Francisco Javier Andrés Andrés — **cargo retribuido** (confirmado 22/07/2026), cuantía a fijar por la Junta |
