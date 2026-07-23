@@ -19,9 +19,10 @@
 | Estructura societaria | **SIN HOLDING** (confirmado 22/07/2026). Ekio BioTech S.L. es la única sociedad; los inversores entran directamente en ella |
 | Régimen fiscal aplicable | Cap. VII Tít. VII LIS · **FEAC** · art. 87 LIS (aportación no dineraria especial) |
 | IVA | No sujeción (art. 7.1º LIVA, unidad económica autónoma) |
+| Objetivo adicional de estructuración | **Empresa familiar** (exención Patrimonio art. 4.Ocho Ley 19/1991 + reducción ISD art. 20.6 Ley 29/1987) — requiere retribución del administrador >50 % de sus rendimientos totales |
 | Capital social objetivo Ekio BioTech | 10.000 € |
 | Domicilio social | Barrio de Arriba, 39 · 49327 **Cubo de Benavente (Zamora)** |
-| Administrador único | Francisco Javier Andrés Andrés |
+| Administrador único | Francisco Javier Andrés Andrés — **cargo retribuido** (confirmado 22/07/2026), cuantía a fijar por la Junta |
 | Notario | **Alejandro Marcos Hidalgo** · c/ Constitución, Valladolid (contacto operativo: Héctor Tapia Barbado) |
 | Sociedad preexistente | EKIO Bienestar S.L. → queda **en hibernación** (avalista Iberaval). Sin actividad, cuentas atrasadas al día |
 | Sociedad fuera del perímetro | **EkoWifi Conectados y Protegidos** (marca OEPM M 4286006, clase 38) se reserva fuera de Ekio BioTech |
@@ -172,6 +173,16 @@
 ### Pasivo que se traspasa a Ekio BioTech: 22.000 €
 
 > **Cambio de decisión (2026-07-22):** anteriormente se traspasaba también el ICO (6.729 €) junto con la línea de crédito. Javier ha decidido que **solo la línea de crédito se traspasa**, y por su saldo dispuesto actualizado (22.000 €, no los 10.000 € anteriores ni los 30.000 € de límite). El ICO se queda íntegramente en la esfera personal de Javier.
+
+### Subvenciones que se aportan (activo intangible/relación transmitida, sin valor individualizado añadido al balance)
+
+| Expediente | Línea | Organismo | Importe | Estado |
+|---|---|---|---|---|
+| 06/25/VA/0078 | Digitalización y Transformación | ICE Castilla y León (FEDER) | Concedida 3.510 € | Aceptada 01/07/2026 |
+| 03/25/VA/0018 | Fomento de la Innovación en PYMEs | ICE Castilla y León (FEDER) | Concedida 3.907,08 € | Aceptada 07/07/2026 |
+| 04/25/VA/0053 | Proyectos de I+D+i "Ekio Light I+D" | ICE Castilla y León | Presupuesto personal 62.658 €, importe a conceder pendiente | En tramitación, ejecución 01/05/2026-30/04/2028, compromiso 2 puestos I+D |
+
+> **Riesgo no resuelto:** las subvenciones se conceden habitualmente *intuitu personae*; el cambio de beneficiario (autónomo → sociedad) puede requerir autorización expresa de ICE Castilla y León, no ser automático. Gestión a incluir en las actuaciones que el aportante se compromete a realizar para el cambio de titularidad (cláusula c) de la escritura). El compromiso de creación de 2 puestos I+D del expediente 04/25/VA/0053 (hasta abril de 2028) pasaría a ser una obligación de la sociedad si se autoriza la subrogación.
 
 ### Balance aportado resultante
 

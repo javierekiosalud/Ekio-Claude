@@ -41,7 +41,7 @@ Posteriormente está prevista una **ampliación de capital con prima de emisión
 | **Sucursal / centro de trabajo** | Local en Valladolid (arrendado, 393 €/mes) |
 | **Capital social** | 10.000 €, dividido en 10.000 participaciones de 1 € de valor nominal, numeradas de la 1 a la 10.000 |
 | **Prima de asunción** | 351.555 €, desembolsada en el mismo acto con cargo a la misma aportación |
-| **Órgano de administración** | Administrador único: el propio socio fundador. Retribución **[a confirmar con asesor fiscal]** |
+| **Órgano de administración** | Administrador único: el propio socio fundador. **Cargo retribuido** (confirmado 22/07/2026) — la cuantía concreta de la asignación anual se fijará por acuerdo de la Junta General, no en la propia escritura. Retribución sustancial requerida, entre otros motivos, para sostener la calificación de "empresa familiar" (ver apartado 3, punto 6) |
 | **Unipersonalidad** | Se hará constar la condición de sociedad unipersonal (art. 13 LSC) |
 | **Ejercicio social** | Año natural; cierre 31 de diciembre |
 | **Inicio de operaciones** | Fecha de otorgamiento de la escritura |
@@ -81,6 +81,16 @@ Se aporta el **negocio en funcionamiento** del empresario individual: la totalid
 | Préstamo CaixaBank con aval de Iberaval (80.000 €) | El aval está prestado por EKIO Bienestar S.L.; requiere novación separada |
 | Obligación de reintegro de subvención Junta de Castilla y León (7.000 € pendientes) | Obligación nominativa del empresario persona física |
 | Solicitud PCT en preparación | Aún no presentada; se presentará a nombre de EKIO BIOTECH S.L. una vez constituida |
+
+**Subvenciones que se aportan (transmiten con la unidad económica, sin valoración individualizada en el balance):**
+
+| Expediente | Línea | Organismo | Importe | Estado |
+|---|---|---|---|---|
+| 06/25/VA/0078 | Digitalización y Transformación | ICE Castilla y León (FEDER) | Concedida 3.510 € | Aceptada 01/07/2026 |
+| 03/25/VA/0018 | Fomento de la Innovación en PYMEs | ICE Castilla y León (FEDER) | Concedida 3.907,08 € | Aceptada 07/07/2026 |
+| 04/25/VA/0053 | Proyectos de I+D+i "Ekio Light I+D" | ICE Castilla y León | Presupuesto personal 62.658 €, importe a conceder pendiente | En tramitación, ejecución 01/05/2026-30/04/2028, compromiso de creación de 2 puestos I+D |
+
+> **Advertencia de riesgo (no resuelta, pendiente de confirmar con el organismo concedente):** las subvenciones públicas se conceden habitualmente *intuitu personae* y su cambio de beneficiario (de persona física a sociedad) puede requerir **autorización expresa previa de ICE Castilla y León**, no ser automático por el mero hecho de la aportación. El aportante se compromete, conforme a la cláusula c) siguiente, a realizar las gestiones necesarias ante el organismo concedente para comunicar y, en su caso, obtener la autorización del cambio de titularidad, incluida la subrogación en las obligaciones de mantenimiento pendientes (en particular, el compromiso de creación de empleo del expediente 04/25/VA/0053 hasta abril de 2028).
 
 ### 2.2. ANEXO I — Inventario y valoración razonada de activos aportados
 
@@ -130,6 +140,7 @@ Se solicita hacer constar en la escritura:
 3. **No sujeción a IVA** de la transmisión (art. 7.1º LIVA — unidad económica autónoma).
 4. **Operaciones societarias:** constitución exenta de la modalidad OS (art. 45.I.B.11 TRLITPAJD).
 5. **Comunicación a la AEAT** de la opción por el régimen FEAC en el plazo correspondiente desde la inscripción.
+6. **Calificación como "empresa familiar"** (objetivo de estructuración, a confirmar con el asesor fiscal): se persigue que Ekio BioTech S.L. cumpla los requisitos de exención en el Impuesto sobre el Patrimonio (art. 4.Ocho Ley 19/1991) y de reducción en el Impuesto sobre Sucesiones y Donaciones (art. 20.6 Ley 29/1987) para futuras transmisiones. Requisitos: actividad económica real (cumplido — la propia unidad económica aportada), participación del titular ≥5 % individual (cumplido — 100 %), y que la retribución del socio-administrador por funciones de dirección represente **más del 50 %** de sus rendimientos totales del trabajo y actividades económicas — de ahí que el cargo de administrador se haya fijado como retribuido (ver apartado 1.1).
 
 > **Punto de verificación previo (crítico):** el art. 87.1 LIS exige, para aportaciones de persona física de rama de actividad, que el aportante lleve **contabilidad ajustada al Código de Comercio**. El aportante gestiona su contabilidad con Holded; el asesor fiscal verificará que los libros cumplen formalmente este requisito antes del otorgamiento.
 
