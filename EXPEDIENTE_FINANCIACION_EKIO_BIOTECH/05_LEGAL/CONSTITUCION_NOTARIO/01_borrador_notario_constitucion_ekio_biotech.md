@@ -2,12 +2,12 @@
 
 **Destinatario:** D. Alejandro Marcos Hidalgo, Notario — c/ Constitución, Valladolid (contacto operativo: Héctor Tapia Barbado)
 **Remitente:** Francisco Javier Andrés Andrés (empresario individual / autónomo)
-**Fecha:** 22 de julio de 2026 (v2 — valoración actualizada)
+**Fecha:** 22 de julio de 2026 (v3 — valoración actualizada + sin Holding)
 **Asunto:** Encargo de constitución de sociedad limitada unipersonal mediante aportación no dineraria de negocio (unidad económica autónoma), acogida al régimen de neutralidad fiscal (Cap. VII Tít. VII LIS).
 
 > **Naturaleza de este documento:** borrador de trabajo preparado por el promotor con apoyo técnico, para envío a la Notaría con vistas a firma el lunes o martes próximos. Todas las cifras y cláusulas quedan sujetas al criterio de la Notaría. Los datos marcados **[PENDIENTE]** se aportarán antes del otorgamiento.
 >
-> **Cambio relevante respecto al borrador anterior (03/07/2026):** se ha revisado la valoración de la aportación. Los intangibles (propiedad industrial, marcas, software) ya no se valoran a coste de registro/desarrollo, sino por su valor razonado como parte de un negocio en marcha (método de royalty para IP y marca, coste de reposición para software, múltiplo de facturación para el fondo de comercio). Además, se revisa qué pasivo se traspasa a la sociedad. Ver detalle en el Anexo I actualizado.
+> **Cambios relevantes respecto al borrador anterior:** (1) se ha revisado la valoración de la aportación — los intangibles ya no se valoran a coste de registro/desarrollo, sino por su valor razonado como parte de un negocio en marcha; (2) se revisa qué pasivo se traspasa a la sociedad; (3) **se confirma que NO habrá sociedad Holding** — los inversores entrarán directamente en Ekio BioTech S.L., que es la única sociedad que se constituye. Ver detalle en los apartados correspondientes.
 
 ---
 
@@ -36,7 +36,7 @@ Posteriormente está prevista una **ampliación de capital con prima de emisión
 | Elemento | Contenido |
 |---|---|
 | **Denominación** | EKIO BIOTECH, S.L. (unipersonal). Certificación negativa RMC **[PENDIENTE — alternativas: "Ekio BioTech S.L.", "Ekio Biotech Salud S.L.", "Ekio Light Biotech S.L."]** |
-| **Socio único fundador** | Francisco Javier Andrés Andrés, mayor de edad, **DNI 09338115T**, **soltero**, con domicilio en Barrio de Arriba, 39 — 49327 Cubo de Benavente (Zamora) |
+| **Socio único fundador** | Francisco Javier Andrés Andrés, mayor de edad (**nacido el 30 de enero de 1973**), **DNI 09338115T**, **soltero**, con domicilio en Barrio de Arriba, 39 — 49327 Cubo de Benavente (Zamora) |
 | **Domicilio social** | Barrio de Arriba, 39 — 49327 Cubo de Benavente (Zamora) |
 | **Sucursal / centro de trabajo** | Local en Valladolid (arrendado, 393 €/mes) |
 | **Capital social** | 10.000 €, dividido en 10.000 participaciones de 1 € de valor nominal, numeradas de la 1 a la 10.000 |
@@ -49,13 +49,13 @@ Posteriormente está prevista una **ampliación de capital con prima de emisión
 ### 1.2. Objeto social propuesto (borrador para estatutos)
 
 > «Constituye el objeto social:
-> a) La investigación, desarrollo e innovación en tecnologías de fotobiomodulación, iluminación de espectro controlado, software y sistemas de personalización, incluida la explotación de patentes, modelos de utilidad y demás derechos de propiedad industrial e intelectual de los que sea titular (CNAE 7219, actividad principal).
-> b) La fabricación, ensamblaje, importación, exportación, distribución y comercialización, al por mayor y al por menor, incluida la venta a través de internet, de dispositivos de iluminación y fotobiomodulación, paneles y lámparas de luz terapéutica, aparatos de medición ambiental y electromagnética, y productos destinados a la mitigación de campos electromagnéticos y al bienestar de las personas.
+> a) La fabricación, ensamblaje, importación, exportación, distribución y comercialización, al por mayor y al por menor, **incluida especialmente la venta a través de internet y por correspondencia** (CNAE 4791, actividad principal), de dispositivos de iluminación y fotobiomodulación, paneles y lámparas de luz terapéutica, aparatos de medición ambiental y electromagnética, y productos destinados a la mitigación de campos electromagnéticos y al bienestar de las personas.
+> b) La investigación, desarrollo e innovación en tecnologías de fotobiomodulación, iluminación de espectro controlado, software y sistemas de personalización, incluida la explotación de patentes, modelos de utilidad y demás derechos de propiedad industrial e intelectual de los que sea titular (CNAE 7219).
 > c) La consultoría, formación, medición y asesoramiento en materia de higiene electromagnética, salud ambiental y bienestar.
 > d) El arrendamiento y cesión de uso de los equipos y dispositivos anteriores.
 > Quedan excluidas todas aquellas actividades para cuyo ejercicio la ley exija requisitos especiales que no queden cumplidos por esta sociedad. Las actividades integrantes del objeto social podrán ser desarrolladas total o parcialmente de forma indirecta, mediante la titularidad de acciones o participaciones en sociedades con objeto idéntico o análogo.»
 >
-> *(Nota: se reordena el objeto social para que la actividad de I+D encabece la redacción, alineando el CNAE principal con 7219 en vez de con comercio al por menor, de cara a la calificación ante SODICAL/ENISA y a la coherencia con las subvenciones de I+D+i ya obtenidas.)*
+> *(Nota: a petición expresa de Javier (22/07/2026), el CNAE principal pasa a ser el de comercio electrónico (4791 — comercio al por menor por correo o por Internet), en lugar del CNAE de I+D (7219) que se había propuesto tras la reunión con Garrigues. La actividad de I+D se mantiene en el objeto social como actividad secundaria (apartado b), coherente con las subvenciones de I+D+i ya obtenidas, pero ya no como CNAE declarado principal.)*
 
 ### 1.3. Cláusulas estatutarias que se solicitan expresamente
 
@@ -175,9 +175,15 @@ La solicitud internacional **PCT** que reivindica la prioridad del modelo de uti
 
 ---
 
-## 7. NOTA SOBRE LA ESTRUCTURA SOCIETARIA (HOLDING) — PENDIENTE DE CONFIRMACIÓN
+## 7. ESTRUCTURA SOCIETARIA — CONFIRMADO: SIN HOLDING
 
-Javier ha planteado la posibilidad de **eliminar la Holding del plan** (entrada directa de inversores en Ekio BioTech, sin canje de valores posterior). Esta decisión está **pendiente de confirmación** y no se ha aplicado a este borrador por la premura de la firma. Si se confirma antes de la firma, revisar: la cláusula de libre transmisión a sociedades del grupo (ya no sería necesaria en los mismos términos), y el destino de la marca EkoWifi (quedaría en patrimonio personal del fundador en vez de en una futura sociedad hermana).
+**Decisión confirmada por Javier (22/07/2026): no se constituirá ninguna sociedad Holding.** Ekio BioTech S.L. es la única sociedad que se crea. Los inversores (SODICAL, ENISA, equity privado) entrarán **directamente** en Ekio BioTech mediante la ampliación de capital con prima prevista para Q4 2026 – Q1 2027, sin canje de valores previo ni segunda escritura.
+
+**Consecuencias de esta decisión ya reflejadas en este documento:**
+- No hay segunda escritura de constitución de Holding ni operación de canje de valores (art. 80 LIS) — el documento anterior sí la contemplaba, ahora se elimina de la planificación.
+- La cláusula de "libre transmisión a sociedades íntegramente participadas por el socio" (apartado 1.3.1) se mantiene como buena práctica estatutaria general, pero **ya no responde a una necesidad inmediata** (no hay una Holding a la que transmitir participaciones a corto plazo).
+- La marca **EkoWifi** (excluida de la aportación) queda en el patrimonio personal de Javier **de forma indefinida**, sin una sociedad hermana concreta prevista para alojarla; si en el futuro se desarrolla esa línea, se decidirá entonces la estructura societaria correspondiente.
+- La memoria de motivo económico válido (art. 89.2 LIS, apartado 3.2) se apoya principalmente en la **entrada de inversores**, sin el argumento adicional de "construcción de un grupo multilínea bajo Holding" que se había manejado antes.
 
 ---
 

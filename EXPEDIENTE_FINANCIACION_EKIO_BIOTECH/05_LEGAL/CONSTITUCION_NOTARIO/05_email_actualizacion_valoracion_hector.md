@@ -7,7 +7,9 @@
 
 Buenos días Héctor,
 
-Te escribo con la actualización definitiva de cifras para cerrar la escritura, con vistas a firmar el lunes o martes de la semana que viene. Hay dos cambios importantes respecto al borrador que manejábamos:
+Te escribo con la actualización definitiva para cerrar la escritura, con vistas a firmar el lunes o martes de la semana que viene. Hay varios cambios respecto al borrador que manejábamos:
+
+**0. Mi fecha de nacimiento** (para completar la comparecencia): **30 de enero de 1973**.
 
 **1. Cambio en la valoración de la aportación.**
 
@@ -39,7 +41,9 @@ Solo se traspasa la línea de crédito de CaixaBank, por su saldo dispuesto actu
 
 Sobre la naturaleza de esta valoración: es una valoración razonada que hemos preparado nosotros con apoyo técnico, con metodología explicada para cada bloque (no un informe pericial externo firmado — he decidido no encargarlo, por coste y proporcionalidad dado el tamaño de la operación). Entiendo que esto tiene menos peso que un informe de un perito independiente, pero cada cifra tiene un cálculo y un razonamiento detrás, documentado en el anexo que te adjunto, y evita el problema de fondo que me señaló mi asesoría: que un valor de aportación demasiado bajo, seguido meses después de una ronda de inversión a una valoración mucho más alta, es precisamente lo que activa una comprobación de valores de Hacienda.
 
-**Sobre el objeto social:** también te pediría un cambio — que el apartado de investigación, desarrollo e innovación (con el CNAE 7219) encabece la redacción del objeto social, por delante de la fabricación y venta, ya que es más coherente con las subvenciones de I+D+i que tengo concedidas y con el perfil que busco de cara a SODICAL.
+**Sobre el objeto social:** corrijo lo que te comenté hace unos días — finalmente **el CNAE principal debe ser el de comercio electrónico (4791 — comercio al por menor por correo o por Internet)**, no el de I+D. La actividad de investigación y desarrollo (CNAE 7219) se mantiene en el objeto social como actividad secundaria, pero el CNAE que se declara como principal es el de venta online.
+
+**Sobre la estructura societaria: confirmo que NO va a haber ninguna sociedad Holding.** Ekio BioTech S.L. será la única sociedad. Los inversores entrarán directamente en ella cuando llegue la ronda, sin canje de valores ni segunda escritura. Puedes descartar por completo esa parte de lo que habíamos hablado — simplifica el encargo.
 
 Te adjunto el documento completo con el detalle metodológico de cada bloque, listo para incorporar al inventario anexo de la escritura. Si te parece bien, ¿podemos cerrar cita para firmar el lunes o el martes?
 

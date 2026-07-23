@@ -16,7 +16,7 @@
 |---|---|
 | Aportante | Francisco Javier Andrés Andrés (autónomo, persona física) |
 | Sociedad receptora | **Ekio BioTech S.L.** (nueva constitución) |
-| Holding por encima | **Ekio Holdings S.L.** (nueva constitución, paso 2 vía canje art. 80 LIS) — *estructura societaria pendiente de confirmación final, ver nota al pie* |
+| Estructura societaria | **SIN HOLDING** (confirmado 22/07/2026). Ekio BioTech S.L. es la única sociedad; los inversores entran directamente en ella |
 | Régimen fiscal aplicable | Cap. VII Tít. VII LIS · **FEAC** · art. 87 LIS (aportación no dineraria especial) |
 | IVA | No sujeción (art. 7.1º LIVA, unidad económica autónoma) |
 | Capital social objetivo Ekio BioTech | 10.000 € |
@@ -224,4 +224,4 @@ Esta es una **valoración razonada preparada internamente**, con metodología ex
 
 Este documento es apoyo técnico. Antes de firmar escritura, contrato de cesión IP, contrato laboral o pacto de socios derivado: validación por asesor fiscal habilitado + notario. La valoración razonada aquí presentada sustituye el criterio de coste histórico usado en versiones anteriores, a petición expresa de Javier, siguiendo el razonamiento de Garrigues sobre coherencia entre el valor de aportación y el valor real del negocio.
 
-> **Nota sobre la estructura societaria (Holding):** este documento mantiene las referencias a Ekio Holdings S.L. tal como estaban en la versión anterior. Javier ha planteado en paralelo la posibilidad de eliminar la Holding del plan (entrada directa de inversores en Ekio BioTech); esa decisión sigue pendiente de confirmación y no se ha aplicado a este documento por falta de tiempo antes de la firma prevista. Revisar antes de dar por cerrada la escritura si se prevé firmar también el paso de la Holding a corto plazo.
+> **Nota sobre la estructura societaria:** confirmado (22/07/2026) que **no se constituirá Holding**. Ekio BioTech S.L. es la única sociedad; los inversores entrarán directamente en ella. La marca EkoWifi (excluida del aporte) queda en el patrimonio personal de Javier de forma indefinida, sin sociedad hermana prevista por ahora.
