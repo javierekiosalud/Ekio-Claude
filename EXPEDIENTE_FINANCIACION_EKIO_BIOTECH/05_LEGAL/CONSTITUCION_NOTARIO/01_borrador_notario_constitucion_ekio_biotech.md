@@ -183,32 +183,11 @@ La solicitud internacional **PCT** que reivindica la prioridad del modelo de uti
 ## 5. DOCUMENTACIÓN QUE APORTARÁ EL COMPARECIENTE
 
 - [ ] DNI del fundador.
-- [ ] Certificación negativa de denominación (RMC).
-- [ ] Título de concesión del modelo de utilidad U202532624 (OEPM) + factura de La Fábrica de Inventos.
-- [ ] Documentación OEPM del nombre comercial N 0467723 y de la solicitud de marca M 4357232.
-- [ ] Inventario unitario valorado del stock e inmovilizado, con facturas disponibles.
-- [ ] Facturas del desarrollo de la tienda Shopify y titularidad de dominios.
 - [ ] Contrato laboral del trabajador que se subroga (D. Cristian de Moya Llanos).
-- [ ] Certificados de estar al corriente AEAT y Seguridad Social.
-- [ ] Documentación de la línea de crédito CaixaBank (para la asunción de deuda) y estado de la novación.
-- [ ] Memoria de motivo económico válido (art. 89.2 LIS), firmada.
-- [ ] Memoria de valoración razonada de los intangibles (documento adjunto, metodología Relief-from-Royalty/coste de reposición/múltiplo de facturación).
 
 ---
 
-## 6. CONSULTAS PREVIAS AL NOTARIO
-
-1. **Valoración de los intangibles:** se ha optado por una valoración razonada de negocio en marcha (no coste histórico puro) para reflejar el valor real de la propiedad industrial, marcas, software y fondo de comercio. ¿Qué nivel de soporte documental exige para que el Registro Mercantil inscriba sin defectos, dado que no hay informe pericial independiente?
-2. **Una escritura o varias:** ¿documentamos la constitución con aportación del negocio en una única escritura con anexos, o prefiere protocolizar contratos accesorios por separado?
-3. **Asunción de pasivo:** forma de reflejar la asunción de la línea de crédito condicionada al consentimiento del acreedor.
-4. **Aportación de solicitud de marca en trámite (M 4357232 "EKIO LIGHT"):** mecanismo de cesión de derechos de solicitud.
-5. **Denominación:** riesgo de calificación por semejanza con "EKIO Bienestar S.L."
-6. **Cesión del contrato de arrendamiento del local:** ¿cómo instrumentarla — cesión con notificación al arrendador (art. 32 LAU) o resolución del contrato actual y firma de uno nuevo a nombre de la sociedad? Objetivo: minimizar el impacto de la posible subida del 20 %.
-7. **Presupuesto y plazos** de la escritura, dado el objetivo de firma la próxima semana.
-
----
-
-## 7. ESTRUCTURA SOCIETARIA — CONFIRMADO: SIN HOLDING
+## 6. ESTRUCTURA SOCIETARIA — CONFIRMADO: SIN HOLDING
 
 **Decisión confirmada por Javier (22/07/2026): no se constituirá ninguna sociedad Holding.** Ekio BioTech S.L. es la única sociedad que se crea. Los inversores (SODICAL, ENISA, equity privado) entrarán **directamente** en Ekio BioTech mediante la ampliación de capital con prima prevista para Q4 2026 – Q1 2027, sin canje de valores previo ni segunda escritura.
 
@@ -217,6 +196,16 @@ La solicitud internacional **PCT** que reivindica la prioridad del modelo de uti
 - La cláusula de "libre transmisión a sociedades íntegramente participadas por el socio" (apartado 1.3.1) se mantiene como buena práctica estatutaria general, pero **ya no responde a una necesidad inmediata** (no hay una Holding a la que transmitir participaciones a corto plazo).
 - La marca **EkoWifi** (excluida de la aportación) queda en el patrimonio personal de Javier **de forma indefinida**, sin una sociedad hermana concreta prevista para alojarla; si en el futuro se desarrolla esa línea, se decidirá entonces la estructura societaria correspondiente.
 - La memoria de motivo económico válido (art. 89.2 LIS, apartado 3.2) se apoya principalmente en la **entrada de inversores**, sin el argumento adicional de "construcción de un grupo multilínea bajo Holding" que se había manejado antes.
+
+---
+
+## 7. PLAN DE PHANTOM EQUITY (NOTA INFORMATIVA — no forma parte de la escritura)
+
+Se hace constar, a título informativo, que el fundador tiene previsto establecer un **plan de phantom equity / participación en beneficios** a favor de tres colaboradoras (María del Rosario Curbelo Cabrera, 3 %; Marta Andrés Andrés, 2,5 %; José Luis Herreros Bermúdez, 2,5 %; total 8 %).
+
+**Este plan NO forma parte de la escritura de constitución ni del cuerpo de la aportación**, y así debe ser: se trata de un **derecho contractual** a percibir el equivalente a un porcentaje de dividendos y/o del producto neto de un eventual evento de liquidez, no de participaciones sociales. Las beneficiarias **no son socias, no votan, no figuran en el cap table y no realizan aportación alguna**. Se instrumentará mediante **contrato separado** (pendiente de redacción), a coordinar con el asesor legal.
+
+Se menciona aquí únicamente porque constituye un **compromiso económico futuro de la sociedad** que deberá revelarse a los inversores en la due diligence de la ronda.
 
 ---
 
