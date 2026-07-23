@@ -14,8 +14,10 @@
 
 | Concepto | Dato |
 |---|---|
-| Aportante | Francisco Javier Andrés Andrés (autónomo, persona física) |
+| Aportante | Francisco Javier Andrés Andrés (autónomo, persona física, nacido 30/01/1973) |
+| Fecha de referencia de la valoración | **23 de julio de 2026** (corte del inventario; stock y tesorería se re-cortan a fecha de otorgamiento) |
 | Sociedad receptora | **Ekio BioTech S.L.** (nueva constitución) |
+| Arrendamiento del local (Valladolid) | **Se cede a la sociedad** (art. 32 LAU: notificar al arrendador, posible subida 20 %) |
 | Estructura societaria | **SIN HOLDING** (confirmado 22/07/2026). Ekio BioTech S.L. es la única sociedad; los inversores entran directamente en ella |
 | Régimen fiscal aplicable | Cap. VII Tít. VII LIS · **FEAC** · art. 87 LIS (aportación no dineraria especial) |
 | IVA | No sujeción (art. 7.1º LIVA, unidad económica autónoma) |
@@ -209,9 +211,13 @@ Un salto de 20-27 veces en pocos meses es precisamente el patrón que activa una
 
 ---
 
-## 6. LO QUE ESTA VALORACIÓN NO ES (declarado una vez, sin insistir más)
+## 6. LO QUE ESTA VALORACIÓN NO ES, Y EL EQUILIBRIO DE RIESGO
 
-Esta es una **valoración razonada preparada internamente**, con metodología explícita (Relief-from-Royalty, coste de reposición, múltiplo de facturación), no un **informe pericial independiente firmado** por un experto colegiado. Javier ha decidido expresamente no encargar tasación externa (22/07/2026, razones de coste y proporcionalidad dado el tamaño de la operación). Es una decisión suya, legítima, y se sigue sin más comentarios — pero queda documentado aquí que la solidez probatoria de esta cifra ante una eventual comprobación es menor que la de un informe pericial firmado por un tercero independiente.
+**No es un informe pericial firmado.** Es una **valoración razonada preparada internamente**, con metodología explícita (Relief-from-Royalty, coste de reposición, múltiplo de facturación), no un informe pericial independiente firmado por un experto colegiado. Javier ha decidido expresamente no encargar tasación externa (22/07/2026, por coste y proporcionalidad). Decisión legítima; queda documentado que su solidez probatoria ante una comprobación es menor que la de un informe pericial de un tercero.
+
+**Por qué esto es posible siendo S.L. (y su contrapartida):** una S.A. exigiría informe de experto independiente designado por el Registro Mercantil (art. 67 LSC); una **S.L. no lo exige** (art. 63 LSC), por eso vale una valoración razonada interna. La contrapartida es la **responsabilidad solidaria del fundador con su patrimonio personal durante 5 años** por la realidad y el valor de lo aportado (arts. 73-77 LSC).
+
+**El equilibrio tiene dos lados.** Se subió la valoración desde ~55.076 € para evitar el riesgo de *infravaloración* (comprobación de valores por el salto a la ronda). Pero al subir aparece el riesgo *simétrico* de *sobrevaloración* (misma responsabilidad de los arts. 73-77 LSC). **La partida más expuesta es el fondo de comercio de 165.000 € por múltiplo de facturación** — la primera que examinaría un registrador o la AEAT. El asesor fiscal debe confirmar que los 383.555 € son defendibles y no quedan en el lado excesivamente alto.
 
 ---
 

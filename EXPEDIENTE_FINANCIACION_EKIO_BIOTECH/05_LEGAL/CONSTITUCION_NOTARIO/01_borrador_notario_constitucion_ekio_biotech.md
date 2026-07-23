@@ -38,7 +38,7 @@ Posteriormente está prevista una **ampliación de capital con prima de emisión
 | **Denominación** | EKIO BIOTECH, S.L. (unipersonal). Certificación negativa RMC **[PENDIENTE — alternativas: "Ekio BioTech S.L.", "Ekio Biotech Salud S.L.", "Ekio Light Biotech S.L."]** |
 | **Socio único fundador** | Francisco Javier Andrés Andrés, mayor de edad (**nacido el 30 de enero de 1973**), **DNI 09338115T**, **soltero**, con domicilio en Barrio de Arriba, 39 — 49327 Cubo de Benavente (Zamora) |
 | **Domicilio social** | Barrio de Arriba, 39 — 49327 Cubo de Benavente (Zamora) |
-| **Sucursal / centro de trabajo** | Local en Valladolid (arrendado, 393 €/mes) |
+| **Sucursal / centro de trabajo** | Local en Valladolid (arrendado, 393 €/mes). **El contrato de arrendamiento se cede a la sociedad** (confirmado 23/07/2026) — ver apartado 2.1 |
 | **Capital social** | 10.000 €, dividido en 10.000 participaciones de 1 € de valor nominal, numeradas de la 1 a la 10.000 |
 | **Prima de asunción** | 351.555 €, desembolsada en el mismo acto con cargo a la misma aportación |
 | **Órgano de administración** | Administrador único: el propio socio fundador. **Cargo retribuido** (confirmado 22/07/2026) — la cuantía concreta de la asignación anual se fijará por acuerdo de la Junta General, no en la propia escritura. Retribución sustancial requerida, entre otros motivos, para sostener la calificación de "empresa familiar" (ver apartado 3, punto 6) |
@@ -72,6 +72,12 @@ Posteriormente está prevista una **ampliación de capital con prima de emisión
 
 Se aporta el **negocio en funcionamiento** del empresario individual: la totalidad de los elementos patrimoniales afectos a la actividad de comercio electrónico y consultoría bajo marca EKIO, que constituyen una **unidad económica autónoma** capaz de funcionar por sus propios medios (art. 7.1º LIVA y art. 87.2 LIS), incluyendo un trabajador por cuenta ajena que se subroga ex art. 44 ET.
 
+> **Valoración de la aportación referida a la fecha de: 23 de julio de 2026.** El inventario y las cifras de este documento se cierran a esa fecha; el stock y la tesorería se re-cortarán a la fecha exacta de otorgamiento si difiere, dado que las ventas continúan.
+
+**Cesión del contrato de arrendamiento del local:** el contrato de arrendamiento del local de Valladolid (renta 393 €/mes IVA incluido), actualmente a nombre del aportante, **se cede a Ekio BioTech S.L.** como elemento afecto a la actividad. Se hace constar el condicionante del **art. 32 LAU**: en un arrendamiento para uso distinto de vivienda, la cesión faculta al arrendador a elevar la renta un 20 % y debe notificársele de forma fehaciente en el plazo de un mes desde la cesión. Consultar con la Notaría la forma de instrumentarlo (cesión con notificación al arrendador vs. novación con nuevo contrato a nombre de la sociedad).
+
+**Subrogación del trabajador (art. 44 ET):** la aportación incluye la subrogación del trabajador por cuenta ajena (D. Cristian de Moya Llanos). Se hace constar que el art. 44 ET genera **responsabilidad solidaria del aportante y de la sociedad durante 3 años** por las obligaciones laborales y de Seguridad Social nacidas antes de la transmisión, y obliga a comunicar la sucesión a la Tesorería General de la Seguridad Social.
+
 **Elementos que se EXCLUYEN expresamente de la aportación** (permanecen en la esfera del aportante):
 
 | Elemento excluido | Motivo |
@@ -94,7 +100,11 @@ Se aporta el **negocio en funcionamiento** del empresario individual: la totalid
 
 ### 2.2. ANEXO I — Inventario y valoración razonada de activos aportados
 
-> **Criterio de valoración:** valoración razonada de empresa en marcha — coste real para tangibles; método de royalty (Relief-from-Royalty) para propiedad industrial y marcas, basado en los ingresos que cada activo protege o sostiene; coste de reposición para software; múltiplo de facturación (contrastado con la suma de los activos individualizados) para el fondo de comercio del negocio en marcha. Metodología preparada internamente por el aportante con apoyo técnico, no mediante informe pericial independiente (decisión expresa del aportante). El fundador conoce y asume la responsabilidad solidaria por la realidad y valoración de las aportaciones (arts. 73 a 77 LSC).
+> **Criterio de valoración:** valoración razonada de empresa en marcha — coste real para tangibles; método de royalty (Relief-from-Royalty) para propiedad industrial y marcas, basado en los ingresos que cada activo protege o sostiene; coste de reposición para software; múltiplo de facturación (contrastado con la suma de los activos individualizados) para el fondo de comercio del negocio en marcha. Metodología preparada internamente por el aportante con apoyo técnico, no mediante informe pericial independiente (decisión expresa del aportante).
+
+> **Por qué S.L. y no S.A., y qué implica (importante que el aportante lo tenga presente):** en una Sociedad Anónima, las aportaciones no dinerarias exigen **informe de experto independiente designado por el Registro Mercantil** (art. 67 LSC). En una **Sociedad Limitada NO es obligatorio** (art. 63 LSC) — por eso puede usarse esta valoración razonada interna. La contrapartida legal de esa libertad es que **los socios fundadores responden solidariamente, con su patrimonio personal y durante 5 años, de la realidad de las aportaciones y del valor atribuido** (arts. 73 a 77 LSC). El aportante lo conoce y lo asume.
+
+> **Aviso de equilibrio de la valoración (el punto óptimo tiene dos lados):** la valoración se ha elevado respecto a versiones anteriores (que la dejaban en ~55.076 €) para evitar el riesgo de *infravaloración* — que la AEAT, ante una ronda de inversión posterior a valoración muy superior, abriese una comprobación de valores (art. 57 LGT). Pero conviene ser consciente del riesgo *simétrico*: una valoración alta aumenta la exposición a la responsabilidad por *sobrevaloración* de los arts. 73-77 LSC. **La partida más expuesta a escrutinio es el fondo de comercio de 165.000 € (elemento 8), calculado por múltiplo de facturación** — es la que un registrador o la AEAT examinarían primero. El asesor fiscal debe validar que el conjunto (383.555 €) es defendible y no queda en el lado excesivamente alto.
 
 | # | Categoría | Descripción | Método | Valor |
 |---|---|---|---|---|
@@ -136,13 +146,22 @@ Se aporta el **negocio en funcionamiento** del empresario individual: la totalid
 Se solicita hacer constar en la escritura:
 
 1. **Acogimiento expreso** de la aportación al régimen especial del **Capítulo VII del Título VII de la Ley 27/2014 (LIS)**, por la vía del **art. 87** (aportación no dineraria especial / aportación de rama de actividad por persona física). Efecto: diferimiento de la ganancia patrimonial en el IRPF del aportante; los elementos conservan su valor y antigüedad fiscal (art. 78 LIS).
-2. **Motivo económico válido (art. 89.2 LIS):** la operación se realiza para dar entrada a inversores en una estructura societaria adecuada (ronda prevista con SODICAL, ENISA e inversores privados) y limitar la responsabilidad del negocio de fabricación y comercialización de dispositivos. **Se acompañará memoria justificativa firmada** como anexo.
+2. **Motivo económico válido (art. 89.2 LIS):** la operación se realiza por los siguientes motivos económicos, que se desarrollarán en la memoria justificativa firmada que se acompañará como anexo:
+   - **Acceso a financiación:** los instrumentos de financiación previstos (SODICAL, ENISA, inversores privados) exigen forma societaria — no financian a un empresario individual. La constitución de la sociedad es condición necesaria para captar el capital que el crecimiento del negocio requiere.
+   - **Limitación de responsabilidad:** la actividad consiste en la fabricación y comercialización de dispositivos que se aplican sobre el cuerpo de las personas (fotobiomodulación), lo que conlleva un riesgo de producto que resulta prudente aislar del patrimonio personal del empresario mediante una sociedad de responsabilidad limitada.
+   - **Profesionalización y continuidad:** la estructura societaria permite ordenar la gestión, incorporar un plan de retribución a colaboradores clave y dar continuidad y escalabilidad al negocio.
+   > *(Nota: al haberse descartado la sociedad Holding, la memoria ya no puede apoyarse en el argumento de "construcción de un grupo multilínea"; por ello se refuerzan los tres motivos anteriores, todos ciertos y verificables.)*
 3. **No sujeción a IVA** de la transmisión (art. 7.1º LIVA — unidad económica autónoma).
 4. **Operaciones societarias:** constitución exenta de la modalidad OS (art. 45.I.B.11 TRLITPAJD).
 5. **Comunicación a la AEAT** de la opción por el régimen FEAC en el plazo correspondiente desde la inscripción.
-6. **Calificación como "empresa familiar"** (objetivo de estructuración, a confirmar con el asesor fiscal): se persigue que Ekio BioTech S.L. cumpla los requisitos de exención en el Impuesto sobre el Patrimonio (art. 4.Ocho Ley 19/1991) y de reducción en el Impuesto sobre Sucesiones y Donaciones (art. 20.6 Ley 29/1987) para futuras transmisiones. Requisitos: actividad económica real (cumplido — la propia unidad económica aportada), participación del titular ≥5 % individual (cumplido — 100 %), y que la retribución del socio-administrador por funciones de dirección represente **más del 50 %** de sus rendimientos totales del trabajo y actividades económicas — de ahí que el cargo de administrador se haya fijado como retribuido (ver apartado 1.1).
+6. **Calificación como "empresa familiar"** (objetivo de estructuración, a confirmar con el asesor fiscal): se persigue que Ekio BioTech S.L. cumpla los requisitos de exención en el Impuesto sobre el Patrimonio (art. 4.Ocho Ley 19/1991) y de reducción en el Impuesto sobre Sucesiones (art. 20.2.c Ley 29/1987) para la futura transmisión mortis causa.
+   - **Requisitos (que se cumplen por estructura, no por declaración):** la calificación no se "declara" ni se marca en la escritura; se obtiene cumpliendo materialmente y de forma continuada: actividad económica real (cumplido — la unidad económica aportada), participación del titular ≥5 % individual (cumplido — 100 %), y que la retribución del socio-administrador por funciones de dirección represente **más del 50 %** de sus rendimientos totales del trabajo y actividades económicas (de ahí que el cargo se haya fijado como retribuido, apartado 1.1). Los beneficios fiscales se aplican en su momento (declaración anual de Patrimonio; herencia) si se cumplen entonces los requisitos.
+   - **El aportante no tiene descendientes; sus herederos previstos son sus sobrinos.** Esto NO impide la reducción del 95 % en la transmisión mortis causa: el art. 20.2.c Ley 29/1987 la extiende, *en defecto de descendientes y cónyuge*, a los **colaterales hasta el tercer grado** (los sobrinos lo son). La reducción funciona, por tanto, para la herencia. (Para donación en vida a sobrinos la reducción estatal es más restrictiva; Castilla y León tiene normativa autonómica propia que el asesor fiscal concretará.)
+   - **⚠️ Decisión pendiente para el asesor fiscal (no resuelta): empresa familiar vs. empresa emergente (Ley 28/2022).** Los beneficios de la Ley de Startups (tipo IS 15 %, stock options ventajosas, aplazamientos) encajan mejor con un plan de entrada de inversores y eventual venta, mientras que la empresa familiar está orientada a mantener y transmitir. Además, la aportación del negocio de un autónomo **podría descalificar** de empresa emergente (art. 3 Ley 28/2022, operación de reestructuración). Son regímenes distintos y hay que elegir cuál conviene: **este punto debe zanjarlo el asesor fiscal antes de tomar decisiones que condicionen uno u otro.**
 
-> **Punto de verificación previo (crítico):** el art. 87.1 LIS exige, para aportaciones de persona física de rama de actividad, que el aportante lleve **contabilidad ajustada al Código de Comercio**. El aportante gestiona su contabilidad con Holded; el asesor fiscal verificará que los libros cumplen formalmente este requisito antes del otorgamiento.
+> **Puntos de verificación previa (críticos, para el asesor fiscal):**
+> - **Contabilidad ajustada al Código de Comercio (art. 87.1 LIS):** el aportante gestiona su contabilidad con Holded; el asesor fiscal verificará que los libros cumplen formalmente este requisito antes del otorgamiento, ya que de él depende el diferimiento fiscal de toda la operación.
+> - **Que lo aportado se aprecie como "unidad económica autónoma":** la no sujeción a IVA (art. 7.1º LIVA) y el propio art. 87 LIS exigen que el conjunto transmitido constituya una unidad capaz de funcionar por sus propios medios. Con un único trabajador, conviene que el asesor confirme que el conjunto de medios materiales y humanos aportados sostiene esa calificación; en caso contrario, la transmisión de los bienes podría quedar sujeta a IVA.
 
 ---
 
@@ -182,7 +201,8 @@ La solicitud internacional **PCT** que reivindica la prioridad del modelo de uti
 3. **Asunción de pasivo:** forma de reflejar la asunción de la línea de crédito condicionada al consentimiento del acreedor.
 4. **Aportación de solicitud de marca en trámite (M 4357232 "EKIO LIGHT"):** mecanismo de cesión de derechos de solicitud.
 5. **Denominación:** riesgo de calificación por semejanza con "EKIO Bienestar S.L."
-6. **Presupuesto y plazos** de la escritura, dado el objetivo de firma la próxima semana.
+6. **Cesión del contrato de arrendamiento del local:** ¿cómo instrumentarla — cesión con notificación al arrendador (art. 32 LAU) o resolución del contrato actual y firma de uno nuevo a nombre de la sociedad? Objetivo: minimizar el impacto de la posible subida del 20 %.
+7. **Presupuesto y plazos** de la escritura, dado el objetivo de firma la próxima semana.
 
 ---
 

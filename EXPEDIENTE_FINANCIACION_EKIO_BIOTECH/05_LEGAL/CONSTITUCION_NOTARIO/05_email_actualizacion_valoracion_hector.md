@@ -45,6 +45,12 @@ Sobre la naturaleza de esta valoración: es una valoración razonada que hemos p
 
 **Sobre la estructura societaria: confirmo que NO va a haber ninguna sociedad Holding.** Ekio BioTech S.L. será la única sociedad. Los inversores entrarán directamente en ella cuando llegue la ronda, sin canje de valores ni segunda escritura. Puedes descartar por completo esa parte de lo que habíamos hablado — simplifica el encargo.
 
+**Un par de cosas más para dejar la escritura completa:**
+
+- **Fecha de la valoración:** el inventario y las cifras están cerrados a fecha de **hoy, 23 de julio de 2026**. El stock se re-cortará a la fecha exacta de la firma, ya que las ventas continúan.
+- **Arrendamiento del local de Valladolid:** quiero que **el contrato de arrendamiento se ceda a la sociedad**. Sé que la cesión puede permitir al arrendador subir la renta un 20 % (art. 32 LAU) — ¿cómo me recomiendas instrumentarlo para minimizar ese efecto: cesión con notificación, o resolver el contrato actual y firmar uno nuevo directamente a nombre de la sociedad?
+- **Empresa familiar:** quiero estructurar la sociedad para que cumpla los requisitos de empresa familiar (mis herederos previstos son mis sobrinos). Entiendo que esto no se declara en la escritura, sino que se cumple con la estructura (administrador retribuido, actividad real). Confírmame si hay algo que debamos reflejar ya en los estatutos o el objeto social por este motivo.
+
 Te adjunto el documento completo con el detalle metodológico de cada bloque, listo para incorporar al inventario anexo de la escritura. Si te parece bien, ¿podemos cerrar cita para firmar el lunes o el martes?
 
 Muchas gracias,
