@@ -1,0 +1,1081 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Guía interactiva de fotobiomodulación aplicada a la belleza y la estética: las 11 longitudes de onda de los paneles Ekio Light y su uso por objetivo estético.">
+<title>Fotobiomodulación y belleza — Guía interactiva Ekio Light</title>
+</head>
+<body>
+<style>
+/* ---------- tokens ---------- */
+:root{
+  --ground:#0C0A11;
+  --ground-2:#131020;
+  --surface:#1B1725;
+  --surface-2:#221D2E;
+  --line:#312941;
+  --line-soft:#241E31;
+  --ink:#F1EBF3;
+  --ink-2:#B6ADC3;
+  --ink-3:#847A94;
+  --accent:#FF4A33;
+  --accent-soft:rgba(255,74,51,.14);
+  --accent-2:#2FC7D8;
+  --ok:#54D38A;
+  --warn:#F2B33D;
+  --risk:#FF6B6B;
+  --bench:#0A0810;
+  --bench-line:#2A2338;
+  --shadow:0 1px 0 rgba(255,255,255,.04), 0 18px 40px -24px rgba(0,0,0,.9);
+
+  --display:"Avenir Next Condensed","HelveticaNeue-CondensedBold","Arial Narrow","Helvetica Neue",Helvetica,sans-serif;
+  --body:Charter,"Bitstream Charter","Iowan Old Style","Palatino Linotype",Georgia,serif;
+  --mono:ui-monospace,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;
+}
+@media (prefers-color-scheme: light){
+  :root{
+    --ground:#F7F3F1;
+    --ground-2:#FFFFFF;
+    --surface:#FFFFFF;
+    --surface-2:#F2ECEE;
+    --line:#E0D6DC;
+    --line-soft:#EDE5E9;
+    --ink:#191320;
+    --ink-2:#564C60;
+    --ink-3:#867B90;
+    --accent:#D2331C;
+    --accent-soft:rgba(210,51,28,.10);
+    --accent-2:#0E7C8B;
+    --ok:#1F9D5F;
+    --warn:#A9740B;
+    --risk:#C0392B;
+    --shadow:0 1px 0 rgba(255,255,255,.6), 0 16px 34px -26px rgba(30,18,40,.5);
+  }
+}
+:root[data-theme="light"]{
+  --ground:#F7F3F1; --ground-2:#FFFFFF; --surface:#FFFFFF; --surface-2:#F2ECEE;
+  --line:#E0D6DC; --line-soft:#EDE5E9; --ink:#191320; --ink-2:#564C60; --ink-3:#867B90;
+  --accent:#D2331C; --accent-soft:rgba(210,51,28,.10); --accent-2:#0E7C8B;
+  --ok:#1F9D5F; --warn:#A9740B; --risk:#C0392B;
+  --shadow:0 1px 0 rgba(255,255,255,.6), 0 16px 34px -26px rgba(30,18,40,.5);
+}
+:root[data-theme="dark"]{
+  --ground:#0C0A11; --ground-2:#131020; --surface:#1B1725; --surface-2:#221D2E;
+  --line:#312941; --line-soft:#241E31; --ink:#F1EBF3; --ink-2:#B6ADC3; --ink-3:#847A94;
+  --accent:#FF4A33; --accent-soft:rgba(255,74,51,.14); --accent-2:#2FC7D8;
+  --ok:#54D38A; --warn:#F2B33D; --risk:#FF6B6B;
+  --shadow:0 1px 0 rgba(255,255,255,.04), 0 18px 40px -24px rgba(0,0,0,.9);
+}
+
+*{box-sizing:border-box}
+body{
+  margin:0; background:var(--ground); color:var(--ink);
+  font-family:var(--body); font-size:17px; line-height:1.65;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:1140px; margin:0 auto; padding:0 24px}
+.col{max-width:68ch; margin-inline:auto}
+h1,h2,h3,h4{font-family:var(--display); font-weight:700; text-wrap:balance; margin:0; line-height:1.05}
+h1{font-size:clamp(44px,8.5vw,96px); letter-spacing:-.015em; text-transform:uppercase}
+h2{font-size:clamp(30px,4.6vw,50px); letter-spacing:-.01em; text-transform:uppercase}
+h3{font-size:clamp(21px,2.6vw,27px); letter-spacing:.005em}
+h4{font-size:16px; letter-spacing:.09em; text-transform:uppercase}
+p{margin:0}
+a{color:inherit}
+.mono{font-family:var(--mono); font-variant-numeric:tabular-nums}
+
+.eyebrow{
+  font-family:var(--mono); font-size:11.5px; letter-spacing:.22em;
+  text-transform:uppercase; color:var(--ink-3); margin:0;
+}
+.lede{font-size:clamp(18px,2.2vw,21px); color:var(--ink-2); line-height:1.6}
+.small{font-size:14.5px; color:var(--ink-2); line-height:1.6}
+.tiny{font-family:var(--mono); font-size:11.5px; letter-spacing:.05em; color:var(--ink-3); line-height:1.6}
+
+section{padding:76px 0; border-top:1px solid var(--line-soft)}
+section:first-of-type{border-top:0}
+.stack{display:flex; flex-direction:column; gap:18px}
+.stack-lg{display:flex; flex-direction:column; gap:34px}
+.stack-sm{display:flex; flex-direction:column; gap:10px}
+
+/* ---------- header ---------- */
+.masthead{padding:56px 0 22px}
+.mast-grid{display:flex; flex-direction:column; gap:26px}
+.brandbar{display:flex; flex-wrap:wrap; align-items:baseline; gap:14px; justify-content:space-between}
+.brandmark{font-family:var(--display); text-transform:uppercase; letter-spacing:.18em; font-size:14px}
+.brandmark span{color:var(--accent)}
+
+/* ---------- the bench (spectral rail) ---------- */
+.bench{
+  background:var(--bench); border:1px solid var(--bench-line); border-radius:3px;
+  padding:26px 24px 18px; box-shadow:var(--shadow); color:#F1EBF3;
+}
+.bench .tiny, .bench .eyebrow{color:#7E748F}
+.rail{position:relative; height:132px; margin:14px 0 0}
+.rail-band{
+  position:absolute; left:0; right:0; top:46px; height:16px; border-radius:2px;
+  background:linear-gradient(90deg,
+    #0A0810 0%, #2E1B6B 2%, #4B23B8 12%, #6C2CE0 17%,
+    #2FC7D8 26.5%, #1C8F6A 33%, #8FD32B 38%,
+    #FFD83D 41%, #FF7A2E 44%, #FF3B22 48%, #D51B10 52%,
+    #8E1410 58%, #4A0F14 64%, #2A0C13 72%, #190A11 84%, #0F080E 100%);
+  opacity:.92;
+}
+.rail-ghost{
+  position:absolute; top:30px; bottom:34px; border-left:1px dashed #3A3149; border-right:1px dashed #3A3149;
+  background:repeating-linear-gradient(135deg, rgba(255,255,255,.018) 0 6px, transparent 6px 12px);
+}
+.bench-foot{
+  display:flex; flex-wrap:wrap; gap:10px 18px; justify-content:space-between;
+  align-items:baseline; margin-top:10px; border-top:1px solid var(--bench-line); padding-top:10px;
+}
+.bench-foot span{font-family:var(--mono); font-size:10.5px; letter-spacing:.14em; text-transform:uppercase; color:#6C6280}
+.hatch{
+  display:inline-block; width:22px; height:9px; vertical-align:-1px; margin-right:7px;
+  border:1px dashed #3A3149;
+  background:repeating-linear-gradient(135deg, rgba(255,255,255,.10) 0 3px, transparent 3px 6px);
+}
+.tick{
+  position:absolute; top:8px; bottom:8px; width:26px; margin-left:-13px;
+  background:none; border:0; padding:0; cursor:pointer; color:inherit;
+}
+.tick-stem{
+  position:absolute; left:50%; top:24px; height:60px; width:2px; margin-left:-1px;
+  background:currentColor; opacity:.55; transform-origin:bottom;
+}
+.tick-dot{
+  position:absolute; left:50%; top:18px; width:11px; height:11px; margin-left:-5.5px;
+  border-radius:50%; background:currentColor; box-shadow:0 0 0 0 currentColor;
+  transition:transform .18s ease, box-shadow .25s ease;
+}
+.tick-nm{
+  position:absolute; left:50%; bottom:2px; transform:translateX(-50%);
+  font-family:var(--mono); font-size:10px; letter-spacing:.02em; color:#7E748F;
+  opacity:0; transition:opacity .18s ease; white-space:nowrap;
+}
+.tick:hover .tick-dot, .tick:focus-visible .tick-dot{transform:scale(1.45); box-shadow:0 0 16px 2px currentColor}
+.tick:hover .tick-nm, .tick:focus-visible .tick-nm{opacity:1}
+.tick[aria-pressed="true"] .tick-dot{transform:scale(1.6); box-shadow:0 0 20px 3px currentColor}
+.tick[aria-pressed="true"] .tick-nm{opacity:1; color:#F1EBF3}
+.tick[aria-pressed="true"] .tick-stem{opacity:1}
+.rail-scale{position:relative; height:16px; margin-top:2px}
+.rail-scale span{position:absolute; transform:translateX(-50%); font-family:var(--mono); font-size:10px; color:#5E5670}
+
+/* load animation */
+@media (prefers-reduced-motion: no-preference){
+  .tick{animation:rise .5s cubic-bezier(.2,.7,.3,1) backwards}
+  @keyframes rise{from{opacity:0; transform:translateY(14px)} to{opacity:1; transform:translateY(0)}}
+}
+
+/* ---------- chips / pills ---------- */
+.chips{display:flex; flex-wrap:wrap; gap:8px}
+.chip{
+  font-family:var(--mono); font-size:12px; letter-spacing:.04em;
+  padding:8px 13px; border-radius:2px; border:1px solid var(--line);
+  background:var(--surface); color:var(--ink-2); cursor:pointer;
+  transition:border-color .15s ease, color .15s ease, background .15s ease;
+}
+.chip:hover{border-color:var(--ink-3); color:var(--ink)}
+.chip[aria-pressed="true"]{background:var(--accent); border-color:var(--accent); color:#fff}
+:root[data-theme="light"] .chip[aria-pressed="true"], .chip[aria-pressed="true"]{color:#fff}
+
+.ev{
+  display:inline-flex; align-items:center; gap:7px; font-family:var(--mono);
+  font-size:11px; letter-spacing:.08em; text-transform:uppercase; white-space:nowrap;
+}
+.ev::before{content:""; width:8px; height:8px; border-radius:50%; background:var(--dot,var(--ink-3))}
+.ev-ok{--dot:var(--ok); color:var(--ok)}
+.ev-mid{--dot:var(--warn); color:var(--warn)}
+.ev-low{--dot:var(--risk); color:var(--risk)}
+
+.tag{
+  font-family:var(--mono); font-size:11px; letter-spacing:.06em;
+  padding:4px 8px; border:1px solid var(--line); border-radius:2px; color:var(--ink-2);
+}
+.tag-on{border-color:var(--accent); color:var(--accent); background:var(--accent-soft)}
+
+/* ---------- panels/cards ---------- */
+.card{background:var(--surface); border:1px solid var(--line); border-radius:3px; padding:24px}
+.grid-2{display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:18px}
+.grid-pair{display:grid; grid-template-columns:1fr; gap:18px}
+@media (min-width:720px){ .grid-pair{grid-template-columns:repeat(2,minmax(0,1fr))} }
+.grid-3{display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:18px}
+
+/* ---------- wavelength reader ---------- */
+.reader{display:grid; grid-template-columns:minmax(0,1fr) 300px; gap:24px; align-items:start}
+@media (max-width:860px){ .reader{grid-template-columns:1fr} }
+.reader-head{display:flex; flex-wrap:wrap; align-items:baseline; gap:14px}
+.reader-nm{font-family:var(--display); font-size:clamp(46px,9vw,76px); line-height:.9; letter-spacing:-.02em}
+.reader-nm small{font-size:.34em; letter-spacing:.06em; margin-left:.25em; color:var(--ink-3)}
+.reader-name{font-family:var(--mono); font-size:12px; letter-spacing:.18em; text-transform:uppercase}
+.defs{display:grid; grid-template-columns:auto minmax(0,1fr); gap:10px 18px; align-items:baseline; margin:0}
+.defs dt{font-family:var(--mono); font-size:11px; letter-spacing:.14em; text-transform:uppercase; color:var(--ink-3)}
+.defs dd{margin:0; font-size:16px; line-height:1.55}
+
+/* skin cross-section */
+.skin{position:relative; border:1px solid var(--line); border-radius:3px; overflow:hidden; background:var(--surface-2)}
+.layer{position:relative; padding:9px 12px; border-bottom:1px dashed var(--line)}
+.layer:last-child{border-bottom:0}
+.layer-name{font-family:var(--mono); font-size:10.5px; letter-spacing:.12em; text-transform:uppercase; color:var(--ink-3)}
+.layer-note{font-size:13px; color:var(--ink-2); line-height:1.4}
+.beam{
+  position:absolute; left:0; right:0; top:0; height:0;
+  background:linear-gradient(180deg, var(--beam,#FF4A33) 0%, color-mix(in srgb, var(--beam,#FF4A33) 55%, transparent) 55%, transparent 100%);
+  opacity:.42; transition:height .55s cubic-bezier(.2,.7,.3,1);
+  pointer-events:none;
+}
+.beam-edge{
+  position:absolute; left:0; right:0; height:2px; background:var(--beam,#FF4A33);
+  top:0; transition:top .55s cubic-bezier(.2,.7,.3,1); opacity:.95; pointer-events:none;
+  box-shadow:0 0 14px 1px var(--beam,#FF4A33);
+}
+@media (prefers-reduced-motion: reduce){ .beam,.beam-edge{transition:none} }
+
+/* ---------- protocol output ---------- */
+.proto{display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:1px; background:var(--line); border:1px solid var(--line); border-radius:3px; overflow:hidden}
+.proto div{background:var(--surface); padding:14px 16px}
+.proto dt{font-family:var(--mono); font-size:10.5px; letter-spacing:.13em; text-transform:uppercase; color:var(--ink-3); margin-bottom:4px}
+.proto dd{margin:0; font-family:var(--mono); font-size:15px; line-height:1.4}
+
+.note{border-left:2px solid var(--accent); padding:2px 0 2px 16px; color:var(--ink-2); font-size:15.5px; line-height:1.6}
+.note-warn{border-left-color:var(--warn)}
+.note-risk{border-left-color:var(--risk)}
+
+/* ---------- table ---------- */
+.tablewrap{overflow-x:auto; border:1px solid var(--line); border-radius:3px}
+table{border-collapse:collapse; width:100%; min-width:640px; font-size:15px}
+th,td{padding:12px 14px; text-align:left; border-bottom:1px solid var(--line-soft)}
+thead th{
+  font-family:var(--mono); font-size:11px; letter-spacing:.12em; text-transform:uppercase;
+  color:var(--ink-3); background:var(--surface-2); border-bottom:1px solid var(--line);
+}
+tbody th{font-family:var(--mono); font-size:12.5px; letter-spacing:.04em; font-weight:400; color:var(--ink-2); white-space:nowrap}
+td{font-family:var(--mono); font-size:13.5px; font-variant-numeric:tabular-nums}
+tr:last-child td, tr:last-child th{border-bottom:0}
+.yes{color:var(--ok)} .no{color:var(--ink-3)}
+
+/* ---------- product cards ---------- */
+.prod{
+  display:flex; flex-direction:column; gap:12px; background:var(--surface);
+  border:1px solid var(--line); border-radius:3px; padding:22px; text-decoration:none;
+  transition:border-color .18s ease, transform .18s ease;
+}
+.prod:hover{border-color:var(--accent); transform:translateY(-2px)}
+.prod-name{font-family:var(--display); font-size:27px; text-transform:uppercase; letter-spacing:.01em}
+.prod-price{font-family:var(--mono); font-size:14px; color:var(--accent)}
+.prod-go{font-family:var(--mono); font-size:11.5px; letter-spacing:.14em; text-transform:uppercase; color:var(--ink-3); margin-top:auto}
+.prod:hover .prod-go{color:var(--accent)}
+.prod.is-pick{border-color:var(--accent); box-shadow:0 0 0 1px var(--accent)}
+
+.btn{
+  display:inline-block; font-family:var(--mono); font-size:12.5px; letter-spacing:.14em;
+  text-transform:uppercase; padding:15px 26px; background:var(--accent); color:#fff;
+  border:1px solid var(--accent); border-radius:2px; text-decoration:none;
+  transition:opacity .15s ease;
+}
+.btn:hover{opacity:.86}
+.btn-ghost{background:transparent; color:var(--ink); border-color:var(--line)}
+.btn-ghost:hover{border-color:var(--ink-3); opacity:1}
+
+:where(button,a,[tabindex]):focus-visible{outline:2px solid var(--accent-2); outline-offset:3px}
+
+hr.rule{border:0; border-top:1px solid var(--line-soft); margin:0}
+footer{padding:56px 0 80px; border-top:1px solid var(--line-soft)}
+</style>
+
+<div class="wrap">
+
+  <header class="masthead">
+    <div class="mast-grid">
+      <div class="brandbar">
+        <div class="brandmark">Ekio <span>Light</span></div>
+        <div class="tiny">Guía interactiva · v1 · julio 2026</div>
+      </div>
+
+      <div class="stack">
+        <p class="eyebrow">Fotobiomodulación aplicada a la belleza</p>
+        <h1>La luz que tu<br>piel sabe leer</h1>
+        <p class="lede col" style="margin-inline:0">
+          Tu piel no responde «a la luz roja». Responde a longitudes de onda concretas,
+          cada una absorbida por una molécula distinta y a una profundidad distinta.
+          Esta guía recorre las <strong>once longitudes de onda</strong> que emiten los paneles
+          Ekio Light y las traduce a objetivos estéticos reales: colágeno, acné, manchas,
+          ojeras, cicatrices, pelo, contorno corporal.
+        </p>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============ 1. MECANISMO ============ -->
+  <section>
+    <div class="stack-lg">
+      <div class="col stack">
+        <p class="eyebrow">01 · El mecanismo</p>
+        <h2>Por qué un fotón mueve el colágeno</h2>
+        <p>
+          La fotobiomodulación (PBM) no calienta ni quema: es una reacción fotoquímica.
+          La cadena es corta y está bien descrita, y esa es la parte sólida de toda la ciencia
+          que viene después.
+        </p>
+      </div>
+
+      <div class="col">
+        <div class="grid-3">
+          <div class="card stack-sm">
+            <p class="tiny">Paso 1</p>
+            <h3>Absorción</h3>
+            <p class="small">
+              El fotón rojo o infrarrojo llega a la mitocondria y lo absorbe la
+              <strong>citocromo c oxidasa</strong> (complejo IV de la cadena respiratoria).
+            </p>
+          </div>
+          <div class="card stack-sm">
+            <p class="tiny">Paso 2</p>
+            <h3>Desbloqueo</h3>
+            <p class="small">
+              Se disocia el <strong>óxido nítrico</strong> que frenaba la enzima. El flujo de
+              electrones se reanuda y la célula fabrica más <strong>ATP</strong>.
+            </p>
+          </div>
+          <div class="card stack-sm">
+            <p class="tiny">Paso 3</p>
+            <h3>Señal</h3>
+            <p class="small">
+              Una ráfaga controlada de ROS activa NF-κB y Nrf2: menos inflamación, más defensa
+              antioxidante y, en el fibroblasto, <strong>más procolágeno tipo I</strong>.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col stack">
+        <p class="note">
+          <strong>La ley que casi nadie respeta.</strong> La PBM es bifásica (Arndt-Schulz):
+          dosis bajas y medias estimulan, dosis muy altas inhiben. Más minutos no es mejor piel.
+          En estética facial la ventana útil está entre <span class="mono">3 y 10 J/cm²</span>.
+        </p>
+        <p class="tiny">
+          Base mecanística robusta (revisiones de Hamblin y cols.). La eficacia clínica varía
+          según la indicación y se gradúa una por una más abajo.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 2. EL ESPECTRO ============ -->
+  <section>
+    <div class="stack-lg">
+      <div class="col stack">
+        <p class="eyebrow">02 · El espectro</p>
+        <h2>Once longitudes de onda,<br>once trabajos distintos</h2>
+        <p>
+          Pulsa cualquier marca del riel para leer qué molécula la absorbe, hasta dónde llega y
+          qué hace exactamente por tu piel. La zona rayada de la derecha es infrarrojo:
+          <em>trabaja aunque no lo veas</em>.
+        </p>
+      </div>
+
+      <div class="bench">
+        <p class="eyebrow">Riel espectral Ekio Light · 270–1080 nm</p>
+        <div class="rail" id="rail">
+          <div class="rail-ghost" id="ghost"></div>
+          <div class="rail-band"></div>
+        </div>
+        <div class="rail-scale" id="railScale"></div>
+        <div class="bench-foot">
+          <span><i class="hatch"></i>Zona infrarroja · invisible al ojo</span>
+          <span>Pulsa una marca para leerla</span>
+        </div>
+      </div>
+
+      <div class="reader">
+        <div class="stack">
+          <div class="reader-head">
+            <div class="reader-nm" id="rNm">660<small>nm</small></div>
+            <div class="stack-sm">
+              <div class="reader-name" id="rName">Rojo terapéutico</div>
+              <div id="rEv"></div>
+            </div>
+          </div>
+
+          <dl class="defs">
+            <dt>Cromóforo</dt><dd id="rChromo"></dd>
+            <dt>Penetración</dt><dd id="rDepth"></dd>
+            <dt>En belleza</dt><dd id="rBeauty"></dd>
+          </dl>
+
+          <div class="stack-sm">
+            <p class="eyebrow">Paneles que la emiten</p>
+            <div class="chips" id="rPanels"></div>
+          </div>
+
+          <p class="note" id="rNote"></p>
+        </div>
+
+        <div class="stack-sm">
+          <p class="eyebrow">Hasta dónde llega</p>
+          <div class="skin" id="skin">
+            <div class="beam" id="beam"></div>
+            <div class="beam-edge" id="beamEdge"></div>
+            <div class="layer"><div class="layer-name">Epidermis</div><div class="layer-note">Barrera, melanocitos, porfirinas bacterianas</div></div>
+            <div class="layer"><div class="layer-name">Dermis</div><div class="layer-note">Fibroblastos, colágeno, capilares</div></div>
+            <div class="layer"><div class="layer-name">Hipodermis</div><div class="layer-note">Tejido adiposo, drenaje linfático</div></div>
+            <div class="layer"><div class="layer-name">Músculo y fascia</div><div class="layer-note">Tono, contorno, recuperación</div></div>
+            <div class="layer"><div class="layer-name">Tejido profundo</div><div class="layer-note">Tendón, articulación, hueso</div></div>
+          </div>
+          <p class="tiny">Profundidades orientativas: dependen de fototipo, hidratación e irradiancia real.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 3. OBJETIVOS ============ -->
+  <section>
+    <div class="stack-lg">
+      <div class="col stack">
+        <p class="eyebrow">03 · De la longitud de onda al espejo</p>
+        <h2>Elige tu objetivo</h2>
+        <p>
+          Cada objetivo estético tiene sus longitudes protagonistas, su dosis y su plazo real.
+          Los plazos son honestos: el colágeno tarda lo que tarda el colágeno.
+        </p>
+      </div>
+
+      <div class="col">
+        <div class="chips" id="goalChips"></div>
+      </div>
+
+      <div class="col stack">
+        <div class="card stack">
+          <div class="stack-sm">
+            <div id="gEv"></div>
+            <h3 id="gTitle"></h3>
+            <p class="small" id="gWhat"></p>
+          </div>
+
+          <div class="stack-sm">
+            <p class="eyebrow">Longitudes protagonistas</p>
+            <div class="chips" id="gWaves"></div>
+          </div>
+
+          <dl class="proto">
+            <div><dt>Dosis objetivo</dt><dd id="gDose"></dd></div>
+            <div><dt>Tiempo orientativo</dt><dd id="gTime"></dd></div>
+            <div><dt>Distancia</dt><dd id="gDist"></dd></div>
+            <div><dt>Frecuencia</dt><dd id="gFreq"></dd></div>
+            <div><dt>Primeros cambios</dt><dd id="gWhen"></dd></div>
+            <div><dt>Panel recomendado</dt><dd id="gPanel"></dd></div>
+          </dl>
+
+          <p class="note note-warn" id="gCaution"></p>
+        </div>
+
+        <p class="tiny">
+          Los tiempos asumen una irradiancia de referencia de 100 mW/cm² a 15 cm. Con el panel real
+          la dosis en J/cm² manda: si tu irradiancia es el doble, el tiempo es la mitad.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 4. PANELES ============ -->
+  <section>
+    <div class="stack-lg">
+      <div class="col stack">
+        <p class="eyebrow">04 · El equipo</p>
+        <h2>Qué panel cubre tu objetivo</h2>
+        <p>
+          Los cuatro paneles comparten el núcleo rojo e infrarrojo. La diferencia está en los
+          extremos del espectro: el cian que ordena tu ritmo diurno, el 727 nm del tejido adiposo,
+          el ultravioleta que sintetiza vitamina D.
+        </p>
+      </div>
+
+      <div class="col">
+        <div class="card stack">
+          <div class="stack-sm">
+            <p class="eyebrow">Tres preguntas</p>
+            <h3>¿Cuál me corresponde?</h3>
+          </div>
+
+          <div class="stack-sm">
+            <p class="small">1 · ¿Qué superficie vas a tratar?</p>
+            <div class="chips" data-q="area">
+              <button class="chip" type="button" aria-pressed="false" data-v="local">Una zona concreta</button>
+              <button class="chip" type="button" aria-pressed="false" data-v="cara">Cara, cuello y escote</button>
+              <button class="chip" type="button" aria-pressed="false" data-v="cuerpo">Cuerpo entero</button>
+            </div>
+          </div>
+
+          <div class="stack-sm">
+            <p class="small">2 · ¿Qué quieres cubrir?</p>
+            <div class="chips" data-q="goal">
+              <button class="chip" type="button" aria-pressed="false" data-v="piel">Solo piel y arrugas</button>
+              <button class="chip" type="button" aria-pressed="false" data-v="acne">Piel + acné o ritmo circadiano</button>
+              <button class="chip" type="button" aria-pressed="false" data-v="todo">Todo, incluida vitamina D</button>
+            </div>
+          </div>
+
+          <div class="stack-sm">
+            <p class="small">3 · ¿Con qué presupuesto trabajas?</p>
+            <div class="chips" data-q="budget">
+              <button class="chip" type="button" aria-pressed="false" data-v="bajo">Hasta 200 €</button>
+              <button class="chip" type="button" aria-pressed="false" data-v="medio">Hasta 1.000 €</button>
+              <button class="chip" type="button" aria-pressed="false" data-v="alto">Sin techo</button>
+            </div>
+          </div>
+
+          <p class="note" id="quizOut">Responde las tres y te marco el panel que encaja.</p>
+        </div>
+      </div>
+
+      <div class="tablewrap">
+        <table>
+          <thead>
+            <tr>
+              <th scope="col">Longitud</th>
+              <th scope="col">Core · 147 €</th>
+              <th scope="col">Deep 5 · 650 €</th>
+              <th scope="col">Bio Regén 7 · 970 €</th>
+              <th scope="col">Bio Spectrum 11 · 2.500 €</th>
+            </tr>
+          </thead>
+          <tbody id="cmpBody"></tbody>
+        </table>
+      </div>
+      <p class="tiny col" style="margin-inline:0">
+        COB = módulo Chip-on-Board central que combina 660 + 850 nm en alta densidad para dosis
+        concentrada sobre una zona. El Bio Spectrum 11 está protegido por el
+        Modelo de Utilidad español Nº U202532624.
+      </p>
+    </div>
+  </section>
+
+  <!-- ============ 5. RITUAL Y SEGURIDAD ============ -->
+  <section>
+    <div class="stack-lg">
+      <div class="col stack">
+        <p class="eyebrow">05 · La práctica</p>
+        <h2>El ritual de cuatro minutos</h2>
+      </div>
+
+      <div class="col">
+        <div class="grid-2">
+          <div class="card stack-sm">
+            <h4>Antes</h4>
+            <p class="small">
+              Piel limpia y ligeramente húmeda: transmite mejor. Sin maquillaje, sin filtros
+              físicos (el óxido de zinc rebota la luz). Los activos van <em>después</em>, nunca durante.
+            </p>
+          </div>
+          <div class="card stack-sm">
+            <h4>Durante</h4>
+            <p class="small">
+              Gafas opacas siempre en sesión facial. 15–20 cm de distancia, ojos cerrados,
+              modo continuo salvo protocolo específico. Sin pantallas: la sesión también es
+              higiene circadiana.
+            </p>
+          </div>
+          <div class="card stack-sm">
+            <h4>Después</h4>
+            <p class="small">
+              Sérum y activos sobre piel con microcirculación activada. De noche, aprovecha
+              para cerrar el día sin luz azul.
+            </p>
+          </div>
+          <div class="card stack-sm">
+            <h4>Constancia</h4>
+            <p class="small">
+              Cuatro sesiones cortas por semana superan a una sesión larga. La PBM no acumula
+              por atracón: acumula por repetición.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col stack">
+        <h3>Cuándo no, y cuándo con cuidado</h3>
+        <p class="note note-risk">
+          <strong>Detente y consulta:</strong> cáncer activo o lesión pigmentada sospechosa en la zona;
+          embarazo (evitar abdomen y zona lumbar baja); epilepsia fotosensible con modo pulsado;
+          patología ocular sin valoración.
+        </p>
+        <p class="note note-warn">
+          <strong>Precaución y dosis baja:</strong> melasma activo (el calor y la luz visible pueden
+          agravarlo), rosácea en brote, fármacos fotosensibilizantes —retinoides, isotretinoína,
+          algunos antibióticos, hipérico, amiodarona—, tatuajes oscuros en la zona (absorben más y
+          se calientan), tiroides al irradiar cuello anterior.
+        </p>
+        <p class="tiny">
+          Los paneles Ekio Light se comercializan como dispositivos de bienestar, no como producto
+          sanitario con indicación terapéutica aprobada. Esta guía es material informativo y no
+          sustituye la valoración de un profesional.
+        </p>
+      </div>
+
+      <div class="col stack">
+        <h3>La otra mitad: el entorno</h3>
+        <p>
+          Ekio nació midiendo contaminación electromagnética, y la razón por la que acabamos
+          fabricando luz es coherente: el estrés oxidativo y la alteración circadiana que
+          asociamos al ruido electromagnético del entorno solapan con las dianas de la PBM.
+          De poco sirve fabricar colágeno cuatro minutos si el dormitorio destruye tu melatonina
+          las otras ocho horas.
+        </p>
+        <p class="note">
+          Por eso todo protocolo estético Ekio empieza con lo mismo: <strong>una Spiro Card por
+          persona</strong>, encima del cuerpo y también durante la sesión, y un SpiroDisc en el
+          móvil del tocador. Es coadyuvante de entorno, no tratamiento: mejora la coherencia del
+          espacio donde tu piel se repara.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 6. CTA ============ -->
+  <section>
+    <div class="stack-lg">
+      <div class="col stack">
+        <p class="eyebrow">06 · Empezar</p>
+        <h2>Elige tu panel</h2>
+        <p>
+          Los cuatro se entregan como Ekio Light System: app Ekio Coach, guía de uso interactiva,
+          bombillas y suplementos Laittin según modelo. Cero flicker y bajo campo electromagnético,
+          porque los diseñan especialistas en electrosmog. Treinta días para devolverlo.
+        </p>
+      </div>
+
+      <div class="grid-pair" id="prodGrid">
+        <a class="prod" data-p="core" href="https://electrosmogespana.com/products/ekio-light-core-terapia-luz-roja-portatil">
+          <div class="prod-name">Core</div>
+          <div class="prod-price">147 € · antes 175 €</div>
+          <p class="small">13 LEDs, 660 + 850 nm, batería USB-C. Terapia local y portátil: rodilla, cuello, una zona de la cara.</p>
+          <div class="prod-go">Ver el Core →</div>
+        </a>
+        <a class="prod" data-p="deep5" href="https://electrosmogespana.com/products/panel-luz-roja-deep-5">
+          <div class="prod-name">Deep 5</div>
+          <div class="prod-price">650 €</div>
+          <p class="small">70 LEDs, 5 longitudes con la exclusiva 727 nm. El panel de iniciación para rostro completo y cuerpo.</p>
+          <div class="prod-go">Ver el Deep 5 →</div>
+        </a>
+        <a class="prod" data-p="br7" href="https://electrosmogespana.com/products/bio-regen-7-panel-regeneracion-celular">
+          <div class="prod-name">Bio Regén 7</div>
+          <div class="prod-price">970 €</div>
+          <p class="small">7 longitudes + COB. Añade el cian 485 nm (acné y ritmo diurno) y el infrarrojo profundo 940 nm.</p>
+          <div class="prod-go">Ver el Bio Regén 7 →</div>
+        </a>
+        <a class="prod" data-p="bs11" href="https://electrosmogespana.com/products/bio-spectrum-11-panel-fotobiomodulacion-profesional">
+          <div class="prod-name">Bio Spectrum 11</div>
+          <div class="prod-price">2.500 €</div>
+          <p class="small">210 LEDs, 11 longitudes en 4 circuitos independientes. El único con UV-B real y con infrarrojo a 1050 nm. Gafas UV incluidas.</p>
+          <div class="prod-go">Ver el Bio Spectrum 11 →</div>
+        </a>
+      </div>
+
+      <div class="col" style="display:flex; gap:12px; flex-wrap:wrap; justify-content:center">
+        <a class="btn" href="https://electrosmogespana.com/collections/productos-luz-roja">Ver toda la gama Ekio Light</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="col stack-sm">
+      <div class="brandmark">Ekio <span>Light</span></div>
+      <p class="tiny">
+        Ekio Bienestar S.L. · Valladolid · electrosmogespana.com — Guía informativa de bienestar.
+        Cada afirmación se gradúa por nivel de evidencia. No constituye consejo médico ni sustituye
+        la valoración clínica individualizada.
+      </p>
+    </div>
+  </footer>
+</div>
+
+<script>
+(function(){
+  "use strict";
+
+  /* ---------- data ---------- */
+  var W = [
+    { nm:292, key:"292", label:"292", name:"UV-B", color:"#7B5BF2", depth:5, ev:"mid",
+      chromo:"7-dehidrocolesterol en la epidermis",
+      depthTxt:"Epidermis muy superficial, menos de 0,1 mm",
+      beauty:"No trata la piel: la abastece. Es la fotoquímica que sintetiza vitamina D, y la vitamina D condiciona barrera cutánea, ciclo folicular del pelo y respuesta inflamatoria.",
+      panels:["bs11"],
+      note:"Exclusiva del Bio Spectrum 11. Gafas de protección UV obligatorias, dosis controlada y protocolo estricto: es la única banda de la gama con riesgo fototóxico real." },
+
+    { nm:385, key:"385", label:"385", name:"UV-A", color:"#8A56FF", depth:11, ev:"mid",
+      chromo:"Porfirinas bacterianas, fluoróforos cutáneos",
+      depthTxt:"Epidermis, 0,2–0,4 mm",
+      beauty:"Se usa en acné severo y como luz de diagnóstico fluorescente para revelar lo que el ojo no ve en la piel.",
+      panels:["bs11"],
+      note:"Solo a intensidad baja y con gafas. En antiaging avanzado se emplea como apoyo puntual a los proteoglicanos, nunca como base del protocolo." },
+
+    { nm:405, key:"405", label:"405", name:"Violeta", color:"#9B6BFF", depth:13, ev:"mid",
+      chromo:"Porfirinas de C. acnes",
+      depthTxt:"Epidermis y unión dermoepidérmica, 0,3–0,5 mm",
+      beauty:"Antibacteriano profundo: excita las porfirinas de la bacteria del acné y genera radicales que reducen la carga bacteriana. Estimula proteoglicanos.",
+      panels:["bs11"],
+      note:"Es la versión de más energía de la vía azul del acné. En pieles sensibles el cian 485 nm cumple una función parecida con menos agresión." },
+
+    { nm:485, key:"485", label:"485", name:"Cian", color:"#2FC7D8", depth:16, ev:"mid",
+      chromo:"Melanopsina de las células ipRGC, flavinas",
+      depthTxt:"Epidermis y retina, superficial",
+      beauty:"Su función principal es circadiana: por la mañana marca la señal de «es de día» que sincroniza cortisol y alerta. Belleza indirecta pero decisiva — el sueño es donde la piel se repara. Acción secundaria conocida sobre la flora cutánea.",
+      panels:["br7","bs11"],
+      note:"Úsalo por la mañana, nunca de noche. Cinco minutos antes del desayuno, mejor si además sales a por luz solar." },
+
+    { nm:630, key:"630", label:"630", name:"Rojo visible", color:"#FF6B3D", depth:26, ev:"ok",
+      chromo:"Citocromo c oxidasa, unidad CuA",
+      depthTxt:"Dermis papilar, 1–2 mm",
+      beauty:"El constructor estructural: síntesis de colágeno tipo I y III en el fibroblasto dérmico. Es la longitud de la firmeza y del grano fino de la piel.",
+      panels:["deep5","br7","bs11"],
+      note:"Evidencia sólida en rejuvenecimiento facial: los ensayos con luz roja muestran aumento de densidad de colágeno y mejora de rugosidad y elasticidad." },
+
+    { nm:660, key:"660", label:"660", name:"Rojo terapéutico", color:"#FF3B22", depth:33, ev:"ok",
+      chromo:"Citocromo c oxidasa (CuA y CuB)",
+      depthTxt:"Dermis reticular, 2–3 mm",
+      beauty:"La longitud clásica de la cabina facial: renovación celular, luminosidad, cicatrización y acción antiinflamatoria. También despierta el folículo piloso.",
+      panels:["core","deep5","br7","bs11"],
+      note:"Junto al 850 nm es el par más estudiado de toda la fotobiomodulación. Si solo pudieras tener dos longitudes, serían estas." },
+
+    { nm:670, key:"670", label:"670", name:"Rojo profundo", color:"#EF2214", depth:34, ev:"mid",
+      chromo:"Citocromo c oxidasa mitocondrial, incluida la retiniana",
+      depthTxt:"Dermis profunda, 2–3 mm",
+      beauty:"Relevante para quien pasa el día frente a pantallas: beneficia la mitocondria de la retina. En la línea metabólica se ha documentado reducción del pico de glucosa tras una sesión de 15 minutos.",
+      panels:["bs11"],
+      note:"Exclusiva del Bio Spectrum 11 dentro de la gama. El dato de glucosa procede de un estudio de 2024: prometedor y todavía aislado." },
+
+    { nm:727, key:"727", label:"727", name:"Rojo lejano (far-red)", color:"#C21A18", depth:45, ev:"mid",
+      chromo:"Citocromo c oxidasa y agua estructurada intracelular",
+      depthTxt:"Hipodermis y tejido subcutáneo, 3–4 mm",
+      beauty:"La longitud diferencial de Ekio: activa la mitocondria del tejido adiposo y participa en la regulación de la leptina. Es la banda del contorno corporal y del trabajo sobre celulitis.",
+      panels:["deep5","br7","bs11"],
+      note:"Mecanismo sólido, ensayos clínicos dedicados todavía escasos frente a 660 u 850. Donde el 727 es protagonista, el protocolo es base racional, no evidencia cerrada." },
+
+    { nm:810, key:"810", label:"810", name:"Infrarrojo cercano", color:"#A02733", depth:66, ev:"ok",
+      chromo:"Citocromo c oxidasa, banda de absorción óptima",
+      depthTxt:"Músculo y tejido profundo, 15–30 mm",
+      beauty:"Banda clásica de los protocolos capilares junto al 660: microcirculación del cuero cabelludo y prolongación de la fase anágena. También reparación profunda tras procedimientos.",
+      panels:["deep5","br7"],
+      note:"En densidad capilar la evidencia es sólida para alopecia androgénica, con dispositivos autorizados en el mercado internacional." },
+
+    { nm:850, key:"850", label:"850", name:"Infrarrojo cercano", color:"#8C2437", depth:72, ev:"ok",
+      chromo:"Citocromo c oxidasa y agua",
+      depthTxt:"Músculo profundo, 30–50 mm",
+      beauty:"Vasodilatación y óxido nítrico: es la longitud que lleva sangre y oxígeno al tejido reparado. En estética es el refuerzo profundo del rojo — cicatrices, post-procedimiento, tono muscular facial.",
+      panels:["core","deep5","br7","bs11"],
+      note:"Invisible al ojo: verás encendidos los LEDs rojos y apenas percibirás estos. Es normal y es señal de que la luz está penetrando." },
+
+    { nm:937, key:"937", label:"935/940", name:"Infrarrojo profundo", color:"#6B2136", depth:86, ev:"mid",
+      chromo:"Principalmente agua",
+      depthTxt:"Tejido conectivo, tendón y fascia, 50–70 mm",
+      beauty:"El territorio de la fascia y el tejido conectivo: soporte estructural del contorno corporal y del trabajo sobre celulitis. Genera calor perceptible.",
+      panels:["br7","bs11"],
+      note:"940 nm en el Bio Regén 7, 935 nm en el Bio Spectrum 11. Evítalo en rosácea y en melasma: aquí el calor es el enemigo." },
+
+    { nm:1050, key:"1050", label:"1050", name:"Infrarrojo lejano", color:"#4E1B2E", depth:97, ev:"mid",
+      chromo:"Agua y estructuras profundas",
+      depthTxt:"Tejido óseo y nervioso profundo",
+      beauty:"Donde los paneles estándar paran. Poco protagonismo estético directo, mucho en soporte estructural y recuperación profunda.",
+      panels:["bs11"],
+      note:"Exclusiva del Bio Spectrum 11. Es la frontera superior del rango de la fotobiomodulación doméstica." }
+  ];
+
+  var PANELS = {
+    core:  { name:"Core",            price:"147 €",   url:"https://electrosmogespana.com/products/ekio-light-core-terapia-luz-roja-portatil" },
+    deep5: { name:"Deep 5",          price:"650 €",   url:"https://electrosmogespana.com/products/panel-luz-roja-deep-5" },
+    br7:   { name:"Bio Regén 7",     price:"970 €",   url:"https://electrosmogespana.com/products/bio-regen-7-panel-regeneracion-celular" },
+    bs11:  { name:"Bio Spectrum 11", price:"2.500 €", url:"https://electrosmogespana.com/products/bio-spectrum-11-panel-fotobiomodulacion-profesional" }
+  };
+
+  var EV = {
+    ok:  { cls:"ev-ok",  txt:"Evidencia sólida" },
+    mid: { cls:"ev-mid", txt:"Evidencia emergente" },
+    low: { cls:"ev-low", txt:"Base racional" }
+  };
+
+  var GOALS = [
+    { id:"arrugas", chip:"Arrugas y firmeza", ev:"ok",
+      title:"Rejuvenecimiento: colágeno y elastina",
+      what:"El fibroblasto dérmico recibe ATP, sube la síntesis de procolágeno tipo I, elastina y ácido hialurónico, y bajan las metaloproteinasas que degradan la matriz. El infrarrojo refuerza la microcirculación por debajo.",
+      waves:["630","660","850"], dose:"4–10 J/cm²", time:"3–8 min", dist:"15–20 cm",
+      freq:"4–5/sem × 4 sem, luego 3/sem", when:"Luminosidad 2–4 sem · firmeza 8–12 sem",
+      panel:"deep5",
+      caution:"El colágeno se recambia a su ritmo: si a las cuatro semanas solo ves luminosidad, vas bien. Melasma activo, dosis baja y vigilancia." },
+
+    { id:"luz", chip:"Luminosidad y textura", ev:"ok",
+      title:"Luminosidad, poro y grano de piel",
+      what:"El efecto más rápido y el que engancha: mejora de microcirculación y de la función barrera. La piel refleja mejor la luz porque la superficie es más homogénea.",
+      waves:["630","660"], dose:"4–6 J/cm²", time:"3–4 min", dist:"15–20 cm",
+      freq:"2–3/sem indefinido", when:"2–4 semanas",
+      panel:"deep5",
+      caution:"Es también el protocolo de mantenimiento tras cualquier otro. Piel limpia, activos después de la sesión." },
+
+    { id:"acne", chip:"Acné", ev:"ok",
+      title:"Acné y piel con brotes",
+      what:"Doble vía. El cian y el violeta excitan las porfirinas de C. acnes y reducen la carga bacteriana; el rojo baja IL-1, IL-6 y TNF-α y repara. La combinación supera a cualquiera de las dos por separado.",
+      waves:["485","405","630","660"], dose:"3–8 J/cm²", time:"2–6 min", dist:"20 cm",
+      freq:"4–5/sem × 4–8 sem, luego 2/sem", when:"4–12 semanas",
+      panel:"br7",
+      caution:"Isotretinoína y retinoides aumentan la fotosensibilidad: consúltalo antes. El eje intestino-piel manda tanto como la luz." },
+
+    { id:"rosacea", chip:"Rosácea y piel reactiva", ev:"mid",
+      title:"Rosácea, dermatitis, piel reactiva",
+      what:"Aquí no se busca estimular: se busca calmar. El rojo actúa sobre la inflamación y la disfunción vascular que dominan el cuadro.",
+      waves:["630","660"], dose:"3–5 J/cm²", time:"2–4 min", dist:"25–30 cm",
+      freq:"3/sem, subiendo según tolerancia", when:"6–12 semanas",
+      panel:"deep5",
+      caution:"El calor agrava. Nada de infrarrojo profundo (935/940 nm), más distancia y dosis baja. Si aparece flushing durante la sesión, para y espacia." },
+
+    { id:"manchas", chip:"Manchas y melasma", ev:"low",
+      title:"Hiperpigmentación y melasma",
+      what:"La vía es indirecta: menos inflamación y menos estrés oxidativo pueden estabilizar una melanogénesis reactiva. La luz roja no es despigmentante y no blanquea.",
+      waves:["630","660"], dose:"2–4 J/cm²", time:"2–3 min", dist:"25–30 cm",
+      freq:"2–3/sem, reevaluar a las 4 sem", when:"8–12+ semanas, como coadyuvante",
+      panel:"deep5",
+      caution:"Precaución máxima con melasma activo: es fotosensible al calor y a la luz visible, y una dosis excesiva puede oscurecerlo. Si la mancha se oscurece, suspende. SPF 50 diario obligatorio." },
+
+    { id:"post", chip:"Post-procedimiento", ev:"ok",
+      title:"Recuperación tras láser, microneedling o peeling",
+      what:"La cicatrización es uno de los usos mejor documentados: más proliferación de fibroblastos y queratinocitos, más angiogénesis, colágeno mejor ordenado y menos riesgo de cicatriz hipertrófica.",
+      waves:["660","850"], dose:"4–8 J/cm²", time:"3–6 min", dist:"20 cm",
+      freq:"Diario × 5–7 días, luego 3/sem × 2–3 sem", when:"Desde las primeras 48–72 h",
+      panel:"deep5",
+      caution:"Nunca sobre herida abierta infectada, y siempre respetando la pauta del profesional que hizo el procedimiento." },
+
+    { id:"ojeras", chip:"Ojeras y contorno de ojos", ev:"mid",
+      title:"Ojeras, bolsas y área periocular",
+      what:"Piel finísima y muy vascular. La mejora de microcirculación reduce la estasis venosa de la ojera azulada, el colágeno gana firmeza y el drenaje baja la bolsa.",
+      waves:["630","660"], dose:"2–4 J/cm²", time:"~2 min", dist:"25–30 cm",
+      freq:"3/sem", when:"4–8 semanas",
+      panel:"core",
+      caution:"Ojos cerrados y gafas opacas, sin excepción. Si hay patología ocular, consulta antes. La ojera pigmentaria responde mucho menos que la vascular." },
+
+    { id:"pelo", chip:"Densidad capilar", ev:"ok",
+      title:"Pelo: densidad y grosor",
+      what:"Más ATP en la papila dérmica, fase anágena prolongada, mejor microcirculación del cuero cabelludo y menos inflamación perifolicular.",
+      waves:["660","810"], dose:"4–8 J/cm²", time:"5–10 min", dist:"15–20 cm",
+      freq:"3–4/sem × 16 sem, luego 2–3/sem", when:"12–24 semanas (ciclo folicular)",
+      panel:"deep5",
+      caution:"Parte el pelo para que la luz llegue al cuero cabelludo. Complementa, no sustituye, minoxidil o finasterida si te los han pautado. Al suspender, se revierte." },
+
+    { id:"cuerpo", chip:"Contorno corporal y celulitis", ev:"mid",
+      title:"Contorno, celulitis y tejido adiposo",
+      what:"El 727 nm activa la mitocondria del tejido adiposo y participa en la regulación de la leptina; el infrarrojo profundo trabaja fascia y tejido conectivo, el soporte estructural del contorno.",
+      waves:["727","850","937"], dose:"10–20 J/cm²", time:"5–10 min por zona", dist:"20–30 cm",
+      freq:"3–4/sem", when:"8–12 semanas, junto a hábitos",
+      panel:"br7",
+      caution:"Base racional, no promesa: la luz acompaña un déficit calórico y movimiento, no los sustituye. El infrarrojo profundo calienta — vigila la distancia." },
+
+    { id:"cicatriz", chip:"Cicatrices y estrías", ev:"mid",
+      title:"Cicatrices y estrías",
+      what:"Mismo mecanismo que la cicatrización aguda, aplicado a tejido ya formado: reorganización del colágeno, mejor vascularización y menos rigidez.",
+      waves:["660","850"], dose:"4–8 J/cm²", time:"3–6 min", dist:"20 cm",
+      freq:"3–4/sem × 8–12 sem", when:"8–12 semanas; mejor cuanto más reciente",
+      panel:"deep5",
+      caution:"En cicatriz antigua y blanca el margen es menor que en la reciente y rosada. Expectativas realistas: mejora de textura, no desaparición." },
+
+    { id:"vitd", chip:"Vitamina D", ev:"mid",
+      title:"Vitamina D: belleza desde dentro",
+      what:"El UV-B a 292 nm convierte el 7-dehidrocolesterol de tu piel en previtamina D3 — la misma fotoquímica del sol de verano. La vitamina D condiciona barrera cutánea, ciclo del pelo y respuesta inflamatoria.",
+      waves:["292"], dose:"Según protocolo del fabricante", time:"Minutos, dosis controlada", dist:"Según guía del panel",
+      freq:"Meses sin sol, pauta estricta", when:"Analítica a las 8–12 semanas",
+      panel:"bs11",
+      caution:"La única banda de la gama con riesgo fototóxico real. Gafas de protección UV obligatorias (incluidas con el panel) y respeto estricto del protocolo. No improvises tiempos." },
+
+    { id:"circadiano", chip:"Sueño y ritmo diurno", ev:"mid",
+      title:"El «beauty sleep» tiene longitud de onda",
+      what:"El cian de la mañana marca la señal de día vía melanopsina y sincroniza cortisol y alerta; el infrarrojo de la tarde acompaña la recuperación. La piel se repara de noche: ordenar el reloj es un gesto de estética.",
+      waves:["485","850"], dose:"Baja, señal más que dosis", time:"5 min por la mañana", dist:"30–40 cm",
+      freq:"Diario, siempre a la misma hora", when:"1–3 semanas",
+      panel:"br7",
+      caution:"El cian, solo por la mañana. De noche, infrarrojo y cero pantallas: la luz azul nocturna deshace en veinte minutos lo que la sesión construyó." }
+  ];
+
+  /* ---------- helpers ---------- */
+  function $(id){ return document.getElementById(id); }
+  function byNm(key){ for (var i=0;i<W.length;i++){ if (W[i].key===key) return W[i]; } return null; }
+  function evHTML(k){ var e=EV[k]; return '<span class="ev '+e.cls+'">'+e.txt+'</span>'; }
+  function pos(nm){ return (nm-270)/(1080-270)*100; }
+
+  /* ---------- rail ---------- */
+  var rail=$("rail"), scale=$("railScale"), ghost=$("ghost");
+  ghost.style.left = pos(760)+"%";
+  ghost.style.right = (100-pos(1080))+"%";
+
+  W.forEach(function(w,i){
+    var b=document.createElement("button");
+    b.type="button"; b.className="tick"; b.setAttribute("aria-pressed","false");
+    b.setAttribute("aria-label", w.label+" nanómetros, "+w.name);
+    b.style.left=pos(w.nm)+"%"; b.style.color=w.color;
+    b.style.animationDelay=(i*45)+"ms";
+    b.innerHTML='<span class="tick-dot"></span><span class="tick-stem"></span><span class="tick-nm">'+w.label+'</span>';
+    b.addEventListener("click", function(){ select(w.key); });
+    rail.appendChild(b);
+    b.dataset.key=w.key;
+  });
+
+  [300,400,500,600,700,800,900,1000].forEach(function(n){
+    var s=document.createElement("span");
+    s.style.left=pos(n)+"%"; s.textContent=n;
+    scale.appendChild(s);
+  });
+
+  /* ---------- wavelength reader ---------- */
+  function select(key){
+    var w=byNm(key); if(!w) return;
+
+    Array.prototype.forEach.call(rail.querySelectorAll(".tick"), function(t){
+      t.setAttribute("aria-pressed", t.dataset.key===key ? "true":"false");
+    });
+
+    $("rNm").innerHTML = w.label+'<small>nm</small>';
+    $("rName").textContent = w.name;
+    $("rEv").innerHTML = evHTML(w.ev);
+    $("rChromo").textContent = w.chromo;
+    $("rDepth").textContent = w.depthTxt;
+    $("rBeauty").textContent = w.beauty;
+    $("rNote").textContent = w.note;
+
+    var pc=$("rPanels"); pc.innerHTML="";
+    Object.keys(PANELS).forEach(function(k){
+      var s=document.createElement("span");
+      var on = w.panels.indexOf(k)>-1;
+      s.className = "tag"+(on?" tag-on":"");
+      s.textContent = PANELS[k].name + (on ? "" : " · no");
+      pc.appendChild(s);
+    });
+
+    var skinH = $("skin").offsetHeight;
+    $("beam").style.setProperty("--beam", w.color);
+    $("beamEdge").style.setProperty("--beam", w.color);
+    $("beam").style.height = (skinH*w.depth/100)+"px";
+    $("beamEdge").style.top = (skinH*w.depth/100)+"px";
+  }
+
+  /* ---------- goals ---------- */
+  var chipbox=$("goalChips");
+  GOALS.forEach(function(g){
+    var b=document.createElement("button");
+    b.type="button"; b.className="chip"; b.setAttribute("aria-pressed","false");
+    b.textContent=g.chip; b.dataset.id=g.id;
+    b.addEventListener("click", function(){ pickGoal(g.id); });
+    chipbox.appendChild(b);
+  });
+
+  function pickGoal(id){
+    var g=null; GOALS.forEach(function(x){ if(x.id===id) g=x; });
+    if(!g) return;
+
+    Array.prototype.forEach.call(chipbox.querySelectorAll(".chip"), function(c){
+      c.setAttribute("aria-pressed", c.dataset.id===id ? "true":"false");
+    });
+
+    $("gEv").innerHTML = evHTML(g.ev);
+    $("gTitle").textContent = g.title;
+    $("gWhat").textContent = g.what;
+    $("gDose").textContent = g.dose;
+    $("gTime").textContent = g.time;
+    $("gDist").textContent = g.dist;
+    $("gFreq").textContent = g.freq;
+    $("gWhen").textContent = g.when;
+    $("gPanel").textContent = PANELS[g.panel].name;
+    $("gCaution").textContent = g.caution;
+
+    var wc=$("gWaves"); wc.innerHTML="";
+    g.waves.forEach(function(k){
+      var w=byNm(k); if(!w) return;
+      var b=document.createElement("button");
+      b.type="button"; b.className="tag tag-on";
+      b.style.cursor="pointer"; b.style.background="transparent";
+      b.style.borderColor=w.color; b.style.color=w.color;
+      b.textContent=w.label+" nm · "+w.name;
+      b.addEventListener("click", function(){
+        select(k);
+        document.getElementById("rail").scrollIntoView({behavior:"smooth", block:"center"});
+      });
+      wc.appendChild(b);
+    });
+  }
+
+  /* ---------- comparison table ---------- */
+  var tb=$("cmpBody");
+  W.forEach(function(w){
+    var tr=document.createElement("tr");
+    var th=document.createElement("th"); th.scope="row";
+    th.innerHTML='<span style="color:'+w.color+'">■</span> '+w.label+' nm · '+w.name;
+    tr.appendChild(th);
+    ["core","deep5","br7","bs11"].forEach(function(k){
+      var td=document.createElement("td");
+      var on = w.panels.indexOf(k)>-1;
+      td.className = on ? "yes":"no";
+      td.textContent = on ? "sí" : "—";
+      tr.appendChild(td);
+    });
+    tb.appendChild(tr);
+  });
+  var cobRow=document.createElement("tr");
+  cobRow.innerHTML='<th scope="row">Módulo COB central</th><td class="no">—</td><td class="no">—</td><td class="yes">sí</td><td class="yes">sí</td>';
+  tb.appendChild(cobRow);
+
+  /* ---------- panel chooser ---------- */
+  var answers={};
+  Array.prototype.forEach.call(document.querySelectorAll('[data-q]'), function(group){
+    Array.prototype.forEach.call(group.querySelectorAll(".chip"), function(c){
+      c.addEventListener("click", function(){
+        Array.prototype.forEach.call(group.querySelectorAll(".chip"), function(o){
+          o.setAttribute("aria-pressed","false");
+        });
+        c.setAttribute("aria-pressed","true");
+        answers[group.dataset.q]=c.dataset.v;
+        resolveQuiz();
+      });
+    });
+  });
+
+  function resolveQuiz(){
+    var out=$("quizOut");
+    if(!answers.area || !answers.goal || !answers.budget){
+      out.textContent="Responde las tres y te marco el panel que encaja.";
+      mark(null); return;
+    }
+    var pick;
+    if(answers.budget==="bajo" || answers.area==="local"){
+      pick="core";
+    } else if(answers.goal==="todo" && answers.budget==="alto"){
+      pick="bs11";
+    } else if(answers.goal==="acne" || answers.area==="cuerpo"){
+      pick = answers.budget==="alto" ? "bs11" : "br7";
+    } else {
+      pick="deep5";
+    }
+    if(answers.budget==="medio" && pick==="bs11") pick="br7";
+
+    var reasons={
+      core:"Zona concreta y presupuesto contenido: el Core hace 660 + 850 nm allí donde apuntes, y te cabe en la mochila.",
+      deep5:"Rostro completo con las cinco longitudes del núcleo rojo e infrarrojo, incluida la 727 nm. Es el panel de arrugas, luminosidad y post-procedimiento.",
+      br7:"Necesitas el cian 485 nm (acné y ritmo diurno) o el infrarrojo profundo 940 nm del contorno corporal: eso empieza en el Bio Regén 7.",
+      bs11:"Quieres el espectro completo, del UV-B que sintetiza vitamina D al infrarrojo de 1050 nm, en cuatro circuitos que enciendes por separado."
+    };
+    out.innerHTML='<strong>Tu panel: '+PANELS[pick].name+' · '+PANELS[pick].price+'.</strong> '+reasons[pick];
+    mark(pick);
+  }
+
+  function mark(pick){
+    Array.prototype.forEach.call(document.querySelectorAll(".prod"), function(p){
+      p.classList.toggle("is-pick", pick!==null && p.dataset.p===pick);
+    });
+  }
+
+  /* ---------- init ---------- */
+  select("660");
+  pickGoal("arrugas");
+  window.addEventListener("resize", function(){
+    var pressed = rail.querySelector('.tick[aria-pressed="true"]');
+    if(pressed) select(pressed.dataset.key);
+  });
+})();
+</script>
+</body>
+</html>
