@@ -393,19 +393,35 @@ Gancho a testear: A (frascos de crema) vs C (visual puro del panel)
 # DECISIONES DE CAMPAÑA
 *Añadido tras el análisis de arquitectura. Estas decisiones son previas a producir nada.*
 
-## 1. BLOQUEANTE: la ficha de fábrica
+## 1. BLOQUEANTE: qué dato falta de verdad
 
-**No se rueda ningún anuncio con una sola cifra técnica hasta tener esta ficha verificada**, por cada equipo (Deep 5 / Bio Regen 7 / Bio Spectrum 11). Por eso los 3 guiones están escritos para funcionar sin ningún número:
+**Lo que SÍ está ya documentado** en los paquetes `ekio-*-landing/02-COPY-COMPLETO.md` (15-jul-2026) — no hay que pedirlo a fábrica:
 
-1. **Longitudes de onda exactas** de cada LED (nm) y cuántos diodos de cada una. En especial: qué es exactamente el "cyan" del Bio Regen 7 y qué lleva el Bio Spectrum 11.
-2. **Irradiancia medida con radiómetro** (mW/cm²) a distancias reales de uso (15 cm y 30 cm). No vale el dato teórico del datasheet del LED — es el dato que más se falsea en el sector.
-3. **Área de tratamiento efectiva** (cm²). *Este es el dato que justifica el precio del Bio Regen 7 y sostiene todo el AD B.*
-4. **Potencia real de salida** (no la potencia de pared en W).
-5. **Distancia de uso recomendada** por fábrica.
-6. **Certificados:** seguridad eléctrica (LVD, EMC), seguridad fotobiológica (IEC 62471) y **flicker**. Si un equipo tiene flicker alto, no se puede vender asociado al descanso.
-7. Si hay azul o UV: confirmación de ausencia de riesgo ocular en el uso previsto y si requiere gafas.
+| Equipo | Longitudes de onda documentadas | Otros datos |
+|---|---|---|
+| Core | 485 / 660 / 830 / 850 / 940 nm · 13 LEDs | **Irradiancia >150 mW/cm² en contacto directo** · 0 µT CEM · cero flicker |
+| Deep 5 | 630 / 660 / **727** / 810 / 850 nm · 70 LEDs | — |
+| Bio Regen 7 | + **485 nm ("Cian")** / 480 / 940 / 1050 nm · 7 longitudes + 1 COB | — |
+| Bio Spectrum 11 | + **292 nm (UV-B)** / 385 / 405 nm (UV-A) · 11 longitudes · 210 LEDs | Gafas de protección UV incluidas y obligatorias |
 
-Con esos 7 datos, los claims dosimétricos exactos se pueden escribir y defender. Sin ellos, cualquier cifra en un anuncio es indefendible.
+**Lo que falta y sí bloquea:** de los cuatro, **solo el Core tiene irradiancia documentada**. El propio paquete de landing del Deep 5 ya lo advierte por escrito:
+
+> ⚠️ *"Rellenar con la ficha técnica real antes de publicar: irradiancia (mW/cm² a X cm), potencia total (W), nº de LEDs, dimensiones y peso."*
+
+Y su propio FAQ lo reconoce como el dato decisivo: *"la irradiancia real a la distancia de uso — es lo que decide si la luz es terapéutica o decorativa"*. Sin ella no hay dosis (J/cm²), y sin dosis no hay ningún claim de resultado defendible.
+
+**Pedir a fábrica, por equipo:**
+1. **Irradiancia medida con radiómetro** (mW/cm²) a 15 cm y a 30 cm. No vale el dato teórico del datasheet del LED — es la cifra que más se falsea en el sector.
+2. **Área de tratamiento efectiva** (cm²). *Este dato justifica el precio del Bio Regen 7 y sostiene todo el AD B.*
+3. **Potencia real de salida** (no la potencia de pared en W).
+4. **Distancia de uso recomendada.**
+5. **Certificados:** seguridad eléctrica (LVD, EMC), **seguridad fotobiológica IEC 62471** y flicker.
+
+> 🔴 **El punto 5 es crítico en el Bio Spectrum 11**, que emite UV-B real a 292 nm. Un panel con UV-B sin certificado fotobiológico en regla no debe anunciarse en absoluto. Es la razón por la que en el AD B va como techo y no como héroe.
+
+Los 3 guiones están escritos para funcionar **sin una sola cifra**, así que la producción puede empezar ya. Lo que no puede publicarse sin la ficha es cualquier promesa de dosis, tiempo de sesión con resultado o comparativa de potencia.
+
+**Corrección de precio:** en Shopify el Bio Regen 7 activo está a **950 €** (el de 970 € es un borrador). Usar 950 €.
 
 ## 2. Reactivar la campaña Deep 5, no crear una nueva
 
