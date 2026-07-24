@@ -3,21 +3,23 @@
 
 > **Posicionamiento:** la estética facial es el área con **mejor evidencia 🟢** de la PBM (FDA-cleared en muchos paneles internacionales para arrugas/rejuvenecimiento). Es la puerta de entrada comercial natural de Ekio Light.
 
-**Banco base de este módulo:** Rojo (630/660) para dermis superficial-media; NIR (810/830) para reparación profunda y antiinflamación; 727 como puente far-red. Distancia facial típica **15–25 cm**. Gafas opacas siempre.
+**Banco base de este módulo:** Rojo (630/660) para dermis superficial-media; NIR (810/830\*) para reparación profunda y antiinflamación; 727 como puente far-red. Distancia facial típica **15–25 cm**. Gafas opacas siempre.
+
+> \* **830 nm sin confirmar:** ninguna ficha de producto actual (15-jul-2026) lista esta longitud — ver [00_MARCO_TECNICO.md §7 · P1](00_MARCO_TECNICO.md#7-preguntas-abiertas--requieren-decisión-de-javier). Hasta resolverlo, donde este módulo diga "830" puede que en el panel real corresponda a 850 nm.
 
 ---
 
 ## 1.1 Rejuvenecimiento facial — colágeno y elastina
 
 ### 🧬 Mecanismo de acción
-La luz roja (630/660 nm) absorbida por la CCO de los **fibroblastos dérmicos** ↑ATP → ↑síntesis de **procolágeno tipo I**, elastina y ácido hialurónico, ↑proliferación fibroblástica y ↑expresión de TGF-β; modula MMP (metaloproteinasas) reduciendo degradación de matriz. El NIR (810/830) refuerza microcirculación y reparación profunda. **Evidencia 🟢** (ECA con luz roja/NIR muestran ↑densidad de colágeno, mejora de rugosidad y elasticidad — Wunsch & Matuschka 2014; Avci/Hamblin rev.).
+La luz roja (630/660 nm) absorbida por la CCO de los **fibroblastos dérmicos** ↑ATP → ↑síntesis de **procolágeno tipo I**, elastina y ácido hialurónico, ↑proliferación fibroblástica y ↑expresión de TGF-β; modula MMP (metaloproteinasas) reduciendo degradación de matriz. El NIR (810/830\*) refuerza microcirculación y reparación profunda. **Evidencia 🟢** (ECA con luz roja/NIR muestran ↑densidad de colágeno, mejora de rugosidad y elasticidad — Wunsch & Matuschka 2014; Avci/Hamblin rev.).
 
 ### 🎯 Objetivo terapéutico
 Reducción visible de líneas finas, mejora de textura, luminosidad y firmeza. **Plazo realista:** primeros cambios de luminosidad 2–4 semanas; colágeno y firmeza 8–12 semanas (recambio de colágeno).
 
 ### ⚙️ Parámetros técnicos
 - **Modelo:** Deep 5 (rojo+IR) suficiente; Bio Regén 7 si se quiere añadir cian/COB.
-- **λ activas:** 630 + 660 (protagonistas) + 830 (apoyo profundo).
+- **λ activas:** 630 + 660 (protagonistas) + 830\* (apoyo profundo).
 - **Dosis objetivo:** 4–10 J/cm² en rostro.
 - **Tiempo provisional:** ~3–8 min (recalibrar, ver §3 marco).
 - **Distancia:** 15–20 cm · **Modo:** continuo · **Zona:** rostro completo, frente, contorno mandibular.
@@ -46,14 +48,14 @@ MTC: rostro = reflejo de **Bazo (tez)** y **Pulmón (piel)**; tonificar Qi y san
 ## 1.2 Acné y piel inflamatoria (rosácea, dermatitis)
 
 ### 🧬 Mecanismo de acción
-Doble vía: **azul/cian (480 nm)** excita porfirinas de *C. acnes* generando ROS que reducen la carga bacteriana; **rojo (630/660)** ejerce acción **antiinflamatoria** (↓IL-1, IL-6, TNF-α; ↓NF-κB) y reparadora, clave en rosácea/dermatitis donde domina la inflamación y la disfunción vascular. **Evidencia 🟢 para acné** (rojo+azul; combinación superior a monoterapia); 🟡 rosácea/dermatitis (antiinflamatorio).
+Doble vía: **cian (485 nm)** excita porfirinas de *C. acnes* generando ROS que reducen la carga bacteriana; **rojo (630/660)** ejerce acción **antiinflamatoria** (↓IL-1, IL-6, TNF-α; ↓NF-κB) y reparadora, clave en rosácea/dermatitis donde domina la inflamación y la disfunción vascular. **Evidencia 🟢 para acné** (rojo+azul; combinación superior a monoterapia); 🟡 rosácea/dermatitis (antiinflamatorio).
 
 ### 🎯 Objetivo terapéutico
 ↓lesiones inflamatorias, ↓eritema y reactividad. **Plazo:** acné 4–12 semanas; rosácea, control progresivo del eritema 6–12 semanas.
 
 ### ⚙️ Parámetros técnicos
-- **Modelo:** **Bio Regén 7** (tiene cian 480 + rojo) — preferente para acné. Deep 5 para rosácea (solo rojo).
-- **λ:** acné → 480 + 630/660; rosácea/dermatitis → 630/660 (evitar exceso de calor; **no NIR largo 940**).
+- **Modelo:** **Bio Regén 7** (tiene cian 485 + rojo) — preferente para acné. Deep 5 para rosácea (solo rojo).
+- **λ:** acné → 485 + 630/660; rosácea/dermatitis → 630/660 (evitar exceso de calor; **no NIR largo 940**).
 - **Dosis:** 3–8 J/cm² (rosácea en el extremo bajo).
 - **Tiempo provisional:** ~2–6 min · **Distancia:** 20 cm · **Modo:** continuo.
 
@@ -118,7 +120,7 @@ Reducir edema, eritema y downtime; mejorar calidad de cicatriz. **Plazo:** desde
 
 ### ⚙️ Parámetros técnicos
 - **Modelo:** Deep 5 o Bio Regén 7.
-- **λ:** 660 + 830 (rojo + NIR reparador).
+- **λ:** 660 + 830\* (rojo + NIR reparador).
 - **Dosis:** 4–8 J/cm².
 - **Tiempo provisional:** ~3–6 min · **Distancia:** 20 cm · **Modo:** continuo.
 
@@ -209,7 +211,7 @@ Sostener resultados de cualquier protocolo facial previo y prevenir fotoenvejeci
 
 ### ⚙️ Parámetros
 - **Modelo:** Deep 5 (rojo+IR).
-- **λ:** 630/660 + 830.
+- **λ:** 630/660 + 830\*.
 - **Dosis:** 4–6 J/cm² · **Tiempo provisional:** ~3–4 min · **Distancia:** 15–20 cm.
 
 ### 📅 Estructura
@@ -225,3 +227,5 @@ Convertir la sesión en rutina nocturna **sin pantallas** = doble beneficio (pie
 ---
 
 > **Pendiente de recalibración:** todos los tiempos asumen 100 mW/cm² @15 cm (supuesto). Recalcular con irradiancia real (ver [00_MARCO_TECNICO.md](00_MARCO_TECNICO.md) §3).
+>
+> **Pendiente de confirmación (830 nm):** las apariciones de 830\* en este módulo (§§1.1, 1.4, 1.7) usan una longitud que ninguna ficha de producto actual lista — ver [00_MARCO_TECNICO.md §7 · P1](00_MARCO_TECNICO.md#7-preguntas-abiertas--requieren-decisión-de-javier). Sincronizado el 24-jul-2026: precios, nombre "Bio Spectrum 11" y cian 485 nm ya corregidos frente al marco anterior.

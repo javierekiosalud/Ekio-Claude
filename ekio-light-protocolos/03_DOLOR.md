@@ -1,7 +1,12 @@
 # MÓDULO 3 — MANEJO DEL DOLOR
 ### Biblioteca PBM Ekio Light · remite a [00_MARCO_TECNICO.md](00_MARCO_TECNICO.md) para equipos, dosimetría, seguridad y contexto electrobiofotónico.
 
-> **Posicionamiento:** el dolor musculoesquelético es —junto a estética— el área con **mejor evidencia 🟢** de la PBM. La OMS y guías de lumbalgia mencionan la terapia láser/luz como opción no farmacológica. Banda protagonista: **NIR (810/830/850)** por penetración profunda; rojo (660) en estructuras superficiales.
+> **Posicionamiento:** el dolor musculoesquelético es —junto a estética— el área con **mejor evidencia 🟢** de la PBM. La OMS y guías de lumbalgia mencionan la terapia láser/luz como opción no farmacológica. Banda protagonista: **NIR (810\*/830\*/850)** por penetración profunda; rojo (660) en estructuras superficiales.
+
+> ⚠️ **Dos cuestiones abiertas afectan a todo este módulo** — ver [00_MARCO_TECNICO.md §7](00_MARCO_TECNICO.md#7-preguntas-abiertas--requieren-decisión-de-javier):
+> - **P1 · 830 nm sin confirmar** en ninguna ficha de producto (afecta a §§3.2, 3.4, 3.5, 3.7, y a la cabecera de este módulo, marcados `*`).
+> - **P2 · el Bio Spectrum 11 no emite 810 nm** (su circuito Infrarrojo es 850/935/1050). Casi todos los protocolos de este módulo recomiendan 810 nm — en el BS11 esa recomendación no es ejecutable tal como está escrita. Marcado `†` donde aplica. Hasta que se resuelva, para dolor con el BS11 usa el circuito Infrarrojo (850/935/1050) o el COB (660+850).
+> - "Bio Spectrum 10" ha sido corregido a **Bio Spectrum 11** en todo el módulo (nombre real del producto, no una cuestión abierta).
 
 ### Mecanismo común del dolor en PBM
 La PBM reduce dolor por varias vías concurrentes (**evidencia 🟢 del efecto analgésico/antiinflamatorio**):
@@ -26,7 +31,7 @@ La PBM reduce dolor por varias vías concurrentes (**evidencia 🟢 del efecto a
 
 ### ⚙️ Parámetros
 - **Modelo:** Deep 5 (rojo+IR) o Bio Regén 7 (COB para zona amplia).
-- **λ:** 810 + 850 (+ 660 si superficial).
+- **λ:** 810 + 850 (+ 660 si superficial). Disponible en Deep 5 y Bio Regén 7; en Bio Spectrum 11 usar 850 (circuito Infrarrojo) o el COB.
 - **Dosis:** 10–20 J/cm² sobre la zona.
 - **Tiempo provisional:** ~2–4 min/zona · **Distancia:** 10–15 cm · **Modo:** continuo (o pulsado ~2–10 Hz analgésico).
 - **Zona:** punto lesional + alrededores.
@@ -57,8 +62,8 @@ En crónico domina la **sensibilización central** y la inflamación de bajo gra
 ↓intensidad de dolor basal, ↑funcionalidad, ↓dependencia de analgésicos. **Plazo:** 3–6 semanas para efecto acumulativo.
 
 ### ⚙️ Parámetros
-- **Modelo:** **Bio Regén 7** (COB para espalda/zona amplia) o Bio Spectrum 10.
-- **λ:** 810 + 830 + 850 (NIR profundo).
+- **Modelo:** **Bio Regén 7** (COB para espalda/zona amplia) o Bio Spectrum 11.
+- **λ:** 810\* + 830\* + 850 (NIR profundo). En Bio Spectrum 11 (sin 810/830†): usar 850 + 935 + COB.
 - **Dosis:** 20–40 J/cm² por zona.
 - **Tiempo provisional:** ~4–8 min/zona · **Distancia:** 15–20 cm · **Modo:** continuo; pulsado para fibromialgia (tolerancia).
 - **Zona:** paravertebral lumbar/cervical; en fibromialgia, zonas de mayor dolor + suprarrenales.
@@ -92,8 +97,8 @@ MTC: dolor crónico = estancamiento + deficiencia (Riñón/Hígado); fibromialgi
 ↓dolor y rigidez, ↑movilidad. **Plazo:** 2–6 semanas.
 
 ### ⚙️ Parámetros
-- **Modelo:** Bio Regén 7 (COB) / Bio Spectrum 10; Deep 5 para manos.
-- **λ:** 810 + 850 (cadera/columna, profundo) · 660 + 810 (manos/rodilla anterior).
+- **Modelo:** Bio Regén 7 (COB) / Bio Spectrum 11; Deep 5 para manos.
+- **λ:** 810 + 850 (cadera/columna, profundo) · 660 + 810 (manos/rodilla anterior). En Bio Spectrum 11 (sin 810†): 850 + 935, o 660 + COB para manos/rodilla.
 - **Dosis:** rodilla/manos 10–30 J/cm²; cadera profunda 30–60 J/cm² (más tejido que atravesar).
 - **Tiempo provisional:** 3–10 min/articulación · **Distancia:** 10–15 cm · **Modo:** continuo.
 
@@ -124,7 +129,7 @@ PBM promueve **regeneración axonal** (↑factores neurotróficos), ↓inflamaci
 
 ### ⚙️ Parámetros
 - **Modelo:** Deep 5 (túnel carpiano), Bio Regén 7 (ciática, pies).
-- **λ:** 810 + 830 (NIR neural profundo); 660 apoyo superficial.
+- **λ:** 810\* + 830\* (NIR neural profundo)†; 660 apoyo superficial.
 - **Dosis:** trayecto nervioso 10–30 J/cm².
 - **Tiempo provisional:** 3–8 min/zona · **Distancia:** 10–15 cm · **Modo:** continuo o pulsado bajo.
 - **Zona:** trayecto del nervio (no solo el punto de dolor): muñeca (mediano), glúteo-posterior de muslo (ciático), planta/dorso de pie (diabética).
@@ -156,7 +161,7 @@ Cefalea tensional: ↓tensión muscular pericraneal/cervical, ↑microcirculaci�
 
 ### ⚙️ Parámetros
 - **Modelo:** Deep 5 / Bio Regén 7.
-- **λ:** 810 + 830 (cervical y sien); evitar pulsos visibles intensos (pueden desencadenar migraña/fotofobia).
+- **λ:** 810\* + 830\* (cervical y sien)†; evitar pulsos visibles intensos (pueden desencadenar migraña/fotofobia).
 - **Dosis:** cervical/trapecio 10–20 J/cm²; sien dosis baja 4–6 J/cm².
 - **Tiempo provisional:** 3–6 min · **Distancia:** 15 cm · **Modo:** **continuo** (preferente en migraña por fotofobia).
 - **Zona:** suboccipital, trapecio superior, ECM, sien (con protección ocular).
@@ -222,7 +227,7 @@ MTC: mandíbula/tensión = Hígado (estrés) + Estómago (meridiano facial). Nut
 
 ### ⚙️ Parámetros
 - **Modelo:** Deep 5 (CIPN en manos/pies); mucositis idealmente con dispositivo intraoral dedicado (los paneles son extraorales → uso limitado a mejilla externa, valorar con profesional).
-- **λ:** 660 (mucosa) · 810/830 (CIPN profundo).
+- **λ:** 660 (mucosa) · 810/830\* (CIPN profundo).
 - **Dosis:** mucositis 2–6 J/cm²; CIPN 6–20 J/cm².
 - **Tiempo provisional:** 2–6 min · **Distancia:** 10–15 cm · **Modo:** continuo.
 
@@ -262,3 +267,5 @@ Mantenimiento de un dormitorio de baja carga EMF como pilar antirrecaída de la 
 ---
 
 > **Pendiente de recalibración:** todos los tiempos asumen 100 mW/cm² @15 cm (supuesto). Recalcular con irradiancia real (ver [00_MARCO_TECNICO.md](00_MARCO_TECNICO.md) §3).
+>
+> **Pendiente de confirmación (830 nm y cobertura del Bio Spectrum 11):** este es el módulo más afectado por las dos preguntas abiertas de la sincronización del 24-jul-2026 — ver [00_MARCO_TECNICO.md §7 · P1 y P2](00_MARCO_TECNICO.md#7-preguntas-abiertas--requieren-decisión-de-javier). Hasta resolverlas, no ofrecer el Bio Spectrum 11 como equivalente al Deep 5/Bio Regén 7 en protocolos que dependan de 810/830 sin antes sustituir esas λ por las alternativas indicadas en cada apartado.
