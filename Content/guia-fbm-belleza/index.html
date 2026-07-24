@@ -102,9 +102,29 @@ section:first-of-type{border-top:0}
 /* ---------- header ---------- */
 .masthead{padding:56px 0 22px}
 .mast-grid{display:flex; flex-direction:column; gap:26px}
-.brandbar{display:flex; flex-wrap:wrap; align-items:baseline; gap:14px; justify-content:space-between}
-.brandmark{font-family:var(--display); text-transform:uppercase; letter-spacing:.18em; font-size:14px}
-.brandmark span{color:var(--accent)}
+.brandbar{display:flex; flex-wrap:wrap; align-items:center; gap:14px; justify-content:space-between}
+
+/* ---------- logo ---------- */
+.logo-chip{
+  display:inline-flex; align-items:center; gap:9px; background:#FFFFFF;
+  border-radius:7px; padding:8px 13px 7px; box-shadow:var(--shadow); line-height:1; flex-shrink:0;
+}
+:root[data-theme="light"] .logo-chip, :root:not([data-theme="dark"]) .logo-chip{ border:1px solid #E7E1E4; box-shadow:none; }
+@media (prefers-color-scheme: dark){ .logo-chip{ border:none; box-shadow:var(--shadow); } }
+:root[data-theme="dark"] .logo-chip{ border:none; box-shadow:var(--shadow); }
+.logo-word{
+  font-family:var(--display); font-weight:800; text-transform:uppercase;
+  letter-spacing:-.01em; font-size:21px; white-space:nowrap;
+}
+.logo-blue{color:#1E3FA8}
+.logo-red{
+  background-image:linear-gradient(100deg, #FF5A36 0%, #E31C5F 55%, #C81E6B 100%);
+  -webkit-background-clip:text; background-clip:text; color:transparent;
+}
+.logo-dots{display:block; width:17px; height:27px; flex-shrink:0}
+.logo-chip--sm .logo-word{font-size:16px}
+.logo-chip--sm .logo-dots{width:13px; height:21px}
+.logo-chip--sm{padding:6px 10px 5px; gap:7px}
 
 /* ---------- the bench (spectral rail) ---------- */
 .bench{
@@ -243,7 +263,20 @@ section:first-of-type{border-top:0}
 .note-risk{border-left-color:var(--risk)}
 
 /* ---------- table ---------- */
-.tablewrap{overflow-x:auto; border:1px solid var(--line); border-radius:3px}
+.tablewrap-outer{position:relative}
+.tablewrap{overflow-x:auto; border:1px solid var(--line); border-radius:3px; -webkit-overflow-scrolling:touch}
+.tablewrap-outer::after{
+  content:""; position:absolute; top:1px; right:1px; bottom:1px; width:30px;
+  background:linear-gradient(to right, transparent, var(--ground) 88%);
+  pointer-events:none; border-radius:0 3px 3px 0;
+  opacity:1; transition:opacity .2s ease;
+}
+.tablewrap-outer.at-end::after{opacity:0}
+.scroll-hint{display:none}
+@media (max-width:760px){
+  .scroll-hint{display:flex; align-items:center; gap:6px}
+  .scroll-hint svg{width:13px; height:13px; flex-shrink:0}
+}
 table{border-collapse:collapse; width:100%; min-width:640px; font-size:15px}
 th,td{padding:12px 14px; text-align:left; border-bottom:1px solid var(--line-soft)}
 thead th{
@@ -289,7 +322,27 @@ footer{padding:56px 0 80px; border-top:1px solid var(--line-soft)}
   <header class="masthead">
     <div class="mast-grid">
       <div class="brandbar">
-        <div class="brandmark">Ekio <span>Light</span></div>
+        <div class="logo-chip" role="img" aria-label="Ekio Light">
+          <span class="logo-word logo-blue">Ekio</span>
+          <svg class="logo-dots" viewBox="0 0 18 28" aria-hidden="true">
+            <circle cx="2.6" cy="2.6" r="2.15" fill="#FF6A2B"/>
+            <circle cx="9.0" cy="2.6" r="2.15" fill="#FF6A2B"/>
+            <circle cx="15.4" cy="2.6" r="2.15" fill="#FF6A2B"/>
+            <circle cx="2.6" cy="8.4" r="2.15" fill="#F2415B"/>
+            <circle cx="9.0" cy="8.4" r="2.15" fill="#F2415B"/>
+            <circle cx="15.4" cy="8.4" r="2.15" fill="#F2415B"/>
+            <circle cx="2.6" cy="14.2" r="2.15" fill="#E0257E"/>
+            <circle cx="9.0" cy="14.2" r="2.7" fill="#E0257E"/>
+            <circle cx="15.4" cy="14.2" r="2.7" fill="#E0257E"/>
+            <circle cx="2.6" cy="20.0" r="2.15" fill="#B81E7A"/>
+            <circle cx="9.0" cy="20.0" r="2.15" fill="#B81E7A"/>
+            <circle cx="15.4" cy="20.0" r="2.15" fill="#B81E7A"/>
+            <circle cx="2.6" cy="25.8" r="2.15" fill="#6B1E5A"/>
+            <circle cx="9.0" cy="25.8" r="2.15" fill="#6B1E5A"/>
+            <circle cx="15.4" cy="25.8" r="2.15" fill="#6B1E5A"/>
+          </svg>
+          <span class="logo-word logo-red">Light</span>
+        </div>
         <div class="tiny">Guía interactiva · v1 · julio 2026</div>
       </div>
 
@@ -530,7 +583,12 @@ footer{padding:56px 0 80px; border-top:1px solid var(--line-soft)}
         </div>
       </div>
 
-      <div class="tablewrap">
+      <p class="tiny scroll-hint">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"/></svg>
+        Desliza para ver los 4 paneles
+      </p>
+      <div class="tablewrap-outer" id="tableOuter">
+      <div class="tablewrap" id="tableScroll">
         <table>
           <thead>
             <tr>
@@ -543,6 +601,7 @@ footer{padding:56px 0 80px; border-top:1px solid var(--line-soft)}
           </thead>
           <tbody id="cmpBody"></tbody>
         </table>
+      </div>
       </div>
       <p class="tiny col" style="margin-inline:0">
         COB = módulo Chip-on-Board central que combina 660 + 850 nm en alta densidad para dosis
@@ -681,7 +740,27 @@ footer{padding:56px 0 80px; border-top:1px solid var(--line-soft)}
 
   <footer>
     <div class="col stack-sm">
-      <div class="brandmark">Ekio <span>Light</span></div>
+      <div class="logo-chip logo-chip--sm" role="img" aria-label="Ekio Light">
+        <span class="logo-word logo-blue">Ekio</span>
+        <svg class="logo-dots" viewBox="0 0 18 28" aria-hidden="true">
+          <circle cx="2.6" cy="2.6" r="2.15" fill="#FF6A2B"/>
+          <circle cx="9.0" cy="2.6" r="2.15" fill="#FF6A2B"/>
+          <circle cx="15.4" cy="2.6" r="2.15" fill="#FF6A2B"/>
+          <circle cx="2.6" cy="8.4" r="2.15" fill="#F2415B"/>
+          <circle cx="9.0" cy="8.4" r="2.15" fill="#F2415B"/>
+          <circle cx="15.4" cy="8.4" r="2.15" fill="#F2415B"/>
+          <circle cx="2.6" cy="14.2" r="2.15" fill="#E0257E"/>
+          <circle cx="9.0" cy="14.2" r="2.7" fill="#E0257E"/>
+          <circle cx="15.4" cy="14.2" r="2.7" fill="#E0257E"/>
+          <circle cx="2.6" cy="20.0" r="2.15" fill="#B81E7A"/>
+          <circle cx="9.0" cy="20.0" r="2.15" fill="#B81E7A"/>
+          <circle cx="15.4" cy="20.0" r="2.15" fill="#B81E7A"/>
+          <circle cx="2.6" cy="25.8" r="2.15" fill="#6B1E5A"/>
+          <circle cx="9.0" cy="25.8" r="2.15" fill="#6B1E5A"/>
+          <circle cx="15.4" cy="25.8" r="2.15" fill="#6B1E5A"/>
+        </svg>
+        <span class="logo-word logo-red">Light</span>
+      </div>
       <p class="tiny">
         Ekio Bienestar S.L. · Valladolid · electrosmogespana.com — Guía informativa de bienestar.
         Cada afirmación se gradúa por nivel de evidencia. No constituye consejo médico ni sustituye
@@ -1068,12 +1147,38 @@ footer{padding:56px 0 80px; border-top:1px solid var(--line-soft)}
     });
   }
 
+  /* ---------- rail: resuelve al vecino más cercano (los marcadores se solapan en pantallas estrechas) ---------- */
+  rail.addEventListener("click", function(e){
+    var r = rail.getBoundingClientRect();
+    if (e.clientX === 0 && e.clientY === 0) return; // clic sintético de teclado sin coordenadas reales
+    if (e.clientX < r.left - 4 || e.clientX > r.right + 4) return;
+    var frac = (e.clientX - r.left) / r.width;
+    frac = Math.max(0, Math.min(1, frac));
+    var nm = 270 + frac * (1080 - 270);
+    var nearest = W[0], best = Infinity;
+    W.forEach(function(w){
+      var d = Math.abs(w.nm - nm);
+      if (d < best) { best = d; nearest = w; }
+    });
+    select(nearest.key);
+  });
+
+  /* ---------- tabla comparativa: oculta la pista de scroll al llegar al final ---------- */
+  var tableScroll = $("tableScroll"), tableOuter = $("tableOuter");
+  function updateTableFade(){
+    var atEnd = tableScroll.scrollLeft + tableScroll.clientWidth >= tableScroll.scrollWidth - 2;
+    tableOuter.classList.toggle("at-end", atEnd);
+  }
+  tableScroll.addEventListener("scroll", updateTableFade);
+  updateTableFade();
+
   /* ---------- init ---------- */
   select("660");
   pickGoal("arrugas");
   window.addEventListener("resize", function(){
     var pressed = rail.querySelector('.tick[aria-pressed="true"]');
     if(pressed) select(pressed.dataset.key);
+    updateTableFade();
   });
 })();
 </script>
