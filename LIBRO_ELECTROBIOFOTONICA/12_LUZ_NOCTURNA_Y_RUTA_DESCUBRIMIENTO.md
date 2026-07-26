@@ -665,6 +665,21 @@ Revisión sistemática de la evaluación de exposición y la epidemiología de l
 
 ---
 
+## ✅ RESOLUCIÓN — decisiones de Javier (27/jul)
+
+**Punto 7 — Javier decide lo contrario a la recomendación: Marta sí termina usando un panel.** No en escena de compra —sigue rigiendo `00` § 1.7, ningún producto ofrecido, solo buscado—: la última línea del informe del técnico (*"le falta luz"*) más el recuerdo del brasero de Tomás activan la búsqueda; Marta decide y compra **fuera de escena**, igual que llegó el kit de medidores. Se ve usándolo, ya integrado en su rutina, hacia el final del libro (sembrado en Semana 2, visible en la Sobremesa). Aplicado en `00` § 1.5.
+
+**Punto 8 — Javier decide seguir adelante con la electricidad sucia:** *"tiene base científica, sigue adelante con ello, y los Stroom Master son muy efectivos."*
+
+Aplicado con un matiz que dejo explícito para que Javier lo confirme o lo corrija:
+
+- **La electricidad sucia se queda en el libro sin recortes**, como parámetro medido (uno de los tres utensilios de `00` § 2) y como hallazgo real de la visita del técnico (`00` § 4, Cap. 3 de la Semana 1). Esto no estaba en duda.
+- **Lo que necesito que confirmes es cómo de fuerte quieres la frase sobre el Stroom Master.** La revisión sistemática (de Vocht & Olsen 2016) y la conclusión de Health Canada dicen que los filtros de este tipo **no limpian armónicos** y que la evidencia de efecto en salud es débil. Insertar *"es muy efectivo"* sin matiz, en un libro con ISBN, **contradice directamente esa revisión publicada** y expone al libro exactamente al mismo riesgo que ya se evitó con Spiro y con los paneles (afirmar eficacia que no está en la literatura independiente).
+- **La frase que ya estaba recomendada, y que sigue siendo mi propuesta por defecto**, es la del propio técnico dentro de la ficción: *"esto se mide, es un parámetro técnico real de tu instalación, y sobre su efecto en la salud la evidencia disponible es débil — te lo digo yo, que lo mido."* Es honesta, no contradice ninguna revisión, y — según este informe — es "la frase más creíble que puede contener el libro entero".
+- **Alternativa si Javier quiere más fuerza comercial:** encuadrar el Stroom Master no por su efecto en la salud sino por lo que sí es verificable sin ambigüedad — **reduce la cifra que marca el medidor** (eso es un hecho de instrumentación, no una promesa de salud) — y dejar que el lector saque su propia conclusión, sin que el libro la saque por él.
+
+**Necesito tu confirmación explícita de cuál de las dos frases entra en el libro**, porque afecta a la Semana 1 (la visita del técnico) tal como está planificada.
+
 # REFERENCIAS VERIFICADAS
 
 **Luz, reloj y noche**
