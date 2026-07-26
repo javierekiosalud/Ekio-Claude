@@ -261,7 +261,8 @@ Se han retirado de la versión incrustada, por no caber en 1 página sin apretar
 | **Marta** | 42 años, **hija de Tomás**, agotada | Apertura de cada receta, 3–5 líneas. Es el lector |
 | **Leo** | **15 años**, hijo de Marta | Campo "Para cuántos" y R17 |
 | **Nico** | **9 años**, hijo de Marta, hermano pequeño de Leo | **R16 exclusivamente.** Es quien pide probar el panel de Leo y a quien Marta dice que no |
-| **Abuelo Tomás** | **79 años**, escéptico gruñón afectuoso, **nunca objeto de burla** | "El truco de la abuela" (cita a su madre) |
+| **Abuelo Tomás** | **79 años**, escéptico gruñón afectuoso, **nunca objeto de burla**. Vive **solo desde hace once años** en la casa del pueblo, la misma en la que se crió él y se crió Marta. Silla de enea en el patio. **Es quien le dio a Marta el cuaderno de su madre** (§ 3) | "El truco de la abuela" (cita a su madre) y las escenas del pueblo |
+| **La abuela** *(madre de Tomás, ya fallecida)* | No aparece en escena: **habla a través del cuaderno** (§ 3). Escribía a lápiz, deprisa, sin explicar nunca el porqué de las cosas — *"no explicaba las cosas: las ponía"*. Usa el margen y la letra de través para lo que no se explica | El cuaderno, en cada capítulo |
 | **Javier Andrés** *(el autor)* | Fuera de la ficción, en primera persona | **Campo 🚦 EVIDENCIA.** Una frase suya, firmada con su nombre, cierra el semáforo de cada receta |
 | **Spiro** y **Fotón** | Mascotas-concepto | Iconos de margen, sin diálogo |
 
@@ -371,12 +372,14 @@ El libro es herramienta de captación. Cada QR va a una URL propia y trazable.
 
 1. ✅ Decisiones 1–9 tomadas (26/jul). ✅ Pivote a narrativa continua, hilo conductor, definiciones obligatorias, Nico (27/jul).
 2. ✅ **Prólogo** escrito (`07_PROLOGO.md`). ✅ **La Carta** escrita y rediseñada (`08_LA_CARTA.md`). ✅ **R02 adaptada al formato de 1 página** e incrustada en `09_SEMANA1_CAP1.md` (primer capítulo de la Semana 1, ya escrito).
-3. [ ] **Escribir el resto de la Semana 1** (Balda 2, cierre con R01 y R03).
-4. [ ] Editar `01` (degradar a doc de voz), `02` (renumerar O1–O8) y `03` (título).
-5. [ ] **Verificar el coste de impresión a color en la calculadora de KDP** antes de fijar los 11,11 € (ver nota de precio abajo).
-6. [ ] Crear el **test de sensibilidad electromagnética** y la landing `/libro`.
-7. [ ] Brief de las 7 láminas al `direccion-arte-agent`.
-8. [ ] Revisión legal externa antes de subir a KDP.
+3. ✅ **Semana 1 completa** — Cap. 1 "El test del router" (`09`, Balda 1 + R02) y Cap. 2 "Lo que daban las gallinas" (`10`, Balda 2 + R01 + R03).
+   ⚠️ **Suma ≈10 págs de las ~20 presupuestadas.** O la semana lleva un tercer capítulo, o hay que bajar el presupuesto por semana y con él el total de ≈118 págs — **decisión pendiente de Javier**, porque afecta al precio y a la maquetación.
+4. [ ] **Escribir la Semana 2** (Balda 3: la lumbre perdida, Ekio Light, el puente wifi↔luz. Recetas R11, R06, R04, R05, R07).
+5. [ ] Editar `01` (degradar a doc de voz), `02` (renumerar O1–O8) y `03` (título).
+6. [ ] **Verificar el coste de impresión a color en la calculadora de KDP** antes de fijar los 11,11 € (ver nota de precio abajo).
+7. [ ] Crear el **test de sensibilidad electromagnética** y la landing `/libro`.
+8. [ ] Brief de las 7 láminas al `direccion-arte-agent`.
+9. [ ] Revisión legal externa antes de subir a KDP.
 
 > **✅ Resuelto 26/jul: color estándar** (no premium) — reduce el coste de impresión frente a premium, pero **sigue siendo más caro que B/N**. Antes de confirmar los 11,11 € en tapa blanda, verificar en la calculadora de KDP con la paginación real a color estándar (§ 4, estimación ≈118 págs, pendiente de validar). Si sigue quedando ajustado, aplicar el mismo criterio ya previsto: **11,11 € seguro en Kindle** (sin coste de impresión) y/o **en venta directa en electrosmogespana.com**, donde controlas el margen entero.
 
