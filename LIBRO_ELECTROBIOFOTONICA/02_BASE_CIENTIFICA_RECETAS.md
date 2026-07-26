@@ -366,7 +366,9 @@ Es la que más credibilidad te va a dar: la única marca que dice "aquí no" es 
 ### Parte C — Fotobiomodulación en menores: **NO por defecto**
 
 > **Postura de Ekio, textual para el libro:**
-> *"No recomendamos el uso de paneles de fotobiomodulación en menores de 16 años sin la indicación y supervisión de un profesional sanitario. No es que la luz roja sea peligrosa: es que no existen datos suficientes en población infantil para que nadie —nosotros incluidos— pueda darte una dosis con la confianza que tú te mereces. Y cuando no sabemos, lo decimos."*
+> *"No recomendamos el uso de paneles de fotobiomodulación en menores de 12 años sin la indicación y supervisión de un profesional sanitario. No es que la luz roja sea peligrosa: es que no existen datos suficientes en población infantil para que nadie —nosotros incluidos— pueda darte una dosis con la confianza que tú te mereces. Y cuando no sabemos, lo decimos."*
+>
+> **Actualizado 26/jul: el corte pasa de 16 a 12 años**, decisión de Javier. Por debajo de 12, no por defecto y sin supervisión sanitaria. De 12 en adelante, entra el criterio del adulto responsable de la casa — sigue siendo un "con cautela", no un "sí sin más".
 
 **Base honesta:**
 - Existe uso pediátrico legítimo de PBM, **pero siempre clínico y supervisado** (mucositis oral por quimio, parálisis cerebral espástica, ensayos en TEA con sham).

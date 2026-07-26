@@ -16,7 +16,7 @@
 | **Subtítulo** | **El recetario de la energía perdida** |
 | **Concepto/método** | *Electrobiofotónica* — **no va en portada**. Es el método que enseña el libro; se declara en la intro y en la contraportada |
 | **Extensión** | 108 págs de imprenta · 20.000–21.000 palabras |
-| **Impresión** | **A color**, 6"×9" |
+| **Impresión** | **Color estándar** (no premium), 6"×9" |
 | **ISBN** | **Propio**, Agencia española ("Editado por EKIO") |
 | **KDP Select / KU** | **Fuera** — incompatible con vender el PDF en electrosmogespana.com |
 | **Lanzamiento** | **11/11/2026**, 15º aniversario EKIO. Precio 11,11 € |
@@ -215,7 +215,9 @@ Mantenerlo sin volverse fanático. El abuelo Tomás cede. + apéndices.
 | **Dra. Elena** | Vecina | **Campo 🚦 EVIDENCIA.** Una frase suya firma el semáforo de cada receta |
 | **Spiro** y **Fotón** | Mascotas-concepto | Iconos de margen, sin diálogo |
 
-> **Por qué Leo tiene 15:** la postura de EKIO es *"no recomendamos paneles en menores de 16 sin supervisión sanitaria"*. Con Leo a 15, esa postura se **dramatiza**: Leo pide usar el panel y se le dice que no. Es la escena más creíble del libro — la marca diciendo "aquí no" sobre su propio producto, delante del lector.
+> ⚠️ **Actualizado 26/jul — el corte de edad baja de 16 a 12 años.** Consecuencia: con Leo a 15, ya **no** cae bajo la postura de precaución (12+ entra en criterio del adulto responsable). La escena de "Leo pide y se le dice que no" **se traslada a R16 (la receta de los niños)**, que además es su sitio natural: R16 ya hablaba de niños pequeños, no de Leo. Ahí un niño menor de 12 pide probar el panel de su hermano mayor y Marta dice que no — misma fuerza narrativa, mejor encaje con la política real.
+>
+> R17 (el pacto del adolescente) queda limpio de este tema: la negociación con Leo es sobre **móvil y wifi**, no sobre paneles — de hecho es más honesto, porque a los 15 años ya no hay nada que negarle en ese terreno.
 
 **Regla de oro:** máximo 5 líneas por aparición en el recetario. Si necesita más, es un capítulo de La Despensa.
 
@@ -321,10 +323,7 @@ El libro es herramienta de captación. Cada QR va a una URL propia y trazable.
 6. [ ] Brief de las 7 láminas al `direccion-arte-agent`.
 7. [ ] Revisión legal externa del recetario antes de subir a KDP.
 
-> **⚠️ Nota de precio (a resolver en el paso 3):** KDP impone un **precio mínimo de venta que debe cubrir el coste de impresión**. Con 108 páginas a color, 11,11 € podría quedar **por debajo de ese mínimo y no ser seleccionable**. Tres salidas, y no son excluyentes:
-> **(a)** usar **color estándar** en vez de premium — está pensado exactamente para esto;
-> **(b)** aplicar los **11,11 € a la edición Kindle** (sin coste de impresión), donde el gesto del 11/11 funciona igual de bien;
-> **(c)** reservar los **11,11 € para la venta directa en electrosmogespana.com**, donde controlas el margen entero y además captas el cliente — que es justo la estrategia detrás de quedarse fuera de KDP Select.
+> **✅ Resuelto 26/jul: color estándar** (no premium) — reduce el coste de impresión frente a premium, pero **sigue siendo más caro que B/N**. Antes de confirmar los 11,11 € en tapa blanda, verificar en la calculadora de KDP con 108 págs a color estándar. Si sigue quedando ajustado, aplicar el mismo criterio ya previsto: **11,11 € seguro en Kindle** (sin coste de impresión) y/o **en venta directa en electrosmogespana.com**, donde controlas el margen entero.
 
 ---
 
