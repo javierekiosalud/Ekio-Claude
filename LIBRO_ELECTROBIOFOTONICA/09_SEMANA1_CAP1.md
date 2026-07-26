@@ -1,97 +1,164 @@
 # SEMANA 1 · CAPÍTULO 1
 ## El test del router
 
-> Primer capítulo narrativo de v5. Continúa directamente del "empiezo" con que cierra el Prólogo. Introduce el **cajón de los utensilios** (los tres medidores, `00` § 2) y define **"Balda 1"** por primera vez (pendiente en la tabla de `00` § 1.6). No usa todavía "balda 2" ni "balda 3" — se reservan para el próximo capítulo de esta misma semana. Cierra con **R02 El apagón de las nueve**, adaptada aquí al formato de 1 página incrustada (sustituye a la versión de 2 páginas de `06_RECETA_R02.md`, que queda como referencia histórica).
+> **v2 — reescrito el 27/jul tras revisión de Javier.** La v1 tenía tres problemas: la metáfora de cocina la imponía el narrador desde fuera ("a este montón, este libro lo llama Balda 1"), la abuela no existía más que como cita en un recuadro, y el tono tenía frases-eslogan y explicaciones de subtexto. Ahora todo nace del **cuaderno de recetas de la abuela** (introducido al final del Prólogo) y de la memoria de Tomás.
+>
+> Introduce los tres medidores y **las tres baldas** — la metáfora entera, en boca de Tomás; solo la Balda 1 se *aplica* en este capítulo. Cierra con **R02**, en formato de 1 página, maquetada como una página del cuaderno.
 
 ---
 
-El kit llega dos días después: una caja pequeña, del tamaño de un estuche, con tres aparatos que caben en la palma de la mano. Marta los saca uno a uno sobre la mesa de la cocina como quien saca herramientas de una caja que no sabe usar todavía. El primero mide, dice el papel que viene doblado dentro, la **electricidad sucia** —lo que sea que signifique eso—. El segundo, **bajas frecuencias**. El tercero, **altas frecuencias**: wifi, móvil, todo lo que vuela por el aire sin cable.
+El kit llega el martes. Tres aparatos pequeños, del tamaño de un mando de garaje, con la pantalla gris y los botones duros. Marta los deja sobre la mesa de la cocina y lee el papel doblado que viene dentro. Uno mide la electricidad que va por las paredes. Otro, lo que sale de los cables y los enchufes. El tercero, lo que vuela por el aire: el wifi, el móvil, las antenas de la calle.
 
-No entiende del todo qué es cada cosa. Pero entiende la frase que viene impresa en la primera página del papelito, y que se queda pensando mientras se sirve el café: *no puedes corregir lo que no has probado. Ningún cocinero sazona sin probar el caldo.*
+No entiende la mitad de las palabras. Pero los aparatos se encienden, y eso ya es algo.
 
-Así que prueba.
+Empieza por el pasillo, donde está el router. Lleva ahí desde que se mudaron —2019, calcula— y nadie lo ha tocado nunca salvo para reiniciarlo cuando va lento. Acerca el tercer medidor y la cifra sube. Lo aleja un paso y baja. Lo aleja otro y baja más.
 
-Empieza por el pasillo, porque ahí está el router, encendido desde que se mudaron —2019, calcula, sin estar del todo segura— sin que nadie se lo haya preguntado ni una sola vez. Acerca el tercer medidor. La aguja se mueve más de lo que esperaba. Se acerca al cabecero de su cama: el segundo medidor también se mueve, menos, pero se mueve. Pasa por la cocina, donde tiene la vitrocerámica de inducción: ahí el primero salta con fuerza, aunque solo mientras está encendida.
+Eso sí lo entiende.
 
-—Mamá, ¿en serio vas con eso por la casa? —Leo la mira desde la puerta de su cuarto, con un auricular puesto y el otro colgando—. Como sigas así te vas a hacer tú misma el test del router.
+Va al dormitorio. Pone el aparato en el cabecero, justo donde apoya la cabeza siete horas cada noche, y la cifra vuelve a subir. Menos que en el pasillo, pero sube. Marta se queda un momento mirando la pantalla, y luego mira la almohada, y luego otra vez la pantalla.
 
-—Es que le estoy haciendo el test al router.
+Sigue por la cocina. La inducción, apagada, no dice nada. La enciende para calentar agua y el primer medidor se dispara. La apaga y vuelve al silencio.
 
-—Ya. Y el router va a aprobar, ¿no? —Leo sonríe, sin maldad, y vuelve a lo suyo. Es la clase de burla que solo se permite alguien que, en el fondo, quiere que a su madre le vaya bien.
+—Mamá. —Leo está en la puerta de su cuarto, con un auricular puesto y el otro colgando—. ¿Le estás haciendo un examen a la casa?
 
-Marta no le contesta. Sigue apuntando cosas en una libreta: router, pasillo, todo el día. Cabecero, algo, no sabe cuánto es mucho. Cocina, solo mientras se usa. No tiene todavía ni idea de si esas cifras son buenas, malas o normales —eso, decide, es para otro día—, pero por primera vez en meses tiene algo que no tenía antes: un mapa. No un motivo para tener miedo. Un mapa.
+—Algo así.
 
-Esa tarde llama a su padre, sin saber muy bien por qué, quizás solo porque necesita contárselo a alguien. Tomás la escucha, o hace como que la escucha, mientras de fondo se oye la radio de siempre.
+—¿Y va a aprobar?
 
-—¿Un aparatito para medir el wifi? —dice, con el tono que usa cuando algo le hace gracia y no quiere que se note—. Hija, yo he vivido ochenta años sin nada de eso, y aquí sigo.
+—Depende de la asignatura.
+
+Leo se ríe y vuelve a meterse en su cuarto. Marta se queda con los tres aparatos en la mano, pensando que no tiene ni idea de si lo que acaba de ver es mucho, poco o normal. Pero que ahora, por lo menos, sabe *dónde* está.
+
+---
+
+Se sienta con el cuaderno de su abuela y escribe en la segunda página en blanco. Sin pensarlo demasiado, lo escribe como está escrito todo lo demás en ese cuaderno: primero la lista, después lo que hay que hacer.
+
+> *Pasillo — el router. Encendido siempre. Sube mucho.*
+> *Cabecero de la cama. Sube. Siete horas cada noche.*
+> *Cocina — la inducción. Solo mientras está encendida.*
+
+Se da cuenta a media lista de lo que está haciendo. Está escribiendo una receta. En un recetario. Con la letra de su abuela tres páginas más arriba, explicando cómo se hace la sopa de ajo.
+
+Le hace gracia y no la deja del todo tranquila.
+
+---
+
+Esa tarde llama a su padre. No tiene un motivo claro; quizá solo que necesita contárselo a alguien que no viva en su casa.
+
+—¿Un aparato para medir el wifi? —Tomás se ríe con ganas—. Ochenta años llevo yo sin nada de eso.
+
+—Setenta y nueve.
+
+—Setenta y nueve. Y aquí sigo.
 
 —Ya, papá. Pero tú tampoco tenías wifi.
 
-Se hace un silencio corto al otro lado. Tomás no tiene una respuesta para eso, y los dos lo saben.
+Al otro lado se hace un silencio de dos segundos, con la radio de fondo.
 
-Sin ponerle nombre todavía —eso vendrá después, con el tiempo—, Marta ha empezado a separar lo que va encontrando en dos montones. En uno están las cosas que ya estaban en su casa antes de que ella decidiera nada: el router, el móvil, la inducción, la electricidad de las paredes. Cosas que no ha elegido y que tampoco va a poder quitar sin más, porque las necesita. A este primer montón, este libro lo llama **la Balda 1**: lo que ya estaba en tu cocina.
+—Eso es verdad —dice Tomás.
 
-Del segundo montón —lo que sí es gratis, lo que sí puede simplemente empezar a hacer— todavía no sabe nada. De eso hablará el resto de la semana.
+Marta aprovecha el hueco.
 
-Esa noche, antes de acostarse, Marta pasa por el pasillo y ve el piloto del router parpadeando en la oscuridad, como lleva parpadeando todas las noches desde 2019. Por primera vez, en vez de no verlo, lo ve. Y decide que esa va a ser la primera cosa que cambie.
+—Oye. La despensa de la abuela, la del office. ¿Cómo era?
+
+—¿La despensa? —Tomás cambia de tono, y ese cambio se nota incluso por teléfono—. Tres baldas. La de abajo, lo pesado: el aceite, los sacos, la legumbre. Eso no se movía de ahí en todo el año. La del medio era lo de diario, lo que se iba reponiendo: los huevos, lo que traía del huerto, lo que daban las gallinas. Y arriba —se ríe—, arriba estaba lo que había que comprar en el pueblo. El café, el chocolate, las medicinas. Eso se tocaba poco y se gastaba con cuidado, que costaba dinero.
+
+—Tres baldas.
+
+—Tres. Y ay de ti como le cambiaras algo de sitio.
+
+---
+
+Marta cuelga y se queda mirando la lista que ha escrito en el cuaderno.
+
+Lo de abajo. Lo pesado, lo que ya estaba ahí, lo que no se movía en todo el año.
+
+El router lleva en el pasillo desde 2019. El móvil no se ha separado de ella en una década. La instalación eléctrica venía con el piso. La inducción, la tele, el altavoz que enciende las luces del salón: nada de eso lo eligió pensando en dormir mejor. Estaba, sin más. Como el aceite y los sacos.
+
+Coge el lápiz y escribe encima de su lista, con más cuidado que el resto, igual que hacía su abuela cuando algo le parecía importante:
+
+> **BALDA 1 — lo que ya estaba en mi cocina.**
+
+Del resto de las baldas todavía no sabe nada. Ya llegará.
+
+---
+
+Esa noche, al ir a acostarse, pasa por el pasillo y ve el piloto del router parpadeando en la oscuridad. Lleva parpadeando ahí todas las noches desde 2019 y ella no lo había visto nunca. Se queda quieta un momento, en pijama, mirando una lucecita azul.
+
+Y decide que eso es lo primero que va a cambiar.
 
 ---
 
 ## 🥫 EL APAGÓN DE LAS NUEVE
 
+*(Cuaderno de la abuela, primera página en blanco después de las torrijas)*
+
 ```
 ┌─────────────────────────────────────────────┐
-│  🍽 EL APAGÓN DE LAS NUEVE                   │
+│  EL APAGÓN DE LAS NUEVE                     │
 ├─────────────────────────────────────────────┤
 │  INGREDIENTES                      ⏱ 2 min   │
-│   🥫 El router — apagado o con temporizador  │
-│   🥫 Móvil y tablet — fuera del dormitorio   │
-│   🥫 TV y altavoces — apagados, no en reposo │
-│   🥬 Una hora fija, la misma cada noche      │
+│   🥫 El router — apagado, o con             │
+│      temporizador si eres de las que se     │
+│      olvidan                                │
+│   🥫 Móvil y tablet — fuera del dormitorio  │
+│   🥫 Tele y altavoces — apagados de verdad, │
+│      no en reposo                           │
+│   🥬 Una hora fija. La misma cada noche.    │
 ├─────────────────────────────────────────────┤
 │  🧂 EL PUNTO                                 │
-│  No hay dosis que ajustar: es un interruptor,│
-│  no un termostato. Lo único que importa es   │
-│  que sea todas las noches, no solo cuando    │
-│  te acuerdes.                                │
+│  Esto no es un guiso: es un interruptor.    │
+│  No hay que ajustar nada. Lo único que      │
+│  cuenta es que sea todas las noches, y no   │
+│  solo las que te acuerdes.                  │
 ├─────────────────────────────────────────────┤
 │  👵 EL TRUCO DE LA ABUELA                    │
-│  "Mi madre desenchufaba la tele con la mano, │
-│  no con el mando. Decía que un aparato que   │
-│  gasta durmiendo no está descansando de      │
-│  verdad. No sabía nada de electricidad       │
-│  sucia. Sabía desenchufar."                  │
+│  Ella apagaba la radio con la mano, no      │
+│  dejaba el piloto encendido. Decía que un   │
+│  aparato que gasta mientras duerme no está  │
+│  descansando. No sabía nada de electricidad │
+│  sucia. Sabía desenchufar.                  │
 ├─────────────────────────────────────────────┤
-│  🚦 🟢 Sólida. La luz de pantallas y aparatos│
-│  encendidos por la noche suprime la          │
-│  melatonina y retrasa el reloj circadiano —  │
-│  de lo mejor documentado en cronobiología.   │
-│  "Esta es la receta que más le repito a mi   │
-│  equipo, y la que menos cumplo yo mismo."     │
-│                          — Javier Andrés     │
+│  🚦 🟢 La luz de las pantallas por la noche  │
+│  frena la melatonina y retrasa el reloj del │
+│  cuerpo. Es de lo mejor documentado que hay │
+│  en este libro.                             │
+│  "Esta es la receta que más le repito a mi  │
+│  equipo y la que peor cumplo yo."           │
+│                          — Javier Andrés    │
 ├─────────────────────────────────────────────┤
-│  ⚠️ Si usas un dispositivo médico que        │
-│  necesita conexión permanente, no lo         │
-│  desconectes: adapta la receta a lo que sí   │
-│  puedes apagar.                              │
-│  Divulgación sobre bienestar. No sustituye   │
-│  consejo médico. Ver p. 4.                   │
+│  ⚠️ Si tienes en casa un aparato médico que  │
+│  necesita estar conectado, ese no se toca:  │
+│  apaga lo demás.                            │
+│  Divulgación sobre bienestar. No sustituye  │
+│  consejo médico. Ver p. 4.                  │
 └─────────────────────────────────────────────┘
 ```
 
 ---
 ---
 
-## NOTAS DE PROCESO
+## NOTAS DE PROCESO (v2)
 
-**Recuento:** narrativa ≈ 680 palabras + receta incrustada ≈ 160 palabras ≈ 840 palabras totales, **≈ 3,5 páginas**. Semana 1 tiene ~20 págs presupuestadas (`00` § 4) para varios capítulos + 3 recetas; este primer capítulo deja margen razonable para uno o dos capítulos más antes de cerrar la semana.
+**El problema que resuelve esta versión.** Javier señaló tres cosas: tono a ratos artificial, la metáfora de cocina desconectada de la historia, y la abuela casi ausente. Las tres tenían la misma raíz: **el narrador imponía la cocina desde fuera** en vez de que la cocina existiera dentro del mundo de Marta.
 
-**Cumple el checklist del `libro-kdp-agent`:**
-- Define **"Balda 1"** por primera vez, en la voz del libro, sin usar aún "balda 2" ni "balda 3" — respeta la regla de no adelantar términos (`00` § 1.6).
-- Sitúa a Marta en el punto exacto del arco que le toca (Semana 1: descubrir, medir, sorprenderse — `00` § 1.5). No sabe todavía si las cifras que anota son buenas o malas; eso es coherente con "no lo cuenta todavía" del Acto 2, que empieza más adelante.
-- **Primera aparición de Tomás**, con su frase de cabecera fijada en el hilo conductor (*"yo he vivido ochenta años sin esto"*), y la réplica de Marta que la desarma sin ridiculizarlo — cumple "nunca objeto de burla" (`00` § 6).
-- Leo aparece con su tono establecido: irónico, sin ser cruel.
-- **Ninguna cifra de medidor inventada.** Deliberadamente no se dan números de µT ni V/m — se describe la aguja moviéndose "más o menos", cualitativo. Dar cifras concretas de exposición ambiental sería un territorio científico distinto (y más controvertido) del que cubre `02` (que trata dosis de paneles, no umbrales de campo eléctrico doméstico), y el libro no tiene ahí una base validada para publicar números como hecho.
-- **R02 adaptada al formato de 1 página** (`00` § 5 v5): se retiran "para cuántos", "dificultad", "a fuego lento" y "maridaje" respecto a la versión de `06_RECETA_R02.md` — esos campos ya los cuenta la propia escena (a quién le pasa, cómo de fácil es). El contenido de fondo (ingredientes, el punto, el truco, la firma de Javier, los alérgenos) se conserva íntegro.
+**La solución: el cuaderno de recetas de la abuela** (introducido al final del Prólogo, `07`). Es un objeto, no un recurso retórico, y resuelve las tres cosas a la vez:
+1. **Marta escribe recetas porque está escribiendo en un recetario.** El formato de ficha del libro deja de ser un capricho editorial y pasa a tener origen dentro de la historia.
+2. **La abuela está en cada página**, en su letra, encima de lo que Marta escribe. No hace falta invocarla: está.
+3. **"El truco de la abuela"** deja de ser una cita descontextualizada en un recuadro. Es lo que hay en ese cuaderno, o lo que Tomás recuerda de su madre.
 
-**Pendiente para el resto de la Semana 1:** el siguiente capítulo introduce la Balda 2 (sol, oscuridad, distancia, tierra) y cierra con R01 y R03. Ese capítulo es el que decide si la semana necesita 2 o 3 capítulos en total para llegar a las ~20 páginas del presupuesto.
+**Las tres baldas ahora salen de Tomás, no del narrador.** La despensa del office del pueblo: abajo lo pesado que no se movía (→ Balda 1), en medio lo de diario que se reponía solo, del huerto y las gallinas (→ Balda 2, lo gratis), arriba lo que había que comprar en el pueblo y se gastaba con cuidado (→ Balda 3, lo que aportamos nosotros). Es lógica real de despensa rural española y encaja con la taxonomía sin forzarla.
+
+**Cambio respecto a la regla de `00` § 1.6:** este capítulo introduce **la metáfora de las tres baldas completa** (en el recuerdo de Tomás), pero solo **aplica la Balda 1** al mundo eléctrico de Marta. Es mejor así: la despensa se describe entera de una vez, como un recuerdo natural, y la aplicación se reparte por capítulos. Actualizo `00` en consecuencia.
+
+**Correcciones de tono aplicadas** (lo que Javier llamaba "artificial"):
+- Fuera el eslogan del folleto (*"ningún cocinero sazona sin probar el caldo"*): un medidor no viene con aforismos de cocina impresos.
+- Fuera *"a este montón, este libro lo llama la Balda 1"* → ahora **Marta lo escribe de su puño** en el cuaderno.
+- Fuera la explicación del subtexto (*"es la clase de burla que solo se permite alguien que…"*): el chiste de Leo se sostiene solo.
+- Fuera *"No un motivo para tener miedo. Un mapa."* → sustituido por algo que Marta piensa, no que el narrador proclama.
+- Fuera los guiños de narrador (*"eso vendrá después, con el tiempo"*) → ahora *"Ya llegará"*, en la cabeza de Marta.
+- Diálogo más corto y más seco, sobre todo el de Tomás, que gana con el "Setenta y nueve".
+
+**Se mantiene:** ninguna cifra inventada de los medidores (sube/baja, cualitativo). Marta sin diagnóstico. Tomás nunca ridiculizado — es quien aporta la pieza que ordena todo el libro.
+
+**Recuento:** ≈ 900 palabras narrativa + receta ≈ 190 ≈ **4,5 páginas**. Semana 1 tiene ~20 presupuestadas.

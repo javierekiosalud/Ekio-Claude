@@ -84,7 +84,7 @@ Sin esta lista, cada capítulo definiría "electrosmog" o "balda" a su manera, o
 > ⚠️ **Aviso de honestidad, no negociable:** la idea de que "lo nativo es bueno porque es lo de siempre y lo artificial es malo porque es nuevo" es una **narrativa**, no un hecho probado. Se puede contar como marco (es intuitivo y es cierto que la velocidad del cambio es real), pero **cualquier mecanismo concreto** ("el cuerpo está sintonizado con la Schumann y lo artificial lo desincroniza") va con semáforo 🟡/🔴, igual que el resto del libro. La distinción nativo/artificial es un buen **hilo narrativo**; no puede convertirse en una afirmación fisiológica no verificada.
 | **Electrobiofotónica** | El método de este libro: mirar juntos lo eléctrico y la luz. **Se declara explícitamente como término propuesto por el autor**, no como fenómeno documentado — obligatorio por auditoría legal (`02` § "Eliminar") | **Prólogo**, en la misma página que el disclaimer |
 | **Fotobiomodulación (PBM)** | Lo que le pasa a tu célula cuando le da la luz roja o infrarroja correcta | Despensa 4, "La lumbre perdida" |
-| **Las tres baldas** | La forma en que este libro organiza todo lo eléctrico de tu casa: lo que ya tenías (1), lo que es gratis (2), lo que aportamos nosotros (3) | **Semana 1, Cap. 1** *(fijado 27/jul al escribirlo — "Balda 1" aparece ahí; Balda 2 y 3 se reservan para el capítulo siguiente de la misma semana)* |
+| **Las tres baldas** | La forma en que este libro organiza todo lo eléctrico de tu casa: lo que ya tenías (1), lo que es gratis (2), lo que aportamos nosotros (3) | **Semana 1, Cap. 1** — pero con un matiz importante: **la metáfora entra completa** ahí, en boca de Tomás recordando la despensa del pueblo (abajo lo pesado que no se movía · en medio lo de diario, del huerto y las gallinas · arriba lo que se compraba y se gastaba con cuidado). Lo que se reparte por capítulos es la **aplicación**: Balda 1 en Cap. 1, Baldas 2 y 3 después |
 | **El punto de sal / respuesta bifásica** | Más no es mejor: hay una cantidad justa, y pasarse no suma, resta | Despensa 5, "Ni crudo ni pasado" |
 | **Semáforo de evidencia** 🟢🟡🔴 | Cómo de segura está la ciencia de lo que acabas de leer, dicho sin adornos | **Prólogo** (se usa desde R01) |
 | **Alérgenos** *(uso metafórico del libro)* | Las advertencias de cada receta, presentadas como la etiqueta de un restaurante — no son alérgenos alimentarios reales | LA CARTA o R01, la primera ficha |
@@ -135,7 +135,31 @@ El sol de la mañana 🟢 · la oscuridad de verdad · la distancia · la tierra
 
 ---
 
-## 3. LOS 4 MECANISMOS DE GUIÑO ESPAÑOL
+## 3. EL OBJETO QUE SOSTIENE TODO EL LIBRO — el cuaderno de la abuela
+
+> ⚠️ **Añadido 27/jul, tras revisión de Javier.** Diagnóstico: la metáfora de cocina y la abuela sonaban **artificiales porque las imponía el narrador desde fuera** ("a este montón, este libro lo llama Balda 1"), en vez de existir dentro del mundo de Marta. Este objeto lo resuelve, y es **el mecanismo más importante del libro**: si algo no encaja con la cocina o con la abuela, la respuesta casi siempre es hacerlo pasar por el cuaderno.
+
+**Qué es:** el cuaderno de recetas de la **madre de Tomás** (abuela de Marta). Tapas de hule verde, goma dada de sí, esquinas comidas, letra a lápiz apretada, manchas de aceite. Tomás se lo dio a Marta cuando vaciaron la casa del pueblo. Llevaba años en el cajón de los manteles.
+
+**Dos detalles fijos, no improvisar:**
+- En la **primera hoja**, antes de las recetas, una lista escrita con más cuidado que el resto: **"LA DESPENSA. Lo que no debe faltar."**
+- La abuela llenó **tres cuartas partes** y dejó el resto en blanco. Marta escribe su reto en esas páginas vacías.
+
+**Qué resuelve, de una sola vez:**
+
+| Problema | Cómo lo resuelve el cuaderno |
+|---|---|
+| El formato de receta parecía un capricho editorial | **Marta escribe recetas porque está escribiendo en un recetario.** El formato tiene origen dentro de la historia |
+| La abuela era una cita suelta en un recuadro | **Está en cada página**, en su letra, encima de lo que Marta escribe. No hay que invocarla: está |
+| "El truco de la abuela" sonaba pegado | Es **lo que pone en el cuaderno**, o lo que Tomás recuerda de su madre |
+| El narrador tenía que explicar la metáfora | **Marta escribe los rótulos de su puño** ("BALDA 1 — lo que ya estaba en mi cocina") |
+| Tomás era decorativo | Es **quien le dio el cuaderno** y quien recuerda la despensa. Sin él no hay libro |
+
+**Regla:** el cuaderno es de Marta, no es el libro que el lector tiene en las manos. **Marta nunca lee este libro** (ver `07` notas de proceso).
+
+---
+
+## 3.1 LOS 4 MECANISMOS DE GUIÑO ESPAÑOL
 
 **⭐ La lumbre = la primera fotobiomodulación.** El fuego del hogar emite infrarrojo cercano. Siglos de familias españolas pasando la tarde ante la lumbre o el brasero bajo la mesa camilla. **Ekio Light = la lumbre del siglo XXI.**
 

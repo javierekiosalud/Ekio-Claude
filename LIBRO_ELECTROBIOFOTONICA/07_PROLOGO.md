@@ -42,11 +42,19 @@ Dicho esto, y solo una vez: vamos a lo que importa.
 
 ---
 
-Marta se termina el tercer café, ya frío. Ha decidido, sin anunciárselo todavía a nadie, que va a probar algo distinto durante treinta días. No sabe muy bien por dónde empezar —y por eso, quizás, coges tú este libro: para que alguien te diga por dónde—.
+Marta se termina el tercer café, ya frío. Ha decidido, sin anunciárselo a nadie, que va a probar algo distinto durante treinta días. No sabe por dónde empezar —y por eso, quizás, coges tú este libro: para que alguien te diga por dónde—.
 
-Coge el móvil, no para mirarlo: para abrir el calendario y marcar, en la casilla de hoy, una única palabra: *"empiezo."*
+Busca algo donde apuntar. Abre el cajón de abajo, el de los manteles, y ahí está: el cuaderno de su abuela. Tapas de hule verde, una goma que ya no da de sí, las esquinas comidas. Se lo dio su padre hace años, cuando vaciaron la casa del pueblo, y ella lo guardó sin saber muy bien para qué.
 
-Nico le pregunta qué es eso que ha escrito. Marta no se lo explica del todo, no porque no sepa cómo, sino porque todavía no está segura de que vaya a funcionar, y no quiere prometer nada. Le dice solo: "un experimento de treinta días." Nico, que tiene nueve años y encuentra fascinante cualquier palabra que suene a experimento, decide que él también se apunta.
+Lo abre. La letra apretada, a lápiz, de una mujer que escribía deprisa porque tenía cosas que hacer. Cocido. Sopa de ajo. *Torrijas (las de Semana Santa, no las otras)*. Una mancha de aceite que ha vuelto casi transparente media página. Y, en la primera hoja, antes de las recetas, una lista escrita con más cuidado que el resto, casi con solemnidad: **LA DESPENSA. Lo que no debe faltar.**
+
+Marta pasa las hojas hasta el final. Su abuela llenó tres cuartas partes del cuaderno y dejó el resto en blanco, como se dejan las cosas cuando una piensa que va a haber tiempo.
+
+En la primera página vacía, Marta escribe una sola palabra:
+
+*Empiezo.*
+
+Nico se asoma y le pregunta qué es eso. Marta no se lo explica del todo —todavía no está segura de que vaya a funcionar, y no quiere prometer nada—. Le dice solo: "un experimento de treinta días." Nico, que tiene nueve años y encuentra fascinante cualquier cosa que suene a experimento, decide que él también se apunta.
 
 Buen provecho.
 
