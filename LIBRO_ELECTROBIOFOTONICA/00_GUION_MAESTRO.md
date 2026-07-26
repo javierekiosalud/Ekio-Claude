@@ -84,7 +84,7 @@ Sin esta lista, cada capítulo definiría "electrosmog" o "balda" a su manera, o
 > ⚠️ **Aviso de honestidad, no negociable:** la idea de que "lo nativo es bueno porque es lo de siempre y lo artificial es malo porque es nuevo" es una **narrativa**, no un hecho probado. Se puede contar como marco (es intuitivo y es cierto que la velocidad del cambio es real), pero **cualquier mecanismo concreto** ("el cuerpo está sintonizado con la Schumann y lo artificial lo desincroniza") va con semáforo 🟡/🔴, igual que el resto del libro. La distinción nativo/artificial es un buen **hilo narrativo**; no puede convertirse en una afirmación fisiológica no verificada.
 | **Electrobiofotónica** | El método de este libro: mirar juntos lo eléctrico y la luz. **Se declara explícitamente como término propuesto por el autor**, no como fenómeno documentado — obligatorio por auditoría legal (`02` § "Eliminar") | **Prólogo**, en la misma página que el disclaimer |
 | **Fotobiomodulación (PBM)** | Lo que le pasa a tu célula cuando le da la luz roja o infrarroja correcta | Despensa 4, "La lumbre perdida" |
-| **Las tres baldas** | La forma en que este libro organiza todo lo eléctrico de tu casa: lo que ya tenías (1), lo que es gratis (2), lo que aportamos nosotros (3) | Despensa 2, primera aparición de la Balda 1 |
+| **Las tres baldas** | La forma en que este libro organiza todo lo eléctrico de tu casa: lo que ya tenías (1), lo que es gratis (2), lo que aportamos nosotros (3) | **Semana 1, Cap. 1** *(fijado 27/jul al escribirlo — "Balda 1" aparece ahí; Balda 2 y 3 se reservan para el capítulo siguiente de la misma semana)* |
 | **El punto de sal / respuesta bifásica** | Más no es mejor: hay una cantidad justa, y pasarse no suma, resta | Despensa 5, "Ni crudo ni pasado" |
 | **Semáforo de evidencia** 🟢🟡🔴 | Cómo de segura está la ciencia de lo que acabas de leer, dicho sin adornos | **Prólogo** (se usa desde R01) |
 | **Alérgenos** *(uso metafórico del libro)* | Las advertencias de cada receta, presentadas como la etiqueta de un restaurante — no son alérgenos alimentarios reales | LA CARTA o R01, la primera ficha |
@@ -346,11 +346,11 @@ El libro es herramienta de captación. Cada QR va a una URL propia y trazable.
 ## 14. SIGUIENTES PASOS
 
 1. ✅ Decisiones 1–9 tomadas (26/jul). ✅ Pivote a narrativa continua, hilo conductor, definiciones obligatorias, Nico (27/jul).
-2. [ ] **Adaptar R01 y R02 al nuevo formato** (1 página, incrustadas en Semana 1 en vez de fichas independientes de 2 páginas).
-3. [ ] Editar `01` (degradar a doc de voz), `02` (renumerar O1–O8) y `03` (título).
-4. [ ] **Verificar el coste de impresión a color en la calculadora de KDP** antes de fijar los 11,11 € (ver nota de precio abajo).
-5. [ ] Crear el **test de sensibilidad electromagnética** y la landing `/libro`.
-6. [ ] Escribir el **Prólogo** completo — es la pieza que faltaba y la que fija el tono de "historia con recetas", no de recetario.
+2. ✅ **Prólogo** escrito (`07_PROLOGO.md`). ✅ **La Carta** escrita y rediseñada (`08_LA_CARTA.md`). ✅ **R02 adaptada al formato de 1 página** e incrustada en `09_SEMANA1_CAP1.md` (primer capítulo de la Semana 1, ya escrito).
+3. [ ] **Escribir el resto de la Semana 1** (Balda 2, cierre con R01 y R03).
+4. [ ] Editar `01` (degradar a doc de voz), `02` (renumerar O1–O8) y `03` (título).
+5. [ ] **Verificar el coste de impresión a color en la calculadora de KDP** antes de fijar los 11,11 € (ver nota de precio abajo).
+6. [ ] Crear el **test de sensibilidad electromagnética** y la landing `/libro`.
 7. [ ] Brief de las 7 láminas al `direccion-arte-agent`.
 8. [ ] Revisión legal externa antes de subir a KDP.
 
