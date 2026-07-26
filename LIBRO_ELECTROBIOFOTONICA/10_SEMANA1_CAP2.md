@@ -74,6 +74,10 @@ Hace fresco. La calle está vacía. Enfrente hay una señora tendiendo, y Marta 
 
 Se queda diez minutos. No hace nada especial. Se toma el café.
 
+> **LO QUE MARTA NO SABÍA TODAVÍA**
+> Los ojos tienen, además de lo que ve en colores y lo que ve en la oscuridad, un tercer tipo de célula que no sirve para ver: sirve para saber la hora. Reacciona sobre todo a la luz azulada del cielo de la mañana, y le manda al cerebro una señal: es de día, empieza la cuenta. Por eso importa salir pronto y sin gafas de sol. No es superstición de bienestar: es el reloj del cuerpo pidiendo la hora.
+> — Javier Andrés
+
 Cuando entra, Nico está en la cocina intentando alcanzar los cereales.
 
 —¿Qué hacías fuera?
@@ -94,7 +98,7 @@ Nico la mira con la cara de quien acaba de oír la cosa más rara del mundo, dec
 
 ```
 ┌─────────────────────────────────────────────┐
-│  EL DESAYUNO DE LUZ                         │
+│  EL DESAYUNO DE LUZ              · Marta ·   │
 │  El primer ingrediente del día no se come   │
 ├─────────────────────────────────────────────┤
 │  INGREDIENTES                     ⏱ 10 min  │
@@ -114,14 +118,15 @@ Nico la mira con la cara de quien acaba de oír la cosa más rara del mundo, dec
 │  Ella tendía la ropa a las ocho, lloviera o │
 │  no. Ese era su sol. No lo llamaba rutina.  │
 │  Lo llamaba lunes.                          │
-├─────────────────────────────────────────────┤
+╞═══════════════════════════════════════════╡
+│  · margen del autor ·                       │
 │  🚦 🟢 La luz de la mañana es la señal que   │
 │  pone en hora el reloj del cuerpo. De todo  │
 │  lo que hay en este libro, es lo que mejor  │
 │  se conoce.                                 │
 │  "De todo lo que os cuento aquí, esto es en │
 │  lo que menos dudo."   — Javier Andrés      │
-├─────────────────────────────────────────────┤
+│                                              │
 │  ⚠️ No mires nunca al sol directamente. Si   │
 │  tomas medicación fotosensibilizante,       │
 │  consúltalo antes de alargar la exposición. │
@@ -132,40 +137,41 @@ Nico la mira con la cara de quien acaba de oír la cosa más rara del mundo, dec
 
 ---
 
+> **LO QUE MARTA NO SABÍA TODAVÍA**
+> De noche importa más la cantidad de luz que el color. Una habitación normal, con la lámpara del techo encendida, basta para retrasarle el sueño a casi cualquiera. Dicho esto, si hay que elegir un color, mejor ámbar que rojo: con luz roja no se ve bien lo que se cocina ni dónde se pisa, y de noche, para colmo, activa más de lo que calma — se deja para un pasillo de paso, no para la mesa. El "modo noche" del móvil, por cierto, casi no cambia nada: lo han medido dos estudios distintos, y el brillo pesa más que el tono. Y una bombilla inteligente regulable, aunque parezca la solución moderna, mete un emisor encendido toda la noche en el techo del salón. A veces lo simple —una bombilla tonta, del color que toca— le gana a lo nuevo.
+> — Javier Andrés
+
 ## 🥬 LA CENA A OSCURAS Y LA SOBREMESA
 
 *(Cuaderno de la abuela, al lado del caldo para los días malos)*
 
 ```
 ┌─────────────────────────────────────────────┐
-│  LA CENA A OSCURAS Y LA SOBREMESA           │
+│  LA CENA A OSCURAS Y LA SOBREMESA · Marta ·  │
 │  El ritual que casi perdimos                │
 ├─────────────────────────────────────────────┤
 │  INGREDIENTES                     ⏱ 20 min  │
 │   🥬 Una lámpara baja en vez del plafón del  │
 │      techo                                   │
-│   🥫 Bombillas ámbar, naranjas o rojas para  │
-│      la última hora del día — las de luz     │
-│      blanca, para la mañana                  │
+│   🥫 Bombilla ámbar en esa lámpara — la roja,│
+│      si acaso, para un pasillo de paso, no   │
+│      para la mesa                            │
 │   🥬 Veinte minutos de mesa sin levantarse   │
 │   🥫 Ninguna pantalla encendida — tampoco    │
 │      la tele "de fondo"                      │
 ├─────────────────────────────────────────────┤
 │  🧂 EL PUNTO                                 │
-│  No hace falta cenar a oscuras de verdad.   │
-│  Hace falta que la casa se vaya apagando a  │
-│  la vez que el día: luz baja, cálida, y     │
-│  mejor desde abajo que desde el techo. Una  │
-│  bombilla ámbar en la lámpara del salón     │
-│  hace más por tu noche que cualquier cosa   │
-│  que puedas comprar.                        │
+│  Lo primero es que haya menos luz, no que   │
+│  sea roja. Ámbar y desde abajo, mejor que   │
+│  blanca y desde el techo.                   │
 ├─────────────────────────────────────────────┤
 │  👵 EL TRUCO DE LA ABUELA                    │
 │  "Se toma a mediodía, con la ventana        │
 │  abierta." Ella no explicaba por qué. Sabía │
 │  que la comida y la luz iban juntas, y con  │
 │  eso le bastaba.                            │
-├─────────────────────────────────────────────┤
+╞═══════════════════════════════════════════╡
+│  · margen del autor ·                       │
 │  🚦 🟢 Menos luz por la noche ayuda al       │
 │  cuerpo a preparar el sueño; es la otra     │
 │  cara del desayuno de luz. 🟡 Lo que la     │
@@ -174,9 +180,13 @@ Nico la mira con la cara de quien acaba de oír la cosa más rara del mundo, dec
 │  quiere volver atrás.                       │
 │  "Esta es la que más me ha costado, y la    │
 │  que más me ha dado."  — Javier Andrés      │
-├─────────────────────────────────────────────┤
-│  ⚠️ Divulgación sobre bienestar. No          │
-│  sustituye consejo médico. Ver p. 4.        │
+│                                              │
+│  ⚠️ Si ves mal de noche, o hay mayores en    │
+│  casa, prioriza ver claro antes que tener   │
+│  poca luz: ninguna receta de este libro     │
+│  vale una caída.                            │
+│  Divulgación sobre bienestar. No sustituye  │
+│  consejo médico. Ver p. 4.                  │
 └─────────────────────────────────────────────┘
 ```
 
@@ -190,6 +200,15 @@ Buen provecho.
 
 ---
 ---
+
+## NOTAS DE PROCESO (v3 — 27/jul, tras `11` y `12`)
+
+**Qué se añadió respecto a v2:**
+1. **Dos bloques de "Lo que Marta no sabía todavía"** — el mecanismo de melanopsina/reloj circadiano (junto a R01) y la ciencia de la luz nocturna (junto a R03): cantidad importa más que color, ámbar mejor que rojo para uso general, el modo noche del móvil no sirve (2 estudios), y la bombilla inteligente regulable mete un emisor de RF permanente en el techo. Este último punto hace que **el nexo CEM↔luz aparezca solo**, sin forzarlo, dentro de una receta que no iba de eso.
+2. **R03 revisada con la validación del `fbm-elite-agent` (`12`):** ya no dice "ámbar, naranja o roja" como si fueran equivalentes — ahora ámbar es la recomendación, roja queda solo para un pasillo de paso. Se añade el alérgeno de seguridad real (ver bien de noche, riesgo de caída en mayores) que el informe científico marcó como "no paja legal", sino relevante de verdad.
+3. **Ficha con separador visual de las dos capas** en R01 y R03, igual que R02 en `09`.
+
+**Se mantiene todo lo de v2** (la escena de Tomás y la despensa, el cuaderno hablando por sí mismo, el cierre "no lo cuenta todavía").
 
 ## NOTAS DE PROCESO
 
@@ -211,6 +230,4 @@ Buen provecho.
 
 **Sobre R03:** en `00` § 4 figura como fusión de "la cena a oscuras" + "la sobremesa". Aquí se escribe ya fusionada. Su semáforo lleva **🟢 para la parte de luz y 🟡 para la sobremesa**, siguiendo la regla de `00` § 7 de calificar lo que hace el lector: el efecto de cenar con luz baja está bien documentado, el de la sobremesa no se ha medido igual y no se puede vender como si sí.
 
-⚠️ **PENDIENTE DE VALIDACIÓN CIENTÍFICA (27/jul):** las **bombillas ámbar/naranjas/rojas** se han añadido por indicación de Javier, con redacción provisional. Está encargada al `fbm-elite-agent` la validación de: si ámbar, naranja y roja son equivalentes o hay que recomendar una; si sirve el modo noche del móvil y las bombillas inteligentes regulables o hace falta bombilla dedicada; y si hay que añadir alguna advertencia al bloque de alérgenos (seguridad al cocinar con poca luz, riesgo de caídas en personas mayores). **Ajustar esta ficha cuando llegue ese informe.**
-
-⚠️ **PROBLEMA ABIERTO, señalado por Javier el 27/jul:** este capítulo —como el anterior— **no explica de dónde saca Marta lo que sabe**. Aparece sabiendo que hay que salir al sol por la mañana, que el cabecero importa, y ahora que hay bombillas ámbar. *"Parece que Marta es un mago que se va sacando cosas de la manga."* Hay dos agentes estudiando la solución (`11_FUENTE_DE_CONOCIMIENTO.md` y `12_LUZ_NOCTURNA_Y_RUTA_DESCUBRIMIENTO.md`). **Este capítulo y el Cap. 1 se reescribirán en parte cuando llegue ese plan.** Hipótesis de causa raíz: al eliminar a la "Dra. Elena" el 26/jul, el libro se quedó sin fuente de conocimiento dentro de la historia.
+✅ **Resuelto (27/jul):** validación científica de las bombillas aplicada (ver punto 2 arriba); ambos informes (`11` y `12`) recibidos e integrados en este capítulo y en `07`/`09`. El "problema del mago" se resuelve con la regla de la fuente visible (`00` § 1.7) + la capa de autor (`00` § 3.2) + el origen de Berta sembrado en el Prólogo — ver notas v3 arriba.
