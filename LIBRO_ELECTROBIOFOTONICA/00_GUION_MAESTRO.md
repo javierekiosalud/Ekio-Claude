@@ -1,10 +1,10 @@
 # GUÍA DE HIGIENE ELECTROMAGNÉTICA
 ## El recetario de la energía perdida
 
-> **Guión maestro — v3 CONSOLIDADO (26 julio 2026).** Sustituye a las versiones anteriores.
+> **Guión maestro — v4 (26 julio 2026). ÚNICA FUENTE DE VERDAD.**
 > Autor: Francisco Javier Andrés (EKIO / Ekio BioTech).
-> Formato: guía práctica ilustrada en clave de recetario. Amazon KDP, tapa blanda + Kindle.
-> **Extensión objetivo: ~100 páginas.**
+> Amazon KDP, tapa blanda a color + Kindle. **108 páginas de imprenta · 20.000–21.000 palabras.**
+> **Lanzamiento: 11 de noviembre de 2026 — 15º aniversario de EKIO. Precio de lanzamiento 11,11 €.**
 
 ---
 
@@ -14,24 +14,27 @@
 |---|---|
 | **Título** | **Guía de Higiene Electromagnética** |
 | **Subtítulo** | **El recetario de la energía perdida** |
-| **Concepto/método** | *Electrobiofotónica* — **no va en la portada**; es el método que el libro enseña. Se presenta en la intro y en la contraportada |
-| **Extensión** | ~100 págs (≈ 24.000 palabras) |
-| **Lector** | Persona sin formación técnica: familias, gente cansada o que duerme mal, biohackers principiantes |
-| **Promesa** | Recuperar la energía cambiando lo que tienes en casa, en 30 días |
-| **Productos** | **Spiro** y **Ekio Light** (Core, Deep 5, Bio Regén 7) |
-| **Firma** | Cada sección cierra con **"Buen provecho"** |
-
-**Por qué este título:** "higiene electromagnética" es lo que la gente busca; "electrobiofotónica" tiene cero volumen de búsqueda. Además, sacar el término de la portada reduce la exposición legal — el concepto se declara dentro, como marco propuesto por el autor, no como fenómeno físico documentado.
+| **Concepto/método** | *Electrobiofotónica* — **no va en portada**. Es el método que enseña el libro; se declara en la intro y en la contraportada |
+| **Extensión** | 108 págs de imprenta · 20.000–21.000 palabras |
+| **Impresión** | **A color**, 6"×9" |
+| **ISBN** | **Propio**, Agencia española ("Editado por EKIO") |
+| **KDP Select / KU** | **Fuera** — incompatible con vender el PDF en electrosmogespana.com |
+| **Lanzamiento** | **11/11/2026**, 15º aniversario EKIO. Precio 11,11 € |
+| **Productos** | **Spiro**, **Ekio Light** (Core, Deep 5, Bio Regén 7) y los **tres medidores** |
+| **Firma** | **"Buen provecho"** — solo al cierre de las 6 partes (6 veces en todo el libro) |
 
 ---
 
 ## ⛔ DECISIONES CERRADAS (no reabrir)
 
-1. **El Bio Spectrum 11 queda fuera del libro** (UV-B a 292 nm). El libro cubre **Core, Deep 5 y Bio Regén 7**.
-2. **No se publican protocolos concretos.** Sí: paneles, longitudes de onda y para qué sirve cada tipo de luz en general. No: J/cm², minutos, distancias, frecuencias, tablas de dosis. **Las recetas son de hábito y entorno.**
+1. **Bio Spectrum 11 fuera del libro** (UV-B 292 nm). El libro cubre Core, Deep 5 y Bio Regén 7.
+   *(Esto no cierra el frente IEC 62471 del producto: se sigue vendiendo y sigue necesitando certificado y expediente técnico.)*
+2. **No se publican protocolos.** Ver § 7, regla de las dos clases de cifra.
 3. **"Electrobiofotónica" se declara en la intro** como concepto-marco del autor.
-4. **Spiro solo se describe como "según su fabricante, Noxtak…"** — no tiene literatura independiente revisada por pares.
-5. **Semáforo de evidencia 🟢🟡🔴** en toda afirmación científica.
+4. **Spiro solo como "según su fabricante, Noxtak…"**
+5. **18 recetas + LA CARTA** (doble página de apertura del recetario).
+6. **Disclaimer mixto** — ver § 8.
+7. **Semáforo 🟢🟡🔴 que califica lo que hace el lector**, no la literatura en abstracto.
 
 ---
 
@@ -39,7 +42,7 @@
 
 > **"Tu bisabuela hacía higiene electromagnética sin saberlo."**
 
-Antes se vivía en equilibrio sin proponérselo: se veía el amanecer, se pasaba la tarde junto a la lumbre, se dormía a oscuras de verdad, se pisaba tierra, y no había un solo emisor de radiofrecuencia en casa. Hemos roto esas cinco cosas en dos generaciones.
+Veía el amanecer, pasaba la tarde junto a la lumbre, dormía a oscuras de verdad, pisaba tierra, y no tenía un solo emisor de radiofrecuencia en casa. Hemos roto esas cinco cosas en dos generaciones.
 
 **El libro no inventa nada: recupera la receta original y la actualiza.**
 
@@ -47,141 +50,130 @@ Antes se vivía en equilibrio sin proponérselo: se veía el amanecer, se pasaba
 
 ## 2. LA DESPENSA — LOS INGREDIENTES
 
-Este es **el corazón conceptual del libro**. Antes de cocinar, hay que conocer lo que hay en la despensa. Tres baldas.
+El corazón conceptual del libro. Tres baldas y un cajón.
 
-### 🥫 BALDA 1 — Los ingredientes que ya estaban en tu cocina
+### 🥫 BALDA 1 — Los que ya estaban en tu cocina
 *No los elegiste. Están. Y no te vas a deshacer de ellos.*
 
-| Ingrediente | Cómo se presenta en el libro |
-|---|---|
-| **El router y el wifi** | El fuego encendido las 24 h |
-| **El móvil** (y el Bluetooth) | El ingrediente que llevas en el bolsillo |
-| **La luz azul** de pantallas y LED | Sirve para el desayuno, no para la cena |
-| **La electricidad de las paredes** | Campos eléctricos y electricidad sucia: lo que no se ve pero sazona toda la casa |
-| **La toma de tierra** (o su ausencia) | El desagüe de la cocina. Si no funciona, todo se queda dentro |
-| **El inversor solar** | El invitado que llegó con las placas y nadie presentó |
-| **Los de contacto**: inducción, microondas, secador | Fuertes, pero solo mientras los usas y muy de cerca |
-| **Los que hablan**: smart TV, altavoces, domótica, timbre wifi | Los que siguen charlando cuando ya no hay nadie |
-| **Lo de fuera**: antenas, vecinos, contadores | Lo que entra por la ventana y no puedes apagar |
+El router y el wifi · el móvil y el Bluetooth · la luz azul de pantallas y LED · la electricidad de las paredes (campos eléctricos y **electricidad sucia**) · la **toma de tierra** o su ausencia · el **inversor solar** · los de contacto (inducción, microondas, secador) · los que hablan (smart TV, altavoces, domótica, timbre wifi) · lo de fuera (antenas, vecinos, contadores).
 
-> **El encuadre, y es clave para el tono del libro:** estos ingredientes **no son veneno. Son ingredientes fuertes** — como la sal, el ajo o el picante. Nadie tira la sal de la cocina. El problema nunca es que existan: es **la cantidad, la distancia y la hora**.
+> **El encuadre, clave para el tono:** no son veneno, **son ingredientes fuertes** — como la sal, el ajo o el picante. Nadie tira la sal de la cocina. El problema nunca es que existan: es **la cantidad, la distancia y la hora**.
 
-### 🥬 BALDA 2 — Los ingredientes frescos que tienes gratis y no usas
-*Los que tu bisabuela usaba a diario sin llamarlos nada.*
+### 🥬 BALDA 2 — Lo fresco que tienes gratis y no usas
+El sol de la mañana 🟢 · la oscuridad de verdad · la distancia · la tierra bajo los pies · el apagado · el tiempo sin pantalla.
 
-| Ingrediente | Qué es |
-|---|---|
-| **El sol de la mañana** | El que pone tu reloj en hora. 🟢 El más potente de todo el libro |
-| **La oscuridad de verdad** | No "poca luz": oscuridad. Sin pilotos, sin standby |
-| **La distancia** | El ingrediente más barato: la exposición cae con el cuadrado de la distancia |
-| **La tierra bajo los pies** | Lo que perdimos al subir a un quinto |
-| **El apagado** | Como el horno: también tiene que descansar |
-| **El tiempo sin pantalla** | La sobremesa. El ingrediente social |
-
-> **Esta balda es la que más rinde y no cuesta nada.** Aquí vive el 80 % del valor del libro. Decirlo abiertamente es lo que hace creíble el 20 % restante.
+> **La balda que más rinde y no cuesta nada.** Aquí vive el 80 % del valor del libro. Decirlo abiertamente es lo que hace creíble la balda 3.
 
 ### 🏺 BALDA 3 — Los ingredientes de la casa
-*Los nuestros. Los que aportamos cuando las dos baldas anteriores no llegan.*
+*Los nuestros. Cuando las dos baldas anteriores no llegan.*
 
 | Ingrediente | Para qué | Cómo se presenta |
 |---|---|---|
-| **Spiro** | Para los de la balda 1 que **no puedes quitar** | *"Spiro no te quita el wifi. Te lo hace más llevadero."* Siempre con lenguaje de fabricante |
-| **Ekio Light** (Core, Deep 5, Bio Regén 7) | Para reponer la balda 2 **cuando la vida no te deja** | *"No sustituye al sol. Te da lumbre cuando no hay sol."* Invierno, turnos, ciudad, meses sin luz |
+| **Spiro** | Para lo de la balda 1 que **no puedes quitar** | *"Spiro no te quita el wifi. Te lo hace más llevadero."* Siempre con lenguaje de fabricante. **1 Spiro Card por persona con móvil** |
+| **Ekio Light** (Core, Deep 5, Bio Regén 7) | Para reponer la balda 2 **cuando la vida no te deja** | *"No sustituye al sol. Te da lumbre cuando no hay sol."* Invierno, turnos, ciudad |
 
-**Cómo se mencionan los paneles** (sin protocolo):
-- **Core** — pequeño y portátil. Rojo e infrarrojo cercano. Para una zona concreta.
-- **Deep 5** — panel de superficie. Cinco longitudes de onda, incluida la que llega más hondo.
-- **Bio Regén 7** — siete longitudes, la gama pensada para piel.
-- Y una explicación general de qué hace cada **tipo** de luz: el rojo trabaja cerca de la superficie, el infrarrojo llega más adentro, el azul de noche te desvela.
-- ❌ **Nunca**: minutos, centímetros, J/cm², sesiones por semana.
+**Cómo se mencionan los paneles:** qué es cada uno, sus longitudes de onda, y qué hace cada **tipo** de luz en general (el rojo trabaja cerca de la superficie, el infrarrojo llega más hondo, el azul de noche te desvela). ❌ Nunca minutos, centímetros, J/cm² ni sesiones por semana.
+
+### 🔧 EL CAJÓN DE LOS UTENSILIOS — los tres medidores
+
+*En una cocina, el termómetro no es un ingrediente: es cómo sabes si está en su punto.* Los medidores van aquí, no en la balda 3, y esa distinción **refuerza** la metáfora en vez de forzarla. Es además el puente natural con **LA CATA**.
+
+| Utensilio | Qué mide | Por qué está en el libro |
+|---|---|---|
+| **Medidor de electricidad sucia** | Los armónicos que viajan por la instalación | El ingrediente invisible que sazona toda la casa y que nadie mira |
+| **Medidor de bajas frecuencias** | Campos eléctricos y magnéticos de la red | Lo que hay en el cabecero de tu cama |
+| **Medidor de altas frecuencias** | Radiofrecuencia: wifi, móvil, antenas | Lo que entra por la ventana |
+
+> **La frase que los justifica:** *"No puedes corregir lo que no has probado. Ningún cocinero sazona sin probar el caldo."*
 
 ---
 
 ## 3. LOS 4 MECANISMOS DE GUIÑO ESPAÑOL
 
-### ⭐ 1. La lumbre = la primera fotobiomodulación de la historia
-El fuego del hogar emite infrarrojo cercano. Durante siglos, toda familia española pasó dos o tres horas cada tarde ante la lumbre o el brasero bajo la mesa camilla. **Ekio Light = la lumbre del siglo XXI.** Desactiva la objeción de "esto suena a chirimbolo moderno".
+**⭐ La lumbre = la primera fotobiomodulación.** El fuego del hogar emite infrarrojo cercano. Siglos de familias españolas pasando la tarde ante la lumbre o el brasero bajo la mesa camilla. **Ekio Light = la lumbre del siglo XXI.**
 
-### ⭐ 2. El punto de sal = la dosis (sin cifras)
-Más NO es mejor. La luz tiene una ventana: poca no hace nada, la justa funciona, demasiada deja de sumar. Es el punto de sal.
-- *"Nadie mejora un guiso echándole el doble de sal."*
-- **"Ni crudo ni pasado"** para la intensidad: fuego brutal quema fuera y deja crudo dentro.
-- ⚠️ **El principio, nunca la cifra.** Las cifras van en el manual del producto.
+**⭐ El punto de sal = la dosis, sin cifras.** Más no es mejor. *"Nadie mejora un guiso echándole el doble de sal."* Y **"ni crudo ni pasado"** para la intensidad. ⚠️ El principio, nunca la cifra.
 
-### ⭐ 3. "Alérgenos" = advertencias
-Cada receta lleva su recuadro ⚠️, como cualquier carta de restaurante. Cumple la función legal sin romper el tono.
+**⭐ "Alérgenos" = advertencias.** Recuadro ⚠️ en cada receta, como cualquier carta de restaurante.
 
-### ⭐ 4. "El truco de la abuela"
-Cierre de cada receta: el atajo gratis que no requiere comprar nada. Es lo que sostiene el 80/20.
+**⭐ "El truco de la abuela".** El atajo gratis de cada receta. **Unificado con "Lo que decía mi madre": son el mismo dispositivo.** Tomás cita siempre a **su madre** — por eso el truco es "de la abuela" aunque lo cuente el abuelo.
 
-*(Complementarios: "A fuego lento", "Maridaje", "Lo que decía mi madre", "Para cuántos".)*
+*(Complementarios: "A fuego lento", "Maridaje", "Para cuántos".)*
 
 ---
 
-## 4. ESTRUCTURA (~100 páginas)
+## 4. ESTRUCTURA (108 págs)
 
 ```
-EL APERITIVO ....................  6 págs
-LA DESPENSA (los ingredientes) .. 34 págs
-LA CATA (medir tu casa) ......... 10 págs
-EL RECETARIO (19 recetas) ....... 38 págs   ← el corazón
-EL MENÚ DEL MES (30 días) .......  8 págs
-LA SOBREMESA + apéndices ........  6 págs
-                                 ≈ 102 págs
+Preliminares (portadilla, créditos, índice) ...  6 págs
+EL APERITIVO .................................   6 págs
+LA DESPENSA (6 caps × 5-6 págs) ..............  34 págs
+LA CATA (medir tu casa) ......................  10 págs
+LA CARTA (doble página) ......................   2 págs
+EL RECETARIO (18 recetas × 2 págs) ...........  36 págs
+EL MENÚ DEL MES (30 días) ....................   8 págs
+LA SOBREMESA + apéndices .....................   6 págs
+                                              ≈ 108 págs
 ```
+
+⚠️ **Cada receta empieza en página par**, para que ficha e ilustración se vean juntas al abrir.
 
 ### EL APERITIVO — *"Bienvenido a la cocina invisible"*
-La gran idea. Qué es la higiene electromagnética y qué NO es este libro (no es tecnofobia). **Declaración del concepto electrobiofotónica.** Disclaimer.
+La gran idea. Qué es la higiene electromagnética y qué NO es este libro. **Declaración del concepto electrobiofotónica.** Disclaimer completo.
 
-### LA DESPENSA — los ingredientes (6 capítulos cortos)
-1. **"Eres un ser eléctrico y luminoso"** — tu cuerpo como cocina bioeléctrica.
-2. **"Balda 1: lo que ya estaba en tu cocina"** — los CEM de tu casa, uno a uno, sin miedo.
-3. **"Balda 2: lo fresco que tienes gratis"** — sol, oscuridad, distancia, tierra, apagado.
-4. **"La lumbre perdida"** — por qué nos falta luz, y qué es la fotobiomodulación. Aquí entra **balda 3**.
-5. **"Ni crudo ni pasado"** — el punto de sal: la ciencia sin histeria, con semáforo 🟢🟡🔴.
-6. **"El etiquetado que nadie lee"** — cómo leer una afirmación de salud sin que te la cuelen.
+### LA DESPENSA — 6 capítulos de 5–6 págs
+1. **"Eres un ser eléctrico y luminoso"**
+2. **"Balda 1: lo que ya estaba en tu cocina"**
+3. **"Balda 2: lo fresco que tienes gratis"**
+4. **"La lumbre perdida"** — la luz como nutriente. Entra la balda 3
+5. **"Ni crudo ni pasado"** — el punto de sal y el semáforo de evidencia
+6. **"El wifi y la luz: las dos mitades de la misma historia"** ← **el puente.** Es el mejor activo del libro y no estaba desarrollado. Se cuenta con la única cadena 🟢 disponible: la luz azul nocturna suprime la melatonina (Brainard 2001) — es literalmente radiación electromagnética afectando a tu biología, y es la prueba de que las dos mitades del libro son una sola
 
 ### LA CATA — medir antes de cocinar
-Kit básico, cuándo llamar a un profesional, el **mapa de calor de tu casa** (plantilla imprimible) y el dormitorio como zona cero.
+Los tres utensilios, el **mapa de calor de tu casa** (plantilla + QR de descarga), cuándo llamar a un profesional, y el dormitorio como zona cero.
 
-### EL RECETARIO — 19 recetas × 2 págs
+### LA CARTA — doble página
+El recetario presentado como la carta de un restaurante. Permite abrir el libro por donde uno lo necesita.
 
-**Entrantes — recetas de diario** *(todo balda 2, gratis)*
-1. El apagón de las nueve
-2. La cena a oscuras
-3. La sobremesa sin pantallas
-4. El paseo del amanecer
+### EL RECETARIO — 18 recetas
+
+**Entrantes — recetas de diario** *(balda 2, gratis)*
+- **R01 · El desayuno de luz** — *"El primer ingrediente del día no se come"* ← **RECETA PILOTO**
+- **R02 · El apagón de las nueve**
+- **R03 · La cena a oscuras y la sobremesa** *(fusión)*
+- **R04 · El caldo del turno de noche** — *"Para quien trabaja cuando el resto duerme"* ← NUEVA
 
 **Platos fuertes — por objetivo**
-5. El caldo de la energía vital
-6. El sueño de los justos
-7. La receta de la cabeza clara
-8. La crema de belleza que no viene en un bote
-9. La receta de la fuerza
-10. El alivio lento: guiso de domingo
+- **R05 · El caldo de la energía vital**
+- **R06 · El sueño de los justos**
+- **R07 · La receta de la cabeza clara**
+- **R08 · La crema de belleza que no viene en un bote**
+- **R09 · El guiso del que entrena** — *(antes "la receta de la fuerza")*
+- **R10 · El guiso de las cervicales de pantalla** — *"Ocho horas mirando abajo. La receta no es una lámpara: es levantarse"*
 
 **Recetas de la casa — por estancia**
-11. La mise en place del dormitorio
-12. El sofrito del salón (router, smart TV)
-13. La cocina: inducción, microondas y los olvidados
-14. El despacho en casa
-15. El repaso de la despensa *(revisión anual de la casa)*
+- **R11 · La mise en place del dormitorio**
+- **R12 · El sofrito del salón**
+- **R13 · La cocina: inducción, microondas y los olvidados**
+- **R14 · El despacho en casa**
+- **R15 · El repaso de la despensa** *(revisión anual)*
 
 **Recetas familiares**
-16. **La receta de los niños** ← la más importante y la más conservadora
-17. El menú del adolescente
-18. El puchero del abuelo escéptico
-19. El bocadillo del viajero
+- **R16 · La receta de los niños** — la más importante y la más conservadora
+- **R17 · El pacto del adolescente** — *"Lo que Leo no quiere oír y lo que sí está dispuesto a negociar"*
+- **R18 · El puchero del abuelo escéptico**
+
+⚠️ **"El bocadillo del viajero" pasa a tarjeta de bolsillo del apéndice** (ver § 11). Es la receta más naturalmente "de tarjeta" y es lo que permite cerrar en 18.
 
 ### EL MENÚ DEL MES
-Reto de 30 días como menú semanal: **S1 la cata · S2 el dormitorio · S3 la casa · S4 la luz.** Checklist marcable.
+**S1 la cata · S2 el dormitorio · S3 la casa · S4 la luz.** Checklist marcable + QR de descarga y recordatorios.
 
 ### LA SOBREMESA
-Cómo mantenerlo sin volverse un fanático. El abuelo Tomás cede. + Apéndices: tarjetas de bolsillo, FAQ, glosario, recursos EKIO, bibliografía con semáforo, disclaimer.
+Mantenerlo sin volverse fanático. El abuelo Tomás cede. + apéndices.
 
 ---
 
-## 5. FICHA DE RECETA (la unidad del libro)
+## 5. FICHA DE RECETA
 
 ```
 ┌─────────────────────────────────────────────┐
@@ -189,83 +181,159 @@ Cómo mantenerlo sin volverse un fanático. El abuelo Tomás cede. + Apéndices:
 │  "Para cuando llegas a las seis de la tarde │
 │   y ya no queda nada de ti"                 │
 ├─────────────────────────────────────────────┤
-│  🍽  Para cuántos ....... 4 comensales       │
-│  ⏱  Tiempo ............. 15 min al día      │
-│  🔥  Dificultad ......... Fácil              │
-│  📅  A fuego lento ...... Se nota en 3 sem.  │
+│  🍽 Para cuántos ..... 🔥 Dificultad         │
+│  ⏱ Tiempo ........... 📅 A fuego lento      │
 ├─────────────────────────────────────────────┤
-│  INGREDIENTES  (de las 3 baldas)             │
+│  INGREDIENTES   (con icono de balda)         │
 │   🥬 10 min de sol al amanecer               │
 │   🥬 Oscuridad total en el dormitorio        │
 │   🥫 El router, apagado de noche             │
-│   🏺 1 Spiro Card · 1 Ekio Light             │
+│   🏺 1 Spiro Card por persona con móvil      │
 ├─────────────────────────────────────────────┤
 │  ELABORACIÓN   1. ... 2. ... 3. ...          │
 ├─────────────────────────────────────────────┤
 │  🧂 EL PUNTO    (el principio, sin cifras)   │
-│  🍷 MARIDAJE    (con qué receta combina)     │
-│  👵 EL TRUCO DE LA ABUELA (el atajo gratis)  │
-│  🚦 EVIDENCIA   🟢🟡🔴                         │
-│  ⚠️ ALÉRGENOS   (advertencias)               │
+│  🍷 MARIDAJE                                 │
+│  👵 EL TRUCO DE LA ABUELA                    │
+│  🚦 EVIDENCIA   🟢🟡🔴 + la frase de la       │
+│                 Dra. Elena                   │
+│  ⚠️ ALÉRGENOS   + 1 línea de disclaimer      │
 └─────────────────────────────────────────────┘
 ```
 
-**Los iconos de balda (🥫 🥬 🏺) en la lista de ingredientes hacen visible el 80/20 de un vistazo.** El lector ve que la mayoría de lo que le pedimos es gratis.
+**Los iconos de balda (🥫 🥬 🏺) hacen visible el 80/20 de un vistazo:** el lector ve que casi todo lo que le pedimos es gratis.
 
 ---
 
-## 6. STORYTELLING
+## 6. PERSONAJES (fijados — no improvisar)
 
-| Personaje | Dónde | Función |
+| Personaje | Datos | Dónde vive |
 |---|---|---|
-| **Marta** (42, agotada) | Apertura de cada receta, 3-5 líneas | El lector |
-| **Leo** (adolescente) | "Para cuántos" | La resistencia que negocia |
-| **Abuelo Tomás** | "El truco de la abuela", "Lo que decía mi madre" | El escéptico que sin querer da la razón |
-| **Dra. Elena** | "Ciencia en 60 segundos" | La validadora |
-| **Spiro** y **Fotón** | Iconos de margen | Mascotas-concepto, sin diálogo |
+| **Marta** | 42 años, **hija de Tomás**, agotada | Apertura de cada receta, 3–5 líneas. Es el lector |
+| **Leo** | **15 años**, hijo de Marta | Campo "Para cuántos" y R17 |
+| **Abuelo Tomás** | **79 años**, escéptico gruñón afectuoso, **nunca objeto de burla** | "El truco de la abuela" (cita a su madre) |
+| **Dra. Elena** | Vecina | **Campo 🚦 EVIDENCIA.** Una frase suya firma el semáforo de cada receta |
+| **Spiro** y **Fotón** | Mascotas-concepto | Iconos de margen, sin diálogo |
+
+> **Por qué Leo tiene 15:** la postura de EKIO es *"no recomendamos paneles en menores de 16 sin supervisión sanitaria"*. Con Leo a 15, esa postura se **dramatiza**: Leo pide usar el panel y se le dice que no. Es la escena más creíble del libro — la marca diciendo "aquí no" sobre su propio producto, delante del lector.
 
 **Regla de oro:** máximo 5 líneas por aparición en el recetario. Si necesita más, es un capítulo de La Despensa.
 
 ---
 
-## 7. PRINCIPIOS EDITORIALES
+## 7. LAS DOS CLASES DE CIFRA (regla crítica)
 
-1. **Brevedad.** Frases cortas. Capítulos de 8–12 págs. Si no es accionable, fuera.
-2. **Rigor con semáforo** 🟢🟡🔴.
-3. **Cero miedo tóxico.** Empoderar, no aterrar. Los CEM son ingredientes fuertes, no veneno.
-4. **Legal-safe.** Sin curar/tratar/prevenir/revertir. Sin patologías como objetivo. Disclaimer al pie de cada receta.
-5. **80 % valor / 20 % producto**, y que se vea en los iconos de balda.
-6. **Sin cifras de dosis.** Ninguna. En ningún sitio.
-7. **Validar la ciencia** con `fbm-elite-agent` antes de escribir.
+| ✅ CIFRAS PERMITIDAS | ❌ CIFRAS PROHIBIDAS |
+|---|---|
+| Minutos de sol al aire libre | Minutos de sesión de panel |
+| Metros/centímetros de **distancia a un aparato de la balda 1** | Centímetros de distancia **al panel** |
+| Horas del día (apagar a las 9, pantallas 2 h antes de dormir) | J/cm², mW/cm², vatios |
+| Longitudes de onda en nm (identifican el producto) | Sesiones por semana, duración de un ciclo |
+| Edades, plazos ("se nota en 3 semanas") | Cualquier magnitud de mejora en % |
+
+> **En una frase:** se pueden dar cifras de **lo que hace el lector con su casa y con el sol**. No se puede dar ninguna cifra referida a **un panel**.
+
+**Regla de semáforo:** el semáforo califica **lo que el lector va a hacer**, no la literatura en abstracto. Si la evidencia buena es clínica y con láser y la receta es doméstica y con LED, el semáforo es **🟡**, y el 🟢 se cita aparte etiquetado como contexto científico.
 
 ---
 
-## 8. AGENTES DEL PROYECTO
+## 8. DISCLAIMER (mixto)
+
+- **Completo y destacado** en la página de créditos.
+- **Una línea** al pie de cada ficha: *"Divulgación sobre bienestar. No sustituye consejo médico. Ver p. 4."*
+- **Completo repetido** solo en las cuatro de mayor riesgo: **R08 (belleza), R09 (el que entrena), R10 (cervicales) y R16 (niños)**.
+
+---
+
+## 9. EL EMBUDO — los 5 QR
+
+El libro es herramienta de captación. Cada QR va a una URL propia y trazable.
+
+| Nº | Dónde | A dónde lleva |
+|---|---|---|
+| **1** | LA CATA | **Test "¿Qué diagnóstico tiene mi casa?"** → recomendación de Spiro |
+| **2** | La lumbre perdida (Despensa 4) / R05 | **Test "¿Qué panel Ekio Light me conviene?"** |
+| **3** | El aperitivo / R16 | **Test de sensibilidad electromagnética** |
+| **4** | EL MENÚ DEL MES | **Descarga de la app Ekio Coach** + checklist de 30 días y recordatorios por email |
+| **5** | Apéndice "Recursos" | **electrosmogespana.com/libro** (landing dedicada, no la home) |
+
+**El apéndice "Recursos" es una página, no un catálogo.** Y cierra elegantemente el hueco de no publicar protocolos: *"los tiempos y las distancias están en el manual de cada equipo, que es su sitio."*
+
+> ⚠️ **Pendiente de verificar:** los tests de Spiro y de panel ya existen en Vercel. **El test de sensibilidad electromagnética hay que crearlo.** Las 5 URLs deben existir antes de maquetar.
+
+---
+
+## 10. LAS 7 LÁMINAS
+
+⚠️ **A color** (decisión 26/jul). Aun así, **toda lámina debe funcionar en escala de grises**: no codificar información solo por color, por accesibilidad y por si se hace edición económica.
+
+1. **El cuerpo eléctrico** — silueta con corazón, cerebro y mitocondria
+2. **El espectro electromagnético** — de la radio a la luz, ubicando wifi, 5G y luz roja
+3. **Las tres baldas** — la despensa completa de un vistazo *(la lámina más importante del libro)*
+4. **Distancia = seguridad** — el mismo aparato a 1 cm y a 1 m
+5. **Mapa de calor del hogar** — plano con zonas *(la que se descarga por QR)*
+6. **La lumbre y la mitocondria** — del brasero al panel; luz roja → mitocondria → energía
+7. **El binomio Spiro + Ekio Light** — el ruido baja, la luz sube
+
+---
+
+## 11. APÉNDICES
+
+- **A. Tarjetas de bolsillo** — una por estancia + **"El bocadillo del viajero"** (avión, hotel, coche)
+- **B. FAQ** + glosario mínimo
+- **C. Recursos EKIO** — 1 página, con el QR 5
+- **D. Bibliografía** con semáforo
+- **E. Disclaimer completo** *(va en créditos, se referencia aquí)*
+
+---
+
+## 12. PRINCIPIOS EDITORIALES
+
+1. **Brevedad.** Capítulos de Despensa 5–6 págs. Recetas 2 págs. Si no es accionable, fuera.
+2. **Rigor con semáforo** 🟢🟡🔴, calificando lo que hace el lector.
+3. **Cero miedo tóxico.** Los CEM son ingredientes fuertes, no veneno.
+4. **Legal-safe.** Sin curar/tratar/prevenir/revertir. Sin patologías como objetivo.
+5. **80 % valor / 20 % producto**, visible en los iconos de balda.
+6. **Sin cifras de panel.** Ninguna, en ningún sitio (§ 7).
+7. **"Buen provecho" solo 6 veces**, al cierre de cada parte.
+8. **Validar la ciencia** con `fbm-elite-agent` antes de escribir.
+
+---
+
+## 13. AGENTES
 
 | Agente | Para qué |
 |---|---|
-| `libro-kdp-agent` | Estructura, consistencia entre sesiones, metadatos y lanzamiento en Amazon |
-| `direccion-arte-agent` | Briefs de ilustración, sistema visual, producción para imprenta |
-| `fbm-elite-agent` | Validación científica y semáforo de evidencia |
+| `libro-kdp-agent` | Estructura, consistencia entre sesiones, KDP, lanzamiento |
+| `direccion-arte-agent` | Briefs de las 7 láminas, sistema visual, imprenta |
+| `fbm-elite-agent` | Validación científica y semáforo |
 | `content-creator-agent` | Voz, ganchos, storytelling |
 
 ---
 
-## 9. SIGUIENTES PASOS
+## 14. SIGUIENTES PASOS
 
-- [ ] Escribir **una receta piloto** para fijar densidad y tono real.
-- [ ] Escribir el capítulo **"Balda 1"** como piloto de La Despensa.
-- [ ] Metadatos KDP para el nuevo título: categorías, 7 keywords, blurb de contraportada.
-- [ ] Brief de ilustración de las 7 láminas + iconos de balda.
-- [ ] Revisión legal del recetario antes de subir a KDP.
+1. ✅ Decisiones 1–9 tomadas (26/jul).
+2. [ ] Editar `01` (degradar a doc de voz), `02` (renumerar O1–O8) y `03` (título).
+3. [ ] **Verificar el coste de impresión a color en la calculadora de KDP** antes de fijar los 11,11 € (ver nota de precio abajo).
+4. [ ] Crear el **test de sensibilidad electromagnética** y la landing `/libro`.
+5. [ ] **Escribir R01 "El desayuno de luz"** como piloto.
+6. [ ] Brief de las 7 láminas al `direccion-arte-agent`.
+7. [ ] Revisión legal externa del recetario antes de subir a KDP.
+
+> **⚠️ Nota de precio (a resolver en el paso 3):** KDP impone un **precio mínimo de venta que debe cubrir el coste de impresión**. Con 108 páginas a color, 11,11 € podría quedar **por debajo de ese mínimo y no ser seleccionable**. Tres salidas, y no son excluyentes:
+> **(a)** usar **color estándar** en vez de premium — está pensado exactamente para esto;
+> **(b)** aplicar los **11,11 € a la edición Kindle** (sin coste de impresión), donde el gesto del 11/11 funciona igual de bien;
+> **(c)** reservar los **11,11 € para la venta directa en electrosmogespana.com**, donde controlas el margen entero y además captas el cliente — que es justo la estrategia detrás de quedarse fuera de KDP Select.
 
 ---
 
-## 10. DOCUMENTOS DEL PROYECTO
+## 15. DOCUMENTOS
 
 | Fichero | Contenido |
 |---|---|
-| `00_GUION_MAESTRO.md` | **Este documento. La fuente de verdad.** |
-| `01_CONCEPTO_RECETARIO.md` | Concepto creativo, nombres de receta, voz y tono |
-| `02_BASE_CIENTIFICA_RECETAS.md` | Referencia interna: ciencia, evidencia y auditoría legal. **Su contenido numérico NO se publica** |
-| `03_PETICION_FICHA_TECNICA_FABRICA.md` | Datos de producto pendientes (ya no bloquea el libro; sí los manuales) |
+| `00_GUION_MAESTRO.md` | **Este. Fuente de verdad.** |
+| `01_CONCEPTO_RECETARIO.md` | Voz, tono y mecanismos *(degradado: estructura y nombres viven aquí, en `00`)* |
+| `02_BASE_CIENTIFICA_RECETAS.md` | Referencia interna: ciencia y auditoría legal. **Su contenido numérico NO se publica** |
+| `03_PETICION_FICHA_TECNICA_FABRICA.md` | Datos de fábrica (no bloquea el libro; sí los manuales y el CE) |
+| `04_KDP_Y_AUDITORIA.md` | Auditoría de consistencia y metadatos de Amazon |
