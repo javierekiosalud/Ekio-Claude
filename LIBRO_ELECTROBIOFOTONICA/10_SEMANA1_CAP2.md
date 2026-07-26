@@ -142,8 +142,11 @@ Nico la mira con la cara de quien acaba de oír la cosa más rara del mundo, dec
 │  El ritual que casi perdimos                │
 ├─────────────────────────────────────────────┤
 │  INGREDIENTES                     ⏱ 20 min  │
-│   🥬 Menos luz en la cena. Una lámpara       │
-│      baja en vez del plafón del techo.       │
+│   🥬 Una lámpara baja en vez del plafón del  │
+│      techo                                   │
+│   🥫 Bombillas ámbar, naranjas o rojas para  │
+│      la última hora del día — las de luz     │
+│      blanca, para la mañana                  │
 │   🥬 Veinte minutos de mesa sin levantarse   │
 │   🥫 Ninguna pantalla encendida — tampoco    │
 │      la tele "de fondo"                      │
@@ -151,8 +154,11 @@ Nico la mira con la cara de quien acaba de oír la cosa más rara del mundo, dec
 │  🧂 EL PUNTO                                 │
 │  No hace falta cenar a oscuras de verdad.   │
 │  Hace falta que la casa se vaya apagando a  │
-│  la vez que el día. Luz baja y cálida, y    │
-│  hacia abajo mejor que desde el techo.      │
+│  la vez que el día: luz baja, cálida, y     │
+│  mejor desde abajo que desde el techo. Una  │
+│  bombilla ámbar en la lámpara del salón     │
+│  hace más por tu noche que cualquier cosa   │
+│  que puedas comprar.                        │
 ├─────────────────────────────────────────────┤
 │  👵 EL TRUCO DE LA ABUELA                    │
 │  "Se toma a mediodía, con la ventana        │
@@ -204,3 +210,7 @@ Buen provecho.
 - "Buen provecho" — 2ª de 6.
 
 **Sobre R03:** en `00` § 4 figura como fusión de "la cena a oscuras" + "la sobremesa". Aquí se escribe ya fusionada. Su semáforo lleva **🟢 para la parte de luz y 🟡 para la sobremesa**, siguiendo la regla de `00` § 7 de calificar lo que hace el lector: el efecto de cenar con luz baja está bien documentado, el de la sobremesa no se ha medido igual y no se puede vender como si sí.
+
+⚠️ **PENDIENTE DE VALIDACIÓN CIENTÍFICA (27/jul):** las **bombillas ámbar/naranjas/rojas** se han añadido por indicación de Javier, con redacción provisional. Está encargada al `fbm-elite-agent` la validación de: si ámbar, naranja y roja son equivalentes o hay que recomendar una; si sirve el modo noche del móvil y las bombillas inteligentes regulables o hace falta bombilla dedicada; y si hay que añadir alguna advertencia al bloque de alérgenos (seguridad al cocinar con poca luz, riesgo de caídas en personas mayores). **Ajustar esta ficha cuando llegue ese informe.**
+
+⚠️ **PROBLEMA ABIERTO, señalado por Javier el 27/jul:** este capítulo —como el anterior— **no explica de dónde saca Marta lo que sabe**. Aparece sabiendo que hay que salir al sol por la mañana, que el cabecero importa, y ahora que hay bombillas ámbar. *"Parece que Marta es un mago que se va sacando cosas de la manga."* Hay dos agentes estudiando la solución (`11_FUENTE_DE_CONOCIMIENTO.md` y `12_LUZ_NOCTURNA_Y_RUTA_DESCUBRIMIENTO.md`). **Este capítulo y el Cap. 1 se reescribirán en parte cuando llegue ese plan.** Hipótesis de causa raíz: al eliminar a la "Dra. Elena" el 26/jul, el libro se quedó sin fuente de conocimiento dentro de la historia.
