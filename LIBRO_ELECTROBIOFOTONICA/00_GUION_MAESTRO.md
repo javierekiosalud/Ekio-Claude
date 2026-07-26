@@ -48,6 +48,47 @@ Veía el amanecer, pasaba la tarde junto a la lumbre, dormía a oscuras de verda
 
 ---
 
+## 1.5 EL HILO CONDUCTOR (hasta ahora no estaba escrito — se añade el 27/jul)
+
+Hasta esta revisión, el libro tenía **personajes** (§ 6) y **aperturas sueltas** de 3-5 líneas por receta, pero ningún **arco continuo** que las uniera. Sin esto, cada sesión de escritura habría inventado su propia versión de "cómo le va a Marta", y las 18 recetas habrían leído como 18 cuentos sin relación. Este es el arco fijo, en cuatro actos, que corre por debajo de toda la estructura:
+
+**ACTO 1 — El Aperitivo + La Despensa (caps. 1–6).**
+El libro abre con la escena que da origen a *El desayuno de luz* (R01): la mañana en que Marta no puede más, con la persiana bajada y tres cafés que no han hecho nada. El narrador no le presenta a nadie que se lo explique — se lo explica **directamente al lector, con Marta como espejo**. Capítulo a capítulo de la Despensa, Marta (y el lector, a la vez) va descubriendo las tres baldas. Leo se ríe del "test del router". Tomás repite su frase de cabecera: *"yo he vivido ochenta años sin esto."* El acto cierra en el capítulo-puente (Despensa 6): Marta decide intentarlo 30 días. Esa frase es la bisagra que engancha directamente con El Menú del Mes, que el lector ya conoce antes de llegar al recetario.
+
+**ACTO 2 — La Cata + LA CARTA + Entrantes y Platos fuertes (R01–R10).**
+Marta mide su casa con el kit de La Cata; el router y el cabecero dan números que la sorprenden. LA CARTA es la pausa antes de cocinar: el lector elige por dónde empezar, igual que Marta. A lo largo de R01-R10 los cambios son **discretos y no anunciados** — duerme algo mejor, tiene algo más de energía por la tarde — y Marta, con el escepticismo típico de quien ya se ha decepcionado antes con "soluciones", **no lo cuenta todavía**. Este silencio es a propósito: es lo que hace creíble el cambio cuando por fin lo reconozca en el Acto 4.
+
+**ACTO 3 — La casa y la familia (R11–R18).**
+El cambio se extiende a cada habitación. Aquí ocurren las dos escenas de mayor tensión familiar del libro: en **R16**, Nico (9 años) pide probar el panel de su hermano Leo, y Marta le dice que no — la marca aplicándose su propia cautela, delante del lector. En **R17**, Marta y Leo llegan a un pacto sobre el móvil que ninguno de los dos cumple del todo, y eso es parte de la gracia. En **R18**, Tomás prueba algo "solo por curiosidad" y no lo admite en voz alta.
+
+**ACTO 4 — La Sobremesa.**
+Cierre del arco: Marta tiene energía real y se nota en algo concreto y pequeño (no en una epifanía). Leo suelta el móvil un rato sin que nadie se lo pida. Tomás dice *"algo habrá en esto"* y todos se ríen — no es una conversión, es una rendición discreta, que es como ceden de verdad los escépticos de carne y hueso.
+
+> **Regla para quien escriba una receta nueva:** antes de escribir la apertura de 3-5 líneas, situar la receta en su acto (§ arriba) y respetar en qué punto del arco está cada personaje. Marta no puede "sorprenderse" del router en una receta del Acto 3: eso ya pasó en el Acto 1.
+
+---
+
+## 1.6 DEFINICIONES OBLIGATORIAS (glosario de apertura — hasta ahora tampoco estaba escrito)
+
+Sin esta lista, cada capítulo definiría "electrosmog" o "balda" a su manera, o daría por hecho que el lector ya lo sabe. **Regla:** ningún término de esta tabla puede usarse en el texto antes del capítulo donde queda fijado como su primera aparición. Es el primer punto que revisa el `libro-kdp-agent` en cualquier capítulo nuevo.
+
+| Término | Definición (voz del libro, una línea) | Se define por primera vez en |
+|---|---|---|
+| **Higiene electromagnética** | Cuidar la cantidad, la distancia y la hora de lo eléctrico que te rodea — como se cuida cualquier otra cosa fuerte en la cocina | **Aperitivo** (es el término del título) |
+| **CEM / electrosmog** | Los campos electromagnéticos que no existían en tu casa hace dos generaciones y ahora están en todas | **Aperitivo** |
+| **Electrobiofotónica** | El método de este libro: mirar juntos lo eléctrico y la luz. **Se declara explícitamente como término propuesto por el autor**, no como fenómeno documentado — obligatorio por auditoría legal (`02` § "Eliminar") | **Aperitivo**, en la misma página que el disclaimer |
+| **Fotobiomodulación (PBM)** | Lo que le pasa a tu célula cuando le da la luz roja o infrarroja correcta | Despensa 4, "La lumbre perdida" |
+| **Las tres baldas** | La forma en que este libro organiza todo lo eléctrico de tu casa: lo que ya tenías (1), lo que es gratis (2), lo que aportamos nosotros (3) | Despensa 2, primera aparición de la Balda 1 |
+| **El punto de sal / respuesta bifásica** | Más no es mejor: hay una cantidad justa, y pasarse no suma, resta | Despensa 5, "Ni crudo ni pasado" |
+| **Semáforo de evidencia** 🟢🟡🔴 | Cómo de segura está la ciencia de lo que acabas de leer, dicho sin adornos | **Aperitivo** (se usa desde R01) |
+| **Alérgenos** *(uso metafórico del libro)* | Las advertencias de cada receta, presentadas como la etiqueta de un restaurante — no son alérgenos alimentarios reales | LA CARTA o R01, la primera ficha |
+| **Electricidad sucia / baja frecuencia / alta frecuencia** | Los tres tipos de "ruido" eléctrico que miden los tres utensilios de la despensa | La Cata, al presentar los medidores |
+| **Reloj / ritmo circadiano** | El horario interno de tu cuerpo, que se pone en hora con la luz | Despensa 1, "Eres un ser eléctrico y luminoso" |
+
+> **Nota para el `direccion-arte-agent`:** varios de estos términos (las tres baldas, el semáforo, los alérgenos) son también **sistema visual recurrente** — conviene que su primera aparición en el texto coincida con su primera aparición ilustrada.
+
+---
+
 ## 2. LA DESPENSA — LOS INGREDIENTES
 
 El corazón conceptual del libro. Tres baldas y un cajón.
@@ -213,6 +254,7 @@ Mantenerlo sin volverse fanático. El abuelo Tomás cede. + apéndices.
 |---|---|---|
 | **Marta** | 42 años, **hija de Tomás**, agotada | Apertura de cada receta, 3–5 líneas. Es el lector |
 | **Leo** | **15 años**, hijo de Marta | Campo "Para cuántos" y R17 |
+| **Nico** | **9 años**, hijo de Marta, hermano pequeño de Leo | **R16 exclusivamente.** Es quien pide probar el panel de Leo y a quien Marta dice que no |
 | **Abuelo Tomás** | **79 años**, escéptico gruñón afectuoso, **nunca objeto de burla** | "El truco de la abuela" (cita a su madre) |
 | **Javier Andrés** *(el autor)* | Fuera de la ficción, en primera persona | **Campo 🚦 EVIDENCIA.** Una frase suya, firmada con su nombre, cierra el semáforo de cada receta |
 | **Spiro** y **Fotón** | Mascotas-concepto | Iconos de margen, sin diálogo |
@@ -221,7 +263,7 @@ Mantenerlo sin volverse fanático. El abuelo Tomás cede. + apéndices.
 >
 > **Fórmula de la frase:** primera persona, corta, sin tecnicismo, firmada *"— Javier Andrés"*. Ejemplo de la piloto: *"De todo lo que os cuento en este libro, esto es en lo que menos dudo."*
 
-> ⚠️ **Actualizado 26/jul — el corte de edad baja de 16 a 12 años.** Consecuencia: con Leo a 15, ya **no** cae bajo la postura de precaución (12+ entra en criterio del adulto responsable). La escena de "Leo pide y se le dice que no" **se traslada a R16 (la receta de los niños)**, que además es su sitio natural: R16 ya hablaba de niños pequeños, no de Leo. Ahí un niño menor de 12 pide probar el panel de su hermano mayor y Marta dice que no — misma fuerza narrativa, mejor encaje con la política real.
+> ⚠️ **Actualizado 26/jul — el corte de edad baja de 16 a 12 años.** Consecuencia: con Leo a 15, ya **no** cae bajo la postura de precaución (12+ entra en criterio del adulto responsable). La escena de "pide y se le dice que no" **se traslada a R16 (la receta de los niños)**. Ahí es **Nico (9 años)** quien pide probar el panel de su hermano Leo y Marta le dice que no — misma fuerza narrativa, mejor encaje con la política real, y además resuelve un hueco que se había quedado abierto: hasta el 27/jul no existía en el reparto ningún personaje menor de 12 años para protagonizar esa escena.
 >
 > R17 (el pacto del adolescente) queda limpio de este tema: la negociación con Leo es sobre **móvil y wifi**, no sobre paneles — de hecho es más honesto, porque a los 15 años ya no hay nada que negarle en ese terreno.
 
