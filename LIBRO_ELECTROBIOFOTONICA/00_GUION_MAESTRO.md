@@ -1,9 +1,10 @@
 # GUÍA DE HIGIENE ELECTROMAGNÉTICA
 ## El recetario de la energía perdida
 
-> **Guión maestro — v4 (26 julio 2026). ÚNICA FUENTE DE VERDAD.**
+> **Guión maestro — v5 (27 julio 2026). ÚNICA FUENTE DE VERDAD.**
+> **Pivote v5: el libro pasa de "recetario con narrativa" a NARRATIVA CONTINUA con recetas incrustadas.** Ver § 4 y § 1.5.
 > Autor: Francisco Javier Andrés (EKIO / Ekio BioTech).
-> Amazon KDP, tapa blanda a color + Kindle. **108 páginas de imprenta · 20.000–21.000 palabras.**
+> Amazon KDP, tapa blanda a color + Kindle. **≈118 páginas de imprenta (estimación de trabajo, pendiente de validar con capítulos reales — ver § 4).**
 > **Lanzamiento: 11 de noviembre de 2026 — 15º aniversario de EKIO. Precio de lanzamiento 11,11 €.**
 
 ---
@@ -15,7 +16,7 @@
 | **Título** | **Guía de Higiene Electromagnética** |
 | **Subtítulo** | **El recetario de la energía perdida** |
 | **Concepto/método** | *Electrobiofotónica* — **no va en portada**. Es el método que enseña el libro; se declara en la intro y en la contraportada |
-| **Extensión** | 108 págs de imprenta · 20.000–21.000 palabras |
+| **Extensión** | ≈118 págs de imprenta, estimación de trabajo (ver § 4) |
 | **Impresión** | **Color estándar** (no premium), 6"×9" |
 | **ISBN** | **Propio**, Agencia española ("Editado por EKIO") |
 | **KDP Select / KU** | **Fuera** — incompatible con vender el PDF en electrosmogespana.com |
@@ -32,7 +33,7 @@
 2. **No se publican protocolos.** Ver § 7, regla de las dos clases de cifra.
 3. **"Electrobiofotónica" se declara en la intro** como concepto-marco del autor.
 4. **Spiro solo como "según su fabricante, Noxtak…"**
-5. **18 recetas + LA CARTA** (doble página de apertura del recetario).
+5. **18 recetas, incrustadas en la historia a 1 página cada una** + recogidas de nuevo, más compactas, en el apéndice "Tu recetario para llevar". **LA CARTA** pasa a ser el índice de esas 18 recetas, no un bloque de recetario aparte.
 6. **Disclaimer mixto** — ver § 8.
 7. **Semáforo 🟢🟡🔴 que califica lo que hace el lector**, no la literatura en abstracto.
 
@@ -48,23 +49,24 @@ Veía el amanecer, pasaba la tarde junto a la lumbre, dormía a oscuras de verda
 
 ---
 
-## 1.5 EL HILO CONDUCTOR (hasta ahora no estaba escrito — se añade el 27/jul)
+## 1.5 EL HILO CONDUCTOR (se añade el 27/jul; actualizado el mismo día tras el pivote a narrativa continua)
 
-Hasta esta revisión, el libro tenía **personajes** (§ 6) y **aperturas sueltas** de 3-5 líneas por receta, pero ningún **arco continuo** que las uniera. Sin esto, cada sesión de escritura habría inventado su propia versión de "cómo le va a Marta", y las 18 recetas habrían leído como 18 cuentos sin relación. Este es el arco fijo, en cuatro actos, que corre por debajo de toda la estructura:
+El libro **no es un recetario con historia de fondo: es una historia que contiene recetas** (decisión de Javier, 27/jul). Todo lo que antes era "teoría de la Despensa" en capítulos aparte se cuenta ahora **dentro** de la historia, en el momento en que Marta lo descubre. Los capítulos siguen **el mes real de Marta** (§ 4): Prólogo + Semana 1-4 + Sobremesa. Este es el arco fijo — la trayectoria emocional que da sentido a esas semanas — para que ninguna sesión de escritura futura invente su propia versión de "cómo le va a Marta":
 
-**ACTO 1 — El Aperitivo + La Despensa (caps. 1–6).**
-El libro abre con la escena que da origen a *El desayuno de luz* (R01): la mañana en que Marta no puede más, con la persiana bajada y tres cafés que no han hecho nada. El narrador no le presenta a nadie que se lo explique — se lo explica **directamente al lector, con Marta como espejo**. Capítulo a capítulo de la Despensa, Marta (y el lector, a la vez) va descubriendo las tres baldas. Leo se ríe del "test del router". Tomás repite su frase de cabecera: *"yo he vivido ochenta años sin esto."* El acto cierra en el capítulo-puente (Despensa 6): Marta decide intentarlo 30 días. Esa frase es la bisagra que engancha directamente con El Menú del Mes, que el lector ya conoce antes de llegar al recetario.
+**PRÓLOGO — la mañana en que Marta no puede más.**
+El narrador no le presenta a nadie que se lo explique: se lo explica **directamente al lector, con Marta como espejo**. Cierra con la decisión: probarlo 30 días. Esa frase es la bisagra hacia la Semana 1.
 
-**ACTO 2 — La Cata + LA CARTA + Entrantes y Platos fuertes (R01–R10).**
-Marta mide su casa con el kit de La Cata; el router y el cabecero dan números que la sorprenden. LA CARTA es la pausa antes de cocinar: el lector elige por dónde empezar, igual que Marta. A lo largo de R01-R10 los cambios son **discretos y no anunciados** — duerme algo mejor, tiene algo más de energía por la tarde — y Marta, con el escepticismo típico de quien ya se ha decepcionado antes con "soluciones", **no lo cuenta todavía**. Este silencio es a propósito: es lo que hace creíble el cambio cuando por fin lo reconozca en el Acto 4.
+**SEMANA 1 (Entender y medir).** Marta (y el lector, a la vez) descubre el CEM nativo y artificial, las baldas 1 y 2, midiendo su propia casa — no en una clase, en la acción. Leo se ríe del "test del router". Tomás repite su frase de cabecera: *"yo he vivido ochenta años sin esto."*
 
-**ACTO 3 — La casa y la familia (R11–R18).**
-El cambio se extiende a cada habitación. Aquí ocurren las dos escenas de mayor tensión familiar del libro: en **R16**, Nico (9 años) pide probar el panel de su hermano Leo, y Marta le dice que no — la marca aplicándose su propia cautela, delante del lector. En **R17**, Marta y Leo llegan a un pacto sobre el móvil que ninguno de los dos cumple del todo, y eso es parte de la gracia. En **R18**, Tomás prueba algo "solo por curiosidad" y no lo admite en voz alta.
+**SEMANA 2 (El dormitorio y la luz).** Entra la balda 3 y el capítulo-puente (wifi y luz) como escena de revelación de Marta. A partir de aquí, y hasta el final de la Semana 3, los cambios en Marta son **discretos y no anunciados** — duerme algo mejor, tiene algo más de energía — y ella, con el escepticismo de quien ya se ha decepcionado antes con "soluciones", **no lo cuenta todavía**. Este silencio es a propósito: hace creíble el reconocimiento final en la Sobremesa.
 
-**ACTO 4 — La Sobremesa.**
-Cierre del arco: Marta tiene energía real y se nota en algo concreto y pequeño (no en una epifanía). Leo suelta el móvil un rato sin que nadie se lo pida. Tomás dice *"algo habrá en esto"* y todos se ríen — no es una conversión, es una rendición discreta, que es como ceden de verdad los escépticos de carne y hueso.
+**SEMANA 3 (La casa entera).** El cambio se extiende a cada habitación, sin ruido narrativo — Marta actuando, no una lección.
 
-> **Regla para quien escriba una receta nueva:** antes de escribir la apertura de 3-5 líneas, situar la receta en su acto (§ arriba) y respetar en qué punto del arco está cada personaje. Marta no puede "sorprenderse" del router en una receta del Acto 3: eso ya pasó en el Acto 1.
+**SEMANA 4 (La familia y el cuerpo).** Las dos escenas de mayor tensión: **Nico** (9 años) pide probar el panel de su hermano Leo, y Marta le dice que no — la marca aplicándose su propia cautela, delante del lector. Con **Leo**, un pacto sobre el móvil que ninguno de los dos cumple del todo, y eso es parte de la gracia. **Tomás** prueba algo "solo por curiosidad" y no lo admite en voz alta.
+
+**LA SOBREMESA — cierre.** Marta tiene energía real y se nota en algo concreto y pequeño, no en una epifanía. Leo suelta el móvil sin que nadie se lo pida. Tomás dice *"algo habrá en esto"* y todos se ríen — no es una conversión, es una rendición discreta, que es como ceden de verdad los escépticos de carne y hueso.
+
+> **Regla para quien escriba un capítulo o una receta nueva:** situar la escena en su semana (§ 4) y respetar en qué punto del arco está cada personaje. Marta no puede "sorprenderse" del router en la Semana 3: eso ya pasó en la Semana 1.
 
 ---
 
@@ -76,6 +78,10 @@ Sin esta lista, cada capítulo definiría "electrosmog" o "balda" a su manera, o
 |---|---|---|
 | **Higiene electromagnética** | Cuidar la cantidad, la distancia y la hora de lo eléctrico que te rodea — como se cuida cualquier otra cosa fuerte en la cocina | **Aperitivo** (es el término del título) |
 | **CEM / electrosmog** | Los campos electromagnéticos que no existían en tu casa hace dos generaciones y ahora están en todas | **Aperitivo** |
+| **Contaminación electromagnética nativa** | El campo magnético de la Tierra, la resonancia de Schumann, la radiación cósmica de fondo, el sol: el "ruido de fondo" con el que el cuerpo humano ha convivido siempre. 🟢 Existencia y magnitud bien medidas; 🟡 lo que el cuerpo "hace" con esa señal es más hipótesis que certeza | Despensa 1 o 2 (a fijar con la nueva estructura) |
+| **Contaminación electromagnética artificial** | Todo lo que hemos añadido en poco más de un siglo: redes eléctricas, radiofrecuencia, wifi, 5G. Es la que ha cambiado de verdad, y rápido | Despensa 1 o 2 |
+
+> ⚠️ **Aviso de honestidad, no negociable:** la idea de que "lo nativo es bueno porque es lo de siempre y lo artificial es malo porque es nuevo" es una **narrativa**, no un hecho probado. Se puede contar como marco (es intuitivo y es cierto que la velocidad del cambio es real), pero **cualquier mecanismo concreto** ("el cuerpo está sintonizado con la Schumann y lo artificial lo desincroniza") va con semáforo 🟡/🔴, igual que el resto del libro. La distinción nativo/artificial es un buen **hilo narrativo**; no puede convertirse en una afirmación fisiológica no verificada.
 | **Electrobiofotónica** | El método de este libro: mirar juntos lo eléctrico y la luz. **Se declara explícitamente como término propuesto por el autor**, no como fenómeno documentado — obligatorio por auditoría legal (`02` § "Eliminar") | **Aperitivo**, en la misma página que el disclaimer |
 | **Fotobiomodulación (PBM)** | Lo que le pasa a tu célula cuando le da la luz roja o infrarroja correcta | Despensa 4, "La lumbre perdida" |
 | **Las tres baldas** | La forma en que este libro organiza todo lo eléctrico de tu casa: lo que ya tenías (1), lo que es gratis (2), lo que aportamos nosotros (3) | Despensa 2, primera aparición de la Balda 1 |
@@ -143,108 +149,84 @@ El sol de la mañana 🟢 · la oscuridad de verdad · la distancia · la tierra
 
 ---
 
-## 4. ESTRUCTURA (108 págs)
+## 4. ESTRUCTURA — v5, 27/jul: NARRATIVA CONTINUA (no recetario)
+
+> ⚠️ **PIVOTE ESTRUCTURAL — decisión de Javier, 27/jul/2026.** El libro **no es un recetario con historia de fondo**: es **una historia que contiene recetas**, a título de resumen que el lector se lleva y consulta después. Todo lo que antes vivía en "La Despensa" como bloque teórico aparte (qué es el CEM, nativo vs artificial, las tres baldas, la lumbre perdida, el punto de sal) **se cuenta ahora dentro de la historia misma**, en el momento en que Marta lo descubre — no en capítulos de teoría separados. Los capítulos siguen **el mes real de Marta**, y "El Menú del Mes" deja de ser un apéndice: **es el esqueleto del libro entero.**
+>
+> **Formato de receta: 1 página** (no 2). Con la historia haciendo el trabajo de explicar el porqué, la ficha se comprime a lo accionable: ingredientes, el punto, el truco de la abuela, alérgenos. Cada receta aparece **dos veces**: incrustada en el capítulo donde ocurre (1 pág.), y recogida en el apéndice final "Tu recetario para llevar" (formato aún más compacto, para consulta rápida sin releer la historia).
 
 ```
-Preliminares (portadilla, créditos, índice) ...  6 págs
-EL APERITIVO .................................   6 págs
-LA DESPENSA (6 caps × 5-6 págs) ..............  34 págs
-LA CATA (medir tu casa) ......................  10 págs
-LA CARTA (doble página) ......................   2 págs
-EL RECETARIO (18 recetas × 2 págs) ...........  36 págs
-EL MENÚ DEL MES (30 días) ....................   8 págs
-LA SOBREMESA + apéndices .....................   6 págs
-                                              ≈ 108 págs
+Preliminares (portadilla, créditos, índice) ...........  6 págs
+PRÓLOGO — "El día que Marta no pudo más" .............   6 págs
+LA CARTA — menú de las 18 recetas (a modo de índice) ..   2 págs
+SEMANA 1 — Entender y medir ............................ 20 págs
+SEMANA 2 — El dormitorio y la luz ......................  22 págs
+SEMANA 3 — La casa entera ..............................  20 págs
+SEMANA 4 — La familia y el cuerpo ......................  22 págs
+LA SOBREMESA (cierre del arco) .........................   6 págs
+TU RECETARIO PARA LLEVAR (apéndice, 18 recetas compactas)  9 págs
+Resto de apéndices (FAQ, glosario, recursos, disclaimer)   5 págs
+                                                        ≈ 118 págs
 ```
 
-⚠️ **Cada receta empieza en página par**, para que ficha e ilustración se vean juntas al abrir.
+⚠️ **Aviso de honestidad:** este reparto es una estimación de trabajo, no una cuenta cerrada — se ajustará capítulo a capítulo, igual que ya ocurrió una vez con la versión-recetario (donde el cálculo real dio 108 y no 100). No fijar el precio ni la maquetación sobre esta cifra hasta tener capítulos reales escritos.
 
-### EL APERITIVO — *"Bienvenido a la cocina invisible"*
-La gran idea. Qué es la higiene electromagnética y qué NO es este libro. **Declaración del concepto electrobiofotónica.** Disclaimer completo.
+### PRÓLOGO — *"El día que Marta no pudo más"*
+La escena que da origen a todo: Marta, agotada, persiana bajada, tres cafés. Aquí se declara qué es la higiene electromagnética, **qué NO es este libro**, la **declaración del concepto electrobiofotónica** (obligatoria por auditoría legal) y el disclaimer completo. Cierra con la decisión de Marta: probarlo 30 días. Esa frase engancha directamente con la Semana 1.
 
-### LA DESPENSA — 6 capítulos de 5–6 págs
-1. **"Eres un ser eléctrico y luminoso"**
-2. **"Balda 1: lo que ya estaba en tu cocina"**
-3. **"Balda 2: lo fresco que tienes gratis"**
-4. **"La lumbre perdida"** — la luz como nutriente. Entra la balda 3
-5. **"Ni crudo ni pasado"** — el punto de sal y el semáforo de evidencia
-6. **"El wifi y la luz: las dos mitades de la misma historia"** ← **el puente.** Es el mejor activo del libro y no estaba desarrollado. Se cuenta con la única cadena 🟢 disponible: la luz azul nocturna suprime la melatonina (Brainard 2001) — es literalmente radiación electromagnética afectando a tu biología, y es la prueba de que las dos mitades del libro son una sola
+### LA CARTA — el menú, ahora como índice de consulta
+Ya no es "el recetario presentado como carta": es literalmente el **índice de las 18 recetas**, con su gancho de una línea y su página, para quien quiera saltar directo a una receta sin esperar a que aparezca en la historia. Cumple la misma función de siempre (abrir el libro donde se necesita) con un rol más honesto dentro de un libro que ahora es narrativo.
 
-### LA CATA — medir antes de cocinar
-Los tres utensilios, el **mapa de calor de tu casa** (plantilla + QR de descarga), cuándo llamar a un profesional, y el dormitorio como zona cero.
+### SEMANA 1 — Entender y medir
+*(Antes: Despensa 1-3 + La Cata, ahora contadas como historia.)* Marta descubre, en la propia acción de medir su casa con los tres utensilios, qué es el CEM, la distinción **nativa vs artificial** (§ 1.6), y las dos primeras baldas. Leo se ríe del "test del router". Tomás repite su frase de cabecera.
+- Recetas embebidas: **R01 El desayuno de luz** · **R02 El apagón de las nueve** · **R03 La cena a oscuras y la sobremesa**
 
-### LA CARTA — doble página
-El recetario presentado como la carta de un restaurante. Permite abrir el libro por donde uno lo necesita.
+### SEMANA 2 — El dormitorio y la luz
+*(Antes: Despensa 4-6, contadas mientras Marta prepara su dormitorio.)* Entra la balda 3: la lumbre perdida, la fotobiomodulación, Ekio Light. Y el capítulo-puente ("el wifi y la luz") ocurre aquí como una escena de revelación de Marta, no como capítulo teórico aparte.
+- Recetas embebidas: **R11 La mise en place del dormitorio** · **R06 El sueño de los justos** · **R04 El caldo del turno de noche** · **R05 El caldo de la energía vital** · **R07 La receta de la cabeza clara**
 
-### EL RECETARIO — 18 recetas
+### SEMANA 3 — La casa entera
+El resto de la casa, estancia a estancia, con la misma lógica narrativa: Marta actuando, no una lección.
+- Recetas embebidas: **R12 El sofrito del salón** · **R13 La cocina** · **R14 El despacho en casa** · **R15 El repaso de la despensa**
 
-> ⚠️ **Regla de reparto (añadida 26/jul, tras revisar R01):** dentro de "Entrantes", R01 lleva el peso de la **luz** y R02+R03 llevan el peso de la **contaminación electromagnética** — no hace falta que cada receta cargue con las dos mitades del libro a la vez. Si en una receta se cuela un ingrediente de la mitad que no le toca (ej. el móvil en una receta de luz), tiene que aparecer **justificado en la Elaboración**, nunca solo decorativo. La conexión real entre ambas mitades vive en el capítulo-puente de la Despensa (§ 4, cap. 6) y se puede citar en cualquier receta, pero sin forzarla.
-
-**Entrantes — recetas de diario** *(balda 2, gratis)*
-- **R01 · El desayuno de luz** — *"El primer ingrediente del día no se come"* ← **RECETA PILOTO**
-- **R02 · El apagón de las nueve**
-- **R03 · La cena a oscuras y la sobremesa** *(fusión)*
-- **R04 · El caldo del turno de noche** — *"Para quien trabaja cuando el resto duerme"* ← NUEVA
-
-**Platos fuertes — por objetivo**
-- **R05 · El caldo de la energía vital**
-- **R06 · El sueño de los justos**
-- **R07 · La receta de la cabeza clara**
-- **R08 · La crema de belleza que no viene en un bote**
-- **R09 · El guiso del que entrena** — *(antes "la receta de la fuerza")*
-- **R10 · El guiso de las cervicales de pantalla** — *"Ocho horas mirando abajo. La receta no es una lámpara: es levantarse"*
-
-**Recetas de la casa — por estancia**
-- **R11 · La mise en place del dormitorio**
-- **R12 · El sofrito del salón**
-- **R13 · La cocina: inducción, microondas y los olvidados**
-- **R14 · El despacho en casa**
-- **R15 · El repaso de la despensa** *(revisión anual)*
-
-**Recetas familiares**
-- **R16 · La receta de los niños** — la más importante y la más conservadora
-- **R17 · El pacto del adolescente** — *"Lo que Leo no quiere oír y lo que sí está dispuesto a negociar"*
-- **R18 · El puchero del abuelo escéptico**
-
-⚠️ **"El bocadillo del viajero" pasa a tarjeta de bolsillo del apéndice** (ver § 11). Es la receta más naturalmente "de tarjeta" y es lo que permite cerrar en 18.
-
-### EL MENÚ DEL MES
-**S1 la cata · S2 el dormitorio · S3 la casa · S4 la luz.** Checklist marcable + QR de descarga y recordatorios.
+### SEMANA 4 — La familia y el cuerpo
+El acto de mayor tensión emocional: Nico y el panel de Leo, el pacto con Leo, Tomás cediendo. Y el cluster de recetas de cuidado corporal, que encajan aquí por su vínculo fuerte con los paneles de luz.
+- Recetas embebidas: **R16 La receta de los niños** · **R17 El pacto del adolescente** · **R18 El puchero del abuelo escéptico** · **R08 La crema de belleza** · **R09 El guiso del que entrena** · **R10 El guiso de las cervicales de pantalla**
 
 ### LA SOBREMESA
-Mantenerlo sin volverse fanático. El abuelo Tomás cede. + apéndices.
+Cierre discreto, no epifánico (§ 1.5, Acto 4): energía real de Marta, Leo suelta el móvil sin que se lo pidan, Tomás dice *"algo habrá en esto."*
+
+### TU RECETARIO PARA LLEVAR (apéndice)
+Las 18 recetas, **compactadas aún más que su versión incrustada** (varias por página, formato tarjeta), en el mismo orden del libro. Esto es exactamente lo que Javier pidió: *"a título de resumen que la gente se pueda quedar con ello y pueda ir a consultar."* Incluye **"El bocadillo del viajero"** como tarjeta de bolsillo adicional (19ª, solo aquí — nunca se incrustó en la historia).
 
 ---
 
-## 5. FICHA DE RECETA
+## 5. FICHA DE RECETA — v5: **1 página, incrustada en la historia**
+
+> ⚠️ **Por qué 1 página y no 2 (27/jul):** en la versión-recetario, la ficha tenía que enseñar y convencer por sí sola — llevaba su propia mini-narrativa de apertura, su explicación de la ciencia, su contexto. Ahora ese trabajo lo hace **el capítulo**, que ya ha dramatizado el problema y la razón antes de que aparezca la receta. La ficha puede ser, por fin, lo que su nombre dice: una **ficha**. Sin esta rebaja, la historia se pararía cada pocas páginas a repetir lo que el lector ya acaba de leer.
+
+**Formato incrustado (dentro del capítulo, 1 página):**
 
 ```
 ┌─────────────────────────────────────────────┐
-│  EL CALDO DE LA ENERGÍA VITAL               │
-│  "Para cuando llegas a las seis de la tarde │
-│   y ya no queda nada de ti"                 │
+│  🍽 EL CALDO DE LA ENERGÍA VITAL             │
 ├─────────────────────────────────────────────┤
-│  🍽 Para cuántos ..... 🔥 Dificultad         │
-│  ⏱ Tiempo ........... 📅 A fuego lento      │
-├─────────────────────────────────────────────┤
-│  INGREDIENTES   (con icono de balda)         │
-│   🥬 10 min de sol al amanecer               │
-│   🥬 Oscuridad total en el dormitorio        │
-│   🥫 El router, apagado de noche             │
+│  INGREDIENTES  (icono de balda)   ⏱ 15 min   │
+│   🥬 10 min de sol · 🥫 router apagado       │
 │   🏺 1 Spiro Card por persona con móvil      │
 ├─────────────────────────────────────────────┤
-│  ELABORACIÓN   1. ... 2. ... 3. ...          │
-├─────────────────────────────────────────────┤
-│  🧂 EL PUNTO    (el principio, sin cifras)   │
-│  🍷 MARIDAJE                                 │
-│  👵 EL TRUCO DE LA ABUELA                    │
-│  🚦 EVIDENCIA   🟢🟡🔴 + la frase firmada     │
-│                 por Javier Andrés            │
-│  ⚠️ ALÉRGENOS   + 1 línea de disclaimer      │
+│  🧂 EL PUNTO — el principio, sin cifras      │
+│  👵 EL TRUCO DE LA ABUELA — una frase        │
+│  🚦 🟢🟡🔴 + frase firmada — Javier Andrés    │
+│  ⚠️ ALÉRGENOS + 1 línea de disclaimer        │
 └─────────────────────────────────────────────┘
 ```
 
-**Los iconos de balda (🥫 🥬 🏺) hacen visible el 80/20 de un vistazo:** el lector ve que casi todo lo que le pedimos es gratis.
+Se han retirado de la versión incrustada, por no caber en 1 página sin apretar: **"para cuántos"** y **"dificultad"** (ya los cuenta la propia escena — el lector acaba de ver a quién le pasa y cómo de fácil es), **"a fuego lento"** (se dice en prosa si hace falta, no en un campo fijo), y **"maridaje"** (function que ahora cumple el propio capítulo, al agrupar varias recetas afines).
+
+**Formato del apéndice "Tu recetario para llevar"** (aún más compacto, varias recetas por página): título, ingredientes con icono de balda, el punto en una frase, y alérgenos. Sin truco de la abuela ni firma de Javier — esos viven solo en la historia, para que quien busca el resumen técnico lo encuentre rápido y quien quiera el porqué vuelva al capítulo.
+
+**Los iconos de balda (🥫 🥬 🏺) hacen visible el 80/20 de un vistazo** en las dos versiones.
 
 ---
 
@@ -363,15 +345,16 @@ El libro es herramienta de captación. Cada QR va a una URL propia y trazable.
 
 ## 14. SIGUIENTES PASOS
 
-1. ✅ Decisiones 1–9 tomadas (26/jul).
-2. [ ] Editar `01` (degradar a doc de voz), `02` (renumerar O1–O8) y `03` (título).
-3. [ ] **Verificar el coste de impresión a color en la calculadora de KDP** antes de fijar los 11,11 € (ver nota de precio abajo).
-4. [ ] Crear el **test de sensibilidad electromagnética** y la landing `/libro`.
-5. [ ] **Escribir R01 "El desayuno de luz"** como piloto.
-6. [ ] Brief de las 7 láminas al `direccion-arte-agent`.
-7. [ ] Revisión legal externa del recetario antes de subir a KDP.
+1. ✅ Decisiones 1–9 tomadas (26/jul). ✅ Pivote a narrativa continua, hilo conductor, definiciones obligatorias, Nico (27/jul).
+2. [ ] **Adaptar R01 y R02 al nuevo formato** (1 página, incrustadas en Semana 1 en vez de fichas independientes de 2 páginas).
+3. [ ] Editar `01` (degradar a doc de voz), `02` (renumerar O1–O8) y `03` (título).
+4. [ ] **Verificar el coste de impresión a color en la calculadora de KDP** antes de fijar los 11,11 € (ver nota de precio abajo).
+5. [ ] Crear el **test de sensibilidad electromagnética** y la landing `/libro`.
+6. [ ] Escribir el **Prólogo** completo — es la pieza que faltaba y la que fija el tono de "historia con recetas", no de recetario.
+7. [ ] Brief de las 7 láminas al `direccion-arte-agent`.
+8. [ ] Revisión legal externa antes de subir a KDP.
 
-> **✅ Resuelto 26/jul: color estándar** (no premium) — reduce el coste de impresión frente a premium, pero **sigue siendo más caro que B/N**. Antes de confirmar los 11,11 € en tapa blanda, verificar en la calculadora de KDP con 108 págs a color estándar. Si sigue quedando ajustado, aplicar el mismo criterio ya previsto: **11,11 € seguro en Kindle** (sin coste de impresión) y/o **en venta directa en electrosmogespana.com**, donde controlas el margen entero.
+> **✅ Resuelto 26/jul: color estándar** (no premium) — reduce el coste de impresión frente a premium, pero **sigue siendo más caro que B/N**. Antes de confirmar los 11,11 € en tapa blanda, verificar en la calculadora de KDP con la paginación real a color estándar (§ 4, estimación ≈118 págs, pendiente de validar). Si sigue quedando ajustado, aplicar el mismo criterio ya previsto: **11,11 € seguro en Kindle** (sin coste de impresión) y/o **en venta directa en electrosmogespana.com**, donde controlas el margen entero.
 
 ---
 
