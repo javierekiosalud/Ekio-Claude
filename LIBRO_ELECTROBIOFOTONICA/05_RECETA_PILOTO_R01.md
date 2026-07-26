@@ -31,7 +31,7 @@ Tu cuerpo tiene un reloj, y ese reloj no se pone en hora solo. Necesita una señ
 
 🥬 10 minutos al aire libre, sin gafas de sol, dentro de la primera hora tras despertar
 🥬 Cielo real — nublado también vale; una pantalla, no
-🥫 El móvil, en el bolsillo, no en la mano
+🥫 El móvil, en el bolsillo — no en la mano, no en la cara
 
 ---
 
@@ -39,10 +39,11 @@ Tu cuerpo tiene un reloj, y ese reloj no se pone en hora solo. Necesita una señ
 
 **ELABORACIÓN**
 
-1. Al levantarte, antes del móvil, antes del café si puedes: sal fuera. Al balcón, al portal, al coche de camino al trabajo con la ventanilla bajada un momento.
-2. Deja las gafas de sol en el bolso. La señal que buscas entra por los ojos, y las gafas se la comen entera.
-3. Diez minutos. No hace falta mirar al sol —de hecho, no lo mires nunca directamente—; basta con estar fuera, a la luz.
-4. Si el primer día se te olvida, no pasa nada. Vuelve a intentarlo mañana. Esto no es un examen.
+1. Al levantarte, **antes del móvil**: sal fuera. Al balcón, al portal, al coche de camino al trabajo con la ventanilla bajada un momento.
+2. Deja el móvil en el bolsillo, no en la mano. No es por el wifi ni por las antenas —de eso hablamos en otra receta—; es más sencillo: si miras la pantalla, la primera luz que entra en tus ojos es la de la pantalla, no la del cielo. Y la que necesitas es la del cielo.
+3. Deja las gafas de sol en el bolso. La señal que buscas entra por los ojos, y las gafas se la comen entera.
+4. Diez minutos. No hace falta mirar al sol —de hecho, no lo mires nunca directamente—; basta con estar fuera, a la luz.
+5. Si el primer día se te olvida, no pasa nada. Vuelve a intentarlo mañana. Esto no es un examen.
 
 ---
 
@@ -82,5 +83,6 @@ Combina con *El apagón de las nueve* (R02): lo que se enciende por la mañana e
 - **Javier Andrés firma el semáforo** en primera persona, con una frase corta que reconoce el nivel de certeza sin sonar a aval clínico — cumple el matiz añadido en § 6 tras sustituir a "Dra. Elena".
 - El disclaimer corto va literal, tal como se decidió en § 8.
 - Ningún alérgeno de panel porque no hay panel en esta receta: confirma que el sistema de iconos se adapta bien a las recetas 100% balda 2.
+- **Corrección tras revisión de Javier (26/jul):** el ingrediente 🥫 "móvil en el bolsillo" estaba puesto sin explicar en la Elaboración. Se ha integrado con su razón real: no es reducción de exposición a radiofrecuencia (eso no aplica aquí y forzarlo habría sido deshonesto), sino que **la pantalla compite como fuente de luz** — si miras el móvil, la primera luz que entra en tus ojos es la de la pantalla (balda 1), no la del cielo (balda 2). Es el mismo puente balda 1/balda 2 del capítulo "El wifi y la luz", aplicado al primer minuto del día. **Regla para las 17 restantes:** cada receta lleva la mitad del libro que le toca por su bloque (ver § 4 del guión — Entrantes reparte luz/CEM entre R01-R04); si se cuela un ingrediente de la otra mitad, tiene que estar justificado en la Elaboración o hay que quitarlo.
 
 **Una duda para Javier, no bloqueante:** ¿el nombre del apartado debe decir *"El punto"* aun cuando la receta no tiene ninguna dosis que dar (como aquí)? En esta piloto lo he usado para el error más común (defecto, no exceso) en vez de para una cifra. Funciona, pero es un uso ligeramente distinto del mecanismo. Si prefieres, en recetas sin panel puede llamarse igual y simplemente no hablar de exceso/defecto sino de la actitud correcta — lo dejo así salvo que me digas lo contrario.

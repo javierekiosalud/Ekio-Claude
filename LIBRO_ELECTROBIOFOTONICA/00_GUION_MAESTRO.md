@@ -137,6 +137,8 @@ El recetario presentado como la carta de un restaurante. Permite abrir el libro 
 
 ### EL RECETARIO — 18 recetas
 
+> ⚠️ **Regla de reparto (añadida 26/jul, tras revisar R01):** dentro de "Entrantes", R01 lleva el peso de la **luz** y R02+R03 llevan el peso de la **contaminación electromagnética** — no hace falta que cada receta cargue con las dos mitades del libro a la vez. Si en una receta se cuela un ingrediente de la mitad que no le toca (ej. el móvil en una receta de luz), tiene que aparecer **justificado en la Elaboración**, nunca solo decorativo. La conexión real entre ambas mitades vive en el capítulo-puente de la Despensa (§ 4, cap. 6) y se puede citar en cualquier receta, pero sin forzarla.
+
 **Entrantes — recetas de diario** *(balda 2, gratis)*
 - **R01 · El desayuno de luz** — *"El primer ingrediente del día no se come"* ← **RECETA PILOTO**
 - **R02 · El apagón de las nueve**
