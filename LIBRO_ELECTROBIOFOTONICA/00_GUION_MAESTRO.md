@@ -195,8 +195,8 @@ Mantenerlo sin volverse fanático. El abuelo Tomás cede. + apéndices.
 │  🧂 EL PUNTO    (el principio, sin cifras)   │
 │  🍷 MARIDAJE                                 │
 │  👵 EL TRUCO DE LA ABUELA                    │
-│  🚦 EVIDENCIA   🟢🟡🔴 + la frase de la       │
-│                 Dra. Elena                   │
+│  🚦 EVIDENCIA   🟢🟡🔴 + la frase firmada     │
+│                 por Javier Andrés            │
 │  ⚠️ ALÉRGENOS   + 1 línea de disclaimer      │
 └─────────────────────────────────────────────┘
 ```
@@ -212,8 +212,12 @@ Mantenerlo sin volverse fanático. El abuelo Tomás cede. + apéndices.
 | **Marta** | 42 años, **hija de Tomás**, agotada | Apertura de cada receta, 3–5 líneas. Es el lector |
 | **Leo** | **15 años**, hijo de Marta | Campo "Para cuántos" y R17 |
 | **Abuelo Tomás** | **79 años**, escéptico gruñón afectuoso, **nunca objeto de burla** | "El truco de la abuela" (cita a su madre) |
-| **Dra. Elena** | Vecina | **Campo 🚦 EVIDENCIA.** Una frase suya firma el semáforo de cada receta |
+| **Javier Andrés** *(el autor)* | Fuera de la ficción, en primera persona | **Campo 🚦 EVIDENCIA.** Una frase suya, firmada con su nombre, cierra el semáforo de cada receta |
 | **Spiro** y **Fotón** | Mascotas-concepto | Iconos de margen, sin diálogo |
+
+> ⚠️ **Actualizado 26/jul — sustituye a "Dra. Elena".** Decisión de Javier: firmar él mismo el semáforo de evidencia gana autoridad. **Matiz obligatorio:** Javier no es médico ni científico titulado, así que su frase **no puede sonar a aval clínico** — sonaba así en boca de "la Dra. Elena" y ya no puede sonar así en la suya. Su autoridad es otra, y es real: años estudiando esto, socio científico del **AIR Institute**, fundador de EKIO. La frase se firma desde ahí — honestidad y rigor personal, no titulación — y es exactamente la voz que hace más creíble el semáforo 🔴 cuando toca decir "esto no lo sabemos".
+>
+> **Fórmula de la frase:** primera persona, corta, sin tecnicismo, firmada *"— Javier Andrés"*. Ejemplo de la piloto: *"De todo lo que os cuento en este libro, esto es en lo que menos dudo."*
 
 > ⚠️ **Actualizado 26/jul — el corte de edad baja de 16 a 12 años.** Consecuencia: con Leo a 15, ya **no** cae bajo la postura de precaución (12+ entra en criterio del adulto responsable). La escena de "Leo pide y se le dice que no" **se traslada a R16 (la receta de los niños)**, que además es su sitio natural: R16 ya hablaba de niños pequeños, no de Leo. Ahí un niño menor de 12 pide probar el panel de su hermano mayor y Marta dice que no — misma fuerza narrativa, mejor encaje con la política real.
 >

@@ -61,7 +61,7 @@ Combina con *El apagón de las nueve* (R02): lo que se enciende por la mañana e
 **🚦 EVIDENCIA**
 
 🟢 Sólida. La luz de la mañana, y en particular la que llega a través del ojo en la banda azul-cian, es la señal que ajusta el reloj circadiano central. Es de lo mejor documentado en todo este libro.
-*"De todo lo que os voy a contar, esto es en lo que menos dudo"* — Dra. Elena.
+*"De todo lo que os cuento en este libro, esto es en lo que menos dudo"* — Javier Andrés.
 
 **⚠️ ALÉRGENOS**
 
@@ -79,7 +79,7 @@ Combina con *El apagón de las nueve* (R02): lo que se enciende por la mañana e
 - La apertura de Marta dura 4 líneas, no 5 — hay margen, no hay que apurar el límite.
 - El "para cuántos" mete a Leo con una frase, sin necesitar más.
 - El "truco de la abuela" cita a la madre de Tomás, tal y como se fijó en § 3 y § 6 del guión — aquí no aparece Tomás directamente porque la receta no lo pedía, y eso está bien: no todos los mecanismos tienen que aparecer siempre.
-- La Dra. Elena firma el semáforo con una frase corta, no con un párrafo técnico — cumple lo que el guión le pedía en § 6.
+- **Javier Andrés firma el semáforo** en primera persona, con una frase corta que reconoce el nivel de certeza sin sonar a aval clínico — cumple el matiz añadido en § 6 tras sustituir a "Dra. Elena".
 - El disclaimer corto va literal, tal como se decidió en § 8.
 - Ningún alérgeno de panel porque no hay panel en esta receta: confirma que el sistema de iconos se adapta bien a las recetas 100% balda 2.
 

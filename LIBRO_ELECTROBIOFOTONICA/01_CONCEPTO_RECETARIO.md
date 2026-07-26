@@ -170,7 +170,7 @@ Cómo mantenerlo sin volverse un fanático. El abuelo Tomás cede. + Apéndices:
 ## 5. STORYTELLING DENTRO DEL RECETARIO
 
 La familia no desaparece, **se reparte**:
-- **La despensa** (teoría) → escenas narrativas de Marta, Leo, el abuelo Tomás y la Dra. Elena. Aquí vive el relato.
+- **La despensa** (teoría) → escenas narrativas de Marta, Leo y el abuelo Tomás. Aquí vive el relato.
 - **El recetario** → la familia aparece solo en el subtítulo emocional de cada receta y en algún "el truco de la abuela". 3-5 líneas máximo.
 - **La sobremesa** → cierre del arco: la casa de Marta y su energía, 30 días después.
 
@@ -346,7 +346,7 @@ Estos elementos son el hilo visual y narrativo que recorre todo el libro. No son
 
 ### Mecanismo 7 — "Para cuántos"
 **Tipo:** campo fijo en la cabecera de cada ficha de receta.
-**Función:** escala la receta a la realidad familiar. Integra a los personajes (Marta, Leo, abuelo Tomás, Dra. Elena) de forma natural sin necesitar narración extra.
+**Función:** escala la receta a la realidad familiar. Integra a los personajes (Marta, Leo, abuelo Tomás) de forma natural sin necesitar narración extra.
 **Ejemplo de uso en R01:**
 *"Para 4 personas: Marta la aplica de golpe. Leo negocia que el móvil en modo avión solo por la noche. El abuelo Tomás dice que él ya duerme bien. Luego se queda dormido en el sillón antes de las diez."*
 
@@ -398,7 +398,7 @@ La familia no desaparece en el recetario: se especializa. Cada personaje tiene u
 | **Marta** | Micro-historia de apertura de cada receta (3-5 líneas) | El lector. Tiene el problema y sigue la receta. | Reconocible, honesta, sin heroísmo |
 | **Leo** | Campo "Para cuántos" y ocasionalmente apertura | La resistencia juvenil. Negocia todo. Acaba cediendo por accidente. | Irónico, sin resultar condescendiente con los jóvenes |
 | **Abuelo Tomás** | "El truco de la abuela" + "Lo que decía mi madre" | El escéptico que sin querer da la razón al libro con sus propios recuerdos | Gruñón afectuoso, nunca objeto de burla |
-| **Dra. Elena** | "Ciencia en 60 segundos" | La validadora. Una frase suya pesa más que tres párrafos de argumento | Concisa, sin tecnicismos, sin dramatismo |
+| **Javier Andrés** *(el autor)* | Campo 🚦 EVIDENCIA | Firma el semáforo en primera persona. Una frase suya pesa más que tres párrafos — no por titulación clínica, sino porque es el autor jugándose su nombre | Concisa, honesta, sin tecnicismos, sin épica |
 | **Spiro** | Icono en márgenes de recetas con Spiro activo | Mascota-concepto: la ola que suaviza el pico | Visual, sin texto propio |
 | **Fotón** | Icono en márgenes de recetas con Ekio Light | Mascota-concepto: el destello que abre las mitocondrias | Visual, sin texto propio |
 
