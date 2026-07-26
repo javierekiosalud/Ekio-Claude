@@ -7,6 +7,8 @@
 
 ---
 
+Marta llama el lunes por la mañana, antes de arrepentirse. Da su código postal, poco más, y una voz al otro lado le explica cómo funciona: primero mide ella misma, con un kit que le mandan por mensajero; cuando quiera, alguien pasa a explicarle los números. *"Primero mide usted"*, repite la voz, como si fuera lo más normal del mundo.
+
 El kit llega el martes. Tres aparatos pequeños, del tamaño de un mando de garaje, con la pantalla gris y los botones duros. Marta los deja sobre la mesa de la cocina y lee el papel doblado que viene dentro. Uno mide la electricidad que va por las paredes. Otro, lo que sale de los cables y los enchufes. El tercero, lo que vuela por el aire: el wifi, el móvil, las antenas de la calle.
 
 No entiende la mitad de las palabras. Pero los aparatos se encienden, y eso ya es algo.
@@ -14,6 +16,10 @@ No entiende la mitad de las palabras. Pero los aparatos se encienden, y eso ya e
 Empieza por el pasillo, donde está el router. Lleva ahí desde que se mudaron —2019, calcula— y nadie lo ha tocado nunca salvo para reiniciarlo cuando va lento. Acerca el tercer medidor y la cifra sube. Lo aleja un paso y baja. Lo aleja otro y baja más.
 
 Eso sí lo entiende.
+
+> **LO QUE MARTA NO SABÍA TODAVÍA**
+> Cuanto más lejos de un aparato, menos te llega de lo que emite —y no baja poco a poco: baja deprisa. Alejarte el doble no reduce a la mitad; reduce bastante más que eso. Es la razón, aunque ella no la sepa todavía, de por qué apartar el móvil de la cara o el router del cabecero hace más que apagarlo un rato. La distancia es gratis, y es el ingrediente que más rinde de todo este libro.
+> — Javier Andrés
 
 Va al dormitorio. Pone el aparato en el cabecero, justo donde apoya la cabeza siete horas cada noche, y la cifra vuelve a subir. Menos que en el pasillo, pero sube. Marta se queda un momento mirando la pantalla, y luego mira la almohada, y luego otra vez la pantalla.
 
@@ -95,7 +101,7 @@ Y decide que eso es lo primero que va a cambiar.
 
 ```
 ┌─────────────────────────────────────────────┐
-│  EL APAGÓN DE LAS NUEVE                     │
+│  EL APAGÓN DE LAS NUEVE          · Marta ·   │
 ├─────────────────────────────────────────────┤
 │  INGREDIENTES                      ⏱ 2 min   │
 │   🥫 El router — apagado, o con             │
@@ -118,7 +124,8 @@ Y decide que eso es lo primero que va a cambiar.
 │  aparato que gasta mientras duerme no está  │
 │  descansando. No sabía nada de electricidad │
 │  sucia. Sabía desenchufar.                  │
-├─────────────────────────────────────────────┤
+╞═══════════════════════════════════════════╡
+│  · margen del autor ·                       │
 │  🚦 🟢 La luz de las pantallas por la noche  │
 │  frena la melatonina y retrasa el reloj del │
 │  cuerpo. Es de lo mejor documentado que hay │
@@ -126,7 +133,7 @@ Y decide que eso es lo primero que va a cambiar.
 │  "Esta es la receta que más le repito a mi  │
 │  equipo y la que peor cumplo yo."           │
 │                          — Javier Andrés    │
-├─────────────────────────────────────────────┤
+│                                              │
 │  ⚠️ Si tienes en casa un aparato médico que  │
 │  necesita estar conectado, ese no se toca:  │
 │  apaga lo demás.                            │
@@ -137,6 +144,15 @@ Y decide que eso es lo primero que va a cambiar.
 
 ---
 ---
+
+## NOTAS DE PROCESO (v3 — 27/jul, tras `11_FUENTE_DE_CONOCIMIENTO.md`)
+
+**Qué se añadió respecto a v2:**
+1. **La llamada de Marta abre el capítulo** — conecta con el mensaje a Berta que cierra el Prólogo (`07`). El kit ya no llega de la nada: llega porque ella llamó, dio su código postal, y le explicaron el protocolo real *"primero mide usted"*. Resuelve el D-4 del informe `11`.
+2. **Primer bloque de "Lo que Marta no sabía todavía"** — estrena el mecanismo de la capa de autor (`00` § 3.2) en el punto exacto donde Marta comprueba algo (la aguja sube/baja con la distancia) sin necesitar entender el porqué. El autor se lo explica al lector, nunca a ella.
+3. **Ficha con separador visual de las dos capas** (`00` § 5, "ficha a dos capas"): la línea doble `╞═══╡` marca dónde termina la página de Marta y empieza el margen de Javier. Resuelve el imposible de que la firma de Javier apareciera dentro del cuaderno de otra persona.
+
+**Se mantiene todo lo de v2** (el cuaderno, las tres baldas por boca de Tomás, las correcciones de tono).
 
 ## NOTAS DE PROCESO (v2)
 

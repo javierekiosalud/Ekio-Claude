@@ -12,6 +12,8 @@ En la cocina, Leo, quince años, desayuna con los auriculares puestos y el móvi
 
 No es un mal día. Es un mal año, contado en días iguales.
 
+No es que no haya hecho nada. Dejó el café de la tarde. Probó la melatonina, quince días, hasta que se cansó de despertarse igual de espesa. Fue al médico en marzo, le sacaron sangre, y todo salió bien —tiroides bien, hierro bien, todo bien—, y la doctora, con la mejor intención del mundo, le dijo que probablemente era estrés y que intentara dormir más. Marta no supo qué contestar a eso. Ella ya intentaba dormir más. Era, exactamente, lo único que llevaba un año intentando.
+
 ---
 
 Si te reconoces en esta escena, este libro es para ti. Y si no te reconoces del todo —si tú duermes bien pero es tu pareja quien no, o es tu madre, o es tu hijo adolescente al que no hay quien despegue del móvil—, también es para ti. Porque de esto trata: de la cantidad extraordinaria de cosas eléctricas que tenemos hoy alrededor, y de la cantidad, cada vez menor, de luz de verdad que dejamos entrar.
@@ -42,7 +44,17 @@ Dicho esto, y solo una vez: vamos a lo que importa.
 
 ---
 
-Marta se termina el tercer café, ya frío. Ha decidido, sin anunciárselo a nadie, que va a probar algo distinto durante treinta días. No sabe por dónde empezar —y por eso, quizás, coges tú este libro: para que alguien te diga por dónde—.
+Marta se termina el tercer café, ya frío, y coge el móvil. No para mirar nada en concreto: para buscar un número que tiene guardado desde hace meses, con el nombre mal escrito porque lo apuntó deprisa. **Berta**, dice el contacto. Su compañera de trabajo —de las que hacen turnos que cambian cada semana—, que hace dos veranos apareció un lunes distinta: descansada, dijo ella misma, por primera vez en mucho tiempo. Le contó lo del estudio: unos días con un aparato midiendo su propia casa, y después alguien que venía a explicarle qué tenía y qué no. Marta puso los ojos en blanco entonces.
+
+Ahora escribe el mensaje.
+
+*«Berta, dame el teléfono de aquello. Empiezo yo también.»*
+
+La respuesta llega antes de que termine el café: un número, y una frase que Marta lee dos veces.
+
+*«Dame un mes.»*
+
+Ha decidido, sin anunciárselo a nadie más, que va a probar algo durante treinta días. No sabe todavía qué le van a mandar, ni qué va a encontrar cuando lo use —y por eso, quizás, coges tú este libro: para que alguien te diga por dónde—.
 
 Busca algo donde apuntar. Abre el cajón de abajo, el de los manteles, y ahí está: el cuaderno de su abuela. Tapas de hule verde, una goma que ya no da de sí, las esquinas comidas. Se lo dio su padre hace años, cuando vaciaron la casa del pueblo, y ella lo guardó sin saber muy bien para qué.
 
@@ -62,6 +74,10 @@ Buen provecho.
 ---
 
 ## NOTAS DE PROCESO
+
+**v2 (27/jul) — retoque tras el informe `11_FUENTE_DE_CONOCIMIENTO.md`.** Añadidas dos cosas que faltaban y que el informe marcó como críticas:
+1. **"Ya probó lo obvio"** (café, melatonina, médico, analítica normal, "es estrés") — sin esto Marta no era creíble; ahora se ve que no ha llegado aquí por sugestión, sino por agotar lo evidente.
+2. **El origen de Berta y la llamada** — resuelve de raíz el "problema del mago": el kit que llega en el Cap. 1 ya no aparece de la nada, tiene una fuente visible (§ 1.7). De paso, **la frase de Berta ("dame un mes") es el origen real del reto de 30 días** — más fuerte que una decisión abstracta de Marta.
 
 **Recuento:** ≈ 850 palabras de texto corrido. A ~250 palabras/página, esto son **~3,5 páginas**, no las 6 estimadas en `00` § 4. Es la primera pieza narrativa larga que se escribe en v5 y confirma lo que ya se avisaba: la estimación de página es de trabajo, no cerrada. **No alargar el Prólogo de relleno para llegar a 6 páginas** — mejor un Prólogo corto y denso que uno estirado. Se ajusta el presupuesto real de `00` cuando haya más capítulos escritos para promediar.
 
