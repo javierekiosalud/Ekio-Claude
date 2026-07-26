@@ -95,6 +95,22 @@ Sin esta lista, cada capítulo definiría "electrosmog" o "balda" a su manera, o
 
 ---
 
+## 1.7 REGLA DE LA FUENTE VISIBLE ⭐ (añadida 27/jul — aprobada por Javier)
+
+> **El problema que resuelve:** Javier detectó que *"Marta parece un mago que se saca cosas de la manga"*. Causa doble: (a) al eliminar a la "Dra. Elena" el 26/jul, el libro se quedó sin fuente de conocimiento dentro de la historia; (b) el pivote a narrativa continua metió la teoría dentro de la trama sin escribir la regla que lo vigilara.
+
+**Toda información que un personaje aplica debe tener una fuente mostrada en escena ANTES de su primer uso.** Las fuentes autorizadas de Marta son exactamente tres:
+
+1. **El cuaderno y la memoria de Tomás** — *lo que se hacía*. Nunca explican el porqué.
+2. **El estudio de la casa** — el kit y su hoja de instrucciones, la visita del técnico (una sola en todo el libro), y el informe. *Lo que se mide y el porqué moderno.*
+3. **Su propia medición y su propio cuerpo** — *lo que comprueba*.
+
+Lo que no quepa en esas tres fuentes, **Marta no puede saberlo**: va a la **capa de autor** (§ 3.2), que habla al lector y nunca a los personajes.
+
+> **Regla espejo (anti-autobombo): ningún producto entra en escena ofrecido; solo buscado.** La compra ocurre fuera de escena: se muestra la decisión y la llegada, nunca la venta.
+
+---
+
 ## 2. LA DESPENSA — LOS INGREDIENTES
 
 El corazón conceptual del libro. Tres baldas y un cajón.
@@ -173,6 +189,38 @@ El sol de la mañana 🟢 · la oscuridad de verdad · la distancia · la tierra
 
 ---
 
+## 3.2 LA CAPA DE AUTOR — Javier Andrés como hilo científico ⭐ (decisión de Javier, 27/jul)
+
+> El informe `11` proponía que Javier apareciera **solo** como firma del informe. Javier decide ir más lejos: **ser el hilo científico conductor del libro.** Esta es la forma de hacerlo sin autobombo y sin recrear a la Dra. Elena — y de hecho **resuelve el problema del mago mejor que ninguna otra cosa**, porque descarga a Marta de tener que saber la ciencia.
+
+**El principio:** el libro tiene **dos voces en dos planos que nunca se tocan.**
+
+| | **La historia** | **La capa de autor** |
+|---|---|---|
+| Quién | Marta, Tomás, Leo, Nico, Berta, el técnico | **Javier Andrés**, en primera persona |
+| A quién habla | Entre ellos | **Al lector, siempre. Nunca a los personajes** |
+| Qué contiene | Lo que se hace, lo que se mide, lo que se siente | **El porqué**: la ciencia, el semáforo, las longitudes de onda, el nexo CEM↔luz, y lo que no sabemos |
+| Límite | Las 3 fuentes de § 1.7 | Sin límite: es el autor, puede saberlo todo |
+
+**Javier NUNCA entra en la ficción.** No conoce a Marta, no habla con ella, no aparece en escena, no le manda nada. Su única huella dentro del relato es **la firma al pie del informe del estudio** (decisión aprobada 27/jul).
+
+### Los tres formatos de la capa de autor
+
+**1. "Lo que Marta no sabía todavía"** — bloque recurrente dentro de los capítulos narrativos: 1 o 2 por capítulo, 100–200 palabras, tipografía claramente distinta de la narración.
+Es **el motor científico del libro**. Aquí vive todo lo que Marta aplica sin entender: por qué la luz de la mañana pone el reloj en hora, por qué el brasero hacía algo más que calentar, qué dice y qué no dice la evidencia. **Convierte el problema en el dispositivo:** en vez de que Marta parezca omnisciente, el autor le explica al lector lo que ella no podía saber.
+
+**2. El margen del autor en cada ficha** (§ 5) — el campo 🚦 con la frase firmada, las precisiones técnicas finas y el disclaimer.
+
+**3. La firma del informe** — única huella diegética, una sola vez en todo el libro.
+
+### La voz de la capa de autor
+
+Primera persona, frases cortas, cero épica. **Su mayor fuerza es reconocer lo que no se sabe:** es la voz que puede decir *"esto está muy estudiado; esto otro, mucho menos — y quien te diga lo contrario te está vendiendo algo"*. Nunca vende: si un producto aparece en esta capa, es para **acotar** lo que promete, no para ampliarlo.
+
+⚠️ **Prohibido en la capa de autor:** dirigirse a Marta, comentar la trama (*"como habrás visto, Marta…"*), y cualquier cifra de panel (rige § 7).
+
+---
+
 ## 4. ESTRUCTURA — v5, 27/jul: NARRATIVA CONTINUA (no recetario)
 
 > ⚠️ **PIVOTE ESTRUCTURAL — decisión de Javier, 27/jul/2026.** El libro **no es un recetario con historia de fondo**: es **una historia que contiene recetas**, a título de resumen que el lector se lleva y consulta después. Todo lo que antes vivía en "La Despensa" como bloque teórico aparte (qué es el CEM, nativo vs artificial, las tres baldas, la lumbre perdida, el punto de sal) **se cuenta ahora dentro de la historia misma**, en el momento en que Marta lo descubre — no en capítulos de teoría separados. Los capítulos siguen **el mes real de Marta**, y "El Menú del Mes" deja de ser un apéndice: **es el esqueleto del libro entero.**
@@ -203,7 +251,11 @@ Ya no es "el recetario presentado como carta": es literalmente el **índice de l
 
 ### SEMANA 1 — Entender y medir
 *(Antes: Despensa 1-3 + La Cata, ahora contadas como historia.)* Marta descubre, en la propia acción de medir su casa con los tres utensilios, qué es el CEM, la distinción **nativa vs artificial** (§ 1.6), y las dos primeras baldas. Leo se ríe del "test del router". Tomás repite su frase de cabecera.
-- Recetas embebidas: **R01 El desayuno de luz** · **R02 El apagón de las nueve** · **R03 La cena a oscuras y la sobremesa**
+
+**Tres capítulos** (actualizado 27/jul — el tercero es nuevo y resuelve el déficit de páginas):
+- **Cap. 1 · El test del router** (`09`) — Balda 1 + **R02**
+- **Cap. 2 · Lo que daban las gallinas** (`10`) — Balda 2 + **R01** + **R03**
+- **Cap. 3 · La visita** ⭐ NUEVO — el técnico del estudio de la casa. Confirma las mediciones de Marta, corrige un par de cosas y deja **el informe**, cuya última línea siembra la Semana 2: *"a esta casa no le sobra tanto como le falta: le falta luz."* Es la única aparición del técnico en todo el libro
 
 ### SEMANA 2 — El dormitorio y la luz
 *(Antes: Despensa 4-6, contadas mientras Marta prepara su dormitorio.)* Entra la balda 3: la lumbre perdida, la fotobiomodulación, Ekio Light. Y el capítulo-puente ("el wifi y la luz") ocurre aquí como una escena de revelación de Marta, no como capítulo teórico aparte.
@@ -252,6 +304,21 @@ Se han retirado de la versión incrustada, por no caber en 1 página sin apretar
 
 **Los iconos de balda (🥫 🥬 🏺) hacen visible el 80/20 de un vistazo** en las dos versiones.
 
+### ⭐ LA FICHA A DOS CAPAS (aprobado 27/jul — resuelve un imposible que nadie había visto)
+
+**El problema:** las fichas son "páginas del cuaderno de Marta", pero llevan al pie **la frase firmada por Javier Andrés**. Marta no puede escribir en su propio cuaderno una frase firmada por otra persona. Afectaba a las 18 fichas.
+
+**La solución — dos capas tipográficamente distintas:**
+
+| Capa | Qué contiene | Cómo se maqueta |
+|---|---|---|
+| **La página de Marta** | Título · ingredientes · el punto · el truco de la abuela | Como cuaderno: manuscrita, papel, la letra de ella. **Solo puede contener lo que Marta sabe** según § 1.7 |
+| **El margen del autor** | 🚦 semáforo + frase firmada de Javier · precisiones técnicas finas · disclaimer | Tipografía del libro, claramente **fuera** de la página del cuaderno — como quien anota al margen de un documento ajeno |
+
+Así la firma deja de estar *dentro* del cuaderno y pasa a ser lo que de verdad es: **el autor anotando al margen el cuaderno de su personaje, para el lector** (§ 3.2). Ninguna de las tres fichas ya escritas cambia de contenido: cambian de capa.
+
+⚠️ **Comunicar al `direccion-arte-agent`**: esto define el diseño de las 18 fichas y no es un detalle estético — es lo que sostiene la coherencia del libro.
+
 ---
 
 ## 6. PERSONAJES (fijados — no improvisar)
@@ -263,7 +330,9 @@ Se han retirado de la versión incrustada, por no caber en 1 página sin apretar
 | **Nico** | **9 años**, hijo de Marta, hermano pequeño de Leo | **R16 exclusivamente.** Es quien pide probar el panel de Leo y a quien Marta dice que no |
 | **Abuelo Tomás** | **79 años**, escéptico gruñón afectuoso, **nunca objeto de burla**. Vive **solo desde hace once años** en la casa del pueblo, la misma en la que se crió él y se crió Marta. Silla de enea en el patio. **Es quien le dio a Marta el cuaderno de su madre** (§ 3) | "El truco de la abuela" (cita a su madre) y las escenas del pueblo |
 | **La abuela** *(madre de Tomás, ya fallecida)* | No aparece en escena: **habla a través del cuaderno** (§ 3). Escribía a lápiz, deprisa, sin explicar nunca el porqué de las cosas — *"no explicaba las cosas: las ponía"*. Usa el margen y la letra de través para lo que no se explica | El cuaderno, en cada capítulo |
-| **Javier Andrés** *(el autor)* | Fuera de la ficción, en primera persona | **Campo 🚦 EVIDENCIA.** Una frase suya, firmada con su nombre, cierra el semáforo de cada receta |
+| **Berta** | Compañera de trabajo de Marta. **Enfermera con turnos rotatorios.** Durmió fatal durante años, se hizo el estudio de la casa y se lo contó a Marta hace semanas — Marta puso los ojos en blanco. **Es quien le da el teléfono**, y por tanto el origen del reto de 30 días | **Solo dos apariciones:** una línea en el Prólogo, y **R04 (El caldo del turno de noche), que es suya** — Marta le devuelve el favor pasándole su primera receta. **No es una sabia ni tiene arco propio:** es la puerta de entrada, no la maestra |
+| **El técnico** | Hace el estudio de la casa. **Sin nombre de pila, sin arco, sin regreso** | **Una sola escena en todo el libro:** la visita, que cierra la Semana 1. Confirma las mediciones de Marta (*"lo tenías bien medido"*), corrige un par de cosas y deja **el informe**. **Nunca pronuncia un nombre de producto** y **duda en voz alta** cuando toca — es el semáforo hecho personaje durante una escena |
+| **Javier Andrés** *(el autor)* | **Fuera de la ficción, siempre.** No conoce a Marta ni aparece en escena jamás | **La capa de autor** (§ 3.2): el bloque "Lo que Marta no sabía todavía" en los capítulos, el margen del autor en cada ficha, y **la firma al pie del informe** — su única huella diegética, una vez en todo el libro |
 | **Spiro** y **Fotón** | Mascotas-concepto | Iconos de margen, sin diálogo |
 
 > ⚠️ **Actualizado 26/jul — sustituye a "Dra. Elena".** Decisión de Javier: firmar él mismo el semáforo de evidencia gana autoridad. **Matiz obligatorio:** Javier no es médico ni científico titulado, así que su frase **no puede sonar a aval clínico** — sonaba así en boca de "la Dra. Elena" y ya no puede sonar así en la suya. Su autoridad es otra, y es real: años estudiando esto, socio científico del **AIR Institute**, fundador de EKIO. La frase se firma desde ahí — honestidad y rigor personal, no titulación — y es exactamente la voz que hace más creíble el semáforo 🔴 cuando toca decir "esto no lo sabemos".
