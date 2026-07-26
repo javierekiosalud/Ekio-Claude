@@ -7,6 +7,19 @@
 
 ---
 
+## ⛔ DOS DECISIONES CERRADAS (26/jul/2026)
+
+**1. El Bio Spectrum 11 queda FUERA del libro.** Por el UV-B a 292 nm. El libro cubre **Core, Deep 5 y Bio Regén 7**.
+
+**2. NO se publican protocolos concretos de uso de los paneles.**
+- ✅ **SÍ se menciona:** qué paneles hay, sus **longitudes de onda**, y para qué sirve cada tipo de luz **en general** (el rojo hace esto, el infrarrojo llega más hondo, la luz azul de noche te desvela).
+- ❌ **NO se publica:** dosis en J/cm², minutos por sesión, distancias en cm, frecuencias semanales, ni tablas de protocolo.
+- **Las recetas del libro son de HÁBITO Y ENTORNO**, no de dosimetría: higiene electromagnética, luz natural, sueño, rutina diaria, la casa. El panel aparece como **un ingrediente más**, no como el protagonista con posología.
+
+> **Consecuencia buena:** desaparece el bloqueo de la ficha técnica de fábrica para el libro, desaparece casi toda la exposición legal, y el libro se escribe antes. La dosimetría vive en los **manuales de producto**, que es su sitio.
+
+---
+
 ## 1. LA GRAN IDEA
 
 > **"Tu bisabuela hacía higiene electromagnética sin saberlo."**
@@ -86,7 +99,9 @@ Cada receta ocupa **2 páginas** (una de ficha, una de ilustración/pasos). Plan
 │  ELABORACIÓN                                 │
 │   1. ... 2. ... 3. ...                       │
 ├─────────────────────────────────────────────┤
-│  🧂 EL PUNTO   (dosis exacta: nm, min, cm)   │
+│  🧂 EL PUNTO   (el principio, SIN cifras:    │
+│                "poco y a menudo; más no es   │
+│                 mejor")                      │
 │  🍷 MARIDAJE   (con qué otra receta combina) │
 │  👵 EL TRUCO DE LA ABUELA  (el atajo gratis) │
 │  🚦 EVIDENCIA  🟢🟡🔴                          │
@@ -167,7 +182,8 @@ Así el libro se puede **leer de principio a fin como historia** o **abrir por c
 
 - [ ] Título/subtítulo definitivo (ver Sección 7 de este documento).
 - [ ] Validar científicamente la analogía "punto de sal" ↔ respuesta bifásica (agente FBM).
-- [ ] Dosis exactas: solo el **Core** tiene irradiancia documentada. Sin ficha técnica de Deep5/BioRegen7/BioSpectrum11 no se pueden publicar dosis en J/cm² para esos paneles.
+- [ ] Dosis exactas: solo el **Core** tiene irradiancia documentada. Sin ficha técnica de **Deep 5 y Bio Regén 7** no se pueden publicar dosis en J/cm² para esos paneles.
+- [x] **El Bio Spectrum 11 queda FUERA del libro** (decisión 26/jul, por el UV-B a 292 nm). El libro cubre Core, Deep 5 y Bio Regén 7.
 - [ ] Revisión legal del bloque "alérgenos" y del disclaimer.
 
 ---
@@ -298,8 +314,8 @@ Estos elementos son el hilo visual y narrativo que recorre todo el libro. No son
 **Tipo:** recuadro visual en cada receta con la dosis exacta.
 **Función:** convierte el concepto técnico más difícil del libro (dosimetría y respuesta bifásica en PBM) en la intuición más española que existe.
 **Frase tipo:** *"Nadie mejora un guiso echándole el doble de sal. Con la luz pasa igual."*
-**Aplicación práctica en cada receta:** nm / minutos / cm de distancia / J/cm² cuando hay ficha técnica disponible.
-**Nota legal:** solo el Core tiene irradiancia documentada. Para Deep5/BioRegen7 usar rangos orientativos hasta tener ficha de fábrica.
+**Aplicación práctica en cada receta:** ⚠️ **el principio, nunca la cifra.** "Sesiones cortas y regulares valen más que una larga", "el doble de tiempo no da el doble de resultado". **Sin nm, sin minutos, sin cm, sin J/cm².**
+**Dónde sí van las cifras:** en el **manual del producto**, no en el libro. El libro enseña a pensar; el manual dice cuánto.
 
 ### Mecanismo 3 — "A fuego lento"
 **Tipo:** icono recurrente en el texto (un puchero con llama baja) + coletilla textual.

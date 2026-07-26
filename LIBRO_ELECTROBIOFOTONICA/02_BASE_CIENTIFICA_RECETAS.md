@@ -6,6 +6,29 @@
 
 ---
 
+## 🔒 CÓMO SE USA ESTE DOCUMENTO (26/jul/2026)
+
+**Este documento es REFERENCIA INTERNA. Su contenido numérico NO se publica en el libro.**
+
+Javier ha decidido que el libro **no lleve protocolos concretos de uso de los paneles**:
+- ✅ **Al libro sí pasa:** las longitudes de onda de cada panel, para qué sirve cada tipo de luz en general, el semáforo de evidencia, la respuesta bifásica como *concepto* ("más no es mejor"), los alérgenos/contraindicaciones, y toda la auditoría legal de lenguaje.
+- ❌ **Al libro NO pasa:** ninguna tabla de dosis, minutos, distancias, J/cm², mW/cm² ni frecuencia semanal.
+
+**Dónde sí sirve todo esto:** manuales de producto, formación interna, fichas técnicas y landings. No lo tires — cambia de destino.
+
+---
+
+## ⛔ DECISIÓN EDITORIAL — 26/jul/2026
+
+**El Bio Spectrum 11 queda FUERA del libro.** Javier lo decide tras la revisión regulatoria del UV-B a 292 nm.
+
+- El libro cubre **Core, Deep 5 y Bio Regén 7**. Nada más.
+- **Ni receta, ni mención, ni recuadro de UV, ni vitamina D.**
+- Consecuencia positiva: desaparece el mayor riesgo regulatorio del proyecto editorial, y el alérgeno ☀️ deja de ser necesario.
+- ⚠️ **Ojo:** esto resuelve el libro, **no el producto**. El Bio Spectrum 11 sigue vendiéndose, y para venderlo sigue haciendo falta el IEC 62471 y el expediente técnico. Ese frente queda abierto por separado.
+
+---
+
 # 0. TRES BLOQUEANTES QUE CONDICIONAN TODO EL CAPÍTULO
 
 ## 0.1 🔴 BLOQUEANTE DE DOSIS — solo el Core tiene irradiancia documentada
@@ -15,9 +38,9 @@
 | **Core** (13 LEDs) | 660 + 850 nm | **>150 mW/cm² en contacto** (manual fabricante 6-jul) | ⚠️ Casi — ver 0.2 |
 | **Deep 5** (70 LEDs) | 630/660/**727**/810/850 | ❌ sin ficha | **NO** |
 | **Bio Regén 7** (70 LEDs) | 485/630/660/727/810/850/940 | ❌ sin ficha | **NO** |
-| **Bio Spectrum 11** (210 LEDs + 2 COB) | 292/385/405/485/630/660/**670**/727/850/935/1050 | ❌ sin ficha | **NO** |
+| ~~**Bio Spectrum 11**~~ **(FUERA DEL LIBRO)** | 292/385/405/485/630/660/670/727/850/935/1050 | ❌ sin ficha | **No aplica — no aparece en el libro** |
 
-**Consecuencia editorial:** no podemos escribir "X minutos = Y J/cm²" para Deep 5, Bio Regén 7 ni Bio Spectrum 11. Lo que sí podemos publicar:
+**Consecuencia editorial:** no podemos escribir "X minutos = Y J/cm²" para Deep 5 ni Bio Regén 7. Lo que sí podemos publicar:
 1. La **dosis diana en J/cm²** (viene de la literatura, no de nuestro producto).
 2. La **fórmula de conversión** para que el lector la aplique con la ficha de su equipo.
 3. **Rangos de tiempo orientativos** etiquetados como "según la irradiancia de tu equipo".
@@ -137,7 +160,7 @@ efecto
 | 🌡️ | **Calor / lesión aguda** | Fiebre, infección activa, inflamación aguda <48 h, quemadura solar reciente |
 | 🎨 | **Piel y pigmento** | Tatuajes (calientan), melasma y rosácea (el IR profundo 940/935 nm es calórico y puede empeorarlos), lesiones atípicas → dermatólogo |
 | 🧒 | **Menores** | Ver Receta 7. **No por defecto** |
-| ☀️ | **UV — solo Bio Spectrum 11** | 292 nm (UV-B) y 385/405 nm (UV-A): gafas obligatorias, protocolo escrito, fototipo Fitzpatrick. **En libro de consumo: mención con advertencia, nunca receta** |
+| ~~☀️~~ | ~~**UV — solo Bio Spectrum 11**~~ | **ELIMINADO del libro (26/jul):** el Bio Spectrum 11 queda fuera. Este alérgeno sigue siendo válido para el **manual y la ficha del producto**, pero ya no aparece en el libro |
 
 ---
 
@@ -154,7 +177,7 @@ efecto
 | **Tiempo** | ⚠️ Según ficha. A 40 mW/cm² → 4–8 min por cara |
 | **Frecuencia** | 3–5/semana, bloques de 4–8 semanas |
 | **Momento** | **Mañana (7:00–10:00).** Razón honesta: **no** porque el rojo sincronice el reloj (eso lo hace la luz azul-cian vía melanopsina), sino porque alinea el hábito con salir al exterior, que es la intervención circadiana potente |
-| **Panel** | **Deep 5** o **Bio Spectrum 11**. El Core **no** encaja: 13 LEDs no cubren área sistémica |
+| **Panel** | **Deep 5**. El Core **no** encaja: 13 LEDs no cubren área sistémica |
 
 **SEMÁFORO: 🟡 EMERGENTE.** De los ocho, **el objetivo con evidencia clínica más floja** — precisamente el que más se vende. 🟢 el mecanismo; **no** hay ensayos grandes en población sana con "energía" como desenlace primario.
 - Huang 2009 (mecanismo y ventana de dosis).
@@ -238,7 +261,7 @@ efecto
 | **Distancia** | 40–60 cm (deliberadamente lejos: queremos irradiancia baja) |
 | **Tiempo** | ⚠️ Según ficha. Referencia del único ensayo: **30 min** |
 | **Momento** | **60–90 min antes de acostarse**, con luz ambiente baja |
-| **Panel** | **Deep 5** o **Bio Spectrum 11**. ⚠️ **Bio Spectrum 11: NO usar UV ni azul/violeta por la noche bajo ningún concepto** |
+| **Panel** | **Deep 5** |
 
 **SEMÁFORO: 🟡 — UN solo ensayo pequeño**
 - Zhao J, Tian Y, Nie J, Xu J, Liu D. *Red light and the sleep quality and endurance performance of Chinese female basketball players.* **J Athl Train. 2012;47(6):673–678.** n=20, 658 nm cuerpo completo, 30 min/noche, 30 J/cm², 14 días → melatonina 38,8 vs 23,8 pg/mL y mejora de PSQI.
@@ -246,7 +269,7 @@ efecto
 
 **🚨 LEGAL — LA MÁS IMPORTANTE:** "insomnio" es diagnóstico. **Prohibido.** Usar: *"descanso", "calidad del sueño percibida", "rutina de noche", "conciliar mejor"*. No atribuir el efecto al panel: atribuirlo al **conjunto de hábitos** (que además es lo cierto).
 
-**ALÉRGENOS:** 👁️ 🩺 ☀️
+**ALÉRGENOS:** 👁️ 🩺
 
 ---
 
@@ -269,6 +292,7 @@ efecto
 - ⚠️ **Contexto crítico:** estos ensayos usan **láser calibrado con dosimetría medida**, no un panel LED doméstico a distancia libre. La extrapolación es razonable pero **no es equivalencia**. Decirlo.
 
 **🚫 EL 670 nm — NO CONVERTIRLO EN RECETA OCULAR**
+*(Nota 26/jul: con el Bio Spectrum 11 fuera, ningún panel del libro lleva 670 nm. El recuadro puede quedarse como divulgación pura, sin vínculo con producto — de hecho queda más limpio y más creíble.)*
 Shinhmar & Jeffery (UCL), *Optically Improved Mitochondrial Function Redeems Aged Human Visual Decline*, **J Gerontol A Biol Sci Med Sci. 2020;75(9):e49–e52**. Fascinante y 🟡 legítimo, **pero es mirada directa con dosimetría de laboratorio**.
 - ✅ Contarlo como **ciencia interesante** en recuadro de divulgación.
 - ❌ **No dar instrucciones para replicarlo en casa.** La literatura de RLRL en miopía infantil documenta descensos de densidad de conos, lesiones tipo drusa y un caso de pérdida de agudeza visual (reversible), y análisis que concluyen que algunos instrumentos comerciales **exceden los límites de seguridad fotobiológica**.
@@ -365,7 +389,7 @@ Es la que más credibilidad te va a dar: la única marca que dice "aquí no" es 
 | **Dosis diana** | **20–60 J por zona** |
 | **Distancia** | 10–20 cm |
 | **Momento** | **0–6 h post-esfuerzo**, ventana de instalación de la respuesta inflamatoria y DOMS |
-| **Panel** | **Deep 5** o **Bio Spectrum 11** |
+| **Panel** | **Deep 5** |
 
 **SEMÁFORO: 🟡 — con matiz incómodo que hay que publicar**
 - Vanin 2018 (misma meta-análisis que Receta 2). **La evidencia es más consistente PRE-ejercicio que POST.**
@@ -399,7 +423,7 @@ Es la que más credibilidad te va a dar: la única marca que dice "aquí no" es 
 | PBM mejora la cognición | "Claridad mental" + declarar que los ensayos usan láser calibrado |
 | El electrosmog daña las mitocondrias | "Existe un cuerpo creciente de estudios, mayoritariamente preclínicos, que asocia…" |
 | 670 nm mejora la visión envejecida | Recuadro divulgativo **sin instrucciones de uso** |
-| Bio Spectrum 11 y vitamina D (UV-B) | Mención con advertencia. **Recomendación: NO darle receta propia** |
+| ~~Bio Spectrum 11 y vitamina D (UV-B)~~ | ✅ **RESUELTO 26/jul: el Bio Spectrum 11 no aparece en el libro.** Ni receta, ni mención, ni UV |
 
 ## 🔴 ELIMINAR — no publicable con ISBN
 - Cualquier verbo de **curar, tratar, prevenir, revertir** aplicado a enfermedad.
@@ -408,7 +432,7 @@ Es la que más credibilidad te va a dar: la única marca que dice "aquí no" es 
 - **Biofotones, agua EZ y "electrobiofotónica"** presentados como mecanismo.
   ⚠️ **Nota delicada:** *Electrobiofotónica* es el **título del libro**. Debe funcionar como **concepto-marco declarado desde la primera página** ("un término que proponemos para nombrar la relación entre campos, biología y luz"), **no** como fenómeno físico documentado. **Si no lo declaras en la intro, todo el libro queda expuesto.**
 - Porcentajes o magnitudes de mejora atribuidos a los paneles Ekio.
-- Cualquier dosis en J/cm² para Deep 5, Bio Regén 7 o Bio Spectrum 11 hasta tener ficha.
+- Cualquier dosis en J/cm² para Deep 5 o Bio Regén 7 hasta tener ficha.
 
 ## Disclaimer obligatorio (pie de cada receta)
 > *Este libro es divulgación sobre bienestar. No sustituye consejo médico, diagnóstico ni tratamiento. Los dispositivos mencionados no son productos sanitarios y no están destinados a diagnosticar, tratar, curar ni prevenir ninguna enfermedad. Consulta a tu profesional de la salud antes de incorporar cualquier rutina, especialmente si estás embarazada, tomas medicación o tienes una condición médica.*
@@ -419,12 +443,12 @@ Es la que más credibilidad te va a dar: la única marca que dice "aquí no" es 
 
 | # | Acción | Prioridad |
 |---|---|---|
-| 1 | **Pedir a fábrica irradiancia medida (mW/cm²) a 0/5/15/30 cm** de Deep 5, Bio Regén 7 y Bio Spectrum 11. Sin esto ninguna receta lleva minutos | 🔴 Bloqueante |
+| 1 | **Pedir a fábrica irradiancia medida (mW/cm²) a 0/5/15/30 cm** de **Deep 5 y Bio Regén 7**. Sin esto ninguna receta lleva minutos. (La del Bio Spectrum 11 sigue haciendo falta **para venderlo**, pero ya no bloquea el libro) | 🔴 Bloqueante |
 | 2 | Convertir el ">150 mW/cm²" del Core en **valor medido**, y revisar el manual: en contacto la dosis útil se alcanza en 1–4 min, no en 5–30 | 🔴 Bloqueante |
 | 3 | Corregir mapeo **"cognición → Bio Spectrum"** en `Skills/references/pbm-productos.md` y landings: el 810 nm está en **Deep 5 y Bio Regén 7** | 🟠 Alta |
 | 4 | `pbm-productos.md` dice "Bio Spectrum **10**"; las specs reales son **11 longitudes** | 🟠 Alta |
 | 5 | Unificar precio Core: memoria 147 € vs landing 140 € | 🟡 Media |
-| 6 | **¿El UV-B del Bio Spectrum 11 entra en el libro?** Recomendación: mención con advertencia, **sin receta**. Un panel con UV-B real en libro de consumo sin certificado fotobiológico es el mayor riesgo regulatorio del proyecto | 🔴 Decisión de Javier |
+| 6 | ✅ **RESUELTO 26/jul — Javier saca el Bio Spectrum 11 del libro.** El libro cubre Core, Deep 5 y Bio Regén 7 | ✅ Cerrado |
 | 7 | Revisión legal externa del capítulo de recetas antes de subir a KDP | 🟠 Alta |
 
 ---

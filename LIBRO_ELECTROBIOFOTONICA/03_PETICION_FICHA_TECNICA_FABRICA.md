@@ -1,17 +1,29 @@
 # PETICIÓN DE FICHA TÉCNICA A FÁBRICA
 ## Datos necesarios para publicar dosis en el libro, las landings y los manuales
 
-> Preparado 26 julio 2026. Bloqueante para: libro *Electrobiofotónica*, landings Deep 5 / Bio Regén 7 / Bio Spectrum 11, manuales de usuario y cualquier creativo con cifras.
+> Preparado 26 julio 2026. Bloqueante para: libro *Electrobiofotónica*, landings, manuales de usuario y cualquier creativo con cifras.
 > **Regla de oro: pide datos MEDIDOS, no los teóricos del datasheet del LED.** La diferencia entre ambos suele ser de 2 a 5 veces.
+
+> ## ✅ ACTUALIZACIÓN 26/jul — ESTO YA NO BLOQUEA EL LIBRO
+>
+> Javier ha decidido que **el libro no lleve protocolos concretos** (ni dosis, ni minutos, ni distancias) y que **el Bio Spectrum 11 quede fuera**. Consecuencia: **la ficha técnica ya no bloquea la publicación del libro.**
+>
+> **Pero sigue siendo necesaria, y por razones más importantes:**
+> - **Manuales de usuario** — sin irradiancia no puedes decirle a un cliente cuánto tiempo usar el panel. Es el frente más urgente ahora: los Core ya están en casa de la gente.
+> - **Landings y creativos** con cualquier cifra de dosis o comparativa de potencia.
+> - **Marcado CE y expediente técnico** — obligación legal, y **la asumes tú** al vender bajo tu marca.
+> - **IEC 62471 del Bio Spectrum 11** — sigue vendiéndose. Sacarlo del libro **no resuelve nada de esto**. Es el frente de mayor riesgo del proyecto.
+>
+> Es decir: baja de prioridad **editorial**, sube de prioridad **de producto**.
 
 ---
 
-## POR QUÉ ESTO BLOQUEA TODO
+## POR QUÉ SIGUE SIENDO CRÍTICO
 
 Sin irradiancia medida no hay dosis (J/cm²). Sin dosis:
-- No se puede escribir "X minutos" en ninguna receta del libro para Deep 5, Bio Regén 7 ni Bio Spectrum 11.
+- **Los manuales de usuario no pueden dar tiempos de sesión correctos.** ← el problema más urgente: hay Cores vendidos cuyo temporizador llega a 30 min cuando en contacto la dosis útil se alcanza en 1–4.
 - No se puede defender ningún claim de resultado ni comparativa de potencia frente a un competidor que la exija.
-- Los manuales de usuario no pueden dar tiempos de sesión correctos.
+- No se puede completar el expediente técnico que sostiene tu marcado CE.
 
 La fórmula que lo une todo:
 ```
@@ -20,11 +32,11 @@ minutos = (J/cm² deseados × 1.000) ÷ (mW/cm² del equipo × 60)
 
 ---
 
-## PRIORIDAD 0 — SIN ESTO NO HAY LIBRO
+## PRIORIDAD 0 — SIN ESTO NO HAY MANUAL NI EXPEDIENTE TÉCNICO
 
 ### 1. Irradiancia medida (mW/cm²) por distancia
 
-Para **cada panel** (Core, Deep 5, Bio Regén 7, Bio Spectrum 11):
+Para **cada panel**. Prioridad para el libro: **Core, Deep 5 y Bio Regén 7**. Pide también la del **Bio Spectrum 11** — no la necesitas para el libro, pero sí para venderlo y para su expediente técnico:
 
 | Distancia | Centro del panel | Borde del área útil |
 |---|---|---|
@@ -69,13 +81,15 @@ Es el dato que más se falsea en el sector: un panel que consume 200 W de la red
 
 **Crítico y no negociable en el Bio Spectrum 11**, que emite UV-B real a 292 nm.
 
+⚠️ **Este punto NO decae porque el panel salga del libro.** El libro era solo una de las exposiciones; la otra —vender el aparato— sigue viva y es la grande.
+
 Pedir explícitamente:
 - Informe completo IEC 62471 (o EN 62471).
 - **Grupo de riesgo asignado** (RG0 / RG1 / RG2 / RG3) **por cada fuente**, no solo global.
 - **Tiempo máximo de exposición permitido** derivado de esa clasificación.
 - Distancia a la que se hizo la evaluación.
 
-> Sin este certificado en regla, el Bio Spectrum 11 **no debe anunciarse** y su UV-B no puede entrar en el libro.
+> Sin este certificado en regla y sin expediente técnico propio, el Bio Spectrum 11 **no debe anunciarse**. (Del libro ya está fuera por decisión editorial del 26/jul.)
 
 ---
 
