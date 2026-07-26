@@ -76,17 +76,17 @@ Sin esta lista, cada capítulo definiría "electrosmog" o "balda" a su manera, o
 
 | Término | Definición (voz del libro, una línea) | Se define por primera vez en |
 |---|---|---|
-| **Higiene electromagnética** | Cuidar la cantidad, la distancia y la hora de lo eléctrico que te rodea — como se cuida cualquier otra cosa fuerte en la cocina | **Aperitivo** (es el término del título) |
-| **CEM / electrosmog** | Los campos electromagnéticos que no existían en tu casa hace dos generaciones y ahora están en todas | **Aperitivo** |
-| **Contaminación electromagnética nativa** | El campo magnético de la Tierra, la resonancia de Schumann, la radiación cósmica de fondo, el sol: el "ruido de fondo" con el que el cuerpo humano ha convivido siempre. 🟢 Existencia y magnitud bien medidas; 🟡 lo que el cuerpo "hace" con esa señal es más hipótesis que certeza | Despensa 1 o 2 (a fijar con la nueva estructura) |
-| **Contaminación electromagnética artificial** | Todo lo que hemos añadido en poco más de un siglo: redes eléctricas, radiofrecuencia, wifi, 5G. Es la que ha cambiado de verdad, y rápido | Despensa 1 o 2 |
+| **Higiene electromagnética** | Cuidar la cantidad, la distancia y la hora de lo eléctrico que te rodea — como se cuida cualquier otra cosa fuerte en la cocina | **Prólogo** (es el término del título) |
+| **CEM / electrosmog** | Los campos electromagnéticos que no existían en tu casa hace dos generaciones y ahora están en todas | **Prólogo** |
+| **Contaminación electromagnética nativa** | El campo magnético de la Tierra, la resonancia de Schumann, la radiación cósmica de fondo, el sol: el "ruido de fondo" con el que el cuerpo humano ha convivido siempre. 🟢 Existencia y magnitud bien medidas; 🟡 lo que el cuerpo "hace" con esa señal es más hipótesis que certeza | **Prólogo** *(fijado 27/jul al escribirlo — la tesis del libro no funciona sin esta distinción desde la primera página)* |
+| **Contaminación electromagnética artificial** | Todo lo que hemos añadido en poco más de un siglo: redes eléctricas, radiofrecuencia, wifi, 5G. Es la que ha cambiado de verdad, y rápido | **Prólogo** |
 
 > ⚠️ **Aviso de honestidad, no negociable:** la idea de que "lo nativo es bueno porque es lo de siempre y lo artificial es malo porque es nuevo" es una **narrativa**, no un hecho probado. Se puede contar como marco (es intuitivo y es cierto que la velocidad del cambio es real), pero **cualquier mecanismo concreto** ("el cuerpo está sintonizado con la Schumann y lo artificial lo desincroniza") va con semáforo 🟡/🔴, igual que el resto del libro. La distinción nativo/artificial es un buen **hilo narrativo**; no puede convertirse en una afirmación fisiológica no verificada.
-| **Electrobiofotónica** | El método de este libro: mirar juntos lo eléctrico y la luz. **Se declara explícitamente como término propuesto por el autor**, no como fenómeno documentado — obligatorio por auditoría legal (`02` § "Eliminar") | **Aperitivo**, en la misma página que el disclaimer |
+| **Electrobiofotónica** | El método de este libro: mirar juntos lo eléctrico y la luz. **Se declara explícitamente como término propuesto por el autor**, no como fenómeno documentado — obligatorio por auditoría legal (`02` § "Eliminar") | **Prólogo**, en la misma página que el disclaimer |
 | **Fotobiomodulación (PBM)** | Lo que le pasa a tu célula cuando le da la luz roja o infrarroja correcta | Despensa 4, "La lumbre perdida" |
 | **Las tres baldas** | La forma en que este libro organiza todo lo eléctrico de tu casa: lo que ya tenías (1), lo que es gratis (2), lo que aportamos nosotros (3) | Despensa 2, primera aparición de la Balda 1 |
 | **El punto de sal / respuesta bifásica** | Más no es mejor: hay una cantidad justa, y pasarse no suma, resta | Despensa 5, "Ni crudo ni pasado" |
-| **Semáforo de evidencia** 🟢🟡🔴 | Cómo de segura está la ciencia de lo que acabas de leer, dicho sin adornos | **Aperitivo** (se usa desde R01) |
+| **Semáforo de evidencia** 🟢🟡🔴 | Cómo de segura está la ciencia de lo que acabas de leer, dicho sin adornos | **Prólogo** (se usa desde R01) |
 | **Alérgenos** *(uso metafórico del libro)* | Las advertencias de cada receta, presentadas como la etiqueta de un restaurante — no son alérgenos alimentarios reales | LA CARTA o R01, la primera ficha |
 | **Electricidad sucia / baja frecuencia / alta frecuencia** | Los tres tipos de "ruido" eléctrico que miden los tres utensilios de la despensa | La Cata, al presentar los medidores |
 | **Reloj / ritmo circadiano** | El horario interno de tu cuerpo, que se pone en hora con la luz | Despensa 1, "Eres un ser eléctrico y luminoso" |
