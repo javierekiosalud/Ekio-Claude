@@ -678,7 +678,7 @@ Aplicado con un matiz que dejo explícito para que Javier lo confirme o lo corri
 - **La frase que ya estaba recomendada, y que sigue siendo mi propuesta por defecto**, es la del propio técnico dentro de la ficción: *"esto se mide, es un parámetro técnico real de tu instalación, y sobre su efecto en la salud la evidencia disponible es débil — te lo digo yo, que lo mido."* Es honesta, no contradice ninguna revisión, y — según este informe — es "la frase más creíble que puede contener el libro entero".
 - **Alternativa si Javier quiere más fuerza comercial:** encuadrar el Stroom Master no por su efecto en la salud sino por lo que sí es verificable sin ambigüedad — **reduce la cifra que marca el medidor** (eso es un hecho de instrumentación, no una promesa de salud) — y dejar que el lector saque su propia conclusión, sin que el libro la saque por él.
 
-**Necesito tu confirmación explícita de cuál de las dos frases entra en el libro**, porque afecta a la Semana 1 (la visita del técnico) tal como está planificada.
+✅ **Confirmado por Javier (27/jul): opción 1, la honesta.** Entra tal cual en el Cap. 3 de la Semana 1 ("La visita"), en boca del técnico. Aplicado en `00` § 14, paso 4.
 
 # REFERENCIAS VERIFICADAS
 

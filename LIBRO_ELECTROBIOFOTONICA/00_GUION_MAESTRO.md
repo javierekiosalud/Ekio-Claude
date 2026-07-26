@@ -448,7 +448,7 @@ El libro es herramienta de captación. Cada QR va a una URL propia y trazable.
    - El bloque **"ya probó lo obvio"** (café, melatonina, médico, analítica normal) — 🔴 crítico, sin esto Marta no es creíble. Ideal en el Prólogo o al abrir este capítulo.
    - La escena **"busca sola por internet y se pierde"** (consejos sensatos + colgantes anti-5G + un divulgador diciendo que todo es estafa, en el mismo scroll).
    - **El modo noche del móvil no sirve** (dato contraintuitivo, dos estudios lo miden) y **bombilla ámbar tonta > bombilla inteligente regulable** (mete un emisor de RF permanente) — ambos con el ✅ ya aplicado en `10`, revisar que no se dupliquen.
-   - La frase honesta del técnico sobre electricidad sucia — **pendiente de qué versión exacta usar** (ver `12`, resolución del punto 8: necesita confirmación final de Javier sobre el grado de contundencia del Stroom Master).
+   - ✅ **Confirmado 27/jul — la frase honesta del técnico sobre electricidad sucia** (opción 1 de `12`): *"Esto se mide, es un parámetro técnico real de tu instalación, y sobre su efecto en la salud la evidencia disponible es débil — te lo digo yo, que lo mido."* Sin promesas de eficacia sobre el Stroom Master más allá de la cifra del medidor.
    - Última línea del informe: *"a esta casa no le sobra tanto como le falta: le falta luz."*
 5. [ ] **Escribir la Semana 2** (Balda 3: la lumbre perdida, Ekio Light, el puente wifi↔luz, primer uso del panel — sembrado fuera de escena. Recetas R11, R06, R04 —de Berta—, R05, R07).
 6. [ ] Editar `01` (degradar a doc de voz), `02` (renumerar O1–O8) y `03` (título).
