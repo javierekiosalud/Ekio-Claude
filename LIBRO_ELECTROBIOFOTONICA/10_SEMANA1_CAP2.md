@@ -3,7 +3,7 @@
 
 > Segundo y último capítulo de la Semana 1. Continúa del Cap. 1 (`09`). Aplica la **Balda 2** al mundo de Marta — la metáfora de las tres baldas ya entró completa en el Cap. 1, por boca de Tomás.
 > Cierra con **R01 El desayuno de luz** y **R03 La cena a oscuras y la sobremesa**, ambas en formato de 1 página y maquetadas como páginas del cuaderno.
-> Cierra la parte con **"Buen provecho."** (2ª de las 6 veces permitidas en todo el libro.)
+> ⚠️ **Ya NO cierra la Semana 1** (v3, 27/jul): el Cap. 3 "La visita" se añade después de este y es quien cierra la parte con "Buen provecho". Este capítulo cierra en transición, no en balance final.
 
 ---
 
@@ -192,11 +192,11 @@ Nico la mira con la cara de quien acaba de oír la cosa más rara del mundo, dec
 
 ---
 
-Al final de la primera semana, el cuaderno de la abuela tiene dos listas nuevas y tres recetas que su dueña original no llegó a escribir.
+El cuaderno de su abuela tiene ya dos listas nuevas y tres recetas que su dueña original no llegó a escribir.
 
 Marta todavía no le ha dicho a nadie que duerme mejor. Pero ha dejado de poner el despertador cinco minutos antes por si acaso.
 
-Buen provecho.
+El jueves viene alguien a explicarle los números.
 
 ---
 ---
@@ -226,7 +226,7 @@ Buen provecho.
 - Nico aparece por segunda vez, ligero, preparando su papel de la Semana 4.
 - Tomás: 79 años, viudo/solo desde hace once, casa del pueblo, silla de enea. **Datos nuevos que quedan fijados aquí** — anotar en `00` § 6 si se quiere blindar.
 - Ninguna cifra de medidor. Ningún término adelantado: la Balda 3 no se menciona ni de refilón.
-- "Buen provecho" — 2ª de 6.
+- ~~"Buen provecho" — 2ª de 6~~ **Movido al Cap. 3** (v3): con el nuevo capítulo de la visita, este ya no es el cierre de la semana. El cierre pasa a ser transicional (*"el jueves viene alguien a explicarle los números"*), y el "Buen provecho" se traslada a `13_SEMANA1_CAP3.md`.
 
 **Sobre R03:** en `00` § 4 figura como fusión de "la cena a oscuras" + "la sobremesa". Aquí se escribe ya fusionada. Su semáforo lleva **🟢 para la parte de luz y 🟡 para la sobremesa**, siguiendo la regla de `00` § 7 de calificar lo que hace el lector: el efecto de cenar con luz baja está bien documentado, el de la sobremesa no se ha medido igual y no se puede vender como si sí.
 

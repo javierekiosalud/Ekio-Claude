@@ -443,19 +443,17 @@ El libro es herramienta de captación. Cada QR va a una URL propia y trazable.
 
 1. ✅ Decisiones 1–9 tomadas (26/jul). ✅ Pivote a narrativa continua, hilo conductor, definiciones obligatorias, Nico (27/jul).
 2. ✅ **Prólogo** escrito (`07_PROLOGO.md`). ✅ **La Carta** escrita y rediseñada (`08_LA_CARTA.md`). ✅ **R02 adaptada al formato de 1 página** e incrustada en `09_SEMANA1_CAP1.md` (primer capítulo de la Semana 1, ya escrito).
-3. ✅ **Semana 1, Caps. 1 y 2 escritos** — "El test del router" (`09`, Balda 1 + R02) y "Lo que daban las gallinas" (`10`, Balda 2 + R01 + R03).
-4. [ ] **Escribir el Cap. 3 de la Semana 1 — "La visita"** (el técnico, el informe, cierra la semana y resuelve el déficit de páginas). Debe incorporar, según `12`:
-   - El bloque **"ya probó lo obvio"** (café, melatonina, médico, analítica normal) — 🔴 crítico, sin esto Marta no es creíble. Ideal en el Prólogo o al abrir este capítulo.
-   - La escena **"busca sola por internet y se pierde"** (consejos sensatos + colgantes anti-5G + un divulgador diciendo que todo es estafa, en el mismo scroll).
-   - **El modo noche del móvil no sirve** (dato contraintuitivo, dos estudios lo miden) y **bombilla ámbar tonta > bombilla inteligente regulable** (mete un emisor de RF permanente) — ambos con el ✅ ya aplicado en `10`, revisar que no se dupliquen.
-   - ✅ **Confirmado 27/jul — la frase honesta del técnico sobre electricidad sucia** (opción 1 de `12`): *"Esto se mide, es un parámetro técnico real de tu instalación, y sobre su efecto en la salud la evidencia disponible es débil — te lo digo yo, que lo mido."* Sin promesas de eficacia sobre el Stroom Master más allá de la cifra del medidor.
-   - Última línea del informe: *"a esta casa no le sobra tanto como le falta: le falta luz."*
-5. [ ] **Escribir la Semana 2** (Balda 3: la lumbre perdida, Ekio Light, el puente wifi↔luz, primer uso del panel — sembrado fuera de escena. Recetas R11, R06, R04 —de Berta—, R05, R07).
-6. [ ] Editar `01` (degradar a doc de voz), `02` (renumerar O1–O8) y `03` (título).
-7. [ ] **Verificar el coste de impresión a color en la calculadora de KDP** antes de fijar los 11,11 € (ver nota de precio abajo).
-8. [ ] Crear el **test de sensibilidad electromagnética** y la landing `/libro`.
-9. [ ] Brief de las 7 láminas al `direccion-arte-agent`.
-10. [ ] Revisión legal externa antes de subir a KDP.
+3. ✅ **SEMANA 1 COMPLETA — 3 capítulos escritos:**
+   - Cap. 1 "El test del router" (`09` v3, Balda 1 + R02 + origen de la llamada + capa de autor + ficha 2 capas)
+   - Cap. 2 "Lo que daban las gallinas" (`10` v3, Balda 2 + R01 + R03 + ciencia de luz nocturna validada)
+   - Cap. 3 "La visita" (`13`, el técnico, el informe, "busca sola y se pierde", cierra la semana con "Buen provecho")
+   - Todos los huecos del "problema del mago" (`11`, `12`) quedan resueltos: fuente visible, capa de autor, Berta, el técnico.
+4. [ ] **Escribir la Semana 2** (Balda 3: la lumbre perdida, Ekio Light, el puente wifi↔luz, primer uso del panel — sembrado fuera de escena, activado por la última línea del informe. Recetas R11, R06, R04 —de Berta—, R05, R07).
+5. [ ] Editar `01` (degradar a doc de voz), `02` (renumerar O1–O8) y `03` (título).
+6. [ ] **Verificar el coste de impresión a color en la calculadora de KDP** antes de fijar los 11,11 € (ver nota de precio abajo).
+7. [ ] Crear el **test de sensibilidad electromagnética** y la landing `/libro`.
+8. [ ] Brief de las 7 láminas al `direccion-arte-agent`.
+9. [ ] Revisión legal externa antes de subir a KDP.
 
 > **✅ Resuelto 26/jul: color estándar** (no premium) — reduce el coste de impresión frente a premium, pero **sigue siendo más caro que B/N**. Antes de confirmar los 11,11 € en tapa blanda, verificar en la calculadora de KDP con la paginación real a color estándar (§ 4, estimación ≈118 págs, pendiente de validar). Si sigue quedando ajustado, aplicar el mismo criterio ya previsto: **11,11 € seguro en Kindle** (sin coste de impresión) y/o **en venta directa en electrosmogespana.com**, donde controlas el margen entero.
 
