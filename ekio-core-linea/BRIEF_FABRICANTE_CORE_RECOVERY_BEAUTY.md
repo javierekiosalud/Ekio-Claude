@@ -1,6 +1,6 @@
 # BRIEF TÉCNICO PARA FABRICANTE
-## Ekio Light — Core Activo y Core Radiante
-### Dos variantes sobre el chasis del Core actual · v1.0 · 27-jul-2026
+## Ekio Light — Core Recovery y Core Beauty
+### Dos variantes sobre el chasis del Core actual · v1.1 · 27-jul-2026
 
 > **Uso:** documento de petición de cotización (RFQ) y especificación de diseño. Enviar al fabricante del Core actual. Todo lo marcado **[CONFIRMAR]** es una pregunta abierta que debe responder el fabricante; todo lo marcado **[REQUISITO]** es innegociable por nuestra parte.
 
@@ -13,8 +13,8 @@ Queremos fabricar **dos variantes** del dispositivo **Ekio Light Core** que ya n
 | Producto | Estado | LEDs | Arquitectura | Longitudes de onda |
 |---|---|---|---|---|
 | **Core** (actual) | En producción | 13 | Chip **dual** | 660 · 850 nm |
-| **Core Activo** | **Nuevo** | 13 | Chip **triple** | **660 · 810 · 940 nm** |
-| **Core Radiante** | **Nuevo** | 13 | Chip **triple** | **590 · 630 · 670 nm** |
+| **Core Recovery** | **Nuevo** | 13 | Chip **triple** | **660 · 810 · 940 nm** |
+| **Core Beauty** | **Nuevo** | 13 | Chip **triple** | **590 · 630 · 670 nm** |
 
 **Objetivo de negocio:** máximo aprovechamiento del utillaje existente y mínimo coste incremental. No queremos rediseñar el producto — queremos dos variantes espectrales del mismo aparato.
 
@@ -28,14 +28,15 @@ Queremos fabricar **dos variantes** del dispositivo **Ekio Light Core** que ya n
 - **Recuento de LEDs:** 13 emisores, misma disposición física en el PCB.
 - **Batería:** recargable, carga **USB-C**.
 - **Vida útil:** >20.000 h.
-- **Control por bancos:** cada longitud de onda debe poder encenderse **de forma independiente**, más un modo combinado.
 - **Modo pulsado:** continuo (CW) y **pulsado a 10 Hz**.
 - **Cero flicker visible** en modo continuo y **bajo campo electromagnético** — es el diferenciador de marca de Ekio y no es negociable.
 - **Certificaciones base:** RoHS, CE, WEEE.
 
+**[REQUISITO] Diferencia respecto al Core actual: aquí NO hay control por bancos independiente.** El Core actual sí permite encender cada longitud por separado; **Core Recovery y Core Beauty encienden sus tres bandas siempre juntas, en un único modo combinado** (ver §3.2 y §4.3). Simplifica firmware, UI y probablemente el número de controles físicos — confirmad con nosotros si esto reduce también el número de canales de driver necesarios o si preferís mantenerlos por balance de corriente entre dies.
+
 ---
 
-## 3. ESPECIFICACIÓN — CORE ACTIVO (recuperación y dolor)
+## 3. ESPECIFICACIÓN — CORE RECOVERY (recuperación y dolor)
 
 ### 3.1 Espectro
 
@@ -55,12 +56,12 @@ Queremos fabricar **dos variantes** del dispositivo **Ekio Light Core** que ya n
 ### 3.2 Requisitos funcionales específicos
 
 - **[REQUISITO] Corte térmico por hardware.** El 940 nm es absorbido por el agua y genera calor perceptible en contacto directo. El dispositivo debe limitar la temperatura de superficie por hardware, no solo por software. **[CONFIRMAR]** qué temperatura de corte proponéis y con qué sensor.
-- **[REQUISITO]** Modos seleccionables: `660 solo` · `810 solo` · `940 solo` · `combinado`.
-- **[REQUISITO]** CW y pulsado 10 Hz en todos los modos.
+- **[REQUISITO] Modo único: 660 + 810 + 940 nm encendidos siempre a la vez.** No hay selección independiente por banda — a diferencia del Core actual, este dispositivo no ofrece "660 solo" ni "810 solo" ni "940 solo" como modos de usuario.
+- **[REQUISITO]** CW y pulsado 10 Hz como únicas opciones de modo (aplican al conjunto de las tres bandas, no a bandas individuales).
 
 ---
 
-## 4. ESPECIFICACIÓN — CORE RADIANTE (piel y estética facial)
+## 4. ESPECIFICACIÓN — CORE BEAUTY (piel y estética facial)
 
 ### 4.1 Espectro
 
@@ -90,8 +91,8 @@ El AlInGaP a 590 nm opera en su zona de peor rendimiento cuántico, con **caída
 ### 4.3 Requisitos funcionales específicos
 
 - **[REQUISITO] Temporizador con autoapagado activado por defecto.** A irradiancia de contacto, la dosis objetivo se alcanza en **60-90 segundos**. Un usuario que aplique "20 minutos" (por analogía con paneles) se administraría 10-15× la dosis y entraría en rango inhibitorio. El autoapagado es **seguridad de producto**, no una función opcional. **[CONFIRMAR]** implementación propuesta y si el usuario puede desactivarlo (preferimos que **no** sea trivial hacerlo).
-- **[REQUISITO]** Modos seleccionables: `590 solo` · `630 solo` · `670 solo` · `combinado`.
-- CW obligatorio; 10 Hz opcional por continuidad de gama.
+- **[REQUISITO] Modo único: 590 + 630 + 670 nm encendidos siempre a la vez.** No hay selección independiente por banda.
+- CW obligatorio; 10 Hz opcional por continuidad de gama (aplica al conjunto, no a bandas sueltas).
 
 ---
 
@@ -142,10 +143,10 @@ Para **cada banda por separado** y para el **modo combinado**, de cada uno de lo
    - Sobrecoste del encapsulado tri-chip vs dual
    - Sobrecoste específico del die de 590 nm
    - Tercer canal de driver
-   - Corte térmico (Activo) y temporizador (Radiante)
+   - Corte térmico (Recovery) y temporizador (Beauty)
 3. **NRE / utillaje:** ¿hay coste de configuración por la variante de PCB? Asumimos que el molde del chasis está amortizado y no se toca.
 4. **MOQ** por variante.
-5. **Plazo de producción** para unidades de lanzamiento. Nuestro objetivo es **tener el Core Radiante en almacén a principios de septiembre de 2026** y el Core Activo **a finales de octubre**, para lanzarlo antes de Black Friday.
+5. **Plazo de producción** para unidades de lanzamiento. Nuestro objetivo es **tener el Core Beauty en almacén a principios de septiembre de 2026** y el Core Recovery **a finales de octubre**, para lanzarlo antes de Black Friday.
 6. **Packaging:** confirmamos que reutilizamos la caja del Core con **sleeve diferenciado** por variante. ¿Coste del sleeve?
 
 ---
@@ -155,7 +156,7 @@ Para **cada banda por separado** y para el **modo combinado**, de cada uno de lo
 **[CONFIRMAR]**
 
 1. ¿El cambio de combinación espectral sobre el mismo chasis **obliga a repetir el ensayo CE**, o es válida la base eléctrica y de compatibilidad electromagnética del Core actual?
-2. **Seguridad fotobiológica IEC 62471:** necesitamos el **grupo de riesgo** de cada variante. Sin azul, sin violeta, sin UV, y en el caso del Radiante sin infrarrojo, esperamos Grupo de Riesgo 1 o Exento — pero **necesitamos que se ensaye, no que se asuma**.
+2. **Seguridad fotobiológica IEC 62471:** necesitamos el **grupo de riesgo** de cada variante. Sin azul, sin violeta, sin UV, y en el caso del Beauty sin infrarrojo, esperamos Grupo de Riesgo 1 o Exento — pero **necesitamos que se ensaye, no que se asuma**.
 3. Ambos productos se comercializan como **dispositivos de bienestar**, no como producto sanitario. La documentación no debe contener indicaciones terapéuticas.
 
 ---
@@ -176,8 +177,9 @@ Sin respuesta a estas cinco no podemos cerrar el diseño:
 
 **Racional espectral resumido**
 
-- **Core Activo 660·810·940:** el 810 es el pico de absorción de la CcO y la mejor base clínica NIR en dolor. El 940 es la única banda con datos **nativos de LED** en cartílago (Fan 2025, 52 J/cm², superior a 810/625/1050) y además es el LED IR más barato del mercado. El 660 se mantiene pese a solapar con el Core actual porque el rojo visible es requisito de producto — un dispositivo de 299 € que parece apagado genera devoluciones — y además trabaja puntos gatillo superficiales.
-- **Core Radiante 590·630·670:** el 630 es la longitud con más ECA de estética LED que existe (Omnilux Revive; Russell 2005, Weiss 2004-05). El 670 fue una de las dos más eficaces del único comparativo cabeza a cabeza con LED (Wong-Riley 2005, *J Biol Chem*, PMID 15557336). El 590 es la única banda de toda la propuesta que **no existe en ningún producto Ekio actual** y la única con mecanismo no mitocondrial (anti-angiogénico, VEGF↓/SCF↓).
+- **Core Recovery 660·810·940:** el 810 es el pico de absorción de la CcO y la mejor base clínica NIR en dolor. El 940 es la única banda con datos **nativos de LED** en cartílago (Fan 2025, 52 J/cm², superior a 810/625/1050) y además es el LED IR más barato del mercado. El 660 se mantiene pese a solapar con el Core actual porque el rojo visible es requisito de producto — un dispositivo de 299 € que parece apagado genera devoluciones — y además trabaja puntos gatillo superficiales.
+- **Core Beauty 590·630·670:** el 630 es la longitud con más ECA de estética LED que existe (Omnilux Revive; Russell 2005, Weiss 2004-05). El 670 fue una de las dos más eficaces del único comparativo cabeza a cabeza con LED (Wong-Riley 2005, *J Biol Chem*, PMID 15557336). El 590 es la única banda de toda la propuesta que **no existe en ningún producto Ekio actual** y la única con mecanismo no mitocondrial (anti-angiogénico, VEGF↓/SCF↓).
+- **Modo único (27-jul-2026, decisión Javier):** ambos dispositivos encienden sus tres bandas siempre juntas, sin selección independiente por banda. Esto simplifica producto y firmware, pero renuncia a la flexibilidad de dosis por banda que discutió el agente científico (p. ej. aislar el 940 para dosis específica de cartílago, o el 590 solo para piel muy sensible). Es una decisión de producto de Javier, no un límite técnico.
 - **Regla de ingeniería adoptada:** ≥40 nm entre picos, o no son dos bandas distintas. Un LED no emite una longitud de onda, emite una banda de 20-45 nm de FWHM.
 
 **Regla de solape de gama**
@@ -196,4 +198,4 @@ Necesitamos **radiómetro PBM propio** para verificar los datos que nos dé el f
 
 - **Sí:** apoyo a la recuperación · confort muscular y articular · bienestar post-esfuerzo · vitalidad, firmeza y luminosidad de la piel · tono uniforme · confort en pieles reactivas.
 - **No:** trata la artrosis · cura el dolor · alivia la fibromialgia · elimina el melasma · trata el acné · antiinflamatorio · producto sanitario · cualquier indicación clínica.
-- Los nombres **"Activo"** y **"Radiante"** se eligieron precisamente para no incorporar claim médico implícito, a diferencia de "Pain".
+- Nombres finales (27-jul-2026, decisión Javier): **Core Recovery** y **Core Beauty** — sustituyen a "Activo"/"Radiante", elegidos igualmente para no incorporar claim médico implícito, a diferencia de "Pain".
