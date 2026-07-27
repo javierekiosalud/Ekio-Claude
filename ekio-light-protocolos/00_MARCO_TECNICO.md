@@ -69,7 +69,7 @@ Protegido por el **Modelo de Utilidad español Nº U202532624** (PCT en tramitac
 
 > **Sobre el 727 nm:** presente en Deep 5, Bio Regén 7 y Bio Spectrum 11. La banda far-red tiene **mecanismo plausible** (absorción CCO + efectos sobre agua intracelular, tejido adiposo y cronobiología) pero **menos ensayos clínicos dedicados** que 660/810/850. Donde el 727 sea protagonista, el protocolo se marca como **"Base Racional"**.
 
-> **Sobre el 830 nm:** ⚠️ **ninguna ficha de producto actual lista esta longitud.** Aparece en versiones anteriores de esta biblioteca y sigue citada en los módulos 01 y 03 marcada con `*`. Ver **§7 · P1** antes de usarla en contenido publicable.
+> **Sobre el 830 nm:** ✅ **resuelto 26-jul-2026 (decisión Javier) — el 830 nm no existe en ningún panel de la gama.** Era una reliquia de versiones anteriores de esta biblioteca; todas las menciones en los módulos 01 y 03 se han sustituido por **850 nm** (misma función de reparación profunda, mismo cromóforo CCO). Ver **§7 · P1**.
 
 ### Leyenda de evidencia
 - 🟢 **Sólida** — metaanálisis / múltiples ECA concordantes.
@@ -203,12 +203,11 @@ La tesis Ekio: la **contaminación electromagnética no ionizante (electrosmog)*
 
 ## 7. PREGUNTAS ABIERTAS — REQUIEREN DECISIÓN DE JAVIER
 
-> Estas seis cuestiones **no se han resuelto** en la sincronización del 24-jul-2026 porque hacerlo unilateralmente cambiaría recomendaciones clínicas o claims de producto. Los módulos 01 y 03 llevan marcadores `*` y `†` en los puntos afectados.
+> De estas seis cuestiones, **P1 se resolvió el 26-jul-2026**; las otras cinco siguen abiertas y hacerlo unilateralmente cambiaría recomendaciones clínicas o claims de producto. Los módulos 01 y 03 llevan marcadores `*` y `†` en los puntos afectados (el `*` de 830 nm ya se ha limpiado).
 
-### P1 · ¿Existe realmente el 830 nm en algún panel? `*`
-**Situación:** ninguna de las cuatro fichas actuales lista 830 nm. Versiones anteriores de este marco lo atribuían al Deep 5 y al Bio Regén 7, y los módulos lo siguen recomendando en varios protocolos: **01** §1.1 (rejuvenecimiento: "660 + 830"), §1.4 (post-procedimiento) y §1.7 (mantenimiento facial); **03** cabecera, §3.2 (dolor crónico), §3.4 (neuropatías), §3.5 (cefalea) y §3.7 (CIPN).
-**Opciones:** (a) el 830 existe y falta en las fichas → corregir las landings; (b) no existe → sustituir por **850 nm** en todos los protocolos, que es la banda contigua con la misma función de reparación profunda.
-**Impacto si no se decide:** los protocolos recomiendan una longitud que el cliente no puede encender.
+### P1 · ¿Existe realmente el 830 nm en algún panel? ✅ RESUELTO 26-jul-2026
+**Situación (histórica):** ninguna de las cuatro fichas actuales listaba 830 nm. Versiones anteriores de este marco lo atribuían al Deep 5 y al Bio Regén 7, y los módulos lo recomendaban en varios protocolos: **01** §1.1 (rejuvenecimiento: "660 + 830"), §1.4 (post-procedimiento) y §1.7 (mantenimiento facial); **03** cabecera, §3.2 (dolor crónico), §3.4 (neuropatías), §3.5 (cefalea) y §3.7 (CIPN).
+**Decisión de Javier:** el 830 nm **no existe** en ningún panel — era una reliquia de una versión anterior de la biblioteca. Todas las menciones se han sustituido por **850 nm** (misma banda funcional, mismo cromóforo CCO, diferencia de penetración <1 mm).
 
 ### P2 · El Bio Spectrum 11 no emite 810 nm `†`
 **Situación:** confirmado en su ficha — el circuito Rojo es 630/660/670/727 y el Infrarrojo 850/935/1050. No hay 810 en ningún circuito. Pero el 810 es la banda clásica del **protocolo capilar** (660 + 810, módulo 01 §1.5) y aparece en los protocolos de dolor **03** §3.1, §3.2, §3.3, §3.4, §3.5 y §3.6.
@@ -242,4 +241,4 @@ La tesis Ekio: la **contaminación electromagnética no ionizante (electrosmog)*
 - **Anexos:** tabla comparativa · onboarding 4 semanas · checklist higiene EM · hoja de ruta 30 contenidos
 
 ### Material derivado que depende de este marco
-- `Content/guia-fbm-belleza/index.html` — guía interactiva de fotobiomodulación en belleza (24-jul-2026). Construida directamente sobre las landings, ya usa 485/935/1050 y **no** menciona el 830. Si P1 o P2 se resuelven, revisarla.
+- `Content/guia-fbm-belleza/index.html` — guía interactiva de fotobiomodulación en belleza (24-jul-2026). Construida directamente sobre las landings, ya usa 485/935/1050 y no menciona el 830 — verificado 26-jul-2026 tras el cierre de P1, sin cambios necesarios. Si P2 se resuelve, revisarla.
