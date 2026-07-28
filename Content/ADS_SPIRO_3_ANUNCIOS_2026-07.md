@@ -37,7 +37,8 @@ El contraste que decide todo el brief:
 | Corte | 300€ / CPA >65€ | 400€ / CPA >120€ | 250€ / CPA >90€ |
 | Variable a testear | Oferta: 97€ vs 350€ | Landing: 255€ vs 350€ | Formulación del claim |
 | Riesgo Meta | Medio | **Bajo** | **Alto** |
-| Keyword ManyChat | `CARD` | `TEST` | `SPIRO` |
+| CTA del anuncio | Más información → PDP | Más información → PDP | Más información → PDP |
+| Keyword ManyChat (solo para construir audiencia de retargeting, no es el CTA) | `CARD` | `TEST` | `SPIRO` |
 | Semana lanzamiento | 1 | 2 | 3 |
 
 **Total: 60€/día · 1.800€/mes.**
@@ -57,7 +58,7 @@ Todos excluyen la Custom Audience de compradores Spiro desde Klaviyo. Todos en R
 | 3-8s | Corte a medidor EMF acercándose a los auriculares en funcionamiento. La pantalla ocupa el cuadro. | "Estos dispositivos emiten señal Bluetooth directamente junto a tu cabeza. Sin cables. Sin distancia. Sin filtro." | "Señal Bluetooth 2,4 GHz. Junto a tu cabeza. Horas al día." |
 | 8-15s | Texto animado sobre fondo oscuro, palabra a palabra. | "La comodidad es real. El precio también. Solo que ese precio no aparece en ningún anuncio de auriculares." | "Nos han vendido comodidad. / El precio invisible / nunca salió en el anuncio." |
 | 15-25s | Mano sosteniendo la SpiroCard entre dos dedos. Después, la card entra en la funda del móvil. | "La tecnología nanocompuesta de SPIRO organiza el campo electromagnético que emiten tus dispositivos antes de que llegue a tu cuerpo. Sin bloquear la conexión. Sin cambiar nada de lo que ya tienes." | "SPIRO® filtra el campo. / Sin cortar tu señal. / Sin cambiar nada." |
-| 25-30s | SpiroCard centrada. Logo Ekio. | "Somos EKIO. Tecnología que te cuida." | "SpiroCard \| 97€ \| Comenta CARD" |
+| 25-30s | SpiroCard centrada. Logo Ekio. | "Somos EKIO. Tecnología que te cuida." | "SpiroCard \| 97€ \| Más información" |
 
 ### 3 variantes del gancho a testear
 - **A (control):** mano sacando los auriculares + "Si usas esto todos los días…" — replica el orgánico viral.
@@ -90,7 +91,7 @@ Todos excluyen la Custom Audience de compradores Spiro desde Klaviyo. Todos en R
 5. ¿Cuántas horas al día sin filtro?
 
 ### CTA
-Botón **Más información** → `electrosmogespana.com/products/spiro-card` · Alternativa ManyChat: **Enviar mensaje** con keyword `CARD`.
+Botón **Más información** → `electrosmogespana.com/products/spiro-card`. La keyword ManyChat `CARD` no es el CTA del anuncio — se reserva para construir la Custom Audience de retargeting (ver brief de retargeting).
 
 ### Rodaje
 Javier **no** sale a cámara. Interior neutro, fondo blanco o negro mate. Atrezzo: auriculares Bluetooth blancos genéricos (no marca Apple), medidor EMF, varias SpiroCard, funda de móvil. 5 planos, ~45-60 min de rodaje.
@@ -108,7 +109,7 @@ Javier **no** sale a cámara. Interior neutro, fondo blanco o negro mate. Atrezz
 | 3-8s | Pull back lento: el medidor está junto a unos auriculares inalámbricos puestos en una cabeza/maniquí. | "Esto es lo que emiten unos auriculares inalámbricos cuando los llevas puestos. El criterio de Building Biology considera exposición extrema todo lo que supere mil microwatios por metro cuadrado en zonas de uso frecuente." | "Justo donde está tu cabeza. / Building Biology: extremo a partir de 1.000 µW/m²." |
 | 8-15s | Se retiran los inalámbricos, se ponen unos de cable. El medidor se desploma. | "Los auriculares con cable no emiten señal inalámbrica. La diferencia la ves aquí." | "Con cable: sin señal Bluetooth." |
 | 15-25s | Corte a SpiroCard. **El medidor desaparece del cuadro.** | "Si no puedes o no quieres cambiar tus auriculares, existe otro camino. SPIRO no modifica la lectura del medidor. Lo que hace es organizar la estructura del campo antes de que interactúe con tu biología." | "SPIRO® no baja este número. / Organiza el campo antes de que llegue a ti." |
-| 25-30s | SpiroCard + Pack Personal. Logo Ekio. | "Somos EKIO. Tecnología que te cuida." | "SpiroCard 97€ \| Pack Personal 350€ \| Comenta TEST" |
+| 25-30s | SpiroCard + Pack Personal. Logo Ekio. | "Somos EKIO. Tecnología que te cuida." | "SpiroCard 97€ \| Pack Personal 350€ \| Más información" |
 
 ### 3 variantes del gancho
 - **A (control):** solo el número en pantalla + "Este número." Silencio 2s.
@@ -129,7 +130,7 @@ Javier **no** sale a cámara. Interior neutro, fondo blanco o negro mate. Atrezz
 >
 > No se trata de vivir con miedo. Se trata de vivir con criterio.
 >
-> SpiroCard: 97€. Pack Personal: 350€. Comenta TEST y te enviamos la información completa.
+> SpiroCard: 97€. Pack Personal: 350€. Toca el enlace y descúbrelo con calma.
 >
 > Somos EKIO. Tecnología que te cuida.
 
@@ -141,7 +142,7 @@ Javier **no** sale a cámara. Interior neutro, fondo blanco o negro mate. Atrezz
 5. Building Biology lo llama extremo.
 
 ### CTA
-Frío: **Más información** → `electrosmogespana.com/products/pack-personal` · Retargeting: **Comprar** → misma URL · ManyChat: keyword `TEST`.
+Frío: **Más información** → `electrosmogespana.com/products/pack-personal` · Retargeting: **Comprar** → misma URL. La keyword ManyChat `TEST` no es el CTA del anuncio — se reserva para construir la Custom Audience de retargeting.
 
 ### Rodaje
 Voz en off de Javier **imprescindible** (da autoridad al número); su cara no hace falta. Atrezzo: medidor EMF con pantalla digital grande y legible, auriculares inalámbricos, auriculares de cable, maniquí de cabeza (o la oreja de Javier), SpiroCard + Pack Personal.
@@ -161,7 +162,7 @@ Voz en off de Javier **imprescindible** (da autoridad al número); su cara no ha
 | 3-8s | Texto sobre fondo oscuro, sin ruido visual. | "Hay estudios peer-reviewed que han observado efectos de las radiofrecuencias sobre parámetros de la calidad espermática. Movilidad. Viabilidad. Daño oxidativo en el ADN. No es alarmismo. Está publicado." | "Hay estudios que han observado efectos de la radiofrecuencia sobre la movilidad espermática, la viabilidad y el daño oxidativo del ADN espermático." |
 | 8-15s | Infografía simple (postproducción): icono de móvil, líneas de campo, silueta. **Sin órganos ni imagen médica.** | "El móvil en el bolsillo delantero emite señal de radiofrecuencia de forma continua cuando está conectado. El tejido está a pocos centímetros. Durante horas. Todos los días." | "El móvil en el bolsillo emite RF durante horas al día. El tejido está a centímetros." |
 | 15-25s | Mano sacando la SpiroCard del bolsillo, mostrándola, y metiéndola junto al móvil. El móvil sigue en el bolsillo. | "La SpiroCard va en el mismo bolsillo que tu móvil. Ocupa el espacio de una tarjeta de crédito. Organiza el campo electromagnético antes de que interactúe con tu biología. Sin apps. Sin cables. Una vez, para siempre." | "SPIRO® va en tu bolsillo. / Filtra el campo antes de que llegue a ti. / Sin cambiar nada." |
-| 25-30s | SpiroCard + SpiroCard X. Logo Ekio. | "Somos EKIO. Tecnología que te cuida." | "SpiroCard 97€ \| SpiroCard X 167€ \| Comenta SPIRO" |
+| 25-30s | SpiroCard + SpiroCard X. Logo Ekio. | "Somos EKIO. Tecnología que te cuida." | "SpiroCard 97€ \| SpiroCard X 167€ \| Más información" |
 
 ### 3 variantes del gancho
 - **A (control):** gesto del bolsillo + "¿Cuántas horas al día haces esto?"
@@ -182,7 +183,7 @@ Voz en off de Javier **imprescindible** (da autoridad al número); su cara no ha
 >
 > No se trata de vivir con miedo. Se trata de vivir con criterio.
 >
-> SpiroCard: 97€. SpiroCard X: 167€. Comenta SPIRO.
+> SpiroCard: 97€. SpiroCard X: 167€. Toca el enlace para ver toda la información.
 >
 > Somos EKIO. Tecnología que te cuida.
 
@@ -194,7 +195,7 @@ Voz en off de Javier **imprescindible** (da autoridad al número); su cara no ha
 5. Con criterio. No con miedo.
 
 ### CTA
-Frío: **Más información** → `electrosmogespana.com/products/spiro-card` · Retargeting: **Comprar** → `/products/spirocard-x` · ManyChat: keyword `SPIRO`.
+Frío: **Más información** → `electrosmogespana.com/products/spiro-card` · Retargeting: **Comprar** → `/products/spirocard-x`. La keyword ManyChat `SPIRO` no es el CTA del anuncio — se reserva para construir la Custom Audience de retargeting.
 
 ### Rodaje
 Javier **no** sale a cámara; voz en off recomendada. Atrezzo: móvil negro (contrasta con el vaquero), vaquero oscuro con bolsillo delantero, SpiroCard y SpiroCard X. La infografía del tramo 8-15s se produce en post (CapCut/AE): fondo negro, líneas blancas, tres elementos. Nada gráfico ni clínico.
@@ -205,6 +206,9 @@ Javier **no** sale a cámara; voz en off recomendada. Atrezzo: móvil negro (con
 
 ### La regla del medidor (aplica a los 3)
 **Nunca mostrar el medidor junto a la SpiroCard ni sugerir que la lectura baja con el producto.** Spiro filtra el campo, no reduce la lectura del medidor — y esa es la objeción nº1 real de clientes. En AD B la línea "SPIRO no baja este número" **se queda en el vídeo** aunque en producción alguien la considere demasiado honesta: es exactamente el diferenciador de credibilidad.
+
+### La regla del CTA (aplica a los 3)
+**El CTA de un anuncio de pago es clic → PDP → compra, nunca "Comenta [palabra]".** El mecanismo comentario→DM de ManyChat es la mecánica de captación **orgánica** (post sin pago, el algoritmo premia el comentario). Con presupuesto detrás, el evento que la campaña necesita ver para optimizar es el clic y la compra en la web, no un comentario. Los tres anuncios usan botón **Más información** → PDP correspondiente. Las keywords `CARD`/`TEST`/`SPIRO` siguen existiendo y siguen siendo útiles — pero como señal para construir la Custom Audience de retargeting (ver `ADS_SPIRO_RETARGETING_2026-07.md`), no como instrucción dentro del propio anuncio.
 
 ### Vocabulario
 | Nunca | Siempre |

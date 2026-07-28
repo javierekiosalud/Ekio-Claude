@@ -15,9 +15,9 @@
 |---|---|---|---|
 | TOF de origen | "El precio invisible" (auriculares) | "La medición" (número del medidor) | "El bolsillo" (fertilidad masculina) |
 | Objeción que resuelve | "¿Esto es pseudociencia? ¿97€ por una tarjeta?" | "Si el medidor sigue marcando lo mismo, ¿qué hace el producto?" | Fricción social: vergüenza al comprar, necesita hablarlo con la pareja |
-| Mecanismo central | Nombrar la duda antes de que el espectador la formule | Hacer la pregunta técnica que el espectador ya tiene y responderla con honestidad radical | Convertir el anuncio en conversación privada, CTA de DM no de compra |
-| Formato principal | Vídeo 9:16, 18-20s | Vídeo 9:16, 18-22s + carrusel 5 slides | Vídeo 9:16, 18-20s + estática de texto |
-| CTA | Comprar · CARD | Comprar · TEST | Enviar mensaje · SPIRO |
+| Mecanismo central | Nombrar la duda antes de que el espectador la formule | Hacer la pregunta técnica que el espectador ya tiene y responderla con honestidad radical | Convertir el anuncio en conversación privada, CTA de "Más información" (menor compromiso), no de compra directa |
+| Formato principal | Vídeo 9:16, 18-20s | Vídeo 9:16, 18-22s + carrusel 5 slides | Vídeo 9:16, 18-20s + estática |
+| CTA | Comprar → PDP SpiroCard | Comprar → PDP Pack Personal | Más información → PDP SpiroCard X |
 | Producto | SpiroCard 97€ | Pack Personal 350€ | SpiroCard X 167€ |
 | Stack de confianza | Garantía 30 días + 3 cuotas sin intereses, en VO y pantalla · puntos EKIO en pantalla | Igual que RT-A + cuota mensual explícita (116,67€/mes a 3 cuotas) | Garantía en VO; cuotas solo en pantalla; puntos EKIO solo en la versión estática |
 
@@ -35,7 +35,7 @@ La persona vio los auriculares, entendió el problema, y no compró porque se fu
 | 0-3s | Fondo negro. Texto apareciendo palabra a palabra. Sin voz. | (silencio) | "¿97€ por una tarjeta? / Tiene todo el sentido / que te lo preguntes." |
 | 3-9s | Javier de frente a cámara. Plano busto. Mirada directa. Interior limpio. | "Esto no es un sticker. La tecnología nanocompuesta de SPIRO interactúa con la estructura del campo electromagnético antes de que llegue a tu cuerpo. No lo bloquea. No corta la señal. Organiza cómo llega." | "Nanocompuesto certificado. / No un sticker." |
 | 9-15s | Captura de conversación de WhatsApp o reseña verificable (anonimizada o con permiso del cliente). | "Más de [X] clientes en España llevan una encima. Los que más escépticos eran al comprar son los que más repiten." | "[Testimonial real. Nombre + ciudad.]" |
-| 15-20s | SpiroCard centrada entre dos dedos. Logo Ekio. | "Si te vas a quedar con la duda, que no sea por no haberlo leído. 30 días para decidir sin riesgo. Y si quieres, la pagas en 3 sin intereses." | "SpiroCard · 97€ · 30 días de garantía · 3 cuotas sin intereses · Puntos EKIO en tu compra · Comenta CARD" |
+| 15-20s | SpiroCard centrada entre dos dedos. Logo Ekio. | "Si te vas a quedar con la duda, que no sea por no haberlo leído. 30 días para decidir sin riesgo. Y si quieres, la pagas en 3 sin intereses." | "SpiroCard · 97€ · 30 días de garantía · 3 cuotas sin intereses · Puntos EKIO en tu compra · Comprar ahora" |
 
 ### 3 variantes del gancho (0-3s)
 
@@ -63,7 +63,7 @@ Formato: carrusel de 2 slides o imagen estática. Válido para Stories y feed.
 
 ### Copy corto
 
-La duda más honesta que nos hacen: ¿una tarjeta realmente filtra algo? Nuestra respuesta, también honesta: no es un sticker. Es tecnología nanocompuesta. Tienes 30 días para comprobarlo, la pagas en 3 sin intereses si quieres, y suma puntos EKIO. Comenta CARD.
+La duda más honesta que nos hacen: ¿una tarjeta realmente filtra algo? Nuestra respuesta, también honesta: no es un sticker. Es tecnología nanocompuesta. Tienes 30 días para comprobarlo, la pagas en 3 sin intereses si quieres, y suma puntos EKIO. Toca el enlace y consíguela.
 
 ### Copy largo
 
@@ -83,7 +83,7 @@ No se trata de que confíes en nosotros. Se trata de que tengas tiempo suficient
 
 Y si el precio es lo que te frena: la pagas en 3 cuotas sin intereses, o hasta en 12 si lo prefieres. Además, con cada compra acumulas puntos EKIO para la siguiente.
 
-Comenta CARD y te enviamos toda la información del producto.
+Haz clic y consigue la tuya. Envío incluido.
 
 Somos EKIO. Tecnología que te cuida.
 
@@ -100,7 +100,6 @@ Somos EKIO. Tecnología que te cuida.
 
 **Botón:** "Comprar" — en retargeting ya hay intención. No diluir con "Más información".
 **URL:** `electrosmogespana.com/products/spiro-card`
-**ManyChat:** "Enviar mensaje" + keyword `CARD`
 
 ### Indicaciones de rodaje
 
@@ -129,7 +128,7 @@ En el TOF-B ya se dijo expresamente que SPIRO no baja el número del medidor. La
 | 0-3s | Texto solo. Fondo negro. Aparece despacio. | (silencio) | "Viste el número. / Viste que SPIRO no lo baja. / Y ahora tienes una pregunta." |
 | 3-10s | Javier en plano busto. Cámara fija. Sin movimiento. | "Los medidores EMF miden la intensidad del campo. Ese número es real. Y SPIRO, efectivamente, no lo modifica. Lo dijimos en el vídeo porque es verdad y porque aquí no mentimos sobre lo que el producto hace y lo que no hace." | "El medidor mide intensidad. / SPIRO no actúa sobre la intensidad." |
 | 10-17s | Javier continúa. Sin corte. | "Lo que SPIRO sí hace es actuar sobre la estructura del campo: cómo esas ondas interactúan con tu biología. Es la diferencia entre agua limpia y agua con cloro. El volumen es el mismo. Lo que cambia es lo que hace dentro de ti. No hay medidor estándar que mida eso. Y ese es el límite honesto de la tecnología, no una excusa." | "Misma intensidad. / Distinta interacción con tu biología." |
-| 17-22s | Pack Personal centrado. Logo Ekio. Sin medidor en cuadro. | "30 días de garantía. Lo pagas en 3 sin intereses, desde 116,67€/mes, o hasta en 12 cuotas. Somos EKIO. Tecnología que te cuida." | "Pack Personal 350€ · SpiroCard 97€ · 30 días de garantía · 3 cuotas sin intereses · Comenta TEST" |
+| 17-22s | Pack Personal centrado. Logo Ekio. Sin medidor en cuadro. | "30 días de garantía. Lo pagas en 3 sin intereses, desde 116,67€/mes, o hasta en 12 cuotas. Somos EKIO. Tecnología que te cuida." | "Pack Personal 350€ · SpiroCard 97€ · 30 días de garantía · 3 cuotas sin intereses · Comprar ahora" |
 
 **Regla de producción crítica para RT-B:** el medidor NO aparece en ningún plano de este anuncio. Solo en el TOF. En el retargeting la explicación es verbal y analógica, nunca visual con el medidor.
 
@@ -170,7 +169,7 @@ Subtítulo: "La intensidad del campo no es lo único que importa para tu cuerpo.
 Fondo negro.
 "No tenemos un medidor que te muestre lo que hace SPIRO. Ese es el límite honesto de la tecnología actual."
 "Lo que sí tenemos son 30 días de garantía para que lo compruebes tú."
-"Pack Personal 350€ · 3 cuotas sin intereses o hasta 12 · Puntos EKIO en tu compra · Comenta TEST"
+"Pack Personal 350€ · 3 cuotas sin intereses o hasta 12 · Puntos EKIO en tu compra · Comprar ahora"
 Logo Ekio.
 
 ### Copy corto
@@ -197,7 +196,7 @@ El límite honesto de la tecnología es que no hay un medidor de bolsillo que te
 
 Y si el ticket es lo que te frena: lo pagas en 3 cuotas sin intereses (116,67€/mes) o lo fraccionas hasta en 12. Con cada compra, además, acumulas puntos EKIO.
 
-Pack Personal: 350€. Comenta TEST.
+Pack Personal: 350€. Haz clic para verlo con calma.
 
 Somos EKIO. Tecnología que te cuida.
 
@@ -214,7 +213,6 @@ Somos EKIO. Tecnología que te cuida.
 
 **Botón:** "Comprar" — la intención ya existe. La única fricción era la objeción técnica. Una vez respondida, el CTA directo cierra mejor que "Más información".
 **URL:** `electrosmogespana.com/products/pack-personal`
-**ManyChat:** keyword `TEST`
 
 ### Indicaciones de rodaje
 
@@ -235,7 +233,7 @@ Este anuncio se juega en la voz y la mirada de Javier. No necesita atrezzo. Plan
 ## RT-C — "Una cosa más"
 
 ### El mecanismo central
-La persona vio el vídeo del móvil en el bolsillo. Entendió los estudios. No compró porque la objeción no es de producto: es de fricción social. Un anuncio sobre fertilidad masculina genera vergüenza al hacer clic o comprar con alguien mirando, o requiere "hablarlo con la pareja" antes de decidir. El retargeting convierte el anuncio en una conversación casi privada, elimina la presión de compra inmediata y propone un CTA de muy bajo compromiso: escribir un DM. La venta ocurre en el flujo de ManyChat, no en el anuncio.
+La persona vio el vídeo del móvil en el bolsillo. Entendió los estudios. No compró porque la objeción no es de producto: es de fricción social. Un anuncio sobre fertilidad masculina genera vergüenza al hacer clic o comprar con alguien mirando, o requiere "hablarlo con la pareja" antes de decidir. El retargeting convierte el anuncio en una conversación casi privada y propone el CTA de menor compromiso posible **dentro de los CTA válidos de una campaña de conversión**: "Más información", no "Comprar". Un clic que lleva a leer con calma en la PDP, no a un checkout inmediato ni a un formulario. La decisión de compra ocurre después, a su ritmo, en la propia página — no en un intercambio de mensajes.
 
 **Nota sobre el stack de confianza en este anuncio:** los tres elementos (garantía, puntos, fraccionamiento) se incluyen, pero con jerarquía distinta a RT-A y RT-B. La garantía de 30 días se dice en voz de Javier porque reduce el riesgo de "hablarlo con la pareja" (es reversible). El fraccionamiento aparece solo como texto de cierre, en voz baja. Los puntos EKIO **no se mencionan en el vídeo** — encajan mal en una conversación que se presenta como privada y sin intención de venta; aparecen solo en la versión estática de mensaje, como una línea más entre otras, nunca como gancho.
 
@@ -246,7 +244,7 @@ La persona vio el vídeo del móvil en el bolsillo. Entendió los estudios. No c
 | 0-3s | Plano de Javier. Fondo oscuro. Luz suave. Sin música. | "Si viste el vídeo del móvil en el bolsillo y no compraste... no me extraña." | "Si lo viste y no compraste." |
 | 3-9s | Javier. Sin corte. Tono más bajo que en el TOF. | "Nadie quiere hacer clic en este tipo de contenido con otras personas alrededor. No hace falta. Puedes escribirme directamente. Aquí. En privado." | "No tienes que decidirlo en público." |
 | 9-16s | Javier levanta la SpiroCard. La sostiene con naturalidad, sin exhibirla. | "La SpiroCard va en el mismo bolsillo que el móvil. No se ve. No cambia nada de lo que haces. Y si decides probarla, tienes 30 días para devolvérmela si no la ves necesaria." | "En tu bolsillo. Sin que cambie nada." |
-| 16-20s | SpiroCard. Logo Ekio. Sin ritmo de cierre publicitario. | "Escribe SPIRO y hablamos. Si te animas, se paga en 3 sin intereses." | "Escribe SPIRO · Sin compromiso · 30 días de garantía · 3 cuotas sin intereses" |
+| 16-20s | SpiroCard. Logo Ekio. Sin ritmo de cierre publicitario. | "Tienes toda la información en el enlace. Léela cuando quieras, sin que nadie tenga que verlo. Y si te animas, se paga en 3 sin intereses." | "Más información · Sin compromiso · 30 días de garantía · 3 cuotas sin intereses" |
 
 ### 3 variantes del gancho (0-3s)
 
@@ -254,9 +252,9 @@ La persona vio el vídeo del móvil en el bolsillo. Entendió los estudios. No c
 - **Gancho B (Solo texto, fondo negro, sin voz):** "Algo que no te dije / en el otro vídeo." Silencio 3s. Activa la curiosidad sin ningún elemento visual que identifique el contenido como publicidad.
 - **Gancho C (La pregunta que nombra la fricción):** Javier en cámara: "¿Le has dicho a alguien que lo viste?" Sin respuesta. Pausa. La pregunta hace visible exactamente la objeción que tiene el espectador, y al nombrarla la disuelve.
 
-### Formato alternativo: Estática de texto (como mensaje personal)
+### Formato alternativo: Estática de texto (como nota personal, con botón de enlace)
 
-Fondo blanco. Fuente negra, tamaño de mensajería, sin diseño editorial. Sin imagen de producto. El objetivo es que no parezca un anuncio.
+Fondo blanco. Fuente negra, tamaño de mensajería, sin diseño editorial. Sin imagen de producto. El objetivo es que no parezca un anuncio — pero el clic va a la PDP, no abre una conversación.
 
 ---
 
@@ -264,15 +262,15 @@ Hola.
 
 Si llegaste aquí es porque viste el vídeo del móvil en el bolsillo.
 
-Y probablemente no lo compraste. No porque no quisieras. Sino porque este tipo de cosa... no siempre se compra con alguien mirando la pantalla.
+Y probablemente no lo compraste. No porque no quisieras. Sino porque este tipo de cosa... no siempre se decide con alguien mirando la pantalla.
 
-Escríbeme SPIRO. Te respondo directamente.
-
-Sin formularios. Sin emails automáticos.
+Te dejo toda la información en el enlace, para que la leas cuando quieras y decidas con calma. Nadie más tiene que saberlo.
 
 Por si te lo preguntas: 30 días para probarla, se puede pagar en 3 veces sin intereses (o hasta en 12), y suma puntos EKIO como cualquier pedido.
 
 — Javier, EKIO
+
+[Botón: Más información]
 
 ---
 
@@ -280,7 +278,7 @@ Logo pequeño en esquina inferior derecha. Sin imagen de producto.
 
 ### Copy corto
 
-Viste el vídeo. No compraste. No hace falta explicar por qué. Escribe SPIRO y hablamos. (30 días de garantía, pago en 3 sin intereses si lo necesitas.)
+Viste el vídeo. No compraste. No hace falta explicar por qué. Toda la información está en el enlace, para que la leas cuando quieras. (30 días de garantía, pago en 3 sin intereses si lo necesitas.)
 
 ### Copy largo
 
@@ -294,7 +292,7 @@ Todo eso tiene sentido.
 
 Lo que los estudios han observado sobre la exposición a radiofrecuencias y los parámetros de calidad espermática no desaparece porque no hagas clic. Tampoco es urgente. Es información. Tú decides qué hacer con ella.
 
-Si quieres hablar sin que sea un proceso de compra, escríbeme SPIRO directamente. Te respondo yo. Sin formulario previo. Sin que tengas que dar ningún dato antes de recibir algo a cambio.
+Toda la información está en el enlace de abajo. La lees tú, cuando quieras, sin tener que hablarlo con nadie antes ni rellenar ningún formulario para acceder a ella.
 
 Si en algún momento quieres la SpiroCard, tienes 30 días de garantía para probarla. Si no la ves necesaria, la devuelves. Se puede pagar en 3 cuotas sin intereses o fraccionarla hasta en 12, y suma puntos EKIO como cualquier compra.
 
@@ -306,16 +304,15 @@ Somos EKIO. Tecnología que te cuida.
 
 1. Si lo viste y no compraste, bien.
 2. No hace falta decidirlo en público.
-3. Escríbeme. Sin que nadie lo vea.
+3. Léelo tú. Sin que nadie lo vea.
 4. En tu bolsillo. Sin que cambie nada.
 5. Va donde va el móvil. Nada más.
 6. 30 días de garantía. Sin preguntas.
 
 ### CTA button y URL
 
-**Botón:** "Enviar mensaje" — este es el único de los 3 retargetings donde el CTA de menor compromiso es la decisión correcta. La venta ocurre en ManyChat, no en el anuncio.
-**URL alternativa si Meta no permite "Enviar mensaje" como CTA de retargeting:** `electrosmogespana.com/products/spirocard-x` con botón "Más información". Nunca "Comprar" en RT-C.
-**ManyChat:** keyword `SPIRO`
+**Botón:** "Más información" — es el CTA de menor compromiso dentro de los que tienen sentido en una campaña de conversión (objetivo Purchase). Nunca "Comprar" en RT-C: forzar el botón de compra directa sobre este público reintroduce la presión social que el anuncio existe para evitar.
+**URL:** `electrosmogespana.com/products/spirocard-x`
 
 ### Indicaciones de rodaje
 
@@ -346,6 +343,8 @@ Este anuncio es el más exigente en tono. Javier tiene que sonar a conversación
 | infertilidad, esterilidad | parámetros de calidad espermática |
 
 **Regla del medidor:** nunca mostrar el medidor junto a SPIRO ni sugerir que la lectura cambia con el producto. En RT-B el medidor NO aparece — la explicación es verbal y analógica.
+
+**Regla de CTA — la más importante de esta revisión:** en anuncios de pago con objetivo Conversión (Purchase), el CTA nunca es "Comenta [palabra]" ni ningún mecanismo de comentario-a-DM de ManyChat. Eso es la mecánica de captación **orgánica** (posts sin pago, donde el comentario es la señal de compromiso que premia el algoritmo). En un anuncio pagado, el evento que Meta necesita ver para optimizar es el clic al enlace y la compra en la web — pedir un comentario en el propio anuncio manda una señal de conversión distinta a la que la campaña está optimizando, y confunde al algoritmo además de al usuario. Los tres CTA de este documento son: **Comprar** (RT-A, RT-B) o **Más información** (RT-C, por ser el de menor compromiso dentro de los CTA válidos), siempre con URL directa a la PDP. La fila "Intención declarada" de la tabla de audiencias (más abajo) sigue usando las listas de ManyChat por keyword — eso es correcto y no cambia: ahí `CARD`/`TEST`/`SPIRO` se usan como **señal para construir el público a impactar**, no como instrucción dentro del anuncio.
 
 **Cierre de marca:** "Somos EKIO. Tecnología que te cuida."
 
@@ -433,9 +432,9 @@ Cada ad set combina 4 señales con lógica OR (Meta no permite priorizarlas dent
 |---|---|---|---|---|---|
 | CTR | 3,16% | 5,51% | 4,0%+ | 4,5%+ | 4,0%+ |
 | CPA | 103€ | 38€ | 25-40€ | 55-85€ | 40-60€ |
-| ROAS | 0,85x | 6,23x | 1,9-3,1x | **3,8-5,9x** | 2,8-4,2x |
+| ROAS | 0,85x | 6,23x | 2,4-3,9x | **3,8-5,9x** | 2,8-4,2x |
 
-RT-A no puede acercarse al techo aunque el CPA sea excelente: con CPA de 38€ sobre un ticket de 97€, el ROAS máximo teórico es 2,0x — el límite es matemático, no de ejecución. RT-B es el que de verdad puede acercarse al benchmark de Consultoría porque su ticket (350€) es el más parecido (297€).
+RT-A no puede acercarse al techo aunque el CPA sea excelente: con CPA de 38€ sobre un ticket de 97€, el ROAS máximo teórico es 2,55x — el límite es matemático, no de ejecución. RT-B es el que de verdad puede acercarse al benchmark de Consultoría porque su ticket (350€) es el más parecido (297€).
 
 ## Frecuencia: la causa real de que la campaña anterior fallara
 
