@@ -29,13 +29,13 @@ El contraste que decide todo el brief:
 | Nombre en cuenta | `L2 - Venta Directa - Spiro - Auriculares-Bluetooth` | `L2 - Venta Directa - Spiro - Medicion-EMF-Auriculares` | `L2 - Venta Directa - Spiro - Fertilidad-Masculina` |
 | Tipo campaña | Advantage+ (ASC) | Advantage+ (ASC) | **Manual ABO** (el género es parte del mecanismo) |
 | Audiencia | Broad · 25-54 · todos · ES | Broad · 30-55 · todos · ES | Manual · 25-44 · **hombres** · ES |
-| Producto | SpiroCard 77€ | Pack Personal 325€ | SpiroCard X 167€ |
+| Producto | SpiroCard 97€ | Pack Personal 350€ | SpiroCard X 167€ |
 | Presupuesto/día | 20€ | **25€** | 15€ |
 | CTR objetivo | 3,2%+ | 4%+ | 3,5%+ |
 | CPA objetivo | 35-50€ | 60-85€ | 45-65€ |
 | ROAS objetivo | 1,8-2,5x | **3,8-5,4x** | 2,6-3,7x |
 | Corte | 300€ / CPA >65€ | 400€ / CPA >120€ | 250€ / CPA >90€ |
-| Variable a testear | Oferta: 77€ vs 325€ | Landing: 205€ vs 325€ | Formulación del claim |
+| Variable a testear | Oferta: 97€ vs 350€ | Landing: 255€ vs 350€ | Formulación del claim |
 | Riesgo Meta | Medio | **Bajo** | **Alto** |
 | Keyword ManyChat | `CARD` | `TEST` | `SPIRO` |
 | Semana lanzamiento | 1 | 2 | 3 |
@@ -47,7 +47,7 @@ Todos excluyen la Custom Audience de compradores Spiro desde Klaviyo. Todos en R
 ---
 
 ## AD A — "EL PRECIO INVISIBLE"
-**SpiroCard 77€ · 20€/día · Semana 1**
+**SpiroCard 97€ · 20€/día · Semana 1**
 
 ### Guion
 
@@ -57,7 +57,7 @@ Todos excluyen la Custom Audience de compradores Spiro desde Klaviyo. Todos en R
 | 3-8s | Corte a medidor EMF acercándose a los auriculares en funcionamiento. La pantalla ocupa el cuadro. | "Estos dispositivos emiten señal Bluetooth directamente junto a tu cabeza. Sin cables. Sin distancia. Sin filtro." | "Señal Bluetooth 2,4 GHz. Junto a tu cabeza. Horas al día." |
 | 8-15s | Texto animado sobre fondo oscuro, palabra a palabra. | "La comodidad es real. El precio también. Solo que ese precio no aparece en ningún anuncio de auriculares." | "Nos han vendido comodidad. / El precio invisible / nunca salió en el anuncio." |
 | 15-25s | Mano sosteniendo la SpiroCard entre dos dedos. Después, la card entra en la funda del móvil. | "La tecnología nanocompuesta de SPIRO organiza el campo electromagnético que emiten tus dispositivos antes de que llegue a tu cuerpo. Sin bloquear la conexión. Sin cambiar nada de lo que ya tienes." | "SPIRO® filtra el campo. / Sin cortar tu señal. / Sin cambiar nada." |
-| 25-30s | SpiroCard centrada. Logo Ekio. | "Somos EKIO. Tecnología que te cuida." | "SpiroCard \| 77€ \| Comenta CARD" |
+| 25-30s | SpiroCard centrada. Logo Ekio. | "Somos EKIO. Tecnología que te cuida." | "SpiroCard \| 97€ \| Comenta CARD" |
 
 ### 3 variantes del gancho a testear
 - **A (control):** mano sacando los auriculares + "Si usas esto todos los días…" — replica el orgánico viral.
@@ -76,7 +76,7 @@ Todos excluyen la Custom Audience de compradores Spiro desde Klaviyo. Todos en R
 >
 > SPIRO® no te pide que los dejes. La tecnología nanocompuesta filtra el campo electromagnético que emiten tus dispositivos antes de que llegue a tu cuerpo. Sin bloquear la señal. Sin cambiar ningún hábito.
 >
-> Una tarjeta. 77€. Vida útil permanente.
+> Una tarjeta. 97€. Vida útil permanente.
 >
 > No se trata de vivir con miedo. Se trata de vivir con criterio.
 >
@@ -86,7 +86,7 @@ Todos excluyen la Custom Audience de compradores Spiro desde Klaviyo. Todos en R
 1. El precio invisible de tus auriculares
 2. Señal Bluetooth. Junto a tu cabeza.
 3. SPIRO filtra lo que nadie te contó
-4. 77€. Para siempre. Sin cambiar nada.
+4. 97€. Para siempre. Sin cambiar nada.
 5. ¿Cuántas horas al día sin filtro?
 
 ### CTA
@@ -98,7 +98,7 @@ Javier **no** sale a cámara. Interior neutro, fondo blanco o negro mate. Atrezz
 ---
 
 ## AD B — "LA MEDICIÓN"
-**Pack Personal 325€ · 25€/día · Semana 2 · El de mejor ROAS math**
+**Pack Personal 350€ · 25€/día · Semana 2 · El de mejor ROAS math**
 
 ### Guion
 
@@ -108,7 +108,7 @@ Javier **no** sale a cámara. Interior neutro, fondo blanco o negro mate. Atrezz
 | 3-8s | Pull back lento: el medidor está junto a unos auriculares inalámbricos puestos en una cabeza/maniquí. | "Esto es lo que emiten unos auriculares inalámbricos cuando los llevas puestos. El criterio de Building Biology considera exposición extrema todo lo que supere mil microwatios por metro cuadrado en zonas de uso frecuente." | "Justo donde está tu cabeza. / Building Biology: extremo a partir de 1.000 µW/m²." |
 | 8-15s | Se retiran los inalámbricos, se ponen unos de cable. El medidor se desploma. | "Los auriculares con cable no emiten señal inalámbrica. La diferencia la ves aquí." | "Con cable: sin señal Bluetooth." |
 | 15-25s | Corte a SpiroCard. **El medidor desaparece del cuadro.** | "Si no puedes o no quieres cambiar tus auriculares, existe otro camino. SPIRO no modifica la lectura del medidor. Lo que hace es organizar la estructura del campo antes de que interactúe con tu biología." | "SPIRO® no baja este número. / Organiza el campo antes de que llegue a ti." |
-| 25-30s | SpiroCard + Pack Personal. Logo Ekio. | "Somos EKIO. Tecnología que te cuida." | "SpiroCard 77€ \| Pack Personal 325€ \| Comenta TEST" |
+| 25-30s | SpiroCard + Pack Personal. Logo Ekio. | "Somos EKIO. Tecnología que te cuida." | "SpiroCard 97€ \| Pack Personal 350€ \| Comenta TEST" |
 
 ### 3 variantes del gancho
 - **A (control):** solo el número en pantalla + "Este número." Silencio 2s.
@@ -129,7 +129,7 @@ Javier **no** sale a cámara. Interior neutro, fondo blanco o negro mate. Atrezz
 >
 > No se trata de vivir con miedo. Se trata de vivir con criterio.
 >
-> SpiroCard: 77€. Pack Personal: 325€. Comenta TEST y te enviamos la información completa.
+> SpiroCard: 97€. Pack Personal: 350€. Comenta TEST y te enviamos la información completa.
 >
 > Somos EKIO. Tecnología que te cuida.
 
@@ -161,7 +161,7 @@ Voz en off de Javier **imprescindible** (da autoridad al número); su cara no ha
 | 3-8s | Texto sobre fondo oscuro, sin ruido visual. | "Hay estudios peer-reviewed que han observado efectos de las radiofrecuencias sobre parámetros de la calidad espermática. Movilidad. Viabilidad. Daño oxidativo en el ADN. No es alarmismo. Está publicado." | "Hay estudios que han observado efectos de la radiofrecuencia sobre la movilidad espermática, la viabilidad y el daño oxidativo del ADN espermático." |
 | 8-15s | Infografía simple (postproducción): icono de móvil, líneas de campo, silueta. **Sin órganos ni imagen médica.** | "El móvil en el bolsillo delantero emite señal de radiofrecuencia de forma continua cuando está conectado. El tejido está a pocos centímetros. Durante horas. Todos los días." | "El móvil en el bolsillo emite RF durante horas al día. El tejido está a centímetros." |
 | 15-25s | Mano sacando la SpiroCard del bolsillo, mostrándola, y metiéndola junto al móvil. El móvil sigue en el bolsillo. | "La SpiroCard va en el mismo bolsillo que tu móvil. Ocupa el espacio de una tarjeta de crédito. Organiza el campo electromagnético antes de que interactúe con tu biología. Sin apps. Sin cables. Una vez, para siempre." | "SPIRO® va en tu bolsillo. / Filtra el campo antes de que llegue a ti. / Sin cambiar nada." |
-| 25-30s | SpiroCard + SpiroCard X. Logo Ekio. | "Somos EKIO. Tecnología que te cuida." | "SpiroCard 77€ \| SpiroCard X 167€ \| Comenta SPIRO" |
+| 25-30s | SpiroCard + SpiroCard X. Logo Ekio. | "Somos EKIO. Tecnología que te cuida." | "SpiroCard 97€ \| SpiroCard X 167€ \| Comenta SPIRO" |
 
 ### 3 variantes del gancho
 - **A (control):** gesto del bolsillo + "¿Cuántas horas al día haces esto?"
@@ -182,7 +182,7 @@ Voz en off de Javier **imprescindible** (da autoridad al número); su cara no ha
 >
 > No se trata de vivir con miedo. Se trata de vivir con criterio.
 >
-> SpiroCard: 77€. SpiroCard X: 167€. Comenta SPIRO.
+> SpiroCard: 97€. SpiroCard X: 167€. Comenta SPIRO.
 >
 > Somos EKIO. Tecnología que te cuida.
 
@@ -234,7 +234,7 @@ Cinco causas acumuladas. Ninguna basta por sí sola:
 4. **AOV.** Spiro en pago: 87€. Deep 5: 499€. Con el mismo CPA de 44€, Deep 5 hace 10,96x y Spiro haría 1,97x. Cualquier ineficiencia de CPA se magnifica 6×.
 5. **El creativo actual es de producto directo.** El orgánico lo demostró: producto de frente 19.010 views vs. producto como consecuencia 1.586.355. **83×.**
 
-**Qué resuelve este brief:** la causa 5, de raíz (los 3 anuncios parten del mecanismo, no del producto). Las causas 1 y 2 se resuelven con el tiempo — cada euro en L2 frío reconstruye el pool de retargeting. La causa 4 se mitiga subiendo el ticket (Pack Personal 325€ en B, SpiroCard X 167€ en C). La causa 3 no tiene atajo: requiere educación acumulada.
+**Qué resuelve este brief:** la causa 5, de raíz (los 3 anuncios parten del mecanismo, no del producto). Las causas 1 y 2 se resuelven con el tiempo — cada euro en L2 frío reconstruye el pool de retargeting. La causa 4 se mitiga subiendo el ticket (Pack Personal 350€ en B, SpiroCard X 167€ en C). La causa 3 no tiene atajo: requiere educación acumulada.
 
 ---
 
