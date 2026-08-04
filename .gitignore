@@ -10,3 +10,5 @@ seo/credentials.json
 seo/token.pickle
 seo/gsc-exports/*.csv
 seo/__pycache__/
+mcp-servers/tiktok-shop/node_modules/
+mcp-servers/tiktok-shop/package-lock.json

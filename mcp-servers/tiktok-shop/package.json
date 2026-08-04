@@ -1,0 +1,11 @@
+{
+  "name": "tiktok-shop-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for TikTok Shop Partner API + TikTok Ads API — EKIO Electrosmog España",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.22.0"
+  }
+}
