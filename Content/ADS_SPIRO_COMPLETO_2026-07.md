@@ -101,7 +101,7 @@ Todos excluyen la Custom Audience de compradores Spiro desde Klaviyo/Shopify. To
 5. ¿Cuántas horas al día sin filtro?
 
 ### CTA
-Botón **Más información** → `electrosmogespana.com/products/spiro-card`. La keyword ManyChat `CARD` no es el CTA del anuncio — se reserva para construir la Custom Audience de retargeting de RT-A (ver Parte 2).
+Botón **Más información** → `electrosmogespana.com/products/spiro-card-proteccion-electromagnetica`. La keyword ManyChat `CARD` no es el CTA del anuncio — se reserva para construir la Custom Audience de retargeting de RT-A (ver Parte 2).
 
 ### Rodaje
 Javier **no** sale a cámara. Interior neutro, fondo blanco o negro mate. Atrezzo: auriculares Bluetooth blancos genéricos (no marca Apple), medidor EMF, varias SpiroCard, funda de móvil. 5 planos, ~45-60 min de rodaje.
@@ -152,7 +152,7 @@ Javier **no** sale a cámara. Interior neutro, fondo blanco o negro mate. Atrezz
 5. Building Biology lo llama extremo.
 
 ### CTA
-Frío: **Más información** → `electrosmogespana.com/products/pack-personal` · Retargeting (RT-B): **Comprar** → misma URL. La keyword ManyChat `TEST` no es el CTA del anuncio — se reserva para construir la Custom Audience de retargeting.
+Frío: **Más información** → `electrosmogespana.com/products/pack-proteccion-personal` · Retargeting (RT-B): **Comprar** → misma URL. La keyword ManyChat `TEST` no es el CTA del anuncio — se reserva para construir la Custom Audience de retargeting.
 
 ### Rodaje
 Voz en off de Javier **imprescindible** (da autoridad al número); su cara no hace falta. Atrezzo: medidor EMF con pantalla digital grande y legible, auriculares inalámbricos, auriculares de cable, maniquí de cabeza (o la oreja de Javier), SpiroCard + Pack Personal.
@@ -205,7 +205,7 @@ Voz en off de Javier **imprescindible** (da autoridad al número); su cara no ha
 5. Con criterio. No con miedo.
 
 ### CTA
-Frío: **Más información** → `electrosmogespana.com/products/spiro-card` · Retargeting (RT-C): **Más información** → `/products/spirocard-x` (nunca "Comprar" — ver por qué en RT-C). La keyword ManyChat `SPIRO` no es el CTA del anuncio.
+Frío: **Más información** → `electrosmogespana.com/products/spiro-card-proteccion-electromagnetica` · Retargeting (RT-C): **Más información** → `/products/spiro-card-x` (nunca "Comprar" — ver por qué en RT-C). La keyword ManyChat `SPIRO` no es el CTA del anuncio.
 
 ### Rodaje
 Javier **no** sale a cámara; voz en off recomendada. Atrezzo: móvil negro (contrasta con el vaquero), vaquero oscuro con bolsillo delantero, SpiroCard y SpiroCard X. La infografía del tramo 8-15s se produce en post (CapCut/AE): fondo negro, líneas blancas, tres elementos. Nada gráfico ni clínico.
@@ -282,7 +282,7 @@ Somos EKIO. Tecnología que te cuida.
 
 ### CTA button y URL
 **Botón:** "Comprar" — en retargeting ya hay intención. No diluir con "Más información".
-**URL:** `electrosmogespana.com/products/spiro-card`
+**URL:** `electrosmogespana.com/products/spiro-card-proteccion-electromagnetica`
 
 ### Indicaciones de rodaje
 Javier a cámara, busto, fondo neutro (negro o gris oscuro sin elementos decorativos). Mirada directa al objetivo. Tono tranquilo y seguro, sin urgencia artificial: la confianza no necesita prisa. Velocidad de habla moderada con pausa antes de la frase del nanocompuesto. Una toma adicional con Javier sosteniendo la SpiroCard entre dos dedos. En post: captura real de WhatsApp o reseña editada limpiamente, sin efectos de "viral fake". El testimonial tiene que parecer tan real como lo es.
@@ -368,7 +368,7 @@ Somos EKIO. Tecnología que te cuida.
 
 ### CTA button y URL
 **Botón:** "Comprar" — la intención ya existe. La única fricción era la objeción técnica. Una vez respondida, el CTA directo cierra mejor que "Más información".
-**URL:** `electrosmogespana.com/products/pack-personal`
+**URL:** `electrosmogespana.com/products/pack-proteccion-personal`
 
 ### Indicaciones de rodaje
 Este anuncio se juega en la voz y la mirada de Javier. No necesita atrezzo. Plano fijo de busto, cámara a la altura de los ojos, sin movimiento de cámara. El medidor NO aparece en este anuncio en ningún momento. El único elemento adicional de producción: dos vasos de agua idénticos para el gancho C y el slide 4 del carrusel. Infografía del carrusel en Canva o CapCut: fondo negro, texto blanco, un solo icono por slide. Verificar que en móvil los dos conceptos del slide 3 (intensidad vs estructura) se leen sin zoom. Si no caben, hacer dos slides separados.
@@ -461,7 +461,7 @@ Somos EKIO. Tecnología que te cuida.
 
 ### CTA button y URL
 **Botón:** "Más información" — es el CTA de menor compromiso dentro de los que tienen sentido en una campaña de conversión (objetivo Purchase). Nunca "Comprar" en RT-C: forzar el botón de compra directa sobre este público reintroduce la presión social que el anuncio existe para evitar.
-**URL:** `electrosmogespana.com/products/spirocard-x`
+**URL:** `electrosmogespana.com/products/spiro-card-x`
 
 ### Indicaciones de rodaje
 Este anuncio es el más exigente en tono. Javier tiene que sonar a conversación privada, no a guion. Rodar en el espacio más íntimo disponible: despacho, no estudio. Luz cálida y baja, no de productor. Sin camisa de marca: camiseta o jersey neutro. Sin música, o casi inaudible si la hay. Ritmo de habla más lento que en el AD. Pausa real después de "no me extraña" — no rellenarla. La SpiroCard aparece sostenida con naturalidad, sin exhibición. El plano del móvil en el bolsillo del AD C NO se repite aquí en ninguna variante — ese contenido ya lo vio el espectador.
@@ -568,7 +568,7 @@ Cada ad set de RT combina 4 señales con lógica OR (Meta no permite priorizarla
 | Señal | Tipo | RT-A | RT-B | RT-C |
 |---|---|---|---|---|
 | Vídeo | Video Engagement ≥75% (no ThruPlay 15s — hay que haber visto el producto, no solo el gancho) | Vídeo AD A, 30 días | Vídeo AD B, 30 días | Vídeo AD C, 30 días |
-| Web | Website Custom Audience (ViewContent) | `/products/spiro-card` | `/products/pack-personal` **+** `/products/spiro-card` (AD B menciona los dos) | `/products/spirocard-x` **+** `/products/spiro-card` |
+| Web | Website Custom Audience (ViewContent) | `/products/spiro-card-proteccion-electromagnetica` | `/products/pack-proteccion-personal` **+** `/products/spiro-card-proteccion-electromagnetica` (AD B menciona los dos) | `/products/spiro-card-x` **+** `/products/spiro-card-proteccion-electromagnetica` |
 | Engagement | IG/FB Engagement Custom Audience sobre el post/anuncio específico | 60 días | 60 días — los comentarios con dudas sobre el medidor son la señal más valiosa de esta audiencia | 60 días — los comentarios escépticos sobre el estudio de fertilidad son los mejores leads |
 | Intención declarada | Lista de suscriptores ManyChat por keyword | `CARD`, 90 días | `TEST`, 90 días | `SPIRO`, 90 días |
 
