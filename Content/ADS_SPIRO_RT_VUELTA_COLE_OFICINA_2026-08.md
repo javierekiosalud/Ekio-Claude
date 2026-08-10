@@ -141,7 +141,7 @@ La objeción no fue la ciencia — fue la densidad. Un bloque de 75 palabras en 
 | Tiempo | Visual | Voz en off | Texto en pantalla |
 |---|---|---|---|
 | **0-3s** | Fondo oscuro. Texto aparece despacio, sin aceleración: una línea, después la segunda. Sin imagen. | *(silencio 1,5s)* "Era mucho texto." Pausa. "Lo entendemos." | "Era mucho texto. / Lo entendemos." |
-| **3-8s** | Fondo oscuro. Una sola frase centrada. Tipografía limpia. | "La descripción completa sigue en el vídeo anterior, para quien quiera releerla. La conclusión que importa para decidir: la física describe una diferencia anatómica. Ekio la tomó en serio." | "La conclusión: / la física describe una diferencia anatómica. / Ekio la tomó en serio." |
+| **3-8s** | Fondo oscuro. Una sola frase centrada. Tipografía limpia. | "La descripción completa sigue en el vídeo anterior, para quien quiera releerla con calma. Es un dato real, y en Ekio lo tomamos en serio al diseñar la SpiroCard X." | "El dato completo sigue en el vídeo anterior. / Lo tomamos en serio. / Por eso existe la SpiroCard X." |
 | **8-15s** | SpiroCard X entre dos dedos adultos. Después, la SpiroCard X entra en la funda del móvil. Plano limpio. | "La SpiroCard X va dentro de la funda del primer móvil. Organiza el campo electromagnético cerca del dispositivo sin bloquear la señal. Sin apps. Sin recambios. Una vez, para siempre." | "SpiroCard X · dentro de la funda. / Filtra el campo. La señal, intacta. / Una vez. Para siempre." |
 | **15-20s** | SpiroCard X centrada, fondo oscuro. | "No tienes que estar al 100% convencido para probarla. Tienes 30 días de garantía. Y puedes pagar en 3 meses sin intereses." | Bloque en pantalla: "✓ Garantía 30 días  ✓ Puntos para descuentos / ✓ 3 meses sin intereses  ✓ 12 meses al instante / ✓ Club Ekio Privée" |
 | **20-24s** | Logo Ekio. | "Somos EKIO. Tecnología que te cuida." | "SpiroCard X · 167€ · Comprar →" · URL abajo |
@@ -158,7 +158,7 @@ La objeción no fue la ciencia — fue la densidad. Un bloque de 75 palabras en 
 
 ## 4. COPY CORTO
 
-Era mucho texto. La descripción completa sigue en el vídeo anterior para quien quiera releerla. La conclusión que importa para decidir: la física describe una diferencia anatómica en cómo la señal de radiofrecuencia se distribuye en la cabeza de un preadolescente. Ekio la tomó en serio.
+Era mucho texto. La descripción completa sigue en el vídeo anterior, para quien quiera releerla con calma. Es un dato real, y en Ekio lo tomamos en serio.
 
 La SpiroCard X va dentro de la funda del primer móvil. Organiza el campo sin bloquear la señal. Sin apps. Sin recambios. Una vez, para siempre.
 
@@ -174,7 +174,7 @@ Era mucho texto. Doce segundos de lectura en pantalla de móvil, 75 palabras en 
 
 La descripción completa está en el vídeo anterior, para quien quiera volver a ella. Aquí va la conclusión que importa para decidir:
 
-La física describe una diferencia anatómica. Ekio la tomó en serio y diseñó la SpiroCard X para que acompañe el dispositivo de uso personal — especialmente el primero, el que más horas está junto a la cabeza.
+Es un dato real, y en Ekio lo tomamos en serio al diseñar la SpiroCard X para que acompañe el dispositivo de uso personal — especialmente el primero, el que más horas pasa con el niño.
 
 La SpiroCard X va dentro de la funda del móvil. La tecnología nanocompuesta organiza el campo electromagnético cerca del dispositivo sin bloquear la señal, sin apps, sin recambios. Una vez, para siempre.
 
@@ -191,7 +191,7 @@ Somos EKIO. Tecnología que te cuida.
 1. Era mucho texto. La conclusión: aquí. *(38)*
 2. 30 días para decidir sin estar seguro. *(38)*
 3. SpiroCard X · Dentro de la funda. *(34)*
-4. La física describe una diferencia. *(35)*
+4. El dato sigue en el vídeo anterior. *(35)*
 5. 167€ en 3 meses sin intereses. *(30)*
 
 > Titulares 2 y 5 referencian ventajas directamente.
