@@ -1,63 +1,63 @@
 # Email 06 · Lunes 10 agosto 2026 · 9:00 — SEMANA 2: CIENCIA CEM / DENSIDAD DE REDES Y EL ECLIPSE DEL MIÉRCOLES
 
 **Newsletter:** El Precio Invisible (EPI)
-**Tono:** Divulgación rigurosa, método científico
+**Tono:** Divulgación rigurosa, narración continua — historia que fluye, no informe con secciones
 **Producto:** Sin CTA de venta — email de ciencia pura
 **Segmento Klaviyo:** Lista principal activa
-**Objetivo:** Anclar la ciencia de densidad de redes/exposición WiFi (Boussad, Ramirez-Vazquez, Regrain) al evento concreto de esta semana: la afluencia masiva a pueblos pequeños de la franja de totalidad para ver el eclipse del miércoles 12. Sin adelantar la anécdota de Appleton/ionosfera, que es exclusiva del email del miércoles — aquí solo se anticipa el evento, no la ciencia de ese día. Sin mención de SPIRO ni CTA de compra.
-**Smart Sending:** ON — EKO jue 6 ago (9:00) → EPI lun 10 ago (9:00) = 96 horas (el Email 05 del sáb 8 se descartó). Cumple holgadamente el mínimo. ✓
+**Objetivo:** Usar el desplazamiento masivo para el eclipse del miércoles 12 —verificado con datos oficiales y de prensa de esta semana— como palanca narrativa para explicar la relación entre concentración de personas/dispositivos y exposición a radiofrecuencia. Columna vertebral científica: Ramirez-Vazquez et al. 2019 (Feria de Albacete, PMID 31146098). Sin mención de los estudios ya usados en la semana anterior (Boussad, Ramirez-Vazquez 2020 campus, Regrain). Sin adelantar la anécdota de Appleton/ionosfera (exclusiva del FJA del miércoles 12). Sin mención de SPIRO ni CTA de compra.
+**Smart Sending:** ON — EKO jue 6 ago (9:00) → EPI lun 10 ago (9:00) = 96 horas. Cumple holgadamente el mínimo de 48h. ✓
 
 ---
 
 ## ASUNTO
 
-**Principal:** Este miércoles, pueblos de 2.000 habitantes van a recibir a decenas de miles de personas. Y sus redes también.
-**A/B 1:** El mayor emisor de radiofrecuencia no es el móvil — y este miércoles se va a concentrar como nunca en pueblos pequeños.
-**A/B 2:** 254.410 personas demostraron qué te expone más. Este miércoles lo vas a ver concentrado en un pueblo de Galicia.
+**Principal:** Ya lo medimos una vez, en Albacete. El miércoles se repite — en un pueblo de 400 personas.
+**A/B 1:** Hace siete años, unos investigadores fueron a una feria con aparatos de medición. Ahora sabemos por qué debían haber ido a un eclipse.
+**A/B 2:** Un pueblo de 400 personas está a punto de convertirse, durante un día, en el mejor laboratorio de España.
 
 ## PREVIEW TEXT
 
-> El miércoles hay un eclipse solar total en España. Miles de personas van a converger en pueblos que nunca han visto tanta gente junta. Ni tantos dispositivos activos a la vez.
+> Esta semana, Aras de los Olmos —cuatrocientos vecinos en el interior de Valencia— espera cinco mil visitantes para el eclipse del miércoles. Telefónica, Vodafone y MasOrange llevan días preparando las redes. Eso también tiene una medición.
 
 ---
 
 ## BODY
 
-Durante años, el debate público sobre exposición electromagnética señaló a las antenas de telefonía. Torres visibles, en los tejados, fáciles de apuntar con el dedo.
+Aras de los Olmos es un municipio del interior valenciano con cuatrocientos vecinos en padrón. Tiene una plaza, algún bar y la tranquilidad de los pueblos que no reciben muchas visitas. Esta semana espera cinco mil.
 
-Un estudio con 254.410 personas en 13 países, seguido durante cuatro años, encontró algo que da la vuelta a esa narrativa: la mayor fuente de tu exposición personal a radiofrecuencia no es la antena del barrio. Es el WiFi. El tuyo, y el de todos a tu alrededor.
+El miércoles 12 de agosto la franja de totalidad del eclipse solar cruza la Comunidad Valenciana, y Aras de los Olmos cae dentro. Eso convierte a un pueblo que nadie situaría en el mapa en uno de los puntos de observación más buscados del país. En las horas previas a la totalidad, va a tener doce veces más gente de lo que tiene cualquier otro día del año.
 
-Los routers domésticos y otros dispositivos inalámbricos cercanos representaron más del 50% de la exposición total para la mitad de los participantes del estudio — por delante de las antenas de móvil y las redes 5G. (Boussad Y et al., *Environment International* 2022 — PMID 35339930 — DOI: 10.1016/j.envint.2022.107144)
+Aras de los Olmos es el caso más extremo, pero no el único. El Gobierno estimó esta semana que entre el 10 y el 16 de agosto llegarán a España 446.700 visitantes adicionales para el eclipse: 282.700 desplazamientos nacionales hacia la franja de totalidad y 164.000 visitantes internacionales. Los aeropuertos ya leen el movimiento antes de que ocurra: reservas de vuelo a Bilbao con un aumento del 366% respecto al año anterior, Asturias un 292%, Valencia un 137%. Las carreteras que cruzan hacia la franja de totalidad esperan incrementos de tráfico de entre el 30% y el 100%.
 
-Si el WiFi es la fuente dominante de exposición personal, la pregunta relevante no es qué antena hay cerca del edificio donde te alojas. Es cuántos routers hay activos a tu alrededor.
+Todo ese movimiento de personas lleva consigo sus dispositivos. Y los operadores lo saben desde hace semanas.
 
-Ahora piensa en este miércoles.
+***
 
-Hay un eclipse solar total que cruza España de oeste a este — A Coruña, Oviedo, León, Bilbao, Zaragoza, Valencia, Palma. Pueblos de la franja de totalidad que en un día normal tienen dos o tres mil habitantes van a recibir, en cuestión de horas, decenas de miles de visitantes. Cada uno con su móvil. Muchos retransmitiendo en directo. Los bares y alojamientos improvisando puntos WiFi para la ocasión.
+Mientras la prensa cubría los mejores puntos de observación y los itinerarios de los eclipseros, los tres grandes operadores españoles trabajaban en silencio preparando las redes. Telefónica ha optimizado esta semana 2.756 emplazamientos en 31 provincias. Vodafone ha vinculado más de 1.700 celdas a 200 puntos de observación previstos. MasOrange ha reforzado unas 300 ubicaciones estratégicas. En total, más de 900 puntos de refuerzo distribuidos por toda España.
 
-En tu casa sabes cuántos routers hay activos — los has comprado tú, puedes apagarlos antes de dormir. En un pueblo que multiplica su población por diez en una tarde, nadie controla nada de eso.
+No es generosidad tecnológica. Es ingeniería preventiva: cuando diez mil personas encienden el móvil en el mismo campo durante el mismo minuto, la red colapsa si no está preparada. Los operadores saben exactamente cuánto sube la demanda cuando se concentra mucha gente, porque lo miden en cada concierto, en cada partido, en cada movilización masiva.
 
-**El problema silencioso de la exposición colectiva**
+Y alguien también lo ha medido con exposímetros y publicado en una revista científica.
 
-**Lo que la densidad de ocupación hace con el campo**
+Hace siete años, un equipo de investigadores de la Universidad de Castilla-La Mancha y del CIEMAT se desplazó a Albacete durante su Feria de septiembre. No a celebrar. A medir. La Feria de Albacete convoca más de dos millones y medio de visitantes en diez días, en una ciudad de unos 170.000 habitantes: uno de los eventos temporales más grandes del país, y exactamente el tipo de escenario que permite estudiar qué le pasa a la exposición a radiofrecuencia cuando mucha gente se concentra en poco espacio durante poco tiempo.
 
-La relación entre la densidad de dispositivos activos en un espacio y los niveles de campo medidos no es una hipótesis: tiene documentación directa. Un estudio de 2020 publicado en *International Journal of Environmental Research and Public Health* midió la exposición personal a WiFi en tres zonas de un campus universitario: espacios exteriores con baja densidad de equipos, un edificio de aulas y laboratorios, y un edificio de administración y despachos. Los niveles más bajos se registraron en el perímetro exterior (22,97 µW/m²). En los edificios con mayor concentración de dispositivos y personas activas, los valores fueron hasta un 50% superiores —y los picos de tarde, cuando la afluencia era mayor, superaban sistemáticamente los de primera hora de la mañana. (Ramirez-Vazquez R et al., *IJERPH* 2020 — PMID 32183369 — DOI: 10.3390/ijerph17061898)
+Los investigadores instalaron exposímetros personales y registraron los niveles de radiofrecuencia en tres momentos: antes de que se montaran las estaciones base temporales para el evento, durante los días de mayor afluencia, y después de que toda la infraestructura provisional se hubiera desmontado y retirado. Lo que encontraron fue claro.
 
-El entorno estudiado era académico, no residencial. Pero el principio físico es el mismo: más routers activos en un espacio compartido produce niveles de campo medibles más altos en ese espacio. Un bloque de costa con cuarenta familias en siete plantas no es diferente en este sentido a un edificio universitario con cuarenta despachos.
+La exposición de señal descendente —la radiofrecuencia que llega desde las antenas hasta los dispositivos— fue de 791,8 µW/m² de media durante la feria. Después del desmontaje, ese valor bajó a 391,2 µW/m²: prácticamente la mitad. Pero el dato que resulta más llamativo es el de la señal ascendente —lo que emite el propio dispositivo cuando busca cobertura, lo que el teléfono lanza desde tu bolsillo—: 59,0 µW/m² durante la feria, frente a 10,3 µW/m² después del evento. Casi seis veces menos.
 
-**El hueco que la ciencia todavía no ha cerrado**
+*(Ramirez-Vazquez R, Gonzalez-Rubio J, Arribas E, Nájera A. Environmental Research, agosto 2019; 175:266-273 — PMID 31146098)*
 
-Un equipo de investigadores de varias instituciones francesas y europeas publicó en 2020 un modelo integrado para mapear la exposición residencial a radiofrecuencia, con un caso de estudio en el distrito 14 de París. El trabajo identificó una limitación que sus propios protocolos de medición no podían resolver: las incertidumbres sobre la contribución de *"otras fuentes interiores procedentes de apartamentos o locales adyacentes"* no estaban cuantificadas y quedaban fuera del modelo. (Regrain C et al., *IJERPH* 2020 — PMID 32722208 — DOI: 10.3390/ijerph17155339)
+***
 
-Es decir: incluso los marcos de evaluación más rigurosos de exposición residencial no incorporan todavía de forma sistemática lo que emiten los vecinos. El problema existe. No está bien medido. Y los propios investigadores lo reconocen explícitamente.
+Hay que ser precisos sobre lo que esos números dicen y lo que no dicen.
 
-**Lo que esto significa este miércoles**
+Los valores medidos en Albacete estaban, en ambos casos, dentro de los límites legales de exposición vigentes. Lo que el estudio registró no fue un riesgo regulatorio ni una anomalía: fue el comportamiento normal de una red de telecomunicaciones respondiendo a una demanda extraordinaria. Y ningún estudio del campo de la radiofrecuencia mide efectos biológicos ni riesgo de salud —mide campo físico con instrumentos calibrados—. No existe ningún estudio de RF específicamente diseñado para un eclipse solar. La Feria de Albacete es el precedente más sólido que existe en España para este tipo de fenómeno —evento temporal, refuerzo de red, concentración masiva—, pero es un evento distinto.
 
-Si vas a desplazarte a alguno de los puntos de la franja de totalidad, vas a estar, durante unas horas, dentro de la mayor concentración de dispositivos activos que ese pueblo ha visto en su historia. Alojamiento improvisado, bares con la terraza llena, cientos de personas retransmitiendo el mismo minuto en directo desde el mismo campo. Los tabiques de una casa rural o de un hostal no son barreras electromagnéticas: las señales de WiFi los atraviesan con una atenuación limitada, y ese día el campo de fondo no lo va a determinar lo que tú traigas — lo va a determinar la multitud.
+Lo que sí se puede decir con solvencia, a partir de esa medición, es algo más modesto y más sólido: en entornos de alta concentración temporal con refuerzo de red, la exposición a radiofrecuencia es mediblemente más alta que en los mismos entornos antes o después del evento. No es alarmismo. Es física medida con exposímetros en un recinto español, publicada en una revista revisada por pares.
 
-La ciencia no tiene todavía un número preciso para este efecto en entornos residenciales masificados. Pero sí tiene claro que el WiFi es la fuente dominante de exposición personal, que esa exposición crece con la densidad de dispositivos activos, y que las fuentes ajenas a las tuyas son un factor que los modelos de evaluación actuales reconocen como no cuantificado.
+El miércoles, más de cuatrocientas mil personas van a estar en pueblos y ciudades de la franja de totalidad con los móviles encendidos, retransmitiendo los mismos setenta y seis segundos desde el mismo campo, bajo una infraestructura que tres operadores han estado preparando durante semanas.
 
-El eclipse en sí —lo que le va a pasar a la atmósfera durante los segundos de totalidad— es otra historia. Te la cuento el miércoles.
+Lo que ocurra ahí arriba durante esos setenta y seis segundos es otra historia. Te la cuento el miércoles.
 
 *Este email es divulgación científica. No constituye consejo médico.*
 
@@ -68,34 +68,40 @@ El Precio Invisible
 ## CTA
 
 Sin botón de venta.
-Cierre con teaser (sin spoiler): "El eclipse en sí —lo que le va a pasar a la atmósfera durante los segundos de totalidad— es otra historia. Te la cuento el miércoles."
-
-## P.S.
-
-Las fuentes de este email: PMID 35339930 (DOI: 10.1016/j.envint.2022.107144), PMID 32183369 (DOI: 10.3390/ijerph17061898) y PMID 32722208 (DOI: 10.3390/ijerph17155339).
+Cierre con teaser al email del miércoles: "Lo que ocurra ahí arriba durante esos setenta y seis segundos es otra historia. Te la cuento el miércoles."
 
 ---
 
-## FUENTES PUBMED CITADAS
+## P.S.
 
-- **PMID 35339930** — Boussad Y, Chen XL, Legout A, Chaintreau A, Dabbous W. *Environment International* (2022, vol 162, artículo 107144) — "Longitudinal study of exposure to radio frequencies at population scale." — https://doi.org/10.1016/j.envint.2022.107144 — Inria Sophia Antipolis (Francia) / Columbia University (EEUU). Estudio longitudinal con datos de 254.410 usuarios únicos en 13 países (enero 2017 - diciembre 2020), medición de exposición a RF a través de la app ElectroSmart (lecturas cada 20 minutos). Hallazgos principales: WiFi y Bluetooth doméstico representaron más del 50% de la exposición total para la mitad de los participantes; la exposición total se multiplicó por 2,3 durante los 4 años del estudio. WiFi identificado como el mayor contribuyente individual a la exposición personal a radiofrecuencia, por encima de la telefonía móvil.
+La fuente científica de este email: PMID 31146098 (DOI: 10.1016/j.envres.2019.05.033).
 
-- **PMID 32183369** — Ramirez-Vazquez R, Arabasi S, Al-Taani H, Sbeih S, Gonzalez-Rubio J, Escobar I, Arribas E. *International Journal of Environmental Research and Public Health* (2020, vol 17, nº 6, artículo 1898) — "Georeferencing of Personal Exposure to Radiofrequency Electromagnetic Fields from Wi-Fi in a University Area." — https://doi.org/10.3390/ijerph17061898 — German Jordanian University (Amán, Jordania) / Universidad de Castilla-La Mancha (España). Exposimetros personales Satimo EME SPY 140 en tres zonas diferenciadas. Exposición media: perímetro exterior 22,97 µW/m², edificio de aulas (C) 29,00 µW/m², edificio de administración/despachos (H) 34,48 µW/m². Picos de tarde consistentemente superiores a los de mañana en todos los puntos. La correlación entre concentración de usuarios/dispositivos y nivel de campo es explícita en los datos. Nota editorial: el entorno es universitario, no residencial; la relación densidad-exposición se aplica editorialmente al contexto de edificios de alta ocupación.
+---
 
-- **PMID 32722208** — Regrain C, Caudeville J, de Seze R, Guedda M, Chobineh A, de Doncker P, Petrillo L, Chiaramello E, Parazzini M, Joseph W, Aerts S, Huss A, Wiart J. *International Journal of Environmental Research and Public Health* (2020, vol 17, nº 15, artículo 5339) — "Design of an Integrated Platform for Mapping Residential Exposure to RF-EMF Sources." — https://doi.org/10.3390/ijerph17155339 — Inria / INERIS / CEA (Francia), UGent / IMEC (Bélgica), TNO (Países Bajos), Instituto Ramón y Cajal (España). Caso de estudio: cuadrícula de 100×100 m en el distrito 14 de París. Plataforma que integra fuentes exteriores, fuentes interiores propias y exposición por móvil. Limitación explícita reconocida por los autores: *"uncertainties remain about the contribution of other indoor sources coming from adjacent apartments or premises"* — las fuentes procedentes de apartamentos adyacentes no están cuantificadas en el modelo.
+## FUENTES CITADAS
+
+### Fuente científica principal
+
+**PMID 31146098** — Ramirez-Vazquez R, Gonzalez-Rubio J, Arribas E, Nájera A. *Environmental Research* (2019, agosto; vol 175, págs 266-273) — "Personal RF-EMF exposure from mobile phone base stations during temporary events." — https://doi.org/10.1016/j.envres.2019.05.033 — Universidad de Castilla-La Mancha / CIEMAT (España). Estudio de exposición a radiofrecuencia en la Feria de Albacete (7-17 septiembre), evento con más de 2,5 millones de visitantes acumulados. Mediciones con exposímetros personales en tres fases: antes del montaje de estaciones base temporales, durante el evento con infraestructura operativa, y después del desmontaje. Resultados: exposición downlink durante la feria 791,8 µW/m² frente a 391,2 µW/m² tras desmontaje (≈×2); exposición uplink durante la feria 59,0 µW/m² frente a 10,3 µW/m² tras desmontaje (≈×6). Todos los valores dentro de los límites legales de exposición ICNIRP.
+
+### Fuentes de datos no científicos (prensa y gobierno)
+
+- **Datos de visitantes y aeropuertos** — Nota de prensa del Gobierno de España / Moncloa.com, 8 de agosto de 2026: 446.700 visitantes adicionales estimados (164.000 internacionales + 282.700 nacionales) entre el 10 y el 16 de agosto; aumentos de tráfico carretera del 30-100%; Bilbao +366%, Asturias +292%, Valencia +137% en reservas de vuelos vs. año anterior.
+- **Datos de refuerzo de red** — Cobertura de prensa española (5 de agosto de 2026, varios medios): Telefónica 2.756 emplazamientos / 31 provincias; Vodafone 1.700+ celdas / 200 puntos de observación; MasOrange 300 ubicaciones estratégicas; total >900 puntos de refuerzo en España.
+- **Aras de los Olmos** — Moncloa.com / prensa valenciana, 8 de agosto de 2026: municipio de la Comunidad Valenciana dentro de la franja de totalidad, 400 vecinos censados, 5.000 visitantes esperados.
 
 ---
 
 ## NOTAS
 
-- El ángulo de este email es estructuralmente diferente al Email 02 (EPI, lunes 3 agosto): el Email 02 trató la variabilidad de los síntomas al cambiar de entorno y los factores que la explican (exposición diferencial por tipo de espacio, variabilidad individual, disrupción circadiana). Este email trata un fenómeno distinto: la naturaleza colectiva e incontrolable de la exposición en edificios de alta ocupación, donde el contribuyente dominante (WiFi) no depende de las decisiones del propio lector.
-- El estudio Ramirez-Vazquez 2020 (PMID 32183369) es universitario, no residencial. La extrapolación al contexto de bloques de apartamentos se marca editorialmente como principio físico, no como dato directo del estudio.
-- El estudio Regrain 2020 (PMID 32722208) incluye como co-autora a Emma Chiaramello, primera firmante también del artículo de revisión (PMID 30884917) citado en el Email 02. Son papers distintos de la misma investigadora en distinto año; no constituye repetición de fuentes.
-- La cita de Boussad 2022 sobre el 50% de la exposición procedente de WiFi/Bluetooth aplica a la mediana de la distribución ("para la mitad de los participantes"). No se generaliza al 100% de los usuarios. La redacción lo refleja.
-- La cifra de multiplicación por 2,3 del total de exposición durante los 4 años del estudio Boussad se usa tal como aparece en el resumen del artículo (sin especular sobre valores absolutos).
-- Sin mención de SPIRO, Ekio Light, precios ni CTA de compra. Email 100% ciencia.
-- Actualizado (10/ago/2026, tras feedback de Javier): reorientado a la afluencia masiva del eclipse del miércoles 12 en pueblos pequeños de la franja de totalidad, en vez del marco genérico de "apartamentos turísticos". La ciencia (Boussad/Ramirez-Vazquez/Regrain) no cambió, solo la aplicación concreta.
-- No se adelanta la anécdota de Appleton/ionosfera (exclusiva del FJA del miércoles) — el cierre solo anticipa que "el miércoles" habrá más, sin dar pistas del contenido.
-- Email 05 (LLR sáb 8, bombilla ámbar) descartado por decisión de Javier — ya no forma parte de la secuencia de la semana.
-- Smart Sending ON: 96h desde EKO jue 6 ago (9:00) — cumple holgadamente. ✓
-- Semana 2 agosto actualizada: EPI lun 10 (eclipse/densidad) → FJA mié 12 (Appleton/ionosfera, aprobado) → EKO jue 13 (venta SPIRO, pendiente de escribir) → LLR sáb 15 (eclipse/circadiano, aprobado).
+- **Reescritura completa.** Versión anterior (10/ago/2026) descartada por feedback directo de Javier: "mal redactado, mal escrito, sin ninguna historia." La estructura anterior usaba subtítulos de listado ("El problema silencioso de la exposición colectiva", "Lo que la densidad de ocupación hace con el campo", "El hueco que la ciencia todavía no ha cerrado") que hacían el email leer como informe, no como narración. Esta versión escribe como historia continua con solo dos quiebres de párrafo (***).
+- **Estudios NO repetidos.** La versión anterior citaba Boussad 2022 (PMID 35339930), Ramirez-Vazquez 2020/campus (PMID 32183369) y Regrain 2020 (PMID 32722208). Estos tres estudios estaban ya presentes en la campaña de agosto (Email 02 EPI y la versión descartada del propio Email 06). La nueva versión usa exclusivamente el estudio de la Feria de Albacete (PMID 31146098), que es el precedente más directo para el fenómeno del eclipse y no había aparecido antes en la campaña.
+- **Continuidad con el FJA del miércoles.** El FJA (Email 07, ya aprobado) referencia "el estudio del lunes" con la frase: "en entornos de alta densidad residencial, la exposición que más te afecta no es la que genera tu equipo, sino la que viene de los routers de quienes te rodean." Esa frase es suficientemente general para no requerir cambios en el FJA: el nuevo Email 06 también documenta el fenómeno de la exposición en alta densidad, desde el ángulo de la concentración de dispositivos en eventos masivos. La referencia del FJA funciona como puente autónomo para quien no leyó el EPI.
+- **Sin adelantar Appleton/ionosfera.** El cierre ("Lo que ocurra ahí arriba durante esos setenta y seis segundos es otra historia. Te la cuento el miércoles.") genera anticipación sin nombrar la ionosfera, sin nombrar a Appleton y sin explicar nada del fenómeno ionosférico. Los "setenta y seis segundos" son los de la totalidad del eclipse en A Coruña —dato público del IGN—, no un spoiler del contenido del FJA.
+- **Matiz honesto explícito.** El tercer bloque del email dedica un párrafo entero a precisar lo que los datos dicen y no dicen: límites legales cumplidos, medición de campo físico (no de efecto biológico ni riesgo), ausencia de estudio específico para eclipses, y la Feria de Albacete como precedente válido pero distinto. Esto está en el cuerpo principal, no en un disclaimer al pie.
+- **Sin claims de salud.** El email no insinúa en ningún momento que los niveles medidos supongan riesgo de salud. La conclusión explícita es que "la exposición a radiofrecuencia es mediblemente más alta" — no que sea dañina.
+- **Datos de operadores y gobierno.** Los datos de Aras de los Olmos, visitantes totales, aeropuertos y operadores proceden de prensa española y nota de gobierno de la semana del 5-8 de agosto de 2026 (verificados según el briefing). No se citan como estudios científicos sino como noticias de esta misma semana — lo que refuerza la inmediatez del email.
+- **Voz EPI.** Tercera persona / divulgación. No aparece "yo" de Javier ni voz clínica. La firma es "El Precio Invisible", no "Javier".
+- **Sin mención de SPIRO, Ekio Light, precios ni CTA de compra.** Email 100% ciencia.
+- **Smart Sending ON.** 96h desde EKO jue 6 ago (9:00). Cumple holgadamente. ✓
+- **Cadencia semana 2 agosto:** EPI lun 10 (este email) → FJA mié 12 (eclipse/ionosfera/Appleton, aprobado) → EKO jue 13 (venta SPIRO espacio, pendiente) → LLR sáb 15 (eclipse/luz circadiana, aprobado).

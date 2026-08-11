@@ -11,9 +11,9 @@
 
 ## ASUNTO
 
-**Principal:** En 1927 un físico midió algo con una radio de la BBC. Esta tarde lo vas a ver en directo.
-**A/B 1:** Lo que le pasa a la ionosfera en los próximos 76 segundos sobre España (y por qué importa)
-**A/B 2:** El experimento de 1927 que explicó por qué el entorno electromagnético cambia cada día, a cada hora
+**Principal:** 1927. Una radio de la BBC. Hoy, ese experimento se repite sobre tu cabeza.
+**A/B 1:** Nadie sabía que el cielo respondía tan rápido. Hasta que alguien lo midió con una radio de la BBC.
+**A/B 2:** Esta tarde vas a presenciar algo que un físico solo pudo demostrar con una radio de la BBC, hace casi cien años.
 
 ## PREVIEW TEXT
 
