@@ -2,7 +2,7 @@
 
 **Newsletter:** Ekio Electrosmog (EKO)
 **Tono:** Directo, voz de marca, foco en conversión. Sin primera persona de Javier — la marca habla.
-**Producto:** Gama de protección de espacio SPIRO — SPIRO Disc Ultra (929€, confirmado) + SPIRO Square
+**Producto:** Gama de protección de espacio SPIRO — SPIRO Disc X (597€, confirmado — más stock que el Ultra, funciones similares) + SPIRO Square
 **Segmento Klaviyo:** Engaged ≥2 aperturas 30d; excluir compradores de SPIRO (cualquier variante: Card, Disc, Square, Pack Personal, Pack Hogar) en los últimos 90 días
 **Objetivo:** Convertir el hilo de la semana 2 (EPI lun + FJA mié eclipse) en venta directa de la gama de protección de espacio SPIRO. Ángulo: el alojamiento temporal del eclipse —y cualquier espacio de agosto que no controlas— como razón concreta y urgente para proteger el espacio, no solo llevar protección personal. Sin descuento — los elementos de valor son puntos de fidelización, garantía 30 días, pago a plazos y 3 meses sin intereses con Sequra.
 **Smart Sending:** FJA mié 12 ago (9:00) → EKO jue 13 ago (9:00) = 24 horas — excepción permanente confirmada para la cadencia miércoles→jueves de agosto. *(No activar Smart Sending en Klaviyo para este envío.)*
@@ -47,13 +47,13 @@ Para eso existe la gama de protección de espacio SPIRO.
 
 ---
 
-**SPIRO Disc Ultra y SPIRO Square — la protección que actúa sobre el entorno.**
+**SPIRO Disc X y SPIRO Square — la protección que actúa sobre el entorno.**
 
 La tecnología SPIRO no bloquea la señal: la filtra. Actúa sobre el material nanocompuesto para organizar las emisiones electromagnéticas del espacio donde se coloca. Puedes seguir usando todos tus dispositivos con normalidad. Lo que cambia es el campo en el que lo haces.
 
-El Disc Ultra es el producto de referencia de la gama. Siete metros de radio de acción desde donde se coloca: un dormitorio completo, una sala de estar, toda la planta de un apartamento. No requiere instalación, ni batería, ni recambios. Se coloca una vez y su vida útil es permanente.
+El Disc X es el producto de referencia de la gama. Siete metros de radio de acción desde donde se coloca: un dormitorio completo, una sala de estar, toda la planta de un apartamento. No requiere instalación, ni batería, ni recambios. Se coloca una vez y su vida útil es permanente.
 
-**929€.**
+**597€.**
 
 El Square es la opción de la gama para espacios más acotados: ideal si necesitas una solución intermedia o quieres concentrar la acción en un área concreta dentro de un espacio mayor.
 
@@ -77,13 +77,13 @@ Ekio Electrosmog
 ## CTA BUTTON COPY
 
 **Proteger el espacio con SPIRO**
-**URL:** https://electrosmogespana.com/products/spiro-disc-ultra
+**URL:** https://electrosmogespana.com/products/spiro-disc-x
 
 ---
 
 ## P.S.
 
-Si ya tienes el Pack Personal SPIRO y quieres añadir la capa de espacio —para el dormitorio, el salón, o el apartamento donde vas a pasar el resto de agosto— el Disc Ultra es el paso natural. Escríbenos con tu situación y te orientamos antes de que decidas.
+Si ya tienes el Pack Personal SPIRO y quieres añadir la capa de espacio —para el dormitorio, el salón, o el apartamento donde vas a pasar el resto de agosto— el Disc X es el paso natural. Escríbenos con tu situación y te orientamos antes de que decidas.
 
 ---
 
@@ -105,10 +105,11 @@ Si ya tienes el Pack Personal SPIRO y quieres añadir la capa de espacio —para
 
 ### Productos — confirmado por Javier (13/ago/2026)
 
-**SPIRO Disc Ultra:**
-- Radio de acción: 7 metros.
-- Precio: **929€, confirmado.**
-- URL de producto: https://electrosmogespana.com/products/spiro-disc-ultra — confirmada (verificada en datos reales de Search Console: 947 impresiones / 8 queries).
+**SPIRO Disc X:**
+- Sustituye al Disc Ultra en este email: Javier prefiere empujar el Disc X porque hay más stock y las funciones son similares.
+- Radio de acción: 7 metros (dato heredado del Ultra por similitud funcional — confirmar si el Disc X tiene la misma especificación exacta antes del envío).
+- Precio: **597€, confirmado por Javier.**
+- URL de producto: https://electrosmogespana.com/products/spiro-disc-x — dada directamente por Javier.
 
 **SPIRO Square:**
 - Confirmado por Javier: va en la gama de protección de espacio (no en la personal). Sin precio ni especificaciones técnicas propias confirmadas todavía — se mantiene presentado sin inventar esos datos.
