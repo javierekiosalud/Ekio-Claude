@@ -4,7 +4,7 @@
 **Tono:** Divulgación accesible, cercana — explicado como a un amigo sin formación científica
 **Producto:** Bombilla Ámbar Ekio Light (1800K), mencionada de pasada en el cierre como conexión con el Email 05. Sin precio ni botón de venta.
 **Segmento Klaviyo:** Lista principal activa
-**Objetivo:** Usar el eclipse solar total del miércoles 12 de agosto como punto de entrada para explicar cómo el sistema melanopsina/células ganglionares fotosensibles detecta cambios de luz en segundos — y por qué esa detección ultrarrápida no es suficiente para desencadenar la respuesta hormonal (melatonina), que requiere señal sostenida durante horas. Conectar con el Email 05 (bombilla ámbar, melanopsina) sin asumir que todos lo leyeron.
+**Objetivo:** Usar el eclipse solar total del miércoles 12 de agosto como punto de entrada para explicar cómo el sistema melanopsina/células ganglionares fotosensibles detecta cambios de luz en segundos — y por qué esa detección ultrarrápida no es suficiente para desencadenar la respuesta hormonal (melatonina), que requiere señal sostenida durante horas. Email autocontenido: no referencia ningún email anterior (el Email 05 que iba a preceder este contenido fue descartado).
 **Smart Sending:** EKO jue 13 ago (9:00) → LLR sáb 15 ago (9:00) = 48 horas exactas — cumple el mínimo de 48h.
 
 ---
@@ -59,7 +59,7 @@ Lo que estos datos apuntan en conjunto es que los sistemas biológicos que leen 
 
 Aquí viene algo que no es obvio pero que cambia cómo entiendes tu propio sistema.
 
-Tú también tienes esas células. En la retina hay un tipo de células especialmente sensibles a la luz azul — se llaman células ganglionares fotosensibles, contienen un pigmento llamado melanopsina, y son las que le dicen al cerebro cuándo es de día y cuándo empieza la noche. Si leíste el sábado pasado en esta misma newsletter, hablamos de ellas con más detalle. Si no, con eso ya tienes lo esencial.
+Tú también tienes esas células. En la retina hay un tipo de células especialmente sensibles a la luz azul — se llaman células ganglionares fotosensibles, contienen un pigmento llamado melanopsina, y son las que le dicen al cerebro cuándo es de día y cuándo empieza la noche.
 
 Durante el eclipse del miércoles, esas células detectaron el cambio. La caída de luz azul fue real y fue brusca — lo suficientemente brusca para que las aves y las abejas reaccionaran en segundos.
 
@@ -91,9 +91,7 @@ Pero la respuesta hormonal — la melatonina que necesitas para dormir — neces
 
 **La señal que sí puede leer el sistema**
 
-Si algo de esto te conecta con lo que contamos el sábado pasado en esta newsletter, es porque es la misma historia vista desde otro ángulo.
-
-El atardecer —gradual, cálido, decreciente— es la señal exacta para la que está calibrado tu sistema circadiano. No porque sea bonito, sino porque dura lo suficiente para que el mensaje llegue. La bombilla ámbar de Ekio Light (1800K) replica ese cambio de temperatura de color de forma sostenida durante las dos horas antes de dormir, estés donde estés.
+El atardecer real —gradual, cálido, decreciente durante una o dos horas— es la señal exacta para la que está calibrado tu sistema circadiano. No porque sea bonito, sino porque dura lo suficiente para que el mensaje llegue. La bombilla ámbar de Ekio Light (1800K) replica ese cambio de temperatura de color de forma sostenida durante las dos horas antes de dormir, estés donde estés.
 
 No es la brusquedad de un eclipse lo que activa el sistema.
 
@@ -140,7 +138,7 @@ Los estudios citados son verificables en acceso público: PMID 41066559 (DOI: 10
 - **Honestidad sobre el zoo study:** Se cita con resultados heterogéneos, tal como el paper los describe. No se exagera la reacción de los animales de zoo para no comprometer la credibilidad del email.
 - **Claim central verificable:** "La melatonina necesita señal sostenida durante horas, no segundos" es un principio bien establecido en la literatura circadiana (integración temporal de ipRGCs) y es coherente con Brainard 2001 y Lockley 2003 ya referenciados en Email 05. No se necesita un nuevo paper para sostenerlo, pero el contexto de los dos papers del Email 05 lo respalda.
 - **Registro:** términos técnicos siempre acompañados de traducción en lenguaje llano. "Células ganglionares fotosensibles" → "células especialmente sensibles a la luz azul". "Melanopsina" → "un pigmento llamado melanopsina". "Integración temporal" → "medidor de exposición acumulada". Sin fórmulas, sin nanómetros, sin ecuaciones.
-- **Conexión con Email 05:** mencionada de forma explícita pero no obligatoria — "Si leíste el sábado pasado [...]. Si no, con eso ya tienes lo esencial." El email funciona como pieza autónoma.
+- **Corrección aplicada (13/ago/2026):** la versión original referenciaba dos veces "lo que contamos el sábado pasado" (Email 05, bombilla ámbar/melanopsina). El Email 05 fue descartado por decisión de Javier, así que esas referencias apuntaban a contenido que el lector nunca recibió. Se eliminaron ambas menciones; el email ahora introduce la melanopsina de cero y funciona como pieza completamente autónoma.
 - **Smart Sending:** EKO jue 13 ago (9:00) → LLR sáb 15 ago (9:00) = 48 horas exactas. Cumple el mínimo.
 - **Sin claims médicos:** el email no atribuye efectos de salud específicos ni habla de "tratar" nada. El disclaimer "No constituye consejo médico" cierra el body.
 - **Cierre:** termina con "La Luz que Repara" igual que Email 05, manteniendo la coherencia de firma de la newsletter.
