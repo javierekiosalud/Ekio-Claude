@@ -1,5 +1,7 @@
+> **⚠️ ARCHIVADO 13/ago/2026.** Fusionado dentro de [`Skills/content-creator-ekio.md`](../content-creator-ekio.md), usado por el agente único `content-creator-agent`. Su tabla de formato por canal y su tabla de objeciones se copiaron allí tal cual. Se conserva aquí solo como referencia histórica; no lo actives.
+
 ---
-name: ekio-comunicacion
+name: ekio-comunicacion (ARCHIVADO — no usar, ver nota arriba)
 description: >
   Skill de creación de contenido de comunicación para EKIO usando NotebookLM como fuente
   de verdad. Úsalo para crear posts de Instagram, emails, copy de producto, guiones de vídeo,

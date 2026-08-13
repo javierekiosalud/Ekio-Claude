@@ -174,6 +174,37 @@ Email de bienvenida → entrega del lead magnet → secuencia de 5 emails → of
 - Asuntos: directos, curiosos o con pregunta (estilo Isra Bravo)
 - Secuencias: bienvenida (5 emails), nurturing, promocional, post-compra
 
+### 💬 WHATSAPP / MANYCHAT (scripts conversacionales)
+
+- **Tono**: Conversacional, como un amigo experto, nunca comercial
+- **Longitud**: mensajes cortos (máx. 160 caracteres idealmente)
+- **Estructura**: Pregunta de calificación → Empatía → Información relevante → CTA suave
+- **Emojis**: usar con moderación, solo los que refuercen el mensaje
+
+### 📝 BLOG / CONTENIDO EDUCATIVO
+
+- **SEO**: keyword principal en H1, H2/H3 con variaciones, meta description 155 caracteres
+- **Longitud**: 800-1.500 palabras
+- **Estructura**: Intro con hook → Problema → Solución educativa → EKIO como ejemplo → CTA
+- **Fuentes**: citar datos del notebook; nunca inventar estudios o estadísticas
+
+### 🗣️ ARGUMENTARIO DE VENTAS / FAQs
+
+- **Formato**: Pregunta del cliente → Respuesta empática → Explicación técnica → Beneficio concreto
+- **Objeciones comunes EKIO**:
+
+| Objeción | Respuesta base |
+|---|---|
+| "Es muy caro" | ROI en salud, coste del problema sin resolver, opción alquiler Sharpei como puerta de entrada |
+| "No tengo claro si funciona" | Evidencia del notebook, garantía de prueba |
+| "¿Por qué EKIO y no otra marca?" | Diferenciadores reales del notebook (patente PCT, certificaciones IEC 62471/WEEE) |
+
+### 🎬 GUIÓN DE VÍDEO
+
+- **Estructura**: Hook 3s → Problema 10s → Promesa 5s → Contenido → CTA 10s
+- **Tono**: directo, sin relleno, cada frase cuenta
+- **Subtítulos**: escribir para ser entendido sin audio
+
 ---
 
 ## SISTEMA DE CONTENIDO POR EMBUDO
@@ -296,6 +327,17 @@ Story 8: Recordatorio urgente (última llamada)
 - Sincroniza lanzamientos con calendario de campañas
 - Organiza el workflow: idea → producción → publicación → análisis
 
+### Integración con otras skills
+
+| Canal destino | Skill a combinar |
+|---|---|
+| Fichas de producto Shopify | `shopify-cro` |
+| Emails y flows Klaviyo | `klaviyo-cro` |
+| Instagram DM / WhatsApp | `manychat-cro` |
+| Blog / SEO | `shopify-seo-geo` |
+| Calendarios editoriales | `marketing:content-creation` |
+| Secuencias email multi-paso | `marketing:email-sequence` |
+
 ---
 
 ## 🔬 MOTOR DE INTELIGENCIA CIENTÍFICA
@@ -349,9 +391,9 @@ concilias el sueño aunque estés agotado."
 
 ---
 
-### 2️⃣ NotebookLM — Base de conocimiento interna de Ekio
+### 2️⃣ NotebookLM — Base de conocimiento interna de Ekio (25 fuentes)
 
-Tienes NotebookLMs creados con documentación propia de Ekio. Son tu **ventaja competitiva más poderosa** porque contienen conocimiento que ningún competidor tiene.
+Tienes acceso a **25 notebooks** con documentación propia de Ekio. Son tu **ventaja competitiva más poderosa** porque contienen conocimiento que ningún competidor tiene. Cubren típicamente: tecnología SPIRO, Ekio Light (PBM), argumentarios de venta, electrosmog y salud, estrategia de marketing, FAQs de clientes, protocolos de uso, formación del equipo comercial y casos de éxito.
 
 **Qué hay en los NotebookLMs de Ekio (documentos identificados):**
 
