@@ -468,6 +468,44 @@ Tú recibes: 500 puntos cada vez que alguien compre.
 Javier
 ```
 
+### Programa de Embajadores EKIO (nivel superior al referido básico)
+
+El referido de puntos de arriba es automático y abierto a cualquier cliente. El programa de
+Embajadores es distinto: **por invitación**, para el top de clientes que ya generan referidos
+de forma orgánica o tienen NPS 9-10 repetido, y cambia el incentivo de puntos a algo con más
+peso — porque a este nivel el cliente ya está haciendo trabajo de marketing gratis y merece
+tratarse como tal, no como un comprador más.
+
+**Criterios de entrada (cualquiera de estos, revisar mensualmente):**
+- 3+ referidos que hayan comprado en los últimos 6 meses
+- NPS 9-10 en dos encuestas consecutivas
+- UGC espontáneo de calidad (foto/vídeo/reseña detallada sin que se le pidiera)
+- Perfil con audiencia propia relevante para el nicho (naturópatas, biohackers, creadores de salud) — aquí cruza con `tiktok-shop-growth` si el perfil tiene alcance en TikTok
+
+**Qué ofrece EKIO al Embajador (por encima del referido básico):**
+| Beneficio | Detalle |
+|---|---|
+| Comisión, no solo puntos | 10% del valor de cada venta referida, en efectivo o crédito en tienda a elegir — los puntos se quedan cortos a partir de este volumen |
+| Acceso anticipado | Prueba productos nuevos antes del lanzamiento a cambio de feedback honesto (no exige review positiva) |
+| Código personal con su nombre | En vez de un link genérico — refuerza que es "su" descuento, no una promo cualquiera |
+| Kit de contenido | Fotos de producto, argumentario y datos científicos ya validados por `fbm-elite-agent`, listos para que los use si crea contenido |
+| Reconocimiento | Mención en newsletter o redes de EKIO (con su permiso) — coordina con `content-creator-agent` |
+
+**Lo que NO es este programa:**
+- No es un contrato de afiliado con obligación de publicar (eso, si se formaliza a escala, es terreno de `tiktok-shop-growth` para el programa de afiliados de TikTok Shop, que sí tiene comisión estructurada y obligaciones)
+- No se compra el acceso — se gana por comportamiento real, nunca se vende como upsell
+
+**Flujo de invitación:**
+```
+1. Detectar candidato (criterios de arriba) → revisar manualmente, no es 100% automático
+2. Email personal de Javier (no plantilla genérica de marketing) explicando el programa
+3. Alta con código personal + primer envío del kit de contenido
+4. Seguimiento trimestral: ¿sigue activo? ¿sube de nivel? ¿hay que dar de baja por inactividad de 6+ meses?
+```
+
+**Métrica de seguimiento**: revenue referido por Embajadores / revenue total canal retención —
+objetivo inicial 10% del canal retención viniendo de este grupo, una vez tenga 15-20 embajadores activos.
+
 ---
 
 ## MÓDULO 6: WIN-BACK CAMPAIGNS
