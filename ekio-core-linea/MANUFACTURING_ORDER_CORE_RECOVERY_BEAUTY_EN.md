@@ -1,10 +1,10 @@
 # QUOTATION REQUEST — FINAL PRODUCT SPECIFICATION
 ## Ekio Light — Core Recovery and Core Beauty
-### v1.0 · 2026-08-05
+### v2.0 · 2026-08-20
 
-> **This is a request for quotation, based on the specification below — not a purchase order.** Please do not begin production, tooling, or component procurement based on this document. We need your formal budget (unit pricing, MOQ, tooling cost if any, lead time, and payment terms) before we place an order.
+> **This is a request for quotation, based on the specification below — not a purchase order.** Please do not begin production, tooling, or component procurement based on this document. We need your formal budget (unit pricing, packaging/manual production cost, lead time, and payment terms) before we place an order.
 >
-> This specification consolidates the technical brief we sent on 2026-07-27 and your confirmed answers to it. Items still pending from our separate follow-up (LED quality and irradiance data) do not block this quotation — please quote on the specification as written below, and we will finalize final details before production starts.
+> This specification consolidates the technical brief we sent on 2026-07-27, your confirmed answers to it, and your confirmed answers on LED quality and irradiance data.
 
 ---
 
@@ -22,7 +22,7 @@ Two new variants of the **Ekio Light Core** device you currently produce for us,
 
 ## 2. CONFIRMED SPECIFICATION
 
-The following is now final, based on your answers to our technical brief. Please quote against this specification as written.
+The following is now final. Please quote against this specification as written.
 
 ### 2.1 Shared with the current Core (unchanged)
 - Chassis and mold: 162 × 90 × 45 mm — same mold, no modifications.
@@ -32,11 +32,12 @@ The following is now final, based on your answers to our technical brief. Please
 - Zero visible flicker, low electromagnetic field emission.
 - Base certifications: RoHS, CE, WEEE.
 
-### 2.2 Confirmed by you (2026-07-29)
+### 2.2 Confirmed by you
 - Both tri-die packages exist: **660/810/940 nm** and **590/630/670 nm**.
 - PCB supports **3 independent driver channels**.
 - The 3 dies cannot run at full current simultaneously; **product maximum power is 10 W**, shared across dies in combined mode.
 - No new CE testing required for the electrical/EMC baseline.
+- **LED chip quality (brand, batch consistency, lifespan) and irradiance data (mW/cm² per band and combined) — confirmed as satisfactory.** Thank you.
 
 ### 2.3 Core Recovery — specification
 - Wavelengths: **660 · 810 · 940 nm**, tri-die chip, all 13 positions.
@@ -44,6 +45,7 @@ The following is now final, based on your answers to our technical brief. Please
 - CW and 10 Hz pulsed as mode options (applied to the combined output).
 - Hardware thermal cutoff via NTC sensor + comparator (exact threshold to be confirmed — see §4).
 - No substitutions accepted without prior consultation: 810 nm ≠ 800/830 nm; 940 nm ≠ 850/880 nm; no "905 nm" LEDs (does not exist as a precision LED).
+- **Chassis color: black.** Suggestions welcome if you have a finish or shade that looks better on this chassis.
 
 ### 2.4 Core Beauty — specification
 - Wavelengths: **590 · 630 · 670 nm**, tri-die chip, all 13 positions.
@@ -52,9 +54,10 @@ The following is now final, based on your answers to our technical brief. Please
 - No blue or violet (405, 450, 485 nm).
 - Auto shut-off timer enabled by default, not trivial for the user to disable (exact timing to be confirmed — see §4).
 - CW mandatory; 10 Hz pulsed optional.
+- **Chassis color: gold.** Suggestions welcome if you have a finish or shade that looks better on this chassis.
 
-### 2.5 Packaging
-- Reuse the current Core box, with a **differentiated sleeve per variant**.
+### 2.5 Packaging and manuals
+- We are designing **custom packaging and a custom instruction manual for each model** (Core Recovery and Core Beauty). We will provide artwork and specifications separately — this is not a reuse of the current Core box.
 
 ### 2.6 Marketing/regulatory note
 - Both products are marketed as **wellness devices**, not medical devices. Product documentation must not contain therapeutic or clinical claims.
@@ -65,30 +68,23 @@ The following is now final, based on your answers to our technical brief. Please
 
 Please provide:
 
-1. **Unit price per variant**, at these volume tiers:
-   - Your standard MOQ
-   - 500 units
-   - 1,000 units
-   *(If your MOQ is above 500, just give us pricing at MOQ and at 2× MOQ.)*
-2. **Incoterm** (EXW / FOB / other — please specify which port if FOB).
-3. **NRE / tooling cost**, if any, for the new PCB variant (one-time, not per-unit). We assume the chassis mold is already amortized and unchanged.
-4. **Additional certification/testing cost**, if any — in particular for IEC 62471 photobiological safety testing per variant (still an open item on our side, but please price it in case it applies).
-5. **Sleeve/packaging cost** per variant.
-6. **Production lead time** from confirmed PO to delivery, for each variant.
-7. **Payment terms** (deposit %, balance on shipment, etc.).
+1. **Unit price per variant.**
+2. **Packaging and manual production cost per variant**, based on our own custom design (artwork/specs to follow).
+3. **Production lead time** from confirmed PO to delivery, for each variant.
+4. **Payment terms** (deposit %, balance on shipment, etc.).
 
 ---
 
 ## 4. STILL OPEN — do not let this block your quotation
 
-We have a separate, short follow-up out to you on **LED quality** (brand/manufacturer per wavelength, batch consistency, lifespan) and **irradiance data** (mW/cm² per band and combined). We also still need to close the exact thermal cutoff threshold for Core Recovery and the auto shut-off timing for Core Beauty. None of this should delay your budget — please quote on the specification in §2, and we'll confirm these last details before finalizing the order.
+We still need to close the exact thermal cutoff threshold for Core Recovery and the auto shut-off timing for Core Beauty. This should not delay your budget — please quote on the specification in §2, and we'll confirm these last details before finalizing the order.
 
 ---
 
-## 5. TARGET DATES
+## 5. TARGET DATE
 
-For planning purposes: our target is **Core Beauty in stock by early September 2026** and **Core Recovery by late October 2026**, ahead of Black Friday. Please tell us in your quotation whether your lead time makes this realistic, and if not, what the earliest realistic date is.
+For planning purposes: our target is to have **both Core Recovery and Core Beauty in stock by early November 2026**, ahead of Black Friday. Please tell us in your quotation whether your lead time makes this realistic, and if not, what the earliest realistic date is.
 
 ---
 
-*Please reply with your quotation referencing the section numbers above. Once we have your numbers we will confirm quantities and issue a formal purchase order.*
+*Please reply with your quotation referencing the section numbers above.*
