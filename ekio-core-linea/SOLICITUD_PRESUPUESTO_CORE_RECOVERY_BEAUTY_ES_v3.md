@@ -43,7 +43,7 @@ Lo siguiente ya es definitivo. Pedimos que coticen sobre esta especificación ta
 - Longitudes de onda: **660 · 810 · 940 nm**, chip triple, en las 13 posiciones.
 - **Modo único**: las tres bandas se encienden siempre juntas — sin selección independiente por banda.
 - CW y pulsado a 10 Hz como opciones de modo (aplicadas al conjunto combinado).
-- Corte térmico por hardware vía sensor NTC + comparador (umbral exacto por confirmar — ver §4).
+- Corte térmico por hardware vía sensor NTC + comparador (umbral exacto por confirmar con ustedes).
 - No se aceptan sustituciones sin consulta previa: 810 nm ≠ 800/830 nm; 940 nm ≠ 850/880 nm; nada de LEDs "905 nm" (no existe como LED de precisión).
 - **Color de chasis: negro.** Sugerencias bienvenidas si tienen un acabado o tono que quede mejor en este chasis.
 
@@ -52,7 +52,7 @@ Lo siguiente ya es definitivo. Pedimos que coticen sobre esta especificación ta
 - **Modo único**: las tres bandas se encienden siempre juntas — sin selección independiente por banda, sin niveles de intensidad seleccionables por el usuario.
 - Sin infrarrojo (nada de 810, 850, ni ninguna banda por encima de 700 nm).
 - Sin azul ni violeta (405, 450, 485 nm).
-- Temporizador de autoapagado activado por defecto, que no sea trivial de desactivar para el usuario (tiempo exacto por confirmar — ver §4).
+- Temporizador de autoapagado activado por defecto, que no sea trivial de desactivar para el usuario (tiempo exacto por confirmar con ustedes).
 - CW obligatorio; pulsado a 10 Hz opcional.
 - **Color de chasis: oro.** Sugerencias bienvenidas si tienen un acabado o tono que quede mejor en este chasis.
 
@@ -75,13 +75,7 @@ Pedimos que nos den:
 
 ---
 
-## 4. SIGUE ABIERTO — que no bloquee su presupuesto
-
-Nos falta cerrar el umbral exacto del corte térmico del Core Recovery y el tiempo de autoapagado del Core Beauty. Esto no debería retrasar su presupuesto — pedimos que coticen sobre la especificación de la §2, y confirmaremos estos últimos detalles antes de cerrar el pedido.
-
----
-
-## 5. FECHA OBJETIVO
+## 4. FECHA OBJETIVO
 
 Para planificación: nuestro objetivo es tener **tanto Core Recovery como Core Beauty en almacén a principios de noviembre de 2026**, antes de Black Friday. Pedimos que nos digan en su presupuesto si su plazo de entrega hace esto realista, y si no, cuál sería la fecha más temprana realista.
 
