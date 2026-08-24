@@ -2,7 +2,7 @@
 
 **Newsletter:** Javier Andrés (FJA)
 **Tono:** Autoridad clínica en primera persona — estilo Isra Bravo. Abre con anécdota histórica real verificada (John Snow, septiembre 1854) pivotando a observación clínica sobre el entorno electromagnético del hogar en la vuelta a la rutina. **Este FJA SÍ tiene objetivo de venta directa** (a diferencia del patrón habitual FJA de educación pura): precio explícito, CTA de compra. El tono sigue siendo clínico y narrativo, sin urgencia artificial ni presión.
-**Producto:** Pack Hogar (SPIRO Disc, cobertura hasta 7 metros de radio, 277€)
+**Producto:** Pack Hogar (SPIRO Disc, cobertura hasta 7 metros de radio, 350€)
 **Segmento Klaviyo:** Lista principal activa; excluir compradores de SPIRO (cualquier variante: Card, Disc, Square, Pack Personal, Pack Hogar) en los últimos 90 días
 **Objetivo:** Vender el Pack Hogar con el motivo narrativo de la vuelta a la rutina familiar de septiembre — el hogar también necesita "volver a su sitio", igual que los horarios y las mochilas. Sin apelación a miedo, sin claims de salud para niños, sin lenguaje de reducción/bloqueo.
 **Smart Sending:** Email 14 EKO mar 25 ago (9:00) → FJA jue 27 ago (9:00) = 48 horas exactas. CUMPLE. *(También compatible hacia adelante: este email → Email 15 sáb 29 ago = 48h exactas también.)*
@@ -65,9 +65,9 @@ Una vez instalado, es permanente. No se carga, no se cambia, no caduca.
 
 Si ya tienes la mochila lista, el horario colgado y el menú planificado, solo falta una cosa.
 
-**Pack Hogar — 277€**
+**Pack Hogar — 350€**
 
-[URL PENDIENTE DE CONFIRMAR — Pack Hogar / SPIRO Disc]
+**[ Preparar el hogar para septiembre → ]**
 
 Javier
 
@@ -77,8 +77,7 @@ Javier
 
 **Preparar el hogar para septiembre**
 
-URL: [URL PENDIENTE DE CONFIRMAR — Pack Hogar / SPIRO Disc]
-*(Confirmar URL antes del envío — posiblemente https://electrosmogespana.com/products/pack-hogar o similar)*
+URL: https://electrosmogespana.com/products/pack-spiro-hogar-oficina
 
 ---
 
@@ -150,7 +149,7 @@ Email 14 EKO (martes 25 agosto, 9:00) → este FJA (jueves 27 agosto, 9:00) = 48
 
 ### URL del producto
 
-No hay URL confirmada para "Pack Hogar" en este briefing. El placeholder `[URL PENDIENTE DE CONFIRMAR — Pack Hogar / SPIRO Disc]` debe sustituirse antes del envío a Klaviyo. Candidata probable: https://electrosmogespana.com/products/pack-hogar o https://electrosmogespana.com/collections/spiro — confirmar con Javier o Isabela antes de programar.
+Confirmado por Javier (27/ago/2026): precio real **350€** (no 277€ como en la referencia inicial) y URL real **https://electrosmogespana.com/products/pack-spiro-hogar-oficina**. El nombre de producto en Shopify es "Pack SPIRO Hogar y Oficina" — el copy sigue llamándolo "Pack Hogar" por brevedad y consistencia con el resto de la campaña, pero es el mismo producto.
 
 ---
 
