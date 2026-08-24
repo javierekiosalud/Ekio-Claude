@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "model": "haiku",
+  "permissions": {
+    "allow": [
+      "mcp__claude_ai_Shopify__get-shop-info",
+      "mcp__claude_ai_Shopify__search_products",
+      "mcp__claude_ai_Shopify__get-product",
+      "mcp__claude_ai_Shopify__search_collections",
+      "mcp__claude_ai_Shopify__get-collection",
+      "mcp__claude_ai_Shopify__list-orders",
+      "mcp__claude_ai_Shopify__get-order",
+      "mcp__claude_ai_Shopify__list-customers",
+      "mcp__claude_ai_Shopify__get-inventory-levels",
+      "mcp__claude_ai_Shopify__run-analytics-query",
+      "mcp__claude_ai_Shopify__graphql_query",
+      "mcp__claude_ai_Shopify__graphql_schema",
+      "Read",
+      "Edit(loops/shopify-analytics/output/**)"
+    ]
+  }
+}
