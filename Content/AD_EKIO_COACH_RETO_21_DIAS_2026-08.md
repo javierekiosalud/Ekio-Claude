@@ -21,11 +21,11 @@ No vende ningún producto. No hay CTA de "Comprar" en ningún punto. Es un anunc
 - **Prueba social real (sin inventar cifras del reto, que aún no ha empezado):** la app Ekio Coach existe y funciona desde julio de 2026 — "cientos de familias" ya la usan para luz, sueño y entorno electromagnético. No usar ningún número de inscritos al Reto en concreto: todavía no ha arrancado.
 - **El sorteo:** un panel **Ekio Light Core** entre quienes se apunten al reto.
 
-## LA REGLA QUE NO SE PUEDE SALTAR — EL CORE COMO PREMIO
+## CORRECCIÓN (11/ago/2026) — EL CORE SÍ ESTÁ A LA VENTA
 
-Instrucción ya fijada por el propio equipo de email marketing, y este anuncio la hereda sin excepción:
+Javier ha corregido el supuesto con el que se escribió la primera versión de este documento: el Ekio Light Core **sí está disponible para el público general**, no es un producto exclusivo del sorteo. Los emails de la secuencia de agosto (redactados antes de esta corrección) decían lo contrario — habrá que revisarlos también antes de enviarlos si todavía no han salido.
 
-> **El Core se presenta EXCLUSIVAMENTE como premio de sorteo. Nunca dar un precio. Nunca decir o insinuar que se puede comprar. Nunca decir "el más barato" ni compararlo con otros paneles por precio.** Es el panel más nuevo de Ekio Light y **todavía no está disponible para el público general** — el reto es, ahora mismo, la única forma de conseguirlo. Esa exclusividad es el gancho; no hace falta ni conviene añadir nada más.
+**Regla de este anuncio, ya corregida:** el sorteo sigue siendo real y sigue siendo el gancho (ganar uno gratis, sin gastar nada, participando en el reto) — pero el anuncio ya no puede decir "todavía no está disponible", "aún no se puede comprar" ni ninguna variante de exclusividad, porque sería falso. **No tengo el precio real verificado del Core** (no aparece con ese nombre en el catálogo de Shopify que he podido consultar) — así que este anuncio tampoco menciona ningún precio. Si se quiere añadir un CTA de compra directa del Core en paralelo al sorteo, hace falta el precio real y probablemente sea mejor un anuncio distinto centrado en venta, no en este de captación para el reto.
 
 ## LA FECHA Y EL "AUNQUE LO VEAN DESPUÉS"
 
@@ -45,18 +45,18 @@ Javier ha confirmado que aunque el reto empiece el 1 de septiembre, quien vea el
 | **4-9s** | Corte a luz de mañana entrando por una ventana, alguien descorriendo una cortina. Cambio de ritmo visual: de caótico a calmado. | "Y tiene toda la lógica del mundo. Pero cuando llega septiembre —el cole, el trabajo, el ritmo de siempre— el cuerpo lo nota." | "Septiembre lo recoloca." |
 | **9-16s** | Pantalla de móvil grabada mostrando la pantalla real de registro de Ekio Coach (icono morado-magenta con el rayo, "Regístrate gratis"). | "Por eso existe el Reto 21 días: Vuelta a tu Ritmo. Del 1 al 21 de septiembre. Gratis, sin tarjeta, para toda la familia. Cada día, la app te propone un paso: cuándo tomar luz por la mañana, cómo preparar el cuarto antes de dormir, qué hábito de protección electromagnética meter en el día a día." | "Reto 21 días: Vuelta a tu Ritmo / Gratis · Sin tarjeta · Toda la familia" |
 | **16-21s** | Texto animado sobre fondo cálido oscuro. | "En 21 días, la mayoría de personas ya duerme mejor, se despierta con más energía, y tiene un ritmo de vuelta." | "Duerme mejor. / Más energía. / Un ritmo de vuelta." |
-| **21-26s** | Panel Ekio Light Core en plano limpio, con una cinta o etiqueta visual de "sorteo" — nunca con precio ni cerca de ningún elemento de compra (carrito, botón "añadir"). | "Y hay un sorteo: entre quienes se apunten, sorteamos un panel Ekio Light Core el último día, en directo. Todavía no está a la venta — el reto es la única forma de conseguirlo ahora mismo." | "Sorteo: Ekio Light Core / Aún no disponible para el público" |
+| **21-26s** | Panel Ekio Light Core en plano limpio, con una cinta o etiqueta visual de "sorteo" — sin precio en pantalla, para no mezclar el mensaje de sorteo gratuito con uno de venta. | "Y hay un sorteo: entre quienes se apunten, sorteamos un panel Ekio Light Core el último día, en directo. Gratis, sin tener que comprar nada." | "Sorteo: Ekio Light Core / Entre quienes se apunten al reto" |
 | **26-28s** | Logo Ekio. | "El reto empieza el 1 de septiembre. Apúntate ahora. Somos EKIO. Tecnología que te cuida." | "Regístrate gratis →" |
 
 ### 3 variantes del gancho (0-4s)
 
 - **Gancho A (control — caos de verano reconocible):** el montaje descrito arriba + "El verano os desordenó los horarios." — Reutiliza el ángulo ya probado en el email de lanzamiento (mismo texto), que ya está escrito y aprobado.
-- **Gancho B (el sorteo por delante):** plano del panel Core con una etiqueta de "aún no a la venta" + VO: "Hay un panel que todavía no se puede comprar. Pero sí se puede ganar." Pausa. — Lidera con la exclusividad en vez del problema; puede funcionar mejor para audiencia que ya conoce Ekio Light y reconoce el Core.
+- **Gancho B (el sorteo por delante):** plano del panel Core con una etiqueta de "sorteo" + VO: "Hay un panel que puedes ganar gratis, sin comprarlo." Pausa. — Lidera con el sorteo en vez del problema de rutina; puede funcionar mejor para audiencia que ya conoce Ekio Light y reconoce el Core.
 - **Gancho C (vuelta al cole, marco familiar):** planos de mochila junto a la puerta, zapatos de niño, calendario de septiembre + VO: "Vuelta al cole. Vuelta al trabajo. ¿Y la rutina de casa?" — Ancla el reto al momento estacional exacto en el que se lanza el anuncio, coherente con el resto de la campaña de agosto.
 
 ### Copy corto
 
-El verano os desordenó los horarios. Septiembre los recoloca. Reto 21 días: Vuelta a tu Ritmo — gratis, para toda la familia, del 1 al 21 de septiembre. Un paso al día con la app Ekio Coach. Y sorteamos un Ekio Light Core, todavía no disponible para el público, entre quienes se apunten.
+El verano os desordenó los horarios. Septiembre los recoloca. Reto 21 días: Vuelta a tu Ritmo — gratis, para toda la familia, del 1 al 21 de septiembre. Un paso al día con la app Ekio Coach. Y sorteamos un Ekio Light Core entre quienes se apunten.
 
 ### Copy largo
 
@@ -70,7 +70,7 @@ El verano os desordenó los horarios. Septiembre los recoloca. Reto 21 días: Vu
 >
 > En 21 días, la mayoría de personas ya duerme mejor, se despierta con más energía y tiene un ritmo de vuelta.
 >
-> Y hay un sorteo: entre todas las personas que se apunten al reto, sorteamos un panel Ekio Light Core el último día, en directo. Es el panel más nuevo de Ekio Light. Todavía no está disponible para el público general — el reto es, ahora mismo, la única forma de conseguirlo.
+> Y hay un sorteo: entre todas las personas que se apunten al reto, sorteamos un panel Ekio Light Core el último día, en directo. Es el panel más nuevo de Ekio Light — y puedes ganarlo gratis, sin comprarlo.
 >
 > El reto empieza el 1 de septiembre. Regístrate gratis y apúntate.
 >
@@ -80,7 +80,7 @@ El verano os desordenó los horarios. Septiembre los recoloca. Reto 21 días: Vu
 
 1. El verano os desordenó el ritmo.
 2. Reto 21 días. Gratis. En familia.
-3. Un panel que aún no se puede comprar.
+3. Gana un panel Ekio Light Core.
 4. Empieza el 1 de septiembre.
 5. Duerme mejor en 21 días.
 
@@ -99,8 +99,8 @@ El verano os desordenó los horarios. Septiembre los recoloca. Reto 21 días: Vu
 
 ### Qué NO decir
 
-- **Ningún precio del Ekio Light Core, en ningún momento.** Ni siquiera un rango orientativo.
-- "Cómpralo", "hazte con el tuyo", "disponible en la tienda" — el Core no está a la venta, es exclusivamente premio de sorteo.
+- **Ningún precio del Ekio Light Core en este anuncio** — no está verificado y este anuncio no es de venta, es de captación para el reto. Si en el futuro se confirma el precio y se quiere vender el Core directamente, es un anuncio distinto, no una edición de este.
+- "Todavía no está a la venta", "aún no disponible", "es la única forma de conseguirlo" — **ya no es cierto**, el Core sí está a la venta. No usar ninguna frase que insinúe exclusividad de disponibilidad.
 - Ninguna cifra de personas inscritas al Reto — todavía no ha empezado, no se puede inventar prueba social específica del reto (sí se puede decir que la app existe desde julio y la usan "cientos de familias", eso es real).
 - No prometer un resultado de salud garantizado ni superior a "duerme mejor, más energía, ritmo de vuelta" — es el techo del lenguaje ya aprobado, no subir el tono.
 - No usar "Comenta [palabra]" como CTA.
@@ -108,12 +108,94 @@ El verano os desordenó los horarios. Septiembre los recoloca. Reto 21 días: Vu
 - No usar "gratis" de forma que se pueda confundir con el panel Core siendo gratis — lo gratis es el reto y la app; el Core se gana, no se regala a todo el mundo.
 
 ---
+---
 
-## NOTA DE VIGENCIA (cuándo hay que tocar este anuncio)
+# SEGUNDO GUION — ENFOCADO EN NIÑOS
+### Mismo reto, mismo destino, ángulo distinto: la vuelta al cole de los hijos, no la rutina general de los adultos
 
-- **Antes del 1 de septiembre:** el guion funciona tal cual — "el reto empieza el 1 de septiembre" es una fecha futura real.
-- **Del 1 al 21 de septiembre:** el guion sigue siendo válido sin cambios — quien lo vea puede unirse igual, como confirmó Javier. Opcionalmente, cambiar el cierre a "el reto ya ha empezado, pero todavía puedes unirte" si se quiere reforzar la urgencia de que el sorteo tiene fecha límite.
-- **Después del 21 de septiembre:** el sorteo ya se habrá celebrado. Este anuncio deja de ser válido tal cual — hay que retirar toda mención al sorteo del Core (gancho B, tramo 21-26s, titular 3, última línea del copy largo) antes de seguir usándolo, o pausarlo hasta decidir si el Reto se repite con una fecha nueva.
+Mismos hechos, misma app, mismo sorteo, misma corrección sobre el Core (ver arriba). Cambia el punto de entrada emocional: en vez del caos de verano en general, entra por la pelea muy concreta y muy reconocible de las primeras mañanas de cole. No es una pieza sobre "proteger a los niños de nada" — es sobre que las mañanas dejen de ser una batalla, usando el mismo lenguaje ya aprobado (duerme mejor, más energía, ritmo de vuelta), aplicado al contexto familiar de la vuelta al cole.
+
+**Restricciones activas en este guion (coherentes con el resto del sistema cuando hay niños de por medio):**
+- Ningún primer plano de la cara de un menor identificable. Manos, espalda, siluetas, objetos (mochila, despertador, uniforme) — igual que en el resto de piezas de la cuenta con niños.
+- Sin culpa parental ("si no haces esto, tu hijo sufrirá") ni comparación con otras familias.
+- Sin ninguna promesa de salud o desarrollo infantil más fuerte que la ya aprobada ("duerme mejor, más energía, ritmo de vuelta") — aplicada aquí al contexto de mañanas de cole, no a un resultado médico.
+- El niño no es el destinatario del anuncio — lo son los padres. El niño aparece solo en imagen de rutina normal, nunca en actitud de disgusto extremo o rabieta explotada para dramatizar.
+
+### Guion segundo a segundo — Vertical 9:16 · 28s
+
+| Tiempo | Visual | Voz en off | Texto en pantalla |
+|---|---|---|---|
+| **0-4s** | Habitación infantil por la mañana: mano de un niño (sin cara) golpeando el botón de "posponer" del despertador, dos veces seguidas. Persiana bajada, cuarto en penumbra. | *(silencio — solo el pitido del despertador y el clic de posponer)* | "Las primeras mañanas de cole siempre cuestan." |
+| **4-9s** | Corte a la misma habitación con la persiana subida, luz natural entrando. Cambio de ritmo: de pesado a ligero. | "El verano les desordenó el horario a ellos también. Y las primeras semanas de cole se notan — en ellos y en vosotros." | "Vuelta al cole. Vuelta al ritmo." |
+| **9-16s** | Pantalla de móvil grabada mostrando la pantalla real de registro de Ekio Coach. | "Por eso existe el Reto 21 días: Vuelta a tu Ritmo. Gratis, del 1 al 21 de septiembre, pensado para hacerlo en familia. Cada día, un paso: luz por la mañana para despertar mejor, preparar el cuarto antes de dormir, menos pantalla antes de acostarse." | "Reto 21 días: Vuelta a tu Ritmo / Gratis · En familia · Un paso al día" |
+| **16-21s** | Escena de mañana tranquila: mochila lista junto a la puerta, desayuno en la mesa con luz natural, sin prisa ni gritos. Sin cara de ningún menor en primer plano. | "En 21 días, las familias que lo hacen juntas suelen dormir mejor, tener más energía, y las mañanas de cole dejan de ser una pelea." | "Duerme mejor. Más energía. / Mañanas sin pelea." |
+| **21-26s** | Panel Ekio Light Core en plano limpio, etiqueta de "sorteo", sin precio en pantalla. | "Y hay un sorteo: entre las familias que se apunten, sorteamos un panel Ekio Light Core el último día. Gratis, sin comprar nada." | "Sorteo: Ekio Light Core / Entre quienes se apunten al reto" |
+| **26-28s** | Logo Ekio. | "El reto empieza el 1 de septiembre. Apúntate con tu familia. Somos EKIO. Tecnología que te cuida." | "Regístrate gratis →" |
+
+### 3 variantes del gancho (0-4s)
+
+- **Gancho A (control — el despertador, sin drama):** mano posponiendo el despertador dos veces + "Las primeras mañanas de cole siempre cuestan." — Reconocible al instante para cualquier padre, sin dramatizar ni mostrar rabieta.
+- **Gancho B (pregunta directa a los padres):** texto sobre fondo oscuro, sin imagen + VO: "¿Cuesta que se levanten estos primeros días de cole?" Silencio. — Interpela directamente sin necesidad de imagen; funciona bien como variante de bajo coste de producción.
+- **Gancho C (el contraste mochila-desayuno):** plano de una mochila tirada de cualquier manera junto a la puerta, corte a la misma mochila lista y ordenada + VO: "Hay una diferencia entre las primeras mañanas de cole... y las de la tercera semana. El Reto ayuda a llegar antes a la segunda." — Vende el punto de llegada (rutina asentada) en vez del problema.
+
+### Copy corto
+
+Las primeras mañanas de cole siempre cuestan — a ellos y a vosotros. El Reto 21 días: Vuelta a tu Ritmo ayuda a la familia a recuperar el horario con un paso al día: luz de mañana, menos pantalla antes de dormir, rutina de sueño. Gratis, del 1 al 21 de septiembre. Y sorteamos un Ekio Light Core entre las familias que se apunten.
+
+### Copy largo
+
+> Las primeras mañanas de cole siempre cuestan. El verano les desordenó el horario a ellos también, y ahora tocan las 7 de la mañana otra vez.
+>
+> El Reto 21 días: Vuelta a tu Ritmo está pensado para eso: para que la vuelta a la rutina no sea de golpe. Del 1 al 21 de septiembre, gratis, para hacerlo en familia.
+>
+> Cada día, la app Ekio Coach propone un paso pequeño: cuándo tomar luz de sol por la mañana para despertar mejor, cómo preparar el cuarto antes de dormir, cuánta pantalla quitar antes de acostarse. Nada radical — un hábito cada día.
+>
+> En 21 días, las familias que lo hacen juntas suelen dormir mejor, tener más energía, y las mañanas de cole dejan de ser una pelea.
+>
+> Y hay un sorteo: entre las familias que se apunten al reto, sorteamos un panel Ekio Light Core el último día, en directo. Gratis, sin comprar nada.
+>
+> El reto empieza el 1 de septiembre. Apúntate con tu familia.
+>
+> Somos EKIO. Tecnología que te cuida.
+
+### 5 titulares (máx 40 caracteres)
+
+1. Las mañanas de cole siempre cuestan.
+2. Vuelta al cole. Vuelta al ritmo.
+3. 21 días para mañanas sin pelea.
+4. Gratis. En familia. Con sorteo.
+5. Gana un panel Ekio Light Core.
+
+### CTA
+
+**Botón:** Más información *(o "Regístrate")* — nunca "Comprar".
+**URL:** `ekio-coach.electrosmogespana.com/programa`
+
+### Indicaciones de rodaje
+
+- Javier **no** sale a cámara; voz en off, tono cercano, sin dramatizar la dificultad de las mañanas — es una pelea leve y universal, no un drama familiar.
+- Ningún menor con la cara identificable en ningún plano. Manos, espaldas, objetos (despertador, mochila, persiana) hacen todo el trabajo visual.
+- No grabar ni sugerir una rabieta real de un niño — el tono es "cuesta un poco", no "es un infierno". Coherente con el resto de la marca, que evita el alarmismo en cualquier ángulo.
+- Misma grabación de pantalla real de la app que en el primer guion (reutilizable).
+- Mismo plano de producto del Core que en el primer guion, misma regla: sin precio en pantalla.
+- ~30-45 min de rodaje si se reutiliza atrezzo ya existente de otras piezas "vuelta al cole" de la cuenta (mochila, habitación infantil genérica).
+
+### Qué NO decir
+
+- Nada distinto al resto del sistema, más las reglas ya fijadas arriba: sin cara de menor identificable, sin culpa parental, sin promesa de salud infantil por encima de "duerme mejor, más energía, mañanas sin pelea".
+- No mostrar ni sugerir una rabieta o conflicto familiar real — mantiene el tono ligero del resto de la marca.
+- No decir "todavía no está a la venta" del Core — ya no es cierto (ver corrección arriba).
+- No dar ningún precio del Core.
+- No usar "Comenta [palabra]" como CTA.
+
+---
+
+## NOTA DE VIGENCIA (cuándo hay que tocar cualquiera de los dos guiones)
+
+- **Antes del 1 de septiembre:** los dos guiones funcionan tal cual — "el reto empieza el 1 de septiembre" es una fecha futura real.
+- **Del 1 al 21 de septiembre:** siguen siendo válidos sin cambios — quien lo vea puede unirse igual, como confirmó Javier. Opcionalmente, cambiar el cierre a "el reto ya ha empezado, pero todavía puedes unirte" si se quiere reforzar la urgencia de que el sorteo tiene fecha límite.
+- **Después del 21 de septiembre:** el sorteo ya se habrá celebrado. Los dos guiones dejan de ser válidos tal cual — hay que retirar toda mención al sorteo del Core (tramo 21-26s en ambos, titulares que lo mencionan, última línea de cada copy largo) antes de seguir usándolos, o pausarlos hasta decidir si el Reto se repite con una fecha nueva.
+- **En cualquier momento:** si se confirma el precio real del Core y se decide venderlo también por anuncio directo, es un anuncio nuevo — no una edición de estos dos, que están construidos sobre el sorteo gratuito, no sobre la venta.
 
 ---
 
