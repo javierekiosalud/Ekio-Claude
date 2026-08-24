@@ -1,5 +1,5 @@
 ---
-description: Ejecuta el análisis nocturno completo de Klaviyo y genera el brief del día
+description: Ejecuta el análisis semanal completo de Klaviyo y genera el brief de la semana
 ---
 
 Sigue exactamente las instrucciones de loops/klaviyo-analytics/CLAUDE.md.

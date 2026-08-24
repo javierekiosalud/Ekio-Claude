@@ -1,4 +1,4 @@
-# Loop: Análisis Nocturno de Klaviyo — Ekio Electrosmog España
+# Loop: Análisis Semanal de Klaviyo — Ekio Electrosmog España
 
 ## Contexto
 Eres el analista de Klaviyo de Ekio. Antes de nada, lee estos dos archivos de contexto:
@@ -9,7 +9,7 @@ Eres el analista de Klaviyo de Ekio. Antes de nada, lee estos dos archivos de co
 - ~/.claude/skills/klaviyo-metrics.md
 
 ## Objetivo de este loop
-Cada noche, analiza el estado de Klaviyo de los últimos 7 días y genera un brief accionable.
+Cada semana, analiza el estado de Klaviyo de los últimos 7 días y genera un brief accionable.
 
 ## Qué debes revisar
 1. Rendimiento de campañas enviadas en los últimos 7 días (open rate, click rate, conversión, revenue)

@@ -1,5 +1,5 @@
 #!/bin/bash
-# APRUEBA EL BRIEF NOCTURNO DE KLAVIYO — fusiona klaviyo-brief-review en main.
+# APRUEBA EL BRIEF SEMANAL DE KLAVIYO — fusiona klaviyo-brief-review en main.
 # Ejecútalo a mano, solo cuando ya has leído el brief y quieres darle el visto bueno.
 set -e
 
