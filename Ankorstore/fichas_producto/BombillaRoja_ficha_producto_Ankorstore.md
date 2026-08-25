@@ -30,10 +30,11 @@ Bombilla LED de espectro rojo (620-660 nm) diseñada para proteger la producció
 | Campo electromagnético | Bajo — sin componente elevado de CEM según diseño del producto |
 | Uso previsto | Uso doméstico — luz ambiental nocturna, habitación, mesita de noche |
 | Función | Iluminación de transición nocturna y fotobiomodulación ambiental |
+| **Casquillo** | **E27** (confirmado por Javier, 25/ago/2026) |
 
-🚫 **BLOQUEANTE — pendiente de fábrica antes de poder publicar:**
-- **Tipo de casquillo (E27 / E14 / GU10) — NO CONFIRMADO.** Ningún retailer puede vender una bombilla sin saber el casquillo; sin este dato la ficha no puede subirse a Ankorstore. Confirmar con el proveedor.
-- Potencia (vatios), flujo luminoso (lúmenes), regulable (sí/no), vida útil estimada, material — campos estándar de la categoría iluminación en Ankorstore; sin ellos la ficha puede quedar desclasificada o rechazada por la plataforma.
+✅ Casquillo resuelto: **E27**, el estándar europeo — compatible con la mayoría de lámparas de mesa y techo en toda Europa, incluida Alemania.
+
+⚠️ Pendiente de fábrica, no bloqueante para escribir el copy pero sí campos que Ankorstore puede pedir en su formulario de iluminación: potencia (vatios), flujo luminoso (lúmenes), regulable (sí/no), vida útil estimada, material.
 
 ### Qué incluye la caja
 
@@ -58,23 +59,22 @@ Ekio nace de la especialización en contaminación electromagnética aplicada a 
 | Plazo de entrega al retailer | ⚠️ PENDIENTE |
 | Pago a Ekio | Garantizado por Ankorstore — 60 días aplazado al retailer los asume la plataforma |
 
-🚫 **BLOQUEANTE — conflicto de precio con Shopify:** el precio activo en Shopify ahora mismo es **17,50 €** (oferta, precio regular 25€). El PVP de Ankorstore es 25 €. Si un cliente del retailer descubre que puede comprar directo en la web de Ekio por 17,50 €, el retailer pierde esa venta y cuestiona el canal. **Decidir antes de publicar:** ¿se normaliza el precio de Shopify a 25 € antes de abrir Ankorstore, o la oferta de Shopify tiene fecha de fin que cae antes del lanzamiento en Ankorstore?
+✅ **Precio resuelto — no hay conflicto real de canal.** Javier confirma (25/ago/2026): Shopify vende en España, Ankorstore va dirigido a Europa — principalmente Alemania. Son mercados geográficamente separados, así que el cliente del retailer alemán no está comparando contra el precio de oferta puntual de la web española. Se mantiene PVP de catálogo Ankorstore en 25 €, sin necesidad de tocar el precio de Shopify.
 
 ### Nota para Paula — pendientes antes de publicar
 
-1. **Tipo de casquillo — bloqueante.** Sin él la ficha no se puede publicar.
-2. **Vatios, lúmenes, vida útil** — campos estándar de la categoría iluminación en Ankorstore.
-3. **Conflicto de precio Shopify vs Ankorstore (17,50€ vs 25€)** — decidir con Javier antes de subir.
+1. **Vatios, lúmenes, vida útil** — campos estándar de la categoría iluminación en Ankorstore, pedir a fábrica si el formulario los exige.
+2. Casquillo (E27) y precio ya confirmados — sin pendiente aquí.
 
 ---
 
 ## PARTE 2 — COPY FINAL (listo para pegar en Ankorstore)
 
 ### Campo 1 — Título de producto
-Ekio Light Bombilla LED Roja — Espectro 620-660 nm, sin azul, sin flicker, luz nocturna de melatonina
+Ekio Light Bombilla LED Roja E27 — Espectro 620-660 nm, sin azul, sin flicker, luz nocturna de melatonina
 
 ### Campo 2 — Descripción corta (vista de catálogo/búsqueda)
-Bombilla LED de espectro rojo puro (620-660 nm) diseñada para no suprimir la melatonina nocturna y favorecer el descanso. Sin componente azul, sin flicker. Ticket de entrada a 25 € — regalo de sueño, complemento de gama wellness y puerta de entrada al ecosistema Ekio Light.
+Bombilla LED E27 de espectro rojo puro (620-660 nm) diseñada para no suprimir la melatonina nocturna y favorecer el descanso. Sin componente azul, sin flicker. Casquillo estándar europeo, compatible con la mayoría de lámparas. Ticket de entrada a 25 € — regalo de sueño, complemento de gama wellness y puerta de entrada al ecosistema Ekio Light.
 
 ### Campo 3 — Descripción larga
 
@@ -86,6 +86,7 @@ Para el retailer, la bombilla resuelve tres situaciones de compra distintas. La 
 
 **Especificaciones técnicas:**
 - Espectro: 620-660 nm (rojo puro — sin componente azul)
+- Casquillo: E27, estándar europeo — compatible con la mayoría de lámparas de mesa y techo
 - Sin flicker — luz estable sin parpadeo invisible que fatiga el sistema visual
 - Campo electromagnético bajo — sin CEM elevado en uso
 - Uso previsto: iluminación ambiental nocturna, habitación, mesita de noche, transición de luz para el sueño
