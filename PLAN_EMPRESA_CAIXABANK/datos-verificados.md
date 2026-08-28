@@ -235,3 +235,27 @@ suplementos Laittin (Vit C 24,70 €, Vit B50 24,90 €, Vit D3+K2 29,90 €, Pa
 - Invitación de Wolaria/ICECYL a Startup OLÉ (13–15 oct 2026) y Valencia Digital Summit
   (22 oct 2026).
 - Stack digital operativo: Shopify + Klaviyo + ManyChat + Meta Ads + GSC + Clarity.
+
+---
+
+## 10. HALLAZGOS DE LA REVISIÓN DE RIESGOS (28-ago-2026) — LEER ANTES DE PRESENTAR
+
+1. **Estacionalidad y comparabilidad (crítico para el relato).** Con 2023 en la serie, la media
+   mensual aparente decrece (55,7k → 44,5k → 44,8k → 34,6k €/mes). PERO no es homogéneo: jun–dic
+   2023 CONTIENE la campaña de Q4 y H1 2026 la EXCLUYE. Corregido por estacionalidad, un jun–dic
+   tipo daría ~406.000 € y 2023 hizo 390.000 € (−4 %): coherente, no deterioro. El plan lo explica
+   ahora en §6.2. `[PENDIENTE: H1 2025 y jul/ago 2026 para comparar semestre contra semestre]`.
+2. **Causa real del menor resultado de 2025.** NO fue el gasto extraordinario: el gasto de
+   estructura bajó (152.757 € en 2024 → 112.471 € en 2025). La caída viene del margen bruto
+   (38,4 % → 24,5 %, ~73.000 € menos). Conciliar con Holded antes de presentar.
+3. **Importe de la línea.** Retirada la "banda recomendada 100.000–120.000 €": sobre 120.000 €
+   dispuestos la cobertura caería a ~0,85x y el propio plan se contradiría. La necesidad que el
+   modelo justifica y devuelve en el ciclo es **~62.000 €**. No pedir más de lo que el flujo acredita.
+4. **Inventario.** Es la condición nº 1 del banco: hay que acreditar con recuento físico que el
+   stock actual NO cubre la campaña. Si Shopify muestra existencias holgadas y no se explica,
+   desaparece la premisa de la operación.
+5. **PCT.** Una solicitud PCT no se "concede": es una fase de tramitación. Redactado como
+   "en preparación, pendiente de presentación" y expresamente NO computada como activo.
+6. **Riesgo divisa/arancel** en la compra de Spiro (importación desde EE. UU.): declarado en §9.1.
+7. **Titularidad de las redes de Spiro:** si las cuentas son de la marca del fabricante, no son
+   activo de la sociedad. Confirmar antes de usarlas como argumento.
