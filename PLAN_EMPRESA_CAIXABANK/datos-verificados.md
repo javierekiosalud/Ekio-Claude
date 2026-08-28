@@ -66,11 +66,18 @@ económica** bajo el titular anterior; la SLU es el vehículo jurídico que la c
 | Versiones B2B (borrador): Deep 5 B2B 600 €, Deep 7 B2B 650 €, Full Spectrum 10 B2B 2.500 € | — | 200 / 190 / 70 | Borrador |
 
 - Propiedad industrial: **Modelo de Utilidad español Nº U202532624** (panel multiespectral).
-  Estado real: **presentado ante la OEPM el 25-dic-2025, en tramitación** (NO usar "concedido"
-  ni "registrado en 157 países"). Solicitud PCT **en preparación** (fuente: memory
-  project_ekio_light_gama, project_pct_srba).
-- Sistema SFPA (plataforma de fotobiomodulación adaptativa con IA) en desarrollo con AIR
-  Institute; tratamiento PCT independiente. Estado: en desarrollo, sin producto comercial aún.
+  Estado (corrección de Javier, 28-ago-2026): **registrado con número propio** (solicitud de
+  25-dic-2025). NO usar "registrado en 157 países". `[PENDIENTE: adjuntar título/certificado
+  de registro de la OEPM]`.
+- **Sistema SFPA (Sistema de Fotobiomodulación Personalizada con IA):** plataforma propia que
+  integra hardware + software + algoritmos de IA para adaptar los parámetros de tratamiento
+  (longitud de onda, dosis, tiempo) al perfil y la respuesta de cada usuario. En desarrollo
+  con AIR Institute (Salamanca). **Tiene solicitud de patente internacional (PCT) propia e
+  independiente del Modelo de Utilidad, en fase de finalización** (Javier, 28-ago-2026). Sin
+  producto comercial aún.
+- **Software propio adicional:** aplicación de gestión interna del negocio y aplicación para
+  clientes **"Ekio Coach"** (guía de uso, seguimiento de sesiones, protocolos personalizados),
+  ya con usuarios registrados (lista "Ekio Coach - Usuarios registrados" en Klaviyo).
 - Margen bruto de la línea de paneles: **> 50 %** (fuente: memory project_finanzas_reales;
   informes de tienda 2026 sitúan el margen bruto global de la tienda en 55,9 % en H1 2026).
 
@@ -116,13 +123,14 @@ suplementos Laittin (Vit C 24,70 €, Vit B50 24,90 €, Vit D3+K2 29,90 €, Pa
 
 | Ejercicio | Facturación (€) | Margen bruto | Resultado (€) | Comentario |
 |---|---|---|---|---|
+| 2023 (jun–dic) | **390.000** | n.d. | n.d. | Año de arranque, ~7 meses de actividad. Cifra aportada por Javier 28-ago-2026. `[PENDIENTE: margen y resultado 2023]` |
 | 2024 | 534.504 | 38,4 % | 52.493 | Año de consolidación de la distribución Spiro |
-| 2025 | 537.845 | 24,5 % | 19.301 | Margen y resultado bajan por inversión deliberada: +34.316 € en publicidad y +18.264 € en servicios profesionales para lanzar Ekio Light |
-| 2026 (H1, ene–jun) | 207.815 | 55,9 % | 78.738 | El giro a producto propio (Ekio Light) dispara el margen; resultado semestral ≈ 4× el de todo 2025 |
+| 2025 | 537.845 | 24,5 % | 19.301 | Resultado baja por inversión de explotación deliberada: +34.316 € publicidad y +18.264 € servicios profesionales para lanzar Ekio Light (gasto operativo, no de aprovisionamiento) |
+| 2026 (H1, ene–jun) | 207.815 | 55,9 % | 78.738 | Mejora de margen con el giro a producto propio; en volumen, H1 anualiza por debajo de 2024–2025 |
 
-- **Facturación acumulada desde 2023:** "más de 1,7 M€ acumulados" (memory). El brief menciona
-  1,8 M€; usar **"más de 1,7 M€ acumulados desde 2023"** salvo que Javier confirme el cierre
-  exacto. Etiquetar SIEMPRE como **acumulado**, nunca como cifra anual.
+- **Facturación acumulada 2023 – junio 2026:** 390.000 + 534.504 + 537.845 + 207.815 =
+  **1.670.164 € ≈ 1,67 M€**. Etiquetar SIEMPRE como **acumulado**, nunca como cifra anual.
+  (El brief decía 1,8 M€; con el dato real de 2023 el acumulado a jun-2026 es 1,67 M€.)
 - **Sin inversión externa de capital**; única deuda: el préstamo institucional de 70.000 € (§2).
 - **Ekio Light acumulado:** ~76.000 € desde su lanzamiento (repartido entre WooCommerce hasta
   oct-2025 y Shopify desde nov-2025). Tramo Shopify documentado (nov-2025 a jun-2026):
@@ -146,7 +154,7 @@ suplementos Laittin (Vit C 24,70 €, Vit B50 24,90 €, Vit D3+K2 29,90 €, Pa
 
 | Métrica | Valor | Verificación |
 |---|---|---|
-| Seguidores en Instagram (Spiro / Ekio) | > 34.000 | Dato de gestión; no verificado en este trabajo |
+| Seguidores en Instagram (Spiro / Ekio) | ~44.550 | Dato de gestión aportado por Javier 28-ago-2026 |
 | Contactos / base de datos | > 12.000 | Klaviyo conectado; recuento exacto `[PENDIENTE: export]` |
 | Clientes de Spiro (histórico) | > 7.600 | Shopify: recuento exacto `[PENDIENTE: export de clientes]` |
 | Stack tecnológico activo | Shopify, Klaviyo, ManyChat, Meta Ads, Google Search Console, Microsoft Clarity | memory project_ekio_stack |
@@ -191,10 +199,12 @@ suplementos Laittin (Vit C 24,70 €, Vit B50 24,90 €, Vit D3+K2 29,90 €, Pa
    propias depositadas todavía**. El plan debe apoyarse en el histórico del autónomo
    (IRPF/130/390 + Holded) y explicar la continuidad. Un analista de riesgos preguntará por
    las cuentas de la sociedad y por la fecha de aportación del negocio.
-3. **Facturación acumulada:** usar "más de 1,7 M€ acumulados desde 2023" (no 1,8 M€ salvo
-   confirmación) y siempre etiquetado como acumulado.
-4. **Propiedad industrial:** "Modelo de Utilidad Nº U202532624, presentado y en tramitación
-   ante la OEPM"; PCT "en preparación". Nunca "concedido", "registrado" ni "157 países".
+3. **Facturación acumulada:** con el dato real de 2023 (390.000 €), el acumulado 2023–jun 2026
+   es **1,67 M€**; siempre etiquetado como acumulado (no anual).
+4. **Propiedad industrial (actualizado 28-ago-2026, corrección de Javier):** "Modelo de
+   Utilidad Nº U202532624, **registrado** ante la OEPM". El sistema **SFPA tiene su propia
+   solicitud PCT, independiente del MU, en fase de finalización**. Nunca "157 países". Adjuntar
+   certificado de registro.
 5. **Domicilio:** en portada, el de Zamora aportado por Javier (Cubo de Benavente). Documentos
    antiguos citaban Valladolid; no mezclar.
 6. **Renting Sharpei / B2B:** son líneas incipientes; describirlas como tal, sin volúmenes que
@@ -207,16 +217,21 @@ suplementos Laittin (Vit C 24,70 €, Vit B50 24,90 €, Vit D3+K2 29,90 €, Pa
 
 ## 9. CIFRAS QUE SÍ SE PUEDEN USAR SIN ASTERISCO (resumen para redacción)
 
+- 2023 (jun–dic): **390.000 €** de facturación (año de arranque, ~7 meses).
 - 2024: 534.504 € facturación · MB 38,4 % · resultado +52.493 €.
 - 2025: 537.845 € facturación · MB 24,5 % · resultado +19.301 €.
 - 2026 H1: 207.815 € facturación · MB 55,9 % · resultado +78.738 €.
-- Tres ejercicios consecutivos **en beneficios**.
+- Facturación acumulada 2023 – junio 2026: **1,67 M€**.
+- 2024 y 2025 **en beneficios**; H1 2026 en beneficios.
 - Campaña Q4 año anterior (BF+Navidad+Reyes): **275.000 €**.
 - Deuda financiera total: **un** préstamo institucional de 70.000 €, en amortización y al
   corriente. Sin capital de terceros.
-- Catálogo vivo con **stock físico** en las dos líneas (ver §3): decenas de SKU activas,
-  inventario disponible en todos los productos principales.
-- Modelo de Utilidad U202532624 presentado ante la OEPM (25-dic-2025), en tramitación.
+- Catálogo activo y a la venta en las dos líneas (ver §3). NO citar unidades de inventario
+  como argumento (juega en contra: si hay stock, ¿por qué financiar más? — el argumento es
+  volumen/velocidad de campaña, no ausencia de stock).
+- Modelo de Utilidad U202532624 **registrado** ante la OEPM (solicitud 25-dic-2025).
+- Sistema SFPA + apps propias (gestión interna + "Ekio Coach" para clientes).
+- Seguidores Instagram ~44.550; >12.000 contactos; >7.600 clientes Spiro.
 - Invitación de Wolaria/ICECYL a Startup OLÉ (13–15 oct 2026) y Valencia Digital Summit
   (22 oct 2026).
 - Stack digital operativo: Shopify + Klaviyo + ManyChat + Meta Ads + GSC + Clarity.
