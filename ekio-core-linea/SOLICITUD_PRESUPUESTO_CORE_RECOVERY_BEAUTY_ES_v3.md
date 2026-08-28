@@ -1,6 +1,6 @@
 # SOLICITUD DE PRESUPUESTO — ESPECIFICACIÓN FINAL DE PRODUCTO
 ## Ekio Light — Core Recovery y Core Beauty
-### v2.0 · 20-08-2026
+### v3.0 · 28-08-2026
 
 > **Esto es una solicitud de presupuesto sobre la especificación de abajo — no es una orden de compra.** No empezar producción, utillaje ni compra de componentes con base en este documento. Necesitamos su presupuesto formal (precio por unidad, coste de producción de packaging/manual, plazo de entrega y condiciones de pago) antes de hacer un pedido.
 >
@@ -42,7 +42,7 @@ Lo siguiente ya es definitivo. Pedimos que coticen sobre esta especificación ta
 ### 2.3 Core Recovery — especificación
 - Longitudes de onda: **660 · 810 · 940 nm**, chip triple, en las 13 posiciones.
 - **Modo único**: las tres bandas se encienden siempre juntas — sin selección independiente por banda.
-- CW y pulsado a 10 Hz como opciones de modo (aplicadas al conjunto combinado).
+- **Dos modos: All (continuo) + Pulse.** Confirmado con la fábrica el 28-08-2026 — el modo pulso enciende las tres bandas juntas, pero pulsadas.
 - Corte térmico por hardware vía sensor NTC + comparador (umbral exacto por confirmar con ustedes).
 - No se aceptan sustituciones sin consulta previa: 810 nm ≠ 800/830 nm; 940 nm ≠ 850/880 nm; nada de LEDs "905 nm" (no existe como LED de precisión).
 - **Color de chasis: negro.** Sugerencias bienvenidas si tienen un acabado o tono que quede mejor en este chasis.
@@ -53,7 +53,7 @@ Lo siguiente ya es definitivo. Pedimos que coticen sobre esta especificación ta
 - Sin infrarrojo (nada de 810, 850, ni ninguna banda por encima de 700 nm).
 - Sin azul ni violeta (405, 450, 485 nm).
 - Temporizador de autoapagado activado por defecto, que no sea trivial de desactivar para el usuario (tiempo exacto por confirmar con ustedes).
-- CW obligatorio; pulsado a 10 Hz opcional.
+- **Modo único: All (continuo/CW). Sin modo pulso en esta variante.** Confirmado con la fábrica el 28-08-2026.
 - **Color de chasis: oro.** Sugerencias bienvenidas si tienen un acabado o tono que quede mejor en este chasis.
 
 ### 2.5 Packaging y manuales

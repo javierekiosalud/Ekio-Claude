@@ -1,6 +1,6 @@
 # QUOTATION REQUEST — FINAL PRODUCT SPECIFICATION
 ## Ekio Light — Core Recovery and Core Beauty
-### v2.0 · 2026-08-20
+### v3.0 · 2026-08-28
 
 > **This is a request for quotation, based on the specification below — not a purchase order.** Please do not begin production, tooling, or component procurement based on this document. We need your formal budget (unit pricing, packaging/manual production cost, lead time, and payment terms) before we place an order.
 >
@@ -42,7 +42,7 @@ The following is now final. Please quote against this specification as written.
 ### 2.3 Core Recovery — specification
 - Wavelengths: **660 · 810 · 940 nm**, tri-die chip, all 13 positions.
 - **Single mode only**: all three bands fire together — no independent per-band selection.
-- CW and 10 Hz pulsed as mode options (applied to the combined output).
+- **Two modes: All (continuous) + Pulse.** Confirmed with the factory 2026-08-28 — pulse mode fires all three bands together, pulsed.
 - Hardware thermal cutoff via NTC sensor + comparator (exact threshold to be confirmed with you).
 - No substitutions accepted without prior consultation: 810 nm ≠ 800/830 nm; 940 nm ≠ 850/880 nm; no "905 nm" LEDs (does not exist as a precision LED).
 - **Chassis color: black.** Suggestions welcome if you have a finish or shade that looks better on this chassis.
@@ -53,7 +53,7 @@ The following is now final. Please quote against this specification as written.
 - No infrared (no 810, 850, or any band above 700 nm).
 - No blue or violet (405, 450, 485 nm).
 - Auto shut-off timer enabled by default, not trivial for the user to disable (exact timing to be confirmed with you).
-- CW mandatory; 10 Hz pulsed optional.
+- **Single mode only: All (continuous/CW). No pulse mode for this variant.** Confirmed with the factory 2026-08-28.
 - **Chassis color: gold.** Suggestions welcome if you have a finish or shade that looks better on this chassis.
 
 ### 2.5 Packaging and manuals
