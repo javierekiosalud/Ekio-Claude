@@ -1,0 +1,35 @@
+URL antigua (WP),Sugerencia destino,Confianza,Clics PRE,Clics POST,Impr. PRE,Impr. POST,Acción recomendada
+/producto/card-disc/,/products/card-disc,manual,7,0,1089,66,REVISAR: confirma URL en Shopify y edita el CSV antes de importar
+/tienda/,/pages/tienda,manual,13,1,929,106,REVISAR: confirma URL en Shopify y edita el CSV antes de importar
+/producto/pack-proteccion-personal/,/products/pack-proteccion-personal,manual,0,0,400,55,REVISAR: confirma URL en Shopify y edita el CSV antes de importar
+/producto/consultoria-online-360/,/products/consultoria-online-360,manual,0,0,393,57,REVISAR: confirma URL en Shopify y edita el CSV antes de importar
+/politica-de-devoluciones/,/pages/politica-de-devoluciones,manual,0,0,289,127,REVISAR: confirma URL en Shopify y edita el CSV antes de importar
+/consultoria-naturopatia/,/pages/consultoria-naturopatia,manual,0,0,258,62,REVISAR: confirma URL en Shopify y edita el CSV antes de importar
+/producto/pack-stroom-master/,/products/pack-stroom-master,manual,0,0,283,31,REVISAR: confirma URL en Shopify y edita el CSV antes de importar
+/producto/ignis-de-ekio-light/,/products/ignis-de-ekio-light,manual,1,0,240,24,REVISAR: confirma URL en Shopify y edita el CSV antes de importar
+/categoria-producto/medidores-accesorios/,/collections/medidores-accesorios,manual,0,0,111,5,REVISAR: confirma URL en Shopify y edita el CSV antes de importar
+/producto/pack-sueno-spiro-disc-stroom-master/,/products/pack-sueno-spiro-disc-stroom-master,manual,0,0,90,10,REVISAR: confirma URL en Shopify y edita el CSV antes de importar
+/categoria-producto/consultorias/,/collections/consultorias,manual,0,0,69,24,REVISAR: confirma URL en Shopify y edita el CSV antes de importar
+/metodo-ekio/suscripcion-hogares/,,manual,0,0,72,16,REVISAR: confirma URL en Shopify y edita el CSV antes de importar
+/oferta-especial/,/pages/oferta-especial,manual,1,0,47,5,REVISAR: confirma URL en Shopify y edita el CSV antes de importar
+/metodo-ekio/renting-negocios/,,manual,0,0,44,7,REVISAR: confirma URL en Shopify y edita el CSV antes de importar
+/producto/deep-7-cyan-de-ekio-light-ignis/,/products/deep-7-cyan-de-ekio-light-ignis,manual,0,0,26,22,REVISAR: confirma URL en Shopify y edita el CSV antes de importar
+/electromagnetismo-y-bienestar-los-efectos-invisibles-que-impactan-tu-vida/,/blogs/electrosmog/electromagnetismo-y-bienestar-los-efectos-invisibles-que-impactan-tu-vida,manual,1,0,45,2,REVISAR: confirma URL en Shopify y edita el CSV antes de importar
+/producto/pack-black-friday-deep-5-ignis/,/products/pack-black-friday-deep-5-ignis,manual,2,0,37,0,REVISAR: confirma URL en Shopify y edita el CSV antes de importar
+/collections,,manual,0,0,0,32,REVISAR: confirma URL en Shopify y edita el CSV antes de importar
+/comprendiendo-la-contaminacion-electromagnetica-y-su-impacto-en-la-salud/,/blogs/electrosmog/comprendiendo-la-contaminacion-electromagnetica-y-su-impacto-en-la-salud,manual,0,0,27,1,REVISAR: confirma URL en Shopify y edita el CSV antes de importar
+/agua-estructurada-spiro-clave-para-la-salud/,/blogs/electrosmog/agua-estructurada-spiro-clave-para-la-salud,manual,1,0,17,5,REVISAR: confirma URL en Shopify y edita el CSV antes de importar
+/suplementos/,/pages/suplementos,manual,0,0,18,3,REVISAR: confirma URL en Shopify y edita el CSV antes de importar
+/producto/vitamina-d3k2-electro-premium-de-laittin/,/products/vitamina-d3k2-electro-premium-de-laittin,manual,0,0,15,0,REVISAR: confirma URL en Shopify y edita el CSV antes de importar
+/producto/pack-oasis-electromagnetico/,/products/pack-oasis-electromagnetico,manual,0,0,9,1,REVISAR: confirma URL en Shopify y edita el CSV antes de importar
+/categoria-producto/suplementos-laittin/,/collections/suplementos-laittin,manual,0,0,4,0,REVISAR: confirma URL en Shopify y edita el CSV antes de importar
+/producto/suscripcion-para-viviendas-de-4-habitaciones/,/products/suscripcion-para-viviendas-de-4-habitaciones,manual,0,0,1,0,REVISAR: confirma URL en Shopify y edita el CSV antes de importar
+/categoria-producto/renting-suscripcion/,/collections/renting-suscripcion,manual,0,0,0,1,REVISAR: confirma URL en Shopify y edita el CSV antes de importar
+/producto/pack-de-vitaminas-1-mes-electrosmog/,/products/pack-de-vitaminas-1-mes-electrosmog,manual,0,0,0,1,REVISAR: confirma URL en Shopify y edita el CSV antes de importar
+/electrosmog/,/pages/consultoria-ekio-electrosmog,heuristic,0,0,282,94,Probable correcto pero verificar match aproximado
+/importancia-de-las-consultorias-de-electrosmog-para-un-entorno-mas-seguro/,/blogs/consultoria/importancia-de-las-consultorias-de-electrosmog-para-un-entorno-mas-seguro,heuristic,0,0,310,33,Probable correcto pero verificar match aproximado
+/contaminacion-electromagnetica/,/comprendiendo-la-contaminacion-electromagnetica-y-su-impacto-en-la-salud/,heuristic,0,0,143,147,Probable correcto pero verificar match aproximado
+/blog/,/blogs/electrosmog,heuristic,0,0,262,27,Probable correcto pero verificar match aproximado
+/consultoria/,/pages/consultoria-ekio-electrosmog,heuristic,0,0,172,40,Probable correcto pero verificar match aproximado
+/categoria-producto/filtros-electromagneticos/,/collections/spiro-filtros-electromagneticos,heuristic,0,3,0,191,Probable correcto pero verificar match aproximado
+/premios/,/pages/premios-a-noxta,heuristic,0,0,1,0,Probable correcto pero verificar match aproximado

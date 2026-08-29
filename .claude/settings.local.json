@@ -445,7 +445,24 @@
       "WebFetch(domain:www.mouser.com)",
       "WebFetch(domain:www.digikey.com)",
       "Bash(grep -E \"[0-9]{3} ?nm|nm,\")",
-      "Bash(grep -n \"^#\\\\{1,3\\\\} \" 04_KDP_Y_AUDITORIA.md)"
+      "Bash(grep -n \"^#\\\\{1,3\\\\} \" 04_KDP_Y_AUDITORIA.md)",
+      "Bash(sed -i '' '/^4\\\\. \\\\[ \\\\] Editar `01`/s/^4\\\\./5./; /^5\\\\. \\\\[ \\\\] \\\\*\\\\*Verificar el coste/s/^5\\\\./6./; /^6\\\\. \\\\[ \\\\] Crear el \\\\*\\\\*test/s/^6\\\\./7./; /^7\\\\. \\\\[ \\\\] Brief de las 7/s/^7\\\\./8./; /^8\\\\. \\\\[ \\\\] Revisión legal externa/s/^8\\\\./9./' LIBRO_ELECTROBIOFOTONICA/00_GUION_MAESTRO.md)",
+      "Bash(sed -n '/## 14. SIGUIENTES/,/^>/p' LIBRO_ELECTROBIOFOTONICA/00_GUION_MAESTRO.md)",
+      "WebFetch(domain:www.nature.com)",
+      "WebFetch(domain:journals.plos.org)",
+      "WebFetch(domain:www.sciencedirect.com)",
+      "Bash(fc-list)",
+      "Bash(npm ls *)",
+      "Bash(grep -i -E \"^pango$|^cairo$|^gobject|^glib$\")",
+      "Bash(grep -c '`' BRIEF_FACTORY_CORE_RECOVERY_BEAUTY_EN.md BRIEF_FACTORY_CORE_RECOVERY_BEAUTY_ZH.md)",
+      "Bash(sips -s format png /tmp/test_symbols.pdf --out /tmp/test_symbols.png)",
+      "Bash(find /System/Library/Fonts /Library/Fonts ~/Library/Fonts -iname \"*ping*\" -o -iname \"*heiti*\" -o -iname \"*hiragino*sans*gb*\" 2>/dev/null | head -20)",
+      "Bash(sips -s format png /tmp/test_symbols2.pdf --out /tmp/test_symbols2.png)",
+      "Bash(sips -s format png /tmp/test_dot.pdf --out /tmp/test_dot.png)",
+      "Bash(grep -noE \"[0-9]{2,4}[.,]?[0-9]{0,2}\\\\s?€\" Content/ADS_SPIRO_3_ANUNCIOS_2026-07.md)",
+      "Bash(grep -noE \"[0-9]{2,4}[.,]?[0-9]{0,2}\\\\s?€\" Content/ADS_SPIRO_RETARGETING_2026-07.md)",
+      "Bash(echo \"=== PACK INFANTIL: descripción completa ===\")",
+      "Bash(sips -s format png FOLLOWUP_ROUND2_CORE_RECOVERY_BEAUTY_EN.pdf --out /tmp/followup_preview.png)"
     ]
   }
 }

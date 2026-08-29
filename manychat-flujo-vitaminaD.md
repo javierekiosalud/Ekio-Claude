@@ -5,7 +5,8 @@
 > **Cuenta:** Electrosmog España (`fb644187`)
 > **Flujo ya creado (vacío):** https://app.manychat.com/fb644187/cms/files/content20260628082528_624288/edit
 > **Tipo:** Instagram DM · Keyword trigger
-> **Objetivo:** Venta directa D3+K2 Laittin (29,90€) con descuento 10% (código `D10`)
+> **Objetivo:** Validar interés → entregar enlace al producto → dar código de descuento `D10` (10%)
+> **Sin captura de email** — flujo directo a la venta.
 
 ---
 
@@ -21,14 +22,12 @@ TRIGGER: keyword "VitaminaD" (Instagram DM)
 [✅ Sí]     [❌ No]
    │            │
    ▼            ▼
-[Captura email] [MSG CIERRE]
-[+ Tag + Klaviyo]
+[MSG 2 —     [MSG CIERRE]
+ Cualificación]
    │
-[MSG 2 — Cualificación]
+   ├─ [💊 Ya me suplemento] → MSG 3A → CTA FINAL (enlace + D10)
    │
-   ├─ [💊 Ya me suplemento] → MSG 3A → CTA FINAL
-   │
-   └─ [☀️ Confío en el sol] → MSG 3B → CTA FINAL
+   └─ [☀️ Confío en el sol] → MSG 3B → CTA FINAL (enlace + D10)
 ```
 
 ---
@@ -62,28 +61,12 @@ Y no es solo cansancio. Sin D3+K2, el calcio no llega a los huesos — va direct
 **Botones (Quick Reply):**
 | Botón | Acción |
 |---|---|
-| `✅ Sí, cuéntame` | → ir a PASO 3 (captura email) |
-| `❌ Ahora no` | → ir a PASO 7 (Mensaje de cierre) |
+| `✅ Sí, cuéntame` | → ir a PASO 3 (Mensaje 2) · aplicar Tag `lead-manychat-vitaminad` |
+| `❌ Ahora no` | → ir a PASO 6 (Mensaje de cierre) |
 
 ---
 
-## PASO 3 — CAPTURA EMAIL + INTEGRACIONES
-
-*(Rama del botón "✅ Sí, cuéntame")*
-
-1. Añade acción de usuario → **"Solicitar email"** (User Input → Email).
-   - Guardar en campo de sistema `Email`.
-2. Tras capturar el email, añade un nodo de **Acciones**:
-   - **Añadir etiqueta:** `lead-manychat-vitaminad`
-   - **Enviar evento a Klaviyo:** `manychat_interes_vitaminaD`
-     - Propiedades: `interest: vitaminaD`, `product: D3+K2`, `canal_origen: instagram_dm`
-
-> ⚠️ El email se captura SIEMPRE antes del Mensaje 2, nunca en el Mensaje 1.
-> Si el usuario omite el email, repreguntar una sola vez; si vuelve a omitir, continuar igual.
-
----
-
-## PASO 4 — MENSAJE 2 (valor + cualificación)
+## PASO 3 — MENSAJE 2 (validar / cualificación)
 
 **Tipo:** Instagram DM · Texto
 
@@ -98,12 +81,12 @@ Oficinas, pantallas, ropa… el cuerpo produce menos vitamina D de la que necesi
 **Botones (Quick Reply):**
 | Botón | Acción |
 |---|---|
-| `💊 Sí, me suplemento` | → ir a PASO 5 (Mensaje 3A) |
-| `☀️ No, confío en el sol` | → ir a PASO 6 (Mensaje 3B) |
+| `💊 Sí, me suplemento` | → ir a PASO 4 (Mensaje 3A) |
+| `☀️ No, confío en el sol` | → ir a PASO 5 (Mensaje 3B) |
 
 ---
 
-## PASO 5 — MENSAJE 3A (rama "Ya me suplemento")
+## PASO 4 — MENSAJE 3A (rama "Ya me suplemento")
 
 **Tipo:** Instagram DM · Texto
 
@@ -115,11 +98,11 @@ Pero hay un detalle que muchos suplementos pasan por alto: sin K2 junto a la D3,
 El D3+K2 Electro Premium de Laittin los combina en la proporción correcta, con acción antioxidante extra. ☀️
 ```
 
-→ Conectar al bloque **CTA FINAL (PASO 8)**.
+→ Conectar al bloque **CTA FINAL (PASO 7)**.
 
 ---
 
-## PASO 6 — MENSAJE 3B (rama "Confío en el sol")
+## PASO 5 — MENSAJE 3B (rama "Confío en el sol")
 
 **Tipo:** Instagram DM · Texto
 
@@ -131,11 +114,11 @@ La realidad: la mayoría de días eso no pasa.
 En la Medicina Tradicional China, el Riñón rige los huesos y la energía vital — cuando hay déficit de D3, ese sistema se resiente primero. Suplementar con D3+K2 es cerrar ese ciclo de forma natural.
 ```
 
-→ Conectar al bloque **CTA FINAL (PASO 8)**.
+→ Conectar al bloque **CTA FINAL (PASO 7)**.
 
 ---
 
-## PASO 7 — MENSAJE DE CIERRE (rama "Ahora no")
+## PASO 6 — MENSAJE DE CIERRE (rama "Ahora no")
 
 **Tipo:** Instagram DM · Texto
 
@@ -149,11 +132,10 @@ Si en algún momento quieres saber más sobre cómo el estilo de vida moderno af
 
 - Sin botones (fin de flujo limpio).
 - No enviar follow-up automático a esta rama (respetar el "no").
-- *(Opcional)* Tag: `lead-manychat-vitaminad-no` para excluir de retargeting agresivo.
 
 ---
 
-## PASO 8 — CTA FINAL (común a 3A y 3B)
+## PASO 7 — CTA FINAL (común a 3A y 3B)
 
 **Tipo:** Instagram DM · Texto (o Card con botón URL)
 
@@ -177,7 +159,7 @@ Si tienes cualquier duda antes de pedirlo, escríbeme aquí mismo. 🙌
 
 ---
 
-## PASO 9 — RECORDATORIO DEL CÓDIGO (opcional, recomendado)
+## PASO 8 — RECORDATORIO DEL CÓDIGO (opcional, recomendado)
 
 Nodo de **Smart Delay 5 min** después del CTA Final, con condición *"no hizo clic en el enlace"*:
 
@@ -195,13 +177,10 @@ Si tienes cualquier duda con el pedido, escríbeme aquí. 🙌
 
 | Sistema | Qué | Valor | Cuándo |
 |---|---|---|---|
-| **ManyChat** | Tag suscriptor | `lead-manychat-vitaminad` | Al capturar email |
-| **Klaviyo** | Evento | `manychat_interes_vitaminaD` | Al capturar email |
-| **Klaviyo** | Propiedad evento | `rama`: `suplementa` / `sol` / `no_interesado` | Según respuesta |
-| **Shopify** | Tag cliente | `lead-manychat-vitaminad` | Junto al evento Klaviyo |
+| **ManyChat** | Tag suscriptor | `lead-manychat-vitaminad` | Al pulsar "✅ Sí, cuéntame" |
 | **Shopify** | Código descuento | `D10` (10%, todos los productos) | **CREAR ANTES de publicar** |
 
-> **Nota para Erick (Klaviyo):** el evento llega con la propiedad `rama` para segmentar el flow post-DM. Secuencia sugerida: email 24h (valor D3+K2) → email 48h (testimonios/UGC) → email 72h (última llamada si no compra).
+> Sin captura de email ni evento Klaviyo en este flujo. El tag `lead-manychat-vitaminad` queda disponible para retargeting en Meta Ads / segmentación posterior.
 
 ---
 
@@ -210,10 +189,10 @@ Si tienes cualquier duda con el pedido, escríbeme aquí. 🙌
 - [ ] Código `D10` creado y activo en Shopify (10%, sin caducidad)
 - [ ] Trigger keyword `VitaminaD` configurada
 - [ ] Mensaje 1 con 2 botones conectados a ramas correctas
-- [ ] Email capturado ANTES del Mensaje 2
-- [ ] Tag `lead-manychat-vitaminad` se aplica al capturar email
-- [ ] Evento Klaviyo `manychat_interes_vitaminaD` configurado
-- [ ] CTA Final con URL + UTMs completos
+- [ ] Tag `lead-manychat-vitaminad` se aplica al pulsar "Sí, cuéntame"
+- [ ] Mensaje 2 con 2 botones de cualificación
+- [ ] Ramas 3A y 3B convergen en el CTA Final
+- [ ] CTA Final con URL + UTMs completos + código D10
 - [ ] Recordatorio D10 con Smart Delay (opcional)
 - [ ] Mensaje de cierre para los que dicen "no"
 - [ ] Bloqueo de re-entrada al flujo 30 días (evitar bombardeo)
@@ -226,5 +205,4 @@ Si tienes cualquier duda con el pedido, escríbeme aquí. 🙌
 - Concepto central: *"El precio invisible"* — el coste oculto del electrosmog y la falta de sol.
 - Tono DM: cercano, experto, sin presión.
 - Máx. 3-4 líneas por globo · 1-2 emojis (nunca decorativos) · máx. 2 botones por mensaje.
-- Capturar email/nombre antes del Mensaje 3.
 - Siempre una salida elegante para quien dice "no".

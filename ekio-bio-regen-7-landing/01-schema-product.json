@@ -1,0 +1,45 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Product",
+      "name": "Bio Regen 7 — Panel de Fotobiomodulación para Regeneración Celular",
+      "description": "Panel de fotobiomodulación de Ekio Light con 7 longitudes de onda (485–940 nm) y 1 módulo COB (660+850 nm). 70 LEDs + COB. Incluye cian regulador del ritmo circadiano a 485 nm e infrarrojo profundo a 940 nm, los dos diferenciadores frente al modelo Deep 5. Diseñado para regeneración de piel, reparación de tejido conectivo y acompañamiento del dolor inflamatorio. Modelo de utilidad español U202532624, PCT en tramitación. El precio incluye el Ekio Light System Bio Regen 7 completo, con un Stack de extras (App Ekio Coach, Guía de Uso Interactiva, bombilla roja y Vitamina C+B50) incluido sin coste adicional.",
+      "brand": {"@type":"Brand","name":"Ekio Light"},
+      "manufacturer": {"@type":"Organization","name":"Ekio Light","url":"https://electrosmogespana.com"},
+      "model": "Bio Regen 7",
+      "mpn": "BIO-REGEN-7-U202532624",
+      "sku": "BIO-REGEN-7",
+      "image": ["https://electrosmogespana.com/cdn/shop/files/bio-regen-7-frontal.png"],
+      "additionalProperty": [
+        {"@type":"PropertyValue","name":"Longitudes de onda","value":"485nm, 630nm, 660nm, 727nm, 810nm, 850nm, 940nm"},
+        {"@type":"PropertyValue","name":"LEDs","value":"70 + 1 COB (660+850nm)"},
+        {"@type":"PropertyValue","name":"Modelo de Utilidad","value":"U202532624 (PCT en tramitación)"}
+      ],
+      "offers": {
+        "@type":"Offer","price":"970.00","priceCurrency":"EUR","availability":"https://schema.org/InStock","itemCondition":"https://schema.org/NewCondition","priceValidUntil":"2026-12-31",
+        "url":"https://electrosmogespana.com/products/bio-regen-7-panel-regeneracion-celular",
+        "seller":{"@type":"Organization","name":"Ekio Light"},
+        "hasMerchantReturnPolicy":{"@type":"MerchantReturnPolicy","applicableCountry":"ES","returnPolicyCategory":"https://schema.org/MerchantReturnFiniteReturnWindow","merchantReturnDays":30}
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type":"Question","name":"¿Para qué sirve específicamente el Bio Regen 7?","acceptedAnswer":{"@type":"Answer","text":"El Bio Regen 7 es un panel de 70 LEDs y 7 longitudes de onda diseñado para regeneración celular profunda. Sirve para regenerar la piel (acné, cicatrices, antiaging), reparar tejido conectivo (tendones, articulaciones, fascia), reducir el dolor inflamatorio crónico y acelerar la recuperación muscular post-entreno."}},
+        {"@type":"Question","name":"¿Qué diferencia hay con el Deep 5?","acceptedAnswer":{"@type":"Answer","text":"El Bio Regen 7 añade dos longitudes que el Deep 5 no tiene: 485 nm (cian, regulador del ritmo circadiano diurno) y 940 nm (infrarrojo profundo que penetra hasta tejido conectivo y articulaciones). Resultado: regeneración celular más completa y acción más profunda en molestias crónicas."}},
+        {"@type":"Question","name":"¿Para qué sirve el cian 485 nm?","acceptedAnswer":{"@type":"Answer","text":"El cian 485 nm regula el ritmo circadiano durante el día: usado por la mañana, envía la señal de 'es de día' que sincroniza cortisol y alerta, generando una activación matutina limpia sin necesidad de cafeína. También tiene una acción secundaria conocida sobre la flora bacteriana de la piel."}},
+        {"@type":"Question","name":"¿Para qué sirve el infrarrojo profundo 940 nm?","acceptedAnswer":{"@type":"Answer","text":"El 940 nm es el infrarrojo de penetración más profunda en el espectro PBM estándar. Llega hasta el tejido conectivo, los tendones y el músculo profundo. Es la longitud clave para tratar dolor articular, regeneración de lesiones deportivas y trabajo sobre fascia."}},
+        {"@type":"Question","name":"¿Sirve para fibromialgia y dolor crónico?","acceptedAnswer":{"@type":"Answer","text":"Estudios publicados en PubMed sugieren que la fotobiomodulación a longitudes de 660-940 nm contribuye a reducir la percepción del dolor y la fatiga en cuadros crónicos al actuar sobre las mitocondrias del tejido muscular y conectivo. El Bio Regen 7 cubre todo este espectro."}}
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type":"ListItem","position":1,"name":"Inicio","item":"https://electrosmogespana.com"},
+        {"@type":"ListItem","position":2,"name":"Luz Roja Terapéutica y Fotobiomodulación","item":"https://electrosmogespana.com/collections/luz-roja-terapeutica"},
+        {"@type":"ListItem","position":3,"name":"Bio Regen 7"}
+      ]
+    }
+  ]
+}

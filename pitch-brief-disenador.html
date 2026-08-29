@@ -1,0 +1,1122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EKIO Light · Brief Diseñador · Keiretsu Valladolid 2026</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  --amber:   #f5a623;
+  --amber-lt:#fff3d6;
+  --teal:    #00c9a7;
+  --teal-lt: #e0faf5;
+  --dark:    #07090f;
+  --navy:    #1a2035;
+  --slate:   #2d3748;
+  --mid:     #64748b;
+  --light:   #94a3b8;
+  --pale:    #f1f5f9;
+  --white:   #ffffff;
+  --red:     #ef4444;
+  --red-lt:  #fef2f2;
+  --green:   #22c55e;
+  --green-lt:#f0fdf4;
+  --purple:  #8b5cf6;
+  --purple-lt:#f5f3ff;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  background: #f8fafc;
+  color: var(--navy);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ── DOCUMENT WRAPPER ── */
+.document {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 24px 80px;
+}
+
+/* ── COVER ── */
+.cover {
+  background: var(--dark);
+  border-radius: 16px;
+  padding: 56px 48px;
+  margin-bottom: 40px;
+  position: relative;
+  overflow: hidden;
+}
+.cover::before {
+  content: '';
+  position: absolute; top: -100px; right: -100px;
+  width: 400px; height: 400px;
+  background: radial-gradient(circle, rgba(245,166,35,0.12) 0%, transparent 70%);
+}
+.cover-tag {
+  display: inline-block;
+  background: rgba(245,166,35,0.15);
+  border: 1px solid rgba(245,166,35,0.3);
+  color: var(--amber);
+  font-size: 11px; font-weight: 700; letter-spacing: 0.2em;
+  text-transform: uppercase; padding: 5px 14px;
+  border-radius: 20px; margin-bottom: 24px;
+}
+.cover h1 {
+  font-size: 42px; font-weight: 900;
+  color: white; line-height: 1.1;
+  letter-spacing: -0.02em; margin-bottom: 8px;
+}
+.cover h1 span { color: var(--amber); }
+.cover-sub {
+  font-size: 18px; color: rgba(255,255,255,0.5);
+  font-weight: 400; margin-bottom: 32px;
+}
+.cover-meta {
+  display: flex; gap: 32px; flex-wrap: wrap;
+}
+.cover-meta-item { }
+.cover-meta-label {
+  font-size: 10px; font-weight: 700; letter-spacing: 0.18em;
+  text-transform: uppercase; color: rgba(255,255,255,0.3);
+  margin-bottom: 4px;
+}
+.cover-meta-val {
+  font-size: 15px; font-weight: 600; color: white;
+}
+
+/* ── SECTION HEADER ── */
+.section-header {
+  display: flex; align-items: center; gap: 12px;
+  margin: 40px 0 20px;
+}
+.section-num {
+  width: 32px; height: 32px; border-radius: 50%;
+  background: var(--amber); color: white;
+  font-size: 13px; font-weight: 800;
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+}
+.section-title {
+  font-size: 20px; font-weight: 800;
+  color: var(--navy); letter-spacing: -0.01em;
+}
+.section-divider {
+  flex: 1; height: 1px; background: #e2e8f0;
+}
+
+/* ── BRAND BLOCK ── */
+.brand-grid {
+  display: grid; grid-template-columns: 1fr 1fr;
+  gap: 16px; margin-bottom: 16px;
+}
+.brand-card {
+  background: white; border: 1px solid #e2e8f0;
+  border-radius: 12px; padding: 20px;
+}
+.brand-card h4 {
+  font-size: 11px; font-weight: 700; letter-spacing: 0.15em;
+  text-transform: uppercase; color: var(--mid);
+  margin-bottom: 14px;
+}
+
+/* Color swatches */
+.swatch-row { display: flex; gap: 10px; flex-wrap: wrap; }
+.swatch {
+  display: flex; flex-direction: column; align-items: center;
+  gap: 6px;
+}
+.swatch-box {
+  width: 52px; height: 52px; border-radius: 10px;
+  border: 1px solid rgba(0,0,0,0.08);
+}
+.swatch-name { font-size: 10px; font-weight: 600; color: var(--mid); }
+.swatch-hex { font-size: 9px; color: var(--light); font-family: monospace; }
+
+/* Font samples */
+.font-sample { margin-bottom: 10px; }
+.font-sample-label { font-size: 10px; color: var(--mid); margin-bottom: 3px; font-weight: 600; }
+.font-hero { font-size: 32px; font-weight: 900; color: var(--navy); line-height: 1; }
+.font-title { font-size: 20px; font-weight: 700; color: var(--navy); }
+.font-body { font-size: 14px; font-weight: 400; color: var(--slate); }
+.font-accent { font-size: 12px; font-weight: 700; letter-spacing: 0.15em; text-transform: uppercase; color: var(--amber); }
+
+/* ── SLIDE CARD ── */
+.slide-card {
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  margin-bottom: 24px;
+  overflow: hidden;
+}
+.slide-card-header {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 14px 20px;
+  background: var(--dark);
+}
+.slide-card-num {
+  display: flex; align-items: center; gap: 10px;
+}
+.slide-num-badge {
+  width: 28px; height: 28px; border-radius: 6px;
+  background: rgba(245,166,35,0.2);
+  color: var(--amber); font-size: 13px; font-weight: 800;
+  display: flex; align-items: center; justify-content: center;
+}
+.slide-title-text {
+  font-size: 14px; font-weight: 700; color: white;
+  letter-spacing: 0.02em;
+}
+.slide-time {
+  font-size: 11px; font-weight: 600;
+  color: rgba(255,255,255,0.35);
+  letter-spacing: 0.1em;
+  font-variant-numeric: tabular-nums;
+}
+.slide-card-body {
+  padding: 24px;
+}
+
+/* Content hierarchy display */
+.content-block { margin-bottom: 20px; }
+.content-block:last-child { margin-bottom: 0; }
+.hier-label {
+  font-size: 9px; font-weight: 800; letter-spacing: 0.2em;
+  text-transform: uppercase; color: var(--light);
+  margin-bottom: 6px; display: block;
+}
+
+.h-stat {
+  font-size: 36px; font-weight: 900;
+  color: var(--amber); line-height: 1;
+  letter-spacing: -0.02em;
+}
+.h-main {
+  font-size: 20px; font-weight: 800;
+  color: var(--navy); line-height: 1.3;
+  letter-spacing: -0.01em;
+}
+.h-sub {
+  font-size: 15px; font-weight: 700;
+  color: var(--slate); line-height: 1.4;
+}
+.h-body {
+  font-size: 13px; font-weight: 400;
+  color: var(--mid); line-height: 1.65;
+}
+.h-accent {
+  font-size: 12px; font-weight: 700;
+  color: var(--amber); letter-spacing: 0.05em;
+}
+.h-highlight {
+  background: var(--amber-lt);
+  border-left: 3px solid var(--amber);
+  border-radius: 0 8px 8px 0;
+  padding: 10px 14px;
+  font-size: 13px; font-weight: 600; color: var(--navy);
+  line-height: 1.5;
+}
+.h-note {
+  background: var(--pale);
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-size: 12px; color: var(--mid); line-height: 1.5;
+}
+
+/* Tags inline */
+.tag {
+  display: inline-flex; align-items: center;
+  background: var(--amber-lt);
+  border: 1px solid rgba(245,166,35,0.3);
+  color: #92400e;
+  font-size: 11px; font-weight: 700;
+  border-radius: 6px; padding: 3px 9px;
+  margin: 2px;
+}
+.tag.teal {
+  background: var(--teal-lt);
+  border-color: rgba(0,201,167,0.3);
+  color: #065f46;
+}
+.tag.blue {
+  background: #eff6ff;
+  border-color: rgba(59,130,246,0.3);
+  color: #1e40af;
+}
+.tag.red {
+  background: var(--red-lt);
+  border-color: rgba(239,68,68,0.3);
+  color: #991b1b;
+}
+.tag.green {
+  background: var(--green-lt);
+  border-color: rgba(34,197,94,0.3);
+  color: #14532d;
+}
+.tag.purple {
+  background: var(--purple-lt);
+  border-color: rgba(139,92,246,0.3);
+  color: #4c1d95;
+}
+
+/* Visual direction box */
+.visual-dir {
+  background: #f8fafc;
+  border: 1px dashed #cbd5e1;
+  border-radius: 10px;
+  padding: 14px 16px;
+  margin-top: 16px;
+}
+.visual-dir-label {
+  font-size: 9px; font-weight: 800; letter-spacing: 0.2em;
+  text-transform: uppercase; color: var(--teal);
+  margin-bottom: 8px; display: block;
+}
+.visual-dir p {
+  font-size: 12px; color: var(--slate); line-height: 1.6;
+}
+.visual-dir p strong { color: var(--navy); }
+
+/* Separator between columns in slide */
+.two-col-brief {
+  display: grid; grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.two-col-brief .col-label {
+  font-size: 10px; font-weight: 700; letter-spacing: 0.15em;
+  text-transform: uppercase; color: var(--mid);
+  margin-bottom: 12px;
+  padding-bottom: 8px; border-bottom: 1px solid #e2e8f0;
+}
+
+/* Metrics grid */
+.metrics-row {
+  display: grid; grid-template-columns: repeat(3,1fr);
+  gap: 12px; margin: 12px 0;
+}
+.metric-item {
+  background: var(--pale); border-radius: 8px;
+  padding: 12px; text-align: center;
+}
+.metric-val { font-size: 22px; font-weight: 900; color: var(--amber); }
+.metric-lbl { font-size: 10px; font-weight: 600; color: var(--mid); text-transform: uppercase; letter-spacing: 0.1em; margin-top: 2px; }
+
+/* Product cards */
+.product-row {
+  display: grid; grid-template-columns: repeat(3,1fr);
+  gap: 12px; margin: 12px 0;
+}
+.product-item {
+  border: 1px solid #e2e8f0; border-radius: 8px; padding: 12px;
+}
+.product-item.featured { border-color: rgba(245,166,35,0.4); background: var(--amber-lt); }
+.product-item-name { font-size: 13px; font-weight: 800; color: var(--navy); }
+.product-item-lam { font-size: 10px; font-weight: 700; color: var(--amber); letter-spacing: 0.1em; text-transform: uppercase; margin: 3px 0; }
+.product-item-desc { font-size: 11px; color: var(--mid); line-height: 1.4; }
+
+/* IP cards */
+.ip-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 12px 0; }
+.ip-item { border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px; }
+.ip-item.active { border-color: var(--teal); }
+.ip-status { font-size: 10px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 6px; }
+.ip-status.active { color: var(--teal); }
+.ip-status.progress { color: var(--amber); }
+.ip-code { font-size: 15px; font-weight: 800; color: var(--navy); }
+.ip-partner { font-size: 11px; color: var(--mid); margin-top: 6px; }
+
+/* Team cards */
+.team-row { display: grid; grid-template-columns: repeat(4,1fr); gap: 10px; margin: 12px 0; }
+.team-item { border: 1px solid #e2e8f0; border-radius: 8px; padding: 12px; }
+.team-item.featured { border-color: rgba(245,166,35,0.4); background: var(--amber-lt); }
+.team-item-name { font-size: 13px; font-weight: 700; color: var(--navy); }
+.team-item-role { font-size: 10px; font-weight: 700; color: var(--amber); text-transform: uppercase; letter-spacing: 0.1em; margin: 3px 0 6px; }
+.team-item-desc { font-size: 11px; color: var(--mid); line-height: 1.4; }
+
+/* Fund items */
+.fund-row { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin: 12px 0; }
+.fund-item-brief { border: 1px solid #e2e8f0; border-radius: 8px; padding: 10px 12px; display: flex; gap: 8px; align-items: flex-start; }
+.fund-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--amber); flex-shrink: 0; margin-top: 4px; }
+.fund-txt { font-size: 12px; color: var(--mid); line-height: 1.4; }
+.fund-txt strong { color: var(--navy); }
+
+/* Speaker note box */
+.speaker-note {
+  background: #1a2035; border-radius: 10px;
+  padding: 14px 16px; margin-top: 16px;
+}
+.speaker-note-label {
+  font-size: 9px; font-weight: 800; letter-spacing: 0.2em;
+  text-transform: uppercase; color: rgba(255,255,255,0.3);
+  margin-bottom: 6px; display: block;
+}
+.speaker-note p {
+  font-size: 12px; color: rgba(255,255,255,0.65); line-height: 1.6;
+}
+.speaker-note p strong { color: var(--amber); }
+
+/* Print */
+@media print {
+  body { background: white; }
+  .document { max-width: 100%; padding: 20px; }
+  .slide-card { break-inside: avoid; page-break-inside: avoid; }
+  .cover { break-after: page; }
+  .section-header { break-before: page; margin-top: 20px; }
+}
+</style>
+</head>
+<body>
+<div class="document">
+
+  <!-- ══ PORTADA ══ -->
+  <div class="cover">
+    <div class="cover-tag">Brief para diseñador gráfico</div>
+    <h1>EKIO <span>Light</span></h1>
+    <p class="cover-sub">Presentación de inversión · Keiretsu Valladolid</p>
+    <div class="cover-meta">
+      <div class="cover-meta-item">
+        <div class="cover-meta-label">Evento</div>
+        <div class="cover-meta-val">Foro Keiretsu Valladolid</div>
+      </div>
+      <div class="cover-meta-item">
+        <div class="cover-meta-label">Fecha</div>
+        <div class="cover-meta-val">7 mayo 2026</div>
+      </div>
+      <div class="cover-meta-item">
+        <div class="cover-meta-label">Duración</div>
+        <div class="cover-meta-val">7 min 30 seg</div>
+      </div>
+      <div class="cover-meta-item">
+        <div class="cover-meta-label">Slides</div>
+        <div class="cover-meta-val">12 slides</div>
+      </div>
+      <div class="cover-meta-item">
+        <div class="cover-meta-label">Formato</div>
+        <div class="cover-meta-val">16:9 · 1920×1080px</div>
+      </div>
+      <div class="cover-meta-item">
+        <div class="cover-meta-label">Audiencia</div>
+        <div class="cover-meta-val">Inversores · Family Offices · BA</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══ IDENTIDAD VISUAL ══ -->
+  <div class="section-header">
+    <div class="section-num">A</div>
+    <span class="section-title">Identidad visual y paleta de color</span>
+    <div class="section-divider"></div>
+  </div>
+
+  <div class="brand-grid">
+    <div class="brand-card">
+      <h4>Paleta principal</h4>
+      <div class="swatch-row">
+        <div class="swatch">
+          <div class="swatch-box" style="background:#07090f;"></div>
+          <span class="swatch-name">Fondo</span>
+          <span class="swatch-hex">#07090f</span>
+        </div>
+        <div class="swatch">
+          <div class="swatch-box" style="background:#f5a623;"></div>
+          <span class="swatch-name">Ámbar</span>
+          <span class="swatch-hex">#f5a623</span>
+        </div>
+        <div class="swatch">
+          <div class="swatch-box" style="background:#00c9a7;"></div>
+          <span class="swatch-name">Teal</span>
+          <span class="swatch-hex">#00c9a7</span>
+        </div>
+        <div class="swatch">
+          <div class="swatch-box" style="background:#ffffff; border:1px solid #e2e8f0;"></div>
+          <span class="swatch-name">Blanco</span>
+          <span class="swatch-hex">#ffffff</span>
+        </div>
+        <div class="swatch">
+          <div class="swatch-box" style="background:rgba(255,255,255,0.55);"></div>
+          <span class="swatch-name">Dim</span>
+          <span class="swatch-hex">white 55%</span>
+        </div>
+      </div>
+    </div>
+    <div class="brand-card">
+      <h4>Jerarquía tipográfica</h4>
+      <div class="font-sample">
+        <div class="font-sample-label">Estadística principal</div>
+        <div class="font-hero" style="color:#f5a623;">€1.800.000</div>
+      </div>
+      <div class="font-sample">
+        <div class="font-sample-label">Titular de slide</div>
+        <div class="font-title">No vendemos paneles.</div>
+      </div>
+      <div class="font-sample">
+        <div class="font-sample-label">Cuerpo de texto</div>
+        <div class="font-body">La biología humana está sincronizada con el sol.</div>
+      </div>
+      <div class="font-sample">
+        <div class="font-sample-label">Etiqueta / Label</div>
+        <div class="font-accent">Propiedad intelectual</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="brand-card" style="margin-bottom:16px;">
+    <h4>Tono y estética</h4>
+    <p style="font-size:13px; color:#64748b; line-height:1.7; margin-top:4px;">
+      <strong style="color:#1a2035;">Dark & Premium.</strong> Fondo oscuro profundo (#07090f) con acentos en ámbar cálido. Evoca luz, ciencia y tecnología avanzada. No es startup frío ni clínica blanca — es <em>health tech de élite</em>.<br><br>
+      <strong style="color:#1a2035;">Fuente recomendada:</strong> Inter, SF Pro Display, o Neue Haas Grotesk. Pesos 400 (cuerpo), 600 (subtítulo), 800–900 (estadísticas y títulos).<br><br>
+      <strong style="color:#1a2035;">Imágenes:</strong> fotografía oscura con luz ambiental cálida. Cuerpo humano en recuperación, atletas, luz solar, mitocondrias. Evitar: clínica estéril, LEDs azules, plastificado.<br><br>
+      <strong style="color:#1a2035;">Textura de fondo:</strong> rejilla sutil con líneas muy tenues (2% opacidad blanco). Degradado radial ámbar en esquina superior izquierda (6% opacidad).
+    </p>
+  </div>
+
+  <!-- ══ SLIDES ══ -->
+  <div class="section-header">
+    <div class="section-num">B</div>
+    <span class="section-title">Contenido slide a slide</span>
+    <div class="section-divider"></div>
+  </div>
+
+  <!-- SLIDE 1 -->
+  <div class="slide-card">
+    <div class="slide-card-header">
+      <div class="slide-card-num">
+        <div class="slide-num-badge">1</div>
+        <span class="slide-title-text">La empresa</span>
+      </div>
+      <span class="slide-time">0:00 – 0:50 · 50 seg</span>
+    </div>
+    <div class="slide-card-body">
+      <div class="two-col-brief">
+        <div>
+          <div class="col-label">Columna izquierda — cifra de apertura</div>
+          <div class="content-block">
+            <span class="hier-label">Estadística principal (máx. tamaño)</span>
+            <div class="h-stat">€1.800.000</div>
+          </div>
+          <div class="content-block">
+            <span class="hier-label">Label bajo la cifra</span>
+            <p class="h-accent">Facturados desde 2023</p>
+          </div>
+          <div class="content-block">
+            <span class="hier-label">Cuerpo</span>
+            <p class="h-body">Sin venture capital. Sin business angels. Solo con producto, comunidad y <strong>80.000€ de financiación bancaria tradicional.</strong></p>
+          </div>
+        </div>
+        <div>
+          <div class="col-label">Columna derecha — empresa + pivote</div>
+          <div class="content-block">
+            <span class="hier-label">Subtítulo</span>
+            <p class="h-sub">Llevamos años protegiendo a las personas de la contaminación electromagnética de WiFi, móviles, antenas y electricidad sucia.</p>
+          </div>
+          <div class="content-block">
+            <span class="hier-label">Cuerpo</span>
+            <p class="h-body">Mediciones profesionales, asesoramiento clínico y distribuidores oficiales en España de los <strong>filtros Spiro</strong>.</p>
+          </div>
+          <div class="h-highlight">
+            Pero proteger del problema no era suficiente. Hoy venimos a presentar la otra mitad: <strong>devolverle al cuerpo lo que la vida moderna le quita.</strong>
+          </div>
+          <div class="content-block" style="margin-top:12px;">
+            <span class="hier-label">Frase de cierre de slide</span>
+            <p class="h-accent">Esa es Ekio Light — la línea que venimos a escalar con vosotros.</p>
+          </div>
+        </div>
+      </div>
+      <div class="visual-dir">
+        <span class="visual-dir-label">Dirección visual</span>
+        <p>Layout en dos columnas iguales. Izquierda: cifra €1.800.000 en ámbar, muy grande (80–96px), centrada verticalmente. Derecha: texto con highlight box ámbar al fondo. <strong>Imagen sugerida:</strong> fondo con detalle de luz cálida natural o espectro difuminado detrás del texto.</p>
+      </div>
+      <div class="speaker-note">
+        <span class="speaker-note-label">Nota de presentador</span>
+        <p><strong>Pausa de 2 segundos</strong> tras "€1.800.000 facturados". Pausa larga tras "lo que la vida moderna le quita".</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- SLIDE 2 -->
+  <div class="slide-card">
+    <div class="slide-card-header">
+      <div class="slide-card-num">
+        <div class="slide-num-badge">2</div>
+        <span class="slide-title-text">El problema</span>
+      </div>
+      <span class="slide-time">0:50 – 1:35 · 45 seg</span>
+    </div>
+    <div class="slide-card-body">
+      <div class="two-col-brief">
+        <div>
+          <div class="col-label">Columna izquierda — estadística + contexto</div>
+          <div class="content-block">
+            <span class="hier-label">Label introductorio</span>
+            <p class="h-accent">Un dato que debería estar en todos los titulares</p>
+          </div>
+          <div class="content-block">
+            <span class="hier-label">Estadística principal</span>
+            <div class="h-stat">50%</div>
+            <p class="h-body" style="margin-top:4px;">de la población mundial con déficit de vitamina D</p>
+          </div>
+          <div class="h-highlight" style="margin-top:12px;">No es un problema de dieta. <strong>Es un problema de luz.</strong></div>
+          <div class="content-block" style="margin-top:12px;">
+            <p class="h-body">Toda la biología humana está sincronizada con el sol. Sueño, hormonas, sistema inmunitario, energía celular.</p>
+          </div>
+        </div>
+        <div>
+          <div class="col-label">Columna derecha — consecuencias</div>
+          <div class="content-block">
+            <span class="hier-label">Tarjeta de dato</span>
+            <div style="background:#f8fafc; border:1px solid #e2e8f0; border-radius:8px; padding:14px; margin-bottom:12px;">
+              <div class="h-stat" style="font-size:28px;">90%</div>
+              <p class="h-body">del tiempo en interiores. LEDs y pantallas en lugar del sol.</p>
+            </div>
+          </div>
+          <div class="content-block">
+            <span class="hier-label">Lista de consecuencias (separadas visualmente)</span>
+            <p class="h-body">Alteraciones del sueño · Supresión de melatonina · Fatiga crónica · Inflamación sistémica · Peor salud metabólica</p>
+          </div>
+          <div class="content-block">
+            <span class="hier-label">Frase de cierre</span>
+            <p class="h-sub">Y aún no lo llamamos por su nombre. Lo llamamos simplemente <strong>vivir en interiores.</strong></p>
+          </div>
+        </div>
+      </div>
+      <div class="visual-dir">
+        <span class="visual-dir-label">Dirección visual</span>
+        <p>Dos columnas. <strong>Imagen sugerida:</strong> fotografía oscura de persona en interior con luz de pantalla azul, o contraste interior artificial vs. luz solar natural exterior. El 50% puede ir con tipografía enorme sobre imagen de fondo semitransparente.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- SLIDE 3 -->
+  <div class="slide-card">
+    <div class="slide-card-header">
+      <div class="slide-card-num">
+        <div class="slide-num-badge">3</div>
+        <span class="slide-title-text">La solución</span>
+      </div>
+      <span class="slide-time">1:35 – 2:25 · 50 seg</span>
+    </div>
+    <div class="slide-card-body">
+      <div class="content-block">
+        <span class="hier-label">Titular principal</span>
+        <p class="h-main">No vendemos paneles de luz. Construimos una <em style="color:#f5a623;">plataforma</em> que integra hardware de espectro completo, propiedad intelectual y software de personalización con IA.</p>
+      </div>
+      <div class="content-block">
+        <span class="hier-label">Barra de espectro (elemento decorativo)</span>
+        <div style="height:4px; border-radius:2px; background:linear-gradient(90deg,#8b00ff,#4b0082,#0000ff,#008000,#ffff00,#ff7f00,#ff0000,#8b1a1a,#4a0000); opacity:0.5; margin:8px 0;"></div>
+      </div>
+      <div class="content-block">
+        <span class="hier-label">Tres productos (tarjetas)</span>
+        <div class="product-row">
+          <div class="product-item featured">
+            <div class="product-item-name">Bio Spectrum</div>
+            <div class="product-item-lam">11 longitudes de onda</div>
+            <p class="product-item-desc">Rojo + IR + UV. La lógica biológica más completa.</p>
+          </div>
+          <div class="product-item">
+            <div class="product-item-name">Bio Regen</div>
+            <div class="product-item-lam">7 longitudes de onda</div>
+            <p class="product-item-desc">Regeneración, recuperación, equilibrio celular.</p>
+          </div>
+          <div class="product-item">
+            <div class="product-item-name">Deep 5</div>
+            <div class="product-item-lam">Rojo + Infrarrojo profundo</div>
+            <p class="product-item-desc">Fotobiomodulación profunda. ATP, recuperación.</p>
+          </div>
+        </div>
+      </div>
+      <div class="content-block">
+        <span class="hier-label">Elementos adicionales (inline)</span>
+        <span class="tag purple">Software IA · AIR Institute</span>
+        <span class="tag blue">Oura Ring</span>
+        <span class="tag blue">Apple Watch</span>
+        <span class="tag teal">Salud preventiva</span>
+        <span class="tag teal">Longevidad</span>
+      </div>
+      <div class="visual-dir">
+        <span class="visual-dir-label">Dirección visual</span>
+        <p>Titular arriba, barra de espectro cromático como separador decorativo, tres tarjetas de producto en fila. <strong>Bio Spectrum destacado</strong> con borde ámbar. <strong>Imagen sugerida:</strong> panel de luz sobre fondo oscuro con halo ámbar/rojo, o fotografía de uso en cuerpo humano.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- SLIDE 4 -->
+  <div class="slide-card">
+    <div class="slide-card-header">
+      <div class="slide-card-num">
+        <div class="slide-num-badge">4</div>
+        <span class="slide-title-text">Propiedad intelectual</span>
+      </div>
+      <span class="slide-time">2:25 – 3:00 · 35 seg</span>
+    </div>
+    <div class="slide-card-body">
+      <div class="content-block">
+        <span class="hier-label">Titular</span>
+        <p class="h-main">Esto no es solo un producto. <em style="color:#f5a623;">Es propiedad intelectual.</em></p>
+      </div>
+      <div class="content-block">
+        <span class="hier-label">Dos tarjetas IP (misma altura, lado a lado)</span>
+        <div class="ip-row">
+          <div class="ip-item active">
+            <div class="ip-status active">Registrado · Vigente · Propio</div>
+            <div class="ip-code">U202532624</div>
+            <p class="h-body" style="margin:4px 0 8px;">Modelo de Utilidad · 24 diciembre 2025</p>
+            <p class="ip-partner"><strong>La Fábrica de Inventos</strong> · Agente de patentes especializado. Gestión legal y técnica completa.</p>
+          </div>
+          <div class="ip-item">
+            <div class="ip-status progress">En redacción</div>
+            <div class="ip-code">Patente PCT Internacional</div>
+            <p class="h-body" style="margin:4px 0 8px;">Hardware + Software · +150 países</p>
+            <p class="ip-partner"><strong>AIR Institute</strong> · Referente europeo en IA aplicada. Elabora la memoria del software de la patente.</p>
+          </div>
+        </div>
+      </div>
+      <div class="h-highlight">
+        <strong>Quien controle el espectro completo con IP sólida, controla esta categoría.</strong>
+      </div>
+      <div class="visual-dir">
+        <span class="visual-dir-label">Dirección visual</span>
+        <p>Titular arriba. Dos tarjetas grandes de igual tamaño. Tarjeta izquierda: borde verde/teal (registrado). Tarjeta derecha: borde ámbar (en proceso). <strong>Elemento clave:</strong> el número U202532624 debe ser legible, tamaño mínimo 20px. Badge de estado "REGISTRADO" y "EN REDACCIÓN" visibles como pills de color.</p>
+      </div>
+      <div class="speaker-note">
+        <span class="speaker-note-label">Nota de presentador</span>
+        <p>Vocalizar el número <strong>U202532624</strong> y la fecha despacio. Pausa de 1,5 segundos. Es el momento más serio del pitch.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- SLIDE 5 -->
+  <div class="slide-card">
+    <div class="slide-card-header">
+      <div class="slide-card-num">
+        <div class="slide-num-badge">5</div>
+        <span class="slide-title-text">El momento</span>
+      </div>
+      <span class="slide-time">3:00 – 3:40 · 40 seg</span>
+    </div>
+    <div class="slide-card-body">
+      <div class="content-block">
+        <span class="hier-label">Titular</span>
+        <p class="h-main">La fotobiomodulación ya es <em style="color:#f5a623;">protocolo estándar</em> en el deporte de élite mundial.</p>
+      </div>
+      <div class="content-block">
+        <span class="hier-label">Pills de instituciones (primer nivel — mayor peso)</span>
+        <span class="tag">NBA</span>
+        <span class="tag">Premier League</span>
+        <span class="tag">Atletismo Olímpico</span>
+        <span class="tag">NFL</span>
+      </div>
+      <div class="content-block">
+        <span class="hier-label">Pills de figuras (segundo nivel — menor peso visual)</span>
+        <span class="tag blue">Cristiano Ronaldo</span>
+        <span class="tag blue">LeBron James</span>
+        <span class="tag blue">Marcos Llorente</span>
+      </div>
+      <div class="content-block">
+        <span class="hier-label">Medios España</span>
+        <span class="tag teal">Men's Health España</span>
+        <span class="tag teal">El Partidazo de COPE</span>
+      </div>
+      <div class="h-highlight" style="margin-top:12px;">
+        La pregunta ya no es si esta categoría va a crecer en Europa. La pregunta es <strong>quién la va a liderar.</strong>
+      </div>
+      <div class="content-block" style="margin-top:12px;">
+        <span class="hier-label">Frase de urgencia</span>
+        <p class="h-accent">El riesgo no está en si esta tecnología tiene recorrido. Está en no crecer lo suficientemente rápido.</p>
+      </div>
+      <div class="visual-dir">
+        <span class="visual-dir-label">Dirección visual</span>
+        <p>Las instituciones (NBA, Premier, etc.) deben tener más peso visual que los nombres propios — son tarjetas más grandes o en primera fila. Los nombres propios son referencias culturales, no endorsements: tratarlos en un tono más neutro. <strong>Imagen sugerida:</strong> atleta en acción con iluminación dramática cálida, o estadio/pista deportiva.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- SLIDE 6 -->
+  <div class="slide-card">
+    <div class="slide-card-header">
+      <div class="slide-card-num">
+        <div class="slide-num-badge">6</div>
+        <span class="slide-title-text">Tracción</span>
+      </div>
+      <span class="slide-time">3:40 – 4:15 · 35 seg</span>
+    </div>
+    <div class="slide-card-body">
+      <div class="content-block">
+        <span class="hier-label">Titular</span>
+        <p class="h-main">Esto no es una idea. <em style="color:#f5a623;">Es una máquina en marcha.</em></p>
+      </div>
+      <div class="content-block">
+        <span class="hier-label">Grid de 4 métricas (tarjetas iguales)</span>
+        <div class="metrics-row" style="grid-template-columns: repeat(4,1fr);">
+          <div class="metric-item">
+            <div class="metric-val">€1,8M</div>
+            <div class="metric-lbl">Facturados 2023–2026</div>
+          </div>
+          <div class="metric-item">
+            <div class="metric-val">+26K</div>
+            <div class="metric-lbl">Seguidores IG</div>
+          </div>
+          <div class="metric-item">
+            <div class="metric-val">12.400</div>
+            <div class="metric-lbl">Base de datos</div>
+          </div>
+          <div class="metric-item">
+            <div class="metric-val">+7.600</div>
+            <div class="metric-lbl">Clientes ecosistema</div>
+          </div>
+        </div>
+      </div>
+      <div class="h-highlight">
+        Muchos de esos clientes vinieron buscando protección frente a la contaminación tecnológica. Hoy son los compradores naturales de Ekio Light. <strong>Cross-sell interno sin coste adicional de adquisición.</strong>
+      </div>
+      <div class="visual-dir">
+        <span class="visual-dir-label">Dirección visual</span>
+        <p>Las 4 métricas en tarjetas de igual tamaño, números en ámbar grandes. El highlight box es el elemento estratégico más importante de esta slide — debe tener presencia visual clara. <strong>Nota importante:</strong> los 7.600 son clientes del "ecosistema EKIO", no solo de Ekio Light.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- SLIDE 7 -->
+  <div class="slide-card">
+    <div class="slide-card-header">
+      <div class="slide-card-num">
+        <div class="slide-num-badge">7</div>
+        <span class="slide-title-text">Salud financiera</span>
+      </div>
+      <span class="slide-time">4:15 – 4:50 · 35 seg</span>
+    </div>
+    <div class="slide-card-body">
+      <div class="content-block">
+        <span class="hier-label">Grid de 6 métricas (3 + 3)</span>
+        <div class="metrics-row">
+          <div class="metric-item">
+            <div class="metric-val">53%</div>
+            <div class="metric-lbl">Margen bruto medio</div>
+          </div>
+          <div class="metric-item">
+            <div class="metric-val">44%</div>
+            <div class="metric-lbl">Margen contribución</div>
+          </div>
+          <div class="metric-item">
+            <div class="metric-val">1%</div>
+            <div class="metric-lbl">Devoluciones</div>
+          </div>
+        </div>
+        <div class="metrics-row">
+          <div class="metric-item">
+            <div class="metric-val">80€</div>
+            <div class="metric-lbl">CAC medio</div>
+          </div>
+          <div class="metric-item">
+            <div class="metric-val">236–888€</div>
+            <div class="metric-lbl">Gross Profit por venta</div>
+          </div>
+          <div class="metric-item" style="background:#fff3d6; border:1px solid rgba(245,166,35,0.3);">
+            <div class="metric-val">Payback</div>
+            <div class="metric-lbl">En 1ª transacción</div>
+          </div>
+        </div>
+      </div>
+      <div class="h-highlight">
+        Monetización doble: venta directa + <strong>renting B2B</strong> y <strong>suscripción-alquiler B2C</strong> vía <strong>Sharpei</strong>. Hardware que genera ingresos recurrentes.
+      </div>
+      <div class="content-block" style="margin-top:12px;">
+        <span class="hier-label">Frase de cierre de slide</span>
+        <p class="h-accent">Esto no es un negocio que necesita capital para sobrevivir. Es un negocio rentable que necesita capital para acelerar.</p>
+      </div>
+      <div class="visual-dir">
+        <span class="visual-dir-label">Dirección visual</span>
+        <p>Grid 3+3 métricas. La tarjeta "Payback en 1ª transacción" debe destacar visualmente (borde ámbar, fondo suave). <strong>Esta es la slide más importante para el inversor</strong> — claridad y legibilidad ante todo, sin ruido visual.</p>
+      </div>
+      <div class="speaker-note">
+        <span class="speaker-note-label">Nota de presentador</span>
+        <p><strong>Pausa de 1,5 seg</strong> antes y después de "Recuperamos el coste de adquisición en la primera transacción". Es la frase más potente del pitch financiero.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- SLIDE 8 -->
+  <div class="slide-card">
+    <div class="slide-card-header">
+      <div class="slide-card-num">
+        <div class="slide-num-badge">8</div>
+        <span class="slide-title-text">Diferenciación</span>
+      </div>
+      <span class="slide-time">4:50 – 5:25 · 35 seg</span>
+    </div>
+    <div class="slide-card-body">
+      <div class="two-col-brief">
+        <div>
+          <div class="col-label">Columna izquierda — competencia + certs</div>
+          <div class="content-block">
+            <span class="hier-label">Label</span>
+            <p class="h-accent">El mercado compite así</p>
+          </div>
+          <div class="h-note" style="margin-bottom:12px;">
+            Joovv, Mito Red, PlatinumLED — más potencia, más LEDs, más vatios. Una lógica básica de intensidad.
+          </div>
+          <div class="content-block">
+            <span class="hier-label">Certificaciones (pills)</span>
+            <span class="tag green">CE</span>
+            <span class="tag green">RoHS</span>
+            <span class="tag green">FCC</span>
+            <span class="tag green">Reciclable</span>
+            <p class="h-body" style="margin-top:8px; font-size:11px;">Listos para operar en Europa y USA desde el primer día.</p>
+          </div>
+        </div>
+        <div>
+          <div class="col-label">Columna derecha — ventajas EKIO</div>
+          <div class="content-block">
+            <span class="hier-label">Label</span>
+            <p class="h-accent">Nosotros competimos así</p>
+          </div>
+          <p class="h-body">· <strong>Espectro completo</strong> — 11λ, lógica biológica<br>
+          · <strong>IP registrada</strong> — U202532624 + PCT La Fábrica de Inventos<br>
+          · <strong>Software IA</strong> — AIR Institute<br>
+          · <strong>Monetización recurrente</strong> — Sharpei<br>
+          · <strong>Plan de sostenibilidad</strong> — economía circular</p>
+          <div class="h-highlight" style="margin-top:12px;">
+            <strong>La barrera no está en fabricar un panel. Está en construir un sistema completo.</strong>
+          </div>
+        </div>
+      </div>
+      <div class="visual-dir">
+        <span class="visual-dir-label">Dirección visual</span>
+        <p>Dos columnas con header labels diferenciados. Las certificaciones CE/RoHS/FCC/Reciclable como pills verdes — son un sello de calidad, merecen presencia visual. <strong>FCC en especial</strong>: es la certificación que habilita USA y merece tratamiento visual distintivo.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- SLIDE 9 -->
+  <div class="slide-card">
+    <div class="slide-card-header">
+      <div class="slide-card-num">
+        <div class="slide-num-badge">9</div>
+        <span class="slide-title-text">Equipo</span>
+      </div>
+      <span class="slide-time">5:25 – 5:55 · 30 seg</span>
+    </div>
+    <div class="slide-card-body">
+      <div class="content-block">
+        <span class="hier-label">Titular</span>
+        <p class="h-main">No estamos construyendo un equipo. <em style="color:#f5a623;">Ya lo tenemos.</em></p>
+      </div>
+      <div class="content-block">
+        <span class="hier-label">Cuatro tarjetas de equipo (igual tamaño)</span>
+        <div class="team-row">
+          <div class="team-item">
+            <div class="team-item-name">Javier Andrés</div>
+            <div class="team-item-role">CEO · Fundador</div>
+            <p class="team-item-desc">Naturópata y especialista en electrosmog desde 2011. Cientos de personas tratadas.</p>
+          </div>
+          <div class="team-item">
+            <div class="team-item-name">Jesús Bedmar</div>
+            <div class="team-item-role">Project Manager</div>
+            <p class="team-item-desc">Certificado PMP. Gestión de hitos y plazos.</p>
+          </div>
+          <div class="team-item">
+            <div class="team-item-name">Cristhian de Moya</div>
+            <div class="team-item-role">Dir. Operaciones</div>
+            <p class="team-item-desc">Cadena operativa completa: producción, logística, stock.</p>
+          </div>
+          <div class="team-item featured">
+            <div class="team-item-name">Javier Escobar</div>
+            <div class="team-item-role">Área Técnica</div>
+            <p class="team-item-desc">Conecta producto, ingeniería y software. Hace posible la plataforma.</p>
+          </div>
+        </div>
+      </div>
+      <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:8px;">
+        <span class="tag">+ Equipo comunicación, marketing y producción</span>
+        <span class="tag teal">Wolaria · Junta CyL</span>
+      </div>
+      <div class="visual-dir">
+        <span class="visual-dir-label">Dirección visual</span>
+        <p>Cuatro tarjetas iguales. <strong>Javier Escobar</strong> destacado con borde ámbar — su rol técnico responde la pregunta implícita de "¿quién hace el software?". Considerar foto de cada persona si están disponibles. Badge Wolaria como elemento de validación institucional.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- SLIDE 10 -->
+  <div class="slide-card">
+    <div class="slide-card-header">
+      <div class="slide-card-num">
+        <div class="slide-num-badge">10</div>
+        <span class="slide-title-text">Mercado</span>
+      </div>
+      <span class="slide-time">5:55 – 6:25 · 30 seg</span>
+    </div>
+    <div class="slide-card-body">
+      <div class="two-col-brief">
+        <div>
+          <div class="col-label">Columna izquierda — tamaño de mercado</div>
+          <div class="content-block">
+            <span class="hier-label">Label</span>
+            <p class="h-accent">Light therapy global</p>
+          </div>
+          <div style="display:flex; align-items:flex-end; gap:16px; margin-bottom:16px;">
+            <div>
+              <div class="h-stat" style="font-size:28px;">$1.040M</div>
+              <p class="h-accent" style="font-size:11px;">2023</p>
+            </div>
+            <div style="font-size:24px; color:#f5a623; padding-bottom:4px;">→</div>
+            <div>
+              <div class="h-stat" style="font-size:28px;">$1.440M</div>
+              <p class="h-accent" style="font-size:11px;">2030</p>
+            </div>
+          </div>
+          <div class="metrics-row" style="grid-template-columns:1fr 1fr;">
+            <div class="metric-item">
+              <div class="metric-val" style="font-size:20px;">$261M</div>
+              <div class="metric-lbl">Europa 2023</div>
+            </div>
+            <div class="metric-item">
+              <div class="metric-val" style="font-size:20px;">×2</div>
+              <div class="metric-lbl">Fotobiomod. 2035</div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="col-label">Columna derecha — capas de valor</div>
+          <p class="h-body">· <strong>Venta directa</strong> — DTC web y Amazon<br>
+          · <strong>Canal profesional</strong> — clínicas y deporte<br>
+          · <strong>Bienestar en el hogar</strong> — suscripción Sharpei<br>
+          · <strong>Software personalizado</strong> — capa recurrente</p>
+          <div class="h-highlight" style="margin-top:14px;">
+            <strong>Esto no es vender una lámpara. Es construir una categoría.</strong>
+          </div>
+        </div>
+      </div>
+      <div class="visual-dir">
+        <span class="visual-dir-label">Dirección visual</span>
+        <p>Los números de mercado son contexto, no el argumento central. La flecha 2023→2030 puede ser un elemento gráfico simple. Mantener esta slide limpia y rápida de leer — es la penúltima antes del ask.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- SLIDE 11 -->
+  <div class="slide-card">
+    <div class="slide-card-header">
+      <div class="slide-card-num">
+        <div class="slide-num-badge">11</div>
+        <span class="slide-title-text">Inversión</span>
+      </div>
+      <span class="slide-time">6:25 – 7:00 · 35 seg</span>
+    </div>
+    <div class="slide-card-body">
+      <div class="two-col-brief">
+        <div>
+          <div class="col-label">Columna izquierda — ask y destino</div>
+          <div class="content-block">
+            <span class="hier-label">Label</span>
+            <p class="h-accent">Ronda Seed — específicamente para Ekio Light</p>
+          </div>
+          <div class="content-block">
+            <span class="hier-label">Cifra principal</span>
+            <div class="h-stat">350.000€</div>
+          </div>
+          <div class="content-block">
+            <span class="hier-label">Destino del capital (5 items)</span>
+            <div class="fund-row">
+              <div class="fund-item-brief">
+                <div class="fund-dot"></div>
+                <p class="fund-txt"><strong>Producción y stock</strong> — demanda validada</p>
+              </div>
+              <div class="fund-item-brief">
+                <div class="fund-dot"></div>
+                <p class="fund-txt"><strong>Amazon Alemania</strong> — programa oficial de internacionalización</p>
+              </div>
+              <div class="fund-item-brief">
+                <div class="fund-dot"></div>
+                <p class="fund-txt"><strong>Entrada USA</strong> — <strong style="color:#f5a623;">FCC ya obtenida</strong>, sin barreras regulatorias</p>
+              </div>
+              <div class="fund-item-brief">
+                <div class="fund-dot"></div>
+                <p class="fund-txt"><strong>Software IA</strong> con AIR Institute</p>
+              </div>
+              <div class="fund-item-brief" style="grid-column:span 2;">
+                <div class="fund-dot"></div>
+                <p class="fund-txt"><strong>Estructura operativa</strong> para crecimiento internacional</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="col-label">Columna derecha — términos y cierre</div>
+          <div class="h-highlight" style="margin-bottom:16px;">
+            Los términos concretos — valoración, equity, calendario — <strong>los tratamos en privado con cada inversor interesado.</strong>
+          </div>
+          <p class="h-sub" style="margin-bottom:8px;">El capital, en este punto, no reduce riesgo.</p>
+          <p class="h-stat" style="font-size:32px; margin-bottom:12px;">Multiplica velocidad.</p>
+          <p class="h-body">Cuando una categoría despierta, gana quien ejecuta mejor, construye marca, protege su tecnología y <strong>escala más rápido.</strong></p>
+        </div>
+      </div>
+      <div class="visual-dir">
+        <span class="visual-dir-label">Dirección visual</span>
+        <p>La cifra 350.000€ debe ser grande y clara. El destino "Entrada USA con FCC ya obtenida" merece un tratamiento diferencial (ámbar, negrita) — es el argumento que elimina un riesgo que el inversor ya estaba calculando. La frase "los términos en privado" debe leerse tranquila, no como disculpa.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- SLIDE 12 -->
+  <div class="slide-card">
+    <div class="slide-card-header">
+      <div class="slide-card-num">
+        <div class="slide-num-badge">12</div>
+        <span class="slide-title-text">Cierre</span>
+      </div>
+      <span class="slide-time">7:00 – 7:30 · 30 seg</span>
+    </div>
+    <div class="slide-card-body">
+      <div class="content-block" style="text-align:center;">
+        <span class="hier-label">Layout centrado — slide minimalista</span>
+        <p class="h-body" style="max-width:600px; margin:0 auto 16px;">Tenemos producto. Ventas rentables. Propiedad intelectual registrada. Equipo técnico, operativo y clínico. Y más de <strong>7.600 clientes</strong> que ya confían en el ecosistema EKIO.</p>
+        <p class="h-body" style="max-width:600px; margin:0 auto 20px;">Pedimos capital para hacer una sola cosa: <strong>ir más rápido que el mercado.</strong></p>
+        <div class="h-stat" style="font-size:40px; margin:20px 0;">Toda la vida depende de la luz.</div>
+        <div class="h-highlight" style="max-width:500px; margin:0 auto; text-align:center;">
+          Si tenéis preguntas, el café del descanso es vuestro.<br>
+          <strong style="font-size:16px;">Buscadme.</strong>
+        </div>
+      </div>
+      <div class="visual-dir">
+        <span class="visual-dir-label">Dirección visual</span>
+        <p>Slide minimalista. Todo centrado. Máximo contraste. La frase "Toda la vida depende de la luz" puede ir en tipografía grande sobre imagen de fondo de luz solar o espectro. <strong>"Buscadme"</strong> como CTA final debe ser legible y tener peso — es la llamada a la acción que genera reuniones privadas.</p>
+      </div>
+      <div class="speaker-note">
+        <span class="speaker-note-label">Nota de presentador</span>
+        <p>Después de "Toda la vida depende de la luz" — <strong>silencio completo</strong>. No lo llenes. Después de "Buscadme" — otro silencio. Mirar a 2–3 personas concretas de la sala.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══ CHECKLIST DISEÑADOR ══ -->
+  <div class="section-header">
+    <div class="section-num">C</div>
+    <span class="section-title">Checklist de entrega</span>
+    <div class="section-divider"></div>
+  </div>
+  <div class="brand-card">
+    <h4>Entregables esperados</h4>
+    <p style="font-size:13px; color:#64748b; line-height:1.9; margin-top:8px;">
+      ☐ &nbsp;Presentación en formato <strong>.pptx o .key</strong> (editable para ajustes de último momento)<br>
+      ☐ &nbsp;Presentación en formato <strong>.pdf</strong> (para compartir digitalmente)<br>
+      ☐ &nbsp;Formato <strong>16:9 · 1920×1080px</strong><br>
+      ☐ &nbsp;Fondo oscuro (#07090f) en todas las slides<br>
+      ☐ &nbsp;Acento principal en ámbar (#f5a623) para cifras y highlights<br>
+      ☐ &nbsp;Acento secundario en teal (#00c9a7) para elementos de validación (IP registrada, certificaciones)<br>
+      ☐ &nbsp;Slide 4: número <strong>U202532624</strong> visible y legible · Badge "REGISTRADO" en verde/teal<br>
+      ☐ &nbsp;Slide 7: tarjeta "Payback en 1ª transacción" con tratamiento visual destacado<br>
+      ☐ &nbsp;Slide 8: certificaciones <strong>CE · RoHS · FCC · Reciclable</strong> como pills de color<br>
+      ☐ &nbsp;Slide 9: tarjeta Javier Escobar con borde ámbar (área técnica = rol clave)<br>
+      ☐ &nbsp;Slide 11: "FCC ya obtenida" en ámbar/negrita — dato diferencial para USA<br>
+      ☐ &nbsp;Slide 12: minimalista, centrada, frase final en grande<br>
+      ☐ &nbsp;Fuente legible a distancia (proyector) — mínimo 18px en cuerpo, 60px+ en estadísticas<br>
+    </p>
+  </div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EKIO Light · Keiretsu Valladolid · 7 Mayo 2026</title>
+<style>
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  --bg:    #07090f;
+  --bg2:   #0d1119;
+  --amber: #f5a623;
+  --teal:  #00c9a7;
+  --white: #ffffff;
+  --dim:   rgba(255,255,255,0.55);
+  --dim2:  rgba(255,255,255,0.25);
+  --border:rgba(255,255,255,0.08);
+  --card:  rgba(255,255,255,0.04);
+  --glow:  0 0 40px rgba(245,166,35,0.15);
+}
+
+body {
+  background: #1a1a2e;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  padding: 40px 20px;
+}
+
+/* ── Print button ── */
+.print-btn {
+  position: fixed; top: 20px; right: 20px;
+  background: var(--amber); color: #07090f;
+  border: none; border-radius: 8px;
+  padding: 10px 20px; font-size: 13px;
+  font-weight: 700; cursor: pointer;
+  z-index: 1000; letter-spacing: 0.05em;
+  box-shadow: 0 4px 20px rgba(245,166,35,0.4);
+}
+.print-btn:hover { background: #ffc85a; }
+
+/* ── Slide container ── */
+.slide {
+  width: 100%;
+  max-width: 960px;
+  aspect-ratio: 16/9;
+  margin: 0 auto 24px;
+  background: var(--bg);
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 36px 52px 28px;
+  box-shadow: 0 8px 40px rgba(0,0,0,0.5);
+}
+
+/* Grid texture */
+.slide::before {
+  content: '';
+  position: absolute; inset: 0;
+  background-image:
+    linear-gradient(rgba(255,255,255,0.015) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.015) 1px, transparent 1px);
+  background-size: 50px 50px;
+  pointer-events: none;
+}
+/* Glow */
+.slide::after {
+  content: '';
+  position: absolute;
+  top: -60px; left: -60px;
+  width: 300px; height: 300px;
+  background: radial-gradient(circle, rgba(245,166,35,0.07) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+/* ── Header ── */
+.slide-header {
+  display: flex; justify-content: space-between; align-items: center;
+  margin-bottom: 18px; flex-shrink: 0; position: relative; z-index: 1;
+}
+.brand { font-size: 11px; font-weight: 700; letter-spacing: 0.18em; text-transform: uppercase; color: var(--amber); }
+.slide-label { font-size: 10px; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: var(--dim2); }
+
+/* ── Body ── */
+.slide-body { flex: 1; display: flex; flex-direction: column; justify-content: center; position: relative; z-index: 1; }
+
+/* ── Footer ── */
+.slide-footer {
+  display: flex; justify-content: space-between; align-items: center;
+  margin-top: 12px; padding-top: 10px;
+  border-top: 1px solid var(--border);
+  flex-shrink: 0; position: relative; z-index: 1;
+}
+.footer-timing { font-size: 9px; color: var(--dim2); font-weight: 500; letter-spacing: 0.1em; }
+.footer-counter { font-size: 9px; color: var(--dim2); font-weight: 700; letter-spacing: 0.1em; }
+
+/* ── Typography ── */
+.slide-title { font-size: 9px; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; color: var(--amber); margin-bottom: 8px; }
+h1 { font-size: clamp(20px, 3vw, 32px); font-weight: 800; line-height: 1.2; letter-spacing: -0.02em; color: var(--white); margin-bottom: 10px; }
+h2 { font-size: clamp(14px, 1.8vw, 22px); font-weight: 700; line-height: 1.25; color: var(--white); margin-bottom: 8px; }
+p { font-size: clamp(10px, 1.1vw, 13px); line-height: 1.6; color: var(--dim); margin-bottom: 6px; }
+p strong { color: var(--white); font-weight: 600; }
+p em { color: var(--amber); font-style: normal; }
+ul { list-style: none; }
+ul li { font-size: clamp(10px, 1.1vw, 13px); line-height: 1.55; color: var(--dim); padding-left: 14px; position: relative; margin-bottom: 5px; }
+ul li::before { content: '—'; position: absolute; left: 0; color: var(--amber); font-weight: 700; }
+ul li strong { color: var(--white); }
+
+/* ── Stat ── */
+.stat-big { font-size: clamp(36px, 5.5vw, 68px); font-weight: 900; color: var(--amber); line-height: 1; letter-spacing: -0.03em; text-shadow: var(--glow); }
+.stat-label { font-size: 9px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: var(--dim2); margin-top: 3px; }
+
+/* ── Two-col ── */
+.two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; align-items: center; }
+.two-col-3 { display: grid; grid-template-columns: 2fr 1fr; gap: 28px; }
+
+/* ── Cards ── */
+.card { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 14px; }
+.card.amber-border { border-color: rgba(245,166,35,0.3); background: rgba(245,166,35,0.04); }
+.card.teal-border { border-color: rgba(0,201,167,0.3); }
+
+/* ── Stat grid ── */
+.stat-grid { display: grid; grid-template-columns: repeat(4,1fr); gap: 10px; margin: 10px 0; }
+.stat-grid-3 { grid-template-columns: repeat(3,1fr); }
+.stat-card { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 12px 10px; }
+.stat-card .val { font-size: clamp(16px, 2.2vw, 26px); font-weight: 900; color: var(--amber); line-height: 1; }
+.stat-card .lbl { font-size: 8px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--dim2); margin-top: 3px; }
+.stat-card .desc { font-size: 9px; color: var(--dim); margin-top: 4px; line-height: 1.4; }
+
+/* ── Product cards ── */
+.product-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 10px; margin: 10px 0; }
+.product-card { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 14px; }
+.product-card.featured { border-color: rgba(245,166,35,0.3); background: rgba(245,166,35,0.04); }
+.product-name { font-size: 13px; font-weight: 800; color: var(--white); margin-bottom: 3px; }
+.product-lambda { font-size: 9px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: var(--amber); margin-bottom: 6px; }
+.product-desc { font-size: 10px; color: var(--dim); line-height: 1.4; }
+
+/* ── IP grid ── */
+.ip-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin: 10px 0; }
+.ip-card { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 16px; }
+.ip-badge { display: inline-block; padding: 2px 9px; border-radius: 20px; font-size: 9px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 8px; }
+.ip-badge.active { background: rgba(0,201,167,0.15); color: var(--teal); }
+.ip-badge.progress { background: rgba(245,166,35,0.15); color: var(--amber); }
+.ip-number { font-size: 15px; font-weight: 800; color: var(--white); margin-bottom: 3px; }
+.ip-sub { font-size: 10px; color: var(--dim); margin-bottom: 8px; }
+.ip-partner { font-size: 11px; color: var(--amber); font-weight: 700; margin-bottom: 2px; }
+.ip-partner-desc { font-size: 10px; color: var(--dim); }
+
+/* ── Pills ── */
+.pill-grid { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0; }
+.pill { display: inline-flex; align-items: center; background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 4px 10px; font-size: 10px; font-weight: 600; color: var(--dim); }
+.pill.amber { border-color: rgba(245,166,35,0.3); color: var(--amber); background: rgba(245,166,35,0.07); }
+.pill.green { border-color: rgba(34,197,94,0.3); color: #4ade80; background: rgba(34,197,94,0.07); }
+
+/* ── Team cards ── */
+.team-grid { display: grid; grid-template-columns: repeat(4,1fr); gap: 10px; margin: 10px 0; }
+.team-card { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 12px; }
+.team-name { font-size: 12px; font-weight: 700; color: var(--white); margin-bottom: 2px; }
+.team-role { font-size: 8px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--amber); margin-bottom: 6px; }
+.team-desc { font-size: 10px; color: var(--dim); line-height: 1.4; }
+
+/* ── Highlight box ── */
+.highlight-box { background: rgba(245,166,35,0.07); border: 1px solid rgba(245,166,35,0.22); border-radius: 8px; padding: 10px 14px; margin: 8px 0; }
+.highlight-box p { color: var(--white); font-size: clamp(10px, 1.1vw, 13px); margin-bottom: 0; }
+
+/* ── Quote line ── */
+.quote-line { border-left: 2px solid var(--amber); padding-left: 12px; margin: 8px 0; }
+
+/* ── Fund items ── */
+.use-funds { display: grid; grid-template-columns: 1fr 1fr; gap: 7px; margin: 10px 0; }
+.fund-item { background: var(--card); border: 1px solid var(--border); border-radius: 7px; padding: 8px 12px; display: flex; align-items: flex-start; gap: 8px; }
+.fund-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--amber); flex-shrink: 0; margin-top: 5px; }
+.fund-text { font-size: 10px; color: var(--dim); line-height: 1.4; }
+.fund-text strong { color: var(--white); }
+
+/* ── Spectrum bar ── */
+.spectrum-bar { height: 2px; border-radius: 1px; background: linear-gradient(90deg,#8b00ff,#4b0082,#0000ff,#008000,#ffff00,#ff7f00,#ff0000,#8b1a1a,#4a0000); opacity:0.4; margin: 8px 0; }
+
+/* ── Divider ── */
+.divider { width: 32px; height: 2px; background: var(--amber); border-radius: 1px; margin: 10px 0; }
+
+/* ── Close slide ── */
+.close-slide { display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; height: 100%; gap: 12px; }
+.close-main { font-size: clamp(11px, 1.2vw, 15px); font-weight: 300; line-height: 1.6; color: var(--dim); max-width: 550px; }
+.close-main strong { color: var(--white); font-weight: 700; }
+.close-cta { font-size: clamp(22px, 3vw, 38px); font-weight: 900; color: var(--amber); letter-spacing: -0.02em; text-shadow: var(--glow); }
+.close-box { background: rgba(245,166,35,0.07); border: 1px solid rgba(245,166,35,0.22); border-radius: 8px; padding: 14px 24px; }
+.close-box p { font-size: clamp(12px, 1.3vw, 16px); color: var(--white); margin: 0; }
+
+/* ── Market arrows ── */
+.market-arrow { display: flex; align-items: flex-end; gap: 14px; margin-bottom: 12px; }
+.market-arrow .arrow-val { font-size: clamp(22px, 2.8vw, 34px); font-weight: 900; color: var(--amber); line-height: 1; }
+.market-arrow .arrow-lbl { font-size: 8px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--dim2); margin-bottom: 3px; }
+.market-arrow .arrow-sym { font-size: 22px; color: var(--amber); padding-bottom: 2px; }
+
+/* ── Investment ── */
+.invest-amount { font-size: clamp(32px, 4.5vw, 56px); font-weight: 900; color: var(--amber); letter-spacing: -0.03em; margin-bottom: 6px; text-shadow: var(--glow); }
+
+/* ── Media row ── */
+.media-row { display: flex; gap: 8px; flex-wrap: wrap; margin: 6px 0; }
+.media-pill { background: var(--card); border: 1px solid var(--border); border-radius: 6px; padding: 4px 10px; font-size: 10px; font-weight: 600; color: var(--dim); }
+
+/* ─── PRINT ─── */
+@media print {
+  body { background: #07090f; padding: 0; }
+  .print-btn { display: none; }
+  .slide {
+    width: 297mm; max-width: 100%;
+    height: 167mm;
+    aspect-ratio: unset;
+    border-radius: 0;
+    margin: 0;
+    page-break-after: always;
+    break-after: page;
+    box-shadow: none;
+    padding: 28px 44px 20px;
+  }
+}
+</style>
+</head>
+<body>
+
+<button class="print-btn" onclick="window.print()">Guardar como PDF</button>
+
+<!-- ══════════ SLIDE 1 — LA EMPRESA ══════════ -->
+<div class="slide">
+  <div class="slide-header">
+    <span class="brand">EKIO Electrosmog</span>
+    <span class="slide-label">La empresa</span>
+  </div>
+  <div class="slide-body">
+    <div class="two-col">
+      <div>
+        <div class="stat-big">€1.800.000</div>
+        <p class="stat-label">Ventas de EKIO Electrosmog desde 2023</p>
+        <div class="divider"></div>
+        <p>Sin venture capital. Sin business angels.<br>Solo con producto, comunidad y <strong>80.000€ de financiación bancaria.</strong></p>
+      </div>
+      <div>
+        <h2>Protegemos a las personas de la <em>contaminación electromagnética</em> de la tecnología moderna.</h2>
+        <p style="margin-top:10px;">Mediciones profesionales, asesoramiento clínico y distribuidores oficiales en España de los <strong>filtros Spiro</strong>.</p>
+        <div class="highlight-box" style="margin-top:10px;">
+          <p>Pero proteger del problema no era suficiente. Hoy venimos a presentar la otra mitad: <strong>devolverle al cuerpo lo que la vida moderna le quita.</strong></p>
+        </div>
+        <p style="margin-top:10px; font-size:clamp(12px,1.4vw,16px); color:var(--white); font-weight:700;">Esa es <em>Ekio Light</em>.</p>
+      </div>
+    </div>
+  </div>
+  <div class="slide-footer">
+    <span class="footer-timing">0:00 – 0:50</span>
+    <span class="footer-counter">1 / 12</span>
+  </div>
+</div>
+
+<!-- ══════════ SLIDE 2 — EL PROBLEMA ══════════ -->
+<div class="slide">
+  <div class="slide-header">
+    <span class="brand">EKIO Electrosmog</span>
+    <span class="slide-label">El problema</span>
+  </div>
+  <div class="slide-body">
+    <div class="two-col">
+      <div>
+        <p class="slide-title">Un dato que debería estar en todos los titulares</p>
+        <div class="stat-big">50%</div>
+        <p class="stat-label">de la población mundial con déficit de vitamina D</p>
+        <div class="divider"></div>
+        <p>No es un problema de dieta. <strong>Es un problema de luz.</strong></p>
+        <p>Toda la biología humana está sincronizada con el sol: sueño, hormonas, sistema inmunitario y energía celular.</p>
+      </div>
+      <div>
+        <div class="stat-card" style="margin-bottom:10px;">
+          <div class="val">90%</div>
+          <div class="lbl">del tiempo en interiores</div>
+          <p class="desc">Hemos sustituido el sol por LEDs y pantallas artificiales.</p>
+        </div>
+        <div class="quote-line">
+          <p>Alteraciones del sueño · Supresión de melatonina · Fatiga crónica · Inflamación sistémica</p>
+        </div>
+        <p style="margin-top:8px; color:var(--white);">Y aún no lo llamamos por su nombre. Lo llamamos <strong>vivir en interiores.</strong></p>
+      </div>
+    </div>
+  </div>
+  <div class="slide-footer">
+    <span class="footer-timing">0:50 – 1:35</span>
+    <span class="footer-counter">2 / 12</span>
+  </div>
+</div>
+
+<!-- ══════════ SLIDE 3 — LA SOLUCIÓN ══════════ -->
+<div class="slide">
+  <div class="slide-header">
+    <span class="brand">EKIO Electrosmog</span>
+    <span class="slide-label">La solución</span>
+  </div>
+  <div class="slide-body">
+    <h2>No vendemos paneles de luz. Construimos una <em>plataforma</em> que integra hardware de espectro completo, IP sólida y software de personalización con IA.</h2>
+    <div class="spectrum-bar"></div>
+    <div class="product-grid">
+      <div class="product-card featured">
+        <div class="product-name">Bio Spectrum</div>
+        <div class="product-lambda">11 longitudes de onda</div>
+        <p class="product-desc">Rojo + IR + UV. La lógica biológica más completa.</p>
+      </div>
+      <div class="product-card">
+        <div class="product-name">Bio Regen</div>
+        <div class="product-lambda">7 longitudes de onda</div>
+        <p class="product-desc">Regeneración, recuperación y equilibrio celular.</p>
+      </div>
+      <div class="product-card">
+        <div class="product-name">Deep 5</div>
+        <div class="product-lambda">Rojo + Infrarrojo profundo</div>
+        <p class="product-desc">Fotobiomodulación profunda. ATP, recuperación, reducción de inflamación.</p>
+      </div>
+    </div>
+    <div style="display:flex;gap:16px;flex-wrap:wrap;margin-top:8px;">
+      <p><strong>Software IA</strong> con AIR Institute · Oura Ring · Apple Watch</p>
+      <p style="color:var(--amber);">Salud preventiva · Longevidad</p>
+    </div>
+  </div>
+  <div class="slide-footer">
+    <span class="footer-timing">1:35 – 2:25</span>
+    <span class="footer-counter">3 / 12</span>
+  </div>
+</div>
+
+<!-- ══════════ SLIDE 4 — PROPIEDAD INTELECTUAL ══════════ -->
+<div class="slide">
+  <div class="slide-header">
+    <span class="brand">EKIO Electrosmog</span>
+    <span class="slide-label">Propiedad intelectual</span>
+  </div>
+  <div class="slide-body">
+    <h2>Esto no es solo un producto. <em>Es propiedad intelectual.</em></h2>
+    <div class="ip-grid">
+      <div class="ip-card teal-border">
+        <span class="ip-badge active">Registrado · Vigente · Propio</span>
+        <div class="ip-number">U202532624</div>
+        <p class="ip-sub">Modelo de Utilidad · 24 de diciembre de 2025</p>
+        <p class="ip-partner">La Fábrica de Inventos</p>
+        <p class="ip-partner-desc">Agente de patentes especializado. Gestión legal y técnica completa.</p>
+      </div>
+      <div class="ip-card">
+        <span class="ip-badge progress">En redacción</span>
+        <div class="ip-number">Patente PCT Internacional</div>
+        <p class="ip-sub">Hardware + Software · +150 países</p>
+        <p class="ip-partner">AIR Institute</p>
+        <p class="ip-partner-desc">Referente europeo en IA aplicada. Elabora la memoria del software de la patente.</p>
+      </div>
+    </div>
+    <div class="highlight-box">
+      <p><strong>Quien controle el espectro completo con IP sólida, controla esta categoría.</strong></p>
+    </div>
+  </div>
+  <div class="slide-footer">
+    <span class="footer-timing">2:25 – 3:00</span>
+    <span class="footer-counter">4 / 12</span>
+  </div>
+</div>
+
+<!-- ══════════ SLIDE 5 — EL MOMENTO ══════════ -->
+<div class="slide">
+  <div class="slide-header">
+    <span class="brand">EKIO Electrosmog</span>
+    <span class="slide-label">El momento</span>
+  </div>
+  <div class="slide-body">
+    <h2>La fotobiomodulación ya es <em>protocolo estándar</em> en el deporte de élite mundial.</h2>
+    <div class="pill-grid">
+      <span class="pill amber">NBA</span>
+      <span class="pill amber">Premier League</span>
+      <span class="pill amber">Atletismo Olímpico</span>
+      <span class="pill amber">NFL</span>
+      <span class="pill">Cristiano Ronaldo</span>
+      <span class="pill">LeBron James</span>
+      <span class="pill">Marcos Llorente</span>
+    </div>
+    <div class="media-row">
+      <span class="media-pill">Men's Health España</span>
+      <span class="media-pill">El Partidazo de COPE</span>
+    </div>
+    <div class="highlight-box" style="margin-top:10px;">
+      <p>La pregunta ya no es si esta categoría va a crecer en Europa. La pregunta es <strong>quién la va a liderar.</strong></p>
+    </div>
+    <p style="color:var(--amber);font-weight:600;margin-top:8px;">El riesgo no está en si esta tecnología tiene recorrido. <strong>Está en no crecer lo suficientemente rápido.</strong></p>
+  </div>
+  <div class="slide-footer">
+    <span class="footer-timing">3:00 – 3:40</span>
+    <span class="footer-counter">5 / 12</span>
+  </div>
+</div>
+
+<!-- ══════════ SLIDE 6 — TRACCIÓN ══════════ -->
+<div class="slide">
+  <div class="slide-header">
+    <span class="brand">EKIO Electrosmog</span>
+    <span class="slide-label">Tracción</span>
+  </div>
+  <div class="slide-body">
+    <h2>Esto no es una idea. <em>Es una máquina en marcha.</em></h2>
+    <div class="stat-grid">
+      <div class="stat-card">
+        <div class="val">€1,8M</div>
+        <div class="lbl">Ventas EKIO Electrosmog</div>
+        <p class="desc">Desde 2023. Sin VC ni business angels.</p>
+      </div>
+      <div class="stat-card">
+        <div class="val">+26K</div>
+        <div class="lbl">Seguidores Instagram</div>
+        <p class="desc">Comunidad propia, orgánica, cualificada.</p>
+      </div>
+      <div class="stat-card">
+        <div class="val">12.400</div>
+        <div class="lbl">Base de datos</div>
+        <p class="desc">Leads y clientes en nurturing activo.</p>
+      </div>
+      <div class="stat-card">
+        <div class="val">+7.600</div>
+        <div class="lbl">Clientes del ecosistema</div>
+        <p class="desc">Ya educados. Compradores naturales de Ekio Light.</p>
+      </div>
+    </div>
+    <div class="highlight-box">
+      <p>Muchos de esos clientes vinieron buscando protección frente a la contaminación tecnológica. Hoy son los compradores naturales de Ekio Light. <strong>Cross-sell interno sin coste adicional de adquisición.</strong></p>
+    </div>
+  </div>
+  <div class="slide-footer">
+    <span class="footer-timing">3:40 – 4:15</span>
+    <span class="footer-counter">6 / 12</span>
+  </div>
+</div>
+
+<!-- ══════════ SLIDE 7 — SALUD FINANCIERA ══════════ -->
+<div class="slide">
+  <div class="slide-header">
+    <span class="brand">EKIO Electrosmog</span>
+    <span class="slide-label">Salud financiera</span>
+  </div>
+  <div class="slide-body">
+    <div class="stat-grid stat-grid-3" style="margin-bottom:10px;">
+      <div class="stat-card">
+        <div class="val">53%</div>
+        <div class="lbl">Margen bruto medio</div>
+        <p class="desc">Bio Regen 55% · Bio Spectrum 52% · Deep 5 53%</p>
+      </div>
+      <div class="stat-card">
+        <div class="val">44%</div>
+        <div class="lbl">Margen contribución</div>
+        <p class="desc">Tras logística, pago y devoluciones.</p>
+      </div>
+      <div class="stat-card">
+        <div class="val">1%</div>
+        <div class="lbl">Tasa devoluciones</div>
+        <p class="desc">vs 5–12% del sector hardware wellness.</p>
+      </div>
+    </div>
+    <div class="stat-grid stat-grid-3">
+      <div class="stat-card">
+        <div class="val">80€</div>
+        <div class="lbl">CAC medio</div>
+        <p class="desc">Coste de adquisición de cliente.</p>
+      </div>
+      <div class="stat-card">
+        <div class="val">236–888€</div>
+        <div class="lbl">Gross Profit por venta</div>
+        <p class="desc">Deep 5 → Bio Spectrum.</p>
+      </div>
+      <div class="stat-card amber-border">
+        <div class="val" style="font-size:clamp(14px,1.6vw,20px);line-height:1.2;">Payback<br>inmediato</div>
+        <div class="lbl">En 1ª transacción · GP/CAC 3–11x</div>
+      </div>
+    </div>
+    <div class="highlight-box" style="margin-top:8px;">
+      <p>Monetización doble: venta directa + <strong>renting B2B</strong> y <strong>suscripción-alquiler B2C</strong> vía Sharpei. Hardware que genera ingresos recurrentes.</p>
+    </div>
+  </div>
+  <div class="slide-footer">
+    <span class="footer-timing">4:15 – 4:50</span>
+    <span class="footer-counter">7 / 12</span>
+  </div>
+</div>
+
+<!-- ══════════ SLIDE 8 — DIFERENCIACIÓN ══════════ -->
+<div class="slide">
+  <div class="slide-header">
+    <span class="brand">EKIO Electrosmog</span>
+    <span class="slide-label">Diferenciación</span>
+  </div>
+  <div class="slide-body">
+    <div class="two-col">
+      <div>
+        <p class="slide-title">El mercado compite así</p>
+        <div class="quote-line" style="border-color:var(--dim2);">
+          <p style="color:var(--dim);">Joovv, Mito Red, PlatinumLED — más potencia, más LEDs, más vatios. Intensidad como único argumento.</p>
+        </div>
+        <div style="margin-top:14px;">
+          <p class="slide-title" style="margin-bottom:6px;">Certificaciones</p>
+          <div class="pill-grid" style="margin:0;gap:6px;">
+            <span class="pill green">CE</span>
+            <span class="pill green">RoHS</span>
+            <span class="pill green">FCC</span>
+            <span class="pill green">Reciclable</span>
+          </div>
+          <p style="margin-top:6px;font-size:10px;color:var(--dim);">Listos para operar en Europa y USA desde el primer día.</p>
+        </div>
+      </div>
+      <div>
+        <p class="slide-title">Nosotros competimos así</p>
+        <ul>
+          <li><strong>Espectro completo</strong> — 11λ, lógica biológica</li>
+          <li><strong>IP registrada</strong> — U202532624 + PCT La Fábrica de Inventos</li>
+          <li><strong>Software IA</strong> — AIR Institute</li>
+          <li><strong>Monetización recurrente</strong> — Sharpei</li>
+          <li><strong>Plan de sostenibilidad</strong> — economía circular</li>
+        </ul>
+        <div class="highlight-box" style="margin-top:10px;">
+          <p><strong>La barrera no está en fabricar un panel. Está en construir un sistema completo.</strong></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="slide-footer">
+    <span class="footer-timing">4:50 – 5:25</span>
+    <span class="footer-counter">8 / 12</span>
+  </div>
+</div>
+
+<!-- ══════════ SLIDE 9 — EQUIPO ══════════ -->
+<div class="slide">
+  <div class="slide-header">
+    <span class="brand">EKIO Electrosmog</span>
+    <span class="slide-label">Equipo</span>
+  </div>
+  <div class="slide-body">
+    <h2>No estamos construyendo un equipo. <em>Ya lo tenemos.</em></h2>
+    <div class="team-grid">
+      <div class="team-card">
+        <div class="team-name">Javier Andrés</div>
+        <div class="team-role">CEO · Fundador</div>
+        <p class="team-desc">Naturópata y especialista en electrosmog desde 2011. Cientos de personas tratadas. Conocimiento clínico en cada decisión de producto.</p>
+      </div>
+      <div class="team-card">
+        <div class="team-name">Jesús Bedmar</div>
+        <div class="team-role">Project Manager · PMP</div>
+        <p class="team-desc">Asegura que cada hito se cumple en plazo y calidad. Metodología probada.</p>
+      </div>
+      <div class="team-card">
+        <div class="team-name">Cristhian de Moya</div>
+        <div class="team-role">Dir. Operaciones</div>
+        <p class="team-desc">Cadena operativa completa: producción, logística, stock y cliente.</p>
+      </div>
+      <div class="team-card amber-border">
+        <div class="team-name">Javier Escobar</div>
+        <div class="team-role">Área Técnica</div>
+        <p class="team-desc">Conecta producto, ingeniería y desarrollo de software. Hace posible la plataforma tecnológica.</p>
+      </div>
+    </div>
+    <div style="display:flex;align-items:center;gap:12px;margin-top:10px;flex-wrap:wrap;">
+      <p style="margin:0;">+ Equipo propio de <strong>comunicación, marketing y producción</strong></p>
+      <span class="pill amber">Seleccionada · Wolaria · Junta CyL</span>
+    </div>
+  </div>
+  <div class="slide-footer">
+    <span class="footer-timing">5:25 – 5:55</span>
+    <span class="footer-counter">9 / 12</span>
+  </div>
+</div>
+
+<!-- ══════════ SLIDE 10 — MERCADO ══════════ -->
+<div class="slide">
+  <div class="slide-header">
+    <span class="brand">EKIO Electrosmog</span>
+    <span class="slide-label">Mercado</span>
+  </div>
+  <div class="slide-body">
+    <div class="two-col">
+      <div>
+        <p class="slide-title">Light therapy global</p>
+        <div class="market-arrow">
+          <div>
+            <div class="arrow-lbl">2023</div>
+            <div class="arrow-val">$1.040M</div>
+          </div>
+          <div class="arrow-sym">→</div>
+          <div>
+            <div class="arrow-lbl">2030</div>
+            <div class="arrow-val">$1.440M</div>
+          </div>
+        </div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;">
+          <div class="stat-card">
+            <div class="val" style="font-size:clamp(16px,2vw,24px);">$261M</div>
+            <div class="lbl">Europa 2023</div>
+          </div>
+          <div class="stat-card">
+            <div class="val" style="font-size:clamp(16px,2vw,24px);">×2</div>
+            <div class="lbl">Fotobiomod. 2035</div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <p class="slide-title">Nuestra oportunidad</p>
+        <ul>
+          <li><strong>Venta directa</strong> — DTC web + Amazon</li>
+          <li><strong>Canal profesional</strong> — clínicas, deporte</li>
+          <li><strong>Bienestar en el hogar</strong> — suscripción Sharpei</li>
+          <li><strong>Software personalizado</strong> — capa recurrente</li>
+        </ul>
+        <div class="highlight-box" style="margin-top:10px;">
+          <p><strong>Esto no es vender una lámpara. Es construir una categoría.</strong></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="slide-footer">
+    <span class="footer-timing">5:55 – 6:25</span>
+    <span class="footer-counter">10 / 12</span>
+  </div>
+</div>
+
+<!-- ══════════ SLIDE 11 — INVERSIÓN ══════════ -->
+<div class="slide">
+  <div class="slide-header">
+    <span class="brand">EKIO Electrosmog</span>
+    <span class="slide-label">Inversión</span>
+  </div>
+  <div class="slide-body">
+    <div class="two-col-3">
+      <div>
+        <p class="slide-title">Ronda Seed — específicamente para Ekio Light</p>
+        <div class="invest-amount">350.000€</div>
+        <p style="margin-bottom:12px;">Para escalar lo que ya funciona.</p>
+        <div class="use-funds">
+          <div class="fund-item">
+            <div class="fund-dot"></div>
+            <p class="fund-text"><strong>Producción y stock</strong> — demanda validada</p>
+          </div>
+          <div class="fund-item">
+            <div class="fund-dot"></div>
+            <p class="fund-text"><strong>Amazon Alemania</strong> — programa oficial de internacionalización</p>
+          </div>
+          <div class="fund-item">
+            <div class="fund-dot"></div>
+            <p class="fund-text"><strong>Entrada USA</strong> — <strong style="color:var(--amber);">FCC ya obtenida</strong></p>
+          </div>
+          <div class="fund-item">
+            <div class="fund-dot"></div>
+            <p class="fund-text"><strong>Software IA</strong> con AIR Institute</p>
+          </div>
+          <div class="fund-item" style="grid-column:span 2;">
+            <div class="fund-dot"></div>
+            <p class="fund-text"><strong>Estructura operativa</strong> para crecimiento internacional</p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="highlight-box" style="margin-bottom:12px;">
+          <p>Los términos — valoración, equity, calendario — <strong>los tratamos en privado.</strong></p>
+        </div>
+        <div class="quote-line">
+          <p>El capital, en este punto, no reduce riesgo.</p>
+        </div>
+        <p style="margin-top:10px;font-size:clamp(16px,2vw,24px);font-weight:800;color:var(--amber);">Multiplica velocidad.</p>
+        <p style="margin-top:8px;">Gana quien ejecuta mejor, construye marca, protege su tecnología y <strong>escala más rápido.</strong></p>
+      </div>
+    </div>
+  </div>
+  <div class="slide-footer">
+    <span class="footer-timing">6:25 – 7:00</span>
+    <span class="footer-counter">11 / 12</span>
+  </div>
+</div>
+
+<!-- ══════════ SLIDE 12 — CIERRE ══════════ -->
+<div class="slide">
+  <div class="slide-header">
+    <span class="brand">EKIO Electrosmog</span>
+    <span class="slide-label">Keiretsu Valladolid · 7 Mayo 2026</span>
+  </div>
+  <div class="slide-body">
+    <div class="close-slide">
+      <p class="close-main">
+        Tenemos producto. Ventas rentables. Propiedad intelectual registrada.<br>
+        Equipo técnico, operativo y clínico.<br>
+        Y más de <strong>7.600 clientes</strong> que ya confían en el ecosistema EKIO.
+      </p>
+      <p class="close-cta">Toda la vida depende de la luz.</p>
+      <p class="close-main">Pedimos capital para hacer una sola cosa:<br><strong>ir más rápido que el mercado.</strong></p>
+      <div class="close-box">
+        <p>Si tenéis preguntas, el café del descanso es vuestro. <strong>Buscadme.</strong></p>
+      </div>
+    </div>
+  </div>
+  <div class="slide-footer">
+    <span class="footer-timing">7:00 – 7:30</span>
+    <span class="footer-counter">12 / 12</span>
+  </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,6 @@
+[mcp_servers.manychat-ekio]
+command = "/usr/local/bin/node"
+args = ["/Users/javierandres/Ekio-Claude/mcp-servers/manychat/index.js"]
+
+[mcp_servers.manychat-ekio.env]
+MANYCHAT_API_TOKEN = "644187:0bf6676851936065bd543fbc61aad1a9"
