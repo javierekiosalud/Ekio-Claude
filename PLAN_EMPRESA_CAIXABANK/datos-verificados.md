@@ -270,3 +270,48 @@ suplementos Laittin (Vit C 24,70 €, Vit B50 24,90 €, Vit D3+K2 29,90 €, Pa
 6. **Riesgo divisa/arancel** en la compra de Spiro (importación desde EE. UU.): declarado en §9.1.
 7. **Titularidad de las redes de Spiro:** si las cuentas son de la marca del fabricante, no son
    activo de la sociedad. Confirmar antes de usarlas como argumento.
+
+---
+
+## 11. RESPALDO INSTITUCIONAL Y LIBRO (fuente: Javier, 30-ago-2026)
+
+### 11.1. Subvenciones concedidas — Junta de Castilla y León
+
+| Ayuda | Estado |
+|---|---|
+| Subvención de **digitalización** | Concedida |
+| Subvención de **innovación** | Concedida |
+| Subvención de **investigación y desarrollo** | Concedida |
+| **Importe conjunto de las tres** | **35.613,20 €** |
+
+`[PENDIENTE: resoluciones de concesión — organismo, nº de expediente, importe individual y
+calendario de justificación de cada una]`.
+
+### 11.2. Programas en los que participa la empresa
+
+- **Plan ESG de Sostenibilidad de la Junta de Castilla y León 2025–2027** — empresa participante.
+- **Plan de Internacionalización de Empresas a través de Marketplace (ICECYL)** — empresa
+  participante. Es el marco de la salida a Europa vía **Ankorstore** (es.ankorstore.com).
+  Mercados objetivo: **Alemania, Austria, Suiza, Países Bajos y Bélgica**. Estado: canal en fase
+  inicial, sin volumen consolidado → NO se incorpora a ninguna proyección de ingresos.
+- **Programa Wolaria (ICECYL)** — stand propio en Startup OLÉ (13–15 oct 2026) y Valencia
+  Digital Summit (22 oct 2026).
+
+`[PENDIENTE: acreditación documental de la participación en el Plan ESG y en el Plan de
+Internacionalización]`.
+
+### 11.3. Libro
+
+- **Autor: Javier Andrés** (fundador y administrador). Debe figurar con nombre, no como
+  "el fundador".
+- Título: «Guía de Higiene Electromagnética — El recetario de la energía perdida».
+- Amazon KDP con ISBN propio; lanzamiento previsto 11/11/2026; precio previsto 11,11 €.
+- Tratamiento en el plan: activo de marca y captación, **sin ingresos proyectados**, coste con
+  recursos propios.
+
+### 11.4. Nota de redacción (decisión 30-ago-2026)
+
+El documento se ha recortado un ~16 % de texto. La lista de 33 `[PENDIENTE]` que estaba en la
+sección 11.3 del plan se ha sacado a **`CHECKLIST_INTERNO.md`**: un documento que se entrega a
+un banco no debe llevar dentro una lista larga de "esto todavía no lo tenemos". Las marcas
+`[PENDIENTE]` que siguen en el cuerpo deben resolverse y eliminarse antes de imprimir.

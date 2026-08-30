@@ -200,21 +200,20 @@ children.push(p([b('Garantía ofrecida: '), run('en primera instancia, la respon
 
 // ===== 2. RESUMEN EJECUTIVO =====
 children.push(h1(2, 'Resumen ejecutivo'));
-children.push(p([b('Quiénes somos. '), run('Ekio es un negocio de venta de tecnología para el bienestar que opera desde 2023. Empezó como distribuidor en España de la tecnología de protección electromagnética Spiro (fabricante Noxtak / SG Labs, Miami). Desde 2025 ha dado el salto a marca propia con la línea Ekio Light, equipos de fotobiomodulación fabricados / ensamblados por un proveedor especializado bajo diseño y especificación de Ekio, con propiedad industrial propia (Modelo de Utilidad registrado y solicitud de patente internacional del sistema SFPA en curso) y con software propio de gestión y de uso para clientes. La actividad se ha desarrollado hasta 2026 bajo la figura de empresario individual (Francisco Javier Andrés Andrés) y en 2026 se aporta como negocio en funcionamiento a la sociedad EKIO BIOTECH, S.L.U., que la continúa. La venta es mayoritariamente digital, a través de electrosmogespana.com, sin necesidad de llamada comercial.')]));
+children.push(p([b('Quiénes somos. '), run('Ekio vende tecnología para el bienestar desde 2023. Empezó distribuyendo en España la tecnología de protección electromagnética Spiro (Noxtak Corp., Miami) y desde 2025 tiene marca propia: Ekio Light, equipos de fotobiomodulación con diseño y especificación propios, Modelo de Utilidad registrado y software propio. La actividad se desarrolló como empresario individual (Francisco Javier Andrés Andrés) y en 2026 se aporta como negocio en funcionamiento a EKIO BIOTECH, S.L.U., que la continúa. La venta es digital, en electrosmogespana.com, y se cierra en la ficha de producto sin intervención comercial.')]));
 children.push(p([b('Qué solicitamos. '), run('Una cuenta de crédito, con un límite solicitado de 250.000 €, para financiar la compra anticipada de stock de cara a la campaña del cuarto trimestre (ferias de octubre y campaña de Black Friday, Navidad y Reyes): filtros Spiro, paneles Ekio Light y accesorios de medición. El objetivo de ventas de esa campaña es de 350.000 € (275.000 € el año anterior). El coste del stock de campaña es de unos 195.000 €; el resto del límite es holgura para reponer las referencias más vendidas y para el stock de arranque de 2027. La empresa aporta el detalle de la compra prevista y la relación de proveedores para justificar el uso de los fondos.')]));
 children.push(p([b('Por qué la operación es solvente. '), run('Tres ejes:')]));
 children.push(numItem([b('Trayectoria estable y en beneficios. '), run('Arranque en 2023 (390.000 € en siete meses) y facturación anual estable en 2024 y 2025 (534.504 € y 537.845 €), ambos ejercicios con resultado positivo (+52.493 € y +19.301 €); primer semestre de 2026 con +78.738 €. Facturación acumulada 2023 – junio 2026: 1,67 M€ (cifra acumulada, no anual). La única deuda financiera es un préstamo institucional de 70.000 €, en amortización y al corriente de pago; no hay capital de terceros. El detalle de ese préstamo se aporta en la sección 6 y en la documentación de soporte.')]));
-children.push(numItem([b('Ingresos recurrentes y canal digital maduro. '), run('Base de clientes y de contactos construida a lo largo de tres años, tienda online operativa con pasarela propia y un conjunto de herramientas de venta y marketing digital en funcionamiento (Shopify, Klaviyo, ManyChat, Meta Ads, Google Search Console, Microsoft Clarity). La venta se cierra en la ficha de producto, sin intervención de un comercial.')]));
+children.push(numItem([b('Canal digital maduro y respaldo institucional. '), run('Tres años de base de clientes y de contactos, tienda online operativa y herramientas de venta y marketing en funcionamiento; la venta se cierra en la ficha de producto, sin comercial. La empresa cuenta además con tres subvenciones concedidas por la Junta de Castilla y León (35.613,20 € en digitalización, innovación e I+D) y participa en su Plan ESG de Sostenibilidad 2025–2027 y en el Plan de Internacionalización a través de Marketplace de ICECYL, con el que ya vende en Europa a través de Ankorstore (sección 5.2).')]));
 children.push(numItem([b('Destino de los fondos claro y controlado. '), run('Los fondos se destinan a existencias —producto físico de un catálogo ya en venta— para un pico de demanda concreto y acotado. No se financia circulante indefinido, gasto corriente ni la expansión internacional. La campaña equivalente del año anterior generó 275.000 € (más de la mitad de todo lo facturado en 2025). La línea es autoliquidable: se dispone en octubre para comprar el stock y se devuelve con el cobro de esas mismas ventas antes de que acabe el año (ver sección 10); la disposición máxima prevista (unos 72.000–150.000 € según el ritmo de compra) queda muy por debajo del límite solicitado.')]));
-children.push(p([it('En volumen, la facturación del primer semestre de 2026 (207.815 €) anualiza por debajo del ritmo de 2024 y 2025: durante la transición a producto propio y la migración de tienda (de WooCommerce a Shopify, completada en noviembre de 2025) la actividad ha priorizado margen sobre volumen. La campaña de Q4 es el punto de inflexión previsto para recuperar volumen sin renunciar al margen ganado.', { italics: true })]));
-children.push(p([b('Hacia dónde vamos. '), run('A largo plazo, la empresa aspira a posicionar su marca propia Ekio Light como referente europeo —y después estadounidense— en tecnología de bienestar personal, apoyada en propiedad industrial y software propios. Es un horizonte de varios años, gradual y autofinanciado con el margen del negocio (sección 8). Conviene subrayar que esta línea de crédito no financia esa expansión: financia únicamente el stock de la campaña nacional de este cuarto trimestre.')]));
+children.push(p([b('Hacia dónde vamos. '), run('La empresa quiere consolidar su marca propia Ekio Light como referente europeo en tecnología de bienestar personal, apoyada en propiedad industrial y software propios. El primer paso ya está en marcha: venta mayorista en Europa vía Ankorstore, dentro del Plan de Internacionalización de ICECYL. Es un recorrido de varios años, gradual y autofinanciado con el margen del negocio (sección 8). Esta línea de crédito no financia esa expansión: financia únicamente el stock de la campaña nacional de este cuarto trimestre.')]));
 
 // ===== 3. TRAYECTORIA Y EQUIPO =====
 children.push(h1(3, 'Trayectoria y equipo'));
 children.push(h2('3.1. Tres años de construcción'));
-children.push(p([b('2023–2024: distribución de Spiro en España. '), run('El negocio nace en 2023 con la distribución en España de la tecnología Spiro. En 2024, año de consolidación de esa distribución, la actividad factura 534.504 €, con un margen bruto del 38,4 % y un resultado de +52.493 €. Se construye desde cero la base de clientes, la comunidad y el canal de venta digital.')]));
-children.push(p([b('2025: inversión deliberada para lanzar marca propia. '), run('En 2025 la facturación se mantiene (537.845 €). El resultado (+19.301 €) baja respecto a 2024 por una inversión extraordinaria de explotación —34.316 € adicionales en publicidad y 18.264 € adicionales en servicios profesionales— para lanzar la línea Ekio Light. Es una inversión de un ejercicio con retorno en el siguiente.')]));
-children.push(p([b('2026: el giro a producto propio. '), run('En el primer semestre de 2026 la actividad factura 207.815 € con un margen bruto del 55,9 % y un resultado de +78.738 €. La mejora del margen es coherente con el mayor peso de la línea Ekio Light (margen bruto superior al 50 %) y con un mix de producto de mayor valor. La línea Ekio Light acumula unos 76.000 € de ventas desde su lanzamiento (repartidas entre la tienda anterior en WooCommerce hasta octubre de 2025 y Shopify desde noviembre de 2025); el tramo ya en Shopify (noviembre de 2025 a junio de 2026) suma unos 18.760 € netos y 116 unidades.')]));
+children.push(p([b('2023–2024: distribución de Spiro en España. '), run('El negocio nace en 2023 distribuyendo Spiro en España. En 2024 consolida esa distribución con 534.504 € de facturación y +52.493 € de resultado, y construye desde cero la base de clientes, la comunidad y el canal digital.')]));
+children.push(p([b('2025: inversión deliberada para lanzar marca propia. '), run('La facturación se mantiene (537.845 €) y el resultado baja a +19.301 €, con 52.580 € adicionales invertidos en publicidad y servicios profesionales para lanzar Ekio Light.')]));
+children.push(p([b('2026: el giro a producto propio. '), run('El primer semestre factura 207.815 € con un margen bruto del 55,9 % y un resultado de +78.738 €, coherente con el mayor peso de Ekio Light (margen superior al 50 %). La línea acumula unos 76.000 € desde su lanzamiento, repartidos entre la tienda anterior en WooCommerce y Shopify desde noviembre de 2025.')]));
 children.push(note([
   it('Sobre el margen bruto por ejercicio: ', { bold: true }),
   it('las cifras de 2024, 2025 y 2026 (H1) proceden del mismo P&L de gestión de Holded de la tienda Ekio completa. La variación del margen bruto entre ejercicios (38,4 % → 24,5 % → 55,9 %) está pendiente de conciliación con el desglose de coste de ventas de Holded y con las declaraciones fiscales: refleja cambios de mix de producto y, probablemente, diferencias en el criterio de imputación de costes entre periodos. Se conciliará antes de la presentación formal. '),
@@ -223,9 +222,7 @@ children.push(note([
 
 children.push(h2('3.2. Continuidad jurídica: de empresario individual a sociedad'));
 children.push(p('La actividad se ha desarrollado desde 2023 como empresario individual (autónomo): Francisco Javier Andrés Andrés, NIF 09338115T. En 2026, ese negocio en funcionamiento se aporta a la sociedad EKIO BIOTECH, S.L.U. (CIF B93860096), de reciente constitución, que pasa a ser el vehículo jurídico de la misma actividad económica.'));
-children.push(p('Consecuencias para el análisis bancario, expuestas con transparencia:'));
-children.push(bullet('El track record de ventas, comunidad y márgenes descrito en este plan corresponde a la misma actividad económica bajo el titular anterior (el autónomo). La SLU la continúa sin ruptura de negocio.'));
-children.push(bullet('La SLU es nueva y todavía no tiene cuentas anuales propias depositadas. El histórico se acredita con la documentación del autónomo: declaraciones de IRPF, modelos 130 y 390, y P&L de gestión de Holded.'));
+children.push(p('El track record de ventas, comunidad y márgenes de este plan corresponde a esa misma actividad económica bajo el titular anterior; la SLU la continúa sin ruptura de negocio. La sociedad es nueva y aún no tiene cuentas anuales depositadas: el histórico se acredita con las declaraciones de IRPF, los modelos 130 y 390 y el P&L de gestión de Holded.'));
 children.push(bullet([it('[PENDIENTE: fecha exacta de la escritura de constitución de la SLU y de la aportación del negocio; confirmación de alta censal y CNAE de la sociedad a fecha de solicitud.]', { bold: true })]));
 children.push(bullet([it('[PENDIENTE: confirmar situación de estar al corriente de pago con la AEAT y con la Seguridad Social. Si existe algún aplazamiento o fraccionamiento de deuda con la AEAT o la TGSS, se declarará expresamente su importe, calendario y estado de cumplimiento, por ser información relevante para el análisis. CaixaBank exigirá los certificados correspondientes.]', { bold: true })]));
 
@@ -239,6 +236,7 @@ children.push(bullet([b('Creación y dirección del negocio (2023–actualidad).
 children.push(bullet([b('Paso a marca propia. '), run('Diseñó y ejecutó la transición desde la distribución de producto de terceros (Spiro) a la marca propia Ekio Light, con desarrollo de propiedad industrial (Modelo de Utilidad Nº U202532624) y de software propio (aplicación de cliente Ekio Coach y sistema SFPA).')]));
 children.push(bullet([b('Dirección del departamento de I+D de Ekio. '), run('Está al frente del área de investigación y desarrollo de la empresa, que coordina la revisión de la evidencia científica que respalda las afirmaciones de producto (fotobiomodulación y exposición electromagnética), la relación con AIR Institute y la agenda de patentes.')]));
 children.push(bullet([b('Divulgación. '), run('Autor del libro «Guía de Higiene Electromagnética — El recetario de la energía perdida» (en preparación, ver sección 8.5), y responsable de la comunicación de marca en podcast y medios.')]));
+children.push(bullet([b('Relación institucional. '), run('Ha situado a la empresa dentro del ecosistema de apoyo de la Junta de Castilla y León: tres subvenciones concedidas (digitalización, innovación e I+D), participación en el Plan ESG de Sostenibilidad 2025–2027 y en el Plan de Internacionalización a través de Marketplace de ICECYL, y acceso al programa Wolaria (sección 5.2).')]));
 children.push(bullet([b('Reconocimiento institucional. '), run('Impulsó la incorporación de Ekio al programa de Wolaria / ICECYL y su presencia como stand propio en Startup OLÉ y Valencia Digital Summit 2026.')]));
 children.push(note([it('[PENDIENTE: completar con formación académica, trayectoria profesional previa a 2023 y años de experiencia en el sector, para una reseña curricular completa.]', { bold: true })]));
 
@@ -250,24 +248,16 @@ children.push(bullet('Catálogo de producto individual y packs, con precio de ve
 children.push(bullet('Venta directa en la ficha de producto, sin llamada comercial.'));
 children.push(bullet('Comunidad de clientes y seguidores construida en torno a la línea.'));
 children.push(bullet([b('Respaldo del fabricante. '), run('Según Noxtak, la tecnología SPIRO está protegida por 14 patentes. Su familia de patente principal —neutralización de contaminación electromagnética, con prioridad de 2016— figura como concedida en registros públicos (EPO / Google Patents) en Estados Unidos, la Unión Europea, España, Japón, Corea del Sur, Australia y Canadá. Noxtak ha recibido el German Innovation Award 2021 del German Design Council y un Edison Award 2020 en ciencia de materiales, y las propiedades físicas del filtro han sido medidas por laboratorios acreditados. SPIRO no es un producto sanitario y no se le atribuyen efectos de prevención, tratamiento o curación; su validación clínica independiente está pendiente y forma parte de la agenda de I+D de Ekio. [PENDIENTE: relación de patentes y de premios facilitada por Noxtak, para adjuntar.]')]));
-children.push(p([it('Catálogo Spiro a la venta (extracción de Shopify, agosto de 2026):', { italics: true })]));
+children.push(p([it('Estructura del catálogo Spiro (Shopify, agosto de 2026):', { italics: true })]));
 children.push(table(
-  ['Producto / Pack', 'PVP (€)'],
+  ['Tramo', 'Refs.', 'PVP (€)'],
   [
-    ['SPIRO SQUARE', '147,00'],
-    ['SPIRO SQUARE X', '257,00'],
-    ['STROOM MASTER PRO', '219,99'],
-    ['Pack Protección Hogar y Oficina', '350,00'],
-    ['Pack Protección Personal', '350,00'],
-    ['Pack Infantil', '420,00'],
-    ['Pack Familia', '445,00'],
-    ['Pack Oficina', '470,00'],
-    ['Pack Sueño', '470,00'],
-    ['Pack Protección Stroom Master', '655,00'],
-    ['Pack Oasis Electromagnético', '825,00'],
+    ['Producto individual (Square, Square X, Stroom Master Pro)', '3', '147 – 257'],
+    ['Packs de protección (personal, hogar, oficina, infantil, familia, sueño)', '6', '350 – 470'],
+    ['Packs de gama alta (Stroom Master, Oasis Electromagnético)', '2', '655 – 825'],
   ],
-  [7026, 2000],
-  [undefined, R],
+  [5226, 1600, 2200],
+  [undefined, C, R],
 ));
 children.push(spacer());
 
@@ -278,21 +268,20 @@ children.push(bullet('Margen bruto de la línea superior al 50 %. El margen brut
 children.push(bullet([b('Propiedad industrial: '), run('Modelo de Utilidad español Nº U202532624 (panel multiespectral), registrado ante la OEPM; solicitud de 25 de diciembre de 2025. Es un elemento diferenciador frente a competidores. Se adjuntará el título expedido por la OEPM. [PENDIENTE: certificado/título de la OEPM que acredite el estado exacto del expediente a la fecha.]')]));
 children.push(p([it('Catálogo Ekio Light a la venta (extracción de Shopify, agosto de 2026):', { italics: true })]));
 children.push(table(
-  ['Producto', 'PVP (€)', 'Estado'],
+  ['Producto', 'PVP (€)'],
   [
-    ['BIO SPECTRUM 11 (buque insignia; único con UV-A/UV-B)', '2.500,00', 'Activo'],
-    ['BIO REGEN 7 (luz roja y cyan)', '950,00', 'Activo'],
-    ['DEEP 5', '650,00', 'Activo'],
-    ['CORE (portátil, terapia local)', '147,00', 'Activo'],
-    ['IGNIS (luz + protección electromagnética)', '120,00', 'Activo'],
-    ['Bombilla LED roja / Bombilla LED ámbar 1800K', '17,50', 'Activo'],
-    ['Pack Salón y Dormitorio (bombilla roja + ámbar)', '29,70', 'Activo'],
+    ['BIO SPECTRUM 11 (gama alta; único con UV-A/UV-B)', '2.500,00'],
+    ['BIO REGEN 7 (luz roja y cyan)', '950,00'],
+    ['DEEP 5', '650,00'],
+    ['CORE (portátil, terapia local)', '147,00'],
+    ['IGNIS (luz + protección electromagnética)', '120,00'],
+    ['Bombillas LED roja / ámbar y packs de iluminación', '17,50 – 29,70'],
   ],
-  [5626, 2000, 1400],
-  [undefined, R, C],
+  [7026, 2000],
+  [undefined, R],
 ));
 children.push(spacer());
-children.push(p('Existen además versiones B2B en borrador (Deep 5 B2B 600 €, Deep 7 B2B 650 €, Full Spectrum 10 B2B 2.500 €), pendientes de publicación.'));
+children.push(p('Hay además versiones B2B preparadas para el canal mayorista, pendientes de publicación.'));
 children.push(note([it('El catálogo de ambas líneas está operativo y a la venta. Las unidades en inventario a fecha de hoy no cubren el volumen ni la velocidad de venta de la campaña de Q4: reponer ese stock por adelantado es precisamente el objeto de esta financiación (ver sección 9). [PENDIENTE: unidades de inventario realmente disponibles y comprometidas a fecha de solicitud, y rotación (vueltas) por referencia de campaña.]', { bold: true })]));
 
 children.push(h2('4.3. Líneas complementarias'));
@@ -301,12 +290,12 @@ children.push(p('Accesorios de medición (detector de radiación 49 €, comprob
 children.push(h2('4.4. Canales de venta'));
 children.push(bullet([b('D2C (venta directa): '), run('electrosmogespana.com. Es el canal principal y la base de todo el histórico de facturación. Venta cerrada en la ficha de producto, sin comercial.')]));
 children.push(bullet([b('Renting / suscripción: '), run('opción de pago por uso para el consumidor a través de Sharpei (integrada en Shopify) y planteamiento B2B para clínicas, centros de estética y gimnasios. Línea incipiente. [PENDIENTE: volumen real de contratos de renting vivos a la fecha.]')]));
-children.push(bullet([b('B2B / wholesale: '), run('canal en desarrollo (alta en el marketplace Ankorstore en preparación; fichas B2B en borrador en Shopify). Todavía sin volumen consolidado.')]));
+children.push(bullet([b('B2B / mayorista europeo: '), run('venta iniciada en el marketplace Ankorstore dentro del Plan de Internacionalización de ICECYL, con foco en Alemania, Austria, Suiza, Países Bajos y Bélgica (sección 5.3). En fase inicial, sin volumen consolidado.')]));
 
 children.push(h2('4.5. Activos tecnológicos propios'));
-children.push(p('Además del catálogo físico, Ekio ha desarrollado software propio que refuerza la relación con el cliente y eleva la barrera de entrada:'));
-children.push(bullet([b('Aplicación de gestión interna. '), run('Herramienta propia para la operativa del negocio (pedidos, inventario, atención al cliente).')]));
-children.push(bullet([b('Aplicación para clientes «Ekio Coach». '), run('Guía de uso de los equipos, seguimiento de sesiones y protocolos personalizados; ya con usuarios registrados. Genera recurrencia (relación continuada con el cliente) y datos de uso.')]));
+children.push(p('Además del catálogo físico, Ekio ha desarrollado tecnología propia que refuerza la relación con el cliente y eleva la barrera de entrada:'));
+children.push(bullet([b('Aplicación de gestión interna. '), run('Herramienta propia para pedidos, inventario y atención al cliente.')]));
+children.push(bullet([b('Aplicación de cliente «Ekio Coach». '), run('Guía de uso, seguimiento de sesiones y protocolos personalizados, ya con usuarios registrados. Convierte la venta de un equipo en una relación continuada y genera datos de uso propios.')]));
 children.push(bullet([b('Sistema SFPA (Sistema de Fotobiomodulación Personalizada con IA). '), run('Plataforma propia que integra hardware, software y algoritmos de inteligencia artificial para adaptar los parámetros de tratamiento (longitud de onda, dosis y tiempo) al perfil de cada usuario y a su respuesta. En desarrollo con AIR Institute (Salamanca). Tiene una solicitud de patente internacional (PCT) propia e independiente del Modelo de Utilidad, actualmente en preparación con el agente de la propiedad industrial y pendiente de presentación. [PENDIENTE: número y fecha de presentación de la solicitud PCT cuando se registre.] Todavía sin producto comercial; su lanzamiento se describe en la sección 8.2.')]));
 
 // ===== 5. MERCADO Y VALIDACIÓN =====
@@ -318,12 +307,33 @@ children.push(bullet([b('Fotobiomodulación (terapia de luz roja e infrarroja). 
 children.push(p([b('Un cruce poco disputado. '), run('El valor diferencial de Ekio está en atender los dos segmentos a la vez y con criterio propio. Los fabricantes de equipos de fotobiomodulación no diseñan pensando en bajo campo electromagnético ni en la ausencia de parpadeo (flicker); los fabricantes de soluciones de protección electromagnética no fabrican luz. Ekio ocupa esa intersección —"tecnología que cuida"— con producto propio (Ekio Light), propiedad industrial (Modelo de Utilidad y solicitud PCT del SFPA), software propio (Ekio Coach) y una comunidad construida durante tres años. Son activos que un competidor no obtiene comprando producto, y que la empresa quiere reforzar para consolidarse como referente del nicho, primero en España y por etapas en Europa (ver sección 8).')]));
 children.push(note([it('El plan no cuantifica el tamaño ni el crecimiento de estos mercados. [PENDIENTE: si se desea incluir una cifra de mercado (tamaño o tasa de crecimiento), debe aportarse una fuente citable.]', { bold: true })]));
 
-children.push(h2('5.2. Reconocimiento institucional y validación externa'));
-children.push(bullet([b('Wolaria / ICECYL (Instituto para la Competitividad Empresarial de Castilla y León). '), run('Ekio ha sido invitada a participar con stand propio en Startup OLÉ (Salamanca, 13–15 de octubre de 2026) y en el Valencia Digital Summit (día asignado: 22 de octubre de 2026, con pitch a inversores). [PENDIENTE: carta o email de Wolaria/ICECYL que acredite la invitación, para adjuntar como anexo.]')]));
-children.push(bullet([b('AIR Institute (Salamanca). '), run('Colaboración científica para el desarrollo del sistema SFPA (ver sección 4.5).')]));
-children.push(bullet([b('Comunidad y base de datos. '), run('Activos de marketing construidos a lo largo de tres años: unos 44.550 seguidores en Instagram entre las cuentas de la empresa (dato de gestión a agosto de 2026), más de 12.000 contactos en la base de datos y más de 7.600 clientes históricos de la línea Spiro. Son datos de gestión interna; el recuento exacto se aportará mediante exportación de las plataformas. [PENDIENTE: exportaciones de Klaviyo y Shopify con los recuentos exactos.]')]));
-children.push(bullet([b('Software propio. '), run('Aplicación de gestión interna y aplicación para clientes «Ekio Coach», ambas en uso (ver sección 4.5).')]));
-children.push(bullet([b('Herramientas digitales en funcionamiento. '), run('Shopify, Klaviyo, ManyChat, Meta Ads, Google Search Console y Microsoft Clarity, todas operativas.')]));
+children.push(h2('5.2. Respaldo institucional'));
+children.push(p('Ekio no opera al margen del ecosistema público de apoyo empresarial de su comunidad autónoma: participa en tres programas de la Junta de Castilla y León y tiene tres subvenciones concedidas.'));
+children.push(table(
+  ['Programa / ayuda', 'Organismo', 'Situación'],
+  [
+    ['Subvención de digitalización', 'Junta de Castilla y León', 'Concedida'],
+    ['Subvención de innovación', 'Junta de Castilla y León', 'Concedida'],
+    ['Subvención de investigación y desarrollo', 'Junta de Castilla y León', 'Concedida'],
+    ['Importe conjunto de las tres subvenciones', '—', '35.613,20 €'],
+    ['Plan ESG de Sostenibilidad 2025–2027', 'Junta de Castilla y León', 'Empresa participante'],
+    ['Plan de Internacionalización de Empresas a través de Marketplace', 'ICECYL', 'Empresa participante'],
+    ['Programa Wolaria (aceleración)', 'ICECYL', 'Stand propio en Startup OLÉ y Valencia Digital Summit, oct. 2026'],
+  ],
+  [4026, 2500, 2500],
+));
+children.push(spacer());
+children.push(p([b('Lectura de este respaldo. '), run('Las tres subvenciones concedidas acreditan que proyectos de digitalización, innovación e I+D de la empresa han superado una evaluación técnica externa. La pertenencia al Plan ESG y al Plan de Internacionalización sitúa a Ekio dentro de la política industrial autonómica y le da acompañamiento en su salida a Europa. Ninguna de estas ayudas se computa como ingreso en las proyecciones de este plan.')]));
+children.push(note([it('[PENDIENTE: resoluciones de concesión de las tres subvenciones, con organismo, expediente, importe y calendario de justificación; y acreditación de la participación en el Plan ESG y en el Plan de Internacionalización, para adjuntar como anexo.]', { bold: true })]));
+children.push(h2('5.3. Salida a Europa a través de Ankorstore'));
+children.push(p('Dentro del Plan de Internacionalización de Empresas a través de Marketplace de ICECYL, Ekio ha iniciado la venta mayorista en Europa a través de la plataforma B2B Ankorstore (es.ankorstore.com), que conecta marcas con comercios minoristas de toda Europa.'));
+children.push(bullet([b('Mercados objetivo: '), run('Alemania, Austria, Suiza, Países Bajos y Bélgica, por su mayor sensibilidad y gasto en producto de bienestar y salud preventiva.')]));
+children.push(bullet([b('Qué aporta al negocio: '), run('acceso a comercio minorista europeo sin abrir filial ni red comercial propia, pedidos de mayor volumen unitario que el canal directo, y facturación menos dependiente del pico estacional español.')]));
+children.push(bullet([b('Estado: '), run('canal en fase inicial, con el catálogo de lanzamiento en preparación. Todavía sin volumen consolidado, por lo que no se ha incorporado a ninguna proyección de ingresos de este documento.')]));
+children.push(h2('5.4. Otros activos de la empresa'));
+children.push(bullet([b('Colaboración científica. '), run('AIR Institute (Salamanca), para el desarrollo del sistema SFPA (ver sección 4.5).')]));
+children.push(bullet([b('Comunidad y base de datos. '), run('Unos 44.550 seguidores en redes, más de 12.000 contactos y más de 7.600 clientes históricos de la línea Spiro (datos de gestión a agosto de 2026). [PENDIENTE: exportaciones de Klaviyo y Shopify con los recuentos exactos.]')]));
+children.push(bullet([b('Canal digital operativo. '), run('Shopify, Klaviyo, ManyChat, Meta Ads, Google Search Console y Microsoft Clarity, además del software propio descrito en la sección 4.5.')]));
 
 // ===== 6. RESULTADOS HISTÓRICOS =====
 children.push(h1(6, 'Resultados históricos'));
@@ -344,10 +354,7 @@ children.push(table(
 children.push(spacer());
 children.push(p([it('2023 fue el año de arranque: 390.000 € de facturación en unos siete meses de actividad (junio–diciembre). El margen bruto y el resultado de 2023 se aportarán con las declaraciones fiscales de ese ejercicio. El coste de ventas y el margen bruto en euros de 2024–2026 son los implícitos por el margen bruto (%) de gestión (facturación × (1 − margen bruto %)); no son partidas independientes tomadas de Holded. El margen bruto de 2026 corresponde al margen bruto global de la tienda en el primer semestre. Facturación acumulada 2023 – junio 2026: 1,67 M€.', { italics: true })]));
 children.push(h2('6.2. Nota sobre la comparabilidad entre periodos'));
-children.push(p('El negocio es marcadamente estacional, por lo que comparar periodos de distinta duración induce a error si no se corrige ese efecto. Conviene explicitarlo:'));
-children.push(bullet('El periodo junio–diciembre de 2023 contiene la campaña completa de Black Friday, Navidad y Reyes; los ejercicios completos de 2024 y 2025 diluyen ese pico entre doce meses. Comparar la media mensual de uno y otros no es homogéneo.'));
-children.push(bullet('Con la estructura de 2025 (275.000 € de campaña y 262.845 € en el resto del año, es decir ~26.300 €/mes fuera de campaña), un periodo de siete meses que incluyera la campaña arrojaría del orden de 406.000 €. Los 390.000 € de 2023 se sitúan un 4 % por debajo de esa referencia: son coherentes con el patrón estacional del negocio, no con un deterioro posterior.'));
-children.push(bullet('El primer semestre de 2026 (207.815 €) es, por el motivo contrario, el tramo del año sin campaña, de modo que su anualización simple subestima el ejercicio. La comparación pertinente es con el primer semestre de 2025.'));
+children.push(p('El negocio es marcadamente estacional y comparar periodos de distinta duración induce a error. El tramo junio–diciembre de 2023 contiene la campaña completa de fin de año, mientras que 2024 y 2025 la diluyen entre doce meses y el primer semestre de 2026 no la incluye. Con la estructura de 2025 (275.000 € de campaña y ~26.300 €/mes fuera de ella), un periodo de siete meses con campaña arrojaría del orden de 406.000 €: los 390.000 € de 2023 quedan un 4 % por debajo de esa referencia, coherentes con el patrón estacional. Por el mismo motivo, anualizar el primer semestre de 2026 subestima el ejercicio; la comparación pertinente es con el primer semestre de 2025.'));
 children.push(note([it('[PENDIENTE: facturación del primer semestre de 2025 y de los meses de julio y agosto de 2026, para permitir la comparación homogénea semestre contra semestre.]', { bold: true })]));
 children.push(h2('6.3. Lectura de gestión'));
 children.push(bullet([b('Trayectoria estable y en beneficios. '), run('Tras el arranque de 2023 (390.000 € en siete meses), la facturación anual se estabiliza en 534.504 € (2024) y 537.845 € (2025), ambos ejercicios con resultado positivo (+52.493 € y +19.301 €). El primer semestre de 2026 cierra con +78.738 €. La facturación acumulada entre 2023 y junio de 2026 asciende a 1,67 M€ (cifra acumulada del periodo, no anual).')]));
@@ -363,7 +370,7 @@ children.push(note([
 children.push(h1(7, 'Plan comercial para los próximos 6 meses (septiembre 2026 – febrero 2027)'));
 children.push(h2('7.1. Septiembre – octubre: refuerzo de comunicación y ferias'));
 children.push(bullet([b('Desde septiembre: '), run('refuerzo de la comunicación de marca a través de podcast, radio y medios, para llegar a la campaña de fin de año con mayor notoriedad.')]));
-children.push(bullet([b('Octubre — ferias. '), run('Presencia con stand propio en Startup OLÉ (Salamanca, 13–15 de octubre) y en el Valencia Digital Summit (22 de octubre, con pitch a inversores), ambas por invitación de Wolaria / ICECYL. Ambos eventos cumplen una triple función comercial: venta directa y captación de contactos en el stand, apertura del canal B2B (contacto con clínicas, centros y distribuidores) y contacto con inversores y con compradores internacionales. Su coste está previsto dentro del presupuesto ordinario de marketing y no se financia con la línea solicitada.')]));
+children.push(bullet([b('Octubre — ferias. '), run('Stand propio en Startup OLÉ (Salamanca, 13–15 de octubre) y en el Valencia Digital Summit (22 de octubre, con pitch a inversores), por invitación de Wolaria / ICECYL. Sirven a tres fines: venta y captación en el stand, apertura del canal B2B y contacto con inversores y compradores internacionales. Su coste va en el presupuesto ordinario de marketing, no en la línea solicitada.')]));
 children.push(bullet([b('11 de noviembre — publicación del libro. '), run('Lanzamiento de la obra divulgativa de la empresa (ver sección 8.5), que refuerza la notoriedad justo antes del Black Friday.')]));
 children.push(h2('7.2. Noviembre – enero: campaña de fin de año'));
 children.push(p('El periodo Black Friday → Navidad → Reyes es el pico de demanda del año. La campaña equivalente del año anterior generó 275.000 € de facturación, cifra que supera el 50 % de todo lo facturado en 2025 (537.845 €). Q4 concentra, por tanto, una parte muy alta de la actividad anual.'));
@@ -374,32 +381,32 @@ children.push(p('La cuenta de crédito cubre exactamente ese desfase temporal: p
 
 // ===== 8. ESTRATEGIA Y OBJETIVOS A MEDIO PLAZO =====
 children.push(h1(8, 'Visión, estrategia y objetivos a medio plazo (2026–2028)'));
-children.push(p('Esta solicitud se circunscribe a financiar el circulante de una campaña concreta. No obstante, la empresa considera necesario exponer hacia dónde dirige su actividad, porque explica por qué invierte en propiedad industrial y en software y por qué esos activos sostienen el margen que hace viable la devolución de la línea.'));
+children.push(p('Esta solicitud financia el circulante de una campaña concreta, pero conviene exponer hacia dónde va la empresa: explica por qué invierte en propiedad industrial y software, y por qué esos activos sostienen el margen que hace viable la devolución.'));
 children.push(h2('8.1. Visión'));
 children.push(p('La ambición de EKIO BIOTECH a largo plazo es posicionar su marca propia Ekio Light como referente europeo, y posteriormente en el mercado estadounidense, en el segmento de la tecnología de bienestar personal —«tecnología que cuida»—: equipos de fotobiomodulación diseñados con criterios de seguridad electromagnética y respaldados por propiedad industrial y software propios.'));
 children.push(p([b('Por qué la empresa cree que puede liderar ese nicho. '), run('El segmento en el que compite —equipos de bienestar personal diseñados a la vez con criterio de fotobiomodulación y de seguridad electromagnética— está hoy poco disputado: los fabricantes de terapia de luz no incorporan el criterio de bajo campo electromagnético ni de ausencia de parpadeo, y los especialistas en protección electromagnética no fabrican equipos de luz. Ekio ya opera en ese cruce, con producto propio, propiedad industrial, software y comunidad. La estrategia de los próximos años es defender esa posición ("blindar" el producto) antes de que el nicho se pueble: registrar y extender la propiedad industrial, acumular datos de uso propios a través de la aplicación Ekio Coach, y consolidar la relación con la comunidad de clientes. Son ventajas acumulativas, difíciles de replicar comprando producto.')]));
-children.push(p('Se trata de un horizonte de varios años, no de un objetivo del presente ejercicio. La empresa es consciente de su dimensión actual y plantea ese recorrido de forma gradual y autofinanciada con el margen del negocio: primero consolidación del mercado nacional y del canal B2B, después venta transfronteriza en la Unión Europea, y solo más adelante —y condicionada a la extensión efectiva de la protección industrial a esos mercados (fases nacionales de la solicitud PCT) y a la certificación aplicable en cada uno— la entrada en Estados Unidos.'));
+children.push(p([b('El primer paso ya está dado. '), run('La salida a Europa no es una intención: Ekio está dentro del Plan de Internacionalización de Empresas a través de Marketplace de ICECYL y ha empezado a vender en Ankorstore hacia Alemania, Austria, Suiza, Países Bajos y Bélgica (sección 5.3). El recorrido es gradual y autofinanciado con el margen del negocio: consolidación del mercado nacional y del canal B2B, expansión europea vía marketplace, y solo más adelante —condicionada a la extensión efectiva de la protección industrial (fases nacionales de la solicitud PCT) y a la certificación aplicable— la entrada en Estados Unidos.')]));
 children.push(note([it('Delimitación expresa: la cuenta de crédito solicitada NO financia esta expansión internacional. Financia exclusivamente la compra de existencias para la campaña nacional del cuarto trimestre de 2026 (ver sección 9).', { bold: true })]));
 children.push(h2('8.2. Objetivo financiero'));
-children.push(p('El objetivo para el cierre de 2026 es situar la facturación anual en el entorno de la de 2024 y 2025 (aproximadamente 530.000 – 550.000 €), recuperando volumen en la campaña de Q4 sin ceder el margen bruto ganado en 2026 (superior al 50 %). A partir de 2027, la empresa persigue un crecimiento moderado apoyado en líneas de ingreso recurrente, no en un salto de ventas puntual.'));
+children.push(p('Cerrar 2026 en el entorno de 530.000 – 550.000 € de facturación, recuperando volumen en la campaña de Q4 sin ceder el margen bruto ganado (superior al 50 %). Desde 2027, crecimiento moderado apoyado en ingresos recurrentes —canal mayorista europeo y renting— y no en un salto de ventas puntual.'));
 children.push(note([it('[PENDIENTE: proyección financiera plurianual detallada (cuenta de resultados, balance y tesorería 2026–2028). La empresa dispone de un modelo económico a cinco años elaborado para otras líneas de financiación, que puede aportarse a CaixaBank a petición.]', { bold: true })]));
 children.push(h2('8.3. Palancas de crecimiento'));
 children.push(numItem([b('Mayor peso del producto propio. '), run('Aumentar la proporción de Ekio Light sobre el total de ventas frente a la distribución de Spiro, por su margen bruto más alto y por el control sobre precio, catálogo y propiedad industrial.')]));
-children.push(numItem([b('Ingresos recurrentes: B2B y renting. '), run('Activar el canal mayorista / B2B (marketplace Ankorstore, clínicas, centros de estética y gimnasios) y el renting al consumidor (Sharpei), que aportan facturación repetida y previsible y reducen la dependencia del pico estacional.')]));
+children.push(numItem([b('Canal mayorista europeo. '), run('Escalar la venta B2B en Ankorstore hacia Alemania, Austria, Suiza, Países Bajos y Bélgica, dentro del Plan de Internacionalización de ICECYL (sección 5.3), y abrir el B2B nacional en clínicas, centros de estética y gimnasios. Aporta pedidos de mayor volumen y reduce la dependencia del pico estacional español.')]));
 children.push(numItem([b('Lanzamiento del sistema SFPA. '), run('Convertir el SFPA (ver sección 4.5) en producto comercial —equipo, software y suscripción— una vez completadas su validación con AIR Institute y su solicitud de patente internacional.')]));
-children.push(numItem([b('Software propio y comunidad. '), run('Ampliar la aplicación para clientes Ekio Coach y explotar la base de datos (unos 44.550 seguidores en redes y más de 12.000 contactos) como motor de recompra y de venta cruzada de accesorios y suplementos.')]));
-children.push(numItem([b('Presencia en ferias del sector. '), run('Startup OLÉ y Valencia Digital Summit en octubre de 2026 como puerta de entrada al canal profesional y al contacto internacional; en ejercicios siguientes se valorará la presencia en ferias europeas del sector bienestar y estética, financiada con el presupuesto ordinario de marketing.')]));
+children.push(numItem([b('Comunidad y recompra. '), run('Explotar la aplicación Ekio Coach y la base de datos (unos 44.550 seguidores y más de 12.000 contactos) como motor de recompra y venta cruzada.')]));
+children.push(numItem([b('Presencia en ferias. '), run('Startup OLÉ y Valencia Digital Summit en octubre de 2026 como puerta de entrada al canal profesional; en ejercicios siguientes, ferias europeas del sector, con presupuesto ordinario de marketing.')]));
 children.push(h2('8.4. Propiedad industrial y software: la base de la ambición internacional'));
-children.push(p('El esfuerzo en patentes y desarrollo propio no es accesorio: es la condición para poder competir fuera de España con margen y sin quedar reducida a distribuidora de producto de terceros.'));
+children.push(p('El esfuerzo en patentes y desarrollo propio es la condición para competir fuera de España con margen, sin quedar reducida a distribuidora de producto de terceros.'));
 children.push(bullet([b('Modelo de Utilidad Nº U202532624 '), run('(panel multiespectral), registrado ante la OEPM; se acompaña el título del expediente.')]));
 children.push(bullet([b('Patente internacional (PCT) del sistema SFPA, '), run('propia e independiente del Modelo de Utilidad, en preparación y pendiente de presentación. Es la pieza que permitiría proteger la tecnología en los mercados de destino antes de abordarlos. Mientras no esté presentada no se computa como activo en ninguna cifra de este plan.')]));
-children.push(bullet([b('Software propio '), run('(aplicación de gestión interna y aplicación de cliente Ekio Coach), que convierte la venta de un equipo en una relación continuada y genera datos de uso difíciles de replicar por un competidor.')]));
-children.push(p('En función del resultado de la PCT se evaluará una extensión internacional selectiva, limitada a los mercados con mayor demanda de fotobiomodulación de consumo. Los costes de tramitación se asumen con recursos propios.'));
+children.push(p('Según el resultado de la PCT se evaluará una extensión internacional selectiva a los mercados con mayor demanda. Los costes de tramitación se asumen con recursos propios.'));
 children.push(h2('8.5. Divulgación y marca: publicación de un libro'));
-children.push(p('La empresa tiene en preparación un libro divulgativo de autoría del fundador, «Guía de Higiene Electromagnética — El recetario de la energía perdida», que explica al público general cómo reducir la exposición electromagnética doméstica y cómo emplear la luz de forma saludable. Datos previstos de la edición:'));
+children.push(p('Javier Andrés, fundador y administrador de la empresa, tiene en preparación el libro divulgativo «Guía de Higiene Electromagnética — El recetario de la energía perdida», que explica al público general cómo reducir la exposición electromagnética doméstica y cómo emplear la luz de forma saludable. Datos previstos de la edición:'));
 children.push(table(
   ['Concepto', 'Previsión'],
   [
+    ['Autor', 'Javier Andrés (fundador y administrador de EKIO BIOTECH, S.L.U.)'],
     ['Canal de publicación', 'Autopublicación en Amazon (KDP), con ISBN propio'],
     ['Fecha de lanzamiento prevista', '11 de noviembre de 2026'],
     ['Precio de lanzamiento previsto', '11,11 €'],
@@ -408,12 +415,11 @@ children.push(table(
   [4026, 5000],
 ));
 children.push(spacer());
-children.push(p('Su función en el plan no es la venta de ejemplares —cuya aportación a la facturación se considera marginal y no se ha incorporado a ninguna proyección de este documento— sino actuar como activo de marca y de captación: refuerza la autoridad de la empresa en su categoría, se publica dos semanas antes del Black Friday y dirige lectores a la tienda. Su coste de producción se asume con recursos propios y no forma parte del destino de esta financiación.'));
+children.push(p('Su función no es la venta de ejemplares —marginal y no incorporada a ninguna proyección— sino actuar como activo de marca y captación: refuerza la autoridad de la empresa, se publica dos semanas antes del Black Friday y dirige lectores a la tienda. Su coste se asume con recursos propios.'));
 children.push(note([it('[PENDIENTE: confirmar fecha de publicación, precio final y coste de edición e ilustración del libro.]', { bold: true })]));
-children.push(h2('8.6. Estructura y organización'));
-children.push(p('Mantener la estructura ligera actual (una persona en plantilla más una red de profesionales externos) mientras el margen no justifique incorporaciones. Las primeras contrataciones clave previstas —operaciones y desarrollo del canal B2B— se ligarán a hitos de facturación, no a la financiación.'));
-children.push(h2('8.7. Encaje con esta financiación'));
-children.push(p('Gestionar de forma ordenada el circulante de la campaña de Q4 mediante esta cuenta de crédito es el primer paso operativo, y el más inmediato, de ese plan: consolidar el mercado nacional y demostrar que la empresa gestiona con rigor una línea de circulante. Un buen comportamiento de la línea —disposición acotada y devolución dentro del ciclo de campaña— es la base sobre la que la empresa desea construir una relación bancaria a más largo plazo que acompañe el crecimiento descrito.'));
+children.push(h2('8.6. Estructura y encaje con esta financiación'));
+children.push(p('La empresa mantendrá su estructura ligera mientras el margen no justifique incorporaciones; las primeras contrataciones previstas —operaciones y canal B2B— se ligarán a hitos de facturación, no a la financiación.'));
+children.push(p('Gestionar con orden el circulante de esta campaña es el paso más inmediato de ese plan. Un buen comportamiento de la línea —disposición acotada y devolución dentro del ciclo— es la base sobre la que Ekio quiere construir una relación bancaria estable que acompañe el crecimiento descrito.'));
 
 // ===== 9. USO DE LOS FONDOS =====
 children.push(h1(9, 'Uso de los fondos solicitados'));
@@ -423,12 +429,12 @@ children.push(p('El destino es la compra anticipada de existencias de tres grupo
 children.push(bullet([b('Spiro '), run('(distribución): filtros y packs de protección electromagnética.')]));
 children.push(bullet([b('Ekio Light '), run('(marca propia): paneles de fotobiomodulación y accesorios de iluminación.')]));
 children.push(bullet([b('Accesorios de medición '), run('(medidores de campo, detectores de radiación, comprobadores de instalación), que acompañan a las dos líneas anteriores y tienen buena rotación en campaña.')]));
-children.push(p('No se financia gasto corriente, ni circulante indefinido, ni activo fijo, ni la expansión internacional descrita en la sección 8: se financia inventario concreto de un catálogo ya en venta, para un pico de demanda acotado en el tiempo. La compra se soportará con presupuestos o pedidos pro-forma de los proveedores (ver sección 11).'));
+children.push(p('No se financia gasto corriente, ni circulante indefinido, ni activo fijo: se financia inventario concreto de un catálogo ya en venta, para un pico de demanda acotado en el tiempo. La compra se soportará con presupuestos o pedidos pro-forma de los proveedores (ver sección 11).'));
 children.push(p([b('Riesgos de aprovisionamiento asociados. '), run('La línea Spiro se importa desde Estados Unidos: la compra está expuesta al tipo de cambio EUR/USD, a los costes de transporte y a los derechos de importación. Ekio es distribuidor de Spiro en España (no en exclusiva), por lo que también existe el riesgo de que otros distribuidores concurran en el mercado; se mitiga con la comunidad, la marca y el servicio propios de Ekio, y con el mayor peso creciente de la marca propia Ekio Light. La empresa asume estos riesgos con su margen y los tiene en cuenta al fijar el precio de venta. [PENDIENTE: vigencia y preaviso del contrato de distribución con Noxtak, moneda y condiciones de pago al proveedor, y exposición estimada al tipo de cambio en la compra de campaña.]')]));
 children.push(h2('9.2. Por qué mejora la posición de la empresa'));
-children.push(numItem([b('Evita la rotura de stock en el pico de Q4. '), run('La campaña de fin de año concentra más del 50 % de la facturación anual (275.000 € el año anterior frente a 537.845 € de todo 2025). Quedarse sin las referencias más vendidas en ese momento es el mayor riesgo comercial del ejercicio. Comprar el inventario por adelantado lo elimina.')]));
-children.push(numItem([b('Permite comprar volumen al proveedor en mejores condiciones. '), run('Consolidar el pedido de campaña —en lugar de reponer a goteo— mejora la posición negociadora frente a los proveedores (Spiro: Noxtak / SG Labs, Miami; Ekio Light: fabricante / ensamblador especializado) y reduce el coste unitario y de logística.')]));
-children.push(numItem([b('Libera la caja propia para el marketing de campaña. '), run('Si el inventario se financia con la línea, la tesorería propia queda disponible para la inversión publicitaria y de comunicación que activa la demanda en las mismas fechas. La línea financia el producto; la caja propia financia la venta.')]));
+children.push(numItem([b('Evita la rotura de stock en el pico. '), run('La campaña de fin de año concentra más del 50 % de la facturación anual (275.000 € frente a 537.845 € de todo 2025). Quedarse sin las referencias más vendidas en ese momento es el mayor riesgo comercial del ejercicio.')]));
+children.push(numItem([b('Mejora las condiciones de compra. '), run('Consolidar el pedido de campaña, en lugar de reponer a goteo, mejora la posición negociadora frente a los proveedores y reduce el coste unitario y logístico.')]));
+children.push(numItem([b('Libera la caja para el marketing. '), run('Si el inventario se financia con la línea, la tesorería propia queda disponible para la inversión publicitaria que activa la demanda. La línea financia el producto; la caja propia, la venta.')]));
 children.push(h2('9.3. De qué se compone el importe solicitado'));
 children.push(p([b('Paso 1 — Objetivo de ventas de la campaña 2026. '), run('275.000 € el año anterior; objetivo para 2026: 350.000 € (+27 %), apoyado en el refuerzo de comunicación desde septiembre, la presencia en las dos ferias de octubre, el mayor peso de la marca propia y la incorporación de los accesorios de medición a la campaña. [PENDIENTE: confirmación del objetivo de campaña 2026 por la dirección.]')]));
 children.push(p([b('Paso 2 — Coste de la mercancía de campaña por grupo de producto.')]));
@@ -510,8 +516,8 @@ children.push(spacer());
 children.push(p([it('Flujo de caja operativo de campaña = cobros − compra de stock − gastos de campaña (antes del servicio de deuda). El escenario conservador aplica −25 % a las ventas y escala compras y gastos en la misma proporción; la cuota del préstamo de 70k se mantiene fija (es una obligación que no depende de las ventas).', { italics: true })]));
 children.push(p('En ambos escenarios el flujo generado cubre en torno a 1,4 veces la devolución de la línea (medida sobre el pico de disposición) más el servicio del préstamo vivo. La cobertura no depende de que la campaña crezca: se sostiene sobre la conversión en caja de stock ya vendible.'));
 children.push(h2('10.3. Casos extremos'));
-children.push(p([b('a) Disposición máxima — comprar todo el stock por adelantado en octubre. '), run('Si en lugar de escalonar la compra se adquiriera de una vez todo el stock de campaña (195.125 €), la línea se dispondría hasta unos 150.000 € en octubre. Aun así quedaría amortizada a finales de diciembre, porque los cobros de noviembre y diciembre (227.500 €) superan con holgura esa disposición. El límite de 250.000 € cubre este caso con margen.')]));
-children.push(p([b('b) Ventas un 40 % por debajo del objetivo, con el primer pedido ya comprometido. '), run('El único importe realmente comprometido en octubre es el primer tramo de compra (≈ 117.000 €); las reposiciones de noviembre y diciembre son discrecionales y se recortarían. Con ventas de campaña de ≈ 210.000 €, la línea se dispondría hasta ≈ 90.000 € y quedaría devuelta hacia el final de enero de 2027, un mes más tarde que en el escenario base, con la caja de campaña todavía en positivo (≈ +22.000 €). Mitigantes: compra escalonada, stock no vendido que se liquida en el primer trimestre, y tres ejercicios en beneficios como colchón. [PENDIENTE: previsión de tesorería de la sociedad a 12 meses.]')]));
+children.push(p([b('a) Disposición máxima. '), run('Comprando de una vez todo el stock de campaña (195.125 €), la línea se dispondría hasta unos 150.000 € en octubre y quedaría igualmente amortizada a finales de diciembre: los cobros de noviembre y diciembre (227.500 €) superan con holgura esa disposición. El límite de 250.000 € cubre este caso con margen.')]));
+children.push(p([b('b) Ventas un 40 % por debajo del objetivo. '), run('Solo el primer tramo de compra (≈ 117.000 €) está comprometido en octubre; las reposiciones de noviembre y diciembre son discrecionales y se recortarían. Con ventas de ≈ 210.000 €, la disposición llegaría a ≈ 90.000 € y quedaría devuelta a finales de enero de 2027 —un mes más tarde que en el escenario base— con la caja de campaña aún en positivo (≈ +22.000 €). Mitigan el riesgo la compra escalonada, el stock no vendido que se liquida en el primer trimestre y los ejercicios previos en beneficios.')]));
 children.push(h2('10.4. Efecto del préstamo de 70.000 €'));
 children.push(p('La cuota mensual del préstamo de 70.000 € se ha incluido íntegra en el flujo de caja de campaña y en los ratios, de modo que la capacidad de devolución se mide después de atender esa deuda.'));
 children.push(bullet([run('Cuota mensual utilizada en el modelo (provisional): 1.350 €/mes. '), it('[PENDIENTE: prestamista, cuota mensual exacta, saldo vivo a la fecha, vencimiento y condiciones del préstamo de 70.000 €.]', { bold: true })]));
@@ -525,7 +531,7 @@ children.push(bullet([b('Riesgo acotado. '), run('No se financia gasto corriente
 // ===== 10. ANEXOS =====
 children.push(h1(11, 'Anexos'));
 children.push(h2('11.1. Anexo financiero (Excel)'));
-children.push(p('Se acompaña el archivo anexo-financiero.xlsx, con seis hojas y fórmulas reales enlazadas a una hoja de supuestos editable (al cambiar un supuesto se recalcula todo el modelo):'));
+children.push(p('Se acompaña el archivo anexo-financiero.xlsx, con seis hojas y fórmulas enlazadas a una hoja de supuestos editable: al cambiar un supuesto se recalcula todo el modelo.'));
 children.push(bullet('Portada — identificación del anexo y advertencia sobre las cifras históricas.'));
 children.push(bullet('Histórico — cuenta de resultados 2023–2026 H1, con acumulado del periodo (1,67 M€) y gráfico. Margen y resultado de 2023, pendientes de las declaraciones fiscales.'));
 children.push(bullet('Supuestos — parámetros editables: objetivo de campaña 350.000 €, reparto 65/25/10 (Spiro/Ekio Light/accesorios), % de coste por grupo, calendario de compra y de cobro, cuota del préstamo de 70k.'));
@@ -548,43 +554,8 @@ children.push(bullet('Carta o comunicación de Wolaria / ICECYL acreditando la i
 children.push(bullet('Presupuestos o pedidos pro-forma en firme de ambos proveedores que soporten el importe de la compra de stock de campaña (~170.775 €).'));
 children.push(bullet('Cálculo del Impuesto sobre Sociedades previsto sobre el resultado de campaña.'));
 
-children.push(h2('11.3. Lista consolidada de datos pendientes de aportar por la empresa'));
-children.push(p('Puntos marcados como [PENDIENTE] a lo largo del documento, para que la empresa los complete antes de la presentación formal:'));
-[
-  'Persona de contacto para el banco (nombre, email, teléfono) — resolver antes de enviar.',
-  'Alta censal y CNAE de la SLU a fecha de solicitud (CIF activo) — resolver antes de enviar.',
-  'Fecha de la escritura de constitución de la SLU y de la aportación del negocio.',
-  'Balance de apertura de la SLU y previsión de balance 2026–2027.',
-  'Previsión de tesorería de la sociedad a 12 meses.',
-  'Situación de estar al corriente con AEAT y Seguridad Social; detalle de cualquier aplazamiento/fraccionamiento vigente.',
-  'Decisión sobre garantías: aval SGR (Iberaval), pignoración del stock o de la cuenta de crédito, o aval del administrador.',
-  'Identificación completa del préstamo de 70.000 € (prestamista, tipo, saldo vivo, cuota real, vencimiento, covenants); informe CIRBE.',
-  'Conciliación del margen bruto por ejercicio (38,4 % / 24,5 % / 55,9 %) con el desglose de coste de ventas de Holded.',
-  'Margen bruto y resultado del ejercicio 2023 (facturación ya confirmada: 390.000 €); cierre provisional a julio/agosto de 2026; informe de Holded actualizado.',
-  'Título/certificado del Modelo de Utilidad U202532624; número y estado de la solicitud PCT del sistema SFPA; relación de patentes y premios de SPIRO facilitada por Noxtak.',
-  'Objetivo financiero plurianual 2026–2028 (o traslado del modelo a 5 años ya existente).',
-  'Libro: confirmación de fecha de publicación, precio final y coste de edición e ilustración.',
-  'Facturación del primer semestre de 2025 y de julio/agosto de 2026, para la comparación homogénea semestre contra semestre.',
-  'Contrato de distribución con Noxtak / SG Labs: vigencia, preaviso, moneda y condiciones de pago; exposición al tipo de cambio EUR/USD en la compra de campaña.',
-  'Titularidad de las cuentas de redes sociales de la línea Spiro (si son de la marca del fabricante, no computan como activo de la sociedad).',
-  'Número y fecha de presentación de la solicitud PCT del sistema SFPA, cuando se registre.',
-  'Coste previsto de asistencia a las ferias de octubre (stand, desplazamiento, material).',
-  'Número exacto de personas en plantilla y de colaboradores externos habituales.',
-  'Reseña del fundador: formación académica, trayectoria profesional previa a 2023 y años de experiencia en el sector.',
-  'Unidades de inventario realmente disponibles y comprometidas a fecha de solicitud, y rotación (vueltas) por referencia de campaña.',
-  'Volumen real de contratos de renting vivos.',
-  'Fuente citable si se desea incluir tamaño o crecimiento de mercado.',
-  'Carta/email de Wolaria/ICECYL acreditando la invitación.',
-  'Exportaciones de Klaviyo y Shopify con recuentos exactos de contactos y clientes.',
-  'Periodo exacto (fechas) de los 275.000 € de la campaña anterior y si es venta bruta o neta.',
-  'Confirmación formal del objetivo de campaña 2026 (350.000 €) y del reparto por grupo de producto (65 % Spiro / 25 % Ekio Light / 10 % accesorios).',
-  'Coste de mercancía real por grupo de las referencias de campaña (sustituye a Spiro 60 % / Ekio Light 45 % / accesorios 55 %).',
-  'Presupuesto de marketing y logística de campaña (sustituye al 12 % de ventas).',
-  'Plazo de pago real a cada proveedor y plazo de cobro real de las pasarelas de pago.',
-  'Estacionalidad real de la campaña octubre–febrero (sustituye al 15/35/30/15/5).',
-  'Nombre del fabricante / ensamblador de los paneles Ekio Light y grado real de integración (diseño propio, ensamblaje, fabricación subcontratada).',
-  'Presupuestos o pedidos pro-forma de ambos proveedores que soporten los ~170.775 € de compra de campaña.',
-].forEach((t) => children.push(bullet([it(t)])));
+children.push(h2('11.3. Información complementaria'));
+children.push(p('Algunos apartados de este documento incluyen marcas [PENDIENTE] que señalan datos que la empresa aportará junto con la documentación de soporte. La empresa dispone de un checklist interno con la relación completa y facilitará cualquiera de esos extremos a requerimiento de la entidad.'));
 
 // ---------- document ----------
 const doc = new Document({
