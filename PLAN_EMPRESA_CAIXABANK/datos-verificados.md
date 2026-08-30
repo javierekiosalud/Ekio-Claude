@@ -41,10 +41,10 @@ económica** bajo el titular anterior; la SLU es el vehículo jurídico que la c
 | Campo | Valor |
 |---|---|
 | Producto financiero | Cuenta de crédito (línea de circulante) en CaixaBank Now |
-| Importe | **Sin cifra fijada por la empresa.** El documento justifica destino y capacidad de devolución; el importe y el límite los dimensiona CaixaBank |
+| Importe | **250.000 €** de límite (decisión de Javier, 30-ago-2026). Es la cifra que quiere que figure como solicitada; el coste real del stock de campaña es ~195.000 € y el resto es holgura de reposición. |
 | Estructura y plazo | A proponer por CaixaBank (el plan no fija plazo; se acordará con la entidad) |
-| Destino de los fondos | **Compra de stock (existencias) de las dos líneas: Spiro y Ekio Light**, para atender la campaña de Q4 (ferias de octubre + Black Friday / Navidad / Reyes) |
-| Proveedores | Spiro: Noxtak / SG Labs (Miami). Ekio Light: `[PENDIENTE: nombre del proveedor/fabricante de paneles y componentes]` |
+| Destino de los fondos | **Compra de stock de 3 grupos: Spiro + Ekio Light + accesorios de medición** (medidores, detectores), para la campaña de Q4. NO financia la expansión internacional. |
+| Proveedores | Spiro: Noxtak Corp. / SG Labs (Miami) — distribuidor, **NO en exclusiva**. Ekio Light: `[PENDIENTE: fabricante/ensamblador de paneles]` |
 | Garantías ofrecidas | Solo responsabilidad patrimonial de la sociedad (sin aval personal del administrador, sin pignoración) |
 | Préstamo institucional previo | 70.000 € — **en amortización, al corriente de pago.** `[PENDIENTE: saldo vivo exacto a 26-ago-2026, cuota mensual y vencimiento final]` |
 
@@ -81,7 +81,7 @@ económica** bajo el titular anterior; la SLU es el vehículo jurídico que la c
 - Margen bruto de la línea de paneles: **> 50 %** (fuente: memory project_finanzas_reales;
   informes de tienda 2026 sitúan el margen bruto global de la tienda en 55,9 % en H1 2026).
 
-### 3.2. Spiro (distribución en exclusiva España — Noxtak / SG Labs, Miami)
+### 3.2. Spiro (distribución en España, NO en exclusiva — Noxtak / SG Labs, Miami)
 
 | Producto / Pack | PVP (€) | Stock (uds.) |
 |---|---|---|
@@ -97,10 +97,13 @@ económica** bajo el titular anterior; la SLU es el vehículo jurídico que la c
 | Pack Protección Stroom Master | 655,00 | 99 |
 | Pack Oasis Electromagnético | 825,00 | 149 |
 
-- Rango declarado por Javier: 8 referencias, de 97 € a 929 € (el catálogo vivo confirma un
-  rango amplio con packs; el detalle exacto de las 8 SKU "core" lo confirma Javier si se
-  necesita en el anexo).
 - Venta directa a ficha de producto, sin llamada de ventas.
+- **SPIRO — respaldo del fabricante (agente spiro, 30-ago-2026):** Noxtak declara **14 patentes**
+  (NO 15). Familia de patente principal (neutralización de contaminación EM, prioridad 2016)
+  **concedida** en EE.UU., UE, ES, JP, KR, AU, CA (verificable en EPO/Google Patents).
+  Premios: **German Innovation Award 2021** (German Design Council, verificable) y Edison Award
+  2020 plata (prensa secundaria). MORLAB midió propiedades físicas RF (no salud). NO es
+  producto sanitario; sin literatura independiente revisada por pares. NO usar "157 países".
 
 ### 3.3. Accesorios y suplementos (líneas complementarias, no objeto de la financiación)
 
@@ -138,7 +141,15 @@ suplementos Laittin (Vit C 24,70 €, Vit B50 24,90 €, Vit D3+K2 29,90 €, Pa
 - `[PENDIENTE: Javier — cifra de facturación 2023 y, si es posible, cierre provisional a
   jul/ago 2026; extracto o informe de Holded actualizado para adjuntar como anexo]`.
 
-### 4.1. Estacionalidad de cierre de año (fuente: Javier, 26-ago-2026)
+### 4.1. Estacionalidad y objetivo de campaña
+
+- Campaña Q4 año anterior (BF+Navidad+Reyes): **275.000 €** (Javier).
+- **Objetivo campaña Q4 2026: 350.000 €** (+27 %) — decisión de Javier 30-ago-2026.
+- Reparto del stock a comprar: **65 % Spiro / 25 % Ekio Light / 10 % accesorios** (Javier, 30-ago).
+- Coste de mercancía usado en el modelo: Spiro 60 % / Ekio Light 45 % / accesorios 55 % → coste total del stock de campaña ≈ **195.125 €**.
+- Disposición máxima de la línea en el modelo: ~72.000 € (compra escalonada) a ~150.000 € (todo por adelantado); cobertura 1,43x base / 1,39x conservador.
+
+### 4.1-bis. Origen del dato de campaña (fuente: Javier, 26-ago-2026)
 
 - La campaña **Black Friday + Navidad + Reyes del año pasado** generó **275.000 €** de
   facturación.

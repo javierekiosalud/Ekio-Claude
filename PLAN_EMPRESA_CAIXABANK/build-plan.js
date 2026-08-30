@@ -160,7 +160,7 @@ children.push(
   new Paragraph({ spacing: { before: 40, after: 0 }, alignment: C,
     children: [new TextRun({ text: 'Barrio de Arriba 39 · 49327 Cubo de Benavente (Zamora)', font: FONT, size: 22, color: '595959' })] }),
   new Paragraph({ spacing: { before: 1800, after: 0 }, alignment: C,
-    children: [new TextRun({ text: '28 de agosto de 2026', font: FONT, size: 22, color: '595959' })] }),
+    children: [new TextRun({ text: '30 de agosto de 2026', font: FONT, size: 22, color: '595959' })] }),
   new Paragraph({ spacing: { before: 40, after: 0 }, alignment: C,
     children: [new TextRun({ text: 'Documento confidencial — uso exclusivo para evaluación de riesgos de CaixaBank', font: FONT, size: 18, italics: true, color: '808080' })] }),
   new Paragraph({ children: [new PageBreak()] }),
@@ -183,12 +183,12 @@ children.push(table(
     ['Razón social', 'EKIO BIOTECH, S.L.U. (Sociedad Limitada Unipersonal)'],
     ['CIF', 'B93860096'],
     ['Domicilio social', 'Barrio de Arriba 39, 49327 Cubo de Benavente (Zamora)'],
-    ['Actividad', 'Venta de tecnología de protección electromagnética (línea Spiro, en distribución exclusiva) y de equipos de fotobiomodulación de marca propia (línea Ekio Light, fabricados / ensamblados por proveedor especializado). Canales directo al consumidor (D2C) y empresa (B2B).'],
+    ['Actividad', 'Venta de tecnología de protección electromagnética (línea Spiro, en distribución) y de equipos de fotobiomodulación de marca propia (línea Ekio Light, fabricados / ensamblados por proveedor especializado). Canales directo al consumidor (D2C) y empresa (B2B).'],
     ['Socio único y administrador', 'Francisco Javier Andrés Andrés (NIF 09338115T)'],
     ['Marca comercial', 'Ekio · Ekio Electrosmog España · Ekio Light'],
     ['Tienda online', 'electrosmogespana.com (plataforma Shopify)'],
     ['Alta censal y CNAE de la sociedad', '[PENDIENTE: confirmar que la SLU tiene alta censal y CNAE asignado a fecha de solicitud]'],
-    ['Fecha del documento', '28 de agosto de 2026'],
+    ['Fecha del documento', '30 de agosto de 2026'],
     ['Persona de contacto para el banco', '[PENDIENTE: nombre, email y teléfono de contacto]'],
   ],
   [2600, 6426],
@@ -200,19 +200,19 @@ children.push(p([b('Garantía ofrecida: '), run('en primera instancia, la respon
 
 // ===== 2. RESUMEN EJECUTIVO =====
 children.push(h1(2, 'Resumen ejecutivo'));
-children.push(p([b('Quiénes somos. '), run('Ekio es un negocio de venta de tecnología para el bienestar que opera desde 2023. Empezó como distribuidor exclusivo en España de la tecnología de protección electromagnética Spiro (fabricante Noxtak / SG Labs, Miami). Desde 2025 ha dado el salto a marca propia con la línea Ekio Light, equipos de fotobiomodulación fabricados / ensamblados por un proveedor especializado bajo diseño y especificación de Ekio, con propiedad industrial propia (Modelo de Utilidad registrado y solicitud de patente internacional del sistema SFPA en curso) y con software propio de gestión y de uso para clientes. La actividad se ha desarrollado hasta 2026 bajo la figura de empresario individual (Francisco Javier Andrés Andrés) y en 2026 se aporta como negocio en funcionamiento a la sociedad EKIO BIOTECH, S.L.U., que la continúa. La venta es mayoritariamente digital, a través de electrosmogespana.com, sin necesidad de llamada comercial.')]));
-children.push(p([b('Qué solicitamos. '), run('Una cuenta de crédito para financiar la compra anticipada de stock de las dos líneas de producto de cara a la campaña del cuarto trimestre (ferias de octubre y campaña de Black Friday, Navidad y Reyes). El importe y el límite de la línea los dimensiona CaixaBank; la empresa aporta el detalle de la compra prevista y la relación de proveedores para justificar el uso de los fondos.')]));
+children.push(p([b('Quiénes somos. '), run('Ekio es un negocio de venta de tecnología para el bienestar que opera desde 2023. Empezó como distribuidor en España de la tecnología de protección electromagnética Spiro (fabricante Noxtak / SG Labs, Miami). Desde 2025 ha dado el salto a marca propia con la línea Ekio Light, equipos de fotobiomodulación fabricados / ensamblados por un proveedor especializado bajo diseño y especificación de Ekio, con propiedad industrial propia (Modelo de Utilidad registrado y solicitud de patente internacional del sistema SFPA en curso) y con software propio de gestión y de uso para clientes. La actividad se ha desarrollado hasta 2026 bajo la figura de empresario individual (Francisco Javier Andrés Andrés) y en 2026 se aporta como negocio en funcionamiento a la sociedad EKIO BIOTECH, S.L.U., que la continúa. La venta es mayoritariamente digital, a través de electrosmogespana.com, sin necesidad de llamada comercial.')]));
+children.push(p([b('Qué solicitamos. '), run('Una cuenta de crédito, con un límite solicitado de 250.000 €, para financiar la compra anticipada de stock de cara a la campaña del cuarto trimestre (ferias de octubre y campaña de Black Friday, Navidad y Reyes): filtros Spiro, paneles Ekio Light y accesorios de medición. El objetivo de ventas de esa campaña es de 350.000 € (275.000 € el año anterior). El coste del stock de campaña es de unos 195.000 €; el resto del límite es holgura para reponer las referencias más vendidas y para el stock de arranque de 2027. La empresa aporta el detalle de la compra prevista y la relación de proveedores para justificar el uso de los fondos.')]));
 children.push(p([b('Por qué la operación es solvente. '), run('Tres ejes:')]));
 children.push(numItem([b('Trayectoria estable y en beneficios. '), run('Arranque en 2023 (390.000 € en siete meses) y facturación anual estable en 2024 y 2025 (534.504 € y 537.845 €), ambos ejercicios con resultado positivo (+52.493 € y +19.301 €); primer semestre de 2026 con +78.738 €. Facturación acumulada 2023 – junio 2026: 1,67 M€ (cifra acumulada, no anual). La única deuda financiera es un préstamo institucional de 70.000 €, en amortización y al corriente de pago; no hay capital de terceros. El detalle de ese préstamo se aporta en la sección 6 y en la documentación de soporte.')]));
 children.push(numItem([b('Ingresos recurrentes y canal digital maduro. '), run('Base de clientes y de contactos construida a lo largo de tres años, tienda online operativa con pasarela propia y un conjunto de herramientas de venta y marketing digital en funcionamiento (Shopify, Klaviyo, ManyChat, Meta Ads, Google Search Console, Microsoft Clarity). La venta se cierra en la ficha de producto, sin intervención de un comercial.')]));
-children.push(numItem([b('Destino de los fondos claro y controlado. '), run('Los fondos se destinan a existencias —producto físico de un catálogo ya en venta— para un pico de demanda concreto. No se financia circulante indefinido ni gasto corriente. La campaña equivalente del año anterior (Black Friday, Navidad y Reyes) generó 275.000 € de facturación, más de la mitad de todo lo facturado en 2025.')]));
+children.push(numItem([b('Destino de los fondos claro y controlado. '), run('Los fondos se destinan a existencias —producto físico de un catálogo ya en venta— para un pico de demanda concreto y acotado. No se financia circulante indefinido, gasto corriente ni la expansión internacional. La campaña equivalente del año anterior generó 275.000 € (más de la mitad de todo lo facturado en 2025). La línea es autoliquidable: se dispone en octubre para comprar el stock y se devuelve con el cobro de esas mismas ventas antes de que acabe el año (ver sección 10); la disposición máxima prevista (unos 72.000–150.000 € según el ritmo de compra) queda muy por debajo del límite solicitado.')]));
 children.push(p([it('En volumen, la facturación del primer semestre de 2026 (207.815 €) anualiza por debajo del ritmo de 2024 y 2025: durante la transición a producto propio y la migración de tienda (de WooCommerce a Shopify, completada en noviembre de 2025) la actividad ha priorizado margen sobre volumen. La campaña de Q4 es el punto de inflexión previsto para recuperar volumen sin renunciar al margen ganado.', { italics: true })]));
 children.push(p([b('Hacia dónde vamos. '), run('A largo plazo, la empresa aspira a posicionar su marca propia Ekio Light como referente europeo —y después estadounidense— en tecnología de bienestar personal, apoyada en propiedad industrial y software propios. Es un horizonte de varios años, gradual y autofinanciado con el margen del negocio (sección 8). Conviene subrayar que esta línea de crédito no financia esa expansión: financia únicamente el stock de la campaña nacional de este cuarto trimestre.')]));
 
 // ===== 3. TRAYECTORIA Y EQUIPO =====
 children.push(h1(3, 'Trayectoria y equipo'));
 children.push(h2('3.1. Tres años de construcción'));
-children.push(p([b('2023–2024: distribución de Spiro en España. '), run('El negocio nace en 2023 con la distribución exclusiva en España de la tecnología Spiro. En 2024, año de consolidación de esa distribución, la actividad factura 534.504 €, con un margen bruto del 38,4 % y un resultado de +52.493 €. Se construye desde cero la base de clientes, la comunidad y el canal de venta digital.')]));
+children.push(p([b('2023–2024: distribución de Spiro en España. '), run('El negocio nace en 2023 con la distribución en España de la tecnología Spiro. En 2024, año de consolidación de esa distribución, la actividad factura 534.504 €, con un margen bruto del 38,4 % y un resultado de +52.493 €. Se construye desde cero la base de clientes, la comunidad y el canal de venta digital.')]));
 children.push(p([b('2025: inversión deliberada para lanzar marca propia. '), run('En 2025 la facturación se mantiene (537.845 €). El resultado (+19.301 €) baja respecto a 2024 por una inversión extraordinaria de explotación —34.316 € adicionales en publicidad y 18.264 € adicionales en servicios profesionales— para lanzar la línea Ekio Light. Es una inversión de un ejercicio con retorno en el siguiente.')]));
 children.push(p([b('2026: el giro a producto propio. '), run('En el primer semestre de 2026 la actividad factura 207.815 € con un margen bruto del 55,9 % y un resultado de +78.738 €. La mejora del margen es coherente con el mayor peso de la línea Ekio Light (margen bruto superior al 50 %) y con un mix de producto de mayor valor. La línea Ekio Light acumula unos 76.000 € de ventas desde su lanzamiento (repartidas entre la tienda anterior en WooCommerce hasta octubre de 2025 y Shopify desde noviembre de 2025); el tramo ya en Shopify (noviembre de 2025 a junio de 2026) suma unos 18.760 € netos y 116 unidades.')]));
 children.push(note([
@@ -233,17 +233,23 @@ children.push(h2('3.3. Equipo'));
 children.push(p('Ekio opera con una estructura ligera: una persona en plantilla (responsable de operaciones) y una red de profesionales externos que cubren las funciones especializadas —email marketing, contenido, publicidad digital, asesoría legal y asesoría científica—. Este modelo mantiene los costes fijos bajos y permite escalar el gasto variable (sobre todo publicidad e inventario) en función de la campaña.'));
 children.push(note([it('[PENDIENTE: confirmar el número exacto de personas en plantilla y de colaboradores externos habituales.]', { bold: true })]));
 
-children.push(h2('3.4. Perfil del fundador'));
-children.push(p('Francisco Javier Andrés Andrés es socio único y administrador de EKIO BIOTECH, S.L.U. Ha dirigido la actividad desde su inicio en 2023, primero como empresario individual y ahora a través de la sociedad, y ha conducido personalmente el paso de la distribución de terceros a la marca propia.'));
-children.push(note([it('[PENDIENTE: reseña profesional del fundador (formación, trayectoria previa, años de experiencia en el sector) para completar este apartado.]', { bold: true })]));
+children.push(h2('3.4. Reseña profesional del fundador'));
+children.push(p('Francisco Javier Andrés Andrés (NIF 09338115T) es fundador, socio único y administrador de EKIO BIOTECH, S.L.U.'));
+children.push(bullet([b('Creación y dirección del negocio (2023–actualidad). '), run('Puso en marcha la actividad en 2023 y la ha dirigido de forma continuada, primero como empresario individual y desde 2026 a través de la sociedad. Bajo su dirección la actividad ha superado 1,6 M€ de facturación acumulada y ha cerrado en beneficios todos sus ejercicios.')]));
+children.push(bullet([b('Paso a marca propia. '), run('Diseñó y ejecutó la transición desde la distribución de producto de terceros (Spiro) a la marca propia Ekio Light, con desarrollo de propiedad industrial (Modelo de Utilidad Nº U202532624) y de software propio (aplicación de cliente Ekio Coach y sistema SFPA).')]));
+children.push(bullet([b('Dirección del departamento de I+D de Ekio. '), run('Está al frente del área de investigación y desarrollo de la empresa, que coordina la revisión de la evidencia científica que respalda las afirmaciones de producto (fotobiomodulación y exposición electromagnética), la relación con AIR Institute y la agenda de patentes.')]));
+children.push(bullet([b('Divulgación. '), run('Autor del libro «Guía de Higiene Electromagnética — El recetario de la energía perdida» (en preparación, ver sección 8.5), y responsable de la comunicación de marca en podcast y medios.')]));
+children.push(bullet([b('Reconocimiento institucional. '), run('Impulsó la incorporación de Ekio al programa de Wolaria / ICECYL y su presencia como stand propio en Startup OLÉ y Valencia Digital Summit 2026.')]));
+children.push(note([it('[PENDIENTE: completar con formación académica, trayectoria profesional previa a 2023 y años de experiencia en el sector, para una reseña curricular completa.]', { bold: true })]));
 
 // ===== 4. MODELO DE NEGOCIO =====
 children.push(h1(4, 'Modelo de negocio y líneas de producto'));
-children.push(h2('4.1. Línea Spiro — distribución exclusiva en España'));
-children.push(p('Ekio es distribuidor en exclusiva para España de la tecnología de protección electromagnética Spiro, fabricada por Noxtak / SG Labs (Miami). Es la línea con la que nació el negocio y la que aporta el volumen y la base de clientes histórica.'));
+children.push(h2('4.1. Línea Spiro — distribución en España'));
+children.push(p('Ekio es distribuidor en España de la tecnología de protección electromagnética Spiro, fabricada por Noxtak Corp. / SG Labs (Miami). No es una distribución en exclusiva. Es la línea con la que nació el negocio y la que aporta el volumen y la base de clientes histórica.'));
 children.push(bullet('Catálogo de producto individual y packs, con precio de venta al público entre 147 € (producto de entrada) y 825 € (pack más completo) en el catálogo actual.'));
 children.push(bullet('Venta directa en la ficha de producto, sin llamada comercial.'));
 children.push(bullet('Comunidad de clientes y seguidores construida en torno a la línea.'));
+children.push(bullet([b('Respaldo del fabricante. '), run('Según Noxtak, la tecnología SPIRO está protegida por 14 patentes. Su familia de patente principal —neutralización de contaminación electromagnética, con prioridad de 2016— figura como concedida en registros públicos (EPO / Google Patents) en Estados Unidos, la Unión Europea, España, Japón, Corea del Sur, Australia y Canadá. Noxtak ha recibido el German Innovation Award 2021 del German Design Council y un Edison Award 2020 en ciencia de materiales, y las propiedades físicas del filtro han sido medidas por laboratorios acreditados. SPIRO no es un producto sanitario y no se le atribuyen efectos de prevención, tratamiento o curación; su validación clínica independiente está pendiente y forma parte de la agenda de I+D de Ekio. [PENDIENTE: relación de patentes y de premios facilitada por Noxtak, para adjuntar.]')]));
 children.push(p([it('Catálogo Spiro a la venta (extracción de Shopify, agosto de 2026):', { italics: true })]));
 children.push(table(
   ['Producto / Pack', 'PVP (€)'],
@@ -290,7 +296,7 @@ children.push(p('Existen además versiones B2B en borrador (Deep 5 B2B 600 €, 
 children.push(note([it('El catálogo de ambas líneas está operativo y a la venta. Las unidades en inventario a fecha de hoy no cubren el volumen ni la velocidad de venta de la campaña de Q4: reponer ese stock por adelantado es precisamente el objeto de esta financiación (ver sección 9). [PENDIENTE: unidades de inventario realmente disponibles y comprometidas a fecha de solicitud, y rotación (vueltas) por referencia de campaña.]', { bold: true })]));
 
 children.push(h2('4.3. Líneas complementarias'));
-children.push(p('Accesorios de medición (detector de radiación 49 €, comprobador de enchufe 20,66 €, medidor de electricidad sucia 216,37 €) y suplementos de la marca Laittin (vitamina C, vitamina B, vitamina D3+K2 y packs). No son objeto de esta financiación.'));
+children.push(p('Accesorios de medición (detector de radiación 49 €, comprobador de enchufe 20,66 €, medidor de electricidad sucia 216,37 €): acompañan a las dos líneas principales, tienen buena rotación en campaña y SÍ forman parte del stock que se financia con esta línea (ver sección 9). Los suplementos de la marca Laittin (vitamina C, B, D3+K2 y packs) no son objeto de esta financiación.'));
 
 children.push(h2('4.4. Canales de venta'));
 children.push(bullet([b('D2C (venta directa): '), run('electrosmogespana.com. Es el canal principal y la base de todo el histórico de facturación. Venta cerrada en la ficha de producto, sin comercial.')]));
@@ -309,6 +315,7 @@ children.push(h2('5.1. Contexto de mercado'));
 children.push(p('Ekio opera en dos segmentos del mercado del bienestar y la salud preventiva de consumo:'));
 children.push(bullet([b('Protección frente a la exposición electromagnética. '), run('Segmento de nicho, con demanda impulsada por la preocupación creciente de una parte de la población por la exposición a campos electromagnéticos (instalaciones eléctricas domésticas, telefonía móvil, redes inalámbricas). Ekio cubre esta demanda con la línea Spiro.')]));
 children.push(bullet([b('Fotobiomodulación (terapia de luz roja e infrarroja). '), run('Categoría de producto de consumo dentro del bienestar, la recuperación deportiva y el cuidado de la piel, con oferta creciente de equipos domésticos. Ekio compite en ella con producto propio (Ekio Light), propiedad industrial propia y software propio como elementos diferenciadores.')]));
+children.push(p([b('Un cruce poco disputado. '), run('El valor diferencial de Ekio está en atender los dos segmentos a la vez y con criterio propio. Los fabricantes de equipos de fotobiomodulación no diseñan pensando en bajo campo electromagnético ni en la ausencia de parpadeo (flicker); los fabricantes de soluciones de protección electromagnética no fabrican luz. Ekio ocupa esa intersección —"tecnología que cuida"— con producto propio (Ekio Light), propiedad industrial (Modelo de Utilidad y solicitud PCT del SFPA), software propio (Ekio Coach) y una comunidad construida durante tres años. Son activos que un competidor no obtiene comprando producto, y que la empresa quiere reforzar para consolidarse como referente del nicho, primero en España y por etapas en Europa (ver sección 8).')]));
 children.push(note([it('El plan no cuantifica el tamaño ni el crecimiento de estos mercados. [PENDIENTE: si se desea incluir una cifra de mercado (tamaño o tasa de crecimiento), debe aportarse una fuente citable.]', { bold: true })]));
 
 children.push(h2('5.2. Reconocimiento institucional y validación externa'));
@@ -370,6 +377,7 @@ children.push(h1(8, 'Visión, estrategia y objetivos a medio plazo (2026–2028)
 children.push(p('Esta solicitud se circunscribe a financiar el circulante de una campaña concreta. No obstante, la empresa considera necesario exponer hacia dónde dirige su actividad, porque explica por qué invierte en propiedad industrial y en software y por qué esos activos sostienen el margen que hace viable la devolución de la línea.'));
 children.push(h2('8.1. Visión'));
 children.push(p('La ambición de EKIO BIOTECH a largo plazo es posicionar su marca propia Ekio Light como referente europeo, y posteriormente en el mercado estadounidense, en el segmento de la tecnología de bienestar personal —«tecnología que cuida»—: equipos de fotobiomodulación diseñados con criterios de seguridad electromagnética y respaldados por propiedad industrial y software propios.'));
+children.push(p([b('Por qué la empresa cree que puede liderar ese nicho. '), run('El segmento en el que compite —equipos de bienestar personal diseñados a la vez con criterio de fotobiomodulación y de seguridad electromagnética— está hoy poco disputado: los fabricantes de terapia de luz no incorporan el criterio de bajo campo electromagnético ni de ausencia de parpadeo, y los especialistas en protección electromagnética no fabrican equipos de luz. Ekio ya opera en ese cruce, con producto propio, propiedad industrial, software y comunidad. La estrategia de los próximos años es defender esa posición ("blindar" el producto) antes de que el nicho se pueble: registrar y extender la propiedad industrial, acumular datos de uso propios a través de la aplicación Ekio Coach, y consolidar la relación con la comunidad de clientes. Son ventajas acumulativas, difíciles de replicar comprando producto.')]));
 children.push(p('Se trata de un horizonte de varios años, no de un objetivo del presente ejercicio. La empresa es consciente de su dimensión actual y plantea ese recorrido de forma gradual y autofinanciada con el margen del negocio: primero consolidación del mercado nacional y del canal B2B, después venta transfronteriza en la Unión Europea, y solo más adelante —y condicionada a la extensión efectiva de la protección industrial a esos mercados (fases nacionales de la solicitud PCT) y a la certificación aplicable en cada uno— la entrada en Estados Unidos.'));
 children.push(note([it('Delimitación expresa: la cuenta de crédito solicitada NO financia esta expansión internacional. Financia exclusivamente la compra de existencias para la campaña nacional del cuarto trimestre de 2026 (ver sección 9).', { bold: true })]));
 children.push(h2('8.2. Objetivo financiero'));
@@ -409,119 +417,109 @@ children.push(p('Gestionar de forma ordenada el circulante de la campaña de Q4 
 
 // ===== 9. USO DE LOS FONDOS =====
 children.push(h1(9, 'Uso de los fondos solicitados'));
-children.push(h2('9.1. Destino: exclusivamente compra de existencias'));
-children.push(p('Los fondos de la cuenta de crédito se destinan únicamente a la compra anticipada de existencias de las dos líneas de producto —Spiro y Ekio Light— para atender la campaña del cuarto trimestre (ferias de octubre y campaña de Black Friday, Navidad y Reyes). No se financia gasto corriente, ni circulante indefinido, ni activo fijo: se financia inventario concreto, de un catálogo ya en venta, para un pico de demanda concreto y acotado en el tiempo. La compra se soportará con presupuestos o pedidos pro-forma de ambos proveedores (ver sección 11).'));
-children.push(p([b('Riesgos de aprovisionamiento asociados. '), run('La línea Spiro se importa desde Estados Unidos, por lo que la compra está expuesta al tipo de cambio EUR/USD, a los costes de transporte y a los derechos de importación, y depende de un contrato de distribución en exclusiva que se aporta como documentación de soporte. La empresa asume estos riesgos con su margen y los tiene en cuenta al fijar el precio de venta. [PENDIENTE: vigencia y preaviso del contrato de exclusiva, moneda y condiciones de pago al proveedor, y exposición estimada al tipo de cambio en la compra de campaña.]')]));
+children.push(h2('9.1. Importe solicitado y destino'));
+children.push(p([b('Importe solicitado: 250.000 €'), run(' como límite de una cuenta de crédito (línea de circulante) para la campaña del cuarto trimestre.')]));
+children.push(p('El destino es la compra anticipada de existencias de tres grupos de producto para la campaña de ferias de octubre y de Black Friday, Navidad y Reyes:'));
+children.push(bullet([b('Spiro '), run('(distribución): filtros y packs de protección electromagnética.')]));
+children.push(bullet([b('Ekio Light '), run('(marca propia): paneles de fotobiomodulación y accesorios de iluminación.')]));
+children.push(bullet([b('Accesorios de medición '), run('(medidores de campo, detectores de radiación, comprobadores de instalación), que acompañan a las dos líneas anteriores y tienen buena rotación en campaña.')]));
+children.push(p('No se financia gasto corriente, ni circulante indefinido, ni activo fijo, ni la expansión internacional descrita en la sección 8: se financia inventario concreto de un catálogo ya en venta, para un pico de demanda acotado en el tiempo. La compra se soportará con presupuestos o pedidos pro-forma de los proveedores (ver sección 11).'));
+children.push(p([b('Riesgos de aprovisionamiento asociados. '), run('La línea Spiro se importa desde Estados Unidos: la compra está expuesta al tipo de cambio EUR/USD, a los costes de transporte y a los derechos de importación. Ekio es distribuidor de Spiro en España (no en exclusiva), por lo que también existe el riesgo de que otros distribuidores concurran en el mercado; se mitiga con la comunidad, la marca y el servicio propios de Ekio, y con el mayor peso creciente de la marca propia Ekio Light. La empresa asume estos riesgos con su margen y los tiene en cuenta al fijar el precio de venta. [PENDIENTE: vigencia y preaviso del contrato de distribución con Noxtak, moneda y condiciones de pago al proveedor, y exposición estimada al tipo de cambio en la compra de campaña.]')]));
 children.push(h2('9.2. Por qué mejora la posición de la empresa'));
 children.push(numItem([b('Evita la rotura de stock en el pico de Q4. '), run('La campaña de fin de año concentra más del 50 % de la facturación anual (275.000 € el año anterior frente a 537.845 € de todo 2025). Quedarse sin las referencias más vendidas en ese momento es el mayor riesgo comercial del ejercicio. Comprar el inventario por adelantado lo elimina.')]));
 children.push(numItem([b('Permite comprar volumen al proveedor en mejores condiciones. '), run('Consolidar el pedido de campaña —en lugar de reponer a goteo— mejora la posición negociadora frente a los proveedores (Spiro: Noxtak / SG Labs, Miami; Ekio Light: fabricante / ensamblador especializado) y reduce el coste unitario y de logística.')]));
 children.push(numItem([b('Libera la caja propia para el marketing de campaña. '), run('Si el inventario se financia con la línea, la tesorería propia queda disponible para la inversión publicitaria y de comunicación que activa la demanda en las mismas fechas. La línea financia el producto; la caja propia financia la venta.')]));
-children.push(h2('9.3. Necesidad estimada de circulante para la campaña Q4'));
-children.push(p('La empresa no fija el importe de la línea: lo dimensiona CaixaBank. Lo que se aporta es la necesidad operativa estimada de financiación de existencias, construida a partir de la facturación de campaña del año anterior (275.000 €), un objetivo de campaña 2026 y el porcentaje de coste de mercancía de cada línea.'));
-children.push(p([b('Paso 1 — Objetivo de ventas de campaña 2026 (escenario base). '), run('Se parte de los 275.000 € del año anterior y se aplica un crecimiento prudente del +15 %, apoyado en la mejora de margen ya observada en 2026, el refuerzo de comunicación desde septiembre y la presencia en las dos ferias de octubre, pero moderado y sin certeza: 275.000 € × 1,15 = 316.250 € [PENDIENTE: sustituir por el objetivo de campaña 2026 confirmado por Javier].')]));
-children.push(p([b('Paso 2 — Coste de la mercancía de campaña por línea.')]));
+children.push(h2('9.3. De qué se compone el importe solicitado'));
+children.push(p([b('Paso 1 — Objetivo de ventas de la campaña 2026. '), run('275.000 € el año anterior; objetivo para 2026: 350.000 € (+27 %), apoyado en el refuerzo de comunicación desde septiembre, la presencia en las dos ferias de octubre, el mayor peso de la marca propia y la incorporación de los accesorios de medición a la campaña. [PENDIENTE: confirmación del objetivo de campaña 2026 por la dirección.]')]));
+children.push(p([b('Paso 2 — Coste de la mercancía de campaña por grupo de producto.')]));
 children.push(table(
-  ['Línea', 'Reparto', 'Ventas campaña (€)', 'Coste merc. (%)', 'Coste de la mercancía (€)'],
+  ['Grupo', 'Reparto', 'Ventas campaña (€)', 'Coste merc. (%)', 'Coste de la mercancía (€)'],
   [
-    ['Spiro (distribución)', '60 %', '189.750', '60 %', '113.850'],
-    ['Ekio Light (marca propia)', '40 %', '126.500', '45 %', '56.925'],
-    ['Total campaña (base)', '100 %', '316.250', '—', '170.775'],
+    ['Spiro (distribución)', '65 %', '227.500', '60 %', '136.500'],
+    ['Ekio Light (marca propia)', '25 %', '87.500', '45 %', '39.375'],
+    ['Accesorios de medición', '10 %', '35.000', '55 %', '19.250'],
+    ['Total campaña', '100 %', '350.000', '—', '195.125'],
   ],
-  [2626, 1200, 1900, 1400, 1900],
+  [2426, 1100, 1900, 1400, 2200],
   [undefined, C, R, C, R],
 ));
 children.push(spacer());
-children.push(p([b('Paso 3 — De coste de mercancía a necesidad de financiación. '), run('No es preciso financiar de golpe los 170.775 € de coste total: la compra se escalona (el grueso en octubre, reposiciones en noviembre y diciembre) y las ventas de la propia campaña van generando cobro casi inmediato (venta D2C con pago en el momento). El desfase temporal máximo entre pagar el stock y cobrar las ventas —el pico de disposición de la línea— es lo que realmente hay que financiar. Según el flujo de caja de campaña (sección 10), ese pico se produce en octubre.')]));
-children.push(p([b('Rango de necesidad estimada de financiación de existencias (escenario base):')]));
-children.push(table(
-  ['Referencia', 'Importe (€)', 'Lectura'],
-  [
-    ['Necesidad justificada por el modelo (pico de disposición)', '~62.000', 'Financia el desfase entre pagar el stock y cobrar las ventas, con compra escalonada. Es el importe que el flujo de caja de campaña cubre y devuelve dentro del ciclo (sección 10)'],
-    ['Coste total de la mercancía de campaña', '~171.000', 'Importe de la compra completa, solo a título informativo: no se solicita financiar la totalidad, porque las ventas de la propia campaña financian los tramos de reposición'],
-  ],
-  [3226, 1800, 4000],
-  [undefined, R, undefined],
-));
-children.push(spacer());
-children.push(p('En el escenario conservador (−25 % sobre las ventas de campaña base), el coste total de la mercancía baja a ~128.000 € y el pico de disposición a ~47.000 €. La necesidad que este plan justifica con su propio modelo de tesorería es, por tanto, del orden de 62.000 € en el escenario base. La empresa no solicita un límite superior al que su flujo de caja acredita devolver dentro del ciclo de campaña; el dimensionamiento final queda a criterio de CaixaBank.'));
-children.push(note([
-  it('Supuestos de esta sección: ', { bold: true }),
-  it('crecimiento de campaña base +15 % sobre 275.000 € [PENDIENTE: objetivo real]; reparto 60 % Spiro / 40 % Ekio Light [PENDIENTE: confirmar]; coste de mercancía Spiro 60 % y Ekio Light 45 %, supuestos prudentes coherentes con los márgenes de gestión [PENDIENTE: coste real por línea]; fases de compra 60 % octubre / 30 % noviembre / 10 % diciembre, pago a proveedor en el mes de compra [PENDIENTE: plazo de pago real a cada proveedor]. Los parámetros se recogen en la hoja «Supuestos» del anexo Excel. El importe de la línea no es una petición de la empresa: es una necesidad estimada y el límite lo fija CaixaBank.'),
-]));
-
-children.push(h2('9.4. Garantías y estructura de la operación'));
-children.push(p('La empresa ofrece, en primera instancia, la responsabilidad patrimonial de EKIO BIOTECH, S.L.U. Es consciente de que se trata de una sociedad de reciente constitución y de que CaixaBank puede requerir cobertura adicional; queda abierta a estudiar con la entidad las fórmulas habituales para este tipo de operación de circulante:'));
-children.push(bullet('Aval de la Sociedad de Garantía Recíproca de Castilla y León (Iberaval).'));
-children.push(bullet('Pignoración del stock financiado con la línea, o de la propia cuenta de crédito.'));
-children.push(bullet('Garantía personal del administrador y socio único.'));
-children.push(note([it('[PENDIENTE: decisión de la empresa sobre qué garantías está dispuesta a aportar. La posición de partida comunicada es «solo responsabilidad de la sociedad»; este apartado recoge las alternativas para la negociación con CaixaBank.]', { bold: true })]));
-
-// ===== 9. CAPACIDAD DE DEVOLUCIÓN =====
-children.push(h1(10, 'Capacidad de devolución'));
-children.push(p('Al tratarse de una cuenta de crédito (línea revolvente), el reembolso no depende de un flujo futuro incierto: se produce con la propia liquidación de las ventas de la campaña que financia. La línea se dispone para comprar el stock antes del pico y se devuelve a medida que ese stock se vende y se cobra. Es circulante autoliquidable en un ciclo corto.'));
-children.push(h2('10.1. Flujo de caja de campaña (escenario base, octubre 2026 – febrero 2027)'));
-children.push(p([it('Objetivo de campaña base 316.250 €. Ventas distribuidas 15 % / 35 % / 30 % / 15 % / 5 % (octubre a febrero). Cobro D2C en el mismo mes de la venta (las pasarelas de pago liquidan con retención y reservas; el supuesto de cobro íntegro en el mes es conservador solo en apariencia y se ajustará con el dato real). Compra de stock escalonada 60 % / 30 % / 10 % (octubre a diciembre), pagada en el mes de compra. Gastos de campaña (marketing y logística) al 12 % de las ventas. Cuota del préstamo de 70.000 € incluida en cada mes. El flujo se presenta antes del Impuesto sobre Sociedades; el beneficio de campaña quedará sujeto a IS (25 %, o el tipo reducido que corresponda) en la liquidación del ejercicio, que la empresa provisionará con la caja generada.', { italics: true })]));
-children.push(table(
-  ['Concepto (€)', 'Oct-26', 'Nov-26', 'Dic-26', 'Ene-27', 'Feb-27', 'Total'],
-  [
-    ['Cobros por ventas', '47.438', '110.688', '94.875', '47.438', '15.813', '316.250'],
-    ['(−) Compra de stock', '−102.465', '−51.233', '−17.078', '0', '0', '−170.775'],
-    ['(−) Gastos de campaña (12 %)', '−5.693', '−13.283', '−11.385', '−5.693', '−1.898', '−37.950'],
-    ['(−) Cuota préstamo 70k', '−1.350', '−1.350', '−1.350', '−1.350', '−1.350', '−6.750'],
-    ['Flujo de caja libre del mes', '−62.070', '+44.822', '+65.062', '+40.395', '+12.565', '+100.774'],
-    ['Disposición de la línea', '62.070', '0', '0', '0', '0', '—'],
-    ['Devolución de la línea', '0', '−44.822', '−17.248', '0', '0', '−62.070'],
-    ['Saldo vivo de la línea (fin de mes)', '62.070', '17.248', '0', '0', '0', '—'],
-    ['Caja acumulada tras servicio de la línea', '0', '0', '+47.814', '+88.209', '+100.774', '—'],
-  ],
-  [2600, 1071, 1071, 1071, 1071, 1071, 1071],
-  [undefined, R, R, R, R, R, R],
-));
-children.push(spacer());
-children.push(p([b('Lectura: '), run('la línea se dispone íntegra en octubre (~62.000 €) para comprar el stock antes del pico, y queda totalmente devuelta a finales de diciembre, con el cobro de las ventas de Black Friday y Navidad. A partir de ahí la campaña solo genera caja. El ciclo de vida de la disposición es de aproximadamente dos meses.')]));
-children.push(p([it('El total de «flujo de caja libre del mes» (+100.774 €) es el flujo operativo de campaña de la sección 10.2 (107.525 €) menos el servicio del préstamo de 70.000 € en el periodo (6.750 €); la diferencia de 1 € es redondeo.', { italics: true })]));
-children.push(h2('10.2. Ratio de cobertura de la devolución'));
-children.push(p('El ratio compara el flujo de caja operativo generado por la campaña con lo que hay que devolver (pico de la línea) más el servicio del préstamo de 70.000 € durante el periodo:'));
-children.push(p([b('Ratio de cobertura = Flujo de caja operativo de campaña ÷ (Pico de la línea + Servicio del préstamo 70k)')]));
-children.push(table(
-  ['Concepto', 'Escenario base', 'Escenario conservador (−25 %)'],
-  [
-    ['Ventas de campaña (€)', '316.250', '237.188'],
-    ['Flujo de caja operativo de campaña (€)', '107.525', '80.644'],
-    ['Pico de disposición de la línea (€)', '62.070', '46.890'],
-    ['Servicio del préstamo 70k en el periodo (€)', '6.750', '6.750'],
-    ['Obligación total a cubrir (€)', '68.820', '53.640'],
-    ['Ratio de cobertura', '1,56x', '1,50x'],
-  ],
-  [4026, 2500, 2500],
-  [undefined, R, R],
-));
-children.push(spacer());
-children.push(p([it('El flujo de caja operativo de campaña es cobros − compras de stock − gastos de campaña (antes del servicio de deuda). El escenario conservador aplica −25 % a las ventas de campaña, manteniendo constantes los % de coste, el reparto y el gasto de campaña como porcentaje de ventas.', { italics: true })]));
-children.push(p('El escenario conservador reduce en un 25 % las ventas y, con ellas, el gasto de campaña; la compra de stock se supone ajustable a la baja al mismo ritmo. En esas condiciones el flujo generado cubre 1,5 veces la devolución de la línea más el servicio del préstamo vivo.'));
-children.push(h2('10.3. Estrés severo: pedido comprometido y ventas −40 %'));
-children.push(p('El riesgo relevante para el comité es distinto: que el pedido de campaña ya esté comprometido (170.775 € de coste de mercancía) y las ventas caigan con fuerza. Con ventas un 40 % por debajo del objetivo base (≈ 189.750 €), gasto de campaña al 12 % de esas ventas (≈ 22.770 €) y el servicio del préstamo de 70k (6.750 €), el flujo neto de los cinco meses de campaña sería aproximadamente −10.500 €:'));
+children.push(p([b('Paso 3 — Del coste de la mercancía al importe solicitado.')]));
 children.push(table(
   ['Concepto', 'Importe (€)'],
   [
-    ['Cobros por ventas (−40 %)', '≈ 189.750'],
-    ['(−) Compra de stock (comprometida)', '−170.775'],
-    ['(−) Gastos de campaña (12 % de ventas)', '≈ −22.770'],
-    ['(−) Servicio del préstamo 70k (5 meses)', '−6.750'],
-    ['Flujo neto de campaña', '≈ −10.545'],
+    ['Coste total del stock de campaña (los tres grupos)', '195.125'],
+    ['Margen adicional para reposición de referencias más vendidas durante la campaña y para el stock de arranque del primer trimestre de 2027', '≈ 54.875'],
+    ['Importe solicitado de la línea', '250.000'],
   ],
   [6026, 3000],
   [undefined, R],
 ));
 children.push(spacer());
-children.push(p('En ese caso la línea se dispondría igualmente (~62.000 €) pero no quedaría amortizada al cierre de la campaña: su cancelación se completaría con las ventas de Q1 2027 y, si fuera necesario, con la tesorería propia, alargando el ciclo de la línea de ~2 meses a ~4–5 meses. Mitigantes: (a) la compra es escalonada 60 % / 30 % / 10 %, de modo que las reposiciones de noviembre y diciembre pueden reducirse en función del ritmo real de ventas, y solo el primer tramo (~102.000 €) está realmente comprometido en octubre; (b) el stock no vendido no se pierde: se liquida en el primer trimestre; (c) la empresa mantiene tres ejercicios en beneficios como colchón. [PENDIENTE: previsión de tesorería de la sociedad a 12 meses para acreditar la cobertura del tramo que se prolongaría a Q1 2027.]'));
+children.push(p('Se solicita el importe como límite de una línea revolvente, no como deuda a plazo: la empresa dispone de él a medida que compra y lo devuelve a medida que vende y cobra. La disposición efectiva máxima prevista es sensiblemente inferior al límite (ver sección 10): con compra escalonada, el pico ronda los 72.000 €; incluso comprando todo el stock por adelantado en octubre, el pico ronda los 150.000 €. El margen entre esa disposición y el límite de 250.000 € da holgura para reponer sin volver a solicitar y para no agotar la línea si la campaña supera el objetivo.'));
+children.push(note([
+  it('Supuestos de esta sección (recogidos en la hoja «Supuestos» del anexo Excel): ', { bold: true }),
+  it('objetivo de campaña 350.000 € [PENDIENTE: confirmar]; reparto 65 % Spiro / 25 % Ekio Light / 10 % accesorios [PENDIENTE: confirmar]; coste de mercancía 60 % / 45 % / 55 %, supuestos prudentes coherentes con los márgenes de gestión [PENDIENTE: coste real por grupo]; fases de compra 60 % octubre / 30 % noviembre / 10 % diciembre, pago a proveedor en el mes de compra [PENDIENTE: plazo de pago real a cada proveedor].'),
+]));
+children.push(h2('9.4. Garantías y estructura de la operación'));
+children.push(p('La empresa ofrece, en primera instancia, la responsabilidad patrimonial de EKIO BIOTECH, S.L.U. Es consciente de que se trata de una sociedad de reciente constitución y de que CaixaBank puede requerir cobertura adicional; queda abierta a estudiar con la entidad las fórmulas habituales para este tipo de operación de circulante:'));
+children.push(bullet('Aval de la Sociedad de Garantía Recíproca de Castilla y León (Iberaval).'));
+children.push(bullet('Pignoración del stock financiado con la línea, o de la propia cuenta de crédito.'));
+children.push(bullet('Garantía personal del administrador y socio único.'));
+children.push(note([it('[PENDIENTE: decisión de la empresa sobre qué garantías está dispuesta a aportar. Recomendación: aval SGR Iberaval o pignoración del stock, dado el importe solicitado y la reciente constitución de la sociedad.]', { bold: true })]));
+
+// ===== 10. CAPACIDAD DE DEVOLUCIÓN =====
+children.push(h1(10, 'Capacidad de devolución'));
+children.push(p('Al tratarse de una cuenta de crédito (línea revolvente), el reembolso no depende de un flujo futuro incierto: se produce con la propia liquidación de las ventas de la campaña que financia. La línea se dispone para comprar el stock antes del pico y se devuelve a medida que ese stock se vende y se cobra. Es circulante autoliquidable en un ciclo corto.'));
+children.push(h2('10.1. Flujo de caja de campaña (escenario base, octubre 2026 – febrero 2027)'));
+children.push(p([it('Objetivo de campaña 350.000 €. Ventas distribuidas 15 % / 35 % / 30 % / 15 % / 5 % (octubre a febrero). Cobro D2C en el mismo mes de la venta (las pasarelas de pago liquidan con retención y reservas; el supuesto de cobro íntegro en el mes se ajustará con el dato real). Compra de stock escalonada 60 % / 30 % / 10 % (octubre a diciembre), pagada en el mes de compra. Gastos de campaña (marketing y logística) al 12 % de las ventas. Cuota del préstamo de 70.000 € incluida en cada mes. El flujo se presenta antes del Impuesto sobre Sociedades; el beneficio de campaña quedará sujeto a IS (25 %, o el tipo reducido que corresponda) en la liquidación del ejercicio, que la empresa provisionará con la caja generada.', { italics: true })]));
+children.push(table(
+  ['Concepto (€)', 'Oct-26', 'Nov-26', 'Dic-26', 'Ene-27', 'Feb-27', 'Total'],
+  [
+    ['Cobros por ventas', '52.500', '122.500', '105.000', '52.500', '17.500', '350.000'],
+    ['(−) Compra de stock', '−117.075', '−58.538', '−19.512', '0', '0', '−195.125'],
+    ['(−) Gastos de campaña (12 %)', '−6.300', '−14.700', '−12.600', '−6.300', '−2.100', '−42.000'],
+    ['(−) Cuota préstamo 70k', '−1.350', '−1.350', '−1.350', '−1.350', '−1.350', '−6.750'],
+    ['Flujo de caja libre del mes', '−72.225', '+47.912', '+71.538', '+44.850', '+14.050', '+106.125'],
+    ['Disposición de la línea', '72.225', '0', '0', '0', '0', '—'],
+    ['Devolución de la línea', '0', '−47.912', '−24.313', '0', '0', '−72.225'],
+    ['Saldo vivo de la línea (fin de mes)', '72.225', '24.313', '0', '0', '0', '—'],
+    ['Caja acumulada tras servicio de la línea', '0', '0', '+47.225', '+92.075', '+106.125', '—'],
+  ],
+  [2600, 1071, 1071, 1071, 1071, 1071, 1071],
+  [undefined, R, R, R, R, R, R],
+));
+children.push(spacer());
+children.push(p([b('Lectura: '), run('con compra escalonada, la línea se dispone hasta unos 72.000 € en octubre para comprar el primer y mayor tramo de stock, y queda totalmente devuelta a finales de diciembre con el cobro de las ventas de Black Friday y Navidad. A partir de ahí la campaña solo genera caja. El ciclo de vida de la disposición es de aproximadamente dos meses. La disposición máxima queda muy por debajo del límite solicitado (250.000 €).')]));
+children.push(h2('10.2. Ratio de cobertura de la devolución'));
+children.push(p([b('Ratio de cobertura = Flujo de caja operativo de campaña ÷ (Pico de disposición + Servicio del préstamo 70k en el periodo)')]));
+children.push(table(
+  ['Concepto', 'Escenario base', 'Conservador (−25 %)'],
+  [
+    ['Ventas de campaña (€)', '350.000', '262.500'],
+    ['Flujo de caja operativo de campaña (€)', '112.875', '84.656'],
+    ['Pico de disposición de la línea (€)', '72.225', '54.506'],
+    ['Servicio del préstamo 70k en el periodo (€)', '6.750', '6.750'],
+    ['Obligación total a cubrir (€)', '78.975', '61.256'],
+    ['Ratio de cobertura', '1,43x', '1,38x'],
+  ],
+  [4026, 2500, 2500],
+  [undefined, R, R],
+));
+children.push(spacer());
+children.push(p([it('Flujo de caja operativo de campaña = cobros − compra de stock − gastos de campaña (antes del servicio de deuda). El escenario conservador aplica −25 % a las ventas y escala compras y gastos en la misma proporción; la cuota del préstamo de 70k se mantiene fija (es una obligación que no depende de las ventas).', { italics: true })]));
+children.push(p('En ambos escenarios el flujo generado cubre en torno a 1,4 veces la devolución de la línea (medida sobre el pico de disposición) más el servicio del préstamo vivo. La cobertura no depende de que la campaña crezca: se sostiene sobre la conversión en caja de stock ya vendible.'));
+children.push(h2('10.3. Casos extremos'));
+children.push(p([b('a) Disposición máxima — comprar todo el stock por adelantado en octubre. '), run('Si en lugar de escalonar la compra se adquiriera de una vez todo el stock de campaña (195.125 €), la línea se dispondría hasta unos 150.000 € en octubre. Aun así quedaría amortizada a finales de diciembre, porque los cobros de noviembre y diciembre (227.500 €) superan con holgura esa disposición. El límite de 250.000 € cubre este caso con margen.')]));
+children.push(p([b('b) Ventas un 40 % por debajo del objetivo, con el primer pedido ya comprometido. '), run('El único importe realmente comprometido en octubre es el primer tramo de compra (≈ 117.000 €); las reposiciones de noviembre y diciembre son discrecionales y se recortarían. Con ventas de campaña de ≈ 210.000 €, la línea se dispondría hasta ≈ 90.000 € y quedaría devuelta hacia el final de enero de 2027, un mes más tarde que en el escenario base, con la caja de campaña todavía en positivo (≈ +22.000 €). Mitigantes: compra escalonada, stock no vendido que se liquida en el primer trimestre, y tres ejercicios en beneficios como colchón. [PENDIENTE: previsión de tesorería de la sociedad a 12 meses.]')]));
 children.push(h2('10.4. Efecto del préstamo de 70.000 €'));
 children.push(p('La cuota mensual del préstamo de 70.000 € se ha incluido íntegra en el flujo de caja de campaña y en los ratios, de modo que la capacidad de devolución se mide después de atender esa deuda.'));
 children.push(bullet([run('Cuota mensual utilizada en el modelo (provisional): 1.350 €/mes. '), it('[PENDIENTE: prestamista, cuota mensual exacta, saldo vivo a la fecha, vencimiento y condiciones del préstamo de 70.000 €.]', { bold: true })]));
-children.push(bullet('Servicio del préstamo durante los cinco meses de campaña: ~6.750 €, absorbido por el flujo de campaña en los escenarios base y conservador.'));
+children.push(bullet('Servicio del préstamo durante los cinco meses de campaña: ~6.750 €, absorbido por el flujo de campaña en todos los escenarios.'));
 children.push(h2('10.5. Conclusión sobre solvencia'));
 children.push(bullet([b('Circulante autoliquidable. '), run('La línea financia existencias de un catálogo ya en venta y se devuelve con el cobro de esas mismas ventas: ciclo de ~2 meses en el escenario base (disposición en octubre, devolución completa en diciembre).')]));
-children.push(bullet([b('Cobertura superior a 1,5x en base y conservador. '), run('1,56x y 1,50x respectivamente, en ambos casos después de atender el préstamo de 70.000 €. En un estrés severo (ventas −40 % con la primera compra ya comprometida) el ciclo de la línea se alarga a Q1 2027 sin llegar a impago, con la compra escalonada como principal mitigante.')]));
+children.push(bullet([b('Disposición muy por debajo del límite. '), run('El límite solicitado es 250.000 €; la disposición máxima prevista es de ~72.000 € con compra escalonada y ~150.000 € comprando todo por adelantado. El margen es holgura para reponer, no deuda prevista.')]));
+children.push(bullet([b('Cobertura de 1,43x (base) y 1,38x (conservador), '), run('en ambos casos después de atender el préstamo de 70.000 €. En un estrés de ventas −40 % con el primer pedido comprometido, el ciclo se alarga un mes hacia Q1 2027 sin llegar a impago.')]));
 children.push(bullet([b('Riesgo acotado. '), run('No se financia gasto corriente ni proyectos de resultado incierto, sino inventario físico para un pico de demanda con precedente cuantificado (275.000 € el año anterior). El destino y la fuente de repago están directamente ligados.')]));
 
 // ===== 10. ANEXOS =====
@@ -529,11 +527,11 @@ children.push(h1(11, 'Anexos'));
 children.push(h2('11.1. Anexo financiero (Excel)'));
 children.push(p('Se acompaña el archivo anexo-financiero.xlsx, con seis hojas y fórmulas reales enlazadas a una hoja de supuestos editable (al cambiar un supuesto se recalcula todo el modelo):'));
 children.push(bullet('Portada — identificación del anexo y advertencia sobre las cifras históricas.'));
-children.push(bullet('Histórico — cuenta de resultados 2024 / 2025 / 2026 H1 con gráfico de facturación y margen. [PENDIENTE de actualización: añadir la columna 2023 (390.000 €) y el desglose de margen y resultado de ese ejercicio.]'));
-children.push(bullet('Supuestos — todos los parámetros editables (objetivo de campaña, % coste por línea, reparto Spiro/Ekio Light, crecimiento, plazos de cobro y pago, cuota del préstamo de 70k).'));
-children.push(bullet('Necesidad circulante — cálculo de la necesidad estimada de financiación de existencias por línea y total.'));
-children.push(bullet('Flujo de caja campaña — mensual octubre 2026 – febrero 2027, con disposición y devolución de la línea.'));
-children.push(bullet('Escenarios — base frente a conservador (−25 % de ventas de campaña) y ratio de cobertura resultante.'));
+children.push(bullet('Histórico — cuenta de resultados 2023–2026 H1, con acumulado del periodo (1,67 M€) y gráfico. Margen y resultado de 2023, pendientes de las declaraciones fiscales.'));
+children.push(bullet('Supuestos — parámetros editables: objetivo de campaña 350.000 €, reparto 65/25/10 (Spiro/Ekio Light/accesorios), % de coste por grupo, calendario de compra y de cobro, cuota del préstamo de 70k.'));
+children.push(bullet('Necesidad de circulante — importe solicitado 250.000 €, coste del stock de campaña por grupo (~195.125 €) y holgura de reposición (~54.875 €).'));
+children.push(bullet('Flujo de caja de campaña — mensual octubre 2026 – febrero 2027, con disposición y devolución de la línea (escenario base).'));
+children.push(bullet('Escenarios — base, conservador (−25 %) y disposición máxima (compra por adelantado), con pico de disposición y ratio de cobertura de cada uno.'));
 children.push(h2('11.2. Documentación de soporte a aportar con la solicitud'));
 children.push(p('Documentos que acompañan o completan este plan al presentarlo en CaixaBank:'));
 children.push(bullet('Escritura de constitución de EKIO BIOTECH, S.L.U. y escritura / documento de aportación no dineraria del negocio en funcionamiento.'));
@@ -543,7 +541,7 @@ children.push(bullet('Declaraciones de IRPF y modelos 130 y 390 de la actividad 
 children.push(bullet('P&L de gestión actualizado de Holded con desglose de coste de ventas por ejercicio (conciliación del margen bruto) y, cuando estén disponibles, cuentas anuales de la sociedad.'));
 children.push(bullet('Certificados de estar al corriente de pago con la AEAT y con la Tesorería General de la Seguridad Social; en su caso, detalle de aplazamientos o fraccionamientos vigentes.'));
 children.push(bullet('Contrato e identificación del préstamo de 70.000 € (prestamista, tipo, saldo vivo, cuadro de amortización, covenants) e informe CIRBE.'));
-children.push(bullet('Contrato de distribución en exclusiva con Noxtak / SG Labs y condiciones de pago a proveedor.'));
+children.push(bullet('Contrato de distribución con Noxtak / SG Labs y condiciones de pago a proveedor.'));
 children.push(bullet('Contrato de fabricación / ensamblaje de Ekio Light e identificación del fabricante; marcado CE, declaración de conformidad y seguro de responsabilidad civil de producto (en especial de los equipos con emisión UV-A/UV-B).'));
 children.push(bullet('Título / certificado de registro del Modelo de Utilidad Nº U202532624 (OEPM) y estado de la solicitud de patente internacional (PCT) del sistema SFPA.'));
 children.push(bullet('Carta o comunicación de Wolaria / ICECYL acreditando la invitación a Startup OLÉ y Valencia Digital Summit.'));
@@ -563,25 +561,24 @@ children.push(p('Puntos marcados como [PENDIENTE] a lo largo del documento, para
   'Identificación completa del préstamo de 70.000 € (prestamista, tipo, saldo vivo, cuota real, vencimiento, covenants); informe CIRBE.',
   'Conciliación del margen bruto por ejercicio (38,4 % / 24,5 % / 55,9 %) con el desglose de coste de ventas de Holded.',
   'Margen bruto y resultado del ejercicio 2023 (facturación ya confirmada: 390.000 €); cierre provisional a julio/agosto de 2026; informe de Holded actualizado.',
-  'Título/certificado del Modelo de Utilidad U202532624 y estado de la solicitud PCT del sistema SFPA.',
+  'Título/certificado del Modelo de Utilidad U202532624; número y estado de la solicitud PCT del sistema SFPA; relación de patentes y premios de SPIRO facilitada por Noxtak.',
   'Objetivo financiero plurianual 2026–2028 (o traslado del modelo a 5 años ya existente).',
   'Libro: confirmación de fecha de publicación, precio final y coste de edición e ilustración.',
   'Facturación del primer semestre de 2025 y de julio/agosto de 2026, para la comparación homogénea semestre contra semestre.',
-  'Contrato de exclusiva con Noxtak / SG Labs: vigencia, preaviso, moneda y condiciones de pago; exposición estimada al tipo de cambio EUR/USD en la compra de campaña.',
+  'Contrato de distribución con Noxtak / SG Labs: vigencia, preaviso, moneda y condiciones de pago; exposición al tipo de cambio EUR/USD en la compra de campaña.',
   'Titularidad de las cuentas de redes sociales de la línea Spiro (si son de la marca del fabricante, no computan como activo de la sociedad).',
   'Número y fecha de presentación de la solicitud PCT del sistema SFPA, cuando se registre.',
   'Coste previsto de asistencia a las ferias de octubre (stand, desplazamiento, material).',
   'Número exacto de personas en plantilla y de colaboradores externos habituales.',
-  'Reseña profesional del fundador (formación, trayectoria, años en el sector).',
+  'Reseña del fundador: formación académica, trayectoria profesional previa a 2023 y años de experiencia en el sector.',
   'Unidades de inventario realmente disponibles y comprometidas a fecha de solicitud, y rotación (vueltas) por referencia de campaña.',
   'Volumen real de contratos de renting vivos.',
   'Fuente citable si se desea incluir tamaño o crecimiento de mercado.',
   'Carta/email de Wolaria/ICECYL acreditando la invitación.',
   'Exportaciones de Klaviyo y Shopify con recuentos exactos de contactos y clientes.',
   'Periodo exacto (fechas) de los 275.000 € de la campaña anterior y si es venta bruta o neta.',
-  'Objetivo de ventas de campaña 2026 (sustituye al +15 % provisional).',
-  'Coste de mercancía real por línea de las referencias de campaña (sustituye a Spiro 60 % / Ekio Light 45 %).',
-  'Reparto objetivo Spiro / Ekio Light de la campaña (sustituye al 60 / 40).',
+  'Confirmación formal del objetivo de campaña 2026 (350.000 €) y del reparto por grupo de producto (65 % Spiro / 25 % Ekio Light / 10 % accesorios).',
+  'Coste de mercancía real por grupo de las referencias de campaña (sustituye a Spiro 60 % / Ekio Light 45 % / accesorios 55 %).',
   'Presupuesto de marketing y logística de campaña (sustituye al 12 % de ventas).',
   'Plazo de pago real a cada proveedor y plazo de cobro real de las pasarelas de pago.',
   'Estacionalidad real de la campaña octubre–febrero (sustituye al 15/35/30/15/5).',
