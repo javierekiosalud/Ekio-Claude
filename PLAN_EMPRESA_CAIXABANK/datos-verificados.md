@@ -315,3 +315,35 @@ El documento se ha recortado un ~16 % de texto. La lista de 33 `[PENDIENTE]` que
 sección 11.3 del plan se ha sacado a **`CHECKLIST_INTERNO.md`**: un documento que se entrega a
 un banco no debe llevar dentro una lista larga de "esto todavía no lo tenemos". Las marcas
 `[PENDIENTE]` que siguen en el cuerpo deben resolverse y eliminarse antes de imprimir.
+
+---
+
+## 12. RESPUESTAS AL CHECKLIST (Javier, 30-ago-2026) — CAMBIOS APLICADOS
+
+| Punto | Respuesta de Javier | Efecto en el plan |
+|---|---|---|
+| Préstamo vivo | **80.000 € con LA CAIXA (CaixaBank)**, al corriente — NO 70.000 € "institucional" | Corregido en todo el documento. Es un **argumento a favor**: ya son clientes de la entidad y cumplen. |
+| Escritura de constitución | **29 de julio de 2026**; incluye la aportación del negocio, el objeto social y el alta censal | §1 y §3.2; se adjunta |
+| Certificados AEAT/TGSS | Al corriente, **se adjuntan** | §3.2, PENDIENTE retirado |
+| Subvenciones | Resoluciones **se adjuntan** | §5.2, PENDIENTE retirado |
+| Contacto | Francisco Javier Andrés Andrés · javier@electrosmogespana.com · 616 631 878 | Portada |
+| Objetivo 2027 | **1.000.000 €** de facturación con todas las líneas en marcha; después valorar inversores | §8.2, tabla 2026/2027. Sección renombrada a "2026–2027" |
+| Previsión de tesorería 12 meses | **No incluir** | Retirada toda mención |
+| Garantías | **No ofrecer catálogo de alternativas** | §9.4 reescrita: solo responsabilidad de la sociedad + historial de cumplimiento |
+| Inventario | El stock actual **no cubre** la campaña; por eso se pide | Declarado como afirmación, sin PENDIENTE |
+| Pro-formas de proveedor | No aportar | Retirada la mención |
+| Cobro / pago | Pago **al contado** al hacer el pedido; cobro **inmediato vía Stripe** | §10.1: dejan de ser supuestos, son datos |
+| 275.000 € campaña anterior | **Venta bruta** | §7.2 |
+| Objetivo campaña 2026, reparto 65/25/10, marketing 12 %, estacionalidad 15/35/30/15/5 | Confirmados | PENDIENTE retirados |
+| Coste de mercancía por grupo, cuota del préstamo | Ignorar | Se mantienen como supuestos del modelo, sin marca |
+| Acreditaciones (MU, PCT, Noxtak, ICECYL, ESG, Wolaria, CE) | Ignorar | Retiradas del documento |
+| Menores (plantilla, CV previo, renting, redes, mercado, libro, ferias) | Ignorar | PENDIENTE retirados |
+
+**PENDIENTE que SIGUEN en el documento (Javier dijo "déjalo como está"):**
+1. Conciliación del margen bruto por ejercicio con el desglose de Holded.
+2. Margen bruto y resultado del ejercicio 2023.
+3. Facturación de H1 2025 y de julio/agosto 2026 para comparar semestre contra semestre.
+
+**⚠️ Punto a vigilar:** el préstamo pasa de 70.000 € (dato anterior, "institucional"/Iberaval)
+a 80.000 € con CaixaBank. La CIRBE mostrará el dato real: conviene comprobar el importe y si
+hay aval de Iberaval detrás antes de presentar, para que el documento no contradiga a la CIRBE.

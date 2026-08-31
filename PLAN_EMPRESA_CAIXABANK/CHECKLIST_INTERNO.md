@@ -1,60 +1,27 @@
-# Checklist interno — antes de entregar el plan a CaixaBank
+# Checklist interno — plan CaixaBank
 
-> **Uso interno. NO se entrega al banco.** Recoge todo lo marcado como `[PENDIENTE]`
-> en `plan-empresa-ekio-caixabank.docx`. Al resolver cada punto, elimina la marca
-> correspondiente del documento antes de imprimirlo.
+> **Uso interno. NO se entrega al banco.** Actualizado el 30 de agosto de 2026 con las
+> respuestas de Javier. La mayoría de puntos quedaron resueltos o descartados.
 
-## 1. Bloqueantes — sin esto no hay operación
+## Resuelto y ya incorporado al documento
 
-- [ ] **Balance de apertura de la SLU** (resultante de la aportación del negocio) y previsión de balance 2026–2027.
-- [ ] **Previsión de tesorería de la sociedad a 12 meses**, no solo la ventana de campaña.
-- [ ] **Certificados de estar al corriente** con AEAT y TGSS. Si hay algún aplazamiento o fraccionamiento vigente, declararlo con importe, calendario y estado.
-- [ ] **Préstamo de 70.000 €**: prestamista, tipo, saldo vivo, cuota real, vencimiento y covenants. Informe CIRBE.
-- [ ] **Decisión sobre garantías**: aval SGR (Iberaval), pignoración del stock o de la cuenta de crédito, o aval del administrador.
-- [ ] **Inventario real**: unidades disponibles y comprometidas a fecha, y rotación por referencia de campaña. Es la condición nº 1 del banco: hay que acreditar que el stock actual NO cubre la campaña.
-- [ ] **Presupuestos o pedidos pro-forma** de los proveedores que soporten los ~195.125 € de compra de campaña.
-- [ ] **Alta censal y CNAE** de la SLU a fecha de solicitud (CIF activo).
-- [ ] **Persona de contacto** para el banco: nombre, email y teléfono.
+- [x] Escritura de constitución y aportación del negocio — **29 de julio de 2026**, se adjunta (incluye objeto social y alta censal).
+- [x] Certificados de estar al corriente con AEAT y TGSS — se adjuntan.
+- [x] Resoluciones de las tres subvenciones de la Junta de Castilla y León — se adjuntan.
+- [x] Préstamo vivo — **80.000 € con CaixaBank**, al corriente de pago.
+- [x] Persona de contacto — Francisco Javier Andrés Andrés · javier@electrosmogespana.com · 616 631 878.
+- [x] Objetivo 2027 — **1.000.000 €** de facturación con todas las líneas operativas; después, valorar inversores.
+- [x] Inventario — el stock actual no cubre la campaña; así se declara en el plan.
+- [x] Supuestos del modelo — objetivo 350.000 €, reparto 65/25/10, marketing 12 %, estacionalidad 15/35/30/15/5, pago al contado y cobro inmediato vía Stripe.
+- [x] Los 275.000 € de la campaña anterior son **venta bruta**.
 
-## 2. Financiero — a conciliar
+## Sigue pendiente (decisión de Javier: dejarlo así por ahora)
 
-- [ ] **Conciliación del margen bruto por ejercicio** (38,4 % / 24,5 % / 55,9 %) con el desglose de coste de ventas de Holded. El analista lo va a preguntar.
+- [ ] **Conciliación del margen bruto por ejercicio** (38,4 % / 24,5 % / 55,9 %) con el desglose de coste de ventas de Holded. Es la pregunta más probable del analista.
 - [ ] Margen bruto y resultado del ejercicio **2023** (la facturación, 390.000 €, ya está confirmada).
-- [ ] Facturación del **primer semestre de 2025** y de julio/agosto de 2026, para comparar semestre contra semestre.
-- [ ] Cierre provisional a julio/agosto de 2026 e informe de Holded actualizado.
-- [ ] Fecha de la escritura de constitución de la SLU y de la aportación del negocio.
-- [ ] Objetivo financiero plurianual 2026–2028 (o trasladar el modelo a 5 años ya existente).
+- [ ] Facturación de **H1 2025** y de julio/agosto de 2026, para comparar semestre contra semestre.
 
-## 3. Supuestos del modelo — confirmar o sustituir
+## Punto a verificar antes de entregar
 
-- [ ] Objetivo de campaña 2026 (**350.000 €**) y reparto por grupo (**65 % Spiro / 25 % Ekio Light / 10 % accesorios**).
-- [ ] Coste de mercancía real por grupo (el modelo usa 60 % / 45 % / 55 %).
-- [ ] Presupuesto real de marketing y logística de campaña (el modelo usa 12 % de ventas).
-- [ ] Estacionalidad real de la campaña octubre–febrero (el modelo usa 15/35/30/15/5).
-- [ ] Plazo de pago real a cada proveedor y plazo de cobro real de las pasarelas.
-- [ ] Cuota mensual real del préstamo de 70k (el modelo usa 1.350 €/mes).
-- [ ] Periodo exacto de los 275.000 € de la campaña anterior, y si es venta bruta o neta.
-
-## 4. Acreditaciones a adjuntar
-
-- [ ] **Resoluciones de concesión de las tres subvenciones** de la Junta de Castilla y León (organismo, expediente, importe, calendario de justificación).
-- [ ] Acreditación de participación en el **Plan ESG de Sostenibilidad 2025–2027**.
-- [ ] Acreditación de participación en el **Plan de Internacionalización a través de Marketplace (ICECYL)**.
-- [ ] Carta o email de **Wolaria/ICECYL** acreditando la invitación a las ferias.
-- [ ] **Título/certificado del Modelo de Utilidad U202532624** (OEPM).
-- [ ] Número y fecha de presentación de la **solicitud PCT del SFPA**, cuando se registre.
-- [ ] Relación de **patentes y premios de SPIRO** facilitada por Noxtak.
-- [ ] **Contrato de distribución con Noxtak/SG Labs**: vigencia, preaviso, moneda, condiciones de pago y exposición al EUR/USD.
-- [ ] Contrato de fabricación/ensamblaje de Ekio Light, marcado CE, declaración de conformidad y RC de producto (en especial los equipos con UV-A/UV-B).
-- [ ] Exportaciones de Klaviyo y Shopify con los recuentos exactos de contactos y clientes.
-
-## 5. Menores
-
-- [ ] Nº exacto de personas en plantilla y de colaboradores externos habituales.
-- [ ] Reseña del fundador: formación académica y trayectoria previa a 2023.
-- [ ] Nombre del fabricante/ensamblador de los paneles Ekio Light y grado real de integración.
-- [ ] Volumen real de contratos de renting vivos.
-- [ ] Titularidad de las cuentas de redes sociales de la línea Spiro (si son del fabricante, no computan como activo propio).
-- [ ] Fuente citable si se quiere incluir tamaño o crecimiento de mercado.
-- [ ] Libro: confirmación de fecha, precio final y coste de edición e ilustración.
-- [ ] Coste previsto de asistencia a las ferias de octubre.
+- [ ] **Importe y naturaleza del préstamo.** El dato anterior era 70.000 € "institucional" (posible aval Iberaval); ahora consta 80.000 € con CaixaBank. La CIRBE mostrará el real. Comprobar el importe exacto y si hay aval de SGR detrás, para que el plan no contradiga a la CIRBE.
+- [ ] Revisar el documento impreso y eliminar las tres marcas `[PENDIENTE]` restantes si se resuelven.
