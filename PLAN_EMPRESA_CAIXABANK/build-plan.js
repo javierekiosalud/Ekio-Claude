@@ -10,6 +10,15 @@ const CONTENT_W = 9026; // A4 portrait content width in DXA
 
 // ---------- helpers ----------
 const FONT = 'Calibri';
+const SERIF = 'Georgia';
+// Paleta de marca EKIO
+const INK = '122638';        // azul tinta, color principal
+const INK_SOFT = '1D5366';   // azul secundario
+const AMBER = 'E7A84D';      // ámbar, acento
+const AMBER_DK = '9B661E';   // ámbar oscuro, para texto de acento
+const CREAM = 'F6F0E6';      // crema, fondos suaves
+const LINE = 'DED4C4';       // línea, bordes
+const MUTED = '64707C';      // texto secundario
 
 function p(text, opts = {}) {
   const runs = Array.isArray(text)
@@ -25,20 +34,20 @@ function p(text, opts = {}) {
 
 function run(text, o = {}) { return new TextRun({ text, font: FONT, size: 22, ...o }); }
 function b(text, o = {}) { return new TextRun({ text, font: FONT, size: 22, bold: true, ...o }); }
-function it(text, o = {}) { return new TextRun({ text, font: FONT, size: 20, italics: true, color: '595959', ...o }); }
+function it(text, o = {}) { return new TextRun({ text, font: FONT, size: 20, italics: true, color: MUTED, ...o }); }
 
 function h1(num, text) {
   return new Paragraph({
     heading: HeadingLevel.HEADING_1,
     spacing: { before: 320, after: 160 },
-    children: [new TextRun({ text: `${num}. ${text}`, font: FONT, bold: true, size: 30, color: '1F3864' })],
+    children: [new TextRun({ text: `${num}. ${text}`, font: SERIF, bold: true, size: 30, color: INK })],
   });
 }
 function h2(text) {
   return new Paragraph({
     heading: HeadingLevel.HEADING_2,
     spacing: { before: 220, after: 120 },
-    children: [new TextRun({ text, font: FONT, bold: true, size: 24, color: '2F5496' })],
+    children: [new TextRun({ text, font: SERIF, bold: true, size: 23, color: INK_SOFT })],
   });
 }
 function bullet(children) {
@@ -58,12 +67,12 @@ function numItem(children) {
 function note(children) {
   return new Paragraph({
     spacing: { before: 120, after: 160, line: 276 },
-    shading: { type: ShadingType.CLEAR, fill: 'F2F2F2' },
+    shading: { type: ShadingType.CLEAR, fill: CREAM },
     border: {
-      top: { style: BorderStyle.SINGLE, size: 4, color: 'BFBFBF' },
-      bottom: { style: BorderStyle.SINGLE, size: 4, color: 'BFBFBF' },
-      left: { style: BorderStyle.SINGLE, size: 12, color: '8EAADB' },
-      right: { style: BorderStyle.SINGLE, size: 4, color: 'BFBFBF' },
+      top: { style: BorderStyle.SINGLE, size: 4, color: LINE },
+      bottom: { style: BorderStyle.SINGLE, size: 4, color: LINE },
+      left: { style: BorderStyle.SINGLE, size: 16, color: AMBER },
+      right: { style: BorderStyle.SINGLE, size: 4, color: LINE },
     },
     children: Array.isArray(children) ? children : [it(children)],
   });
@@ -92,12 +101,12 @@ function cell(content, { w, header = false, align, fill } = {}) {
 function headerCell(text, w, align) {
   return new TableCell({
     width: { size: w, type: WidthType.DXA },
-    shading: { type: ShadingType.CLEAR, fill: '1F3864' },
+    shading: { type: ShadingType.CLEAR, fill: INK },
     margins: { top: 60, bottom: 60, left: 90, right: 90 },
     children: [new Paragraph({
       alignment: align,
       spacing: { after: 0, line: 264 },
-      children: [new TextRun({ text, font: FONT, size: 20, bold: true, color: 'FFFFFF' })],
+      children: [new TextRun({ text, font: FONT, size: 20, bold: true, color: 'FFFDF8' })],
     })],
   });
 }
@@ -121,18 +130,18 @@ function table(headers, rows, widths, aligns = []) {
   });
   const trBody = rows.map((r, ri) =>
     new TableRow({
-      children: r.map((c, i) => bodyCell(c, widths[i], aligns[i], ri % 2 ? 'F2F5FA' : undefined)),
+      children: r.map((c, i) => bodyCell(c, widths[i], aligns[i], ri % 2 ? CREAM : undefined)),
     }));
   return new Table({
     width: { size: widths.reduce((a, x) => a + x, 0), type: WidthType.DXA },
     columnWidths: widths,
     borders: {
-      top: { style: BorderStyle.SINGLE, size: 2, color: 'BFBFBF' },
-      bottom: { style: BorderStyle.SINGLE, size: 2, color: 'BFBFBF' },
-      left: { style: BorderStyle.SINGLE, size: 2, color: 'BFBFBF' },
-      right: { style: BorderStyle.SINGLE, size: 2, color: 'BFBFBF' },
-      insideHorizontal: { style: BorderStyle.SINGLE, size: 2, color: 'D9D9D9' },
-      insideVertical: { style: BorderStyle.SINGLE, size: 2, color: 'D9D9D9' },
+      top: { style: BorderStyle.SINGLE, size: 2, color: LINE },
+      bottom: { style: BorderStyle.SINGLE, size: 2, color: LINE },
+      left: { style: BorderStyle.SINGLE, size: 2, color: LINE },
+      right: { style: BorderStyle.SINGLE, size: 2, color: LINE },
+      insideHorizontal: { style: BorderStyle.SINGLE, size: 2, color: LINE },
+      insideVertical: { style: BorderStyle.SINGLE, size: 2, color: LINE },
     },
     rows: [trHead, ...trBody],
   });
@@ -147,29 +156,37 @@ const children = [];
 
 // ===== COVER =====
 children.push(
-  new Paragraph({ spacing: { before: 2400, after: 0 }, alignment: C,
-    children: [new TextRun({ text: 'PLAN DE EMPRESA', font: FONT, bold: true, size: 56, color: '1F3864' })] }),
-  new Paragraph({ spacing: { before: 200, after: 0 }, alignment: C,
-    children: [new TextRun({ text: 'Solicitud de cuenta de crédito', font: FONT, size: 32, color: '2F5496' })] }),
-  new Paragraph({ spacing: { before: 80, after: 0 }, alignment: C,
-    children: [new TextRun({ text: 'Línea de circulante para financiación de existencias · CaixaBank Now', font: FONT, size: 24, color: '595959' })] }),
-  new Paragraph({ spacing: { before: 1600, after: 0 }, alignment: C,
-    children: [new TextRun({ text: 'EKIO BIOTECH, S.L.U.', font: FONT, bold: true, size: 32 })] }),
-  new Paragraph({ spacing: { before: 80, after: 0 }, alignment: C,
-    children: [new TextRun({ text: 'CIF B93860096', font: FONT, size: 24 })] }),
+  // marca EKIO en cabecera de portada
+  new Paragraph({ spacing: { before: 1400, after: 0 }, alignment: C,
+    children: [new TextRun({ text: 'EKIO', font: SERIF, bold: true, size: 44, color: INK, characterSpacing: 60 })] }),
   new Paragraph({ spacing: { before: 40, after: 0 }, alignment: C,
-    children: [new TextRun({ text: 'Barrio de Arriba 39 · 49327 Cubo de Benavente (Zamora)', font: FONT, size: 22, color: '595959' })] }),
-  new Paragraph({ spacing: { before: 1800, after: 0 }, alignment: C,
-    children: [new TextRun({ text: '30 de agosto de 2026', font: FONT, size: 22, color: '595959' })] }),
+    children: [new TextRun({ text: 'E L E C T R O S M O G   E S P A Ñ A', font: FONT, bold: true, size: 13, color: MUTED })] }),
+  new Paragraph({ spacing: { before: 260, after: 0 }, alignment: C,
+    border: { bottom: { style: BorderStyle.SINGLE, size: 12, color: AMBER, space: 1 } },
+    children: [new TextRun({ text: '', font: FONT, size: 2 })] }),
+  new Paragraph({ spacing: { before: 700, after: 0 }, alignment: C,
+    children: [new TextRun({ text: 'PLAN DE EMPRESA', font: SERIF, bold: true, size: 54, color: INK })] }),
+  new Paragraph({ spacing: { before: 180, after: 0 }, alignment: C,
+    children: [new TextRun({ text: 'Solicitud de cuenta de crédito', font: SERIF, size: 30, color: INK_SOFT })] }),
+  new Paragraph({ spacing: { before: 100, after: 0 }, alignment: C,
+    children: [new TextRun({ text: 'Línea de circulante para financiación de existencias', font: FONT, size: 22, color: MUTED })] }),
+  new Paragraph({ spacing: { before: 30, after: 0 }, alignment: C,
+    children: [new TextRun({ text: 'CaixaBank Now', font: FONT, bold: true, size: 22, color: AMBER_DK })] }),
+  new Paragraph({ spacing: { before: 1100, after: 0 }, alignment: C,
+    children: [new TextRun({ text: 'EKIO BIOTECH, S.L.U.', font: FONT, bold: true, size: 30, color: INK })] }),
+  new Paragraph({ spacing: { before: 70, after: 0 }, alignment: C,
+    children: [new TextRun({ text: 'CIF B93860096  ·  Barrio de Arriba 39, 49327 Cubo de Benavente (Zamora)', font: FONT, size: 20, color: MUTED })] }),
+  new Paragraph({ spacing: { before: 900, after: 0 }, alignment: C,
+    children: [new TextRun({ text: '30 de agosto de 2026', font: FONT, size: 20, color: MUTED })] }),
   new Paragraph({ spacing: { before: 40, after: 0 }, alignment: C,
-    children: [new TextRun({ text: 'Documento confidencial — uso exclusivo para evaluación de riesgos de CaixaBank', font: FONT, size: 18, italics: true, color: '808080' })] }),
+    children: [new TextRun({ text: 'Documento confidencial — uso exclusivo para evaluación de riesgos de CaixaBank', font: FONT, size: 17, italics: true, color: MUTED })] }),
   new Paragraph({ children: [new PageBreak()] }),
 );
 
 // ===== TOC =====
 children.push(
   new Paragraph({ heading: HeadingLevel.HEADING_1, spacing: { after: 160 },
-    children: [new TextRun({ text: 'Índice', font: FONT, bold: true, size: 30, color: '1F3864' })] }),
+    children: [new TextRun({ text: 'Índice', font: SERIF, bold: true, size: 30, color: INK })] }),
   new TableOfContents('Índice', { hyperlink: true, headingStyleRange: '1-2' }),
   new Paragraph({ spacing: { before: 120 }, children: [it('Para actualizar el índice en Word: clic derecho sobre él → «Actualizar campos» → «Actualizar toda la tabla».')] }),
   new Paragraph({ children: [new PageBreak()] }),
@@ -359,7 +376,7 @@ children.push(bullet([b('Volumen y margen. '), run('En 2026 la actividad ha prio
 children.push(bullet([b('Sin capital de terceros. '), run('La única deuda financiera de la actividad es un préstamo de 80.000 € formalizado con CaixaBank, en amortización y al corriente de pago. No hay inversores en el capital ni otras líneas vivas. La empresa ya es cliente de la entidad y ha atendido puntualmente ese compromiso.')]));
 children.push(note([
   it('Supuestos y advertencias de esta sección: ', { bold: true }),
-  it('(a) el margen bruto en € y el coste de ventas están calculados a partir de la facturación y el margen bruto (%) de gestión; no son partidas independientes tomadas de Holded. (b) Cifras históricas sujetas a contraste con el Holded actualizado y las declaraciones fiscales (IRPF, modelos 130 y 390) antes de la presentación formal; el resultado histórico es el de la actividad como empresario individual, antes de IRPF (impuesto personal); la SLU tributará por el Impuesto sobre Sociedades. (c) [PENDIENTE: margen bruto y resultado del ejercicio 2023; conciliación del margen bruto por ejercicio con el desglose de Holded; cierre provisional a julio/agosto de 2026; balance de apertura de la SLU y previsión de balance 2026–2027.] (d) Referencia: hoja «Histórico» del anexo anexo-financiero.xlsx.'),
+  it('(a) el margen bruto en € y el coste de ventas están calculados a partir de la facturación y el margen bruto (%) de gestión; no son partidas independientes tomadas de Holded. (b) Cifras históricas sujetas a contraste con el Holded actualizado y las declaraciones fiscales (IRPF, modelos 130 y 390) antes de la presentación formal; el resultado histórico es el de la actividad como empresario individual, antes de IRPF (impuesto personal); la SLU tributará por el Impuesto sobre Sociedades. (c) [PENDIENTE: margen bruto y resultado del ejercicio 2023; conciliación del margen bruto por ejercicio con el desglose de Holded; cierre provisional a julio/agosto de 2026; balance de apertura de la SLU y previsión de balance 2026–2027.]'),
 ]));
 
 // ===== 7. PLAN COMERCIAL =====
@@ -468,7 +485,7 @@ children.push(table(
 children.push(spacer());
 children.push(p('Se solicita el importe como límite de una línea revolvente, no como deuda a plazo: la empresa dispone de él a medida que compra y lo devuelve a medida que vende y cobra. La disposición efectiva máxima prevista es sensiblemente inferior al límite (ver sección 10): con compra escalonada, el pico ronda los 72.000 €; incluso comprando todo el stock por adelantado en octubre, el pico ronda los 150.000 €. El margen entre esa disposición y el límite de 250.000 € da holgura para reponer sin volver a solicitar y para no agotar la línea si la campaña supera el objetivo.'));
 children.push(note([
-  it('Supuestos de esta sección (recogidos en la hoja «Supuestos» del anexo Excel): ', { bold: true }),
+  it('Supuestos de esta sección: ', { bold: true }),
   it('objetivo de campaña 350.000 €; reparto 65 % Spiro / 25 % Ekio Light / 10 % accesorios; coste de mercancía 60 % / 45 % / 55 %, coherentes con los márgenes de gestión; fases de compra 60 % octubre / 30 % noviembre / 10 % diciembre, con pago al contado al realizar el pedido y cobro inmediato vía Stripe.'),
 ]));
 children.push(h2('9.4. Estructura de la operación'));
@@ -531,23 +548,15 @@ children.push(bullet([b('Riesgo acotado. '), run('No se financia gasto corriente
 
 // ===== 10. ANEXOS =====
 children.push(h1(11, 'Anexos'));
-children.push(h2('11.1. Anexo financiero (Excel)'));
-children.push(p('Se acompaña el archivo anexo-financiero.xlsx, con seis hojas y fórmulas enlazadas a una hoja de supuestos editable: al cambiar un supuesto se recalcula todo el modelo.'));
-children.push(bullet('Portada — identificación del anexo y advertencia sobre las cifras históricas.'));
-children.push(bullet('Histórico — cuenta de resultados 2023–2026 H1, con acumulado del periodo (1,67 M€) y gráfico. Margen y resultado de 2023, pendientes de las declaraciones fiscales.'));
-children.push(bullet('Supuestos — parámetros editables: objetivo de campaña 350.000 €, reparto 65/25/10 (Spiro/Ekio Light/accesorios), % de coste por grupo, calendario de compra y de cobro, cuota del préstamo con CaixaBank.'));
-children.push(bullet('Necesidad de circulante — importe solicitado 250.000 €, coste del stock de campaña por grupo (~195.125 €) y holgura de reposición (~54.875 €).'));
-children.push(bullet('Flujo de caja de campaña — mensual octubre 2026 – febrero 2027, con disposición y devolución de la línea (escenario base).'));
-children.push(bullet('Escenarios — base, conservador (−25 %) y disposición máxima (compra por adelantado), con pico de disposición y ratio de cobertura de cada uno.'));
-children.push(h2('11.2. Documentación que acompaña a este plan'));
+children.push(h2('11.1. Documentación que acompaña a este plan'));
 children.push(bullet('Escritura de constitución de EKIO BIOTECH, S.L.U. y de aportación del negocio en funcionamiento, de 29 de julio de 2026, en la que constan el patrimonio aportado, el objeto social y el alta censal de la sociedad.'));
 children.push(bullet('Certificados de estar al corriente de pago con la Agencia Tributaria y con la Tesorería General de la Seguridad Social.'));
 children.push(bullet('Resoluciones de concesión de las tres subvenciones de la Junta de Castilla y León (digitalización, innovación e investigación y desarrollo).'));
 children.push(bullet('Declaraciones de IRPF y modelos 130 y 390 de la actividad como empresario individual (ejercicios 2023, 2024 y 2025), y P&L de gestión de Holded.'));
 children.push(bullet('Cuadro de amortización del préstamo de 80.000 € vivo con CaixaBank.'));
-children.push(bullet('Anexo financiero en formato Excel (anexo-financiero.xlsx).'));
+children.push(bullet('Anexo financiero con el detalle del modelo de campaña y los escenarios.'));
 
-children.push(h2('11.3. Información complementaria'));
+children.push(h2('11.2. Información complementaria'));
 children.push(p('La empresa facilitará a la entidad cualquier detalle adicional sobre las cifras, los supuestos o la documentación de este plan que le sea requerido.'));
 
 // ---------- document ----------
@@ -578,13 +587,26 @@ const doc = new Document({
     properties: { page: { margin: { top: 1440, bottom: 1440, left: 1440, right: 1440 } } },
     footers: {
       default: new Footer({
-        children: [new Paragraph({
-          alignment: AlignmentType.CENTER,
-          children: [
-            new TextRun({ text: 'EKIO BIOTECH, S.L.U. · Plan de empresa — cuenta de crédito · ', font: FONT, size: 16, color: '808080' }),
-            new TextRun({ children: ['Página ', PageNumber.CURRENT, ' de ', PageNumber.TOTAL_PAGES], font: FONT, size: 16, color: '808080' }),
-          ],
-        })],
+        children: [
+          // filete ámbar de separación
+          new Paragraph({
+            spacing: { before: 0, after: 60 },
+            border: { top: { style: BorderStyle.SINGLE, size: 8, color: AMBER, space: 6 } },
+            children: [new TextRun({ text: '', font: FONT, size: 2 })],
+          }),
+          new Paragraph({
+            tabStops: [{ type: TabStopType.RIGHT, position: TabStopPosition.MAX }],
+            spacing: { before: 0, after: 0 },
+            children: [
+              // logotipo EKIO (marca denominativa)
+              new TextRun({ text: 'EKIO', font: SERIF, bold: true, size: 19, color: INK, characterSpacing: 30 }),
+              new TextRun({ text: '  ELECTROSMOG', font: FONT, bold: true, size: 12, color: AMBER_DK, characterSpacing: 30 }),
+              new TextRun({ text: '   ·   EKIO BIOTECH, S.L.U.  ·  Plan de empresa', font: FONT, size: 15, color: MUTED }),
+              new TextRun({ text: '\t', font: FONT, size: 15 }),
+              new TextRun({ children: ['Pág. ', PageNumber.CURRENT, ' / ', PageNumber.TOTAL_PAGES], font: FONT, bold: true, size: 15, color: INK }),
+            ],
+          }),
+        ],
       }),
     },
     children,
