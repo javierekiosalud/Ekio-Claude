@@ -9,7 +9,7 @@ const OUT = '/Users/javierandres/Ekio-Claude/PLAN_EMPRESA_CAIXABANK/plan-empresa
 const CONTENT_W = 9026; // A4 portrait content width in DXA
 
 // ---------- helpers ----------
-const FONT = 'Calibri';
+const FONT = 'Helvetica Neue';
 const SERIF = 'Georgia';
 // Paleta de marca EKIO
 const INK = '122638';        // azul tinta, color principal
@@ -187,7 +187,27 @@ children.push(
 children.push(
   new Paragraph({ heading: HeadingLevel.HEADING_1, spacing: { after: 160 },
     children: [new TextRun({ text: 'Índice', font: SERIF, bold: true, size: 30, color: INK })] }),
-  new TableOfContents('Índice', { hyperlink: true, headingStyleRange: '1-2' }),
+  ...[
+    ['1', 'Datos de la empresa'],
+    ['2', 'Resumen ejecutivo'],
+    ['3', 'Trayectoria y equipo'],
+    ['4', 'Modelo de negocio y líneas de producto'],
+    ['5', 'Mercado y validación externa'],
+    ['6', 'Resultados históricos'],
+    ['7', 'Plan comercial para los próximos 6 meses'],
+    ['8', 'Visión y objetivos (2026–2027)'],
+    ['9', 'Uso de los fondos solicitados'],
+    ['10', 'Capacidad de devolución'],
+    ['11', 'Anexos'],
+  ].map(([num, title]) => new Paragraph({
+    spacing: { after: 130, line: 276 },
+    indent: { left: 340, hanging: 340 },
+    children: [
+      new TextRun({ text: `${num}.`, font: SERIF, bold: true, size: 22, color: AMBER_DK }),
+      new TextRun({ text: `\t${title}`, font: FONT, size: 22, color: INK }),
+    ],
+    tabStops: [{ type: TabStopType.LEFT, position: 340 }],
+  })),
   new Paragraph({ children: [new PageBreak()] }),
 );
 
@@ -596,7 +616,7 @@ const doc = new Document({
               new TextRun({ text: '  ELECTROSMOG', font: FONT, bold: true, size: 12, color: AMBER_DK, characterSpacing: 30 }),
               new TextRun({ text: '   ·   EKIO BIOTECH, S.L.U.  ·  Plan de empresa', font: FONT, size: 15, color: MUTED }),
               new TextRun({ text: '\t', font: FONT, size: 15 }),
-              new TextRun({ children: ['Pág. ', PageNumber.CURRENT, ' / ', PageNumber.TOTAL_PAGES], font: FONT, bold: true, size: 15, color: INK }),
+              new TextRun({ children: ['Pág. ', PageNumber.CURRENT], font: FONT, bold: true, size: 15, color: INK }),
             ],
           }),
         ],
