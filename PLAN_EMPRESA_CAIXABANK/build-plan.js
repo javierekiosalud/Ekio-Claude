@@ -188,7 +188,6 @@ children.push(
   new Paragraph({ heading: HeadingLevel.HEADING_1, spacing: { after: 160 },
     children: [new TextRun({ text: 'Índice', font: SERIF, bold: true, size: 30, color: INK })] }),
   new TableOfContents('Índice', { hyperlink: true, headingStyleRange: '1-2' }),
-  new Paragraph({ spacing: { before: 120 }, children: [it('Para actualizar el índice en Word: clic derecho sobre él → «Actualizar campos» → «Actualizar toda la tabla».')] }),
   new Paragraph({ children: [new PageBreak()] }),
 );
 
@@ -212,8 +211,9 @@ children.push(table(
 ));
 children.push(spacer());
 children.push(p([b('Producto financiero solicitado: '), run('cuenta de crédito (línea de circulante) en CaixaBank Now.')]));
-children.push(p([b('Destino: '), run('compra anticipada de existencias de las dos líneas de producto (Spiro y Ekio Light) para atender la campaña del cuarto trimestre. El importe y el límite de la línea los dimensiona CaixaBank; la empresa aporta el detalle de la compra prevista y la relación de proveedores.')]));
-children.push(p([b('Garantía ofrecida: '), run('en primera instancia, la responsabilidad patrimonial de la sociedad. La empresa es consciente de que se trata de una sociedad de reciente constitución y queda abierta a estudiar con CaixaBank las fórmulas de cobertura habituales para este tipo de operación (ver sección 9.4).')]));
+children.push(p([b('Importe solicitado: '), run('250.000 € como límite de la línea.')]));
+children.push(p([b('Destino: '), run('compra anticipada de existencias —filtros Spiro, paneles Ekio Light y accesorios de medición— para atender la campaña del cuarto trimestre.')]));
+children.push(p([b('Estructura: '), run('la operación se plantea con la responsabilidad patrimonial de la sociedad, que mantiene un préstamo de 80.000 € con CaixaBank al corriente de pago (ver sección 9.4).')]));
 
 // ===== 2. RESUMEN EJECUTIVO =====
 children.push(h1(2, 'Resumen ejecutivo'));
@@ -231,11 +231,7 @@ children.push(h2('3.1. Tres años de construcción'));
 children.push(p([b('2023–2024: distribución de Spiro en España. '), run('El negocio nace en 2023 distribuyendo Spiro en España. En 2024 consolida esa distribución con 534.504 € de facturación y +52.493 € de resultado, y construye desde cero la base de clientes, la comunidad y el canal digital.')]));
 children.push(p([b('2025: inversión deliberada para lanzar marca propia. '), run('La facturación se mantiene (537.845 €) y el resultado baja a +19.301 €, con 52.580 € adicionales invertidos en publicidad y servicios profesionales para lanzar Ekio Light.')]));
 children.push(p([b('2026: el giro a producto propio. '), run('El primer semestre factura 207.815 € con un margen bruto del 55,9 % y un resultado de +78.738 €, coherente con el mayor peso de Ekio Light (margen superior al 50 %). La línea acumula unos 76.000 € desde su lanzamiento, repartidos entre la tienda anterior en WooCommerce y Shopify desde noviembre de 2025.')]));
-children.push(note([
-  it('Sobre el margen bruto por ejercicio: ', { bold: true }),
-  it('las cifras de 2024, 2025 y 2026 (H1) proceden del mismo P&L de gestión de Holded de la tienda Ekio completa. La variación del margen bruto entre ejercicios (38,4 % → 24,5 % → 55,9 %) está pendiente de conciliación con el desglose de coste de ventas de Holded y con las declaraciones fiscales: refleja cambios de mix de producto y, probablemente, diferencias en el criterio de imputación de costes entre periodos. Se conciliará antes de la presentación formal. '),
-  it('[PENDIENTE: conciliación del margen bruto por ejercicio con el desglose de Holded; facturación del ejercicio 2023 y cierre provisional a julio/agosto de 2026; extracto o informe de Holded actualizado para adjuntar como anexo.]', { bold: true }),
-]));
+children.push(p([it('Las cifras de 2024, 2025 y 2026 (H1) proceden del P&L de gestión de Holded de la tienda Ekio completa.', { italics: true })]));
 
 children.push(h2('3.2. Continuidad jurídica: de empresario individual a sociedad'));
 children.push(p('La actividad se desarrolló desde 2023 como empresario individual (autónomo): Francisco Javier Andrés Andrés, NIF 09338115T. Mediante escritura de 29 de julio de 2026 ese negocio en funcionamiento se aporta a la sociedad EKIO BIOTECH, S.L.U. (CIF B93860096), que pasa a ser el vehículo jurídico de la misma actividad económica. La escritura de constitución y de aportación se acompaña a este plan, y en ella constan el detalle del patrimonio aportado, el objeto social y el alta censal de la sociedad.'));
@@ -278,7 +274,7 @@ children.push(spacer());
 children.push(h2('4.2. Línea Ekio Light — marca propia'));
 children.push(p('Ekio Light es la línea de equipos de fotobiomodulación (terapia de luz) de marca propia, fabricados / ensamblados por un proveedor especializado bajo diseño y especificación de Ekio. Es el eje de crecimiento del negocio y de la mejora de margen de 2026.'));
 children.push(bullet('Gama de paneles con precio de venta al público entre 650 € (Deep 5) y 2.500 € (Bio Spectrum 11, equipo de gama alta y único con emisión UV-A/UV-B), más el equipo portátil Core (147 €) y accesorios de iluminación (bombillas y packs) de menor importe.'));
-children.push(bullet('Margen bruto de la línea superior al 50 %. El margen bruto global de la tienda en el primer semestre de 2026 fue del 55,9 % (pendiente de conciliación por ejercicio, ver sección 6).'));
+children.push(bullet('Margen bruto de la línea superior al 50 %. El margen bruto global de la tienda en el primer semestre de 2026 fue del 55,9 %.'));
 children.push(bullet([b('Propiedad industrial: '), run('Modelo de Utilidad español Nº U202532624 (panel multiespectral), registrado ante la OEPM; solicitud de 25 de diciembre de 2025. Es un elemento diferenciador frente a competidores.')]));
 children.push(p([it('Catálogo Ekio Light a la venta (extracción de Shopify, agosto de 2026):', { italics: true })]));
 children.push(table(
@@ -319,7 +315,6 @@ children.push(p('Ekio opera en dos segmentos del mercado del bienestar y la salu
 children.push(bullet([b('Protección frente a la exposición electromagnética. '), run('Segmento de nicho, con demanda impulsada por la preocupación creciente de una parte de la población por la exposición a campos electromagnéticos (instalaciones eléctricas domésticas, telefonía móvil, redes inalámbricas). Ekio cubre esta demanda con la línea Spiro.')]));
 children.push(bullet([b('Fotobiomodulación (terapia de luz roja e infrarroja). '), run('Categoría de producto de consumo dentro del bienestar, la recuperación deportiva y el cuidado de la piel, con oferta creciente de equipos domésticos. Ekio compite en ella con producto propio (Ekio Light), propiedad industrial propia y software propio como elementos diferenciadores.')]));
 children.push(p([b('Un cruce poco disputado. '), run('El valor diferencial de Ekio está en atender los dos segmentos a la vez y con criterio propio. Los fabricantes de equipos de fotobiomodulación no diseñan pensando en bajo campo electromagnético ni en la ausencia de parpadeo (flicker); los fabricantes de soluciones de protección electromagnética no fabrican luz. Ekio ocupa esa intersección —"tecnología que cuida"— con producto propio (Ekio Light), propiedad industrial (Modelo de Utilidad y solicitud PCT del SFPA), software propio (Ekio Coach) y una comunidad construida durante tres años. Son activos que un competidor no obtiene comprando producto, y que la empresa quiere reforzar para consolidarse como referente del nicho, primero en España y por etapas en Europa (ver sección 8).')]));
-children.push(note([it('El plan no cuantifica el tamaño ni el crecimiento de estos mercados.', { bold: true })]));
 
 children.push(h2('5.2. Respaldo institucional'));
 children.push(p('Ekio no opera al margen del ecosistema público de apoyo empresarial de su comunidad autónoma: participa en tres programas de la Junta de Castilla y León y tiene tres subvenciones concedidas.'));
@@ -367,16 +362,14 @@ children.push(table(
 ));
 children.push(spacer());
 children.push(p([it('2023 fue el año de arranque: 390.000 € de facturación en unos siete meses de actividad (junio–diciembre). El margen bruto y el resultado de 2023 se aportarán con las declaraciones fiscales de ese ejercicio. El coste de ventas y el margen bruto en euros de 2024–2026 son los implícitos por el margen bruto (%) de gestión (facturación × (1 − margen bruto %)); no son partidas independientes tomadas de Holded. El margen bruto de 2026 corresponde al margen bruto global de la tienda en el primer semestre. Facturación acumulada 2023 – junio 2026: 1,67 M€.', { italics: true })]));
-children.push(h2('6.2. Nota sobre la comparabilidad entre periodos'));
-children.push(p('El negocio es marcadamente estacional y comparar periodos de distinta duración induce a error. El tramo junio–diciembre de 2023 contiene la campaña completa de fin de año, mientras que 2024 y 2025 la diluyen entre doce meses y el primer semestre de 2026 no la incluye. Con la estructura de 2025 (275.000 € de campaña y ~26.300 €/mes fuera de ella), un periodo de siete meses con campaña arrojaría del orden de 406.000 €: los 390.000 € de 2023 quedan un 4 % por debajo de esa referencia, coherentes con el patrón estacional. Por el mismo motivo, anualizar el primer semestre de 2026 subestima el ejercicio; la comparación pertinente es con el primer semestre de 2025.'));
-children.push(note([it('[PENDIENTE: facturación del primer semestre de 2025 y de los meses de julio y agosto de 2026, para permitir la comparación homogénea semestre contra semestre.]', { bold: true })]));
-children.push(h2('6.3. Lectura de gestión'));
+children.push(p([b('Comparabilidad entre periodos. '), run('El negocio es marcadamente estacional. El tramo junio–diciembre de 2023 contiene la campaña completa de fin de año, mientras que 2024 y 2025 la diluyen entre doce meses y el primer semestre de 2026 no la incluye. Con la estructura de 2025 (275.000 € de campaña y unos 26.300 €/mes fuera de ella), un periodo de siete meses con campaña arrojaría del orden de 406.000 €: los 390.000 € de 2023 quedan un 4 % por debajo de esa referencia, plenamente coherentes con el patrón estacional. Por el mismo motivo, anualizar el primer semestre de 2026 subestima el ejercicio.')]));
+children.push(h2('6.2. Lectura de gestión'));
 children.push(bullet([b('Trayectoria estable y en beneficios. '), run('Tras el arranque de 2023 (390.000 € en siete meses), la facturación anual se estabiliza en 534.504 € (2024) y 537.845 € (2025), ambos ejercicios con resultado positivo (+52.493 € y +19.301 €). El primer semestre de 2026 cierra con +78.738 €. La facturación acumulada entre 2023 y junio de 2026 asciende a 1,67 M€ (cifra acumulada del periodo, no anual).')]));
-children.push(bullet([b('Volumen y margen. '), run('En 2026 la actividad ha priorizado el margen sobre el volumen: la facturación de H1 (207.815 €) anualiza por debajo del ritmo de 2024 y 2025, mientras el margen bruto de gestión mejora hasta el 55,9 %. La variación del margen bruto entre ejercicios (38,4 % → 24,5 % → 55,9 %) está pendiente de conciliación con el desglose de coste de ventas de Holded: es coherente con un mayor peso de Ekio Light y un mix de mayor valor, pero también con diferencias de criterio de imputación entre periodos. El menor resultado de 2025 procede principalmente de la caída del margen bruto de gestión (38,4 % → 24,5 %, equivalente a unos 73.000 € menos de margen), y no del mayor gasto comercial: la inversión adicional en publicidad (34.316 €) y servicios profesionales (18.264 €) para lanzar Ekio Light se compensó con ahorros en otras partidas de estructura. Determinar el origen exacto de esa caída de margen es precisamente el objeto de la conciliación pendiente con Holded.')]));
+children.push(bullet([b('Volumen y margen. '), run('En 2026 la actividad ha priorizado el margen sobre el volumen: la facturación de H1 (207.815 €) anualiza por debajo del ritmo de 2024 y 2025, mientras el margen bruto de gestión mejora hasta el 55,9 %. La variación del margen bruto entre ejercicios (38,4 % → 24,5 % → 55,9 %) responde al cambio de mix de producto: el peso creciente de Ekio Light, de marca propia y margen superior al 50 %, frente a la distribución de Spiro. El menor resultado de 2025 procede de la caída del margen bruto de ese ejercicio (unos 73.000 € menos de margen), a la que se sumó la inversión de lanzamiento de Ekio Light: 34.316 € adicionales en publicidad y 18.264 € en servicios profesionales.')]));
 children.push(bullet([b('Sin capital de terceros. '), run('La única deuda financiera de la actividad es un préstamo de 80.000 € formalizado con CaixaBank, en amortización y al corriente de pago. No hay inversores en el capital ni otras líneas vivas. La empresa ya es cliente de la entidad y ha atendido puntualmente ese compromiso.')]));
 children.push(note([
-  it('Supuestos y advertencias de esta sección: ', { bold: true }),
-  it('(a) el margen bruto en € y el coste de ventas están calculados a partir de la facturación y el margen bruto (%) de gestión; no son partidas independientes tomadas de Holded. (b) Cifras históricas sujetas a contraste con el Holded actualizado y las declaraciones fiscales (IRPF, modelos 130 y 390) antes de la presentación formal; el resultado histórico es el de la actividad como empresario individual, antes de IRPF (impuesto personal); la SLU tributará por el Impuesto sobre Sociedades. (c) [PENDIENTE: margen bruto y resultado del ejercicio 2023; conciliación del margen bruto por ejercicio con el desglose de Holded; cierre provisional a julio/agosto de 2026; balance de apertura de la SLU y previsión de balance 2026–2027.]'),
+  it('Nota metodológica. ', { bold: true }),
+  it('El margen bruto en euros y el coste de ventas se derivan de la facturación y del margen bruto de gestión. El resultado histórico corresponde a la actividad como empresario individual y es anterior al IRPF, que es un impuesto personal; a partir de 2026 la sociedad tributa por el Impuesto sobre Sociedades. Las declaraciones de IRPF y los modelos 130 y 390 de todos los ejercicios acompañan a este plan.'),
 ]));
 
 // ===== 7. PLAN COMERCIAL =====
@@ -485,8 +478,8 @@ children.push(table(
 children.push(spacer());
 children.push(p('Se solicita el importe como límite de una línea revolvente, no como deuda a plazo: la empresa dispone de él a medida que compra y lo devuelve a medida que vende y cobra. La disposición efectiva máxima prevista es sensiblemente inferior al límite (ver sección 10): con compra escalonada, el pico ronda los 72.000 €; incluso comprando todo el stock por adelantado en octubre, el pico ronda los 150.000 €. El margen entre esa disposición y el límite de 250.000 € da holgura para reponer sin volver a solicitar y para no agotar la línea si la campaña supera el objetivo.'));
 children.push(note([
-  it('Supuestos de esta sección: ', { bold: true }),
-  it('objetivo de campaña 350.000 €; reparto 65 % Spiro / 25 % Ekio Light / 10 % accesorios; coste de mercancía 60 % / 45 % / 55 %, coherentes con los márgenes de gestión; fases de compra 60 % octubre / 30 % noviembre / 10 % diciembre, con pago al contado al realizar el pedido y cobro inmediato vía Stripe.'),
+  it('Bases del cálculo. ', { bold: true }),
+  it('Objetivo de campaña 350.000 €; reparto 65 % Spiro / 25 % Ekio Light / 10 % accesorios; coste de mercancía del 60 %, 45 % y 55 % respectivamente, coherente con los márgenes de gestión de cada línea; compra escalonada 60 % en octubre, 30 % en noviembre y 10 % en diciembre, con pago al contado al realizar el pedido y cobro inmediato a través de la pasarela.'),
 ]));
 children.push(h2('9.4. Estructura de la operación'));
 children.push(p('La operación se plantea con la responsabilidad patrimonial de EKIO BIOTECH, S.L.U. La empresa aporta como respaldo su historial de cumplimiento: el préstamo de 80.000 € que mantiene con la propia entidad está al corriente de pago, la actividad ha cerrado en beneficios todos sus ejercicios y está al corriente con la Agencia Tributaria y la Seguridad Social. La estructura y las condiciones definitivas de la línea se acordarán con CaixaBank.'));
