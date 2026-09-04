@@ -7,8 +7,17 @@ cd ~/Ekio-Claude || exit 1
 REVIEW_BRANCH="shopify-brief-review"
 BRIEF_FILE="loops/shopify-analytics/output/$(date +%Y-%m-%d)-brief.md"
 
-# ASEGURA VOLVER SIEMPRE A main AL SALIR, PASE LO QUE PASE
-trap 'git checkout main >/dev/null 2>&1 || true' EXIT
+# ASEGURA VOLVER SIEMPRE A main AL SALIR, Y AVISA CON UNA NOTIFICACIÓN DE MAC
+# SI EL LOOP FALLÓ POR CUALQUIER MOTIVO (login caducado, MCP sin autorizar,
+# fallo de git, etc.) — PASE LO QUE PASE.
+on_exit() {
+  local exit_code=$?
+  git checkout main >/dev/null 2>&1 || true
+  if [ $exit_code -ne 0 ]; then
+    osascript -e 'display notification "Revisa loops/shopify-analytics/loop.log" with title "Ekio — Loop Shopify falló" sound name "Basso"' >/dev/null 2>&1 || true
+  fi
+}
+trap on_exit EXIT
 
 # EJECUTA EL COMANDO SLASH CON HAIKU, MODO NO INTERACTIVO
 claude -p "/shopify-analisis-semanal" --settings loops/shopify-analytics/settings.json
