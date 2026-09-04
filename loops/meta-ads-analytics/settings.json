@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "model": "haiku",
+  "permissions": {
+    "allow": [
+      "mcp__meta-ads__meta_get_ad_accounts",
+      "mcp__meta-ads__meta_get_campaigns",
+      "mcp__meta-ads__meta_get_adsets",
+      "mcp__meta-ads__meta_get_ads",
+      "mcp__meta-ads__meta_get_insights",
+      "mcp__meta-ads__meta_get_creatives",
+      "Read",
+      "Edit(loops/meta-ads-analytics/output/**)"
+    ]
+  }
+}
