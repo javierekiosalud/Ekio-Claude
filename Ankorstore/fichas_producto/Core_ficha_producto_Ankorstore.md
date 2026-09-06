@@ -36,17 +36,14 @@ Dispositivo local y portátil de fotobiomodulación con 13 LEDs 660+850 nm, bate
 | Material | Cuerpo en aluminio, panel en policarbonato |
 | Vida útil LEDs | >20.000 horas |
 | Dimensiones | 162 × 90 × 45 mm |
+| Certificaciones | Pendiente de confirmar con fabricante (Declaración de Conformidad UE por SKU) |
 | Devolución al consumidor | 30 días |
 
 ### Qué incluye la caja
 
 - Dispositivo Ekio Light Core
 - Cable USB-C de carga
-- Manual de uso en castellano
-- Acceso a App Ekio Coach
-- Guía de Uso Interactiva Ekio System
-
-> Nota para el retailer: la App Ekio Coach y la Guía de Uso van incluidas de serie, no son un extra opcional.
+- Manual de instrucciones — se adapta al idioma del mercado de destino (alemán como prioridad, dado que Alemania es el mercado principal de Ankorstore para Ekio; inglés como alternativa; resto de idiomas UE bajo demanda). Obligación legal real bajo el Reglamento General de Seguridad de los Productos de la UE (GPSR 2023/988, en vigor desde dic/2024).
 
 ### Historia de marca (2-3 líneas)
 Ekio nace de la intersección de dos especialidades: la protección frente a la contaminación electromagnética y la terapia de luz. La gama Ekio Light aplica los mismos criterios de bajo campo electromagnético que Ekio usa en sus estudios de hogar a los propios dispositivos de fotobiomodulación. Diseñado en España por especialistas en electrosmog desde 2011, presente en toda Europa.
@@ -69,6 +66,11 @@ Ekio nace de la intersección de dos especialidades: la protección frente a la 
 
 1. **Pedido mínimo y umbral de envío gratis** — no decidido todavía.
 2. **Fotografía de producto** — el archivo disponible es de estilo de vida; falta foto de producto limpia sobre fondo neutro + foto de packaging cerrado. Coordinar con dirección de arte si no existe.
+3. **Manual de instrucciones en alemán** (prioridad) — obligación GPSR 2023/988, no solo mejor venta. Confirmar con fabricante si existe versión en alemán o hay que producirla.
+4. **WEEE / ElektroG en Alemania** — confirmar con Redflexion quién es el "Inverkehrbringer" (responsable de puesta en mercado en Alemania) y si le corresponde a Ekio o al importador/distribuidor gestionar el WEEE-Reg-Nr. obligatorio para vender en Alemania.
+5. **Reglamento de Baterías UE 2023/1542** — el Core lleva batería interna recargable. Verificar marcado de batería, información de reciclaje y registro en esquemas de recogida antes de vender en Alemania.
+6. **Registro de envases LUCID (VerpackG Alemania)** — lo gestiona logística/Redflexion, pero queda constatado como pendiente antes de la primera venta a un retailer alemán.
+7. **Declaración de Conformidad UE (CE)** — pendiente de confirmar con fabricante; no se afirma en la ficha hasta recibir el documento.
 
 ---
 
@@ -78,7 +80,7 @@ Ekio nace de la intersección de dos especialidades: la protección frente a la 
 Ekio Light Core — Dispositivo portátil de luz roja 660+850 nm, 0 µT, batería USB-C
 
 ### Campo 2 — Descripción corta (vista de catálogo/búsqueda)
-Dispositivo local y portátil de fotobiomodulación con 13 LEDs de 660 nm y 850 nm, campo electromagnético 0 µT verificado y cero flicker. Incluye App Coach y Guía de Uso. Entrada de gama Ekio Light — ticket accesible, diferenciación real en estantería de wellness.
+Dispositivo local y portátil de fotobiomodulación con 13 LEDs de 660 nm y 850 nm, campo electromagnético 0 µT verificado y cero flicker. Cable USB-C incluido. Entrada de gama Ekio Light — ticket accesible (147 € PVP), diferenciación real en estantería de wellness con un argumento técnico que los dispositivos de precio similar no pueden replicar.
 
 ### Campo 3 — Descripción larga
 
@@ -105,11 +107,7 @@ Para el retailer, el Core resuelve tres problemas habituales en la categoría de
 **Contenido de la caja:**
 - Dispositivo Ekio Light Core
 - Cable USB-C
-- Manual de uso en castellano
-- Acceso a App Ekio Coach (guía de uso, rutinas y protocolos por objetivo integrados en la app)
-- Guía de Uso Interactiva Ekio System (protocolos específicos para el Core: zonas, distancias, tiempos y frecuencias)
-
-La App y la Guía no son un extra: van incluidas de serie en cada unidad y forman parte del método Ekio. Para el retailer esto se traduce en menos devoluciones por mal uso y en un argumento de valor añadido en el punto de venta que los competidores de precio similar no pueden ofrecer.
+- Manual de instrucciones (alemán como prioridad de Ankorstore; inglés como alternativa; resto de idiomas UE bajo demanda — obligación GPSR 2023/988)
 
 Ekio nace de la especialización en contaminación electromagnética aplicada a los dispositivos de bienestar. La misma exigencia de bajo campo electromagnético que Ekio aplica en la protección de hogares rige el diseño de la gama Ekio Light: el dispositivo que cuida no añade electrosmog al tejido que está tratando. Diseñado en España, distribuido en Europa.
 
@@ -117,4 +115,4 @@ Ekio nace de la especialización en contaminación electromagnética aplicada a 
 
 ---
 
-*El Modelo de Utilidad español Nº U202532624 no se menciona en esta ficha: protege específicamente al Bio Spectrum 11 (único panel con UV-A/UV-B real), que no forma parte de esta fase de lanzamiento.*
+*El Modelo de Utilidad español Nº U202532624 no aplica al Core — cubre los paneles de la gama (Deep 5, Bio Regén 7 y Bio Spectrum 11), no el dispositivo portátil.*

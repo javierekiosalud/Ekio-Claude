@@ -31,6 +31,7 @@ Bombilla LED de espectro rojo (620-660 nm) diseñada para proteger la producció
 | Uso previsto | Uso doméstico — luz ambiental nocturna, habitación, mesita de noche |
 | Función | Iluminación de transición nocturna y fotobiomodulación ambiental |
 | **Casquillo** | **E27** (confirmado por Javier, 25/ago/2026) |
+| Certificaciones | Pendiente de confirmar con fabricante (Declaración de Conformidad UE por SKU) |
 
 ✅ Casquillo resuelto: **E27**, el estándar europeo — compatible con la mayoría de lámparas de mesa y techo en toda Europa, incluida Alemania.
 
@@ -65,6 +66,11 @@ Ekio nace de la especialización en contaminación electromagnética aplicada a 
 
 1. **Vatios, lúmenes, vida útil** — campos estándar de la categoría iluminación en Ankorstore, pedir a fábrica si el formulario los exige.
 2. Casquillo (E27) y precio ya confirmados — sin pendiente aquí.
+3. **Manual de instrucciones en alemán** — si el producto incluye instrucciones, obligación GPSR 2023/988 de entregarlas en el idioma del país de venta. Confirmar con fabricante.
+4. **WEEE / ElektroG en Alemania** — confirmar con Redflexion quién gestiona el WEEE-Reg-Nr. obligatorio para vender en Alemania.
+5. **Reglamento de etiquetado energético (UE 2019/2015)** — verificar si la bombilla roja califica como excepción por ser luz de espectro especializado (no iluminación general) o si exige etiqueta energética. Pendiente de confirmar con fabricante o asesoría antes de publicar en Ankorstore para mercado alemán.
+6. **Registro de envases LUCID (VerpackG Alemania)** — lo gestiona logística/Redflexion, pero queda constatado como pendiente antes de la primera venta a un retailer alemán.
+7. **Declaración de Conformidad UE (CE)** — pendiente de confirmar con fabricante; no se afirma en la ficha hasta recibir el documento.
 
 ---
 

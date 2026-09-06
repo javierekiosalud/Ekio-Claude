@@ -37,22 +37,19 @@ Panel intermedio-premium de fotobiomodulación con 70 LEDs + 1 COB en 7 longitud
 | Cobertura | Cuerpo completo (rotando posiciones) + iluminación ambiental de estancia |
 | Alimentación | AC 100-240V · 0,5-1,5A (red eléctrica europea) |
 | Certificaciones | CE · RoHS · FCC · WEEE |
+| EMF | Bajo — transformador externo |
+| Modelo de Utilidad | Modelo de Utilidad español Nº U202532624 |
 | Tiempo de sesión | 10-20 minutos por zona |
 | Garantía al consumidor | 30 días devolución + 2 años garantía técnica de hardware |
 
 ⚠️ **Pendiente de ficha técnica de fábrica (no incluir en copy público hasta confirmar):** irradiancia (mW/cm²), potencia total (W), dimensiones y peso, vida útil de los LEDs. El Bio Regén 7 no tiene irradiancia documentada — igual que el Deep 5.
 
-### Qué incluye la caja (el Stack completo del Bio Regén 7)
+### Qué incluye la caja
 
 - Panel Ekio Light Bio Regén 7 (70 LEDs + 1 COB)
-- Bombilla ámbar 1800K (transición nocturna)
-- Manual de uso en castellano
-- Acceso a App Ekio Coach
-- Guía de Uso Interactiva Ekio System (protocolos: circadiano matutino, recuperación deportiva, regeneración estética, acompañamiento del dolor)
-- Bombilla roja Ekio Light
-- Vitamina C + B50 Laittin
+- Manual de instrucciones — se adapta al idioma del mercado de destino (alemán como prioridad, dado que Alemania es el mercado principal de Ankorstore para Ekio; inglés como alternativa; resto de idiomas UE bajo demanda). Obligación legal real bajo el Reglamento General de Seguridad de los Productos de la UE (GPSR 2023/988, en vigor desde dic/2024).
 
-> Es el único SKU de lanzamiento con Stack de cuatro componentes. El cliente no compra un panel: compra un sistema con protocolo de luz completo (mañana, sesión activa, transición nocturna) más suplementación. Eso soporta el precio y reduce la presión sobre el margen.
+> Nota: la bombilla ámbar, la bombilla roja y la Vitamina C+B50 Laittin son parte del Stack de bundling de Shopify (mecánica "precio tachado → gratis" para el consumidor final). No se listan como contenido de la caja en Ankorstore — el retailer compra el panel físico y define su propio margen. Pendiente de confirmar con fabricante si la bombilla ámbar es un accesorio físico de fábrica real; si se confirma, reintroducirla en esta sección.
 
 ### Historia de marca (2-3 líneas)
 Ekio nace de la intersección de dos especialidades: la protección frente a la contaminación electromagnética y la terapia de luz. La gama Ekio Light aplica los mismos criterios de bajo campo electromagnético al diseño de sus paneles. Diseñado en España, distribuido en toda Europa.
@@ -75,8 +72,12 @@ Ekio nace de la intersección de dos especialidades: la protección frente a la 
 
 1. **Ficha técnica de fábrica** — mismo bloqueo que el Deep 5: falta irradiancia, potencia (W), dimensiones/peso. Pedir al fabricante antes de la subida.
 2. **Verificar el SKU activo en Shopify (950€, no el borrador de 970€)** antes de publicar.
-3. **Fotografía del Stack completo** — el Bio Regén 7 es el único de los tres con productos físicos adicionales (bombilla roja, vitaminas). Hace falta una imagen de "qué viene en la caja" con el sistema completo, no solo el panel.
-4. **Pedido mínimo y umbral de envío gratis** — pendiente de decisión.
+3. **Fotografía de producto** — falta foto de producto limpia del panel sobre fondo neutro + foto de packaging. El Stack de Shopify (bombilla ámbar, bombilla roja, vitaminas) no va en la foto de la ficha de Ankorstore.
+4. **Confirmar con fabricante si la bombilla ámbar es accesorio físico de fábrica** (incluida en la caja del fabricante) o parte del Stack de bundling de Shopify. Si es accesorio de fábrica, reintroducirla en el contenido de la caja de esta ficha.
+5. **Pedido mínimo y umbral de envío gratis** — pendiente de decisión.
+6. **Manual de instrucciones en alemán** (prioridad) — obligación GPSR 2023/988, no solo mejor venta. Confirmar con fabricante si existe versión en alemán o hay que producirla.
+7. **WEEE / ElektroG en Alemania** — confirmar con Redflexion quién gestiona el WEEE-Reg-Nr. obligatorio para vender en Alemania.
+8. **Registro de envases LUCID (VerpackG Alemania)** — lo gestiona logística/Redflexion, pero queda constatado como pendiente antes de la primera venta a un retailer alemán.
 
 ---
 
@@ -86,7 +87,7 @@ Ekio nace de la intersección de dos especialidades: la protección frente a la 
 Ekio Light Bio Regén 7 — Panel 7 longitudes de onda, cian 485 nm + IR profundo 940 nm, 70 LEDs + COB
 
 ### Campo 2 — Descripción corta (vista de catálogo/búsqueda)
-Panel de fotobiomodulación con 70 LEDs y 1 COB en 7 longitudes de onda (485 / 630 / 660 / 727 / 810 / 850 / 940 nm). Añade cian 485 nm para regulación circadiana diurna e infrarrojo profundo 940 nm para tejido conectivo — los dos espectros que el Deep 5 no tiene. Incluye Stack completo: App Coach, Guía de Uso, bombilla roja y Vitamina C + B50 Laittin. El sistema de fotobiomodulación más completo del catálogo de lanzamiento Ekio.
+Panel de fotobiomodulación con 70 LEDs y 1 COB en 7 longitudes de onda (485 / 630 / 660 / 727 / 810 / 850 / 940 nm). Añade cian 485 nm para regulación circadiana diurna e infrarrojo profundo 940 nm para tejido conectivo — los dos espectros que el Deep 5 no tiene. Protegido por el Modelo de Utilidad español Nº U202532624. El panel de mayor especificación técnica del catálogo de lanzamiento Ekio.
 
 ### Campo 3 — Descripción larga
 
@@ -94,7 +95,7 @@ El Ekio Light Bio Regén 7 es el panel de fotobiomodulación intermedio de la ga
 
 El primero es el cian 485 nm. Es la longitud de onda del espectro azul-verde que actúa como regulador del ritmo circadiano diurno — la señal que el organismo usa para sincronizar el ciclo cortisol-melatonina durante las horas de luz. Ningún panel en su rango de precio la incluye. Tiene también una función secundaria documentada sobre la flora bacteriana cutánea, relevante en protocolos de piel. El segundo es el infrarrojo 940 nm: la longitud de mayor profundidad de penetración del espectro PBM estándar. Donde el Deep 5 trabaja músculo y articulación desde fuera, el 940 nm llega al tejido conectivo, tendones y músculo profundo — la zona que más tiempo tarda en recuperarse y la que más busca un cliente con lesión crónica o carga deportiva alta.
 
-Para el retailer, la combinación de siete longitudes de onda, COB y Stack completo da un argumento de venta técnico y diferenciador sin necesidad de claims de salud: el producto habla por sus especificaciones frente a cualquier panel de importación del mismo precio en Amazon.
+Para el retailer, la combinación de siete longitudes de onda y el COB da un argumento de venta técnico y diferenciador sin necesidad de claims de salud: el producto habla por sus especificaciones frente a cualquier panel de importación del mismo precio en Amazon.
 
 **Especificaciones técnicas:**
 - 70 LEDs + 1 COB (el COB concentra 660 + 850 nm para dosis local dirigida en zona concreta)
@@ -109,17 +110,11 @@ Para el retailer, la combinación de siete longitudes de onda, COB y Stack compl
 - Sesión recomendada: 10 a 20 minutos por zona
 - Devolución: 30 días con reembolso completo
 - Garantía de hardware: 2 años
+- Modelo de Utilidad español Nº U202532624
 
-**Contenido del sistema completo (todo incluido en el precio):**
+**Contenido de la caja:**
 - Panel Ekio Light Bio Regén 7 (70 LEDs + COB)
-- Bombilla ámbar 1800K (espectro de transición nocturna, protocolo de luz de atardecer)
-- Manual de uso en castellano
-- Acceso a App Ekio Coach (guía de uso, rutinas y protocolos por objetivo)
-- Guía de Uso Interactiva Ekio System (protocolos específicos: circadiano matutino, recuperación deportiva, regeneración estética, acompañamiento del dolor articular)
-- Bombilla roja Ekio Light
-- Vitamina C + B50 Laittin (suplemento de la marca de complementos del ecosistema Ekio)
-
-El Bio Regén 7 es el único SKU del catálogo de lanzamiento con Stack de cuatro componentes. Para el retailer, eso significa que el cliente que compra este panel no se lleva un dispositivo: se lleva un sistema con protocolo de luz completo — mañana, sesión activa y transición nocturna — y suplementación de acompañamiento. El argumento de precio se sostiene solo.
+- Manual de instrucciones (alemán como prioridad de Ankorstore; inglés como alternativa; resto de idiomas UE bajo demanda — obligación GPSR 2023/988)
 
 Ekio nace de la especialización en contaminación electromagnética aplicada al diseño de dispositivos de bienestar. La misma exigencia de bajo campo electromagnético que Ekio aplica en la protección de hogares rige el diseño de la gama Ekio Light. Diseñado en España, distribuido en toda Europa.
 
@@ -127,4 +122,4 @@ Ekio nace de la especialización en contaminación electromagnética aplicada al
 
 ---
 
-*El Modelo de Utilidad español Nº U202532624 no se menciona en esta ficha: protege específicamente al Bio Spectrum 11 (único panel con UV-A/UV-B real), que no forma parte de esta fase de lanzamiento.*
+*El Modelo de Utilidad español Nº U202532624 SÍ aplica al Bio Regén 7. Está listado en la tabla de especificaciones técnicas de la landing oficial del producto y se cita en esta ficha como hecho registral. Sin mención de alcance internacional (PCT no confirmado a fecha de publicación) y sin atribuirle eficacia terapéutica.*

@@ -33,18 +33,16 @@ Panel de terapia de luz con 70 LEDs en 5 longitudes de onda terapéuticas (630 /
 | Tiempo de sesión | 10-20 minutos por zona |
 | Alimentación | Corriente eléctrica (instalación fija, no batería) |
 | Garantía al consumidor | 30 días devolución + 2 años garantía técnica de hardware |
+| Certificaciones | Pendiente de confirmar con fabricante (Declaración de Conformidad UE por SKU) |
+| Modelo de Utilidad | Modelo de Utilidad español Nº U202532624 |
 
 ⚠️ **Pendiente de ficha técnica de fábrica (no incluir en copy público hasta confirmar):** irradiancia (mW/cm²) a distancia de uso, potencia total (W), dimensiones y peso, vida útil de los LEDs, consumo eléctrico. El Deep 5 no tiene irradiancia documentada — a diferencia del Core, que sí la tiene.
 
 ### Qué incluye la caja
 
 - Panel Ekio Light Deep 5
-- Gafas de protección para sesiones
-- Manual de uso en castellano
-- Acceso a App Ekio Coach
-- Guía de Uso Interactiva Ekio System (protocolos específicos: zonas, distancias, tiempos)
-
-> El Stack (app + guía) va de serie en cada unidad. Reduce el riesgo de devoluciones por mal uso y es argumento de servicio postventa frente a Amazon.
+- Gafas de protección para sesiones (accesorio físico de seguridad)
+- Manual de instrucciones — se adapta al idioma del mercado de destino (alemán como prioridad, dado que Alemania es el mercado principal de Ankorstore para Ekio; inglés como alternativa; resto de idiomas UE bajo demanda). Obligación legal real bajo el Reglamento General de Seguridad de los Productos de la UE (GPSR 2023/988, en vigor desde dic/2024).
 
 ### Historia de marca (2-3 líneas)
 Ekio nace de la intersección de dos especialidades: la protección frente a la contaminación electromagnética y la terapia de luz. La gama Ekio Light aplica a sus paneles los mismos criterios de bajo campo electromagnético que Ekio usa en sus estudios de hogar. Diseñado en España por especialistas en electrosmog desde 2011, distribuido en toda Europa.
@@ -68,6 +66,10 @@ Ekio nace de la intersección de dos especialidades: la protección frente a la 
 1. **Ficha técnica de fábrica incompleta** — el bloqueo más importante del Deep 5. Faltan irradiancia, potencia (W), dimensiones/peso, vida útil LEDs. El copy de descripción larga puede publicarse tal cual (no incluye cifras de irradiancia porque no están documentadas — correcto), pero si Ankorstore o un retailer piden ficha técnica formal, habrá un hueco. Pedir estos datos al fabricante antes de subir el catálogo.
 2. **Fotografía de producto** — igual que el Core: falta foto de producto limpia + packaging.
 3. **Pedido mínimo y umbral de envío gratis** — pendiente de decisión.
+4. **Manual de instrucciones en alemán** (prioridad) — obligación GPSR 2023/988, no solo mejor venta. Confirmar con fabricante si existe versión en alemán o hay que producirla.
+5. **WEEE / ElektroG en Alemania** — confirmar con Redflexion quién gestiona el WEEE-Reg-Nr. obligatorio para vender en Alemania.
+6. **Registro de envases LUCID (VerpackG Alemania)** — lo gestiona logística/Redflexion, pero queda constatado como pendiente antes de la primera venta a un retailer alemán.
+7. **Declaración de Conformidad UE (CE)** — pendiente de confirmar con fabricante; no se afirma en la ficha hasta recibir el documento.
 
 ---
 
@@ -77,7 +79,7 @@ Ekio nace de la intersección de dos especialidades: la protección frente a la 
 Ekio Light Deep 5 — Panel de luz roja 5 longitudes de onda, 630·660·727·810·850 nm
 
 ### Campo 2 — Descripción corta (vista de catálogo/búsqueda)
-Panel de fotobiomodulación con 70 LEDs en 5 longitudes de onda terapéuticas (630, 660, 727, 810 y 850 nm) — donde la mayoría de paneles del mercado trabajan con 2. Diseñado para recuperación, bienestar articular y rutina de piel. Incluye App Coach, Guía de Uso y gafas de protección. Ticket medio de alto valor percibido para tiendas de wellness, recuperación deportiva y belleza.
+Panel de fotobiomodulación con 70 LEDs en 5 longitudes de onda terapéuticas (630, 660, 727, 810 y 850 nm) — donde la mayoría de paneles del mercado trabajan con 2. Incluye gafas de protección. Protegido por el Modelo de Utilidad español Nº U202532624. Ticket medio de alto valor percibido para tiendas de wellness, recuperación deportiva y belleza.
 
 ### Campo 3 — Descripción larga
 
@@ -94,15 +96,12 @@ Para el retailer, el Deep 5 resuelve un problema habitual en la categoría de we
 - Alimentación por corriente eléctrica — uso en instalación fija
 - Devolución: 30 días con reembolso completo
 - Garantía de hardware: 2 años
+- Modelo de Utilidad español Nº U202532624
 
 **Contenido de la caja:**
 - Panel Ekio Light Deep 5
-- Gafas de protección para sesiones
-- Manual de uso en castellano
-- Acceso a App Ekio Coach (protocolos de uso, rutinas y guía de objetivos)
-- Guía de Uso Interactiva Ekio System (protocolos específicos para el Deep 5: zonas, distancias y tiempos por objetivo)
-
-La App y la Guía son parte del método Ekio, no un extra. Para el retailer reducen las devoluciones por abandono de protocolo y justifican la diferencia de precio frente a alternativas de importación.
+- Gafas de protección para sesiones (accesorio de seguridad — uso recomendado en toda sesión de panel)
+- Manual de instrucciones (alemán como prioridad de Ankorstore; inglés como alternativa; resto de idiomas UE bajo demanda — obligación GPSR 2023/988)
 
 Ekio nace de la especialización en contaminación electromagnética aplicada a los dispositivos de bienestar. La misma exigencia de bajo campo electromagnético que Ekio aplica en la protección de hogares rige el diseño de la gama Ekio Light: el panel que cuida no añade electrosmog al tejido que está tratando. Diseñado en España, distribuido en Europa.
 
@@ -110,4 +109,4 @@ Ekio nace de la especialización en contaminación electromagnética aplicada a 
 
 ---
 
-*El Modelo de Utilidad español Nº U202532624 no se menciona en esta ficha: protege específicamente al Bio Spectrum 11 (único panel con UV-A/UV-B real), que no forma parte de esta fase de lanzamiento.*
+*El Modelo de Utilidad español Nº U202532624 SÍ aplica al Deep 5. Está listado en la tabla de especificaciones técnicas de la landing oficial del producto. Se cita como hecho registral, sin mención de alcance internacional (PCT no confirmado a fecha de publicación) y sin atribuirle eficacia terapéutica.*
