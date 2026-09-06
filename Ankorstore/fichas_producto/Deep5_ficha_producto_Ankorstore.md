@@ -59,7 +59,7 @@ Ekio nace de la intersección de dos especialidades: la protección frente a la 
 | Plazo de entrega al retailer | ⚠️ PENDIENTE — confirmar con Redflexion |
 | Pago a Ekio | Garantizado por Ankorstore — 60 días aplazado al retailer los asume la plataforma |
 
-> Nota sobre margen: igual que en el Core, el 25% está por debajo del keystone estándar en Ankorstore. En un panel de 650 € el argumento de venta (5 longitudes de onda, Stack incluido, diferenciación contra Amazon) tiene que sostener la decisión de compra del retailer.
+> Nota sobre margen: igual que en el Core, el 25% está por debajo del keystone estándar en Ankorstore. En un panel de 650 € el argumento de venta (5 longitudes de onda, Modelo de Utilidad, diferenciación contra Amazon) tiene que sostener la decisión de compra del retailer.
 
 ### Nota para Paula — pendientes antes de publicar
 

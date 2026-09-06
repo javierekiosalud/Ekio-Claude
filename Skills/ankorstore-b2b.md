@@ -33,16 +33,22 @@ Confirmado 25/ago/2026: se lanza con 3 de los 4 SKUs de Ekio Light. **BioSpectru
 queda fuera de esta primera fase** — ticket demasiado alto para que un retailer lo pruebe sin
 compromiso, y es el único con UV-B real (IEC 62471 obligatorio, ver Módulo 4).
 
-| SKU | PVP Ekio (Shopify) | Incluye en Stack |
-|---|---|---|
-| **Core** | 147 € | App Coach + Guía |
-| **Deep 5** | 650 € | App Coach + Guía |
-| **Bio Regén 7** | 950 € *(no 970€ — ver nota)* | App Coach + Guía + bombilla roja + Laittin Vit C+B50 |
+| SKU | PVP Ekio (Shopify) |
+|---|---|
+| **Core** | 147 € |
+| **Deep 5** | 650 € |
+| **Bio Regén 7** | 950 € *(no 970€ — ver nota)* |
+| **Bombilla LED Roja** *(4º SKU, añadido 25/ago/2026, standalone — no es un accesorio del Stack)* | 25 € |
 
 > Nota de precio: el listado vivo en Shopify de Bio Regén 7 es **950 €**. Existe un producto
 > duplicado en borrador a 970 € — no usarlo. Ver [[project_ekio_light_gama]].
 
-Cuando haya ficha técnica de fábrica y datos de venta en Ankorstore de estos 3, se evalúa
+> ⚠️ **El Stack (App Coach, Guía de Uso, bombilla/vitaminas de regalo) NO se lista como
+> componente comercial en ninguna ficha de Ankorstore** — ver corrección en Módulo 3. Es
+> mecánica de bundling para el consumidor final de Shopify; en B2B el retailer compra el
+> producto físico y una lista aparte de precio/margen, no un "regalo con valor tachado".
+
+Cuando haya ficha técnica de fábrica y datos de venta en Ankorstore de estos 4, se evalúa
 sumar BioSpectrum 11 en una segunda fase.
 
 ---
@@ -120,10 +126,17 @@ decide si lo pone en su estantería. Mismo producto, otro lector, otro copy.
    (perfil de cliente final), qué problema de compra resuelve para la tienda (ej. producto de
    regalo, complemento de gama de bienestar, diferenciador frente a lo que ya vende).
 3. **Especificaciones técnicas verificables** — nº de LEDs, longitudes de onda (nm), materiales,
-   dimensiones, peso, batería/alimentación, garantía (30 días devolución). Sin cifras de dosis
-   si el SKU no tiene irradiancia documentada (ver Módulo 4).
-4. **Qué incluye la caja** — el Stack (App Coach, Guía, extras por SKU) como valor añadido de
-   marca, no como argumento de salud.
+   dimensiones, peso, batería/alimentación, certificaciones (CE/RoHS/FCC/WEEE si están
+   confirmadas — ver Módulo 5), garantía (30 días devolución). Sin cifras de dosis si el SKU no
+   tiene irradiancia documentada (ver Módulo 4).
+4. **Qué incluye la caja** — **solo el contenido físico real**: el dispositivo, sus accesorios
+   físicos de fábrica (cable, gafas de protección si aplica) y el **manual de instrucciones,
+   adaptado al idioma del mercado de destino** (ES/DE/EN/FR según dónde compre el retailer —
+   ver Módulo 5-bis). **El Stack de Shopify (App Ekio Coach, Guía de Uso Interactiva, bombilla
+   o vitaminas "de regalo") NO va aquí.** Es una mecánica de bundling y "precio tachado → gratis"
+   pensada para la conversión del consumidor final en la web — en Ankorstore el retailer compra
+   el producto físico y decide su propio margen; mencionar un Stack de valor añadido de
+   consumidor confunde el argumento de venta B2B y no aporta nada al retailer.
 5. **Story de marca en 2-3 líneas** — quién es Ekio, por qué existe (electrosmog + luz), sin
    reclamar autoridad médica.
 6. **Condiciones comerciales** — precio wholesale, PVP recomendado, pedido mínimo, plazo de
@@ -153,13 +166,24 @@ rige TikTok Shop y el resto del ecosistema — ver `tiktok-shop-growth.md` Módu
 - ❌ Claims de dosis (J/cm², mW/cm²) en SKUs sin ficha técnica de fábrica — **hoy Deep 5 y
   Bio Regén 7 no la tienen** (solo Core), ver [[project_ekio_light_ficha_tecnica]]
 - ❌ "Modelo de Utilidad... protegido en 157 países" — el claim correcto es exactamente
-  **"Modelo de Utilidad español Nº U202532624"**, sin mención de alcance internacional (el PCT
-  aún no está presentado)
+  **"Modelo de Utilidad español Nº U202532624"**, sin mención de alcance internacional
+- ❌ "PCT en tramitación" u otra referencia a estado internacional de la solicitud, salvo que
+  Javier confirme el estado actual en el momento de publicar (ver [[project_pct_srba]]) — no
+  asumir que sigue igual que en jul/2026 solo porque el copy de la landing lo dice
 
 **Sí se puede:**
 - ✅ Bienestar, recuperación, descanso, rutina — categoría establecida
 - ✅ Specs verificables: nm, nº de LEDs, materiales, garantía
 - ✅ Modelo de Utilidad citado como hecho registral, sin atribuirle eficacia
+
+**⚠️ Corrección importante (6/sep/2026) — a qué SKUs aplica el Modelo de Utilidad:**
+El MU **U202532624 cubre los 3 paneles — Deep 5, Bio Regén 7 y Bio Spectrum 11 —, NO solo al
+Bio Spectrum 11.** Fuente verificada directamente en la tabla de especificaciones oficial de
+cada landing: `ekio-deep5-landing/02-COPY-COMPLETO.md` ("Patente: Modelo de Utilidad U202532624")
+y `ekio-bio-regen-7-landing/02-COPY-COMPLETO.md` (misma fila). El **Core NO lo lleva** — es
+explícito en `ekio-core-landing/01-SEO-STRATEGY.md`: *"no citarlo en la PDP del Core salvo que
+Javier confirme que también cubre este dispositivo"*. Tampoco lo lleva la bombilla roja (no es
+un panel). Si en algún momento se usó el criterio contrario en una ficha de Ankorstore, corregir.
 
 Antes de que cualquier ficha llegue a Redflexion para subirla, debe pasar el mismo filtro que
 pasa el contenido de canal público — si hay duda sobre un claim, consultar con
@@ -167,7 +191,7 @@ pasa el contenido de canal público — si hay duda sobre un claim, consultar co
 
 ---
 
-## MÓDULO 5 — Ficha técnica: lo que falta antes de poder listar con specs completas
+## MÓDULO 5 — Ficha técnica y certificaciones: qué hay confirmado por SKU
 
 Solo el **Core** tiene irradiancia medida (>150 mW/cm² en contacto). Deep 5 y Bio Regén 7 no
 la tienen todavía — el propio paquete de Deep 5 lo señala como pendiente. Para Ankorstore esto
@@ -177,17 +201,62 @@ irradiancia: potencia real de salida, distancia de uso recomendada, certificados
 bloqueante para lanzar en Ankorstore con los 3 SKUs elegidos — sí lo sería para el BioSpectrum 11
 (UV-B real, exige IEC 62471 en regla antes de anunciarlo en cualquier canal).
 
+**Certificaciones — no inventar, solo lo que está documentado por fuente:**
+
+| SKU | Certificaciones confirmadas en fuente | Fuente |
+|---|---|---|
+| Bio Regén 7 | CE · RoHS · FCC · WEEE | `ekio-bio-regen-7-landing/02-COPY-COMPLETO.md` |
+| Core | No documentadas en el paquete de landing | — pendiente de confirmar con fabricante |
+| Deep 5 | No documentadas en el paquete de landing | — pendiente de confirmar con fabricante |
+| Bombilla LED Roja | No documentadas | — pendiente de confirmar con fabricante |
+
+Todo producto eléctrico vendido en la UE necesita CE de forma legal, así que es muy probable que
+Core, Deep 5 y la bombilla también la tengan — pero **no se afirma en una ficha B2B sin
+confirmación documental**, porque una declaración de conformidad falsa es un riesgo legal real,
+no un matiz de estilo. Pedir a fabricante la Declaración de Conformidad UE (DoC) de cada SKU
+antes de publicarlos con esa fila rellena.
+
+---
+
+## MÓDULO 5-BIS — Normativa UE aplicable a la venta B2B (relevante para Alemania, mercado principal)
+
+Ankorstore vende en toda Europa; Javier señaló Alemania como mercado principal (25/ago/2026).
+Esto no es solo "poner el copy en alemán": hay obligaciones normativas reales que afectan al
+contenido de la ficha y al material que acompaña al producto. Ninguna de ellas la resuelve este
+skill — son responsabilidad de fabricante/Redflexion/Ekio según el caso — pero conocerlas mejora
+la ficha y da confianza al retailer profesional, que sí las conoce y las pregunta.
+
+| Normativa | Qué exige | Quién la resuelve |
+|---|---|---|
+| **Reglamento General de Seguridad de los Productos (GPSR, UE 2023/988)**, en vigor desde 13/dic/2024 | Instrucciones de uso y advertencias de seguridad **en el idioma que exija el país donde se vende** (alemán para Alemania), datos de contacto del fabricante/responsable en la UE, trazabilidad (lote/referencia). **Es la base normativa real del manual localizado que pidió Javier — no es solo mejor venta, es obligatorio.** | Ekio prepara el contenido del manual; Redflexion/fabricante gestiona la traducción formal si Ekio no la tiene ya |
+| **Marcado CE** | Declaración de Conformidad UE por producto eléctrico. Obligatorio, no opcional. | Fabricante — pedir DoC de cada SKU (ver Módulo 5) |
+| **RoHS** (restricción de sustancias peligrosas) | Declaración de cumplimiento en electrónica | Fabricante |
+| **WEEE / en Alemania ElektroG** | Símbolo del contenedor tachado en el producto; **en Alemania, registro EAR/número WEEE-Reg-Nr. obligatorio para quien pone el producto en el mercado alemán** — puede recaer en Ekio como marca o en el importador/distribuidor según cómo se estructure la venta | Confirmar con Redflexion quién es el "Inverkehrbringer" (responsable de puesta en mercado) en Alemania |
+| **Ley de envases alemana (VerpackG) — registro LUCID** | Registro obligatorio de envases puestos en el mercado alemán, para cualquiera que venda con destino Alemania | Redflexion/logística — no es tarea de contenido |
+| **Reglamento de baterías (UE 2023/1542)** — aplica al **Core** (batería interna recargable) | Marcado de batería, información de reciclaje, registro en esquemas de recogida por país | Fabricante/Redflexion — verificar antes de vender el Core en Alemania |
+| **Etiquetado energético de fuentes de luz (UE 2019/2015)** — aplica potencialmente a la **bombilla roja** | Exige etiqueta energética salvo excepciones para iluminación especializada/no general — a verificar si la bombilla roja califica como excepción por ser luz de espectro específico, no iluminación general | Confirmar con fabricante/asesoría antes de publicar en Ankorstore |
+
+**Aplicación práctica para las fichas de Ankorstore:** cada ficha debe indicar que el manual de
+instrucciones se entrega **adaptado al idioma del país de destino** (alemán como prioridad,
+inglés como alternativa, resto de idiomas UE bajo demanda), y señalar en la nota a Paula qué
+certificaciones/registros normativos concretos (CE, RoHS, WEEE-Reg-Nr. Alemania, LUCID) están
+confirmados y cuáles quedan pendientes de verificar con fabricante antes de la primera venta a
+un retailer alemán.
+
 ---
 
 ## MÓDULO 6 — Checklist de lanzamiento
 
 **Hace Ekio (contenido):**
-- [ ] Ficha de producto Ankorstore para Core, Deep 5, Bio Regén 7 (Módulo 3)
+- [ ] Ficha de producto Ankorstore para Core, Deep 5, Bio Regén 7, Bombilla Roja (Módulo 3) —
+      solo contenido físico + manual, sin Stack de Shopify
 - [ ] Precio wholesale y PVP recomendado por SKU, validado con margen real (Módulo 2)
 - [ ] Fotografía de producto limpia (packaging incluido) — coordinar con el agente de
       dirección de arte si hace falta producir nueva
 - [ ] Condiciones comerciales propias: pedido mínimo, descuento por volumen
-- [ ] Paso de compliance (Módulo 4) antes de entregar a Redflexion
+- [ ] Paso de compliance de claims (Módulo 4) antes de entregar a Redflexion
+- [ ] Manual de instrucciones preparado en el idioma del mercado de destino — alemán como
+      prioridad (Módulo 5-bis, obligación GPSR, no solo mejor venta)
 
 **Hace Redflexion (técnico/operativo):**
 - [ ] Alta de cuenta de marca en Ankorstore
@@ -195,6 +264,9 @@ bloqueante para lanzar en Ankorstore con los 3 SKUs elegidos — sí lo sería p
 - [ ] Configuración de envíos, logística, gestión de pedidos entrantes
 - [ ] Cualquier requisito de onboarding específico de Ankorstore (verificación de marca, IVA
       intracomunitario, etc.)
+- [ ] Confirmar con fabricante: Declaración de Conformidad CE por SKU, registro WEEE/ElektroG
+      en Alemania, registro de envases LUCID (Módulo 5-bis) — antes de la primera venta a un
+      retailer alemán
 
 **Entregable a Paula:** un documento por SKU con ficha de producto + precio wholesale + PVP
 recomendado + fotos, listo para que ella lo suba. No se le entrega copy de Shopify sin adaptar.
