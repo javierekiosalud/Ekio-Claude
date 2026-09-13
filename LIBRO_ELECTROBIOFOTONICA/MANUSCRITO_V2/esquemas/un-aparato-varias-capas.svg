@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Un mismo aparato puede participar en varias capas</title>
+  <desc id="desc">Un teléfono en carga relacionado con radiofrecuencia, campo eléctrico, perturbaciones de red y luz de pantalla.</desc>
+  <rect width="1600" height="900" fill="#ffffff"/>
+  <text x="800" y="72" text-anchor="middle" font-family="Arial, sans-serif" font-size="44" font-weight="700" fill="#17202a">UN APARATO, VARIAS CAPAS</text>
+  <text x="800" y="116" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#4d5966">Ejemplo: un teléfono móvil mientras se está cargando</text>
+
+  <g font-family="Arial, sans-serif">
+    <rect x="650" y="220" width="300" height="500" rx="42" fill="#f7f8fa" stroke="#17202a" stroke-width="8"/>
+    <rect x="690" y="285" width="220" height="340" rx="12" fill="#dbeef2" stroke="#246b7a" stroke-width="4"/>
+    <circle cx="800" cy="671" r="22" fill="#ffffff" stroke="#17202a" stroke-width="5"/>
+    <rect x="745" y="246" width="110" height="14" rx="7" fill="#17202a"/>
+    <path d="M800 720 v70 h-155" fill="none" stroke="#17202a" stroke-width="9" stroke-linecap="round"/>
+    <rect x="530" y="757" width="115" height="66" rx="12" fill="#ffffff" stroke="#17202a" stroke-width="6"/>
+
+    <path d="M670 350 C500 285 440 245 340 230" fill="none" stroke="#6a4c93" stroke-width="6"/>
+    <circle cx="250" cy="215" r="72" fill="#ffffff" stroke="#6a4c93" stroke-width="7"/>
+    <text x="250" y="231" text-anchor="middle" font-size="48" font-weight="700" fill="#6a4c93">R</text>
+    <text x="90" y="330" font-size="28" font-weight="700" fill="#17202a">Radiofrecuencia</text>
+    <text x="90" y="370" font-size="23" fill="#4d5966">Red celular · Wi-Fi · Bluetooth</text>
+
+    <path d="M655 540 C500 570 440 610 350 650" fill="none" stroke="#246b7a" stroke-width="6"/>
+    <circle cx="250" cy="680" r="72" fill="#ffffff" stroke="#246b7a" stroke-width="7"/>
+    <text x="250" y="696" text-anchor="middle" font-size="48" font-weight="700" fill="#246b7a">E</text>
+    <text x="90" y="800" font-size="28" font-weight="700" fill="#17202a">Campo eléctrico</text>
+    <text x="90" y="840" font-size="23" fill="#4d5966">Cable y cargador conectados</text>
+
+    <path d="M930 350 C1100 285 1160 245 1260 230" fill="none" stroke="#a15c25" stroke-width="6"/>
+    <circle cx="1350" cy="215" r="72" fill="#ffffff" stroke="#a15c25" stroke-width="7"/>
+    <text x="1350" y="231" text-anchor="middle" font-size="48" font-weight="700" fill="#a15c25">L</text>
+    <text x="1140" y="330" font-size="28" font-weight="700" fill="#17202a">Luz y atención</text>
+    <text x="1140" y="370" font-size="23" fill="#4d5966">Pantalla · brillo · notificaciones</text>
+
+    <path d="M945 540 C1100 570 1160 610 1250 650" fill="none" stroke="#3b7d44" stroke-width="6"/>
+    <circle cx="1350" cy="680" r="72" fill="#ffffff" stroke="#3b7d44" stroke-width="7"/>
+    <text x="1350" y="696" text-anchor="middle" font-size="48" font-weight="700" fill="#3b7d44">D</text>
+    <text x="1130" y="800" font-size="28" font-weight="700" fill="#17202a">Perturbaciones de red</text>
+    <text x="1130" y="840" font-size="23" fill="#4d5966">Electrónica del cargador</text>
+  </g>
+</svg>
+

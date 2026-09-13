@@ -139,6 +139,8 @@ Empieza sin comprar nada. Mira a tu alrededor: un cargador enchufado que ya no c
 
 No te voy a dar una lista interminable de aparatos. Prefiero que aprendas a reconocer las fuentes, a valorar la distancia y el tiempo, y a elegir un cambio que puedas mantener.
 
+![Figura P.1 · El camino que dio origen a este libro](esquemas/camino-electrobiofotonica.svg)
+
 > **FIGURA P.1 · El camino que dio origen a este libro.** Línea con seis pasos: 2011 EKIO · Escuchar (SQM y EHS) · Observar casas · Integrar SPIRO · Crear EKIO Light · Compartir (este libro). Debajo, la pregunta que recorre todo: "¿Cómo preparamos un entorno que acompañe al organismo?". Referencia de contenido: esquema Codex `camino-electrobiofotonica`.
 
 Primero quitamos lo que sobra. Después alejamos lo que debe seguir funcionando. Revisamos la instalación y medimos si hace falta. Y a partir de ahí, valoramos qué soluciones encajan en cada casa.
@@ -189,6 +191,8 @@ Imagina una rueda de enfoque. Con un giro ves una habitación; con otro, una cé
 - **Nanoescala:** membranas, proteínas, moléculas. Un nanómetro es la milmillonésima parte de un metro.
 - **Ondas:** aquí no medimos tamaños, sino cuántas veces por segundo oscila algo (frecuencia) y cuánto mide cada oscilación (longitud de onda).
 
+![Figura 1.1 · Cuatro lentes para mirar lo invisible](esquemas/cuatro-escalas-observacion.svg)
+
 > **FIGURA 1.1 · Cuatro lentes para mirar lo invisible.** Cuatro tarjetas: casa, célula, molécula, onda. Al pie: "1 mm = 1000 µm · 1 µm = 1000 nm · la luz visible va de unos 380 a 700 nm". Referencia Codex: `cuatro-escalas-observacion`.
 
 Las tres primeras describen tamaños. La cuarta ordena el espectro. Una proteína y una onda pueden medirse en nanómetros aunque estemos midiendo cosas distintas.
@@ -201,11 +205,15 @@ El móvil, el Wi-Fi, el Bluetooth y muchos radares usan bandas de radio y microo
 
 La luz visible ocupa, más o menos, de 380 a 700 nanómetros: violeta en un extremo, rojo en el otro. Después del rojo viene el infrarrojo, que no vemos pero sentimos como calor. Antes del violeta viene el ultravioleta.
 
+![Figura 1.2 · El espectro electromagnético](esquemas/espectro-electromagnetico.svg)
+
 > **FIGURA 1.2 · El espectro electromagnético.** Banda continua de radio a gamma con la franja visible en color. Tres recuadros: "Red eléctrica 50 Hz", "Radar · móvil · Wi-Fi", "Lo que ven tus ojos". Debajo, la línea "no ionizante / ionizante" con la frontera en el ultravioleta alto. Referencia Codex: `espectro-electromagnetico`.
 
 El dibujo ordena frecuencias, no peligros. Los rayos X, los gamma y el ultravioleta más energético pueden romper enlaces en la materia: son radiación ionizante. La radiofrecuencia, el infrarrojo y la luz visible no lo son. Para valorar una exposición hacen falta, además, intensidad, frecuencia, tiempo y condiciones.
 
 ## Cuatro cosas que conviene separar
+
+![Figura 1.3 · Las cuatro capas de tu casa](esquemas/cuatro-capas-casa.svg)
 
 > **FIGURA 1.3 · Las cuatro capas de tu casa.** Cuadrícula con E (campo eléctrico), M (campo magnético), R (radiofrecuencia) y D (electricidad sucia), cada una con su icono, su color y un ejemplo. **Este código de cuatro letras y cuatro colores se repite idéntico en todo el libro.** Referencia Codex: `cuatro-capas-casa`.
 
@@ -251,6 +259,8 @@ Un aparato puede funcionar bien y generar ruido por su diseño. Si además está
 
 ## Un aparato puede aparecer cuatro veces
 
+![Figura 1.4 · Un aparato, varias capas](esquemas/un-aparato-varias-capas.svg)
+
 > **FIGURA 1.4 · Un aparato, varias capas.** Un móvil cargando en el centro; alrededor, R (red móvil, Wi-Fi, Bluetooth), E (cable y cargador), D (electrónica del cargador) y L (luz de la pantalla). Nota: la L no es una capa del código; es la señal de hora que damos al cuerpo. Referencia Codex: `un-aparato-varias-capas`.
 
 El móvil transmite por varias redes; su cargador añade un cable con tensión y puede meter ruido; la pantalla da luz. La inducción combina electrónica de potencia y campo magnético. El microondas usa radiofrecuencia dentro de su caja y lleva otros componentes.
@@ -260,6 +270,8 @@ Por eso trabajaremos por capas y por uso. Alejarse siempre reduce, aunque no hay
 ## Cuatro medidores, cuatro preguntas
 
 En EKIO usamos varios instrumentos, cada uno para una pregunta. Te los enseño no para que los compres, sino para que veas que esas cuatro capas son cosas distintas que se miden de formas distintas.
+
+![Figura 1.5 · Los instrumentos que usamos en EKIO](esquemas/medidores-campos-ekio-original.jpg)
 
 > **FIGURA 1.5 · Los instrumentos que usamos en EKIO.** Fotografía cenital sobre fondo neutro, de izquierda a derecha: medidor de radiofrecuencia de banda ancha (Safe and Sound Pro II), medidor triaxial de radiofrecuencia (LATNEX HF-B8G), medidor de campo eléctrico y magnético (Mastfuyi FY876) y medidor de ruido en la línea (LHY Audio Line EMI Meter). Pie: "Instrumentos que usamos como referencia; los modelos cambian".
 
@@ -279,6 +291,8 @@ La luz del sol llega mezclada: oscila en todas las orientaciones a la vez y camb
 
 Algunos investigadores proponen que esa diferencia importa: una oscilación siempre en la misma dirección empujaría a los iones de nuestras células (calcio, magnesio, cargas eléctricas pequeñísimas) de forma coordinada, como una ola de estadio, mientras que la mezcla natural los deja tranquilos. Es una hipótesis, con experimentos a favor y en contra. Y es la que usa el fabricante de SPIRO para explicar lo que hace su material: desordenar esa orientación fija para que la señal siga llegando pero deje de empujar en una sola dirección.
 
+*[Figura 1.6 · Una cuerda y una valla — figura nueva, pendiente de Mauro Arroyo]*
+
 > **FIGURA 1.6 · Una cuerda y una valla.** Tres viñetas: (1) cuerda oscilando en vertical y en horizontal, con la valla que solo deja pasar una; (2) sol con ondas en todas las orientaciones frente a antena con ondas todas iguales; (3) iones en una célula: empujones en todas direcciones (se quedan quietos) frente a empujones siempre en la misma dirección (se mueven en bloque). Rótulo: "Hipótesis: así explican algunos investigadores y el fabricante de SPIRO la diferencia entre campos naturales y artificiales". Figura nueva.
 
 No necesitas creer ni descreer nada para seguir con este libro. Te lo cuento porque es la idea que hay detrás de la palabra "polarización" cuando la leas en una ficha. Para quien quiera profundizar, la nota al final del libro recoge los trabajos a favor y en contra.
@@ -286,6 +300,8 @@ No necesitas creer ni descreer nada para seguir con este libro. Te lo cuento por
 Lo que haces con esto hoy: nada todavía. Identificar, apagar lo que sobra y ganar distancia va primero.
 
 ## El objetivo: crear un Oasis Electromagnético
+
+![Figura 1.7 · Método OASIS](esquemas/metodo-oasis.svg)
 
 > **FIGURA 1.7 · Método OASIS.** Cinco círculos en línea: O Observa · A Aleja o apaga · S Sanea · I Integra · S Sincroniza. Pie: "Un espacio revisado hoy puede necesitar otra revisión mañana". Referencia Codex: `metodo-oasis`.
 
@@ -298,6 +314,8 @@ Lo que haces con esto hoy: nada todavía. Identificar, apagar lo que sobra y gan
 ## Receta 1 — Dibuja el mapa invisible de tu casa
 
 **Necesitas:** una hoja, un lápiz, quince minutos. **Resultado:** una zona elegida y tres cambios. El plano localiza fuentes; no mide campos.
+
+![Figura 1.8 · Mapa invisible de casa, ejemplo](esquemas/mapa-invisible-casa-ejemplo.svg)
 
 > **FIGURA 1.8 · Mapa invisible de casa, ejemplo.** Planta de un piso con dormitorio, habitación infantil, baño, salón, cocina, despacho y entrada. Letras E, M, R, D con los mismos colores de la figura 1.3 sobre lámpara, regleta, móvil, router, inducción, microondas, frigorífico, cuadro e inversor. Elipses discontinuas en cama, sofá y escritorio ("zona de permanencia"). El dormitorio rayado: "primer Oasis". Leyenda a la derecha. Referencia Codex: `mapa-invisible-casa-ejemplo`, con el código de color corregido.
 
@@ -316,6 +334,8 @@ Coge el mapa y ven conmigo. Vamos al dormitorio, la cocina, el salón y el despa
 
 En el dormitorio importa la permanencia. En la cocina, la cercanía mientras las cosas funcionan. En el salón, la acumulación. En el despacho, la jornada entera.
 
+![Figura 2.1 · Cuatro habitaciones, cuatro prioridades](esquemas/cuatro-habitaciones-oasis.svg)
+
 > **FIGURA 2.1 · Cuatro habitaciones, cuatro prioridades.** Cuatro tarjetas (dormitorio: noche y tiempo; cocina: uso y distancia; salón: descanso y acumulación; despacho: jornada y cercanía), cada una con "qué revisar" y "primer cambio". Referencia Codex: `cuatro-habitaciones-oasis`.
 
 Lleva las cinco preguntas de OASIS: ¿qué veo?, ¿qué puedo alejar o apagar?, ¿qué hay que revisar?, ¿qué tecnología conservo?, ¿cómo organizo la luz y el descanso?
@@ -325,6 +345,8 @@ Lleva las cinco preguntas de OASIS: ¿qué veo?, ¿qué puedo alejar o apagar?, 
 La casa no necesita la misma luz a todas horas. Antes de amanecer puedes empezar con luz tenue y cálida, suficiente para vestirte y moverte con seguridad. Cuando llegue el día, busca el exterior. Al acercarse la noche, baja la intensidad.
 
 Aquí entran las dos bombillas que más recomiendo en este libro. La **amarilla de 1800 K** es una luz muy cálida, como la de una vela grande: la "K" es la temperatura de color, y cuanto más bajo el número, más anaranjada y menos azul es la luz. La **roja DUSK** es para los últimos momentos del día y para orientarte de noche.
+
+![Figura 2.2 · La casa también cambia de luz](esquemas/transicion-luz-ekio-hogar.svg)
 
 > **FIGURA 2.2 · La casa también cambia de luz.** Línea del día en cuatro tarjetas: antes de amanecer (amarilla o roja, suave), día (sal fuera), anochecer (baja intensidad, amarilla 1800 K), últimas horas (roja DUSK). Pie: "Las bombillas iluminan; los paneles hacen sesiones". Referencia Codex: `transicion-luz-ekio-hogar`.
 
@@ -517,6 +539,8 @@ El de 1973 tenía una misión. El tuyo cambia de trabajo continuamente. Vamos a 
 
 Con la pantalla apagada puede estar casi quieto o intercambiando datos. En una llamada, una descarga o una videollamada, cambia. Y adapta su potencia a la cobertura: con mala señal, transmite con más fuerza para mantener el enlace.
 
+![Figura 3.1 · El móvil cambia de papel](esquemas/el-movil-cambia-de-papel.svg)
+
 > **FIGURA 3.1 · El móvil cambia de papel.** Cuatro escenas: en reposo, videollamada, poca cobertura, punto de acceso. Pie: "Antes de actuar pregunta: ¿qué está haciendo, a qué distancia y durante cuánto tiempo?". Referencia Codex: `el-movil-cambia-de-papel`.
 
 Cuatro escenas: espera sobre una mesa; videollamada a un palmo; envío de un vídeo con poca cobertura; punto de acceso para el ordenador. En la última mantiene la conexión con la antena y crea un Wi-Fi: se ha convertido en un pequeño router.
@@ -572,6 +596,8 @@ Primero resuelvo lo evitable: aparatos innecesarios, proximidad y problemas de i
 | Zonas urbanas muy densas o personas que refieren alta sensibilidad | Disc X o Disc Ultra, según la valoración del lugar |
 | Ruido medido en la línea eléctrica | Stroom Master, un filtro que se enchufa |
 
+![Figura 3.2 · Elige la conexión y revisa tus opciones](esquemas/ruta-conexion-y-spiro.svg)
+
 > **FIGURA 3.2 · Elige la conexión y revisa tus opciones.** Árbol de decisión: ¿necesitas conexión ahora? No: apaga o modo avión. Sí: ¿puedes usar cable? Sí: Ethernet. No: elige una red y aleja la fuente. Debajo, los cuatro formatos: Card (móvil), Square (equipo), Disc (espacio, delante del router), Stroom Master (línea). Referencia Codex: `ruta-conexion-y-spiro`, con "Stroom Master" completo.
 
 ### Por qué el Disc va delante del router
@@ -626,6 +652,8 @@ En 2025, Joaquín Machado, el creador de SPIRO, publicó una exploración de dos
 
 Si conduces muchas horas (taxi, reparto) y notas dolor de cabeza o malestar, revisa jornada, postura, ventilación y descanso además del vehículo. Esos síntomas merecen atención; no permiten culpar a la batería.
 
+![Figura 3.3 · Un coche eléctrico también tiene un mapa](esquemas/mapa-coche-electrico-spiro.svg)
+
 > **FIGURA 3.3 · Un coche eléctrico también tiene un mapa.** Planta reconocible de un coche (ruedas, parabrisas) con motor e inversor delante, batería bajo los asientos, cuatro ocupantes. A un lado: "Propuesta de EKIO: tres Square X, o un Disc X". Pie: "Fijación segura · pedales y airbags libres · mide un acompañante, no el conductor". Referencia Codex: `mapa-coche-electrico-spiro`, rehecho para que parezca un coche.
 
 ## Receta 4 — Revisa un coche eléctrico
@@ -668,6 +696,8 @@ Una lámpara te permite leer y, aun así, da muchísima menos luz que la calle. 
 En 2013, Kenneth Wright y su equipo se llevaron a ocho adultos una semana de acampada, con luz natural de día y oscuridad de noche, sin electricidad. Su reloj interno, medido por la melatonina, se alineó con el sol. Fue una semana entera de condiciones, no una salida de tres minutos.
 
 La acción doméstica es sencilla: acerca tus actividades a la luz del día y añade salidas que puedas repetir. Trabajar junto a una ventana ayuda; caminar fuera cambia además la intensidad, la distancia a la que miras y el movimiento.
+
+![Figura 4.1 · El reloj diario de luz, tierra y tecnología](esquemas/reloj-natural-diario.svg)
 
 > **FIGURA 4.1 · El reloj diario de luz, tierra y tecnología.** Franja del día de noche a noche, con cuatro tarjetas: antes del amanecer (empieza suave), primera luz (encuentra el cielo), día (sal, muévete, pisa tierra), anochecer (baja la señal de día). Referencia Codex: `reloj-natural-diario`, unificando con la figura 2.2.
 
@@ -712,6 +742,8 @@ El grounding es el contacto conductor entre tu cuerpo y la Tierra. Cambia la ten
 Algunos estudios pequeños han explorado efectos sobre el sueño, el cortisol o el ritmo cardíaco: doce personas en 2004, veintiocho en 2010, en trabajos de investigadores vinculados al movimiento del grounding. Su tamaño limita lo que se puede concluir.
 
 Yo lo incluyo como lo que es: un contacto natural que acompaña al paseo y al descanso fuera. Si te resulta agradable y es seguro, hazlo. No hace falta atribuirle todos los efectos de estar al aire libre.
+
+![Figura 4.2 · Qué cambia al tocar tierra](esquemas/grounding-paraguas-natural.svg)
 
 > **FIGURA 4.2 · Qué cambia al tocar tierra.** Dos figuras humanas junto a un cable con tensión: una sobre suela aislante (puede aparecer tensión inducida en el cuerpo), otra descalza sobre hierba (esa tensión baja). Arriba, un router: "la radiofrecuencia sigue presente en los dos casos". Pie: "Menos tensión respecto a tierra no es protección sanitaria; el grounding no sustituye la revisión eléctrica". Referencia Codex: `grounding-paraguas-natural`, sin que las curvas tapen el texto.
 
@@ -808,6 +840,8 @@ Un ejemplo con números inventados para que la cuenta sea fácil: si a la distan
 
 El ejemplo enseña a calcular; no te dice qué dosis necesitas tú. Eso lo dice la guía de tu modelo. Y si el panel funciona en modo pulsado (se enciende y apaga muy rápido), hace falta saber la irradiancia media. Copiar los minutos de otro panel es como copiar el tiempo de una receta y cambiar el horno de 160 a 250 grados.
 
+![Figura 5.1 · Anatomía de una sesión de fotobiomodulación](esquemas/anatomia-sesion-pbm.svg)
+
 > **FIGURA 5.1 · Anatomía de una sesión de fotobiomodulación.** Cinco tarjetas: longitud de onda (¿qué luz?), irradiancia (¿cuánta llega y desde dónde?), tiempo, superficie, objetivo. Debajo, la fórmula y el ejemplo con números inventados. Pie: "Mismos minutos no es misma dosis si cambian la potencia, la distancia o el modo". Referencia Codex: `anatomia-sesion-pbm`, con el nuevo ejemplo.
 
 ## Qué hace la luz cuando llega al tejido
@@ -817,6 +851,8 @@ Algunas moléculas absorben la luz y ponen en marcha cambios en el metabolismo y
 En 2017, un equipo comparó distintos colores sobre células madre humanas en cultivo: el rojo de 660 nm y el infrarrojo de 810 nm favorecieron que se multiplicaran; el azul y el verde, no. Era un experimento con células, no una prueba de que cada color regenere un órgano.
 
 El mecanismo exacto se sigue afinando. En 2021, dos investigadores no encontraron el aumento de consumo de oxígeno que se esperaba al iluminar la enzima mitocondrial más citada. Por eso conviene hablar de varios mecanismos posibles y no de un interruptor universal.
+
+*[Figura 5.2 · Qué hace la luz en el tejido — figura nueva, pendiente de Mauro Arroyo]*
 
 > **FIGURA 5.2 · Qué hace la luz en el tejido.** Corte de piel con la luz entrando; una célula con su mitocondria; flechas "luz → moléculas que la absorben → cambios en la energía y la señalización". Rótulo: "Varios mecanismos en estudio, no un interruptor". Figura nueva.
 
@@ -852,6 +888,8 @@ Te presento la familia como familia, sin números de irradiancia ni recuentos de
 - **Deep 5.** El panel de rojo e infrarrojo con cinco longitudes de onda y modos separados. Para sesiones sobre zonas más amplias, a la distancia que indique su guía.
 - **Bio Regén 7.** Añade un cian y un infrarrojo más profundo, y un módulo central para concentrar la luz sobre una zona. El cian se relaciona con la sensibilidad de la retina para el reloj del día; eso no convierte el panel en una lámpara para mirar. No mires sus LED. Para la señal de día, la primera opción de esta guía sigue siendo salir.
 - **Bio Spectrum 11.** El más amplio: cuatro circuitos que van del ultravioleta al infrarrojo. Su bloque de ultravioleta, violeta y cian se enciende junto. Ese bloque queda fuera de todas las recetas domésticas de este libro: la fototerapia ultravioleta requiere valoración profesional porque puede dañar piel y ojos. Para una sesión roja o infrarroja, comprueba que ese circuito está apagado.
+
+![Figura 5.3 · La familia EKIO Light](esquemas/mapa-paneles-ekio-light.svg)
 
 > **FIGURA 5.3 · La familia EKIO Light.** Cuatro siluetas de menor a mayor (Core, Deep 5, Bio Regén 7, Bio Spectrum 11) sobre tres franjas de color: rojo, infrarrojo, cian; el Bio Spectrum añade una franja ultravioleta marcada "fuera de las recetas domésticas". Sin cifras. Pie: "Los datos de cada modelo, en su ficha vigente". Referencia Codex: `mapa-paneles-ekio-light`, simplificado.
 
@@ -954,6 +992,8 @@ El móvil que usas como cámara improvisada tampoco va en la cuna. Si tiene que 
 
 Mira después la pared de detrás de la cama. Puede compartir tabique con el cuadro eléctrico, el frigorífico, el router o un despacho lleno de fuentes. Ver un aparato en la pared de al lado no te dice cuánto llega a la cama; solo medir lo dice.
 
+![Figura 6.1 · Dormitorio infantil: del acumular al organizar](esquemas/oasis-dormitorio-infantil.svg)
+
 > **FIGURA 6.1 · Dormitorio infantil: del acumular al organizar.** Antes: móvil en la cama, vigilabebés pegado, router en la habitación, regleta junto al colchón, cables bajo la cama. Después: zona de descanso despejada, luz gradual, monitor estable y lejos, dispositivos fuera, router fuera del dormitorio. Referencia Codex: `oasis-dormitorio-infantil`, sin textos tapados.
 
 ## Receta 1 — Convierte su dormitorio en un Oasis Electromagnético
@@ -978,6 +1018,8 @@ Rara vez preguntamos:
 —¿Cuánto cielo has visto hoy?
 
 En 2015, Mingguang He y su equipo publicaron un ensayo con niños de seis años de doce colegios de Guangzhou, en China. A seis colegios les añadieron cuarenta minutos diarios de clase al aire libre y animaron a las familias a salir también. Tres años después, la miopía había aparecido en el 30,4 % de los niños que salían más y en el 39,5 % de los que seguían su rutina.
+
+![Figura 6.2 · Más tiempo fuera, menos miopía](esquemas/exterior-y-miopia.svg)
 
 > **FIGURA 6.2 · Más tiempo fuera, menos miopía.** Dos barras horizontales sobre una escala de 0 a 100 %: "Más actividad exterior: 30,4 % (259 de 853 niños)" y "Rutina habitual: 39,5 % (287 de 726 niños)". Pie: "He et al., JAMA 2015. Doce colegios, tres años. Un resultado sobre aparición de miopía; no cura una miopía existente". Referencia Codex: `exterior-y-miopia`.
 
@@ -1022,6 +1064,8 @@ La Asociación Española de Pediatría actualizó en 2024 sus recomendaciones: n
 **Necesitas:** al menor, un papel y quince minutos. **Resultado:** seis reglas escritas por los dos.
 
 Escribe estas reglas con él. No las escondas en un discurso de cuarenta minutos.
+
+![Figura 6.3 · El pacto del primer móvil](esquemas/pacto-primer-movil.svg)
 
 > **FIGURA 6.3 · El pacto del primer móvil.** Cinco tarjetas: tiene casa, tiene horario, tiene distancia, tiene conexiones, accesorios. Debajo: "La regla que sostiene las cinco: si el móvil interrumpe el sueño, la conversación o la seguridad, se revisa el pacto". Referencia Codex: `pacto-primer-movil`.
 
@@ -1103,6 +1147,8 @@ En cada uno busca:
 - cámaras, comederos, bebederos y juguetes conectados.
 
 Una cama bajo la mesa puede quedar a pocos centímetros de la regleta y del cargador del portátil. Un gato que duerme sobre un mueble puede estar pegado al router que nosotros consideramos "alto y apartado". La distancia se mide desde el animal, no desde nuestros ojos.
+
+![Figura 7.1 · El mapa de las tres siestas](esquemas/mapa-oasis-mascota.svg)
 
 > **FIGURA 7.1 · El mapa de las tres siestas.** Planta con cocina (primer sol junto a la ventana, cargador cerca), salón (sofá favorito, router detrás), despacho (regleta bajo la mesa) y dormitorio (cama nocturna, base de carga al lado). A la derecha: observar, alejar o apagar, medir, integrar. Referencia Codex: `mapa-oasis-mascota`, con textos sin cortar.
 
@@ -1193,6 +1239,8 @@ Imagina que intentas iluminar una mesa a través de una cortina. El color, el gr
 En 2020, Lindsay Hochman-Elam y su equipo midieron cuánta luz de dos láseres atravesaba los tejidos de 47 perros sanos. La longitud de onda, la potencia, el color del pelo y el rasurado influyeron. Pasó menos luz por las zonas oscuras y sin rasurar. Curiosamente, la longitud del pelo no fue lo que más importó.
 
 No rasures ni subas la potencia por tu cuenta. Lleva esta pregunta al veterinario: "¿el pelaje y la zona que queremos tratar permiten aplicar el protocolo con este equipo?".
+
+![Figura 7.2 · De un panel a una sesión veterinaria](esquemas/sesion-pbm-mascota.svg)
 
 > **FIGURA 7.2 · De un panel a una sesión veterinaria.** Cinco pasos: diagnóstico, tejido objetivo, pelo y piel, parámetros, supervisar. Tres reglas: los minutos de otro aparato no se transfieren; los ojos y el movimiento cambian la colocación; el ultravioleta queda fuera. Referencia Codex: `sesion-pbm-mascota`.
 
@@ -1342,6 +1390,8 @@ Al terminar, rodea tres cambios. Uno para la noche, uno para el aparato que más
 ## Receta 1 — Tu semana OASIS
 
 **Necesitas:** siete días y el plano. **Resultado:** tu primer Oasis Electromagnético con fecha.
+
+![Figura 8.2 · Siete días para crear tu primer Oasis](esquemas/plan-oasis-siete-dias.svg)
 
 > **FIGURA 8.2 · Siete días para crear tu primer Oasis.** Siete tarjetas con la letra del método: O (día 1), A (2, 3, 4), S (5), I (6), S (7). Al pie, tres logros: plano actualizado, tres cambios mantenibles, primer Oasis con fecha. Referencia Codex: `plan-oasis-siete-dias`.
 
@@ -1739,7 +1789,7 @@ Y a ti, que has llegado hasta aquí. Este libro cobra sentido cuando dibujas tu 
 
 ## Web de EKIO Electrosmog
 
-[QR · https://electrosmogespana.com/]
+![QR web de EKIO](esquemas/qr-ekio-web.png)
 
 https://electrosmogespana.com/
 
@@ -1755,7 +1805,7 @@ Los tests organizan información y orientan la elección. No sustituyen una medi
 
 ## Canal de YouTube de EKIO Electrosmog
 
-[QR · https://www.youtube.com/@EkioElectrosmog]
+![QR YouTube de EKIO](esquemas/qr-ekio-youtube.png)
 
 https://www.youtube.com/@EkioElectrosmog
 

@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1420" viewBox="0 0 2400 1420" role="img" aria-labelledby="title desc">
+  <title id="title">Anatomía de una sesión de fotobiomodulación</title>
+  <desc id="desc">Cinco decisiones conectadas definen una sesión: longitud de onda, irradiancia y distancia, tiempo, superficie y objetivo. La dosis se calcula multiplicando vatios por centímetro cuadrado por segundos.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="10" markerHeight="10" orient="auto"><path d="M1 1 L11 6 L1 11 Z" fill="#607985"/></marker>
+    <style>
+      .title { font: 700 60px Arial, Helvetica, sans-serif; fill: #16313F; }
+      .subtitle { font: 400 29px Arial, Helvetica, sans-serif; fill: #4B646F; }
+      .number { font: 700 27px Arial, Helvetica, sans-serif; fill: #FFFFFF; }
+      .label { font: 700 31px Arial, Helvetica, sans-serif; fill: #16313F; }
+      .body { font: 400 23px Arial, Helvetica, sans-serif; fill: #3F5964; }
+      .small { font: 600 20px Arial, Helvetica, sans-serif; fill: #4B646F; }
+      .formula { font: 700 36px Arial, Helvetica, sans-serif; fill: #16313F; }
+      .value { font: 700 29px Arial, Helvetica, sans-serif; fill: #1D5D82; }
+      .card { fill: #F8FBFC; stroke: #B4C6CD; stroke-width: 4; }
+      .line { fill: none; stroke: #607985; stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
+      .icon { fill: none; stroke: #1D5D82; stroke-width: 7; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect width="2400" height="1420" fill="#FFFFFF"/>
+  <text x="1200" y="92" text-anchor="middle" class="title">ANATOMÍA DE UNA SESIÓN DE FOTOBIOMODULACIÓN</text>
+  <text x="1200" y="143" text-anchor="middle" class="subtitle">Los minutos solo tienen sentido cuando conocemos qué luz llega, desde dónde y sobre qué zona</text>
+
+  <g transform="translate(70,225)">
+    <g transform="translate(0,0)">
+      <rect width="410" height="595" rx="28" class="card"/>
+      <circle cx="58" cy="58" r="30" fill="#B94D3E"/><text x="58" y="68" text-anchor="middle" class="number">1</text>
+      <text x="205" y="132" text-anchor="middle" class="label">Longitud de onda</text>
+      <text x="205" y="171" text-anchor="middle" class="body">¿Qué luz emite?</text>
+      <path d="M78 285 C115 235 145 335 182 285 S249 235 286 285 S353 335 388 285" class="icon"/>
+      <path d="M78 375 C128 300 170 450 220 375 S312 300 362 375" fill="none" stroke="#B94D3E" stroke-width="7" stroke-linecap="round"/>
+      <text x="205" y="470" text-anchor="middle" class="value">nanómetros · nm</text>
+      <text x="205" y="517" text-anchor="middle" class="small">Ej.: 660 nm es rojo</text>
+      <text x="205" y="549" text-anchor="middle" class="small">850 nm es infrarrojo cercano</text>
+    </g>
+    <path d="M430 298 H492" class="line" marker-end="url(#arrow)"/>
+
+    <g transform="translate(505,0)">
+      <rect width="410" height="595" rx="28" class="card"/>
+      <circle cx="58" cy="58" r="30" fill="#D18B39"/><text x="58" y="68" text-anchor="middle" class="number">2</text>
+      <text x="205" y="132" text-anchor="middle" class="label">Irradiancia</text>
+      <text x="205" y="171" text-anchor="middle" class="body">¿Cuánta potencia llega?</text>
+      <rect x="75" y="240" width="58" height="155" rx="12" fill="#D85D4A"/>
+      <g stroke="#E2B13E" stroke-width="6" stroke-linecap="round"><line x1="146" y1="260" x2="280" y2="230"/><line x1="146" y1="298" x2="280" y2="285"/><line x1="146" y1="337" x2="280" y2="340"/><line x1="146" y1="375" x2="280" y2="395"/></g>
+      <path d="M295 225 V403 M278 225 H312 M278 403 H312" class="line"/>
+      <text x="205" y="470" text-anchor="middle" class="value">mW/cm² + distancia</text>
+      <text x="205" y="517" text-anchor="middle" class="small">Una cifra sin centímetros</text>
+      <text x="205" y="549" text-anchor="middle" class="small">está incompleta</text>
+    </g>
+    <path d="M935 298 H997" class="line" marker-end="url(#arrow)"/>
+
+    <g transform="translate(1010,0)">
+      <rect width="410" height="595" rx="28" class="card"/>
+      <circle cx="58" cy="58" r="30" fill="#287A68"/><text x="58" y="68" text-anchor="middle" class="number">3</text>
+      <text x="205" y="132" text-anchor="middle" class="label">Tiempo</text>
+      <text x="205" y="171" text-anchor="middle" class="body">¿Cuánto dura?</text>
+      <circle cx="205" cy="320" r="105" fill="#E6F3EE" stroke="#287A68" stroke-width="7"/>
+      <path d="M205 235 V320 L270 360" fill="none" stroke="#287A68" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="205" cy="320" r="12" fill="#287A68"/>
+      <text x="205" y="470" text-anchor="middle" class="value">segundos o minutos</text>
+      <text x="205" y="517" text-anchor="middle" class="small">Programa el tiempo</text>
+      <text x="205" y="549" text-anchor="middle" class="small">antes de empezar</text>
+    </g>
+    <path d="M1440 298 H1502" class="line" marker-end="url(#arrow)"/>
+
+    <g transform="translate(1515,0)">
+      <rect width="410" height="595" rx="28" class="card"/>
+      <circle cx="58" cy="58" r="30" fill="#795E9B"/><text x="58" y="68" text-anchor="middle" class="number">4</text>
+      <text x="205" y="132" text-anchor="middle" class="label">Superficie</text>
+      <text x="205" y="171" text-anchor="middle" class="body">¿Sobre qué zona?</text>
+      <path d="M205 220 C165 220 140 255 140 300 V412 H270 V300 C270 255 245 220 205 220 Z" fill="#EEE9F4" stroke="#795E9B" stroke-width="7"/>
+      <circle cx="205" cy="284" r="30" fill="#FFFFFF" stroke="#795E9B" stroke-width="6"/>
+      <ellipse cx="205" cy="360" rx="48" ry="66" fill="#E7C3BD" opacity=".85"/>
+      <text x="205" y="470" text-anchor="middle" class="value">zona y área tratada</text>
+      <text x="205" y="517" text-anchor="middle" class="small">La luz debe alcanzar</text>
+      <text x="205" y="549" text-anchor="middle" class="small">la superficie prevista</text>
+    </g>
+    <path d="M1945 298 H2007" class="line" marker-end="url(#arrow)"/>
+
+    <g transform="translate(2020,0)">
+      <rect width="240" height="595" rx="28" fill="#E8F0F4" stroke="#1D5D82" stroke-width="4"/>
+      <circle cx="58" cy="58" r="30" fill="#1D5D82"/><text x="58" y="68" text-anchor="middle" class="number">5</text>
+      <text x="120" y="132" text-anchor="middle" class="label">Objetivo</text>
+      <path d="M120 238 C70 238 48 280 48 318 C48 378 120 420 120 420 C120 420 192 378 192 318 C192 280 170 238 120 238 Z" fill="#DDECF2" stroke="#1D5D82" stroke-width="7"/>
+      <path d="M78 328 L108 358 L167 287" fill="none" stroke="#287A68" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="120" y="482" text-anchor="middle" class="small">Una intención</text>
+      <text x="120" y="515" text-anchor="middle" class="small">clara para elegir</text>
+      <text x="120" y="548" text-anchor="middle" class="small">el protocolo</text>
+    </g>
+  </g>
+
+  <g transform="translate(190,890)">
+    <rect width="2020" height="350" rx="34" fill="#F2F7F9" stroke="#1D5D82" stroke-width="4"/>
+    <text x="1010" y="73" text-anchor="middle" class="label">La dosis relaciona la potencia recibida con el tiempo</text>
+    <text x="1010" y="135" text-anchor="middle" class="formula">J/cm² = W/cm² × segundos</text>
+    <rect x="220" y="184" width="1580" height="88" rx="26" fill="#FFFFFF" stroke="#B4C6CD" stroke-width="3"/>
+    <text x="1010" y="240" text-anchor="middle" class="value">50 mW/cm² = 0,05 W/cm² · 10 min = 600 s · 0,05 × 600 = 30 J/cm²</text>
+    <text x="1010" y="320" text-anchor="middle" class="small">Ejemplo de cálculo, no una dosis universal</text>
+  </g>
+
+  <rect x="340" y="1280" width="1720" height="88" rx="26" fill="#FFF3C9"/>
+  <text x="1200" y="1335" text-anchor="middle" class="body">Mismos minutos ≠ misma dosis si cambian la irradiancia, la distancia o el modo</text>
+</svg>

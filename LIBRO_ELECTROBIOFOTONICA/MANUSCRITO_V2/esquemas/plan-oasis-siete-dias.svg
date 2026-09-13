@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1440" viewBox="0 0 2400 1440" role="img" aria-labelledby="title desc">
+  <title id="title">Plan de siete días para crear un Oasis Electromagnético</title>
+  <desc id="desc">Siete tarjetas recorren el plan semanal: observar, liberar la noche, ordenar conexiones, crear distancia, sanear, integrar SPIRO y sincronizar luz y descanso.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="10" markerHeight="10" orient="auto"><path d="M1 1 L11 6 L1 11 Z" fill="#607985"/></marker>
+    <style>
+      .title { font: 700 60px Arial, Helvetica, sans-serif; fill: #16313F; }
+      .subtitle { font: 400 28px Arial, Helvetica, sans-serif; fill: #4B646F; }
+      .day { font: 700 24px Arial, Helvetica, sans-serif; fill: #FFFFFF; }
+      .letter { font: 700 62px Arial, Helvetica, sans-serif; fill: #FFFFFF; }
+      .label { font: 700 28px Arial, Helvetica, sans-serif; fill: #16313F; }
+      .body { font: 400 21px Arial, Helvetica, sans-serif; fill: #3F5964; }
+      .small { font: 600 19px Arial, Helvetica, sans-serif; fill: #4B646F; }
+      .card { fill: #F8FBFC; stroke: #B4C6CD; stroke-width: 4; }
+      .line { fill: none; stroke: #607985; stroke-width: 6; stroke-linecap: round; stroke-linejoin: round; }
+      .good { fill: none; stroke: #287A68; stroke-width: 8; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect width="2400" height="1440" fill="#FFFFFF"/>
+  <text x="1200" y="88" text-anchor="middle" class="title">SIETE DÍAS PARA CREAR TU PRIMER OASIS</text>
+  <text x="1200" y="138" text-anchor="middle" class="subtitle">Una tarea breve cada día convierte la información del libro en una casa organizada</text>
+
+  <path d="M190 385 H2210" class="line" marker-end="url(#arrow)"/>
+
+  <g transform="translate(70,220)">
+    <g>
+      <rect width="300" height="650" rx="28" class="card"/>
+      <rect width="300" height="105" rx="28" fill="#1D5D82"/>
+      <text x="150" y="42" text-anchor="middle" class="day">DÍA 1</text><text x="150" y="88" text-anchor="middle" class="letter">O</text>
+      <text x="150" y="175" text-anchor="middle" class="label">Observar</text>
+      <path d="M75 290 H225 V430 H75 Z M150 290 V430 M75 360 H225" class="line"/>
+      <circle cx="112" cy="325" r="16" fill="#D18B39"/><circle cx="188" cy="395" r="16" fill="#B94D3E"/>
+      <text x="150" y="500" text-anchor="middle" class="body">Dibuja el plano</text>
+      <text x="150" y="534" text-anchor="middle" class="body">y marca E · M · R · D</text>
+      <text x="150" y="596" text-anchor="middle" class="small">Mira antes de decidir</text>
+    </g>
+    <g transform="translate(325,0)">
+      <rect width="300" height="650" rx="28" class="card"/>
+      <rect width="300" height="105" rx="28" fill="#287A68"/>
+      <text x="150" y="42" text-anchor="middle" class="day">DÍA 2</text><text x="150" y="88" text-anchor="middle" class="letter">A</text>
+      <text x="150" y="175" text-anchor="middle" class="label">Liberar la noche</text>
+      <rect x="62" y="315" width="176" height="110" rx="22" fill="#E8F0F4" stroke="#607985" stroke-width="6"/>
+      <rect x="62" y="282" width="62" height="72" rx="18" fill="#FFFFFF" stroke="#607985" stroke-width="5"/>
+      <path d="M62 425 V462 M238 425 V462" class="line"/>
+      <text x="150" y="510" text-anchor="middle" class="body">Móvil y cargadores</text>
+      <text x="150" y="544" text-anchor="middle" class="body">fuera de la cama</text>
+      <text x="150" y="596" text-anchor="middle" class="small">Disc delante del router</text>
+    </g>
+    <g transform="translate(650,0)">
+      <rect width="300" height="650" rx="28" class="card"/>
+      <rect width="300" height="105" rx="28" fill="#287A68"/>
+      <text x="150" y="42" text-anchor="middle" class="day">DÍA 3</text><text x="150" y="88" text-anchor="middle" class="letter">A</text>
+      <text x="150" y="175" text-anchor="middle" class="label">Conexiones</text>
+      <rect x="72" y="300" width="156" height="86" rx="15" fill="#DDECF2" stroke="#1D5D82" stroke-width="6"/>
+      <line x1="103" y1="323" x2="103" y2="362" stroke="#1D5D82" stroke-width="6"/><line x1="143" y1="323" x2="143" y2="362" stroke="#1D5D82" stroke-width="6"/><line x1="183" y1="323" x2="183" y2="362" stroke="#1D5D82" stroke-width="6"/>
+      <path d="M78 425 H222" class="line"/><path d="M95 408 L78 425 L95 442 M205 408 L222 425 L205 442" class="line"/>
+      <text x="150" y="510" text-anchor="middle" class="body">Apaga duplicados</text>
+      <text x="150" y="544" text-anchor="middle" class="body">y cablea lo fijo</text>
+      <text x="150" y="596" text-anchor="middle" class="small">Cada red debe tener función</text>
+    </g>
+    <g transform="translate(975,0)">
+      <rect width="300" height="650" rx="28" class="card"/>
+      <rect width="300" height="105" rx="28" fill="#D18B39"/>
+      <text x="150" y="42" text-anchor="middle" class="day">DÍA 4</text><text x="150" y="88" text-anchor="middle" class="letter">A</text>
+      <text x="150" y="175" text-anchor="middle" class="label">Crear distancia</text>
+      <circle cx="82" cy="355" r="40" fill="#F7E4E1" stroke="#B94D3E" stroke-width="6"/>
+      <circle cx="218" cy="355" r="40" fill="#E6F3EE" stroke="#287A68" stroke-width="6"/>
+      <path d="M127 355 H173" class="line" marker-end="url(#arrow)"/>
+      <text x="150" y="510" text-anchor="middle" class="body">Mueve regletas,</text>
+      <text x="150" y="544" text-anchor="middle" class="body">bases y transformadores</text>
+      <text x="150" y="596" text-anchor="middle" class="small">Primero usa lo que tienes</text>
+    </g>
+    <g transform="translate(1300,0)">
+      <rect width="300" height="650" rx="28" class="card"/>
+      <rect width="300" height="105" rx="28" fill="#D18B39"/>
+      <text x="150" y="42" text-anchor="middle" class="day">DÍA 5</text><text x="150" y="88" text-anchor="middle" class="letter">S</text>
+      <text x="150" y="175" text-anchor="middle" class="label">Sanear</text>
+      <rect x="72" y="292" width="156" height="142" rx="18" fill="#FFF0D8" stroke="#D18B39" stroke-width="6"/>
+      <circle cx="112" cy="338" r="15" fill="#D18B39"/><circle cx="188" cy="338" r="15" fill="#D18B39"/>
+      <path d="M105 395 H195" class="line"/>
+      <path d="M238 315 L266 343 L238 371" class="good"/>
+      <text x="150" y="510" text-anchor="middle" class="body">Instalación, tierra,</text>
+      <text x="150" y="544" text-anchor="middle" class="body">fuentes y medición</text>
+      <text x="150" y="596" text-anchor="middle" class="small">Profesional si corresponde</text>
+    </g>
+    <g transform="translate(1625,0)">
+      <rect width="300" height="650" rx="28" class="card"/>
+      <rect width="300" height="105" rx="28" fill="#795E9B"/>
+      <text x="150" y="42" text-anchor="middle" class="day">DÍA 6</text><text x="150" y="88" text-anchor="middle" class="letter">I</text>
+      <text x="150" y="175" text-anchor="middle" class="label">Integrar SPIRO</text>
+      <rect x="48" y="302" width="58" height="96" rx="11" fill="#16313F"/><circle cx="77" cy="382" r="5" fill="#FFFFFF"/>
+      <rect x="128" y="306" width="72" height="72" rx="12" fill="#DDECF2" stroke="#1D5D82" stroke-width="5"/>
+      <circle cx="244" cy="350" r="42" fill="#FFF3C9" stroke="#D18B39" stroke-width="6"/>
+      <text x="77" y="440" text-anchor="middle" class="small">Card</text><text x="164" y="440" text-anchor="middle" class="small">Square</text><text x="244" y="440" text-anchor="middle" class="small">Disc</text>
+      <text x="150" y="510" text-anchor="middle" class="body">Fuente, dispositivo</text>
+      <text x="150" y="544" text-anchor="middle" class="body">y espacio correctos</text>
+      <text x="150" y="596" text-anchor="middle" class="small">Fotografía la colocación</text>
+    </g>
+    <g transform="translate(1950,0)">
+      <rect width="300" height="650" rx="28" fill="#E6F3EE" stroke="#287A68" stroke-width="4"/>
+      <rect width="300" height="105" rx="28" fill="#287A68"/>
+      <text x="150" y="42" text-anchor="middle" class="day">DÍA 7</text><text x="150" y="88" text-anchor="middle" class="letter">S</text>
+      <text x="150" y="175" text-anchor="middle" class="label">Sincronizar</text>
+      <circle cx="105" cy="340" r="50" fill="#E2B13E"/>
+      <path d="M105 265 V235 M105 445 V415 M30 340 H0 M210 340 H180 M50 285 L28 263 M160 395 L182 417 M50 395 L28 417 M160 285 L182 263" stroke="#D18B39" stroke-width="7" stroke-linecap="round"/>
+      <path d="M175 305 C235 320 238 405 178 425 C207 392 204 338 175 305 Z" fill="#B94D3E"/>
+      <text x="150" y="510" text-anchor="middle" class="body">Mañana, exterior,</text>
+      <text x="150" y="544" text-anchor="middle" class="body">anochecer y descanso</text>
+      <text x="150" y="596" text-anchor="middle" class="small">Pon fecha a tu Oasis</text>
+    </g>
+  </g>
+
+  <g transform="translate(180,960)">
+    <rect width="2040" height="240" rx="34" fill="#F2F7F9" stroke="#1D5D82" stroke-width="4"/>
+    <text x="1020" y="60" text-anchor="middle" class="label">AL TERMINAR LA SEMANA</text>
+    <g transform="translate(90,102)"><path d="M0 34 L31 65 L83 5" class="good"/><text x="110" y="32" class="body">Un plano actualizado</text><text x="110" y="66" class="small">con tus zonas de permanencia</text></g>
+    <g transform="translate(735,102)"><path d="M0 34 L31 65 L83 5" class="good"/><text x="110" y="32" class="body">Tres cambios mantenibles</text><text x="110" y="66" class="small">noche, dispositivo y luz</text></g>
+    <g transform="translate(1380,102)"><path d="M0 34 L31 65 L83 5" class="good"/><text x="110" y="32" class="body">Tu primer Oasis</text><text x="110" y="66" class="small">con fecha y próxima revisión</text></g>
+  </g>
+
+  <rect x="330" y="1260" width="1740" height="100" rx="28" fill="#FFF3C9"/>
+  <text x="1200" y="1303" text-anchor="middle" class="label">O · A · S · I · S</text>
+  <text x="1200" y="1339" text-anchor="middle" class="body">Observar · Alejar o apagar · Sanear · Integrar · Sincronizar</text>
+</svg>

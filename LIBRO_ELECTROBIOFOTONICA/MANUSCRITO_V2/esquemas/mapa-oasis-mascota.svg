@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1440" viewBox="0 0 2400 1440" role="img" aria-labelledby="title desc">
+  <title id="title">Mapa de las tres siestas de una mascota</title>
+  <desc id="desc">Plano de una casa con tres zonas de descanso de una mascota: sol de mañana, sofá de tarde y cama de noche. Señala router, cargadores, regleta y base de carga, y propone observar, alejar o apagar, medir e integrar SPIRO.</desc>
+  <defs>
+    <style>
+      .title { font: 700 60px Arial, Helvetica, sans-serif; fill: #16313F; }
+      .subtitle { font: 400 29px Arial, Helvetica, sans-serif; fill: #4B646F; }
+      .panel { font: 700 34px Arial, Helvetica, sans-serif; fill: #16313F; }
+      .label { font: 700 26px Arial, Helvetica, sans-serif; fill: #16313F; }
+      .body { font: 400 22px Arial, Helvetica, sans-serif; fill: #3F5964; }
+      .small { font: 600 19px Arial, Helvetica, sans-serif; fill: #4B646F; }
+      .room { fill: #F8FBFC; stroke: #B4C6CD; stroke-width: 5; }
+      .wall { fill: none; stroke: #607985; stroke-width: 9; stroke-linecap: round; stroke-linejoin: round; }
+      .line { fill: none; stroke: #607985; stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
+      .good { fill: none; stroke: #287A68; stroke-width: 8; stroke-linecap: round; stroke-linejoin: round; }
+      .risk { fill: none; stroke: #B94D3E; stroke-width: 7; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect width="2400" height="1440" fill="#FFFFFF"/>
+  <text x="1200" y="88" text-anchor="middle" class="title">MAPA DE LAS TRES SIESTAS</text>
+  <text x="1200" y="138" text-anchor="middle" class="subtitle">Sigue al animal durante un día: la distancia se mide desde donde descansa</text>
+
+  <g transform="translate(85,205)">
+    <rect width="1540" height="970" rx="36" class="room"/>
+    <text x="770" y="62" text-anchor="middle" class="panel">EJEMPLO DE UNA CASA</text>
+    <path d="M70 105 H1470 V885 H70 Z M775 105 V885 M70 505 H1470" class="wall"/>
+
+    <!-- Cocina y sol de mañana -->
+    <g transform="translate(95,135)">
+      <text x="0" y="35" class="label">COCINA · MAÑANA</text>
+      <rect x="25" y="75" width="250" height="115" rx="18" fill="#DDECF2" stroke="#1D5D82" stroke-width="5"/>
+      <line x1="88" y1="78" x2="88" y2="187" stroke="#1D5D82" stroke-width="5"/>
+      <text x="150" y="135" text-anchor="middle" class="small">VENTANA</text>
+      <g stroke="#D18B39" stroke-width="7" stroke-linecap="round">
+        <line x1="324" y1="96" x2="370" y2="65"/><line x1="336" y1="131" x2="390" y2="131"/><line x1="324" y1="166" x2="370" y2="197"/>
+      </g>
+      <circle cx="300" cy="131" r="25" fill="#E2B13E"/>
+      <g transform="translate(365,185)">
+        <ellipse cx="60" cy="66" rx="54" ry="43" fill="#E6F3EE" stroke="#287A68" stroke-width="5"/>
+        <circle cx="22" cy="22" r="18" fill="#287A68"/><circle cx="52" cy="7" r="18" fill="#287A68"/><circle cx="84" cy="12" r="18" fill="#287A68"/><circle cx="108" cy="36" r="18" fill="#287A68"/>
+      </g>
+      <text x="425" y="315" text-anchor="middle" class="label">1 · Primer sol</text>
+      <text x="425" y="347" text-anchor="middle" class="body">Luz, calor y calma</text>
+      <rect x="575" y="85" width="95" height="82" rx="16" fill="#FFF0D8" stroke="#D18B39" stroke-width="5"/>
+      <circle cx="622" cy="126" r="14" fill="#D18B39"/>
+      <text x="622" y="207" text-anchor="middle" class="small">Cargador</text>
+      <path d="M618 220 V260" class="risk"/>
+      <text x="590" y="292" text-anchor="middle" class="small">Retirar si no se usa</text>
+    </g>
+
+    <!-- Salón y siesta de tarde -->
+    <g transform="translate(815,135)">
+      <text x="0" y="35" class="label">SALÓN · TARDE</text>
+      <rect x="30" y="215" width="390" height="115" rx="30" fill="#E8F0F4" stroke="#607985" stroke-width="5"/>
+      <rect x="30" y="145" width="92" height="105" rx="25" fill="#FFFFFF" stroke="#607985" stroke-width="5"/>
+      <rect x="328" y="145" width="92" height="105" rx="25" fill="#FFFFFF" stroke="#607985" stroke-width="5"/>
+      <g transform="translate(155,160)">
+        <ellipse cx="60" cy="66" rx="54" ry="43" fill="#E6F3EE" stroke="#287A68" stroke-width="5"/>
+        <circle cx="22" cy="22" r="18" fill="#287A68"/><circle cx="52" cy="7" r="18" fill="#287A68"/><circle cx="84" cy="12" r="18" fill="#287A68"/><circle cx="108" cy="36" r="18" fill="#287A68"/>
+      </g>
+      <text x="225" y="326" text-anchor="middle" class="label">2 · Sofá favorito</text>
+      <text x="225" y="350" text-anchor="middle" class="body">Revisa también detrás</text>
+      <rect x="485" y="95" width="150" height="80" rx="14" fill="#DDECF2" stroke="#1D5D82" stroke-width="5"/>
+      <line x1="515" y1="117" x2="515" y2="153" stroke="#1D5D82" stroke-width="6"/><line x1="550" y1="117" x2="550" y2="153" stroke="#1D5D82" stroke-width="6"/><line x1="585" y1="117" x2="585" y2="153" stroke="#1D5D82" stroke-width="6"/>
+      <circle cx="455" cy="135" r="36" fill="#FFF3C9" stroke="#D18B39" stroke-width="5"/>
+      <text x="455" y="145" text-anchor="middle" class="label">D</text>
+      <text x="560" y="215" text-anchor="middle" class="label">Router</text>
+      <text x="560" y="247" text-anchor="middle" class="small">Disc siempre delante</text>
+      <path d="M440 272 C500 310 505 355 450 385" class="good"/>
+    </g>
+
+    <!-- Despacho y base -->
+    <g transform="translate(95,535)">
+      <text x="0" y="35" class="label">DESPACHO · TARDE</text>
+      <rect x="35" y="110" width="330" height="32" rx="12" fill="#607985"/>
+      <path d="M70 142 V285 M330 142 V285" class="line"/>
+      <rect x="110" y="52" width="180" height="72" rx="12" fill="#DDECF2" stroke="#1D5D82" stroke-width="5"/>
+      <path d="M200 124 V164 M145 164 H255" class="line"/>
+      <rect x="370" y="225" width="230" height="64" rx="18" fill="#FFF0D8" stroke="#D18B39" stroke-width="5"/>
+      <circle cx="407" cy="257" r="13" fill="#D18B39"/><circle cx="450" cy="257" r="13" fill="#D18B39"/><circle cx="493" cy="257" r="13" fill="#D18B39"/>
+      <text x="485" y="325" text-anchor="middle" class="small">Regleta bajo la mesa</text>
+      <path d="M610 250 C660 250 660 305 620 330" class="risk"/>
+    </g>
+
+    <!-- Dormitorio y noche -->
+    <g transform="translate(815,535)">
+      <text x="0" y="35" class="label">DORMITORIO · NOCHE</text>
+      <ellipse cx="220" cy="205" rx="185" ry="105" fill="#E8F0F4" stroke="#607985" stroke-width="5"/>
+      <ellipse cx="220" cy="205" rx="130" ry="68" fill="#FFFFFF" stroke="#B4C6CD" stroke-width="4"/>
+      <g transform="translate(160,145)">
+        <ellipse cx="60" cy="66" rx="54" ry="43" fill="#E6F3EE" stroke="#287A68" stroke-width="5"/>
+        <circle cx="22" cy="22" r="18" fill="#287A68"/><circle cx="52" cy="7" r="18" fill="#287A68"/><circle cx="84" cy="12" r="18" fill="#287A68"/><circle cx="108" cy="36" r="18" fill="#287A68"/>
+      </g>
+      <text x="220" y="330" text-anchor="middle" class="label">3 · Cama nocturna</text>
+      <rect x="475" y="135" width="170" height="125" rx="22" fill="#F7E4E1" stroke="#B94D3E" stroke-width="5"/>
+      <circle cx="560" cy="186" r="28" fill="#B94D3E" opacity=".22"/>
+      <path d="M525 225 H595 M540 205 H580" class="risk"/>
+      <text x="560" y="302" text-anchor="middle" class="small">Base de carga</text>
+      <text x="560" y="333" text-anchor="middle" class="small">Mover de la cama</text>
+    </g>
+  </g>
+
+  <g transform="translate(1680,205)">
+    <rect width="635" height="970" rx="36" fill="#F2F7F9" stroke="#1D5D82" stroke-width="5"/>
+    <text x="317" y="70" text-anchor="middle" class="panel">QUÉ HACER</text>
+    <g transform="translate(55,125)">
+      <circle cx="34" cy="34" r="34" fill="#1D5D82"/><text x="34" y="44" text-anchor="middle" style="font:700 28px Arial;fill:#FFFFFF">1</text>
+      <text x="95" y="30" class="label">Observar</text><text x="95" y="62" class="body">Tres zonas y un día normal</text>
+      <circle cx="34" cy="160" r="34" fill="#287A68"/><text x="34" y="170" text-anchor="middle" style="font:700 28px Arial;fill:#FFFFFF">2</text>
+      <text x="95" y="156" class="label">Alejar o apagar</text><text x="95" y="188" class="body">Quita proximidad innecesaria</text>
+      <circle cx="34" cy="286" r="34" fill="#D18B39"/><text x="34" y="296" text-anchor="middle" style="font:700 28px Arial;fill:#FFFFFF">3</text>
+      <text x="95" y="282" class="label">Medir</text><text x="95" y="314" class="body">Cuando la fuente no se ve</text>
+      <circle cx="34" cy="412" r="34" fill="#795E9B"/><text x="34" y="422" text-anchor="middle" style="font:700 28px Arial;fill:#FFFFFF">4</text>
+      <text x="95" y="408" class="label">Integrar</text><text x="95" y="440" class="body">SPIRO según fuente y espacio</text>
+    </g>
+    <rect x="55" y="630" width="525" height="135" rx="24" fill="#FFF3C9"/>
+    <text x="317" y="680" text-anchor="middle" class="label">Delante del router</text>
+    <text x="317" y="720" text-anchor="middle" class="panel">SIEMPRE SPIRO DISC</text>
+    <rect x="55" y="805" width="525" height="105" rx="24" fill="#F7E4E1"/>
+    <text x="317" y="848" text-anchor="middle" class="label">La conducta orienta la observación</text>
+    <text x="317" y="883" text-anchor="middle" class="body">El animal no sustituye un medidor</text>
+  </g>
+
+  <rect x="260" y="1235" width="1880" height="125" rx="30" fill="#E6F3EE"/>
+  <text x="1200" y="1284" text-anchor="middle" class="label">Un Oasis Electromagnético ofrece varias zonas seguras para elegir</text>
+  <text x="1200" y="1323" text-anchor="middle" class="body">Observa sus lugares reales · revisa las fuentes · conserva las opciones que el animal prefiere</text>
+</svg>

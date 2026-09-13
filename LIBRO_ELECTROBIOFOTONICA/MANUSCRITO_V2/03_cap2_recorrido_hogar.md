@@ -4,6 +4,8 @@ Coge el mapa y ven conmigo. Vamos al dormitorio, la cocina, el salón y el despa
 
 En el dormitorio importa la permanencia. En la cocina, la cercanía mientras las cosas funcionan. En el salón, la acumulación. En el despacho, la jornada entera.
 
+![Figura 2.1 · Cuatro habitaciones, cuatro prioridades](esquemas/cuatro-habitaciones-oasis.svg)
+
 > **FIGURA 2.1 · Cuatro habitaciones, cuatro prioridades.** Cuatro tarjetas (dormitorio: noche y tiempo; cocina: uso y distancia; salón: descanso y acumulación; despacho: jornada y cercanía), cada una con "qué revisar" y "primer cambio". Referencia Codex: `cuatro-habitaciones-oasis`.
 
 Lleva las cinco preguntas de OASIS: ¿qué veo?, ¿qué puedo alejar o apagar?, ¿qué hay que revisar?, ¿qué tecnología conservo?, ¿cómo organizo la luz y el descanso?
@@ -13,6 +15,8 @@ Lleva las cinco preguntas de OASIS: ¿qué veo?, ¿qué puedo alejar o apagar?, 
 La casa no necesita la misma luz a todas horas. Antes de amanecer puedes empezar con luz tenue y cálida, suficiente para vestirte y moverte con seguridad. Cuando llegue el día, busca el exterior. Al acercarse la noche, baja la intensidad.
 
 Aquí entran las dos bombillas que más recomiendo en este libro. La **amarilla de 1800 K** es una luz muy cálida, como la de una vela grande: la "K" es la temperatura de color, y cuanto más bajo el número, más anaranjada y menos azul es la luz. La **roja DUSK** es para los últimos momentos del día y para orientarte de noche.
+
+![Figura 2.2 · La casa también cambia de luz](esquemas/transicion-luz-ekio-hogar.svg)
 
 > **FIGURA 2.2 · La casa también cambia de luz.** Línea del día en cuatro tarjetas: antes de amanecer (amarilla o roja, suave), día (sal fuera), anochecer (baja intensidad, amarilla 1800 K), últimas horas (roja DUSK). Pie: "Las bombillas iluminan; los paneles hacen sesiones". Referencia Codex: `transicion-luz-ekio-hogar`.
 

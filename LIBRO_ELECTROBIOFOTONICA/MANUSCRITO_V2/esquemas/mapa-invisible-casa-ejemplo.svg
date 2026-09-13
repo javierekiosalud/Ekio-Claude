@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2200" height="1550" viewBox="0 0 2200 1550" role="img" aria-labelledby="title desc">
+  <title id="title">Ejemplo de mapa invisible de una casa</title>
+  <desc id="desc">Plano esquemático de una vivienda con fuentes potenciales de campo eléctrico, magnético, radiofrecuencia y electricidad sucia, zonas de permanencia y un dormitorio elegido como primer Oasis Electromagnético.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="12" markerHeight="12" orient="auto">
+      <path d="M1 1 L11 6 L1 11 Z" fill="#287A68"/>
+    </marker>
+    <pattern id="oasisHatch" width="18" height="18" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="18" stroke="#287A68" stroke-width="4" opacity="0.12"/>
+    </pattern>
+    <style>
+      .title { font: 700 62px Arial, Helvetica, sans-serif; fill: #16313F; letter-spacing: 1px; }
+      .subtitle { font: 400 29px Arial, Helvetica, sans-serif; fill: #49616C; }
+      .room { font: 700 31px Arial, Helvetica, sans-serif; fill: #16313F; letter-spacing: 1px; }
+      .label { font: 600 24px Arial, Helvetica, sans-serif; fill: #213D49; }
+      .body { font: 400 23px Arial, Helvetica, sans-serif; fill: #3F5964; }
+      .small { font: 400 20px Arial, Helvetica, sans-serif; fill: #4A626C; }
+      .tiny { font: 700 18px Arial, Helvetica, sans-serif; fill: #4A626C; letter-spacing: .6px; }
+      .wall { fill: #FBFCFC; stroke: #49616C; stroke-width: 8; }
+      .partition { stroke: #49616C; stroke-width: 7; }
+      .furniture { fill: #EEF3F5; stroke: #708791; stroke-width: 4; }
+      .stay { fill: none; stroke: #C25A2A; stroke-width: 5; stroke-dasharray: 14 11; }
+      .source-text { font: 700 25px Arial, Helvetica, sans-serif; fill: #FFFFFF; text-anchor: middle; dominant-baseline: central; }
+      .leader { fill: none; stroke: #6C818A; stroke-width: 3; }
+    </style>
+  </defs>
+
+  <rect width="2200" height="1550" fill="#FFFFFF"/>
+  <text x="1100" y="82" text-anchor="middle" class="title">MAPA INVISIBLE DE CASA · EJEMPLO</text>
+  <text x="1100" y="130" text-anchor="middle" class="subtitle">Marca fuentes, tiempo y distancia; después elige por dónde empezar</text>
+
+  <!-- Floor plan -->
+  <rect x="70" y="190" width="1520" height="1160" rx="8" class="wall"/>
+  <rect x="74" y="194" width="584" height="472" fill="url(#oasisHatch)"/>
+  <line x1="660" y1="190" x2="660" y2="665" class="partition"/>
+  <line x1="1110" y1="190" x2="1110" y2="665" class="partition"/>
+  <line x1="70" y1="665" x2="1590" y2="665" class="partition"/>
+  <line x1="735" y1="665" x2="735" y2="1350" class="partition"/>
+  <line x1="1180" y1="665" x2="1180" y2="1350" class="partition"/>
+  <line x1="1180" y1="1010" x2="1590" y2="1010" class="partition"/>
+
+  <!-- Bedroom -->
+  <text x="105" y="240" class="room">DORMITORIO</text>
+  <rect x="165" y="315" width="355" height="250" rx="24" class="furniture"/>
+  <rect x="165" y="315" width="355" height="60" rx="20" fill="#DCE7EB" stroke="#708791" stroke-width="4"/>
+  <line x1="343" y1="375" x2="343" y2="565" stroke="#A4B5BC" stroke-width="3"/>
+  <ellipse cx="343" cy="440" rx="225" ry="170" class="stay"/>
+  <text x="343" y="635" text-anchor="middle" class="small">8 h de permanencia</text>
+  <rect x="90" y="445" width="58" height="70" rx="6" class="furniture"/>
+  <path d="M118 445 v-68 m-34 0 h68 l-20 -42 h-28 z" class="furniture"/>
+  <circle cx="120" cy="540" r="27" fill="#1D5D82"/><text x="120" y="540" class="source-text">E</text>
+  <path d="M145 540 C180 540 200 560 225 574" class="leader"/>
+  <text x="238" y="570" class="small">cable y lámpara</text>
+  <rect x="535" y="430" width="70" height="95" rx="12" fill="#FFFFFF" stroke="#708791" stroke-width="4"/>
+  <circle cx="570" cy="550" r="27" fill="#C25A2A"/><text x="570" y="550" class="source-text">R</text>
+  <text x="535" y="590" class="small">móvil</text>
+  <rect x="92" y="258" width="520" height="40" rx="20" fill="#E4F3EE" stroke="#287A68" stroke-width="3"/>
+  <text x="352" y="285" text-anchor="middle" class="tiny" fill="#287A68">PRIMER OASIS ELECTROMAGNÉTICO</text>
+
+  <!-- Children's room -->
+  <text x="695" y="240" class="room">HABITACIÓN INFANTIL</text>
+  <rect x="735" y="325" width="270" height="180" rx="20" class="furniture"/>
+  <rect x="735" y="325" width="270" height="50" rx="18" fill="#DCE7EB" stroke="#708791" stroke-width="4"/>
+  <ellipse cx="870" cy="415" rx="175" ry="135" class="stay"/>
+  <rect x="985" y="520" width="80" height="55" rx="8" fill="#FFFFFF" stroke="#708791" stroke-width="4"/>
+  <circle cx="1025" cy="602" r="27" fill="#C25A2A"/><text x="1025" y="602" class="source-text">R</text>
+  <text x="925" y="635" class="small">tableta o monitor</text>
+  <circle cx="700" cy="565" r="27" fill="#1D5D82"/><text x="700" y="565" class="source-text">E</text>
+  <text x="740" y="575" class="small">regleta</text>
+
+  <!-- Bathroom -->
+  <text x="1145" y="240" class="room">BAÑO</text>
+  <rect x="1200" y="330" width="270" height="155" rx="34" class="furniture"/>
+  <path d="M1240 330 v-55 h90 v55" fill="none" stroke="#708791" stroke-width="5"/>
+  <path d="M1430 545 c40 -35 75 -15 65 22 c-8 28 -48 32 -75 15 l-46 -28 z" class="furniture"/>
+  <circle cx="1455" cy="620" r="27" fill="#287A68"/><text x="1455" y="620" class="source-text">M</text>
+  <circle cx="1515" cy="620" r="27" fill="#1D5D82"/><text x="1515" y="620" class="source-text">E</text>
+  <text x="1230" y="625" class="small">secador durante el uso</text>
+
+  <!-- Living room -->
+  <text x="105" y="720" class="room">SALÓN</text>
+  <rect x="160" y="820" width="385" height="190" rx="45" class="furniture"/>
+  <line x1="290" y1="820" x2="290" y2="1010" stroke="#A4B5BC" stroke-width="3"/>
+  <line x1="420" y1="820" x2="420" y2="1010" stroke="#A4B5BC" stroke-width="3"/>
+  <ellipse cx="350" cy="915" rx="255" ry="180" class="stay"/>
+  <text x="350" y="1135" text-anchor="middle" class="small">zona de permanencia</text>
+  <rect x="585" y="805" width="95" height="55" rx="8" fill="#FFFFFF" stroke="#708791" stroke-width="4"/>
+  <path d="M603 805 q30 -55 60 0 M614 805 q20 -32 40 0" fill="none" stroke="#C25A2A" stroke-width="4"/>
+  <circle cx="632" cy="900" r="27" fill="#C25A2A"/><text x="632" y="900" class="source-text">R</text>
+  <text x="572" y="942" class="small">router</text>
+  <circle cx="700" cy="900" r="31" fill="#FFFFFF" stroke="#287A68" stroke-width="4"/><text x="700" y="907" text-anchor="middle" font-family="Arial" font-size="17" font-weight="700" fill="#287A68">DISC</text>
+  <text x="660" y="972" class="tiny" fill="#287A68">delante</text>
+  <rect x="550" y="1050" width="130" height="38" rx="8" class="furniture"/>
+  <circle cx="578" cy="1190" r="27" fill="#1D5D82"/><text x="578" y="1190" class="source-text">E</text>
+  <circle cx="642" cy="1190" r="27" fill="#795E9B"/><text x="642" y="1190" class="source-text">D</text>
+  <text x="525" y="1232" class="small">TV y regleta</text>
+
+  <!-- Kitchen -->
+  <text x="770" y="720" class="room">COCINA</text>
+  <rect x="800" y="795" width="315" height="125" rx="12" class="furniture"/>
+  <circle cx="875" cy="856" r="38" fill="none" stroke="#708791" stroke-width="4"/>
+  <circle cx="1015" cy="856" r="38" fill="none" stroke="#708791" stroke-width="4"/>
+  <text x="814" y="955" class="small">placa de inducción</text>
+  <circle cx="855" cy="1000" r="27" fill="#287A68"/><text x="855" y="1000" class="source-text">M</text>
+  <circle cx="920" cy="1000" r="27" fill="#795E9B"/><text x="920" y="1000" class="source-text">D</text>
+  <rect x="805" y="1080" width="150" height="105" rx="10" class="furniture"/>
+  <rect x="825" y="1100" width="90" height="58" rx="6" fill="#FFFFFF" stroke="#708791" stroke-width="3"/>
+  <text x="790" y="1220" class="small">microondas</text>
+  <circle cx="835" cy="1260" r="27" fill="#287A68"/><text x="835" y="1260" class="source-text">M</text>
+  <rect x="1010" y="1065" width="120" height="205" rx="10" class="furniture"/>
+  <line x1="1010" y1="1165" x2="1130" y2="1165" stroke="#708791" stroke-width="3"/>
+  <circle cx="1090" cy="1288" r="27" fill="#287A68"/><text x="1090" y="1288" class="source-text">M</text>
+  <text x="1008" y="1322" class="small">frigorífico</text>
+
+  <!-- Office and utility -->
+  <text x="1215" y="720" class="room">DESPACHO</text>
+  <rect x="1240" y="800" width="280" height="90" rx="10" class="furniture"/>
+  <rect x="1330" y="740" width="120" height="75" rx="8" fill="#FFFFFF" stroke="#708791" stroke-width="4"/>
+  <ellipse cx="1380" cy="880" rx="165" ry="120" class="stay"/>
+  <circle cx="1270" cy="925" r="27" fill="#1D5D82"/><text x="1270" y="925" class="source-text">E</text>
+  <circle cx="1335" cy="925" r="27" fill="#795E9B"/><text x="1335" y="925" class="source-text">D</text>
+  <circle cx="1400" cy="925" r="27" fill="#C25A2A"/><text x="1400" y="925" class="source-text">R</text>
+  <text x="1240" y="978" class="small">portátil, cargador y móvil</text>
+  <text x="1215" y="1060" class="room">ENTRADA / TÉCNICO</text>
+  <rect x="1240" y="1105" width="105" height="155" rx="8" class="furniture"/>
+  <line x1="1260" y1="1140" x2="1325" y2="1140" stroke="#708791" stroke-width="3"/>
+  <line x1="1260" y1="1175" x2="1325" y2="1175" stroke="#708791" stroke-width="3"/>
+  <circle cx="1280" cy="1300" r="27" fill="#1D5D82"/><text x="1280" y="1300" class="source-text">E</text>
+  <circle cx="1345" cy="1300" r="27" fill="#287A68"/><text x="1345" y="1300" class="source-text">M</text>
+  <text x="1380" y="1140" class="small">cuadro eléctrico</text>
+  <rect x="1420" y="1180" width="120" height="80" rx="8" class="furniture"/>
+  <path d="M1445 1235 l25 -35 l15 22 l20 -27" fill="none" stroke="#795E9B" stroke-width="5"/>
+  <circle cx="1480" cy="1290" r="27" fill="#795E9B"/><text x="1480" y="1290" class="source-text">D</text>
+  <text x="1380" y="1322" class="small">inversor solar</text>
+
+  <!-- Sidebar -->
+  <rect x="1645" y="190" width="485" height="1160" rx="28" fill="#F5F8F9" stroke="#B5C7CE" stroke-width="4"/>
+  <text x="1888" y="255" text-anchor="middle" class="room">CÓMO LEERLO</text>
+
+  <circle cx="1720" cy="330" r="31" fill="#1D5D82"/><text x="1720" y="330" class="source-text">E</text>
+  <text x="1775" y="322" class="label">Campo eléctrico</text>
+  <text x="1775" y="352" class="small">Tensión presente</text>
+
+  <circle cx="1720" cy="420" r="31" fill="#287A68"/><text x="1720" y="420" class="source-text">M</text>
+  <text x="1775" y="412" class="label">Campo magnético</text>
+  <text x="1775" y="442" class="small">Corriente y motores</text>
+
+  <circle cx="1720" cy="510" r="31" fill="#C25A2A"/><text x="1720" y="510" class="source-text">R</text>
+  <text x="1775" y="502" class="label">Radiofrecuencia</text>
+  <text x="1775" y="532" class="small">Equipos que transmiten</text>
+
+  <circle cx="1720" cy="600" r="31" fill="#795E9B"/><text x="1720" y="600" class="source-text">D</text>
+  <text x="1775" y="592" class="label">Electricidad sucia</text>
+  <text x="1775" y="622" class="small">Electrónica y perturbaciones</text>
+
+  <ellipse cx="1720" cy="705" rx="48" ry="32" class="stay"/>
+  <text x="1790" y="698" class="label">Zona de permanencia</text>
+  <text x="1790" y="728" class="small">Cama, sofá o escritorio</text>
+
+  <line x1="1690" y1="800" x2="2070" y2="800" stroke="#C5D2D7" stroke-width="3"/>
+  <text x="1888" y="860" text-anchor="middle" class="room">ORDEN DE TRABAJO</text>
+  <circle cx="1715" cy="925" r="27" fill="#16313F"/><text x="1715" y="925" class="source-text">1</text>
+  <text x="1770" y="918" class="label">Observa</text>
+  <text x="1770" y="948" class="small">Qué hay y cuándo funciona</text>
+  <circle cx="1715" cy="1015" r="27" fill="#16313F"/><text x="1715" y="1015" class="source-text">2</text>
+  <text x="1770" y="1008" class="label">Añade tiempo</text>
+  <text x="1770" y="1038" class="small">Dónde permaneces más</text>
+  <circle cx="1715" cy="1105" r="27" fill="#16313F"/><text x="1715" y="1105" class="source-text">3</text>
+  <text x="1770" y="1098" class="label">Elige un oasis</text>
+  <text x="1770" y="1128" class="small">Empieza por una sola zona</text>
+  <path d="M2045 1210 C1930 1190 1770 1210 1595 1240" fill="none" stroke="#287A68" stroke-width="7" marker-end="url(#arrow)"/>
+  <text x="1888" y="1195" text-anchor="middle" class="label" fill="#287A68">Después mide y decide</text>
+  <rect x="1690" y="1262" width="395" height="58" rx="20" fill="#E4F3EE" stroke="#287A68" stroke-width="3"/>
+  <text x="1888" y="1299" text-anchor="middle" class="tiny" fill="#287A68">LOS SÍMBOLOS ABREN PREGUNTAS</text>
+
+  <text x="1100" y="1432" text-anchor="middle" class="label">Un mapa visual no sustituye una medición.</text>
+  <text x="1100" y="1472" text-anchor="middle" class="body">Sirve para ordenar fuentes, tiempo y distancia antes de actuar.</text>
+</svg>

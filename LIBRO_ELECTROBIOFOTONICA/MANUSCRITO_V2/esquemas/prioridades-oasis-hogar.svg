@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1440" viewBox="0 0 2400 1440" role="img" aria-labelledby="title desc">
+  <title id="title">Orden de prioridades para crear un Oasis Electromagnético</title>
+  <desc id="desc">Una señal eléctrica de peligro requiere atención profesional. Después se revisan cinco prioridades: noche, dispositivos en contacto con el cuerpo, lugares de permanencia, usos intensos y señales naturales.</desc>
+  <defs>
+    <style>
+      .title { font: 700 60px Arial, Helvetica, sans-serif; fill: #16313F; }
+      .subtitle { font: 400 28px Arial, Helvetica, sans-serif; fill: #4B646F; }
+      .number { font: 700 32px Arial, Helvetica, sans-serif; fill: #FFFFFF; }
+      .label { font: 700 31px Arial, Helvetica, sans-serif; fill: #16313F; }
+      .body { font: 400 23px Arial, Helvetica, sans-serif; fill: #3F5964; }
+      .small { font: 600 20px Arial, Helvetica, sans-serif; fill: #4B646F; }
+      .row { fill: #F8FBFC; stroke: #B4C6CD; stroke-width: 4; }
+      .line { fill: none; stroke: #607985; stroke-width: 6; stroke-linecap: round; stroke-linejoin: round; }
+      .good { fill: none; stroke: #287A68; stroke-width: 8; stroke-linecap: round; stroke-linejoin: round; }
+      .warn { fill: none; stroke: #B94D3E; stroke-width: 8; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect width="2400" height="1440" fill="#FFFFFF"/>
+  <text x="1200" y="88" text-anchor="middle" class="title">¿POR DÓNDE EMPIEZO?</text>
+  <text x="1200" y="138" text-anchor="middle" class="subtitle">Seguridad primero; después ordena por tiempo, distancia y facilidad para actuar</text>
+
+  <g transform="translate(150,200)">
+    <rect width="2100" height="130" rx="30" fill="#F7E4E1" stroke="#B94D3E" stroke-width="5"/>
+    <circle cx="78" cy="65" r="42" fill="#B94D3E"/>
+    <path d="M78 34 V74 M78 98 V100" class="warn" stroke="#FFFFFF"/>
+    <text x="150" y="55" class="label">URGENTE · SEGURIDAD ELÉCTRICA</text>
+    <text x="150" y="94" class="body">Olor a quemado · chispas · marcas oscuras · cables dañados · enchufes calientes · protecciones que saltan</text>
+    <rect x="1700" y="33" width="340" height="65" rx="22" fill="#FFFFFF"/>
+    <text x="1870" y="76" text-anchor="middle" class="label">PROFESIONAL</text>
+  </g>
+
+  <g transform="translate(245,390)">
+    <g>
+      <rect width="1910" height="145" rx="28" class="row"/>
+      <circle cx="78" cy="72" r="43" fill="#1D5D82"/><text x="78" y="83" text-anchor="middle" class="number">1</text>
+      <text x="155" y="61" class="label">LA NOCHE</text>
+      <text x="155" y="102" class="body">Camas, mesitas, cargadores, paredes compartidas y router</text>
+      <text x="1400" y="61" class="small">MUCHO TIEMPO + POCA UTILIDAD</text>
+      <text x="1400" y="101" class="label">Retirar · alejar · apagar</text>
+    </g>
+    <g transform="translate(0,170)">
+      <rect width="1910" height="145" rx="28" class="row"/>
+      <circle cx="78" cy="72" r="43" fill="#287A68"/><text x="78" y="83" text-anchor="middle" class="number">2</text>
+      <text x="155" y="61" class="label">LO QUE TOCA TU CUERPO</text>
+      <text x="155" y="102" class="body">Móvil, tableta, portátil, reloj y auriculares inalámbricos</text>
+      <text x="1400" y="61" class="small">DISTANCIA MUY CORTA</text>
+      <text x="1400" y="101" class="label">Separar · configurar · SPIRO</text>
+    </g>
+    <g transform="translate(0,340)">
+      <rect width="1910" height="145" rx="28" class="row"/>
+      <circle cx="78" cy="72" r="43" fill="#D18B39"/><text x="78" y="83" text-anchor="middle" class="number">3</text>
+      <text x="155" y="61" class="label">DONDE PERMANECES</text>
+      <text x="155" y="102" class="body">Sofá, escritorio, zona infantil y lugares de descanso animal</text>
+      <text x="1400" y="61" class="small">HORAS DE EXPOSICIÓN</text>
+      <text x="1400" y="101" class="label">Ordenar · cablear · medir</text>
+    </g>
+    <g transform="translate(0,510)">
+      <rect width="1910" height="145" rx="28" class="row"/>
+      <circle cx="78" cy="72" r="43" fill="#795E9B"/><text x="78" y="83" text-anchor="middle" class="number">4</text>
+      <text x="155" y="61" class="label">USOS INTENSOS</text>
+      <text x="155" y="102" class="body">Inducción, microondas, secador, motores y herramientas</text>
+      <text x="1400" y="61" class="small">FUENTE ACTIVA + USO BREVE</text>
+      <text x="1400" y="101" class="label">Dar distancia · apagar al terminar</text>
+    </g>
+    <g transform="translate(0,680)">
+      <rect width="1910" height="145" rx="28" fill="#E6F3EE" stroke="#287A68" stroke-width="4"/>
+      <circle cx="78" cy="72" r="43" fill="#287A68"/><text x="78" y="83" text-anchor="middle" class="number">5</text>
+      <text x="155" y="61" class="label">SEÑALES NATURALES</text>
+      <text x="155" y="102" class="body">Luz exterior, anochecer, oscuridad, movimiento y contacto con la Tierra</text>
+      <text x="1400" y="61" class="small">RITMO DIARIO</text>
+      <text x="1400" y="101" class="label">Salir · sincronizar · repetir</text>
+    </g>
+  </g>
+
+  <rect x="330" y="1275" width="1740" height="92" rx="28" fill="#FFF3C9"/>
+  <text x="1200" y="1314" text-anchor="middle" class="label">Si dos acciones parecen iguales, empieza por la más cercana y prolongada</text>
+  <text x="1200" y="1348" text-anchor="middle" class="body">La casa se revisa por personas, lugares y momentos; no por miedo a una lista de aparatos</text>
+</svg>

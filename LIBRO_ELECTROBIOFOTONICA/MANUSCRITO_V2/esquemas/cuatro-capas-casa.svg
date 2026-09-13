@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="980" viewBox="0 0 1600 980" role="img" aria-labelledby="title desc">
+  <title id="title">Cuatro capas del entorno electromagnético doméstico</title>
+  <desc id="desc">Esquema de una vivienda con campo eléctrico, campo magnético, radiofrecuencia y electricidad sucia.</desc>
+  <rect width="1600" height="980" fill="#ffffff"/>
+  <text x="800" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="46" font-weight="700" fill="#17202a">LA CASA INVISIBLE</text>
+  <text x="800" y="122" text-anchor="middle" font-family="Arial, sans-serif" font-size="25" fill="#4d5966">Cuatro capas distintas pueden coincidir en una misma habitación</text>
+
+  <rect x="125" y="205" width="1350" height="590" rx="24" fill="#f7f8fa" stroke="#17202a" stroke-width="5"/>
+  <line x1="800" y1="205" x2="800" y2="795" stroke="#17202a" stroke-width="4"/>
+  <line x1="125" y1="500" x2="1475" y2="500" stroke="#17202a" stroke-width="4"/>
+
+  <g font-family="Arial, sans-serif">
+    <circle cx="245" cy="290" r="54" fill="#ffffff" stroke="#246b7a" stroke-width="7"/>
+    <text x="245" y="307" text-anchor="middle" font-size="50" font-weight="700" fill="#246b7a">E</text>
+    <text x="330" y="273" font-size="34" font-weight="700" fill="#17202a">CAMPO ELÉCTRICO</text>
+    <text x="330" y="318" font-size="25" fill="#4d5966">Hay tensión</text>
+    <path d="M225 404 h255" stroke="#246b7a" stroke-width="12" stroke-linecap="round"/>
+    <rect x="480" y="378" width="55" height="52" rx="8" fill="#ffffff" stroke="#246b7a" stroke-width="6"/>
+    <circle cx="497" cy="404" r="5" fill="#246b7a"/><circle cx="518" cy="404" r="5" fill="#246b7a"/>
+    <text x="225" y="464" font-size="23" fill="#17202a">Cable o aparato conectado</text>
+
+    <circle cx="920" cy="290" r="54" fill="#ffffff" stroke="#a15c25" stroke-width="7"/>
+    <text x="920" y="307" text-anchor="middle" font-size="50" font-weight="700" fill="#a15c25">M</text>
+    <text x="1005" y="273" font-size="34" font-weight="700" fill="#17202a">CAMPO MAGNÉTICO</text>
+    <text x="1005" y="318" font-size="25" fill="#4d5966">Circula corriente</text>
+    <circle cx="945" cy="406" r="38" fill="none" stroke="#a15c25" stroke-width="8"/>
+    <circle cx="945" cy="406" r="78" fill="none" stroke="#a15c25" stroke-width="5" stroke-dasharray="13 12"/>
+    <path d="M865 406 h160" stroke="#17202a" stroke-width="9" stroke-linecap="round"/>
+    <text x="1070" y="414" font-size="23" fill="#17202a">Motor, placa, transformador</text>
+
+    <circle cx="245" cy="585" r="54" fill="#ffffff" stroke="#6a4c93" stroke-width="7"/>
+    <text x="245" y="602" text-anchor="middle" font-size="50" font-weight="700" fill="#6a4c93">R</text>
+    <text x="330" y="568" font-size="34" font-weight="700" fill="#17202a">RADIOFRECUENCIA</text>
+    <text x="330" y="613" font-size="25" fill="#4d5966">Transporta información</text>
+    <circle cx="260" cy="704" r="10" fill="#6a4c93"/>
+    <path d="M220 664 a56 56 0 0 1 0 80 M195 640 a90 90 0 0 1 0 128" fill="none" stroke="#6a4c93" stroke-width="8" stroke-linecap="round"/>
+    <path d="M300 664 a56 56 0 0 0 0 80 M325 640 a90 90 0 0 0 0 128" fill="none" stroke="#6a4c93" stroke-width="8" stroke-linecap="round"/>
+    <text x="390" y="713" font-size="23" fill="#17202a">Móvil, Wi-Fi, Bluetooth</text>
+
+    <circle cx="920" cy="585" r="54" fill="#ffffff" stroke="#3b7d44" stroke-width="7"/>
+    <text x="920" y="602" text-anchor="middle" font-size="50" font-weight="700" fill="#3b7d44">D</text>
+    <text x="1005" y="568" font-size="34" font-weight="700" fill="#17202a">ELECTRICIDAD SUCIA</text>
+    <text x="1005" y="613" font-size="25" fill="#4d5966">La forma de onda se distorsiona</text>
+    <path d="M880 706 C915 650 950 760 985 706 S1055 650 1090 706 S1160 760 1195 706" fill="none" stroke="#3b7d44" stroke-width="9" stroke-linecap="round"/>
+    <text x="1210" y="713" font-size="21" fill="#17202a">Armónicos y transitorios</text>
+  </g>
+
+  <text x="800" y="880" text-anchor="middle" font-family="Arial, sans-serif" font-size="27" font-weight="700" fill="#17202a">Identificar primero · Elegir después la medida adecuada</text>
+  <text x="800" y="925" text-anchor="middle" font-family="Arial, sans-serif" font-size="21" fill="#4d5966">Esquema conceptual: no representa intensidad, dosis ni alcance real.</text>
+</svg>

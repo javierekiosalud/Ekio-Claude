@@ -10,6 +10,8 @@ El de 1973 tenía una misión. El tuyo cambia de trabajo continuamente. Vamos a 
 
 Con la pantalla apagada puede estar casi quieto o intercambiando datos. En una llamada, una descarga o una videollamada, cambia. Y adapta su potencia a la cobertura: con mala señal, transmite con más fuerza para mantener el enlace.
 
+![Figura 3.1 · El móvil cambia de papel](esquemas/el-movil-cambia-de-papel.svg)
+
 > **FIGURA 3.1 · El móvil cambia de papel.** Cuatro escenas: en reposo, videollamada, poca cobertura, punto de acceso. Pie: "Antes de actuar pregunta: ¿qué está haciendo, a qué distancia y durante cuánto tiempo?". Referencia Codex: `el-movil-cambia-de-papel`.
 
 Cuatro escenas: espera sobre una mesa; videollamada a un palmo; envío de un vídeo con poca cobertura; punto de acceso para el ordenador. En la última mantiene la conexión con la antena y crea un Wi-Fi: se ha convertido en un pequeño router.
@@ -65,6 +67,8 @@ Primero resuelvo lo evitable: aparatos innecesarios, proximidad y problemas de i
 | Zonas urbanas muy densas o personas que refieren alta sensibilidad | Disc X o Disc Ultra, según la valoración del lugar |
 | Ruido medido en la línea eléctrica | Stroom Master, un filtro que se enchufa |
 
+![Figura 3.2 · Elige la conexión y revisa tus opciones](esquemas/ruta-conexion-y-spiro.svg)
+
 > **FIGURA 3.2 · Elige la conexión y revisa tus opciones.** Árbol de decisión: ¿necesitas conexión ahora? No: apaga o modo avión. Sí: ¿puedes usar cable? Sí: Ethernet. No: elige una red y aleja la fuente. Debajo, los cuatro formatos: Card (móvil), Square (equipo), Disc (espacio, delante del router), Stroom Master (línea). Referencia Codex: `ruta-conexion-y-spiro`, con "Stroom Master" completo.
 
 ### Por qué el Disc va delante del router
@@ -118,6 +122,8 @@ El Centro Común de Investigación de la Comisión Europea midió en 2020 nueve 
 En 2025, Joaquín Machado, el creador de SPIRO, publicó una exploración de dos Tesla Model Y con 952 registros de campo, antes y después de instalar un disco SPIRO en la cabina. Fue un trabajo exploratorio, sin ocupantes ni resultados de salud. Lo cito porque existe y porque es del inventor de la tecnología, no porque pruebe nada más.
 
 Si conduces muchas horas (taxi, reparto) y notas dolor de cabeza o malestar, revisa jornada, postura, ventilación y descanso además del vehículo. Esos síntomas merecen atención; no permiten culpar a la batería.
+
+![Figura 3.3 · Un coche eléctrico también tiene un mapa](esquemas/mapa-coche-electrico-spiro.svg)
 
 > **FIGURA 3.3 · Un coche eléctrico también tiene un mapa.** Planta reconocible de un coche (ruedas, parabrisas) con motor e inversor delante, batería bajo los asientos, cuatro ocupantes. A un lado: "Propuesta de EKIO: tres Square X, o un Disc X". Pie: "Fijación segura · pedales y airbags libres · mide un acompañante, no el conductor". Referencia Codex: `mapa-coche-electrico-spiro`, rehecho para que parezca un coche.
 

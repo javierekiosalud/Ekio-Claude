@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1240" viewBox="0 0 2400 1240" role="img" aria-labelledby="title desc">
+  <title id="title">El reloj diario de luz, Tierra y tecnología</title>
+  <desc id="desc">Una línea del tiempo muestra iluminación roja o amarilla antes del amanecer, luz exterior al comenzar el día, pausas exteriores y grounding durante el día, transición amarilla y roja al anochecer y oscuridad para dormir.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="10" markerHeight="10" orient="auto"><path d="M1 1 L11 6 L1 11 Z" fill="#607985"/></marker>
+    <linearGradient id="sky" x1="0" x2="1">
+      <stop offset="0" stop-color="#3E426B"/>
+      <stop offset="0.22" stop-color="#E9B45A"/>
+      <stop offset="0.5" stop-color="#9BD4E4"/>
+      <stop offset="0.78" stop-color="#E6A45E"/>
+      <stop offset="1" stop-color="#343A61"/>
+    </linearGradient>
+    <radialGradient id="sun"><stop offset="0" stop-color="#FFF1A8"/><stop offset="1" stop-color="#F1BB43"/></radialGradient>
+    <style>
+      .title { font: 700 62px Arial, Helvetica, sans-serif; fill: #16313F; }
+      .subtitle { font: 400 29px Arial, Helvetica, sans-serif; fill: #4B646F; }
+      .phase { font: 700 31px Arial, Helvetica, sans-serif; fill: #16313F; }
+      .body { font: 400 24px Arial, Helvetica, sans-serif; fill: #3F5964; }
+      .small { font: 600 20px Arial, Helvetica, sans-serif; fill: #4B646F; }
+      .tag { font: 700 19px Arial, Helvetica, sans-serif; letter-spacing: .8px; }
+      .card { fill: #F8FBFC; stroke: #B4C6CD; stroke-width: 4; }
+      .line { fill: none; stroke: #607985; stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
+      .icon { fill: none; stroke: #1D5D82; stroke-width: 7; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect width="2400" height="1240" fill="#FFFFFF"/>
+  <text x="1200" y="84" text-anchor="middle" class="title">EL RELOJ DIARIO DE LUZ, TIERRA Y TECNOLOGÍA</text>
+  <text x="1200" y="133" text-anchor="middle" class="subtitle">Devuelve al día señales claras sin abandonar la vida moderna</text>
+
+  <rect x="120" y="190" width="2160" height="135" rx="67" fill="url(#sky)"/>
+  <circle cx="600" cy="258" r="43" fill="url(#sun)"/>
+  <circle cx="1200" cy="258" r="54" fill="url(#sun)"/>
+  <circle cx="1800" cy="258" r="43" fill="#F1BB43" opacity=".85"/>
+  <path d="M180 355 H2210" class="line" marker-end="url(#arrow)"/>
+  <circle cx="320" cy="355" r="14" fill="#795E9B"/>
+  <circle cx="820" cy="355" r="14" fill="#E2B13E"/>
+  <circle cx="1320" cy="355" r="14" fill="#287A68"/>
+  <circle cx="1820" cy="355" r="14" fill="#D18B39"/>
+  <circle cx="2180" cy="355" r="14" fill="#B94D3E"/>
+
+  <g transform="translate(80,410)">
+    <rect width="500" height="620" rx="28" class="card"/>
+    <rect x="28" y="28" width="225" height="43" rx="20" fill="#EEE9F4"/>
+    <text x="140" y="57" text-anchor="middle" class="tag" fill="#795E9B">ANTES DEL AMANECER</text>
+    <text x="250" y="125" text-anchor="middle" class="phase">Empieza suave</text>
+    <circle cx="190" cy="255" r="76" fill="#FFD86A" opacity=".34"/>
+    <circle cx="310" cy="255" r="76" fill="#D85D4A" opacity=".28"/>
+    <path d="M145 225 C145 178 192 160 226 190 C255 216 235 250 216 267 C202 280 202 300 202 316 H160 C160 297 158 282 144 268 C125 249 126 238 145 225 Z" fill="#FFD86A" stroke="#607985" stroke-width="5"/>
+    <path d="M160 316 H202 V348 H160 M166 360 H196" class="line"/>
+    <path d="M266 225 C266 178 313 160 347 190 C376 216 356 250 337 267 C323 280 323 300 323 316 H281 C281 297 279 282 265 268 C246 249 247 238 266 225 Z" fill="#D85D4A" stroke="#607985" stroke-width="5"/>
+    <path d="M281 316 H323 V348 H281 M287 360 H317" class="line"/>
+    <text x="250" y="415" text-anchor="middle" class="body">Roja DUSK o amarilla 1800K</text>
+    <text x="250" y="451" text-anchor="middle" class="body">hasta que llegue el día.</text>
+    <rect x="55" y="510" width="390" height="64" rx="22" fill="#EEE9F4"/>
+    <text x="250" y="550" text-anchor="middle" class="small">La bombilla acompaña la espera</text>
+  </g>
+
+  <g transform="translate(610,410)">
+    <rect width="500" height="620" rx="28" class="card"/>
+    <rect x="28" y="28" width="190" height="43" rx="20" fill="#FFF3C9"/>
+    <text x="123" y="57" text-anchor="middle" class="tag" fill="#9A7421">PRIMERA LUZ</text>
+    <text x="250" y="125" text-anchor="middle" class="phase">Encuentra el cielo</text>
+    <circle cx="250" cy="250" r="86" fill="url(#sun)"/>
+    <g stroke="#D5A327" stroke-width="7" stroke-linecap="round">
+      <line x1="250" y1="130" x2="250" y2="105"/><line x1="250" y1="395" x2="250" y2="370"/><line x1="130" y1="250" x2="105" y2="250"/><line x1="395" y1="250" x2="370" y2="250"/>
+      <line x1="165" y1="165" x2="145" y2="145"/><line x1="335" y1="335" x2="355" y2="355"/><line x1="335" y1="165" x2="355" y2="145"/><line x1="165" y1="335" x2="145" y2="355"/>
+    </g>
+    <text x="250" y="415" text-anchor="middle" class="body">Sal fuera y recibe luz ambiental.</text>
+    <text x="250" y="451" text-anchor="middle" class="body">Mira el entorno, no el Sol.</text>
+    <rect x="55" y="510" width="390" height="64" rx="22" fill="#FFF3C9"/>
+    <text x="250" y="550" text-anchor="middle" class="small">El exterior pone el reloj en hora</text>
+  </g>
+
+  <g transform="translate(1140,410)">
+    <rect width="500" height="620" rx="28" class="card"/>
+    <rect x="28" y="28" width="125" height="43" rx="20" fill="#E6F3EE"/>
+    <text x="90" y="57" text-anchor="middle" class="tag" fill="#287A68">DÍA</text>
+    <text x="250" y="125" text-anchor="middle" class="phase">Sal, muévete y conecta</text>
+    <circle cx="250" cy="205" r="45" fill="#F0C65C"/>
+    <path d="M250 255 L250 350 M250 285 L185 325 M250 285 L315 325 M250 350 L195 420 M250 350 L315 420" class="icon"/>
+    <path d="M125 445 C205 420 295 468 380 440 L380 478 C300 505 210 458 125 482 Z" fill="#CFE5D8"/>
+    <path d="M250 420 L250 476" stroke="#287A68" stroke-width="7"/>
+    <circle cx="250" cy="478" r="12" fill="#287A68"/>
+    <text x="250" y="525" text-anchor="middle" class="body">Pausas exteriores y grounding</text>
+    <text x="250" y="561" text-anchor="middle" class="body">sobre una superficie segura.</text>
+  </g>
+
+  <g transform="translate(1670,410)">
+    <rect width="650" height="620" rx="28" class="card"/>
+    <rect x="28" y="28" width="170" height="43" rx="20" fill="#FFF0D8"/>
+    <text x="113" y="57" text-anchor="middle" class="tag" fill="#B07821">ANOCHECER</text>
+    <text x="325" y="125" text-anchor="middle" class="phase">Baja la señal de día</text>
+    <path d="M80 255 H570" stroke="#D18B39" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="160" cy="255" r="70" fill="#FFD86A" opacity=".78"/>
+    <circle cx="490" cy="255" r="70" fill="#D85D4A" opacity=".72"/>
+    <path d="M230 255 H420" class="line" marker-end="url(#arrow)"/>
+    <text x="160" y="360" text-anchor="middle" class="small">AMARILLA</text>
+    <text x="160" y="390" text-anchor="middle" class="body">1800K</text>
+    <text x="490" y="360" text-anchor="middle" class="small">ROJA</text>
+    <text x="490" y="390" text-anchor="middle" class="body">DUSK</text>
+    <text x="325" y="465" text-anchor="middle" class="body">Reduce intensidad, pantallas y actividad.</text>
+    <rect x="80" y="510" width="490" height="64" rx="22" fill="#F7E4E1"/>
+    <text x="325" y="550" text-anchor="middle" class="small">Oscuridad cuando llegue el descanso</text>
+  </g>
+
+  <rect x="250" y="1080" width="1900" height="95" rx="28" fill="#E8F0F4" stroke="#1D5D82" stroke-width="3"/>
+  <text x="1200" y="1120" text-anchor="middle" class="small">TECNOLOGÍA NECESARIA</text>
+  <text x="1200" y="1157" text-anchor="middle" class="body">Apaga y aleja cuando puedas · SPIRO Card con el móvil · SPIRO Disc siempre delante del router</text>
+</svg>

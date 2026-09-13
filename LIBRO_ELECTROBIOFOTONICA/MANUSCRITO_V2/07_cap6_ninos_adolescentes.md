@@ -42,6 +42,8 @@ El móvil que usas como cámara improvisada tampoco va en la cuna. Si tiene que 
 
 Mira después la pared de detrás de la cama. Puede compartir tabique con el cuadro eléctrico, el frigorífico, el router o un despacho lleno de fuentes. Ver un aparato en la pared de al lado no te dice cuánto llega a la cama; solo medir lo dice.
 
+![Figura 6.1 · Dormitorio infantil: del acumular al organizar](esquemas/oasis-dormitorio-infantil.svg)
+
 > **FIGURA 6.1 · Dormitorio infantil: del acumular al organizar.** Antes: móvil en la cama, vigilabebés pegado, router en la habitación, regleta junto al colchón, cables bajo la cama. Después: zona de descanso despejada, luz gradual, monitor estable y lejos, dispositivos fuera, router fuera del dormitorio. Referencia Codex: `oasis-dormitorio-infantil`, sin textos tapados.
 
 ## Receta 1 — Convierte su dormitorio en un Oasis Electromagnético
@@ -66,6 +68,8 @@ Rara vez preguntamos:
 —¿Cuánto cielo has visto hoy?
 
 En 2015, Mingguang He y su equipo publicaron un ensayo con niños de seis años de doce colegios de Guangzhou, en China. A seis colegios les añadieron cuarenta minutos diarios de clase al aire libre y animaron a las familias a salir también. Tres años después, la miopía había aparecido en el 30,4 % de los niños que salían más y en el 39,5 % de los que seguían su rutina.
+
+![Figura 6.2 · Más tiempo fuera, menos miopía](esquemas/exterior-y-miopia.svg)
 
 > **FIGURA 6.2 · Más tiempo fuera, menos miopía.** Dos barras horizontales sobre una escala de 0 a 100 %: "Más actividad exterior: 30,4 % (259 de 853 niños)" y "Rutina habitual: 39,5 % (287 de 726 niños)". Pie: "He et al., JAMA 2015. Doce colegios, tres años. Un resultado sobre aparición de miopía; no cura una miopía existente". Referencia Codex: `exterior-y-miopia`.
 
@@ -110,6 +114,8 @@ La Asociación Española de Pediatría actualizó en 2024 sus recomendaciones: n
 **Necesitas:** al menor, un papel y quince minutos. **Resultado:** seis reglas escritas por los dos.
 
 Escribe estas reglas con él. No las escondas en un discurso de cuarenta minutos.
+
+![Figura 6.3 · El pacto del primer móvil](esquemas/pacto-primer-movil.svg)
 
 > **FIGURA 6.3 · El pacto del primer móvil.** Cinco tarjetas: tiene casa, tiene horario, tiene distancia, tiene conexiones, accesorios. Debajo: "La regla que sostiene las cinco: si el móvil interrumpe el sueño, la conversación o la seguridad, se revisa el pacto". Referencia Codex: `pacto-primer-movil`.
 

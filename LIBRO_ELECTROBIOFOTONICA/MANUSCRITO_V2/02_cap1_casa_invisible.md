@@ -21,6 +21,8 @@ Imagina una rueda de enfoque. Con un giro ves una habitación; con otro, una cé
 - **Nanoescala:** membranas, proteínas, moléculas. Un nanómetro es la milmillonésima parte de un metro.
 - **Ondas:** aquí no medimos tamaños, sino cuántas veces por segundo oscila algo (frecuencia) y cuánto mide cada oscilación (longitud de onda).
 
+![Figura 1.1 · Cuatro lentes para mirar lo invisible](esquemas/cuatro-escalas-observacion.svg)
+
 > **FIGURA 1.1 · Cuatro lentes para mirar lo invisible.** Cuatro tarjetas: casa, célula, molécula, onda. Al pie: "1 mm = 1000 µm · 1 µm = 1000 nm · la luz visible va de unos 380 a 700 nm". Referencia Codex: `cuatro-escalas-observacion`.
 
 Las tres primeras describen tamaños. La cuarta ordena el espectro. Una proteína y una onda pueden medirse en nanómetros aunque estemos midiendo cosas distintas.
@@ -33,11 +35,15 @@ El móvil, el Wi-Fi, el Bluetooth y muchos radares usan bandas de radio y microo
 
 La luz visible ocupa, más o menos, de 380 a 700 nanómetros: violeta en un extremo, rojo en el otro. Después del rojo viene el infrarrojo, que no vemos pero sentimos como calor. Antes del violeta viene el ultravioleta.
 
+![Figura 1.2 · El espectro electromagnético](esquemas/espectro-electromagnetico.svg)
+
 > **FIGURA 1.2 · El espectro electromagnético.** Banda continua de radio a gamma con la franja visible en color. Tres recuadros: "Red eléctrica 50 Hz", "Radar · móvil · Wi-Fi", "Lo que ven tus ojos". Debajo, la línea "no ionizante / ionizante" con la frontera en el ultravioleta alto. Referencia Codex: `espectro-electromagnetico`.
 
 El dibujo ordena frecuencias, no peligros. Los rayos X, los gamma y el ultravioleta más energético pueden romper enlaces en la materia: son radiación ionizante. La radiofrecuencia, el infrarrojo y la luz visible no lo son. Para valorar una exposición hacen falta, además, intensidad, frecuencia, tiempo y condiciones.
 
 ## Cuatro cosas que conviene separar
+
+![Figura 1.3 · Las cuatro capas de tu casa](esquemas/cuatro-capas-casa.svg)
 
 > **FIGURA 1.3 · Las cuatro capas de tu casa.** Cuadrícula con E (campo eléctrico), M (campo magnético), R (radiofrecuencia) y D (electricidad sucia), cada una con su icono, su color y un ejemplo. **Este código de cuatro letras y cuatro colores se repite idéntico en todo el libro.** Referencia Codex: `cuatro-capas-casa`.
 
@@ -83,6 +89,8 @@ Un aparato puede funcionar bien y generar ruido por su diseño. Si además está
 
 ## Un aparato puede aparecer cuatro veces
 
+![Figura 1.4 · Un aparato, varias capas](esquemas/un-aparato-varias-capas.svg)
+
 > **FIGURA 1.4 · Un aparato, varias capas.** Un móvil cargando en el centro; alrededor, R (red móvil, Wi-Fi, Bluetooth), E (cable y cargador), D (electrónica del cargador) y L (luz de la pantalla). Nota: la L no es una capa del código; es la señal de hora que damos al cuerpo. Referencia Codex: `un-aparato-varias-capas`.
 
 El móvil transmite por varias redes; su cargador añade un cable con tensión y puede meter ruido; la pantalla da luz. La inducción combina electrónica de potencia y campo magnético. El microondas usa radiofrecuencia dentro de su caja y lleva otros componentes.
@@ -92,6 +100,8 @@ Por eso trabajaremos por capas y por uso. Alejarse siempre reduce, aunque no hay
 ## Cuatro medidores, cuatro preguntas
 
 En EKIO usamos varios instrumentos, cada uno para una pregunta. Te los enseño no para que los compres, sino para que veas que esas cuatro capas son cosas distintas que se miden de formas distintas.
+
+![Figura 1.5 · Los instrumentos que usamos en EKIO](esquemas/medidores-campos-ekio-original.jpg)
 
 > **FIGURA 1.5 · Los instrumentos que usamos en EKIO.** Fotografía cenital sobre fondo neutro, de izquierda a derecha: medidor de radiofrecuencia de banda ancha (Safe and Sound Pro II), medidor triaxial de radiofrecuencia (LATNEX HF-B8G), medidor de campo eléctrico y magnético (Mastfuyi FY876) y medidor de ruido en la línea (LHY Audio Line EMI Meter). Pie: "Instrumentos que usamos como referencia; los modelos cambian".
 
@@ -111,6 +121,8 @@ La luz del sol llega mezclada: oscila en todas las orientaciones a la vez y camb
 
 Algunos investigadores proponen que esa diferencia importa: una oscilación siempre en la misma dirección empujaría a los iones de nuestras células (calcio, magnesio, cargas eléctricas pequeñísimas) de forma coordinada, como una ola de estadio, mientras que la mezcla natural los deja tranquilos. Es una hipótesis, con experimentos a favor y en contra. Y es la que usa el fabricante de SPIRO para explicar lo que hace su material: desordenar esa orientación fija para que la señal siga llegando pero deje de empujar en una sola dirección.
 
+*[Figura 1.6 · Una cuerda y una valla — figura nueva, pendiente de Mauro Arroyo]*
+
 > **FIGURA 1.6 · Una cuerda y una valla.** Tres viñetas: (1) cuerda oscilando en vertical y en horizontal, con la valla que solo deja pasar una; (2) sol con ondas en todas las orientaciones frente a antena con ondas todas iguales; (3) iones en una célula: empujones en todas direcciones (se quedan quietos) frente a empujones siempre en la misma dirección (se mueven en bloque). Rótulo: "Hipótesis: así explican algunos investigadores y el fabricante de SPIRO la diferencia entre campos naturales y artificiales". Figura nueva.
 
 No necesitas creer ni descreer nada para seguir con este libro. Te lo cuento porque es la idea que hay detrás de la palabra "polarización" cuando la leas en una ficha. Para quien quiera profundizar, la nota al final del libro recoge los trabajos a favor y en contra.
@@ -118,6 +130,8 @@ No necesitas creer ni descreer nada para seguir con este libro. Te lo cuento por
 Lo que haces con esto hoy: nada todavía. Identificar, apagar lo que sobra y ganar distancia va primero.
 
 ## El objetivo: crear un Oasis Electromagnético
+
+![Figura 1.7 · Método OASIS](esquemas/metodo-oasis.svg)
 
 > **FIGURA 1.7 · Método OASIS.** Cinco círculos en línea: O Observa · A Aleja o apaga · S Sanea · I Integra · S Sincroniza. Pie: "Un espacio revisado hoy puede necesitar otra revisión mañana". Referencia Codex: `metodo-oasis`.
 
@@ -130,6 +144,8 @@ Lo que haces con esto hoy: nada todavía. Identificar, apagar lo que sobra y gan
 ## Receta 1 — Dibuja el mapa invisible de tu casa
 
 **Necesitas:** una hoja, un lápiz, quince minutos. **Resultado:** una zona elegida y tres cambios. El plano localiza fuentes; no mide campos.
+
+![Figura 1.8 · Mapa invisible de casa, ejemplo](esquemas/mapa-invisible-casa-ejemplo.svg)
 
 > **FIGURA 1.8 · Mapa invisible de casa, ejemplo.** Planta de un piso con dormitorio, habitación infantil, baño, salón, cocina, despacho y entrada. Letras E, M, R, D con los mismos colores de la figura 1.3 sobre lámpara, regleta, móvil, router, inducción, microondas, frigorífico, cuadro e inversor. Elipses discontinuas en cama, sofá y escritorio ("zona de permanencia"). El dormitorio rayado: "primer Oasis". Leyenda a la derecha. Referencia Codex: `mapa-invisible-casa-ejemplo`, con el código de color corregido.
 

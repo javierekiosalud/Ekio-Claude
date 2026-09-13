@@ -28,6 +28,8 @@ En cada uno busca:
 
 Una cama bajo la mesa puede quedar a pocos centímetros de la regleta y del cargador del portátil. Un gato que duerme sobre un mueble puede estar pegado al router que nosotros consideramos "alto y apartado". La distancia se mide desde el animal, no desde nuestros ojos.
 
+![Figura 7.1 · El mapa de las tres siestas](esquemas/mapa-oasis-mascota.svg)
+
 > **FIGURA 7.1 · El mapa de las tres siestas.** Planta con cocina (primer sol junto a la ventana, cargador cerca), salón (sofá favorito, router detrás), despacho (regleta bajo la mesa) y dormitorio (cama nocturna, base de carga al lado). A la derecha: observar, alejar o apagar, medir, integrar. Referencia Codex: `mapa-oasis-mascota`, con textos sin cortar.
 
 ## Receta 1 — El mapa de las tres siestas
@@ -117,6 +119,8 @@ Imagina que intentas iluminar una mesa a través de una cortina. El color, el gr
 En 2020, Lindsay Hochman-Elam y su equipo midieron cuánta luz de dos láseres atravesaba los tejidos de 47 perros sanos. La longitud de onda, la potencia, el color del pelo y el rasurado influyeron. Pasó menos luz por las zonas oscuras y sin rasurar. Curiosamente, la longitud del pelo no fue lo que más importó.
 
 No rasures ni subas la potencia por tu cuenta. Lleva esta pregunta al veterinario: "¿el pelaje y la zona que queremos tratar permiten aplicar el protocolo con este equipo?".
+
+![Figura 7.2 · De un panel a una sesión veterinaria](esquemas/sesion-pbm-mascota.svg)
 
 > **FIGURA 7.2 · De un panel a una sesión veterinaria.** Cinco pasos: diagnóstico, tejido objetivo, pelo y piel, parámetros, supervisar. Tres reglas: los minutos de otro aparato no se transfieren; los ojos y el movimiento cambian la colocación; el ultravioleta queda fuera. Referencia Codex: `sesion-pbm-mascota`.
 

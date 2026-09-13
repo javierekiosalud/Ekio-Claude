@@ -30,6 +30,8 @@ Empieza sin comprar nada. Mira a tu alrededor: un cargador enchufado que ya no c
 
 No te voy a dar una lista interminable de aparatos. Prefiero que aprendas a reconocer las fuentes, a valorar la distancia y el tiempo, y a elegir un cambio que puedas mantener.
 
+![Figura P.1 · El camino que dio origen a este libro](esquemas/camino-electrobiofotonica.svg)
+
 > **FIGURA P.1 · El camino que dio origen a este libro.** Línea con seis pasos: 2011 EKIO · Escuchar (SQM y EHS) · Observar casas · Integrar SPIRO · Crear EKIO Light · Compartir (este libro). Debajo, la pregunta que recorre todo: "¿Cómo preparamos un entorno que acompañe al organismo?". Referencia de contenido: esquema Codex `camino-electrobiofotonica`.
 
 Primero quitamos lo que sobra. Después alejamos lo que debe seguir funcionando. Revisamos la instalación y medimos si hace falta. Y a partir de ahí, valoramos qué soluciones encajan en cada casa.

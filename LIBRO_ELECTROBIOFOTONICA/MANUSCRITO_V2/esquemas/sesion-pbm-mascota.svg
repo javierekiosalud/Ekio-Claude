@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1440" viewBox="0 0 2400 1440" role="img" aria-labelledby="title desc">
+  <title id="title">Cómo convertir un panel en una sesión veterinaria de fotobiomodulación</title>
+  <desc id="desc">Cinco decisiones enlazadas: diagnóstico veterinario, tejido objetivo, pelo y pigmentación, parámetros reales del panel, y supervisión con registro de respuesta. Incluye precauciones sobre ojos, movimiento, ultravioleta y transferencia de protocolos.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="10" markerHeight="10" orient="auto"><path d="M1 1 L11 6 L1 11 Z" fill="#607985"/></marker>
+    <style>
+      .title { font: 700 58px Arial, Helvetica, sans-serif; fill: #16313F; }
+      .subtitle { font: 400 28px Arial, Helvetica, sans-serif; fill: #4B646F; }
+      .number { font: 700 27px Arial, Helvetica, sans-serif; fill: #FFFFFF; }
+      .label { font: 700 29px Arial, Helvetica, sans-serif; fill: #16313F; }
+      .body { font: 400 22px Arial, Helvetica, sans-serif; fill: #3F5964; }
+      .small { font: 600 19px Arial, Helvetica, sans-serif; fill: #4B646F; }
+      .card { fill: #F8FBFC; stroke: #B4C6CD; stroke-width: 4; }
+      .line { fill: none; stroke: #607985; stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
+      .icon { fill: none; stroke: #1D5D82; stroke-width: 7; stroke-linecap: round; stroke-linejoin: round; }
+      .good { fill: none; stroke: #287A68; stroke-width: 8; stroke-linecap: round; stroke-linejoin: round; }
+      .warn { fill: none; stroke: #B94D3E; stroke-width: 8; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect width="2400" height="1440" fill="#FFFFFF"/>
+  <text x="1200" y="88" text-anchor="middle" class="title">DE UN PANEL A UNA SESIÓN VETERINARIA</text>
+  <text x="1200" y="138" text-anchor="middle" class="subtitle">El tiempo es solo uno de los datos: la especie, el tejido y la luz que llega cambian la aplicación</text>
+
+  <g transform="translate(70,220)">
+    <g>
+      <rect width="410" height="650" rx="30" class="card"/>
+      <circle cx="58" cy="58" r="31" fill="#1D5D82"/><text x="58" y="68" text-anchor="middle" class="number">1</text>
+      <text x="205" y="132" text-anchor="middle" class="label">Diagnóstico</text>
+      <path d="M125 255 C125 215 160 185 205 185 C250 185 285 215 285 255 V345 C285 395 250 425 205 425 C160 425 125 395 125 345 Z" fill="#DDECF2" stroke="#1D5D82" stroke-width="7"/>
+      <path d="M172 282 H238 M205 249 V315" class="icon"/>
+      <text x="205" y="500" text-anchor="middle" class="body">¿Qué tiene el animal?</text>
+      <text x="205" y="542" text-anchor="middle" class="small">Dolor y cojera no son</text>
+      <text x="205" y="572" text-anchor="middle" class="small">un diagnóstico</text>
+    </g>
+    <path d="M430 325 H485" class="line" marker-end="url(#arrow)"/>
+
+    <g transform="translate(500,0)">
+      <rect width="410" height="650" rx="30" class="card"/>
+      <circle cx="58" cy="58" r="31" fill="#287A68"/><text x="58" y="68" text-anchor="middle" class="number">2</text>
+      <text x="205" y="132" text-anchor="middle" class="label">Tejido objetivo</text>
+      <path d="M90 342 C110 265 190 220 278 244 C324 256 340 302 315 335 C290 368 236 352 210 340 C180 390 115 395 90 342 Z" fill="#E6F3EE" stroke="#287A68" stroke-width="7"/>
+      <circle cx="295" cy="264" r="14" fill="#16313F"/>
+      <path d="M111 326 L70 370 M128 358 L98 414 M275 354 L300 410" class="line"/>
+      <circle cx="204" cy="332" r="38" fill="#D85D4A" opacity=".35" stroke="#B94D3E" stroke-width="6"/>
+      <text x="205" y="500" text-anchor="middle" class="body">¿Piel, herida o articulación?</text>
+      <text x="205" y="542" text-anchor="middle" class="small">Zona, profundidad</text>
+      <text x="205" y="572" text-anchor="middle" class="small">y superficie</text>
+    </g>
+    <path d="M930 325 H985" class="line" marker-end="url(#arrow)"/>
+
+    <g transform="translate(1000,0)">
+      <rect width="410" height="650" rx="30" class="card"/>
+      <circle cx="58" cy="58" r="31" fill="#D18B39"/><text x="58" y="68" text-anchor="middle" class="number">3</text>
+      <text x="205" y="132" text-anchor="middle" class="label">Pelo y piel</text>
+      <g transform="translate(85,205)">
+        <path d="M0 170 C28 40 62 40 90 170 M55 170 C83 0 117 0 145 170 M115 170 C143 55 177 55 205 170 M175 170 C203 20 237 20 265 170" fill="none" stroke="#795E9B" stroke-width="13" stroke-linecap="round"/>
+        <path d="M0 190 H270" stroke="#D8B8A9" stroke-width="34" stroke-linecap="round"/>
+        <g stroke="#D85D4A" stroke-width="6" opacity=".75"><line x1="30" y1="20" x2="30" y2="240"/><line x1="105" y1="20" x2="105" y2="240"/><line x1="190" y1="20" x2="190" y2="240"/></g>
+      </g>
+      <text x="205" y="500" text-anchor="middle" class="body">¿Qué luz alcanza la zona?</text>
+      <text x="205" y="542" text-anchor="middle" class="small">Pelaje, pigmentación</text>
+      <text x="205" y="572" text-anchor="middle" class="small">y grosor atenúan</text>
+    </g>
+    <path d="M1430 325 H1485" class="line" marker-end="url(#arrow)"/>
+
+    <g transform="translate(1500,0)">
+      <rect width="410" height="650" rx="30" class="card"/>
+      <circle cx="58" cy="58" r="31" fill="#B94D3E"/><text x="58" y="68" text-anchor="middle" class="number">4</text>
+      <text x="205" y="132" text-anchor="middle" class="label">Parámetros</text>
+      <rect x="68" y="205" width="90" height="210" rx="14" fill="#D85D4A" stroke="#B94D3E" stroke-width="5"/>
+      <g fill="#FFF3C9"><circle cx="98" cy="245" r="11"/><circle cx="130" cy="245" r="11"/><circle cx="98" cy="280" r="11"/><circle cx="130" cy="280" r="11"/><circle cx="98" cy="315" r="11"/><circle cx="130" cy="315" r="11"/></g>
+      <g stroke="#E2B13E" stroke-width="6" stroke-linecap="round"><line x1="175" y1="235" x2="330" y2="205"/><line x1="175" y1="275" x2="330" y2="260"/><line x1="175" y1="315" x2="330" y2="315"/><line x1="175" y1="355" x2="330" y2="370"/></g>
+      <text x="205" y="475" text-anchor="middle" class="body">nm · mW/cm² · distancia</text>
+      <text x="205" y="516" text-anchor="middle" class="body">tiempo · superficie</text>
+      <text x="205" y="562" text-anchor="middle" class="small">Según el panel real</text>
+    </g>
+    <path d="M1930 325 H1985" class="line" marker-end="url(#arrow)"/>
+
+    <g transform="translate(2000,0)">
+      <rect width="330" height="650" rx="30" fill="#E8F0F4" stroke="#1D5D82" stroke-width="4"/>
+      <circle cx="58" cy="58" r="31" fill="#795E9B"/><text x="58" y="68" text-anchor="middle" class="number">5</text>
+      <text x="165" y="132" text-anchor="middle" class="label">Supervisar</text>
+      <rect x="73" y="205" width="185" height="235" rx="18" fill="#FFFFFF" stroke="#607985" stroke-width="6"/>
+      <path d="M105 265 L126 286 L160 246 M105 326 L126 347 L160 307 M105 387 L126 408 L160 368" class="good"/>
+      <line x1="183" y1="268" x2="230" y2="268" class="line"/><line x1="183" y1="329" x2="230" y2="329" class="line"/><line x1="183" y1="390" x2="230" y2="390" class="line"/>
+      <text x="165" y="500" text-anchor="middle" class="body">Conducta y temperatura</text>
+      <text x="165" y="542" text-anchor="middle" class="small">Registrar la sesión</text>
+      <text x="165" y="572" text-anchor="middle" class="small">y compartir la respuesta</text>
+    </g>
+  </g>
+
+  <g transform="translate(120,930)">
+    <rect width="2160" height="205" rx="32" fill="#F2F7F9" stroke="#1D5D82" stroke-width="4"/>
+    <text x="1080" y="56" text-anchor="middle" class="label">TRES REGLAS QUE EVITAN COPIAR UN PROTOCOLO EQUIVOCADO</text>
+    <g transform="translate(85,92)">
+      <circle cx="28" cy="28" r="28" fill="#B94D3E"/><path d="M15 15 L41 41 M41 15 L15 41" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round"/>
+      <text x="75" y="22" class="body">Los minutos de otro aparato</text><text x="75" y="53" class="label">no se transfieren</text>
+    </g>
+    <g transform="translate(800,92)">
+      <circle cx="28" cy="28" r="28" fill="#D18B39"/><path d="M12 28 H44 M28 12 V44" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round"/>
+      <text x="75" y="22" class="body">Los ojos y el movimiento</text><text x="75" y="53" class="label">cambian la colocación</text>
+    </g>
+    <g transform="translate(1515,92)">
+      <circle cx="28" cy="28" r="28" fill="#795E9B"/><text x="28" y="38" text-anchor="middle" style="font:700 26px Arial;fill:#FFFFFF">UV</text>
+      <text x="75" y="22" class="body">El circuito ultravioleta queda</text><text x="75" y="53" class="label">fuera de la receta doméstica</text>
+    </g>
+  </g>
+
+  <rect x="260" y="1210" width="1880" height="145" rx="30" fill="#E6F3EE"/>
+  <text x="1200" y="1265" text-anchor="middle" class="label">Una sesión bien diseñada se puede repetir y revisar</text>
+  <text x="1200" y="1305" text-anchor="middle" class="body">Fecha · zona · modo · distancia · tiempo · respuesta observada</text>
+  <text x="1200" y="1337" text-anchor="middle" class="small">La indicación veterinaria se traduce a los parámetros comprobados del EKIO Light utilizado</text>
+</svg>

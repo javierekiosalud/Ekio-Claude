@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2200" height="1320" viewBox="0 0 2200 1320" role="img" aria-labelledby="title desc">
+  <title id="title">Cómo elegir la actuación y el formato SPIRO según la situación</title>
+  <desc id="desc">Árbol de decisión para apagar conexiones innecesarias, preferir cable cuando sea viable, organizar una conexión inalámbrica y elegir Card para el móvil, Disc delante del router, Square para otros equipos o Stroom Master para el cableado.</desc>
+  <defs>
+    <marker id="arr" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="10" markerHeight="10" orient="auto"><path d="M1 1 L11 6 L1 11 Z" fill="#49616C"/></marker>
+    <style>
+      .title { font: 700 58px Arial, Helvetica, sans-serif; fill: #16313F; }
+      .subtitle { font: 400 28px Arial, Helvetica, sans-serif; fill: #49616C; }
+      .step { font: 700 31px Arial, Helvetica, sans-serif; fill: #16313F; }
+      .body { font: 400 23px Arial, Helvetica, sans-serif; fill: #3F5964; }
+      .small { font: 600 20px Arial, Helvetica, sans-serif; fill: #49616C; }
+      .node { fill: #F7FAFB; stroke: #9FB3BC; stroke-width: 4; }
+      .yes { fill: #E7F4EF; stroke: #287A68; stroke-width: 4; }
+      .no { fill: #FFF2E8; stroke: #C25A2A; stroke-width: 4; }
+      .line { fill: none; stroke: #49616C; stroke-width: 6; marker-end: url(#arr); }
+    </style>
+  </defs>
+  <rect width="2200" height="1320" fill="#FFFFFF"/>
+  <text x="1100" y="78" text-anchor="middle" class="title">ELIGE LA CONEXIÓN Y REVISA TUS OPCIONES</text>
+  <text x="1100" y="125" text-anchor="middle" class="subtitle">Una ruta sencilla para no mantener fuentes que no necesitas</text>
+
+  <!-- decision path -->
+  <rect x="760" y="180" width="680" height="105" rx="52" class="node"/>
+  <text x="1100" y="245" text-anchor="middle" class="step">¿Necesitas conexión ahora?</text>
+  <path d="M760 232 H430 V345" class="line"/>
+  <text x="555" y="215" class="small">NO</text>
+  <rect x="120" y="350" width="620" height="125" rx="26" class="yes"/>
+  <text x="430" y="402" text-anchor="middle" class="step">Apaga o usa modo avión</text>
+  <text x="430" y="440" text-anchor="middle" class="body">Comprueba si Wi-Fi y Bluetooth siguen activos.</text>
+  <text x="430" y="515" text-anchor="middle" class="small">Aquí termina la ruta si no mantienes una fuente activa.</text>
+
+  <path d="M1440 232 H1770 V345" class="line"/>
+  <text x="1580" y="215" class="small">SÍ</text>
+  <rect x="1460" y="350" width="620" height="125" rx="26" class="node"/>
+  <text x="1770" y="402" text-anchor="middle" class="step">¿Puedes utilizar cable?</text>
+  <text x="1770" y="440" text-anchor="middle" class="body">Especialmente en equipos fijos.</text>
+
+  <path d="M1770 475 V555 H1370" class="line"/>
+  <text x="1580" y="535" class="small">SÍ</text>
+  <rect x="1060" y="560" width="620" height="125" rx="26" class="yes"/>
+  <text x="1370" y="612" text-anchor="middle" class="step">Conecta por Ethernet</text>
+  <text x="1370" y="650" text-anchor="middle" class="body">Desactiva la radio que haya dejado de hacer falta.</text>
+
+  <path d="M1770 475 V555 H1910 V730" class="line"/>
+  <text x="1880" y="535" class="small">NO</text>
+  <rect x="1600" y="735" width="620" height="160" rx="26" class="no"/>
+  <text x="1910" y="787" text-anchor="middle" class="step">Elige una red inalámbrica</text>
+  <text x="1910" y="826" text-anchor="middle" class="body">Datos móviles o Wi-Fi según tu necesidad.</text>
+  <text x="1910" y="862" text-anchor="middle" class="body">Evita duplicar redes y aleja la fuente.</text>
+
+  <!-- merge -->
+  <path d="M1370 685 V945 H1060" class="line"/>
+  <path d="M1910 895 V945 H1270" class="line"/>
+  <rect x="780" y="910" width="640" height="105" rx="52" fill="#E8F0F4" stroke="#1D5D82" stroke-width="5"/>
+  <text x="1100" y="955" text-anchor="middle" class="small">PARA LA TECNOLOGÍA QUE MANTIENES</text>
+  <text x="1100" y="990" text-anchor="middle" class="step">Propuesta de uso de EKIO</text>
+
+  <!-- product choices -->
+  <path d="M1100 1015 V1065" class="line"/>
+  <g transform="translate(80,1080)">
+    <rect width="470" height="175" rx="26" class="node"/>
+    <circle cx="55" cy="55" r="30" fill="#1D5D82"/><text x="55" y="65" text-anchor="middle" font-family="Arial" font-size="29" font-weight="700" fill="#FFFFFF">1</text>
+    <text x="105" y="66" class="step">CARD</text>
+    <text x="40" y="112" class="body">Móvil o tableta</text>
+    <text x="40" y="146" class="small">Junto al dispositivo</text>
+  </g>
+  <g transform="translate(600,1080)">
+    <rect width="470" height="175" rx="26" class="node"/>
+    <circle cx="55" cy="55" r="30" fill="#287A68"/><text x="55" y="65" text-anchor="middle" font-family="Arial" font-size="29" font-weight="700" fill="#FFFFFF">2</text>
+    <text x="105" y="66" class="step">SQUARE</text>
+    <text x="40" y="112" class="body">Ordenador u otra fuente</text>
+    <text x="40" y="146" class="small">Tecnología concentrada</text>
+  </g>
+  <g transform="translate(1120,1080)">
+    <rect width="470" height="175" rx="26" class="node"/>
+    <circle cx="55" cy="55" r="30" fill="#C25A2A"/><text x="55" y="65" text-anchor="middle" font-family="Arial" font-size="29" font-weight="700" fill="#FFFFFF">3</text>
+    <text x="105" y="66" class="step">DISC</text>
+    <text x="40" y="112" class="body">Router, habitación o espacio</text>
+    <text x="40" y="146" class="small">Siempre delante del router</text>
+  </g>
+  <g transform="translate(1640,1080)">
+    <rect width="470" height="175" rx="26" class="node"/>
+    <circle cx="55" cy="55" r="30" fill="#795E9B"/><text x="55" y="65" text-anchor="middle" font-family="Arial" font-size="29" font-weight="700" fill="#FFFFFF">4</text>
+    <text x="105" y="66" class="step">STROOM</text>
+    <text x="40" y="112" class="body">Perturbaciones del cableado</text>
+    <text x="40" y="146" class="small">Electricidad sucia</text>
+  </g>
+  <text x="1100" y="1300" text-anchor="middle" class="small">La colocación y el modelo se comprueban siempre en las instrucciones vigentes.</text>
+</svg>

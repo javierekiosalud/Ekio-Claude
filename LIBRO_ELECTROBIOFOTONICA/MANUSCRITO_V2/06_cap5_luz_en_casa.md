@@ -55,6 +55,8 @@ Un ejemplo con números inventados para que la cuenta sea fácil: si a la distan
 
 El ejemplo enseña a calcular; no te dice qué dosis necesitas tú. Eso lo dice la guía de tu modelo. Y si el panel funciona en modo pulsado (se enciende y apaga muy rápido), hace falta saber la irradiancia media. Copiar los minutos de otro panel es como copiar el tiempo de una receta y cambiar el horno de 160 a 250 grados.
 
+![Figura 5.1 · Anatomía de una sesión de fotobiomodulación](esquemas/anatomia-sesion-pbm.svg)
+
 > **FIGURA 5.1 · Anatomía de una sesión de fotobiomodulación.** Cinco tarjetas: longitud de onda (¿qué luz?), irradiancia (¿cuánta llega y desde dónde?), tiempo, superficie, objetivo. Debajo, la fórmula y el ejemplo con números inventados. Pie: "Mismos minutos no es misma dosis si cambian la potencia, la distancia o el modo". Referencia Codex: `anatomia-sesion-pbm`, con el nuevo ejemplo.
 
 ## Qué hace la luz cuando llega al tejido
@@ -64,6 +66,8 @@ Algunas moléculas absorben la luz y ponen en marcha cambios en el metabolismo y
 En 2017, un equipo comparó distintos colores sobre células madre humanas en cultivo: el rojo de 660 nm y el infrarrojo de 810 nm favorecieron que se multiplicaran; el azul y el verde, no. Era un experimento con células, no una prueba de que cada color regenere un órgano.
 
 El mecanismo exacto se sigue afinando. En 2021, dos investigadores no encontraron el aumento de consumo de oxígeno que se esperaba al iluminar la enzima mitocondrial más citada. Por eso conviene hablar de varios mecanismos posibles y no de un interruptor universal.
+
+*[Figura 5.2 · Qué hace la luz en el tejido — figura nueva, pendiente de Mauro Arroyo]*
 
 > **FIGURA 5.2 · Qué hace la luz en el tejido.** Corte de piel con la luz entrando; una célula con su mitocondria; flechas "luz → moléculas que la absorben → cambios en la energía y la señalización". Rótulo: "Varios mecanismos en estudio, no un interruptor". Figura nueva.
 
@@ -99,6 +103,8 @@ Te presento la familia como familia, sin números de irradiancia ni recuentos de
 - **Deep 5.** El panel de rojo e infrarrojo con cinco longitudes de onda y modos separados. Para sesiones sobre zonas más amplias, a la distancia que indique su guía.
 - **Bio Regén 7.** Añade un cian y un infrarrojo más profundo, y un módulo central para concentrar la luz sobre una zona. El cian se relaciona con la sensibilidad de la retina para el reloj del día; eso no convierte el panel en una lámpara para mirar. No mires sus LED. Para la señal de día, la primera opción de esta guía sigue siendo salir.
 - **Bio Spectrum 11.** El más amplio: cuatro circuitos que van del ultravioleta al infrarrojo. Su bloque de ultravioleta, violeta y cian se enciende junto. Ese bloque queda fuera de todas las recetas domésticas de este libro: la fototerapia ultravioleta requiere valoración profesional porque puede dañar piel y ojos. Para una sesión roja o infrarroja, comprueba que ese circuito está apagado.
+
+![Figura 5.3 · La familia EKIO Light](esquemas/mapa-paneles-ekio-light.svg)
 
 > **FIGURA 5.3 · La familia EKIO Light.** Cuatro siluetas de menor a mayor (Core, Deep 5, Bio Regén 7, Bio Spectrum 11) sobre tres franjas de color: rojo, infrarrojo, cian; el Bio Spectrum añade una franja ultravioleta marcada "fuera de las recetas domésticas". Sin cifras. Pie: "Los datos de cada modelo, en su ficha vigente". Referencia Codex: `mapa-paneles-ekio-light`, simplificado.
 

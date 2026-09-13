@@ -22,6 +22,8 @@ En 2013, Kenneth Wright y su equipo se llevaron a ocho adultos una semana de aca
 
 La acción doméstica es sencilla: acerca tus actividades a la luz del día y añade salidas que puedas repetir. Trabajar junto a una ventana ayuda; caminar fuera cambia además la intensidad, la distancia a la que miras y el movimiento.
 
+![Figura 4.1 · El reloj diario de luz, tierra y tecnología](esquemas/reloj-natural-diario.svg)
+
 > **FIGURA 4.1 · El reloj diario de luz, tierra y tecnología.** Franja del día de noche a noche, con cuatro tarjetas: antes del amanecer (empieza suave), primera luz (encuentra el cielo), día (sal, muévete, pisa tierra), anochecer (baja la señal de día). Referencia Codex: `reloj-natural-diario`, unificando con la figura 2.2.
 
 ## Amanecer y anochecer: dos señales distintas
@@ -65,6 +67,8 @@ El grounding es el contacto conductor entre tu cuerpo y la Tierra. Cambia la ten
 Algunos estudios pequeños han explorado efectos sobre el sueño, el cortisol o el ritmo cardíaco: doce personas en 2004, veintiocho en 2010, en trabajos de investigadores vinculados al movimiento del grounding. Su tamaño limita lo que se puede concluir.
 
 Yo lo incluyo como lo que es: un contacto natural que acompaña al paseo y al descanso fuera. Si te resulta agradable y es seguro, hazlo. No hace falta atribuirle todos los efectos de estar al aire libre.
+
+![Figura 4.2 · Qué cambia al tocar tierra](esquemas/grounding-paraguas-natural.svg)
 
 > **FIGURA 4.2 · Qué cambia al tocar tierra.** Dos figuras humanas junto a un cable con tensión: una sobre suela aislante (puede aparecer tensión inducida en el cuerpo), otra descalza sobre hierba (esa tensión baja). Arriba, un router: "la radiofrecuencia sigue presente en los dos casos". Pie: "Menos tensión respecto a tierra no es protección sanitaria; el grounding no sustituye la revisión eléctrica". Referencia Codex: `grounding-paraguas-natural`, sin que las curvas tapen el texto.
 

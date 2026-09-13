@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1600" viewBox="0 0 2400 1600" role="img" aria-labelledby="title desc">
+  <title id="title">Qué cambia al tocar tierra</title>
+  <desc id="desc">Comparación entre una persona aislada del suelo y otra conectada a la Tierra. El contacto puede reducir la tensión alterna inducida por campos eléctricos de baja frecuencia, mientras el campo ambiental y la radiofrecuencia continúan presentes.</desc>
+  <defs>
+    <marker id="arrowBlue" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="11" markerHeight="11" orient="auto"><path d="M1 1 L11 6 L1 11 Z" fill="#1D5D82"/></marker>
+    <marker id="arrowGreen" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="11" markerHeight="11" orient="auto"><path d="M1 1 L11 6 L1 11 Z" fill="#287A68"/></marker>
+    <style>
+      .title { font: 700 64px Arial, Helvetica, sans-serif; fill: #16313F; }
+      .subtitle { font: 400 29px Arial, Helvetica, sans-serif; fill: #4B646F; }
+      .panel-title { font: 700 36px Arial, Helvetica, sans-serif; fill: #16313F; }
+      .label { font: 600 27px Arial, Helvetica, sans-serif; fill: #16313F; }
+      .body { font: 400 24px Arial, Helvetica, sans-serif; fill: #3F5964; }
+      .small { font: 600 20px Arial, Helvetica, sans-serif; fill: #4B646F; }
+      .tag { font: 700 18px Arial, Helvetica, sans-serif; letter-spacing: .7px; }
+      .panel { fill: #F8FBFC; stroke: #B4C6CD; stroke-width: 4; }
+      .person { fill: none; stroke: #16313F; stroke-width: 9; stroke-linecap: round; stroke-linejoin: round; }
+      .field { fill: none; stroke: #1D5D82; stroke-width: 6; marker-end: url(#arrowBlue); opacity: .82; }
+      .rf { fill: none; stroke: #795E9B; stroke-width: 7; stroke-linecap: round; }
+    </style>
+  </defs>
+  <rect width="2400" height="1600" fill="#FFFFFF"/>
+  <text x="1200" y="88" text-anchor="middle" class="title">QUÉ CAMBIA AL TOCAR TIERRA</text>
+  <text x="1200" y="138" text-anchor="middle" class="subtitle">Cambia la referencia eléctrica del cuerpo; no crea un blindaje ni apaga las fuentes</text>
+
+  <!-- Common sources -->
+  <g transform="translate(1020,190)">
+    <rect x="0" y="0" width="360" height="105" rx="24" fill="#F5EAF4" stroke="#795E9B" stroke-width="4"/>
+    <path d="M85 72 Q115 35 145 72 T205 72 T265 72" class="rf"/>
+    <text x="180" y="36" text-anchor="middle" class="tag" fill="#795E9B">ROUTER · ANTENA · MÓVIL</text>
+  </g>
+  <path d="M1040 315 Q820 400 585 360 T130 420" class="rf"/>
+  <path d="M1360 315 Q1580 400 1815 360 T2270 420" class="rf"/>
+  <text x="1200" y="350" text-anchor="middle" class="small" fill="#795E9B">La radiofrecuencia continúa presente en ambos casos</text>
+
+  <!-- Left panel -->
+  <g transform="translate(80,400)">
+    <rect width="1060" height="980" rx="30" class="panel"/>
+    <rect x="35" y="30" width="250" height="44" rx="21" fill="#F3E9E6"/>
+    <text x="160" y="59" text-anchor="middle" class="tag" fill="#A24D3F">CUERPO AISLADO</text>
+    <text x="530" y="130" text-anchor="middle" class="panel-title">Sin contacto conductor</text>
+
+    <!-- wall cable and low-frequency field -->
+    <rect x="70" y="215" width="120" height="330" rx="20" fill="#E9EFF2" stroke="#607985" stroke-width="4"/>
+    <path d="M130 245 V515" stroke="#C25A2A" stroke-width="9"/>
+    <text x="130" y="580" text-anchor="middle" class="small">Cable con tensión</text>
+    <path d="M210 280 C330 250 370 255 440 300" class="field"/>
+    <path d="M210 380 C330 350 380 350 455 380" class="field"/>
+    <path d="M210 480 C330 450 380 445 450 455" class="field"/>
+
+    <!-- person -->
+    <circle cx="645" cy="270" r="68" class="person"/>
+    <path d="M645 340 V570 M645 390 L520 485 M645 390 L770 485 M645 570 L550 705 M645 570 L740 705" class="person"/>
+    <g fill="#FBE9E4" stroke="#A24D3F" stroke-width="3">
+      <circle cx="585" cy="375" r="23"/><circle cx="700" cy="390" r="23"/><circle cx="610" cy="475" r="23"/><circle cx="690" cy="515" r="23"/>
+    </g>
+    <g text-anchor="middle" font-family="Arial" font-size="26" font-weight="700" fill="#A24D3F">
+      <text x="585" y="384">+</text><text x="700" y="399">−</text><text x="610" y="484">+</text><text x="690" y="524">−</text>
+    </g>
+    <rect x="485" y="706" width="320" height="30" rx="15" fill="#DFE6E9"/>
+    <path d="M485 755 H805" stroke="#A24D3F" stroke-width="5" stroke-dasharray="16 12"/>
+    <text x="645" y="800" text-anchor="middle" class="body">Suela y suelo aislantes</text>
+    <rect x="330" y="850" width="630" height="92" rx="24" fill="#F3E9E6"/>
+    <text x="645" y="888" text-anchor="middle" class="small">PUEDE APARECER TENSIÓN INDUCIDA</text>
+    <text x="645" y="923" text-anchor="middle" class="body">respecto a la referencia de tierra</text>
+  </g>
+
+  <!-- Right panel -->
+  <g transform="translate(1260,400)">
+    <rect width="1060" height="980" rx="30" class="panel"/>
+    <rect x="35" y="30" width="300" height="44" rx="21" fill="#E6F3EE"/>
+    <text x="185" y="59" text-anchor="middle" class="tag" fill="#287A68">CONTACTO CON LA TIERRA</text>
+    <text x="530" y="130" text-anchor="middle" class="panel-title">Grounding natural</text>
+
+    <rect x="70" y="215" width="120" height="330" rx="20" fill="#E9EFF2" stroke="#607985" stroke-width="4"/>
+    <path d="M130 245 V515" stroke="#C25A2A" stroke-width="9"/>
+    <text x="130" y="580" text-anchor="middle" class="small">Cable con tensión</text>
+    <path d="M210 280 C330 250 370 255 440 300" class="field"/>
+    <path d="M210 380 C330 350 380 350 455 380" class="field"/>
+    <path d="M210 480 C330 450 380 445 450 455" class="field"/>
+
+    <circle cx="645" cy="270" r="68" class="person"/>
+    <path d="M645 340 V570 M645 390 L520 485 M645 390 L770 485 M645 570 L550 705 M645 570 L740 705" class="person"/>
+    <path d="M550 705 Q645 760 740 705" fill="none" stroke="#287A68" stroke-width="7"/>
+    <path d="M645 560 V790" stroke="#287A68" stroke-width="8" marker-end="url(#arrowGreen)"/>
+    <circle cx="645" cy="485" r="25" fill="#E6F3EE" stroke="#287A68" stroke-width="3"/>
+    <text x="645" y="494" text-anchor="middle" font-family="Arial" font-size="25" font-weight="700" fill="#287A68">V</text>
+    <path d="M310 760 C420 700 535 730 645 785 C760 730 865 700 970 760 V850 H310 Z" fill="#CFE5D8" stroke="#287A68" stroke-width="4"/>
+    <path d="M370 800 q35 -55 70 0 t70 0 t70 0 M720 810 q35 -55 70 0 t70 0 t70 0" fill="none" stroke="#287A68" stroke-width="5"/>
+    <rect x="310" y="880" width="670" height="92" rx="24" fill="#E6F3EE"/>
+    <text x="645" y="918" text-anchor="middle" class="small">LA TENSIÓN ALTERNA INDUCIDA PUEDE REDUCIRSE</text>
+    <text x="645" y="953" text-anchor="middle" class="body">en condiciones de campo eléctrico de baja frecuencia</text>
+  </g>
+
+  <!-- Bottom distinctions -->
+  <rect x="175" y="1430" width="2050" height="125" rx="30" fill="#E8F0F4" stroke="#1D5D82" stroke-width="3"/>
+  <text x="1200" y="1472" text-anchor="middle" class="label">EL ORDEN SIGUE SIENDO: RETIRAR · ALEJAR · REVISAR · INTEGRAR</text>
+  <text x="1200" y="1512" text-anchor="middle" class="body">Una menor tensión respecto a tierra no demuestra protección sanitaria. El grounding no sustituye la revisión eléctrica.</text>
+</svg>

@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1580" viewBox="0 0 2400 1580" role="img" aria-labelledby="title desc">
+  <title id="title">Mapa de longitudes de onda de los paneles EKIO Light</title>
+  <desc id="desc">Tres filas comparan Deep 5, Bio Regen 7 y Bio Spectrum 11. Las longitudes se agrupan en ultravioleta, violeta y cian, rojo e infrarrojo cercano. Se señalan el módulo COB, la precaución ultravioleta y el uso diurno del cian.</desc>
+  <defs>
+    <style>
+      .title { font: 700 60px Arial, Helvetica, sans-serif; fill: #16313F; }
+      .subtitle { font: 400 28px Arial, Helvetica, sans-serif; fill: #4B646F; }
+      .band { font: 700 23px Arial, Helvetica, sans-serif; letter-spacing: .8px; }
+      .model { font: 700 31px Arial, Helvetica, sans-serif; fill: #16313F; }
+      .body { font: 400 23px Arial, Helvetica, sans-serif; fill: #3F5964; }
+      .small { font: 600 19px Arial, Helvetica, sans-serif; fill: #4B646F; }
+      .nm { font: 700 21px Arial, Helvetica, sans-serif; fill: #16313F; }
+      .card { fill: #F8FBFC; stroke: #B4C6CD; stroke-width: 4; }
+      .sep { stroke: #B4C6CD; stroke-width: 3; }
+    </style>
+  </defs>
+  <rect width="2400" height="1580" fill="#FFFFFF"/>
+  <text x="1200" y="88" text-anchor="middle" class="title">MAPA DE LOS PANELES EKIO LIGHT</text>
+  <text x="1200" y="137" text-anchor="middle" class="subtitle">Longitudes declaradas por EKIO; un punto no equivale a un circuito independiente</text>
+
+  <g transform="translate(410,195)">
+    <rect x="0" y="0" width="360" height="82" rx="22" fill="#EEE9F4"/>
+    <text x="180" y="34" text-anchor="middle" class="band" fill="#795E9B">UV-B · UV-A · VIOLETA</text>
+    <text x="180" y="64" text-anchor="middle" class="small">292 · 385 · 405 nm</text>
+    <rect x="380" y="0" width="260" height="82" rx="22" fill="#E6F3EE"/>
+    <text x="510" y="34" text-anchor="middle" class="band" fill="#287A68">CIAN</text>
+    <text x="510" y="64" text-anchor="middle" class="small">485 nm</text>
+    <rect x="660" y="0" width="580" height="82" rx="22" fill="#F7E4E1"/>
+    <text x="950" y="34" text-anchor="middle" class="band" fill="#B94D3E">ROJO Y ROJO LEJANO</text>
+    <text x="950" y="64" text-anchor="middle" class="small">630 · 660 · 670 · 727 nm</text>
+    <rect x="1260" y="0" width="690" height="82" rx="22" fill="#E8F0F4"/>
+    <text x="1605" y="34" text-anchor="middle" class="band" fill="#1D5D82">INFRARROJO CERCANO</text>
+    <text x="1605" y="64" text-anchor="middle" class="small">810 · 850 · 935/940 · 1050 nm</text>
+  </g>
+
+  <g transform="translate(90,315)">
+    <rect width="2220" height="280" rx="30" class="card"/>
+    <text x="55" y="68" class="model">Deep 5</text>
+    <text x="55" y="109" class="body">Rojo + infrarrojo</text>
+    <text x="55" y="145" class="body">5 longitudes</text>
+    <line x1="320" y1="32" x2="320" y2="248" class="sep"/>
+    <line x1="360" y1="170" x2="2130" y2="170" stroke="#A8BAC2" stroke-width="7" stroke-linecap="round"/>
+
+    <g transform="translate(1060,170)"><circle r="33" fill="#C95546"/><text x="0" y="68" text-anchor="middle" class="nm">630</text></g>
+    <g transform="translate(1240,170)"><circle r="33" fill="#B83E35"/><text x="0" y="68" text-anchor="middle" class="nm">660</text></g>
+    <g transform="translate(1500,170)"><circle r="33" fill="#8D353A"/><text x="0" y="68" text-anchor="middle" class="nm">727</text></g>
+    <g transform="translate(1755,170)"><circle r="33" fill="#3B7C97"/><text x="0" y="68" text-anchor="middle" class="nm">810</text></g>
+    <g transform="translate(1905,170)"><circle r="33" fill="#1D5D82"/><text x="0" y="68" text-anchor="middle" class="nm">850</text></g>
+    <text x="2140" y="178" text-anchor="end" class="small">nm</text>
+  </g>
+
+  <g transform="translate(90,625)">
+    <rect width="2220" height="310" rx="30" class="card"/>
+    <text x="55" y="68" class="model">Bio Regen 7</text>
+    <text x="55" y="109" class="body">Cian + rojo + infrarrojo</text>
+    <text x="55" y="145" class="body">7 longitudes + COB</text>
+    <line x1="320" y1="32" x2="320" y2="278" class="sep"/>
+    <line x1="360" y1="180" x2="2130" y2="180" stroke="#A8BAC2" stroke-width="7" stroke-linecap="round"/>
+
+    <g transform="translate(810,180)"><circle r="33" fill="#4BAAA5"/><text x="0" y="68" text-anchor="middle" class="nm">485</text></g>
+    <g transform="translate(1060,180)"><circle r="33" fill="#C95546"/><text x="0" y="68" text-anchor="middle" class="nm">630</text></g>
+    <g transform="translate(1240,180)"><circle r="33" fill="#B83E35"/><text x="0" y="68" text-anchor="middle" class="nm">660</text></g>
+    <g transform="translate(1500,180)"><circle r="33" fill="#8D353A"/><text x="0" y="68" text-anchor="middle" class="nm">727</text></g>
+    <g transform="translate(1755,180)"><circle r="33" fill="#3B7C97"/><text x="0" y="68" text-anchor="middle" class="nm">810</text></g>
+    <g transform="translate(1905,180)"><circle r="33" fill="#1D5D82"/><text x="0" y="68" text-anchor="middle" class="nm">850</text></g>
+    <g transform="translate(2070,180)"><circle r="33" fill="#244B68"/><text x="0" y="68" text-anchor="middle" class="nm">940</text></g>
+    <rect x="1060" y="50" width="360" height="58" rx="20" fill="#FFF3C9"/>
+    <text x="1240" y="87" text-anchor="middle" class="small">COB independiente · 660 + 850</text>
+  </g>
+
+  <g transform="translate(90,965)">
+    <rect width="2220" height="345" rx="30" class="card"/>
+    <text x="55" y="68" class="model">Bio Spectrum 11</text>
+    <text x="55" y="109" class="body">Cuatro circuitos</text>
+    <text x="55" y="145" class="body">11 longitudes + COB</text>
+    <line x1="320" y1="32" x2="320" y2="313" class="sep"/>
+    <line x1="360" y1="205" x2="2130" y2="205" stroke="#A8BAC2" stroke-width="7" stroke-linecap="round"/>
+
+    <g transform="translate(450,205)"><circle r="33" fill="#80649B"/><text x="0" y="68" text-anchor="middle" class="nm">292</text></g>
+    <g transform="translate(570,205)"><circle r="33" fill="#836EB1"/><text x="0" y="68" text-anchor="middle" class="nm">385</text></g>
+    <g transform="translate(690,205)"><circle r="33" fill="#6D67B6"/><text x="0" y="68" text-anchor="middle" class="nm">405</text></g>
+    <g transform="translate(810,205)"><circle r="33" fill="#4BAAA5"/><text x="0" y="68" text-anchor="middle" class="nm">485</text></g>
+    <g transform="translate(1060,205)"><circle r="33" fill="#C95546"/><text x="0" y="68" text-anchor="middle" class="nm">630</text></g>
+    <g transform="translate(1190,205)"><circle r="33" fill="#B83E35"/><text x="0" y="68" text-anchor="middle" class="nm">660</text></g>
+    <g transform="translate(1320,205)"><circle r="33" fill="#A83A35"/><text x="0" y="68" text-anchor="middle" class="nm">670</text></g>
+    <g transform="translate(1500,205)"><circle r="33" fill="#8D353A"/><text x="0" y="68" text-anchor="middle" class="nm">727</text></g>
+    <g transform="translate(1905,205)"><circle r="33" fill="#1D5D82"/><text x="0" y="68" text-anchor="middle" class="nm">850</text></g>
+    <g transform="translate(2050,205)"><circle r="33" fill="#244B68"/><text x="0" y="68" text-anchor="middle" class="nm">935</text></g>
+    <g transform="translate(2160,205)"><circle r="33" fill="#16313F"/><text x="0" y="68" text-anchor="middle" class="nm">1050</text></g>
+    <rect x="1060" y="55" width="360" height="58" rx="20" fill="#FFF3C9"/>
+    <text x="1240" y="92" text-anchor="middle" class="small">COB independiente · 660 + 850</text>
+    <rect x="390" y="103" width="430" height="58" rx="20" fill="#EEE9F4"/>
+    <text x="605" y="140" text-anchor="middle" class="small">Bloque conjunto: fuera de las recetas</text>
+  </g>
+
+  <g transform="translate(130,1360)">
+    <rect width="650" height="130" rx="26" fill="#E6F3EE"/>
+    <text x="325" y="49" text-anchor="middle" class="model">No mires los LED</text>
+    <text x="325" y="87" text-anchor="middle" class="body">Iluminar el ambiente y aplicar terapia</text>
+    <text x="325" y="118" text-anchor="middle" class="body">son usos diferentes.</text>
+
+    <rect x="735" width="650" height="130" rx="26" fill="#EEE9F4"/>
+    <text x="1060" y="49" text-anchor="middle" class="model">UV, violeta y cian juntos</text>
+    <text x="1060" y="87" text-anchor="middle" class="body">Bio Spectrum 11: no se separan.</text>
+    <text x="1060" y="118" text-anchor="middle" class="body">Este bloque queda fuera de las recetas.</text>
+
+    <rect x="1450" width="750" height="130" rx="26" fill="#FFF3C9"/>
+    <text x="1825" y="49" text-anchor="middle" class="model">Más longitudes, más decisiones</text>
+    <text x="1825" y="87" text-anchor="middle" class="body">No es necesario encender todos los circuitos.</text>
+    <text x="1825" y="118" text-anchor="middle" class="body">El objetivo y el protocolo mandan.</text>
+  </g>
+</svg>

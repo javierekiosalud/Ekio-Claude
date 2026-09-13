@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="760" viewBox="0 0 1800 760" role="img" aria-labelledby="title desc">
+  <title id="title">Método OASIS para revisar un espacio</title>
+  <desc id="desc">Cinco pasos: observa, aleja o apaga, sanea, integra y sincroniza.</desc>
+  <rect width="1800" height="760" fill="#ffffff"/>
+  <text x="900" y="82" text-anchor="middle" font-family="Arial, sans-serif" font-size="48" font-weight="700" fill="#17202a">MÉTODO OASIS</text>
+  <text x="900" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="25" fill="#4d5966">Cinco pasos para crear un Oasis Electromagnético</text>
+
+  <path d="M225 350 H1575" stroke="#aab4bd" stroke-width="10" stroke-linecap="round"/>
+  <g font-family="Arial, sans-serif">
+    <g transform="translate(225 350)">
+      <circle r="96" fill="#ffffff" stroke="#246b7a" stroke-width="9"/>
+      <text y="22" text-anchor="middle" font-size="72" font-weight="700" fill="#246b7a">O</text>
+      <text y="155" text-anchor="middle" font-size="29" font-weight="700" fill="#17202a">OBSERVA</text>
+      <text y="197" text-anchor="middle" font-size="22" fill="#4d5966">Localiza fuentes</text>
+    </g>
+    <g transform="translate(562 350)">
+      <circle r="96" fill="#ffffff" stroke="#a15c25" stroke-width="9"/>
+      <text y="22" text-anchor="middle" font-size="72" font-weight="700" fill="#a15c25">A</text>
+      <text y="155" text-anchor="middle" font-size="29" font-weight="700" fill="#17202a">ALEJA O APAGA</text>
+      <text y="197" text-anchor="middle" font-size="22" fill="#4d5966">Reduce lo evitable</text>
+    </g>
+    <g transform="translate(900 350)">
+      <circle r="96" fill="#ffffff" stroke="#3b7d44" stroke-width="9"/>
+      <text y="22" text-anchor="middle" font-size="72" font-weight="700" fill="#3b7d44">S</text>
+      <text y="155" text-anchor="middle" font-size="29" font-weight="700" fill="#17202a">SANEA</text>
+      <text y="197" text-anchor="middle" font-size="22" fill="#4d5966">Revisa instalación</text>
+    </g>
+    <g transform="translate(1238 350)">
+      <circle r="96" fill="#ffffff" stroke="#6a4c93" stroke-width="9"/>
+      <text y="22" text-anchor="middle" font-size="72" font-weight="700" fill="#6a4c93">I</text>
+      <text y="155" text-anchor="middle" font-size="29" font-weight="700" fill="#17202a">INTEGRA</text>
+      <text y="197" text-anchor="middle" font-size="22" fill="#4d5966">Tecnología y SPIRO</text>
+    </g>
+    <g transform="translate(1575 350)">
+      <circle r="96" fill="#ffffff" stroke="#b58b17" stroke-width="9"/>
+      <text y="22" text-anchor="middle" font-size="72" font-weight="700" fill="#b58b17">S</text>
+      <text y="155" text-anchor="middle" font-size="29" font-weight="700" fill="#17202a">SINCRONIZA</text>
+      <text y="197" text-anchor="middle" font-size="22" fill="#4d5966">Luz · naturaleza · descanso</text>
+    </g>
+  </g>
+  <rect x="350" y="645" width="1100" height="62" rx="31" fill="#f2f5f6"/>
+  <text x="900" y="686" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#17202a">Un espacio revisado hoy puede necesitar una nueva revisión mañana</text>
+</svg>

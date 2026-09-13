@@ -110,6 +110,8 @@ Al terminar, rodea tres cambios. Uno para la noche, uno para el aparato que más
 
 **Necesitas:** siete días y el plano. **Resultado:** tu primer Oasis Electromagnético con fecha.
 
+![Figura 8.2 · Siete días para crear tu primer Oasis](esquemas/plan-oasis-siete-dias.svg)
+
 > **FIGURA 8.2 · Siete días para crear tu primer Oasis.** Siete tarjetas con la letra del método: O (día 1), A (2, 3, 4), S (5), I (6), S (7). Al pie, tres logros: plano actualizado, tres cambios mantenibles, primer Oasis con fecha. Referencia Codex: `plan-oasis-siete-dias`.
 
 **Día 1 — Observar.** Dibuja camas, sofá, escritorio y zonas de las mascotas. Marca E, M, R y D. Es un inventario, no una medición.

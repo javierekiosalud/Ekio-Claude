@@ -316,7 +316,7 @@ Y a ti, que has llegado hasta aquí. Este libro cobra sentido cuando dibujas tu 
 
 ## Web de EKIO Electrosmog
 
-[QR · https://electrosmogespana.com/]
+![QR web de EKIO](esquemas/qr-ekio-web.png)
 
 https://electrosmogespana.com/
 
@@ -332,7 +332,7 @@ Los tests organizan información y orientan la elección. No sustituyen una medi
 
 ## Canal de YouTube de EKIO Electrosmog
 
-[QR · https://www.youtube.com/@EkioElectrosmog]
+![QR YouTube de EKIO](esquemas/qr-ekio-youtube.png)
 
 https://www.youtube.com/@EkioElectrosmog
 

@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2200" height="1080" viewBox="0 0 2200 1080" role="img" aria-labelledby="title desc">
+  <title id="title">Transición de la iluminación doméstica durante el día</title>
+  <desc id="desc">Cuatro momentos muestran luz roja o amarilla antes del amanecer, luz exterior durante el día, bombilla amarilla al atardecer y bombilla roja en las últimas horas.</desc>
+  <defs>
+    <marker id="arr" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="10" markerHeight="10" orient="auto"><path d="M1 1 L11 6 L1 11 Z" fill="#607985"/></marker>
+    <radialGradient id="yellowGlow"><stop offset="0" stop-color="#FFD86A" stop-opacity="0.65"/><stop offset="1" stop-color="#FFD86A" stop-opacity="0"/></radialGradient>
+    <radialGradient id="redGlow"><stop offset="0" stop-color="#D85D4A" stop-opacity="0.55"/><stop offset="1" stop-color="#D85D4A" stop-opacity="0"/></radialGradient>
+    <style>
+      .title { font: 700 58px Arial, Helvetica, sans-serif; fill: #16313F; }
+      .subtitle { font: 400 28px Arial, Helvetica, sans-serif; fill: #4B646F; }
+      .phase { font: 700 31px Arial, Helvetica, sans-serif; fill: #16313F; }
+      .time { font: 700 21px Arial, Helvetica, sans-serif; letter-spacing: .7px; }
+      .body { font: 400 23px Arial, Helvetica, sans-serif; fill: #3F5964; }
+      .small { font: 600 20px Arial, Helvetica, sans-serif; fill: #4B646F; }
+      .card { fill: #F7FAFB; stroke: #B4C6CD; stroke-width: 4; }
+      .bulb { fill: #FFFFFF; stroke: #607985; stroke-width: 5; }
+      .line { fill: none; stroke: #607985; stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect width="2200" height="1080" fill="#FFFFFF"/>
+  <text x="1100" y="78" text-anchor="middle" class="title">LA CASA TAMBIÉN CAMBIA DE LUZ</text>
+  <text x="1100" y="125" text-anchor="middle" class="subtitle">Introduce la luz ambiental por etapas, desde antes del amanecer hasta la noche</text>
+
+  <!-- guiding timeline -->
+  <path d="M190 220 H2010" class="line" marker-end="url(#arr)"/>
+  <circle cx="270" cy="220" r="14" fill="#795E9B"/><circle cx="820" cy="220" r="14" fill="#E3B843"/><circle cx="1370" cy="220" r="14" fill="#D49436"/><circle cx="1920" cy="220" r="14" fill="#B94D3E"/>
+
+  <!-- predawn -->
+  <g transform="translate(60,270)">
+    <rect width="500" height="600" rx="30" class="card"/>
+    <rect x="30" y="28" width="205" height="43" rx="20" fill="#EEE9F4"/>
+    <text x="132" y="57" text-anchor="middle" class="time" fill="#795E9B">ANTES DE AMANECER</text>
+    <text x="250" y="125" text-anchor="middle" class="phase">Empieza suave</text>
+    <circle cx="180" cy="285" r="125" fill="url(#yellowGlow)"/>
+    <circle cx="320" cy="285" r="125" fill="url(#redGlow)"/>
+    <path d="M125 230 C125 180 175 155 215 185 C250 210 235 250 212 270 C195 286 192 305 192 320 H145 C145 300 143 282 125 265 C112 252 108 241 125 230 Z" class="bulb" style="fill:#FFD86A"/>
+    <path d="M145 320 H192 V355 H145 Z M150 365 H187" class="line"/>
+    <path d="M280 230 C280 180 330 155 370 185 C405 210 390 250 367 270 C350 286 347 305 347 320 H300 C300 300 298 282 280 265 C267 252 263 241 280 230 Z" class="bulb" style="fill:#D85D4A"/>
+    <path d="M300 320 H347 V355 H300 Z M305 365 H342" class="line"/>
+    <text x="250" y="430" text-anchor="middle" class="body">Roja DUSK o amarilla 1800K</text>
+    <text x="250" y="466" text-anchor="middle" class="body">para empezar la mañana.</text>
+    <rect x="65" y="515" width="370" height="48" rx="22" fill="#EEE9F4"/>
+    <text x="250" y="546" text-anchor="middle" class="small">Sin encender toda la luz blanca</text>
+  </g>
+
+  <!-- daytime -->
+  <g transform="translate(590,270)">
+    <rect width="500" height="600" rx="30" class="card"/>
+    <rect x="30" y="28" width="110" height="43" rx="20" fill="#FFF3C9"/>
+    <text x="85" y="57" text-anchor="middle" class="time" fill="#9A7421">DÍA</text>
+    <text x="250" y="125" text-anchor="middle" class="phase">Busca el exterior</text>
+    <circle cx="250" cy="265" r="95" fill="#FFD86A" opacity="0.75"/>
+    <g stroke="#D5A327" stroke-width="8" stroke-linecap="round">
+      <line x1="250" y1="125" x2="250" y2="95"/><line x1="250" y1="435" x2="250" y2="405"/><line x1="110" y1="265" x2="80" y2="265"/><line x1="420" y1="265" x2="390" y2="265"/>
+      <line x1="150" y1="165" x2="127" y2="142"/><line x1="350" y1="365" x2="373" y2="388"/><line x1="350" y1="165" x2="373" y2="142"/><line x1="150" y1="365" x2="127" y2="388"/>
+    </g>
+    <text x="250" y="430" text-anchor="middle" class="body">Cuando llegue la luz del día,</text>
+    <text x="250" y="466" text-anchor="middle" class="body">abre la casa y sal fuera.</text>
+    <rect x="65" y="515" width="370" height="48" rx="22" fill="#FFF3C9"/>
+    <text x="250" y="546" text-anchor="middle" class="small">La bombilla no sustituye al cielo</text>
+  </g>
+
+  <!-- dusk -->
+  <g transform="translate(1120,270)">
+    <rect width="500" height="600" rx="30" fill="#FCF8F3" stroke="#D5B9A9" stroke-width="4"/>
+    <rect x="30" y="28" width="150" height="43" rx="20" fill="#FFF0D8"/>
+    <text x="105" y="57" text-anchor="middle" class="time" fill="#B07821">ANOCHECER</text>
+    <text x="250" y="125" text-anchor="middle" class="phase">Haz la transición</text>
+    <circle cx="250" cy="280" r="165" fill="url(#yellowGlow)"/>
+    <path d="M190 230 C190 160 260 135 310 185 C350 225 320 270 295 292 C275 310 275 335 275 355 H215 C215 330 212 310 192 292 C170 272 162 250 190 230 Z" class="bulb" style="fill:#FFD86A"/>
+    <path d="M215 355 H275 V395 H215 Z M222 408 H268" class="line"/>
+    <text x="250" y="455" text-anchor="middle" class="body">Reduce intensidad e introduce</text>
+    <text x="250" y="491" text-anchor="middle" class="body">la bombilla amarilla 1800K.</text>
+    <rect x="65" y="535" width="370" height="48" rx="22" fill="#FFF0D8"/>
+    <text x="250" y="566" text-anchor="middle" class="small">Cocina · salón · zonas comunes</text>
+  </g>
+
+  <!-- late night -->
+  <g transform="translate(1650,270)">
+    <rect width="500" height="600" rx="30" fill="#FBF5F4" stroke="#D6B0AA" stroke-width="4"/>
+    <rect x="30" y="28" width="190" height="43" rx="20" fill="#F7E4E1"/>
+    <text x="125" y="57" text-anchor="middle" class="time" fill="#B94D3E">ÚLTIMAS HORAS</text>
+    <text x="250" y="125" text-anchor="middle" class="phase">Termina en rojo</text>
+    <circle cx="250" cy="280" r="165" fill="url(#redGlow)"/>
+    <path d="M190 230 C190 160 260 135 310 185 C350 225 320 270 295 292 C275 310 275 335 275 355 H215 C215 330 212 310 192 292 C170 272 162 250 190 230 Z" class="bulb" style="fill:#D85D4A"/>
+    <path d="M215 355 H275 V395 H215 Z M222 408 H268" class="line"/>
+    <text x="250" y="455" text-anchor="middle" class="body">Utiliza la roja DUSK en</text>
+    <text x="250" y="491" text-anchor="middle" class="body">pasillos y dormitorio.</text>
+    <rect x="65" y="535" width="370" height="48" rx="22" fill="#F7E4E1"/>
+    <text x="250" y="566" text-anchor="middle" class="small">Luz ambiental de final del día</text>
+  </g>
+
+  <rect x="230" y="925" width="1740" height="92" rx="28" fill="#E8F0F4" stroke="#1D5D82" stroke-width="3"/>
+  <text x="1100" y="965" text-anchor="middle" class="small">BOMBILLAS = ILUMINACIÓN AMBIENTAL</text>
+  <text x="1100" y="999" text-anchor="middle" class="body">Los paneles EKIO Light corresponden a sesiones de fotobiomodulación con tiempo, distancia y objetivo propios.</text>
+</svg>

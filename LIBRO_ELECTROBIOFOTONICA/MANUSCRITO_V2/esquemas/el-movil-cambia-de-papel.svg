@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2200" height="1100" viewBox="0 0 2200 1100" role="img" aria-labelledby="title desc">
+  <title id="title">Un mismo móvil presenta situaciones de transmisión diferentes</title>
+  <desc id="desc">Cuatro escenas muestran un teléfono en reposo, durante una videollamada, con poca cobertura y actuando como punto de acceso.</desc>
+  <defs>
+    <marker id="arrowBlue" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="10" markerHeight="10" orient="auto">
+      <path d="M1 1 L11 6 L1 11 Z" fill="#1D5D82"/>
+    </marker>
+    <marker id="arrowOrange" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="10" markerHeight="10" orient="auto">
+      <path d="M1 1 L11 6 L1 11 Z" fill="#C25A2A"/>
+    </marker>
+    <style>
+      .title { font: 700 62px Arial, Helvetica, sans-serif; fill: #16313F; }
+      .subtitle { font: 400 29px Arial, Helvetica, sans-serif; fill: #4B646F; }
+      .card-title { font: 700 33px Arial, Helvetica, sans-serif; fill: #16313F; }
+      .body { font: 400 24px Arial, Helvetica, sans-serif; fill: #3E5863; }
+      .small { font: 600 21px Arial, Helvetica, sans-serif; fill: #4B646F; }
+      .number { font: 700 28px Arial, Helvetica, sans-serif; fill: #FFFFFF; text-anchor: middle; dominant-baseline: central; }
+      .phone { fill: #FFFFFF; stroke: #49616C; stroke-width: 6; }
+      .signal { fill: none; stroke: #1D5D82; stroke-width: 6; stroke-linecap: round; }
+      .activity { fill: none; stroke: #C25A2A; stroke-width: 7; stroke-linecap: round; marker-end: url(#arrowOrange); }
+    </style>
+  </defs>
+  <rect width="2200" height="1100" fill="#FFFFFF"/>
+  <text x="1100" y="82" text-anchor="middle" class="title">EL MÓVIL CAMBIA DE PAPEL</text>
+  <text x="1100" y="130" text-anchor="middle" class="subtitle">El aparato es el mismo; cambian la actividad, la cobertura y la distancia</text>
+
+  <!-- cards -->
+  <g transform="translate(60,190)">
+    <rect width="490" height="700" rx="30" fill="#F6F9FA" stroke="#BBCBD2" stroke-width="4"/>
+    <circle cx="58" cy="62" r="29" fill="#1D5D82"/><text x="58" y="62" class="number">1</text>
+    <text x="105" y="73" class="card-title">En reposo</text>
+    <rect x="170" y="160" width="150" height="280" rx="25" class="phone"/>
+    <rect x="187" y="195" width="116" height="190" rx="8" fill="#E9F1F4"/>
+    <circle cx="245" cy="415" r="12" fill="#708791"/>
+    <path d="M105 270 C75 245 75 205 105 180 M125 250 C110 235 110 215 125 200" class="signal" opacity="0.45"/>
+    <path d="M365 270 C395 245 395 205 365 180 M345 250 C360 235 360 215 345 200" class="signal" opacity="0.45"/>
+    <text x="245" y="520" text-anchor="middle" class="small">Escucha la red</text>
+    <text x="245" y="556" text-anchor="middle" class="body">Puede hacer actualizaciones</text>
+    <text x="245" y="590" text-anchor="middle" class="body">periódicas o sincronizar.</text>
+    <rect x="95" y="625" width="300" height="44" rx="20" fill="#E6EEF1"/>
+    <text x="245" y="654" text-anchor="middle" class="small">Actividad variable</text>
+  </g>
+
+  <g transform="translate(590,190)">
+    <rect width="490" height="700" rx="30" fill="#F6F9FA" stroke="#BBCBD2" stroke-width="4"/>
+    <circle cx="58" cy="62" r="29" fill="#287A68"/><text x="58" y="62" class="number">2</text>
+    <text x="105" y="73" class="card-title">Videollamada</text>
+    <rect x="170" y="160" width="150" height="280" rx="25" class="phone"/>
+    <rect x="187" y="190" width="116" height="195" rx="8" fill="#DDEFE9"/>
+    <circle cx="245" cy="270" r="38" fill="#9DCFC2"/>
+    <path d="M200 350 Q245 305 290 350" fill="none" stroke="#287A68" stroke-width="12" stroke-linecap="round"/>
+    <path d="M125 220 L75 180" class="activity"/>
+    <path d="M365 210 L415 170" class="activity"/>
+    <path d="M365 330 L425 365" class="activity"/>
+    <text x="245" y="520" text-anchor="middle" class="small">Voz, imagen y datos</text>
+    <text x="245" y="556" text-anchor="middle" class="body">Apoyarlo sobre una mesa</text>
+    <text x="245" y="590" text-anchor="middle" class="body">aumenta la distancia.</text>
+    <rect x="95" y="625" width="300" height="44" rx="20" fill="#E4F3EE"/>
+    <text x="245" y="654" text-anchor="middle" class="small">Transmisión activa</text>
+  </g>
+
+  <g transform="translate(1120,190)">
+    <rect width="490" height="700" rx="30" fill="#F6F9FA" stroke="#BBCBD2" stroke-width="4"/>
+    <circle cx="58" cy="62" r="29" fill="#C25A2A"/><text x="58" y="62" class="number">3</text>
+    <text x="105" y="73" class="card-title">Poca cobertura</text>
+    <rect x="170" y="160" width="150" height="280" rx="25" class="phone"/>
+    <rect x="187" y="195" width="116" height="190" rx="8" fill="#FCECE4"/>
+    <g transform="translate(205,330)" fill="#C25A2A">
+      <rect x="0" y="30" width="15" height="20"/><rect x="25" y="20" width="15" height="30" opacity="0.25"/><rect x="50" y="10" width="15" height="40" opacity="0.25"/><rect x="75" y="0" width="15" height="50" opacity="0.25"/>
+    </g>
+    <path d="M125 220 L55 170" class="activity"/>
+    <path d="M365 220 L435 170" class="activity"/>
+    <path d="M125 340 L45 385" class="activity"/>
+    <path d="M365 340 L445 385" class="activity"/>
+    <text x="245" y="520" text-anchor="middle" class="small">El teléfono se adapta</text>
+    <text x="245" y="556" text-anchor="middle" class="body">Puede elevar su potencia para</text>
+    <text x="245" y="590" text-anchor="middle" class="body">intentar conservar el enlace.</text>
+    <rect x="95" y="625" width="300" height="44" rx="20" fill="#FFF0E7"/>
+    <text x="245" y="654" text-anchor="middle" class="small">Observa la cobertura</text>
+  </g>
+
+  <g transform="translate(1650,190)">
+    <rect width="490" height="700" rx="30" fill="#F6F9FA" stroke="#BBCBD2" stroke-width="4"/>
+    <circle cx="58" cy="62" r="29" fill="#795E9B"/><text x="58" y="62" class="number">4</text>
+    <text x="105" y="73" class="card-title">Punto de acceso</text>
+    <rect x="170" y="160" width="150" height="280" rx="25" class="phone"/>
+    <rect x="187" y="195" width="116" height="190" rx="8" fill="#EEE9F4"/>
+    <circle cx="245" cy="315" r="15" fill="#795E9B"/>
+    <path d="M215 290 Q245 260 275 290 M195 268 Q245 218 295 268" fill="none" stroke="#795E9B" stroke-width="7" stroke-linecap="round"/>
+    <path d="M150 235 L80 195" class="activity"/>
+    <path d="M340 235 L410 195" class="activity"/>
+    <path d="M165 390 L95 430" fill="none" stroke="#795E9B" stroke-width="7" marker-end="url(#arrowBlue)"/>
+    <path d="M325 390 L395 430" fill="none" stroke="#795E9B" stroke-width="7" marker-end="url(#arrowBlue)"/>
+    <text x="245" y="520" text-anchor="middle" class="small">Dos trabajos a la vez</text>
+    <text x="245" y="556" text-anchor="middle" class="body">Red celular y Wi-Fi local</text>
+    <text x="245" y="590" text-anchor="middle" class="body">para otros dispositivos.</text>
+    <rect x="95" y="625" width="300" height="44" rx="20" fill="#EEE9F4"/>
+    <text x="245" y="654" text-anchor="middle" class="small">El móvil hace de router</text>
+  </g>
+
+  <path d="M160 975 H2040" stroke="#C8D5DA" stroke-width="4"/>
+  <text x="1100" y="1035" text-anchor="middle" class="card-title">Antes de actuar, pregunta: ¿qué está haciendo, a qué distancia y durante cuánto tiempo?</text>
+</svg>
