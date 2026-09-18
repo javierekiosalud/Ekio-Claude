@@ -1,0 +1,762 @@
+<title>El Rubicón de EKIO</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+
+<style>
+  :root{
+    --ground:#F1F2F5;
+    --surface:#FFFFFF;
+    --surface-2:#E6E9EF;
+    --ink:#141A24;
+    --ink-2:#3E4757;
+    --muted:#6A7184;
+    --rule:#D2D7E0;
+    --rule-soft:#E2E6EC;
+    --river:#2E5A8F;
+    --crit:#AE3226;
+    --crit-bg:#F7E4E1;
+    --warn:#9C6410;
+    --warn-bg:#F8EEDC;
+    --ok:#26654F;
+    --ok-bg:#E0EEE8;
+    --shadow:0 1px 2px rgba(20,26,36,.06), 0 8px 24px -12px rgba(20,26,36,.18);
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --ground:#0D1117;
+      --surface:#151B24;
+      --surface-2:#1C242F;
+      --ink:#E9ECF2;
+      --ink-2:#B6BECC;
+      --muted:#8B94A6;
+      --rule:#29323F;
+      --rule-soft:#212933;
+      --river:#78A8DE;
+      --crit:#EC8478;
+      --crit-bg:#2E1B18;
+      --warn:#DCA850;
+      --warn-bg:#2B2213;
+      --ok:#6ABEA3;
+      --ok-bg:#15291F;
+      --shadow:0 1px 2px rgba(0,0,0,.4), 0 8px 24px -12px rgba(0,0,0,.6);
+    }
+  }
+  :root[data-theme="dark"]{
+    --ground:#0D1117;
+    --surface:#151B24;
+    --surface-2:#1C242F;
+    --ink:#E9ECF2;
+    --ink-2:#B6BECC;
+    --muted:#8B94A6;
+    --rule:#29323F;
+    --rule-soft:#212933;
+    --river:#78A8DE;
+    --crit:#EC8478;
+    --crit-bg:#2E1B18;
+    --warn:#DCA850;
+    --warn-bg:#2B2213;
+    --ok:#6ABEA3;
+    --ok-bg:#15291F;
+    --shadow:0 1px 2px rgba(0,0,0,.4), 0 8px 24px -12px rgba(0,0,0,.6);
+  }
+
+  *{box-sizing:border-box}
+  body{
+    background:var(--ground);
+    color:var(--ink);
+    font-family:"IBM Plex Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+    font-size:16px;
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{
+    max-width:62rem;
+    margin:0 auto;
+    padding-inline:20px;
+    padding-block:0 72px;
+  }
+  h1,h2,h3{font-family:Newsreader,Georgia,serif;font-weight:600;text-wrap:balance;line-height:1.15;margin:0}
+  p{margin:0}
+  .mono{font-family:"IBM Plex Mono",ui-monospace,monospace;font-variant-numeric:tabular-nums}
+
+  /* ---------- masthead ---------- */
+  .masthead{
+    border-bottom:1px solid var(--rule);
+    padding-block:56px 28px;
+    display:flex;flex-direction:column;gap:20px;
+  }
+  .spectrum{
+    height:4px;width:100%;border-radius:2px;
+    background:linear-gradient(90deg,#5B2D8E,#2E5A8F,#1F8A70,#C9A227,#C4571F,#AE3226);
+  }
+  .eyebrow{
+    font-family:"IBM Plex Mono",monospace;
+    font-size:11px;letter-spacing:.14em;text-transform:uppercase;
+    color:var(--muted);
+  }
+  h1{font-size:clamp(2.4rem,6vw,3.9rem);letter-spacing:-.015em}
+  .standfirst{
+    font-family:Newsreader,Georgia,serif;
+    font-size:clamp(1.05rem,2.2vw,1.3rem);
+    line-height:1.5;color:var(--ink-2);max-width:40rem;
+  }
+  .meta{
+    display:flex;flex-wrap:wrap;gap:8px 24px;
+    font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--muted);
+  }
+
+  /* ---------- sections ---------- */
+  section{padding-block:44px;border-bottom:1px solid var(--rule-soft)}
+  section:last-of-type{border-bottom:0}
+  .sec-head{display:flex;flex-direction:column;gap:10px;margin-bottom:24px}
+  h2{font-size:clamp(1.6rem,3.6vw,2.15rem);letter-spacing:-.01em}
+  h3{font-size:1.18rem}
+  .lede{color:var(--ink-2);max-width:42rem}
+
+  /* ---------- KPI strip ---------- */
+  .kpis{
+    display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+    gap:1px;background:var(--rule);border:1px solid var(--rule);
+    border-radius:6px;overflow:hidden;margin-top:28px;
+  }
+  .kpi{background:var(--surface);padding:16px 18px;display:flex;flex-direction:column;gap:4px}
+  .kpi .k-label{font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+  .kpi .k-val{font-family:"IBM Plex Mono",monospace;font-size:1.65rem;font-weight:500;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+  .kpi .k-sub{font-size:12px;color:var(--muted)}
+  .k-bad .k-val{color:var(--crit)}
+
+  /* ---------- step chart ---------- */
+  .steps{display:flex;flex-direction:column;gap:22px;margin-top:8px}
+  .step{display:grid;grid-template-columns:1fr;gap:8px}
+  .step-top{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap}
+  .step-name{font-weight:500;font-size:.95rem}
+  .step-name small{display:block;font-weight:400;color:var(--muted);font-size:12px;margin-top:2px}
+  .step-pct{font-family:"IBM Plex Mono",monospace;font-size:1.3rem;font-weight:500;font-variant-numeric:tabular-nums}
+  .track{
+    position:relative;height:30px;background:var(--surface-2);
+    border-radius:3px;overflow:hidden;
+  }
+  .fill{height:100%;border-radius:3px 0 0 3px}
+  .bench{
+    position:absolute;top:-5px;bottom:-5px;width:2px;background:var(--ink-2);opacity:.55;
+  }
+  .bench::after{
+    content:attr(data-label);
+    position:absolute;left:6px;top:-2px;
+    font-family:"IBM Plex Mono",monospace;font-size:10px;color:var(--ink-2);
+    white-space:nowrap;
+  }
+  .f-ok{background:var(--ok)}
+  .f-warn{background:var(--warn)}
+  .f-crit{background:var(--crit)}
+  .step-note{font-size:13.5px;color:var(--ink-2)}
+
+  /* ---------- rubicon band ---------- */
+  .rubicon{
+    margin:32px 0;border:1px solid var(--rule);border-radius:6px;
+    background:var(--surface);overflow:hidden;
+  }
+  .rub-row{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--rule)}
+  .rub-cell{background:var(--surface);padding:14px 16px;display:flex;flex-direction:column;gap:3px}
+  .rub-cell .phase{font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+  .rub-cell .q{font-family:Newsreader,serif;font-size:1rem;color:var(--ink);line-height:1.35}
+  .rub-cell .n{font-family:"IBM Plex Mono",monospace;font-size:1.25rem;font-weight:500;margin-top:4px}
+  .rub-bar{display:grid;grid-template-columns:repeat(4,1fr);height:5px}
+  .rub-bar span:nth-child(1){background:var(--crit)}
+  .rub-bar span:nth-child(2){background:var(--ok)}
+  .rub-bar span:nth-child(3){background:var(--crit)}
+  .rub-bar span:nth-child(4){background:var(--muted)}
+  .river-note{
+    padding:12px 16px;border-top:1px solid var(--rule);
+    font-size:13px;color:var(--ink-2);
+    display:flex;align-items:center;gap:10px;flex-wrap:wrap;
+  }
+  .river-tick{display:inline-block;width:10px;height:10px;border-radius:2px;flex:0 0 auto}
+
+  /* ---------- findings ---------- */
+  .findings{display:flex;flex-direction:column;gap:14px;margin-top:8px}
+  .find{
+    background:var(--surface);border:1px solid var(--rule);
+    border-radius:6px;padding:18px 20px;
+    display:flex;flex-direction:column;gap:9px;
+    box-shadow:var(--shadow);
+  }
+  .find.is-crit{border-left:4px solid var(--crit)}
+  .find.is-warn{border-left:4px solid var(--warn)}
+  .find.is-low{border-left:4px solid var(--muted)}
+  .find-head{display:flex;gap:12px;align-items:baseline;flex-wrap:wrap}
+  .find-id{font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--muted);flex:0 0 auto}
+  .find-title{font-weight:600;font-size:1.03rem;flex:1 1 220px;line-height:1.35}
+  .chip{
+    font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:.08em;
+    text-transform:uppercase;padding:3px 8px;border-radius:3px;flex:0 0 auto;
+  }
+  .chip-crit{background:var(--crit-bg);color:var(--crit)}
+  .chip-warn{background:var(--warn-bg);color:var(--warn)}
+  .chip-low{background:var(--surface-2);color:var(--muted)}
+  .find p{font-size:14.5px;color:var(--ink-2)}
+  .evidence{
+    font-family:"IBM Plex Mono",monospace;font-size:12.5px;
+    background:var(--surface-2);border-radius:4px;padding:9px 12px;
+    color:var(--ink-2);overflow-x:auto;white-space:pre-wrap;word-break:break-word;
+  }
+  .fix{font-size:14.5px}
+  .fix strong{color:var(--ink)}
+
+  /* ---------- tables ---------- */
+  .tw{overflow-x:auto;border:1px solid var(--rule);border-radius:6px;background:var(--surface);margin-top:20px}
+  table{border-collapse:collapse;width:100%;min-width:480px;font-size:14px}
+  th,td{padding:10px 14px;text-align:left;border-bottom:1px solid var(--rule-soft)}
+  thead th{
+    font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:.09em;
+    text-transform:uppercase;color:var(--muted);font-weight:500;
+    background:var(--surface-2);border-bottom:1px solid var(--rule);
+  }
+  tbody tr:last-child td{border-bottom:0}
+  td.num{font-family:"IBM Plex Mono",monospace;font-variant-numeric:tabular-nums;text-align:right}
+  .dead{color:var(--crit);font-weight:600}
+  .alive{color:var(--ok);font-weight:600}
+
+  /* ---------- roadmap ---------- */
+  .wave{margin-top:24px;display:flex;flex-direction:column;gap:10px}
+  .wave-head{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;padding-bottom:6px;border-bottom:1px solid var(--rule)}
+  .wave-n{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+  .wave-t{font-family:Newsreader,serif;font-size:1.25rem;font-weight:600}
+  .wave-when{font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--muted);margin-left:auto}
+  ul.acts{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:9px}
+  ul.acts li{display:flex;gap:11px;font-size:14.5px;color:var(--ink-2);align-items:flex-start}
+  ul.acts li::before{
+    content:"";flex:0 0 auto;width:6px;height:6px;border-radius:50%;
+    background:var(--river);margin-top:8px;
+  }
+  ul.acts li strong{color:var(--ink);font-weight:600}
+
+  .callout{
+    background:var(--surface);border:1px solid var(--rule);border-left:4px solid var(--river);
+    border-radius:6px;padding:18px 20px;margin-top:22px;
+    display:flex;flex-direction:column;gap:8px;
+  }
+  .callout h3{font-size:1.05rem}
+  .callout p{font-size:14.5px;color:var(--ink-2)}
+
+  footer{
+    padding-block:32px;border-top:1px solid var(--rule);
+    font-size:13px;color:var(--muted);display:flex;flex-direction:column;gap:6px;
+  }
+  @media (max-width:720px){
+    .rub-row{grid-template-columns:repeat(2,1fr)}
+    .rub-bar{grid-template-columns:repeat(2,1fr)}
+  }
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+
+<div class="wrap">
+
+  <header class="masthead">
+    <div class="spectrum"></div>
+    <div>
+      <p class="eyebrow">Auditoría de conversión · electrosmogespana.com</p>
+      <h1>El Rubicón de EKIO</h1>
+    </div>
+    <p class="standfirst">De cada 100 personas que entran en la tienda, 4 cogen un producto y menos de 1 llega a pagarlo. Este estudio localiza exactamente en qué punto del recorrido se pierden, aplicando el modelo Rubicón.</p>
+    <div class="meta">
+      <span>18 septiembre 2026</span>
+      <span>Ventana: 90 días (21 jun – 18 sep)</span>
+      <span>Fuentes: Shopify Analytics · Admin API · auditoría en vivo · Microsoft Clarity</span>
+    </div>
+  </header>
+
+  <!-- ============ 1. EL NÚMERO ============ -->
+  <section>
+    <div class="sec-head">
+      <h2>Dónde estamos</h2>
+      <p class="lede">Los datos salen de Shopify, no de estimaciones. El tráfico no es el problema: entran 12.476 sesiones en 90 días. El problema es todo lo que pasa después.</p>
+    </div>
+
+    <div class="kpis">
+      <div class="kpi"><span class="k-label">Sesiones</span><span class="k-val">12.476</span><span class="k-sub">90 días</span></div>
+      <div class="kpi"><span class="k-label">Añaden al carrito</span><span class="k-val">563</span><span class="k-sub">4,51% de las sesiones</span></div>
+      <div class="kpi"><span class="k-label">Llegan al checkout</span><span class="k-val">391</span><span class="k-sub">3,13%</span></div>
+      <div class="kpi k-bad"><span class="k-label">Compran</span><span class="k-val">116</span><span class="k-sub">0,93% · conversión final</span></div>
+      <div class="kpi"><span class="k-label">Pedido medio</span><span class="k-val">215 €</span><span class="k-sub">AOV del periodo</span></div>
+    </div>
+
+    <div class="callout">
+      <h3>La lectura en una frase</h3>
+      <p>El paso intermedio del embudo está sano. Los dos extremos están rotos. La gente no llega a interesarse por el producto, y la que sí llega a interesarse se cae en la pantalla de pago. Son dos problemas distintos, con causas distintas, y hay que atacarlos por separado.</p>
+    </div>
+  </section>
+
+  <!-- ============ 2. EL MODELO ============ -->
+  <section>
+    <div class="sec-head">
+      <h2>El modelo Rubicón, aplicado</h2>
+      <p class="lede">El modelo divide la compra en cuatro fases. Antes de cruzar el río, el visitante decide si este sitio le sirve. Una vez cruzado, esa duda desaparece y la sustituyen otras: el precio, el riesgo, si esto le conviene ahora. Cada fase se mide con su propia cifra.</p>
+    </div>
+
+    <div class="rubicon">
+      <div class="rub-bar"><span></span><span></span><span></span><span></span></div>
+      <div class="rub-row">
+        <div class="rub-cell">
+          <span class="phase">1 · Consideración</span>
+          <span class="q">¿Esto resuelve mi problema?</span>
+          <span class="n">4,51%</span>
+          <span class="k-sub" style="font-size:12px;color:var(--muted)">Relevancia · Confianza · Orientación</span>
+        </div>
+        <div class="rub-cell">
+          <span class="phase">2 · Plan</span>
+          <span class="q">Quiero esto. ¿Cómo lo consigo?</span>
+          <span class="n">69,4%</span>
+          <span class="k-sub" style="font-size:12px;color:var(--muted)">Estimulación</span>
+        </div>
+        <div class="rub-cell">
+          <span class="phase">3 · Acción</span>
+          <span class="q">¿Me fío? ¿Cuánto acaba costando?</span>
+          <span class="n">29,7%</span>
+          <span class="k-sub" style="font-size:12px;color:var(--muted)">Seguridad · Conveniencia</span>
+        </div>
+        <div class="rub-cell">
+          <span class="phase">4 · Confirmación</span>
+          <span class="q">¿Hice bien?</span>
+          <span class="n">sin datos</span>
+          <span class="k-sub" style="font-size:12px;color:var(--muted)">Post mortem</span>
+        </div>
+      </div>
+      <p class="river-note">
+        <span class="river-tick" style="background:var(--crit)"></span> Fase rota
+        <span class="river-tick" style="background:var(--ok)"></span> Fase sana
+        <span class="river-tick" style="background:var(--muted)"></span> Sin medición disponible
+        <span style="color:var(--muted)">— El Rubicón se cruza entre la fase 1 y la 2: 563 de 12.476 personas lo cruzan.</span>
+      </p>
+    </div>
+
+    <div class="steps">
+      <div class="step">
+        <div class="step-top">
+          <span class="step-name">Sesión → añade al carrito<small>El cruce del Rubicón</small></span>
+          <span class="step-pct" style="color:var(--crit)">4,51%</span>
+        </div>
+        <div class="track">
+          <div class="fill f-crit" style="width:4.51%"></div>
+          <div class="bench" style="left:8%" data-label="referencia 8%"></div>
+        </div>
+        <p class="step-note">11.913 personas se van sin tocar nada. Es la fuga más grande en volumen absoluto.</p>
+      </div>
+
+      <div class="step">
+        <div class="step-top">
+          <span class="step-name">Carrito → checkout<small>Fase de plan</small></span>
+          <span class="step-pct" style="color:var(--ok)">69,4%</span>
+        </div>
+        <div class="track">
+          <div class="fill f-ok" style="width:69.4%"></div>
+          <div class="bench" style="left:62%" data-label="referencia 62%"></div>
+        </div>
+        <p class="step-note">Por encima de la referencia del sector. Este tramo funciona: no hay que tocarlo.</p>
+      </div>
+
+      <div class="step">
+        <div class="step-top">
+          <span class="step-name">Checkout → compra<small>Fase de acción</small></span>
+          <span class="step-pct" style="color:var(--crit)">29,7%</span>
+        </div>
+        <div class="track">
+          <div class="fill f-crit" style="width:29.7%"></div>
+          <div class="bench" style="left:55%" data-label="referencia 55%"></div>
+        </div>
+        <p class="step-note">275 personas abandonan con la tarjeta prácticamente en la mano. Es la fuga más cara y la más fácil de arreglar.</p>
+      </div>
+    </div>
+
+    <div class="callout">
+      <h3>Lo que vale arreglar el checkout</h3>
+      <p>Llevar ese 29,7% a un 50%, que es lo normal en una tienda bien montada, son 80 pedidos más cada 90 días. Al pedido medio de 215 €, hablamos de unos <strong>17.000 € por trimestre</strong>, sin traer ni una visita más. Es la cifra que justifica el orden de prioridades de todo lo que viene después.</p>
+    </div>
+  </section>
+
+  <!-- ============ 3. FASE 1 ============ -->
+  <section>
+    <div class="sec-head">
+      <p class="eyebrow">Fase 1 · Antes del Rubicón</p>
+      <h2>Relevancia, confianza, orientación</h2>
+      <p class="lede">Aquí el visitante decide si este sitio resuelve su problema. El 95,5% decide que no, o no llega a decidirlo. Esto es lo que encontré recorriendo la tienda como lo haría un cliente, en móvil, que es el 77% del tráfico.</p>
+    </div>
+
+    <div class="findings">
+
+      <div class="find is-warn">
+        <div class="find-head">
+          <span class="find-id">F-01</span>
+          <span class="find-title">La portada obliga a elegir entre dos negocios antes de enseñar nada</span>
+          <span class="chip chip-warn">Orientación</span>
+        </div>
+        <p>La primera pantalla ofrece dos botones del mismo tamaño y peso visual: "Ver filtros SPIRO" y "Descubrir Ekio Light". Son dos categorías que no compiten entre sí y que resuelven problemas distintos. El visitante que llega buscando protección electromagnética tiene que descartar activamente la mitad de la pantalla antes de avanzar.</p>
+        <p class="fix"><strong>Qué hacer:</strong> dar el peso principal a la ruta que trae el tráfico, que es la de filtros, y dejar la de luz roja como enlace secundario. Medirlo como test A/B antes de darlo por bueno.</p>
+      </div>
+
+      <div class="find is-crit">
+        <div class="find-head">
+          <span class="find-id">F-02</span>
+          <span class="find-title">El bloque de reseñas abre con una reseña negativa</span>
+          <span class="chip chip-crit">Confianza</span>
+        </div>
+        <p>Tanto en la portada como en la ficha de producto, la primera opinión que se lee es la de una clienta que perdió el producto a los pocos días porque la bolsita se cayó. Más abajo aparecen otras dos en la misma línea, incluida una que dice no notar ninguna diferencia. No se trata de esconder las críticas, sino de que el primer contacto con la prueba social no puede ser el peor caso.</p>
+        <div class="evidence">Primera reseña visible, home y ficha SPIRO CARD X:
+"Bien, pero la perdí a los pocos días, porque la bolsita
+de plástico que viene con la tarjeta al llevarla colgada
+se cayó, no me di cuenta de ello y la perdí."</div>
+        <p class="fix"><strong>Qué hacer:</strong> ordenar el widget de Judge.me por valoración o por utilidad en lugar de por fecha. Las críticas siguen accesibles, pero dejan de ser el titular.</p>
+      </div>
+
+      <div class="find is-warn">
+        <div class="find-head">
+          <span class="find-id">F-03</span>
+          <span class="find-title">Las reseñas de la ficha no son de ese producto</span>
+          <span class="chip chip-warn">Confianza</span>
+        </div>
+        <p>En la ficha de la SPIRO Card X aparecen opiniones de la SPIRO Square, de la SPIRO Card normal y opiniones genéricas de la tienda sin producto asignado. Quien está a punto de pagar 167 € por un artículo concreto no encuentra prueba social de ese artículo concreto.</p>
+        <p class="fix"><strong>Qué hacer:</strong> configurar el widget para filtrar por producto y, donde no haya reseñas suficientes, agrupar explícitamente por familia en lugar de mezclar en silencio.</p>
+      </div>
+
+      <div class="find is-warn">
+        <div class="find-head">
+          <span class="find-id">F-04</span>
+          <span class="find-title">18 reseñas para todo el catálogo</span>
+          <span class="chip chip-warn">Confianza</span>
+        </div>
+        <p>La tienda muestra 4,5 sobre 5 con 18 opiniones en total, repartidas entre todos los productos. Para tickets de entre 97 € y 2.500 € ese volumen no sostiene la decisión. Con 242 pedidos en 90 días hay material de sobra para multiplicarlo.</p>
+        <p class="fix"><strong>Qué hacer:</strong> activar la petición automática de reseña tras la entrega, con recordatorio, y pedir foto. El flujo puede salir de Klaviyo, que ya está montado.</p>
+      </div>
+
+      <div class="find is-warn">
+        <div class="find-head">
+          <span class="find-id">F-05</span>
+          <span class="find-title">Los medios aparecen como texto, no como logos</span>
+          <span class="chip chip-warn">Confianza</span>
+        </div>
+        <p>El bloque de confianza dice "Nos has visto en: Europa Press, EFE Comunica y Mundo Corporativo", en texto corrido. Es justo el punto que señaló la consultora al comparar con la web anterior en WordPress: ahí había logos de medios reconocibles. Un logotipo se procesa de un vistazo; una frase hay que leerla, y en móvil casi nadie la lee.</p>
+        <p class="fix"><strong>Qué hacer:</strong> recuperar la tira de logos en escala de grises, cada uno enlazando a la publicación real.</p>
+      </div>
+
+      <div class="find is-crit">
+        <div class="find-head">
+          <span class="find-id">F-06</span>
+          <span class="find-title">La decisión clave del cliente está escondida en un acordeón</span>
+          <span class="chip chip-crit">Orientación</span>
+        </div>
+        <p>La SPIRO Card cuesta 97 € y la SPIRO Card X cuesta 167 €. Son los dos productos más vendidos de la tienda y el visitante tiene que elegir entre ellos. La explicación de en qué se diferencian está dentro de una pregunta plegada del bloque de dudas frecuentes, al final de la ficha. Quien no la despliega se queda con dos productos casi idénticos y una diferencia de 70 € sin justificar, y la salida habitual ante esa duda es no comprar ninguno.</p>
+        <p class="fix"><strong>Qué hacer:</strong> una tabla comparativa visible en ambas fichas, con radio de acción, uso recomendado y precio. Es probablemente el cambio de mayor impacto de toda esta fase.</p>
+      </div>
+
+      <div class="find is-low">
+        <div class="find-head">
+          <span class="find-id">F-07</span>
+          <span class="find-title">Los testimonios sin verificar van por delante de los verificados</span>
+          <span class="chip chip-low">Confianza</span>
+        </div>
+        <p>La ficha coloca tres testimonios largos y anónimos en cuanto al origen por encima del bloque de reseñas verificadas de Judge.me. El orden juega en contra: lo que más creíble resulta es lo que aparece más abajo.</p>
+        <p class="fix"><strong>Qué hacer:</strong> subir las verificadas y dejar los testimonios editoriales como refuerzo posterior.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============ 3b. VELOCIDAD ============ -->
+  <section>
+    <div class="sec-head">
+      <h2>El segundo en que la web no responde</h2>
+      <p class="lede">La velocidad merece un apartado propio porque los dos indicadores habituales dicen cosas opuestas, y la contradicción es justamente el hallazgo.</p>
+    </div>
+
+    <div class="tw">
+      <table>
+        <thead>
+          <tr><th>Indicador</th><th class="num">Usuario real (Chrome)</th><th class="num">Móvil lento (laboratorio)</th><th class="num">Umbral</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Carga del contenido principal</td><td class="num alive">1,4 s</td><td class="num dead">17,5 s</td><td class="num">2,5 s</td></tr>
+          <tr><td>Bloqueo del hilo principal</td><td class="num alive">131 ms</td><td class="num dead">1.030 ms</td><td class="num">200 ms</td></tr>
+          <tr><td>Estabilidad visual</td><td class="num alive">0</td><td class="num alive">0,04</td><td class="num">0,1</td></tr>
+          <tr><td>Peso de la página</td><td class="num">—</td><td class="num dead">3,2 MB</td><td class="num">1,5 MB</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="callout">
+      <h3>Qué significa la contradicción</h3>
+      <p>Google mide la experiencia del usuario mediano y la da por buena: no hay penalización de posicionamiento por velocidad, y eso concuerda con que la búsqueda sea el mejor canal. Pero el usuario mediano no es el que abandona. En un móvil modesto con cobertura normal, la portada deja el navegador bloqueado <strong>un segundo entero</strong>. Durante ese segundo, quien toca un botón no recibe ninguna respuesta. Es exactamente el perfil de visitante que se cae antes de cruzar el Rubicón.</p>
+    </div>
+
+    <div class="findings" style="margin-top:22px">
+      <div class="find is-crit">
+        <div class="find-head">
+          <span class="find-id">F-15</span>
+          <span class="find-title">Un script de Shopify consume tres segundos y medio solo en la portada</span>
+          <span class="chip chip-crit">Crítico</span>
+        </div>
+        <p>El módulo interno de monitorización de Shopify ejecuta 3.407 milisegundos de código en la portada y solo 446 en la ficha de producto. Siete veces más trabajo para el mismo script en la misma tienda apunta a que alguna sección o aplicación de la portada le está haciendo trabajar de forma anómala. Por sí solo explica más de la mitad del bloqueo.</p>
+        <p class="fix"><strong>Qué hacer:</strong> diagnosticar con el perfilador del navegador qué sección de la portada lo dispara, antes de tocar ninguna otra cosa de velocidad.</p>
+      </div>
+
+      <div class="find is-crit">
+        <div class="find-head">
+          <span class="find-id">F-16</span>
+          <span class="find-title">El programa de puntos cuesta dos veces</span>
+          <span class="chip chip-crit">Conveniencia</span>
+        </div>
+        <p>La aplicación de fidelización carga 343 KB de código en todas las páginas, más fragmentos adicionales, y es la misma que inserta en el carrito el aviso que interrumpe el pago. Es el mayor script de terceros de la tienda y, a la vez, la fricción del punto de compromiso. Conviene decidir si ese programa está aportando lo suficiente como para justificar ambas cosas.</p>
+        <p class="fix"><strong>Qué hacer:</strong> retrasar su carga a después de que la página esté pintada, y quitar su mensaje del carrito. Si no hay datos de que el programa retenga clientes, plantear retirarlo.</p>
+      </div>
+
+      <div class="find is-crit">
+        <div class="find-head">
+          <span class="find-id">F-17</span>
+          <span class="find-title">Hay un script de origen desconocido en todas las páginas</span>
+          <span class="chip chip-crit">Seguridad</span>
+        </div>
+        <p>La tienda carga 252 KB desde un dominio que no corresponde a ninguna herramienta identificable del stack. Un archivo externo ejecutándose en todas las páginas, incluida la de pago, sin que se sepa a qué aplicación pertenece, es un asunto de seguridad además de un coste de velocidad.</p>
+        <div class="evidence">Origen no identificado  →  edd.bestfreecdn.com   ·  252 KB
+También en producción   →  Sentry (herramienta de desarrollo) ·  255 ms
+                           jQuery desde CDN externo</div>
+        <p class="fix"><strong>Qué hacer:</strong> localizar qué aplicación de Shopify lo instala. Si no se identifica, desinstalarla. Retirar también la herramienta de desarrollo, que no pinta nada en una tienda en producción.</p>
+      </div>
+    </div>
+
+    <p style="margin-top:20px;color:var(--ink-2);max-width:42rem">En conjunto la tienda arranca entre 1,1 y 1,2 MB de JavaScript de terceros en cada página, cerca del doble de lo razonable en móvil, y unos 600 KB de ese código no llega a usarse.</p>
+  </section>
+
+  <!-- ============ 4. FASE 3 ============ -->
+  <section>
+    <div class="sec-head">
+      <p class="eyebrow">Fase 3 · Después del Rubicón</p>
+      <h2>Seguridad y conveniencia</h2>
+      <p class="lede">Estas personas ya decidieron comprar. Introdujeron el producto en el carrito y abrieron la pantalla de pago. Siete de cada diez se van. Las causas que siguen están verificadas una a una contra la tienda real.</p>
+    </div>
+
+    <div class="findings">
+
+      <div class="find is-crit">
+        <div class="find-head">
+          <span class="find-id">F-08</span>
+          <span class="find-title">No existe página de política de envíos</span>
+          <span class="chip chip-crit">Crítico</span>
+        </div>
+        <p>La dirección estándar devuelve un error 404. Consultada la tienda por API, tiene cinco políticas publicadas y ninguna de ellas es la de envíos. El cliente no tiene forma de saber cuánto cuesta el envío, cuánto tarda, quién lo transporta ni qué pasa si algo va mal, en ningún punto del recorrido.</p>
+        <div class="evidence">GET /policies/shipping-policy      →  404 No encontrado
+API · shop.shopPolicies            →  CONTACT_INFORMATION
+                                      LEGAL_NOTICE
+                                      PRIVACY_POLICY
+                                      REFUND_POLICY
+                                      TERMS_OF_SERVICE
+                                      (SHIPPING_POLICY: ausente)</div>
+        <p class="fix"><strong>Qué hacer:</strong> publicar la política de envíos hoy mismo y enlazarla desde el pie, la ficha, el carrito y el checkout. Es la acción de mayor relación impacto-esfuerzo de todo el informe.</p>
+      </div>
+
+      <div class="find is-crit">
+        <div class="find-head">
+          <span class="find-id">F-09</span>
+          <span class="find-title">El coste de envío no aparece hasta escribir la dirección completa</span>
+          <span class="chip chip-crit">Crítico</span>
+        </div>
+        <p>El carrito muestra "Total estimado" con el precio del producto y ni una palabra sobre el envío. Ya dentro de la pantalla de pago, el resumen dice literalmente "Envío — Introducir la dirección de envío". Es decir: para saber el precio final hay que entregar antes nombre, apellidos, dirección, código postal, ciudad, provincia y teléfono. La consultora lo señaló como la primera causa de abandono en sus encuestas, y aquí está la versión más severa del problema, porque el dato ni siquiera existe publicado en otro sitio.</p>
+        <div class="evidence">Carrito     →  "Total estimado   950,00 €"   (envío: no mencionado)
+Checkout    →  "Envío   Introducir la dirección de envío"
+Instrucción →  "Ingresa tu código postal para ver el coste del envío
+                y para habilitar el campo de IVA si eres empresa"</div>
+        <p class="fix"><strong>Qué hacer:</strong> dos cosas. Fijar y comunicar un umbral de envío gratis visible en la ficha y en el carrito, y activar la calculadora de envío en el carrito para que el importe se vea antes de pedir ningún dato personal.</p>
+      </div>
+
+      <div class="find is-crit">
+        <div class="find-head">
+          <span class="find-id">F-10</span>
+          <span class="find-title">El carrito interrumpe el pago con una invitación a registrarse</span>
+          <span class="chip chip-crit">Conveniencia</span>
+        </div>
+        <p>Justo encima del botón de pagar, el carrito dice "Inicia sesión para canjear tus puntos por recompensas". En el momento exacto del compromiso se le comunica al cliente que hay un descuento que no está recibiendo y que para conseguirlo tiene que parar, identificarse o crear una cuenta. Es una interrupción introducida por el programa de fidelización en el peor sitio posible del recorrido.</p>
+        <p class="fix"><strong>Qué hacer:</strong> quitar ese aviso del carrito. Si se mantiene el programa de puntos, comunicarlo antes de la ficha o después de la compra, nunca sobre el botón de pago.</p>
+      </div>
+
+      <div class="find is-warn">
+        <div class="find-head">
+          <span class="find-id">F-11</span>
+          <span class="find-title">La imagen del producto no carga en el carrito</span>
+          <span class="chip chip-warn">Seguridad</span>
+        </div>
+        <p>En la prueba en móvil el carrito mostró el hueco de la imagen vacío junto a un artículo de 950 €. Un carrito que se ve a medio cargar en el momento de pagar es exactamente el tipo de detalle que dispara la duda de si el sitio es fiable.</p>
+        <p class="fix"><strong>Qué hacer:</strong> reproducirlo y corregirlo en la plantilla del carrito. Conviene comprobar si afecta a todos los productos o solo a algunos.</p>
+      </div>
+
+      <div class="find is-warn">
+        <div class="find-head">
+          <span class="find-id">F-12</span>
+          <span class="find-title">El pago aplazado solo se descubre dentro del checkout</span>
+          <span class="chip chip-warn">Precio</span>
+        </div>
+        <p>La tienda tiene financiación con seQura, pero el cliente solo se entera al llegar a la pantalla de pago. En las fichas de los paneles Ekio Light, que van de 650 € a 2.500 €, la posibilidad de fraccionar es parte de la decisión de compra, no un detalle administrativo del final.</p>
+        <p class="fix"><strong>Qué hacer:</strong> mostrar la cuota mensual bajo el precio en las fichas de más de 300 €, con el widget de seQura que ya está cargado en la web.</p>
+      </div>
+
+      <div class="find is-low">
+        <div class="find-head">
+          <span class="find-id">F-13</span>
+          <span class="find-title">La ficha no dice cuándo llega el pedido</span>
+          <span class="chip chip-low">Conveniencia</span>
+        </div>
+        <p>La ficha muestra dos sellos, "Pago Seguro" y "Garantía Devolución", sin ningún plazo de entrega ni condiciones. La garantía de 90 días que se anuncia en la portada no se repite donde se toma la decisión.</p>
+        <p class="fix"><strong>Qué hacer:</strong> bajo el botón de compra, plazo de entrega estimado, coste de envío y garantía, en una línea cada uno.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============ 5. SOCIAL ============ -->
+  <section>
+    <div class="sec-head">
+      <h2>La anomalía del tráfico social</h2>
+      <p class="lede">Al cruzar el embudo por canal aparece algo que no se explica por diseño ni por mensaje. Desde junio, todo el tráfico que llega desde redes sociales ha generado un pedido. Uno.</p>
+    </div>
+
+    <div class="tw">
+      <table>
+        <thead>
+          <tr><th>Mes</th><th class="num">Sesiones social</th><th class="num">Pedidos</th><th class="num">Sesiones búsqueda</th><th class="num">Pedidos</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Abril</td><td class="num">1.551</td><td class="num">5</td><td class="num">1.484</td><td class="num">25</td></tr>
+          <tr><td>Mayo</td><td class="num">1.840</td><td class="num">7</td><td class="num">1.674</td><td class="num">32</td></tr>
+          <tr><td>Junio</td><td class="num">1.183</td><td class="num dead">0</td><td class="num">1.416</td><td class="num alive">21</td></tr>
+          <tr><td>Julio</td><td class="num">1.506</td><td class="num dead">1</td><td class="num">1.495</td><td class="num alive">28</td></tr>
+          <tr><td>Agosto</td><td class="num">625</td><td class="num dead">0</td><td class="num">1.548</td><td class="num alive">25</td></tr>
+          <tr><td>Septiembre</td><td class="num">489</td><td class="num dead">0</td><td class="num">850</td><td class="num alive">8</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="callout">
+      <h3>Por qué esto no es un problema de contenido</h3>
+      <p>En los 90 últimos días, el tráfico social sumó 2.874 sesiones, 80 personas añadieron producto al carrito y 36 abrieron la pantalla de pago. De esas 36, compró una. Un 2,8% de finalización frente al 43% del tráfico de búsqueda. Que la gente llegue hasta el pago y ahí se caiga casi en bloque no es falta de interés: apunta a que algo se rompe técnicamente en ese recorrido.</p>
+      <p>La hipótesis principal es el navegador interno de Instagram y Facebook, que rompe con frecuencia los pagos acelerados tipo Shop Pay y las pasarelas que abren ventana. No lo puedo confirmar desde aquí, y se confirma o se descarta en una tarde: abrir la tienda desde un enlace de Instagram en un móvil real y llegar hasta el final del pago.</p>
+    </div>
+  </section>
+
+  <!-- ============ 6. CLARITY ============ -->
+  <section>
+    <div class="sec-head">
+      <p class="eyebrow">Fase 4 · Post mortem</p>
+      <h2>Clarity lleva ciego todo este tiempo</h2>
+      <p class="lede">Para responder a por qué la gente abandona hacen falta grabaciones de sesión y mapas de calor. Están grabándose. El problema es dónde.</p>
+    </div>
+
+    <div class="find is-crit">
+      <div class="find-head">
+        <span class="find-id">F-14</span>
+        <span class="find-title">Los datos de comportamiento van a un proyecto al que no tienes acceso</span>
+        <span class="chip chip-crit">Crítico</span>
+      </div>
+      <p>La web carga el código de seguimiento de un proyecto de Clarity instalado a través de la aplicación de Shopify. Ese identificador no coincide con el del único proyecto que existe en tu cuenta. Al abrir el proyecto que la web alimenta, Clarity responde que no existe o que no tienes permisos. Mientras tanto, tu proyecto acumula una sesión en los últimos 30 días.</p>
+      <div class="evidence">Script cargado en la web  →  clarity.ms/tag/w9l4aagzvs?ref=shopify
+Tu cuenta de Clarity      →  1 proyecto: "electrosmogespana"  (l3m4x6biml)
+Proyecto l3m4x6biml       →  1 sesión en 30 días
+Proyecto w9l4aagzvs       →  "Este proyecto no existe o no tienes
+                              permisos para verlo"</div>
+      <p class="fix"><strong>Qué hacer:</strong> localizar quién instaló la aplicación de Clarity en Shopify y pedir que te añada como administrador de ese proyecto, donde está todo el histórico desde la migración. Si no aparece, sustituir el identificador por el tuyo en el tema y empezar a acumular desde cero. Sin esto, cualquier cambio que se haga a partir de ahora se hace a ciegas.</p>
+    </div>
+  </section>
+
+  <!-- ============ 7. MIGRACIÓN ============ -->
+  <section>
+    <div class="sec-head">
+      <h2>Sobre la caída tras la migración</h2>
+      <p class="lede">La consultora planteó que algo pasó al pasar de WordPress a Shopify, y que no fue pérdida de visibilidad. Los datos lo respaldan, con un matiz importante.</p>
+    </div>
+    <p style="margin-top:14px;color:var(--ink-2);max-width:42rem">El tráfico de búsqueda es el canal más sano de la tienda y el más estable: entre 1.400 y 1.700 sesiones al mes desde abril, con 21 a 32 pedidos mensuales y una finalización de pago del 43%. El posicionamiento no es el problema.</p>
+    <p style="margin-top:14px;color:var(--ink-2);max-width:42rem">Lo que sí cayó es el tráfico directo, que pasó de 2.554 sesiones y 49 pedidos en mayo a 987 sesiones y 8 pedidos en septiembre. El tráfico directo es en buena parte clientela que ya conocía la marca. Esa caída, sumada al apagón del canal social, explica el grueso de la bajada de facturación mejor que cualquier hipótesis sobre el diseño nuevo.</p>
+    <p style="margin-top:14px;color:var(--ink-2);max-width:42rem">Dicho de otro modo: el rediseño no hundió la conversión, porque la conversión lleva rota todo el periodo medido y de forma bastante uniforme. Lo que ocurrió es que se perdió volumen en los canales que traían compradores ya convencidos, y el sitio nuevo no tiene la capacidad de convertir al visitante frío que queda. Las dos cosas hay que arreglarlas, pero solo una se arregla tocando la web.</p>
+  </section>
+
+  <!-- ============ 8. ROADMAP ============ -->
+  <section>
+    <div class="sec-head">
+      <h2>Plan de acción</h2>
+      <p class="lede">Ordenado por impacto frente a esfuerzo, no por fase del modelo. La primera tanda son cambios de horas, no de semanas, y concentra casi todo el retorno.</p>
+    </div>
+
+    <div class="wave">
+      <div class="wave-head">
+        <span class="wave-n">Tanda 1</span>
+        <span class="wave-t">Impacto alto, esfuerzo bajo</span>
+        <span class="wave-when">esta semana</span>
+      </div>
+      <ul class="acts">
+        <li><strong>Publicar la política de envíos</strong> y enlazarla desde pie, ficha, carrito y checkout. <span class="mono">F-08</span></li>
+        <li><strong>Quitar del carrito el aviso de puntos</strong> que aparece sobre el botón de pago. <span class="mono">F-10</span></li>
+        <li><strong>Reordenar el widget de reseñas</strong> para que no abra con la crítica. <span class="mono">F-02</span></li>
+        <li><strong>Recuperar el acceso al proyecto de Clarity</strong> que sí está recogiendo datos. <span class="mono">F-14</span></li>
+        <li><strong>Probar el pago desde un enlace de Instagram</strong> en un móvil real, hasta el final. <span class="mono">Social</span></li>
+      </ul>
+    </div>
+
+    <div class="wave">
+      <div class="wave-head">
+        <span class="wave-n">Tanda 2</span>
+        <span class="wave-t">Impacto alto, esfuerzo medio</span>
+        <span class="wave-when">2 a 4 semanas</span>
+      </div>
+      <ul class="acts">
+        <li><strong>Umbral de envío gratis</strong> definido, comunicado en ficha y carrito, y calculadora de envío en el carrito. <span class="mono">F-09</span></li>
+        <li><strong>Tabla comparativa SPIRO Card contra Card X</strong> visible en ambas fichas. <span class="mono">F-06</span></li>
+        <li><strong>Bloque de entrega y garantía</strong> bajo el botón de compra en todas las fichas. <span class="mono">F-13</span></li>
+        <li><strong>Cuota de seQura</strong> bajo el precio en productos de más de 300 €. <span class="mono">F-12</span></li>
+        <li><strong>Reseñas filtradas por producto</strong> y flujo automático de petición tras la entrega. <span class="mono">F-03 · F-04</span></li>
+      </ul>
+    </div>
+
+    <div class="wave">
+      <div class="wave-head">
+        <span class="wave-n">Tanda 3</span>
+        <span class="wave-t">Requiere medir antes</span>
+        <span class="wave-when">cuando Clarity funcione</span>
+      </div>
+      <ul class="acts">
+        <li><strong>Jerarquía de la portada:</strong> dar peso principal a la ruta de filtros, como test A/B. <span class="mono">F-01</span></li>
+        <li><strong>Logos de medios</strong> en lugar de la mención en texto. <span class="mono">F-05</span></li>
+        <li><strong>Reordenar la prueba social</strong> de la ficha, verificadas primero. <span class="mono">F-07</span></li>
+      </ul>
+    </div>
+
+    <div class="wave">
+      <div class="wave-head">
+        <span class="wave-n">Tanda 4</span>
+        <span class="wave-t">Velocidad en móvil</span>
+        <span class="wave-when">en paralelo, equipo técnico</span>
+      </div>
+      <ul class="acts">
+        <li><strong>Diagnosticar el script que bloquea la portada</strong> antes de tocar nada más de rendimiento. <span class="mono">F-15</span></li>
+        <li><strong>Identificar el script de origen desconocido</strong> y retirar la herramienta de desarrollo de producción. <span class="mono">F-17</span></li>
+        <li><strong>Retrasar la carga</strong> del programa de puntos, el chat y los widgets de financiación a después del pintado. <span class="mono">F-16</span></li>
+        <li><strong>Priorizar la imagen principal</strong> de la ficha de producto. Quince minutos de trabajo, el mejor retorno por esfuerzo de esta tanda.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ 9. LÍMITES ============ -->
+  <section>
+    <div class="sec-head">
+      <h2>Qué no he podido verificar</h2>
+    </div>
+    <ul class="acts" style="margin-top:8px">
+      <li>El importe real del envío, porque exige introducir una dirección personal completa en el checkout. Lo que sí está verificado es que el dato no se publica en ningún sitio.</li>
+      <li>La rotura del pago en el navegador interno de Instagram. Es la hipótesis que mejor encaja con los números, no un hecho comprobado.</li>
+      <li>El comportamiento real dentro de la tienda, por el problema de acceso a Clarity. Todo lo anterior sale de recorrer la web y de los datos de Shopify, no de ver a usuarios reales.</li>
+      <li>La comparación directa con la web anterior en WordPress: Shopify solo conserva datos desde diciembre de 2025.</li>
+      <li>Qué aplicación instala el script de origen desconocido. Se identifica entrando al panel de aplicaciones de Shopify.</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>Auditoría de conversión de electrosmogespana.com según el modelo Rubicón · 18 de septiembre de 2026</p>
+    <p>Datos de Shopify Analytics y Admin API. Auditoría de interfaz realizada en viewport móvil de 375 px. Ninguna acción de este estudio modificó la tienda.</p>
+  </footer>
+
+</div>
