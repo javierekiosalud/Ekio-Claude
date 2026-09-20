@@ -261,9 +261,9 @@
     </div>
     <p class="standfirst">De cada 100 personas que entran en la tienda, 4 cogen un producto y menos de 1 llega a pagarlo. Este estudio localiza exactamente en qué punto del recorrido se pierden, aplicando el modelo Rubicón.</p>
     <div class="meta">
-      <span>18 septiembre 2026</span>
+      <span>18 sep 2026 · rev. 20 sep</span>
       <span>Ventana: 90 días (21 jun – 18 sep)</span>
-      <span>Fuentes: Shopify Analytics · Admin API · auditoría en vivo · Microsoft Clarity</span>
+      <span>Fuentes: Shopify Analytics · Admin API · auditoría en vivo · Clarity (app Shopify) · Lighthouse/CrUX</span>
     </div>
   </header>
 
@@ -326,8 +326,8 @@
       <p class="river-note">
         <span class="river-tick" style="background:var(--crit)"></span> Fase rota
         <span class="river-tick" style="background:var(--ok)"></span> Fase sana
-        <span class="river-tick" style="background:var(--muted)"></span> Sin medición disponible
-        <span style="color:var(--muted)">— El Rubicón se cruza entre la fase 1 y la 2: 563 de 12.476 personas lo cruzan.</span>
+        <span class="river-tick" style="background:var(--muted)"></span> Sin medición post-compra
+                <span style="color:var(--muted)">— El Rubicón se cruza entre la fase 1 y la 2: 563 de 12.476 personas lo cruzan.</span>
       </p>
     </div>
 
@@ -491,7 +491,7 @@ se cayó, no me di cuenta de ello y la perdí."</div>
     <div class="findings" style="margin-top:22px">
       <div class="find is-crit">
         <div class="find-head">
-          <span class="find-id">F-15</span>
+          <span class="find-id">F-18</span>
           <span class="find-title">Un script de Shopify consume tres segundos y medio solo en la portada</span>
           <span class="chip chip-crit">Crítico</span>
         </div>
@@ -501,7 +501,7 @@ se cayó, no me di cuenta de ello y la perdí."</div>
 
       <div class="find is-crit">
         <div class="find-head">
-          <span class="find-id">F-16</span>
+          <span class="find-id">F-19</span>
           <span class="find-title">El programa de puntos cuesta dos veces</span>
           <span class="chip chip-crit">Conveniencia</span>
         </div>
@@ -511,7 +511,7 @@ se cayó, no me di cuenta de ello y la perdí."</div>
 
       <div class="find is-crit">
         <div class="find-head">
-          <span class="find-id">F-17</span>
+          <span class="find-id">F-20</span>
           <span class="find-title">Hay un script de origen desconocido en todas las páginas</span>
           <span class="chip chip-crit">Seguridad</span>
         </div>
@@ -644,24 +644,69 @@ Instrucción →  "Ingresa tu código postal para ver el coste del envío
   <section>
     <div class="sec-head">
       <p class="eyebrow">Fase 4 · Post mortem</p>
-      <h2>Clarity lleva ciego todo este tiempo</h2>
-      <p class="lede">Para responder a por qué la gente abandona hacen falta grabaciones de sesión y mapas de calor. Están grabándose. El problema es dónde.</p>
+      <h2>Lo que Clarity ve hacer a la gente</h2>
+      <p class="lede">Clarity está instalado a través de la aplicación de Shopify y se consulta desde el panel de administración, en Apps. Los datos de comportamiento de estas once semanas confirman con hechos observados lo que el embudo solo insinuaba con cifras.</p>
     </div>
 
-    <div class="find is-crit">
-      <div class="find-head">
-        <span class="find-id">F-14</span>
-        <span class="find-title">Los datos de comportamiento van a un proyecto al que no tienes acceso</span>
-        <span class="chip chip-crit">Crítico</span>
-      </div>
-      <p>La web carga el código de seguimiento de un proyecto de Clarity instalado a través de la aplicación de Shopify. Ese identificador no coincide con el del único proyecto que existe en tu cuenta. Al abrir el proyecto que la web alimenta, Clarity responde que no existe o que no tienes permisos. Mientras tanto, tu proyecto acumula una sesión en los últimos 30 días.</p>
-      <div class="evidence">Script cargado en la web  →  clarity.ms/tag/w9l4aagzvs?ref=shopify
-Tu cuenta de Clarity      →  1 proyecto: "electrosmogespana"  (l3m4x6biml)
-Proyecto l3m4x6biml       →  1 sesión en 30 días
-Proyecto w9l4aagzvs       →  "Este proyecto no existe o no tienes
-                              permisos para verlo"</div>
-      <p class="fix"><strong>Qué hacer:</strong> localizar quién instaló la aplicación de Clarity en Shopify y pedir que te añada como administrador de ese proyecto, donde está todo el histórico desde la migración. Si no aparece, sustituir el identificador por el tuyo en el tema y empezar a acumular desde cero. Sin esto, cualquier cambio que se haga a partir de ahora se hace a ciegas.</p>
+    <div class="kpis" style="margin-top:0">
+      <div class="kpi"><span class="k-label">Sesiones</span><span class="k-val">29.545</span><span class="k-sub">1 jul – 20 sep · bots excluidos</span></div>
+      <div class="kpi k-bad"><span class="k-label">Páginas por sesión</span><span class="k-val">1,47</span><span class="k-sub">la mayoría ve una y se va</span></div>
+      <div class="kpi k-bad"><span class="k-label">Profundidad de scroll</span><span class="k-val">33,8%</span><span class="k-sub">un tercio de la página</span></div>
+      <div class="kpi"><span class="k-label">Tiempo activo</span><span class="k-val">48 s</span><span class="k-sub">por sesión</span></div>
+      <div class="kpi"><span class="k-label">Usuarios nuevos</span><span class="k-val">88%</span><span class="k-sub">26.018 sesiones</span></div>
     </div>
+
+    <div class="findings" style="margin-top:22px">
+
+      <div class="find is-crit">
+        <div class="find-head">
+          <span class="find-id">F-14</span>
+          <span class="find-title">Toda la confianza está por debajo de donde la gente deja de leer</span>
+          <span class="chip chip-crit">Confianza</span>
+        </div>
+        <p>El visitante medio recorre un tercio de la página y ve una sola página y media por visita. En la portada, ese tercio superior contiene los dos botones de elección de universo, los sellos y el bloque "Elige por necesidad". Todo lo que sostiene la decisión de compra, las reseñas, los medios, la garantía de 90 días, el fundador y el estudio gratuito del hogar, está en los dos tercios inferiores, donde el 66% del recorrido ya no llega. La página tiene los argumentos correctos en el orden equivocado.</p>
+        <p class="fix"><strong>Qué hacer:</strong> subir un bloque compacto de prueba social y garantía al primer tercio, justo debajo del héroe. Lo demás puede quedarse donde está.</p>
+      </div>
+
+      <div class="find is-crit">
+        <div class="find-head">
+          <span class="find-id">F-15</span>
+          <span class="find-title">Uno de cada catorce visitantes rebota en cuanto aterriza</span>
+          <span class="chip chip-crit">Relevancia</span>
+        </div>
+        <p>Clarity registra 2.034 sesiones con retroceso rápido: la persona entra y vuelve atrás en segundos, sin interactuar. Un 6,9% del tráfico. Ese patrón es la firma de un visitante que no reconoce en la página lo que venía buscando, y aparece sobre todo cuando el anuncio o la publicación promete una cosa y la página de aterrizaje muestra otra. Cruzado con el canal social, que trae miles de sesiones y ningún pedido, señala dónde mirar primero.</p>
+        <div class="evidence">Retrocesos rápidos   →  6,88%   ·  2.034 sesiones
+Clics fallidos       →  5,55%   ·  1.640 sesiones
+Clics de rabia       →  0,11%   ·     32 sesiones
+Scroll excesivo      →  0,01%   ·      4 sesiones</div>
+        <p class="fix"><strong>Qué hacer:</strong> en Clarity, filtrar las grabaciones con retroceso rápido por origen social y ver diez. Se sabrá en media hora en qué página aterrizan y qué esperaban ver.</p>
+      </div>
+
+      <div class="find is-warn">
+        <div class="find-head">
+          <span class="find-id">F-16</span>
+          <span class="find-title">1.640 sesiones tocaron algo que no respondió</span>
+          <span class="chip chip-warn">Orientación</span>
+        </div>
+        <p>Un clic fallido es un toque sobre un elemento que no hace nada: una imagen que parece un enlace, un texto que parece un botón, o un botón real que no reacciona porque el navegador está bloqueado. Este último caso encaja con el segundo entero de bloqueo medido en la portada en móvil lento. Que los clics de rabia sean casi inexistentes indica que la gente no insiste: toca una vez, no pasa nada, y se va.</p>
+        <p class="fix"><strong>Qué hacer:</strong> abrir el mapa de calor de clics de la portada y de la ficha de la SPIRO Card X, y localizar qué elementos concentran los clics fallidos. Si son imágenes de producto, hacerlas enlazables. Si es el botón de comprar, es el problema de velocidad.</p>
+      </div>
+
+      <div class="find is-low">
+        <div class="find-head">
+          <span class="find-id">F-17</span>
+          <span class="find-title">Hay un segundo proyecto de Clarity vacío que confunde</span>
+          <span class="chip chip-low">Orden</span>
+        </div>
+        <p>La web alimenta el proyecto creado por la aplicación de Shopify. Además existe otro proyecto, "electrosmogespana", creado a mano en una cuenta de Microsoft, que no recibe datos y muestra una sesión en 30 días. Quien entre por clarity.microsoft.com con esa cuenta verá la tienda vacía y sacará conclusiones equivocadas, como me pasó a mí en la primera versión de este documento.</p>
+        <div class="evidence">Proyecto que recibe datos  →  w9l4aagzvs   (app de Shopify, se consulta en Admin → Apps)
+Proyecto vacío             →  l3m4x6biml   (clarity.microsoft.com, cuenta Microsoft)</div>
+        <p class="fix"><strong>Qué hacer:</strong> desde la app de Clarity en Shopify, en el menú de la esquina superior derecha, vincular el proyecto a la cuenta de Microsoft. Así aparece también en clarity.microsoft.com, con todas las funciones de filtrado y exportación que la versión incrustada no tiene. Después, borrar el proyecto vacío.</p>
+      </div>
+
+    </div>
+
+    <p style="margin-top:20px;color:var(--ink-2);max-width:42rem">Un dato para reconciliar: Clarity cuenta 29.545 sesiones en once semanas y Shopify cuenta unas 11.000 en el mismo tramo. Shopify solo contabiliza las visitas que aceptan las cookies. Si la diferencia se debe a eso, la conversión real sobre el tráfico total sería bastante más baja que el 0,93% que figura en este estudio.</p>
   </section>
 
   <!-- ============ 7. MIGRACIÓN ============ -->
@@ -692,7 +737,7 @@ Proyecto w9l4aagzvs       →  "Este proyecto no existe o no tienes
         <li><strong>Publicar la política de envíos</strong> y enlazarla desde pie, ficha, carrito y checkout. <span class="mono">F-08</span></li>
         <li><strong>Quitar del carrito el aviso de puntos</strong> que aparece sobre el botón de pago. <span class="mono">F-10</span></li>
         <li><strong>Reordenar el widget de reseñas</strong> para que no abra con la crítica. <span class="mono">F-02</span></li>
-        <li><strong>Recuperar el acceso al proyecto de Clarity</strong> que sí está recogiendo datos. <span class="mono">F-14</span></li>
+        <li><strong>Ver diez grabaciones de retroceso rápido</strong> desde social en Clarity, y el mapa de clics de la portada. <span class="mono">F-15 · F-16</span></li>
         <li><strong>Probar el pago desde un enlace de Instagram</strong> en un móvil real, hasta el final. <span class="mono">Social</span></li>
       </ul>
     </div>
@@ -716,7 +761,7 @@ Proyecto w9l4aagzvs       →  "Este proyecto no existe o no tienes
       <div class="wave-head">
         <span class="wave-n">Tanda 3</span>
         <span class="wave-t">Requiere medir antes</span>
-        <span class="wave-when">cuando Clarity funcione</span>
+        <span class="wave-when">tras ver las grabaciones</span>
       </div>
       <ul class="acts">
         <li><strong>Jerarquía de la portada:</strong> dar peso principal a la ruta de filtros, como test A/B. <span class="mono">F-01</span></li>
@@ -732,9 +777,9 @@ Proyecto w9l4aagzvs       →  "Este proyecto no existe o no tienes
         <span class="wave-when">en paralelo, equipo técnico</span>
       </div>
       <ul class="acts">
-        <li><strong>Diagnosticar el script que bloquea la portada</strong> antes de tocar nada más de rendimiento. <span class="mono">F-15</span></li>
-        <li><strong>Identificar el script de origen desconocido</strong> y retirar la herramienta de desarrollo de producción. <span class="mono">F-17</span></li>
-        <li><strong>Retrasar la carga</strong> del programa de puntos, el chat y los widgets de financiación a después del pintado. <span class="mono">F-16</span></li>
+        <li><strong>Diagnosticar el script que bloquea la portada</strong> antes de tocar nada más de rendimiento. <span class="mono">F-18</span></li>
+        <li><strong>Identificar el script de origen desconocido</strong> y retirar la herramienta de desarrollo de producción. <span class="mono">F-20</span></li>
+        <li><strong>Retrasar la carga</strong> del programa de puntos, el chat y los widgets de financiación a después del pintado. <span class="mono">F-19</span></li>
         <li><strong>Priorizar la imagen principal</strong> de la ficha de producto. Quince minutos de trabajo, el mejor retorno por esfuerzo de esta tanda.</li>
       </ul>
     </div>
@@ -748,7 +793,7 @@ Proyecto w9l4aagzvs       →  "Este proyecto no existe o no tienes
     <ul class="acts" style="margin-top:8px">
       <li>El importe real del envío, porque exige introducir una dirección personal completa en el checkout. Lo que sí está verificado es que el dato no se publica en ningún sitio.</li>
       <li>La rotura del pago en el navegador interno de Instagram. Es la hipótesis que mejor encaja con los números, no un hecho comprobado.</li>
-      <li>El comportamiento real dentro de la tienda, por el problema de acceso a Clarity. Todo lo anterior sale de recorrer la web y de los datos de Shopify, no de ver a usuarios reales.</li>
+      <li>Las grabaciones y mapas de calor de Clarity uno a uno. La versión incrustada en Shopify no se puede manejar desde fuera; las cifras agregadas sí están verificadas. Vincular el proyecto a la cuenta de Microsoft resuelve esto.</li>
       <li>La comparación directa con la web anterior en WordPress: Shopify solo conserva datos desde diciembre de 2025.</li>
       <li>Qué aplicación instala el script de origen desconocido. Se identifica entrando al panel de aplicaciones de Shopify.</li>
     </ul>
