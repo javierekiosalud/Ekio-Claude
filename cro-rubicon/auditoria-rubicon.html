@@ -261,7 +261,7 @@
     </div>
     <p class="standfirst">De cada 100 personas que entran en la tienda, 4 cogen un producto y menos de 1 llega a pagarlo. Este estudio localiza exactamente en qué punto del recorrido se pierden, aplicando el modelo Rubicón.</p>
     <div class="meta">
-      <span>18 sep 2026 · rev. 2 del 20 sep</span>
+      <span>18 sep 2026 · rev. 3 del 20 sep</span>
       <span>Ventana: 90 días (21 jun – 18 sep)</span>
       <span>Fuentes: Shopify Analytics · Admin API · auditoría en vivo · Clarity (app Shopify) · Lighthouse/CrUX</span>
     </div>
@@ -636,6 +636,7 @@ Instrucción →  "Ingresa tu código postal para ver el coste del envío
     <div class="callout">
       <h3>Por qué esto no es un problema de contenido</h3>
       <p>En los 90 últimos días, el tráfico social sumó 2.874 sesiones, 80 personas añadieron producto al carrito y 36 abrieron la pantalla de pago. De esas 36, compró una. Un 2,8% de finalización frente al 43% del tráfico de búsqueda. Que la gente llegue hasta el pago y ahí se caiga casi en bloque no es falta de interés: apunta a que algo se rompe técnicamente en ese recorrido.</p>
+      <p>Y no es solo tráfico orgánico. En los últimos 30 días hay tres campañas de Meta activas para SPIRO con unos 550 € de gasto y 2.130 clics a la tienda. Meta se atribuye 5 compras; Shopify no registra ninguna desde social en agosto ni en septiembre. Esa diferencia encaja con personas que no pudieron pagar dentro de Instagram y volvieron después por otra vía, o no volvieron.</p>
       <p>Antes de seguir, conviene descartar una explicación cómoda: que el tráfico social sea gente que solo viene a descargar recursos vía ManyChat y que la venta llegue después por correo. Los datos dicen que no. De las 2.712 sesiones sociales del trimestre, 1.140 aterrizan directamente en la ficha de la SPIRO Card y otras 500 en fichas o packs; solo unas 300 van a páginas de recurso. Y por el otro lado, las listas de Klaviyo que se alimentan desde ManyChat recibieron 59 personas en todo el trimestre, con tendencia a la baja desde julio. ManyChat es un afluente pequeño, no el río. El río son enlaces a producto abiertos dentro de Instagram.</p>
       <p>Clarity permite ir un paso más allá de la sospecha. Uno de cada cuatro visitantes entra por el navegador interno de Instagram o Facebook, no por Chrome ni Safari. Y dos de los cuatro errores de JavaScript más frecuentes de la tienda son fallos del puente entre la web y esas aplicaciones, uno en iPhone y otro en Android.</p>
     </div>
@@ -659,7 +660,25 @@ Errores JS (2.126 en total)
 17,2%  undefined is not an object
        (evaluating 'window.webkit.messageHandlers')   → iOS in-app
 14,4%  error invoking postmessage: java object is gone → Android in-app</div>
-        <p class="fix"><strong>Qué hacer:</strong> ver diez grabaciones de Clarity filtradas por navegador InstagramApp que lleguen al checkout. Se verá en qué paso exacto se rompe. Las soluciones habituales son dos, y no se excluyen: un aviso en la ficha que invite a abrir la web en el navegador del móvil, y revisar qué script provoca esos errores, porque un script que falla en el navegador interno puede estar bloqueando el pago en él.</p>
+        <p style="margin-top:6px"><strong style="color:var(--ink)">Lo que se ve en las grabaciones (rev. 3, 20 sep).</strong> Con acceso ya al proyecto de Clarity: en los últimos 30 días hay 17 sesiones desde la app de Instagram que añaden producto al carrito, y solo una que llega a pulsar "Finalizar compra". Once de las 17 vienen de anuncios de pago de Meta. Dos sesiones, una en iPhone y otra en Android, muestran el fallo en directo:</p>
+        <div class="evidence">iPhone · 29 ago · 68 min · 5 pestañas, cada una desde un anuncio distinto
+ 03:42  abre la FAQ "¿Qué diferencia hay entre Card y Card X?"
+ 06:27  clics de rabia sobre la foto "Spiro card x en bolsillo"
+ 06:30  "Añadir al carrito"
+ 06:41  pulsa "Pago Seguro · 167,00 €"  →  no pasa nada
+ 08:27  vuelve a Instagram y entra por OTRO anuncio
+ 14:09  abre otra vez "¿Qué diferencia a Spiro Card X?"
+ 1:07:03 pulsa "Pago Seguro · 150,30 €"  →  11 s después aparece /cart
+ 1:07:20 en /cart pulsa "Seguir comprando"
+ 1:08:18 pulsa "Pago Seguro · 231,30 €"  →  fin de la sesión
+
+Android · 6 sep · desde anuncio de Meta
+ 01:28:24 "Añadir al carrito"
+ 01:28:45 página oculta · error "Java object is gone"
+ 01:28:54 aparece otra ficha de producto, sin carrito
+          retroceso rápido, clic muerto, se va</div>
+        <p>En ninguna de las 17 sesiones aparece la pantalla de pago. El botón del cajón del carrito, "Pago Seguro", no navega a la primera dentro de Instagram. Cuando lo hace, lleva a la página de carrito en vez de al checkout, y ahí la persona toca "Seguir comprando". Los dos errores de JavaScript son ruido conocido del navegador de Meta y no rompen nada por sí solos; lo que rompe es el botón.</p>
+        <p class="fix"><strong>Qué hacer:</strong> reproducirlo en un iPhone y un Android reales desde un anuncio o desde la bio, con el cajón del carrito abierto, y pulsar "Pago Seguro". Revisar cómo el cajón de UpCart construye el enlace al checkout y probar que abra la URL de checkout directamente en vez de pasar por /cart. Mientras no esté arreglado, dirigir los anuncios de Meta a una página que invite a abrir en el navegador del móvil, o pausar las campañas que aterrizan en ficha de producto.</p>
       </div>
     </div>
   </section>
@@ -835,8 +854,7 @@ Proyecto vacío             →  l3m4x6biml   (clarity.microsoft.com, cuenta Mic
     </div>
     <ul class="acts" style="margin-top:8px">
       <li>El importe real del envío, porque exige introducir una dirección personal completa en el checkout. Lo que sí está verificado es que el dato no se publica en ningún sitio.</li>
-      <li>El paso exacto en que se rompe el pago dentro del navegador de Instagram. Clarity confirma que ese navegador es masivo y que produce errores; falta ver las grabaciones para saber dónde muere la compra.</li>
-      <li>Las grabaciones y mapas de calor de Clarity uno a uno. Las cifras agregadas salen del informe exportado del panel; la versión incrustada en Shopify no se puede manejar desde fuera. Vincular el proyecto a la cuenta de Microsoft lo resuelve.</li>
+      <li>La causa técnica exacta de por qué "Pago Seguro" no navega dentro de Instagram. Las grabaciones muestran el síntoma; la causa se localiza reproduciéndolo con las herramientas de desarrollo del móvil.</li>
       <li>La comparación directa con la web anterior en WordPress: Shopify solo conserva datos desde diciembre de 2025.</li>
       <li>Qué aplicación instala el script de origen desconocido. Se identifica entrando al panel de aplicaciones de Shopify.</li>
     </ul>
