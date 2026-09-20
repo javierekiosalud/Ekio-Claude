@@ -261,7 +261,7 @@
     </div>
     <p class="standfirst">De cada 100 personas que entran en la tienda, 4 cogen un producto y menos de 1 llega a pagarlo. Este estudio localiza exactamente en qué punto del recorrido se pierden, aplicando el modelo Rubicón.</p>
     <div class="meta">
-      <span>18 sep 2026 · rev. 3 del 20 sep</span>
+      <span>18 sep 2026 · rev. 4 del 20 sep</span>
       <span>Ventana: 90 días (21 jun – 18 sep)</span>
       <span>Fuentes: Shopify Analytics · Admin API · auditoría en vivo · Clarity (app Shopify) · Lighthouse/CrUX</span>
     </div>
@@ -786,6 +786,109 @@ Proyecto vacío             →  l3m4x6biml   (clarity.microsoft.com, cuenta Mic
     <p style="margin-top:20px;color:var(--ink-2);max-width:42rem">Un dato para reconciliar: Clarity cuenta 29.545 sesiones en once semanas y Shopify cuenta unas 11.000 en el mismo tramo. Shopify solo contabiliza las visitas que aceptan las cookies. Si la diferencia se debe a eso, la conversión real sobre el tráfico total sería bastante más baja que el 0,93% que figura en este estudio.</p>
   </section>
 
+  <!-- ============ 6b. CLARITY EN DETALLE ============ -->
+  <section>
+    <div class="sec-head">
+      <p class="eyebrow">Clarity · segunda pasada, 20 sep</p>
+      <h2>Lo que se ve al mirar página por página</h2>
+      <p class="lede">Con acceso completo al proyecto: mapa de clics y de scroll de la ficha más visitada, las 112 sesiones que tocan el carrito, y el origen del error de JavaScript más frecuente. Siete hallazgos nuevos, dos de ellos cambian cómo hay que leer los números de Shopify.</p>
+    </div>
+
+    <div class="findings">
+
+      <div class="find is-crit">
+        <div class="find-head">
+          <span class="find-id">F-23</span>
+          <span class="find-title">Cuatro de cada diez visitantes rechazan las cookies, y Shopify no los cuenta</span>
+          <span class="chip chip-crit">Medición</span>
+        </div>
+        <p>En la ficha de la SPIRO Card, el aviso de cookies es el segundo elemento más pulsado de toda la página, solo por detrás de la flecha de las fotos. De quienes responden, el 39% rechaza. Shopify solo contabiliza las sesiones que aceptan, y Meta y Klaviyo solo ven a quien acepta. Eso explica que Clarity cuente 29.545 sesiones donde Shopify cuenta 11.000, y que Meta atribuya compras que Shopify no ve. La conversión real sobre el tráfico total está más cerca del 0,6% que del 0,93%.</p>
+        <div class="evidence">Ficha SPIRO Card · 1.330 vistas · 30 días
+ Aceptar cookies    283 clics   (11,1% de todos los clics)
+ Rechazar cookies   181 clics   ( 7,1%)
+ → tasa de rechazo  39%</div>
+        <p class="fix"><strong>Qué hacer:</strong> asumir que Shopify ve el 60% del tráfico y leer sus tasas con ese sesgo. Revisar el texto y el diseño del aviso dentro de lo que permite la AEPD, y activar la medición del lado del servidor de Meta (CAPI) para no perder atribución con quien rechaza.</p>
+      </div>
+
+      <div class="find is-crit">
+        <div class="find-head">
+          <span class="find-id">F-24</span>
+          <span class="find-title">La mitad se va de la ficha antes de llegar al botón de comprar</span>
+          <span class="chip chip-crit">Orientación</span>
+        </div>
+        <p>El mapa de scroll de la SPIRO Card dice que el 35% abandona sin pasar del primer 10% de la página, y el 55% antes del 15%. En móvil, ese tramo es la galería de fotos y el título; el botón de añadir al carrito queda justo por debajo. Solo el 20% llega a la mitad de la ficha, y las reseñas, al final, las ven menos del 8%.</p>
+        <div class="evidence">Profundidad   visitantes que llegan
+   10%          65%
+   15%          45%
+   25%          33%
+   50%          20%
+   75%          11%
+   90%           3%</div>
+        <p class="fix"><strong>Qué hacer:</strong> acortar la galería en móvil, subir precio, botón, envío y garantía al primer 10% de la página, y llevar dos reseñas verificadas a esa misma zona. Todo lo que está por debajo del 25% es contenido para quien ya está convencido.</p>
+      </div>
+
+      <div class="find is-warn">
+        <div class="find-head">
+          <span class="find-id">F-25</span>
+          <span class="find-title">La gente toca las fotos para ampliarlas y no pasa nada</span>
+          <span class="chip chip-warn">Orientación</span>
+        </div>
+        <p>Las imágenes de producto de la ficha acumulan un centenar de toques en 30 días. Son clics muertos: la clase de la imagen indica que el zoom está desactivado. Es el mismo gesto que en la grabación del iPhone acabó en clics de rabia sobre la foto "Spiro card x en bolsillo". Además, el botón de aumentar cantidad recibe la mitad de los toques que el de añadir al carrito, y está pegado a él.</p>
+        <p class="fix"><strong>Qué hacer:</strong> activar el zoom al tocar en la galería, y separar visualmente el selector de cantidad del botón de compra.</p>
+      </div>
+
+      <div class="find is-warn">
+        <div class="find-head">
+          <span class="find-id">F-26</span>
+          <span class="find-title">Uno de cada cinco clics de la ficha es abrir un desplegable</span>
+          <span class="chip chip-warn">Orientación</span>
+        </div>
+        <p>Los iconos de desplegar acumulan cerca de 470 clics y las preguntas frecuentes unos 200 más. La gente está buscando respuestas concretas: si protege del 5G, si se puede llevar 24 horas, si afecta al Wi-Fi, si es eficaz, qué opinan otros clientes en España, si necesita batería. Todas están respondidas, pero plegadas y al fondo de la página, donde llega uno de cada cinco.</p>
+        <p class="fix"><strong>Qué hacer:</strong> las cinco respuestas más buscadas, en una línea cada una, visibles bajo el botón de compra. Sin desplegables.</p>
+      </div>
+
+      <div class="find is-warn">
+        <div class="find-head">
+          <span class="find-id">F-27</span>
+          <span class="find-title">Ochenta sesiones fantasma al mes entran en el carrito por una dirección de WordPress</span>
+          <span class="chip chip-warn">Orden</span>
+        </div>
+        <p>De las 112 sesiones que tocan la página de carrito en 30 días, unas 85 tienen el mismo patrón: entran por la dirección antigua "/carrito/", que redirige a "/cart", desde Chrome en Android, en España, sin un solo clic, a cualquier hora del día. No es una persona comprando. Esa dirección no está enlazada en la web ni en el correo de carrito abandonado de Klaviyo, así que viene de fuera. Contamina el recuento de "finalización de compra" de Clarity, que en realidad mide visitas al carrito.</p>
+        <div class="evidence">Patrón repetido ~85 veces / 30 días
+ Entrada  /cart   ·  Referente  /carrito/   ·  0 clics  ·  1 página
+ ChromeMobile · España · duraciones de 1 s a 37 min</div>
+        <p class="fix"><strong>Qué hacer:</strong> dos comprobaciones de un minuto. Si la app Ekio Coach tiene un botón de tienda o carrito, ver a qué dirección apunta. Y abrir el mensaje de WhatsApp del flujo de carrito abandonado de Klaviyo y mirar su enlace. Quien apunte a "/carrito/" es el origen.</p>
+      </div>
+
+      <div class="find is-warn">
+        <div class="find-head">
+          <span class="find-id">F-28</span>
+          <span class="find-title">El error de JavaScript más frecuente lo provoca la app de SEO</span>
+          <span class="chip chip-warn">Técnico</span>
+        </div>
+        <p>El 26% de los errores de la tienda son un script que intenta leer "@context" en bloques de datos estructurados y no lo encuentra. En la ficha de producto, la app SchemaPlus inyecta dos bloques sueltos, uno de envíos y otro de devoluciones, sin ese campo. Otro script los recorre y se rompe. El error salta sobre todo en Safari y iPhone.</p>
+        <div class="evidence">&lt;script type="application/ld+json" class="schemaplus-schema"&gt;
+  { "shippingDetails": [ … ] }            ← sin "@context"
+  { "hasMerchantReturnPolicy": [ … ] }    ← sin "@context"
+
+Dato de paso: ese bloque de envíos declara coste 0 €.
+El envío es gratis y la web no se lo dice al cliente.</div>
+        <p class="fix"><strong>Qué hacer:</strong> en SchemaPlus, desactivar los bloques independientes de envío y devolución o anidarlos dentro del bloque de producto. Y aprovechar el dato: si el envío es gratis, decirlo en ficha, carrito y checkout.</p>
+      </div>
+
+      <div class="find is-low">
+        <div class="find-head">
+          <span class="find-id">F-29</span>
+          <span class="find-title">Tres cosas más que salen de las grabaciones del carrito</span>
+          <span class="chip chip-low">Varios</span>
+        </div>
+        <p>Una persona llega desde un correo de Klaviyo, añade la SPIRO Card, entra en el carrito y busca "puntos" en el buscador durante once minutos. No compra. Es el aviso de fidelización del carrito haciendo exactamente el daño descrito en F-13. Varias sesiones vuelven del checkout al carrito con un parámetro que indica que se saltó Shop Pay, y se van: es el abandono de checkout visto desde el lado de la tienda. Y el flujo de carrito abandonado de Klaviyo comprueba si la persona compró mirando el pedido de WooCommerce, no el de Shopify, así que sigue escribiendo a gente que ya ha pagado.</p>
+        <p class="fix"><strong>Qué hacer:</strong> quitar el aviso de puntos del carrito. En Klaviyo, cambiar la condición de salida del flujo a "Placed Order" de Shopify.</p>
+      </div>
+
+    </div>
+  </section>
+
   <!-- ============ 7. MIGRACIÓN ============ -->
   <section>
     <div class="sec-head">
@@ -817,6 +920,8 @@ Proyecto vacío             →  l3m4x6biml   (clarity.microsoft.com, cuenta Mic
         <li><strong>Reordenar el widget de reseñas</strong> para que no abra con la crítica. <span class="mono">F-02</span></li>
         <li><strong>Ver diez grabaciones desde InstagramApp</strong> que lleguen al checkout, y diez de retroceso rápido desde social. <span class="mono">F-17 · F-19</span></li>
         <li><strong>Crear el embudo en Clarity</strong> ficha → carrito → checkout, y excluir el tráfico del equipo. <span class="mono">F-22</span></li>
+        <li><strong>Decir que el envío es gratis</strong> en ficha, carrito y checkout. Ya lo es. <span class="mono">F-28</span></li>
+        <li><strong>Corregir la condición de salida</strong> del flujo de carrito abandonado en Klaviyo. <span class="mono">F-29</span></li>
         <li><strong>Probar el pago desde un enlace de Instagram</strong> en un iPhone y en un Android reales, hasta el final. <span class="mono">F-17</span></li>
       </ul>
     </div>
@@ -830,6 +935,7 @@ Proyecto vacío             →  l3m4x6biml   (clarity.microsoft.com, cuenta Mic
       <ul class="acts">
         <li><strong>Umbral de envío gratis</strong> definido, comunicado en ficha y carrito, y calculadora de envío en el carrito. <span class="mono">F-12</span></li>
         <li><strong>Tabla comparativa SPIRO Card contra Card X</strong> visible en ambas fichas. <span class="mono">F-06</span></li>
+        <li><strong>Reordenar la ficha en móvil:</strong> galería corta, botón y garantía en el primer 10%, cinco respuestas visibles, zoom activo. <span class="mono">F-24 · F-25 · F-26</span></li>
         <li><strong>Bloque de entrega y garantía</strong> bajo el botón de compra en todas las fichas. <span class="mono">F-16</span></li>
         <li><strong>Cuota de seQura</strong> bajo el precio en productos de más de 300 €. <span class="mono">F-15</span></li>
         <li><strong>Reseñas filtradas por producto</strong> y flujo automático de petición tras la entrega. <span class="mono">F-03 · F-04</span></li>
@@ -860,7 +966,8 @@ Proyecto vacío             →  l3m4x6biml   (clarity.microsoft.com, cuenta Mic
         <li><strong>Identificar el script de origen desconocido</strong> y retirar la herramienta de desarrollo de producción. <span class="mono">F-10</span></li>
         <li><strong>Retrasar la carga</strong> del programa de puntos, el chat y los widgets de financiación a después del pintado. <span class="mono">F-09</span></li>
         <li><strong>Priorizar la imagen principal</strong> de la ficha de producto. Quince minutos de trabajo, el mejor retorno por esfuerzo de esta tanda.</li>
-        <li><strong>Localizar el script que provoca los errores</strong> del navegador interno y el que falla leyendo los datos estructurados, que es el error más frecuente de todos con un 26%. <span class="mono">F-17</span></li>
+        <li><strong>Arreglar los bloques de SchemaPlus</strong> sin "@context", origen del 26% de los errores. <span class="mono">F-28</span></li>
+        <li><strong>Activar Meta CAPI</strong> para recuperar la atribución del 39% que rechaza cookies. <span class="mono">F-23</span></li>
       </ul>
     </div>
   </section>
@@ -875,6 +982,8 @@ Proyecto vacío             →  l3m4x6biml   (clarity.microsoft.com, cuenta Mic
       <li>La causa técnica exacta de por qué "Pago Seguro" no navega dentro de Instagram. Las grabaciones muestran el síntoma; la causa se localiza reproduciéndolo con las herramientas de desarrollo del móvil.</li>
       <li>La comparación directa con la web anterior en WordPress: Shopify solo conserva datos desde diciembre de 2025.</li>
       <li>Qué aplicación instala el script de origen desconocido. Se identifica entrando al panel de aplicaciones de Shopify.</li>
+      <li>El origen de las sesiones fantasma por "/carrito/". Descartados la web y el correo de Klaviyo; quedan la app Ekio Coach y el mensaje de WhatsApp.</li>
+      <li>El desglose de los 651 retrocesos rápidos por página de entrada. Clarity lo permite; queda para la siguiente pasada.</li>
     </ul>
   </section>
 
