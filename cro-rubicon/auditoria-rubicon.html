@@ -597,6 +597,23 @@ Instrucción →  "Ingresa tu código postal para ver el coste del envío
         <p class="fix"><strong>Qué hacer:</strong> mostrar la cuota mensual bajo el precio en las fichas de más de 300 €, con el widget de seQura que ya está cargado en la web.</p>
       </div>
 
+      <div class="find is-crit">
+        <div class="find-head">
+          <span class="find-id">F-16b</span>
+          <span class="find-title">El botón de pago del cajón es un enlace generado, no el botón de Shopify</span>
+          <span class="chip chip-crit">Crítico</span>
+        </div>
+        <p>El cajón que se abre al añadir al carrito es de la app UpCart. Su botón "Pago Seguro" es un enlace a una dirección de checkout que la app pide a Shopify cada vez que el carrito cambia. El botón estándar de Shopify, "Pagar pedido", sigue en el cajón pero oculto. Si la petición del enlace tarda o falla, y dentro de la app de Instagram falla con frecuencia, la persona pulsa sobre un enlace vacío o caducado. Es lo que muestra la grabación del iPhone del 29 de agosto: primer toque sin respuesta, segundo toque que cae en la página de carrito.</p>
+        <div class="evidence">Botón visible (UpCart)   →  &lt;a href="/cart/c/&lt;token&gt;?key=…"&gt;  Pago Seguro
+Botón oculto (Shopify)   →  &lt;button type="submit" name="checkout"&gt;  Pagar pedido
+
+También en el cajón:
+ "Garantizamos tu pedido por 09:38 minutos · Productos de Alta Demanda"
+ "Envío Gratuito"   (el carrito y el checkout no lo confirman)
+ "MÁS DE 5.000 CLIENTES SATISFECHOS"   (la portada dice +7.000 hogares)</div>
+        <p class="fix"><strong>Qué hacer:</strong> en los ajustes de UpCart, hacer que el botón vaya directo al checkout; si no hay opción, desactivar UpCart dos semanas y usar el cajón del tema, y comparar cuántas sesiones desde Instagram llegan al pago. Quitar el contador de urgencia. Unificar el mensaje de envío y la cifra de clientes en todas las pantallas.</p>
+      </div>
+
       <div class="find is-low">
         <div class="find-head">
           <span class="find-id">F-16</span>
@@ -796,6 +813,7 @@ Proyecto vacío             →  l3m4x6biml   (clarity.microsoft.com, cuenta Mic
       <ul class="acts">
         <li><strong>Publicar la política de envíos</strong> y enlazarla desde pie, ficha, carrito y checkout. <span class="mono">F-11</span></li>
         <li><strong>Quitar del carrito el aviso de puntos</strong> que aparece sobre el botón de pago. <span class="mono">F-13</span></li>
+        <li><strong>Botón de pago del cajón directo al checkout</strong>, o desactivar UpCart dos semanas y comparar. Quitar el contador de urgencia. <span class="mono">F-16b</span></li>
         <li><strong>Reordenar el widget de reseñas</strong> para que no abra con la crítica. <span class="mono">F-02</span></li>
         <li><strong>Ver diez grabaciones desde InstagramApp</strong> que lleguen al checkout, y diez de retroceso rápido desde social. <span class="mono">F-17 · F-19</span></li>
         <li><strong>Crear el embudo en Clarity</strong> ficha → carrito → checkout, y excluir el tráfico del equipo. <span class="mono">F-22</span></li>
