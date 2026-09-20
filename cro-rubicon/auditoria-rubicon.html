@@ -261,7 +261,7 @@
     </div>
     <p class="standfirst">De cada 100 personas que entran en la tienda, 4 cogen un producto y menos de 1 llega a pagarlo. Este estudio localiza exactamente en qué punto del recorrido se pierden, aplicando el modelo Rubicón.</p>
     <div class="meta">
-      <span>18 sep 2026 · rev. 20 sep</span>
+      <span>18 sep 2026 · rev. 2 del 20 sep</span>
       <span>Ventana: 90 días (21 jun – 18 sep)</span>
       <span>Fuentes: Shopify Analytics · Admin API · auditoría en vivo · Clarity (app Shopify) · Lighthouse/CrUX</span>
     </div>
@@ -491,7 +491,7 @@ se cayó, no me di cuenta de ello y la perdí."</div>
     <div class="findings" style="margin-top:22px">
       <div class="find is-crit">
         <div class="find-head">
-          <span class="find-id">F-18</span>
+          <span class="find-id">F-08</span>
           <span class="find-title">Un script de Shopify consume tres segundos y medio solo en la portada</span>
           <span class="chip chip-crit">Crítico</span>
         </div>
@@ -501,7 +501,7 @@ se cayó, no me di cuenta de ello y la perdí."</div>
 
       <div class="find is-crit">
         <div class="find-head">
-          <span class="find-id">F-19</span>
+          <span class="find-id">F-09</span>
           <span class="find-title">El programa de puntos cuesta dos veces</span>
           <span class="chip chip-crit">Conveniencia</span>
         </div>
@@ -511,7 +511,7 @@ se cayó, no me di cuenta de ello y la perdí."</div>
 
       <div class="find is-crit">
         <div class="find-head">
-          <span class="find-id">F-20</span>
+          <span class="find-id">F-10</span>
           <span class="find-title">Hay un script de origen desconocido en todas las páginas</span>
           <span class="chip chip-crit">Seguridad</span>
         </div>
@@ -538,7 +538,7 @@ También en producción   →  Sentry (herramienta de desarrollo) ·  255 ms
 
       <div class="find is-crit">
         <div class="find-head">
-          <span class="find-id">F-08</span>
+          <span class="find-id">F-11</span>
           <span class="find-title">No existe página de política de envíos</span>
           <span class="chip chip-crit">Crítico</span>
         </div>
@@ -555,7 +555,7 @@ API · shop.shopPolicies            →  CONTACT_INFORMATION
 
       <div class="find is-crit">
         <div class="find-head">
-          <span class="find-id">F-09</span>
+          <span class="find-id">F-12</span>
           <span class="find-title">El coste de envío no aparece hasta escribir la dirección completa</span>
           <span class="chip chip-crit">Crítico</span>
         </div>
@@ -569,7 +569,7 @@ Instrucción →  "Ingresa tu código postal para ver el coste del envío
 
       <div class="find is-crit">
         <div class="find-head">
-          <span class="find-id">F-10</span>
+          <span class="find-id">F-13</span>
           <span class="find-title">El carrito interrumpe el pago con una invitación a registrarse</span>
           <span class="chip chip-crit">Conveniencia</span>
         </div>
@@ -579,7 +579,7 @@ Instrucción →  "Ingresa tu código postal para ver el coste del envío
 
       <div class="find is-warn">
         <div class="find-head">
-          <span class="find-id">F-11</span>
+          <span class="find-id">F-14</span>
           <span class="find-title">La imagen del producto no carga en el carrito</span>
           <span class="chip chip-warn">Seguridad</span>
         </div>
@@ -589,7 +589,7 @@ Instrucción →  "Ingresa tu código postal para ver el coste del envío
 
       <div class="find is-warn">
         <div class="find-head">
-          <span class="find-id">F-12</span>
+          <span class="find-id">F-15</span>
           <span class="find-title">El pago aplazado solo se descubre dentro del checkout</span>
           <span class="chip chip-warn">Precio</span>
         </div>
@@ -599,7 +599,7 @@ Instrucción →  "Ingresa tu código postal para ver el coste del envío
 
       <div class="find is-low">
         <div class="find-head">
-          <span class="find-id">F-13</span>
+          <span class="find-id">F-16</span>
           <span class="find-title">La ficha no dice cuándo llega el pedido</span>
           <span class="chip chip-low">Conveniencia</span>
         </div>
@@ -636,7 +636,30 @@ Instrucción →  "Ingresa tu código postal para ver el coste del envío
     <div class="callout">
       <h3>Por qué esto no es un problema de contenido</h3>
       <p>En los 90 últimos días, el tráfico social sumó 2.874 sesiones, 80 personas añadieron producto al carrito y 36 abrieron la pantalla de pago. De esas 36, compró una. Un 2,8% de finalización frente al 43% del tráfico de búsqueda. Que la gente llegue hasta el pago y ahí se caiga casi en bloque no es falta de interés: apunta a que algo se rompe técnicamente en ese recorrido.</p>
-      <p>La hipótesis principal es el navegador interno de Instagram y Facebook, que rompe con frecuencia los pagos acelerados tipo Shop Pay y las pasarelas que abren ventana. No lo puedo confirmar desde aquí, y se confirma o se descarta en una tarde: abrir la tienda desde un enlace de Instagram en un móvil real y llegar hasta el final del pago.</p>
+      <p>Clarity permite ir un paso más allá de la sospecha. Uno de cada cuatro visitantes entra por el navegador interno de Instagram o Facebook, no por Chrome ni Safari. Y dos de los cuatro errores de JavaScript más frecuentes de la tienda son fallos del puente entre la web y esas aplicaciones, uno en iPhone y otro en Android.</p>
+    </div>
+
+    <div class="findings" style="margin-top:22px">
+      <div class="find is-crit">
+        <div class="find-head">
+          <span class="find-id">F-17</span>
+          <span class="find-title">El navegador de Instagram es el segundo más usado y está fallando</span>
+          <span class="chip chip-crit">Crítico</span>
+        </div>
+        <p>Clarity registra 5.996 sesiones desde la aplicación de Instagram y 837 desde la de Facebook: el 23% del tráfico total, más que Safari. Al mismo tiempo, casi un tercio de los 2.126 errores de JavaScript de la tienda son fallos del canal de comunicación que esas aplicaciones abren entre la web y el sistema del móvil. En iPhone el error habla del puente de WebKit; en Android dice literalmente que "el objeto Java ha desaparecido". Son las dos firmas conocidas de un script que intenta hablar con el navegador nativo y se encuentra dentro de una aplicación que no lo es.</p>
+        <div class="evidence">Navegador                 sesiones     cuota
+ChromeMobile               9.521     32,2%
+InstagramApp               5.996     20,3%   ← navegador interno
+MobileSafari               5.465     18,5%
+Chrome (escritorio)        4.685     15,9%
+FacebookApp                  837      2,8%   ← navegador interno
+
+Errores JS (2.126 en total)
+17,2%  undefined is not an object
+       (evaluating 'window.webkit.messageHandlers')   → iOS in-app
+14,4%  error invoking postmessage: java object is gone → Android in-app</div>
+        <p class="fix"><strong>Qué hacer:</strong> ver diez grabaciones de Clarity filtradas por navegador InstagramApp que lleguen al checkout. Se verá en qué paso exacto se rompe. Las soluciones habituales son dos, y no se excluyen: un aviso en la ficha que invite a abrir la web en el navegador del móvil, y revisar qué script provoca esos errores, porque un script que falla en el navegador interno puede estar bloqueando el pago en él.</p>
+      </div>
     </div>
   </section>
 
@@ -660,7 +683,7 @@ Instrucción →  "Ingresa tu código postal para ver el coste del envío
 
       <div class="find is-crit">
         <div class="find-head">
-          <span class="find-id">F-14</span>
+          <span class="find-id">F-18</span>
           <span class="find-title">Toda la confianza está por debajo de donde la gente deja de leer</span>
           <span class="chip chip-crit">Confianza</span>
         </div>
@@ -670,7 +693,7 @@ Instrucción →  "Ingresa tu código postal para ver el coste del envío
 
       <div class="find is-crit">
         <div class="find-head">
-          <span class="find-id">F-15</span>
+          <span class="find-id">F-19</span>
           <span class="find-title">Uno de cada catorce visitantes rebota en cuanto aterriza</span>
           <span class="chip chip-crit">Relevancia</span>
         </div>
@@ -684,7 +707,7 @@ Scroll excesivo      →  0,01%   ·      4 sesiones</div>
 
       <div class="find is-warn">
         <div class="find-head">
-          <span class="find-id">F-16</span>
+          <span class="find-id">F-20</span>
           <span class="find-title">1.640 sesiones tocaron algo que no respondió</span>
           <span class="chip chip-warn">Orientación</span>
         </div>
@@ -692,16 +715,33 @@ Scroll excesivo      →  0,01%   ·      4 sesiones</div>
         <p class="fix"><strong>Qué hacer:</strong> abrir el mapa de calor de clics de la portada y de la ficha de la SPIRO Card X, y localizar qué elementos concentran los clics fallidos. Si son imágenes de producto, hacerlas enlazables. Si es el botón de comprar, es el problema de velocidad.</p>
       </div>
 
+      <div class="find is-warn">
+        <div class="find-head">
+          <span class="find-id">F-21</span>
+          <span class="find-title">La página más visitada de la tienda no es la portada</span>
+          <span class="chip chip-warn">Orientación</span>
+        </div>
+        <p>La ficha de la SPIRO Card, la de 97 €, recibe más visitas que la portada. Es la puerta de entrada real de la tienda, y con ella la de la SPIRO Card X, que con un tercio de las visitas vende casi las mismas unidades. Esto refuerza el hallazgo F-06: la comparación entre las dos tarjetas no es un detalle de ficha, es la decisión que más gente toma en toda la web, y hoy está plegada dentro de un acordeón.</p>
+        <div class="evidence">Páginas más vistas (1 jul – 20 sep)
+/products/spiro-card-proteccion-electromagnetica    4.753
+/                                                   4.385
+/collections/spiro-filtros-electromagneticos        4.192
+/products/pack-proteccion-personal                  2.698
+/collections/productos-luz-roja                     2.131
+/products/spiro-card-x                              1.747</div>
+        <p class="fix"><strong>Qué hacer:</strong> tratar la ficha de la SPIRO Card como si fuera la portada: prueba social arriba, tabla comparativa con la Card X, envío y garantía bajo el botón. Y revisar el rendimiento de esa página en concreto, porque Clarity mide en campo una interacción de 210 ms, ya por encima del umbral que Google considera bueno.</p>
+      </div>
+
       <div class="find is-low">
         <div class="find-head">
-          <span class="find-id">F-17</span>
-          <span class="find-title">Hay un segundo proyecto de Clarity vacío que confunde</span>
+          <span class="find-id">F-22</span>
+          <span class="find-title">Tres cosas de orden en Clarity</span>
           <span class="chip chip-low">Orden</span>
         </div>
-        <p>La web alimenta el proyecto creado por la aplicación de Shopify. Además existe otro proyecto, "electrosmogespana", creado a mano en una cuenta de Microsoft, que no recibe datos y muestra una sesión en 30 días. Quien entre por clarity.microsoft.com con esa cuenta verá la tienda vacía y sacará conclusiones equivocadas, como me pasó a mí en la primera versión de este documento.</p>
+        <p>Los embudos de Clarity no están configurados, así que no se puede ver el recorrido paso a paso ni filtrar grabaciones por "llegó al checkout y no compró". Hay 330 sesiones que entran desde el panel de administración de Shopify, es decir, del propio equipo, y contaminan las cifras. Y existe un segundo proyecto, "electrosmogespana", creado a mano en una cuenta de Microsoft, que no recibe datos y muestra una sesión en 30 días: quien entre por clarity.microsoft.com con esa cuenta verá la tienda vacía y sacará conclusiones equivocadas, como me pasó a mí en la primera versión de este documento.</p>
         <div class="evidence">Proyecto que recibe datos  →  w9l4aagzvs   (app de Shopify, se consulta en Admin → Apps)
 Proyecto vacío             →  l3m4x6biml   (clarity.microsoft.com, cuenta Microsoft)</div>
-        <p class="fix"><strong>Qué hacer:</strong> desde la app de Clarity en Shopify, en el menú de la esquina superior derecha, vincular el proyecto a la cuenta de Microsoft. Así aparece también en clarity.microsoft.com, con todas las funciones de filtrado y exportación que la versión incrustada no tiene. Después, borrar el proyecto vacío.</p>
+        <p class="fix"><strong>Qué hacer:</strong> crear un embudo con tres pasos, ficha de producto, carrito y checkout. Excluir el tráfico de administración con un filtro de IP o de referencia. Vincular el proyecto a la cuenta de Microsoft desde el menú de la app para tenerlo también en clarity.microsoft.com, y borrar el proyecto vacío.</p>
       </div>
 
     </div>
@@ -734,11 +774,12 @@ Proyecto vacío             →  l3m4x6biml   (clarity.microsoft.com, cuenta Mic
         <span class="wave-when">esta semana</span>
       </div>
       <ul class="acts">
-        <li><strong>Publicar la política de envíos</strong> y enlazarla desde pie, ficha, carrito y checkout. <span class="mono">F-08</span></li>
-        <li><strong>Quitar del carrito el aviso de puntos</strong> que aparece sobre el botón de pago. <span class="mono">F-10</span></li>
+        <li><strong>Publicar la política de envíos</strong> y enlazarla desde pie, ficha, carrito y checkout. <span class="mono">F-11</span></li>
+        <li><strong>Quitar del carrito el aviso de puntos</strong> que aparece sobre el botón de pago. <span class="mono">F-13</span></li>
         <li><strong>Reordenar el widget de reseñas</strong> para que no abra con la crítica. <span class="mono">F-02</span></li>
-        <li><strong>Ver diez grabaciones de retroceso rápido</strong> desde social en Clarity, y el mapa de clics de la portada. <span class="mono">F-15 · F-16</span></li>
-        <li><strong>Probar el pago desde un enlace de Instagram</strong> en un móvil real, hasta el final. <span class="mono">Social</span></li>
+        <li><strong>Ver diez grabaciones desde InstagramApp</strong> que lleguen al checkout, y diez de retroceso rápido desde social. <span class="mono">F-17 · F-19</span></li>
+        <li><strong>Crear el embudo en Clarity</strong> ficha → carrito → checkout, y excluir el tráfico del equipo. <span class="mono">F-22</span></li>
+        <li><strong>Probar el pago desde un enlace de Instagram</strong> en un iPhone y en un Android reales, hasta el final. <span class="mono">F-17</span></li>
       </ul>
     </div>
 
@@ -749,10 +790,10 @@ Proyecto vacío             →  l3m4x6biml   (clarity.microsoft.com, cuenta Mic
         <span class="wave-when">2 a 4 semanas</span>
       </div>
       <ul class="acts">
-        <li><strong>Umbral de envío gratis</strong> definido, comunicado en ficha y carrito, y calculadora de envío en el carrito. <span class="mono">F-09</span></li>
+        <li><strong>Umbral de envío gratis</strong> definido, comunicado en ficha y carrito, y calculadora de envío en el carrito. <span class="mono">F-12</span></li>
         <li><strong>Tabla comparativa SPIRO Card contra Card X</strong> visible en ambas fichas. <span class="mono">F-06</span></li>
-        <li><strong>Bloque de entrega y garantía</strong> bajo el botón de compra en todas las fichas. <span class="mono">F-13</span></li>
-        <li><strong>Cuota de seQura</strong> bajo el precio en productos de más de 300 €. <span class="mono">F-12</span></li>
+        <li><strong>Bloque de entrega y garantía</strong> bajo el botón de compra en todas las fichas. <span class="mono">F-16</span></li>
+        <li><strong>Cuota de seQura</strong> bajo el precio en productos de más de 300 €. <span class="mono">F-15</span></li>
         <li><strong>Reseñas filtradas por producto</strong> y flujo automático de petición tras la entrega. <span class="mono">F-03 · F-04</span></li>
       </ul>
     </div>
@@ -777,10 +818,11 @@ Proyecto vacío             →  l3m4x6biml   (clarity.microsoft.com, cuenta Mic
         <span class="wave-when">en paralelo, equipo técnico</span>
       </div>
       <ul class="acts">
-        <li><strong>Diagnosticar el script que bloquea la portada</strong> antes de tocar nada más de rendimiento. <span class="mono">F-18</span></li>
-        <li><strong>Identificar el script de origen desconocido</strong> y retirar la herramienta de desarrollo de producción. <span class="mono">F-20</span></li>
-        <li><strong>Retrasar la carga</strong> del programa de puntos, el chat y los widgets de financiación a después del pintado. <span class="mono">F-19</span></li>
+        <li><strong>Diagnosticar el script que bloquea la portada</strong> antes de tocar nada más de rendimiento. <span class="mono">F-08</span></li>
+        <li><strong>Identificar el script de origen desconocido</strong> y retirar la herramienta de desarrollo de producción. <span class="mono">F-10</span></li>
+        <li><strong>Retrasar la carga</strong> del programa de puntos, el chat y los widgets de financiación a después del pintado. <span class="mono">F-09</span></li>
         <li><strong>Priorizar la imagen principal</strong> de la ficha de producto. Quince minutos de trabajo, el mejor retorno por esfuerzo de esta tanda.</li>
+        <li><strong>Localizar el script que provoca los errores</strong> del navegador interno y el que falla leyendo los datos estructurados, que es el error más frecuente de todos con un 26%. <span class="mono">F-17</span></li>
       </ul>
     </div>
   </section>
@@ -792,8 +834,8 @@ Proyecto vacío             →  l3m4x6biml   (clarity.microsoft.com, cuenta Mic
     </div>
     <ul class="acts" style="margin-top:8px">
       <li>El importe real del envío, porque exige introducir una dirección personal completa en el checkout. Lo que sí está verificado es que el dato no se publica en ningún sitio.</li>
-      <li>La rotura del pago en el navegador interno de Instagram. Es la hipótesis que mejor encaja con los números, no un hecho comprobado.</li>
-      <li>Las grabaciones y mapas de calor de Clarity uno a uno. La versión incrustada en Shopify no se puede manejar desde fuera; las cifras agregadas sí están verificadas. Vincular el proyecto a la cuenta de Microsoft resuelve esto.</li>
+      <li>El paso exacto en que se rompe el pago dentro del navegador de Instagram. Clarity confirma que ese navegador es masivo y que produce errores; falta ver las grabaciones para saber dónde muere la compra.</li>
+      <li>Las grabaciones y mapas de calor de Clarity uno a uno. Las cifras agregadas salen del informe exportado del panel; la versión incrustada en Shopify no se puede manejar desde fuera. Vincular el proyecto a la cuenta de Microsoft lo resuelve.</li>
       <li>La comparación directa con la web anterior en WordPress: Shopify solo conserva datos desde diciembre de 2025.</li>
       <li>Qué aplicación instala el script de origen desconocido. Se identifica entrando al panel de aplicaciones de Shopify.</li>
     </ul>
