@@ -45,6 +45,33 @@ reproche: es la trazabilidad que hace que el veto tenga valor.
 - **Motivo**:
 ```
 
+```
+### DIS-001
+- **Fecha**: 2026-09-27
+- **Afirmación en disputa**: uso en marketing (campaña de email de la semana siguiente,
+  producto SPIRO para vehículos) de los dos whitepapers de J. Joaquín Machado L. ("Vehículos
+  Modernos y Cuerpo Humano", Partes 1 y 2, joaquinmachado.com, abr/jul 2026) con sus cifras
+  literales: "neutralización del 61,95% de la actividad electromagnética caótica" (medida por
+  bioelectrografía GDV/BioWell, no por instrumento físico estándar de RF/campo), el "Índice
+  AQN" (métrica propia de Machado, sin validación independiente, calibrada con un solo
+  vehículo) y la tabla derivada de "Potencia SPIRO"/kit recomendado por 22 modelos de coche
+  (ninguno medido instrumentalmente salvo el Tesla Model Y).
+- **Posición de Heruca (análisis de Claude, sin convocar a los agentes del departamento)**:
+  nivel [E] — fuente 100% del fabricante (Machado es cofundador/inventor de SPIRO); publicado
+  en revista de bajísimo factor de impacto (Journal of Applied Biotechnology and
+  Bioengineering); método de resultado (bioelectrografía) sin aceptación en biofísica
+  convencional, ya catalogado como "generador de hipótesis internas, nunca evidencia" en
+  `investigacion/emf-infantil-vuelta-al-cole-spiro/02-informe-spiro.md`; el "Índice AQN" y las
+  22 tablas por modelo son inferencia arquitectónica no verificada, el propio documento lo
+  admite explícitamente. Choca con el veto cautelar ya abierto en HD-001 sobre lenguaje de
+  "reducción" en material SPIRO.
+- **Decisión de Javier**: usar el contenido tal cual, con sus cifras y el Índice AQN, para la
+  campaña de email de la semana del 28 sep-4 oct sobre SPIRO y vehículos.
+- **Motivo**: decisión comercial de Javier: quiere aprovechar el material del propio
+  inventor/socio tecnológico tal como está publicado. No se registró justificación adicional
+  más allá de la decisión de uso.
+```
+
 ---
 
 ## Hallazgos de auditoría (control de deriva)
