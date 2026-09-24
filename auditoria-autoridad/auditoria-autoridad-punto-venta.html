@@ -1,0 +1,385 @@
+<title>Autoridad en punto de venta</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  --ground:#F3F5F4; --surface:#FFFFFF; --ink:#16201E; --muted:#56635F; --line:#D6DEDB;
+  --accent:#0E5C63; --accent-soft:#E1EEEE;
+  --ok:#2F7A4B; --ok-bg:#E3F1E7; --weak:#9A600E; --weak-bg:#FBF0DC;
+  --absent:#AE3329; --absent-bg:#FBE6E3; --risk:#6A3FA3; --risk-bg:#EFE7FA;
+  --display:"Archivo","Helvetica Neue",Arial,sans-serif;
+  --body:"Source Serif 4",Georgia,"Times New Roman",serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --ground:#0F1514; --surface:#162020; --ink:#E4EBE9; --muted:#9BA9A5; --line:#2A3735;
+    --accent:#62B6BB; --accent-soft:#17312F;
+    --ok:#72C592; --ok-bg:#16301F; --weak:#E3AC52; --weak-bg:#34270F;
+    --absent:#F08378; --absent-bg:#3A1A17; --risk:#BA9CEB; --risk-bg:#2A1F3D;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --ground:#0F1514; --surface:#162020; --ink:#E4EBE9; --muted:#9BA9A5; --line:#2A3735;
+  --accent:#62B6BB; --accent-soft:#17312F;
+  --ok:#72C592; --ok-bg:#16301F; --weak:#E3AC52; --weak-bg:#34270F;
+  --absent:#F08378; --absent-bg:#3A1A17; --risk:#BA9CEB; --risk-bg:#2A1F3D;
+}
+*{box-sizing:border-box}
+body{background:var(--ground);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.6;padding-inline:20px;padding-block:0 64px}
+.wrap{max-width:980px;margin:0 auto}
+.prose{max-width:68ch}
+h1,h2,h3,h4{font-family:var(--display);line-height:1.15;text-wrap:balance;margin:0}
+h1{font-size:clamp(30px,5vw,46px);font-weight:800;letter-spacing:-.01em}
+h2{font-size:clamp(23px,3.2vw,30px);font-weight:700;margin-bottom:14px}
+h3{font-size:19px;font-weight:700}
+p{margin:0 0 12px}
+a{color:var(--accent)}
+.eyebrow{font-family:var(--display);font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--accent)}
+.mono{font-family:var(--mono);font-size:.86em}
+header.top{padding-block:44px 28px;border-bottom:1px solid var(--line);display:grid;gap:14px}
+.meta{font-family:var(--mono);font-size:13px;color:var(--muted);display:flex;flex-wrap:wrap;gap:6px 18px}
+section{padding-block:40px 8px}
+.lede{font-size:20px;line-height:1.5}
+.verdict{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:22px 24px;display:grid;gap:10px;margin-top:18px}
+.verdict ol{margin:0;padding-left:22px;display:grid;gap:8px}
+.figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-top:20px}
+.fig{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:14px 16px}
+.fig b{display:block;font-family:var(--display);font-size:28px;font-weight:800;font-variant-numeric:tabular-nums}
+.fig span{font-size:14px;color:var(--muted);line-height:1.4;display:block}
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:6px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;font-size:14.5px;line-height:1.45}
+th,td{text-align:left;vertical-align:top;padding:10px 12px;border-bottom:1px solid var(--line)}
+th{font-family:var(--display);font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);background:var(--surface);position:sticky;top:0}
+td.num{font-family:var(--mono);font-variant-numeric:tabular-nums;white-space:nowrap}
+tr:last-child td{border-bottom:0}
+.chip{display:inline-block;font-family:var(--display);font-size:11.5px;font-weight:700;letter-spacing:.04em;padding:2px 8px;border-radius:3px;white-space:nowrap}
+.s-ok{color:var(--ok);background:var(--ok-bg)}
+.s-weak{color:var(--weak);background:var(--weak-bg)}
+.s-absent{color:var(--absent);background:var(--absent-bg)}
+.s-risk{color:var(--risk);background:var(--risk-bg)}
+.p{font-family:var(--mono);font-size:12.5px;font-weight:500;white-space:nowrap}
+.legend{display:flex;flex-wrap:wrap;gap:8px 16px;font-size:14px;color:var(--muted);margin:10px 0 14px;align-items:center}
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px}
+.filters button{font-family:var(--display);font-size:13px;font-weight:600;border:1px solid var(--line);background:var(--surface);color:var(--ink);padding:6px 12px;border-radius:999px;cursor:pointer}
+.filters button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--ground)}
+.filters button:focus-visible,.copy:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+td.page{font-family:var(--display);font-weight:600;font-size:13.5px;white-space:nowrap}
+.change{border-top:2px solid var(--ink);padding-top:18px;margin-top:30px;display:grid;gap:12px}
+.change-head{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 16px;align-items:baseline}
+.change-head .rank{font-family:var(--mono);font-size:13px;color:var(--muted)}
+.tags{display:flex;flex-wrap:wrap;gap:6px}
+.tag{font-family:var(--mono);font-size:12px;border:1px solid var(--line);border-radius:3px;padding:1px 7px;color:var(--muted)}
+.copyblock{position:relative;background:var(--accent-soft);border-radius:6px;padding:18px 20px 16px;font-family:var(--body);white-space:pre-wrap;font-size:15.5px;line-height:1.55}
+.copyblock .label{display:block;font-family:var(--display);font-size:11.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);margin-bottom:8px}
+.copy{position:absolute;top:12px;right:12px;font-family:var(--display);font-size:12px;font-weight:600;border:1px solid var(--accent);background:var(--surface);color:var(--accent);padding:4px 10px;border-radius:4px;cursor:pointer}
+.note{font-size:15px;color:var(--muted);border-left:3px solid var(--line);padding-left:14px}
+.warn{background:var(--risk-bg);color:var(--ink);border-radius:6px;padding:14px 18px;font-size:15.5px}
+.warn b{color:var(--risk)}
+ul.tight{margin:0 0 12px;padding-left:20px;display:grid;gap:6px}
+.tasks{counter-reset:t;display:grid;gap:0}
+.task{display:grid;grid-template-columns:1fr auto;gap:4px 16px;padding:12px 0;border-bottom:1px solid var(--line)}
+.task h4{font-family:var(--display);font-size:15.5px;font-weight:700}
+.task p{font-size:14.5px;color:var(--muted);margin:0;grid-column:1/-1}
+.task .who{font-family:var(--mono);font-size:12.5px;color:var(--muted);white-space:nowrap}
+footer{margin-top:48px;padding-top:18px;border-top:1px solid var(--line);font-size:14px;color:var(--muted)}
+@media (max-width:640px){
+  body{font-size:16px}
+  .copy{position:static;margin-bottom:10px}
+  .task{grid-template-columns:1fr}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<div class="wrap">
+
+<header class="top">
+  <div class="eyebrow">Auditoría · electrosmogespana.com</div>
+  <h1>La autoridad existe. Está en la página equivocada.</h1>
+  <p class="lede prose">EKIO tiene más pruebas de credibilidad de las que enseña al cliente, y enseña algunas que no puede demostrar. Este informe revisa, señal a señal, qué llega hoy a la ficha, al carrito, al checkout y a los correos de venta.</p>
+  <div class="meta"><span>24 sep 2026</span><span>Tienda recorrida en vivo (móvil)</span><span>Shopify Analytics · 90 días</span><span>Klaviyo (solo lectura)</span><span>Repo interno</span><span>Nada se ha modificado en la tienda</span></div>
+</header>
+
+<section>
+  <h2>Veredicto</h2>
+  <div class="prose">
+    <p>La hipótesis se confirma, con dos matices que cambian qué hay que hacer primero.</p>
+  </div>
+  <div class="verdict prose">
+    <ol>
+      <li><b>La prueba está donde no llega la gente.</b> La mejor prueba de SPIRO (premios, 13 informes de laboratorio, 357 pacientes EHS) vive en <span class="mono">/pages/spiro</span>, que recibe 202 visitas en 90 días. La ficha de la SPIRO Card recibe 2.546 y no tiene ninguna: ni premios, ni estudios, ni el fundador, ni la frase "distribuidor oficial".</li>
+      <li><b>Donde sí aparece la autoridad, a veces se exagera, y eso la debilita.</b> Las fichas de Ekio Light dicen "Registrada en 157 países", "Patentado" y "15+ años de práctica clínica". Ninguna de las tres cosas se puede demostrar hoy. Un cliente que lo compruebe deja de fiarse de todo lo demás, incluido el bloque científico, que es muy bueno.</li>
+      <li><b>La tienda se contradice sola.</b> Hay cinco cifras de clientes (3.000, 5.000, 7.000, 12.000 y los 11.500 del brief) y tres garantías (14, 30 y 90 días). Un visitante que va de la portada a la ficha y luego al carrito ve números distintos en cada pantalla.</li>
+    </ol>
+  </div>
+  <div class="figs">
+    <div class="fig"><b>0,79 %</b><span>conversión de la SPIRO Card, la página de entrada con más tráfico (2.546 sesiones → 20 compras)</span></div>
+    <div class="fig"><b>2,35 %</b><span>conversión de la SPIRO Card X (597 → 14). Su ficha es la única SPIRO que nombra la patente de NOXTAK</span></div>
+    <div class="fig"><b>1</b><span>compra entre ~1.050 sesiones que entraron por fichas o colección de Ekio Light</span></div>
+    <div class="fig"><b>0</b><span>señales de autoridad en el checkout y en los correos de carrito y checkout abandonado</span></div>
+  </div>
+  <p class="note prose" style="margin-top:18px">La diferencia entre Card y Card X no demuestra que la autoridad sea la causa: también cambian el precio y el tipo de comprador. Tampoco es la única causa de la caída de ventas. La auditoría Rubicón ya localizó un fallo técnico del botón de pago dentro del navegador de Instagram (F-16b, F-17) que explica gran parte del apagón del canal social. Los dos problemas hay que arreglarlos, y por separado.</p>
+</section>
+
+<section>
+  <h2>Dónde se concentra el hueco</h2>
+  <div class="prose">
+    <p><b>En la ficha de producto.</b> Es donde se toma la decisión y donde falta casi todo. El checkout también está vacío de autoridad, pero con el plan actual de Shopify (no Plus) no se le pueden añadir bloques. La confianza de la última milla tiene que ir en el carrito lateral de UpCart y justo debajo del botón de compra. Hoy esas dos zonas muestran justo lo que no conviene: "5.000 clientes" y un contador de urgencia.</p>
+    <p>Hay además un problema de altura. Según Clarity (auditoría Rubicón, F-24), en la ficha de la SPIRO Card el 55 % se va antes del 15 % de la página y menos del 8 % llega a las reseñas. Una señal de autoridad que no está en la primera pantalla, en móvil, casi nadie la ve.</p>
+  </div>
+  <div class="scroll" style="margin-top:14px">
+    <table>
+      <thead><tr><th>Página de entrada (90 días)</th><th>Sesiones</th><th>Añaden</th><th>Checkout</th><th>Compran</th><th>Autoridad en la página</th></tr></thead>
+      <tbody>
+        <tr><td>Portada <span class="mono">/</span></td><td class="num">2.744</td><td class="num">168</td><td class="num">119</td><td class="num">37</td><td><span class="chip s-weak">Débil</span> abajo, contradictoria</td></tr>
+        <tr><td>Ficha SPIRO Card</td><td class="num">2.546</td><td class="num">109</td><td class="num">53</td><td class="num">20</td><td><span class="chip s-absent">Ausente</span></td></tr>
+        <tr><td>Colección SPIRO</td><td class="num">794</td><td class="num">32</td><td class="num">23</td><td class="num">7</td><td><span class="chip s-weak">Débil</span> "estudios" sin nombrarlos</td></tr>
+        <tr><td>Ficha SPIRO Card X</td><td class="num">597</td><td class="num">35</td><td class="num">26</td><td class="num">14</td><td><span class="chip s-weak">Débil</span> patente NOXTAK citada</td></tr>
+        <tr><td>Pack Protección Personal</td><td class="num">478</td><td class="num">16</td><td class="num">7</td><td class="num">0</td><td><span class="chip s-absent">Ausente</span></td></tr>
+        <tr><td>Colección luz roja</td><td class="num">392</td><td class="num">11</td><td class="num">3</td><td class="num">0</td><td><span class="chip s-absent">Ausente</span></td></tr>
+        <tr><td>Ficha Deep 5</td><td class="num">220</td><td class="num">10</td><td class="num">3</td><td class="num">0</td><td><span class="chip s-risk">Sobreafirmada</span></td></tr>
+        <tr><td>Ciencia SPIRO <span class="mono">/pages/spiro</span></td><td class="num">202</td><td class="num">7</td><td class="num">5</td><td class="num">1</td><td><span class="chip s-ok">Presente</span> la mejor de SPIRO</td></tr>
+        <tr><td>Ficha Bio Regén 7</td><td class="num">67</td><td class="num">3</td><td class="num">2</td><td class="num">1</td><td><span class="chip s-ok">Presente</span> ciencia con semáforo</td></tr>
+        <tr><td>Ficha Bio Spectrum 11</td><td class="num">62</td><td class="num">2</td><td class="num">1</td><td class="num">0</td><td><span class="chip s-ok">Presente</span> ciencia con semáforo</td></tr>
+        <tr><td>Sobre nosotros</td><td class="num">31</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td><span class="chip s-absent">Ausente</span> ni Javier ni 2011</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="note prose" style="margin-top:10px">Fuente: Shopify Analytics por página de entrada. Shopify solo cuenta a quien acepta cookies, un 60 % del tráfico según Rubicón (F-23), así que las tasas reales son más bajas. Ventas en 90 días: SPIRO Card X 9.631 €, Card 6.037 €, Disc 5.479 €. De Ekio Light: 1 Bio Spectrum 11 y 2 Bio Regén 7.</p>
+</section>
+
+<section id="matriz">
+  <h2>Matriz: página × señal × estado</h2>
+  <div class="legend">
+    <span class="chip s-ok">Presente</span> visible y con prueba
+    <span class="chip s-weak">Débil</span> hay que buscarlo, o se menciona sin prueba
+    <span class="chip s-absent">Ausente</span> no existe
+    <span class="chip s-risk">Riesgo</span> se afirma más de lo que se puede demostrar
+  </div>
+  <div class="filters" role="group" aria-label="Filtrar por estado">
+    <button type="button" id="f-all" data-f="all" aria-pressed="true">Todas</button>
+    <button type="button" id="f-risk" data-f="risk" aria-pressed="false">Riesgo</button>
+    <button type="button" id="f-absent" data-f="absent" aria-pressed="false">Ausente</button>
+    <button type="button" id="f-weak" data-f="weak" aria-pressed="false">Débil</button>
+    <button type="button" id="f-ok" data-f="ok" aria-pressed="false">Presente</button>
+  </div>
+  <div class="scroll">
+    <table id="mtx">
+      <thead><tr><th>Página</th><th>Señal de autoridad</th><th>Estado hoy</th><th>Prioridad</th><th>Esfuerzo</th></tr></thead>
+      <tbody>
+        <tr data-s="risk"><td class="page">Barra superior (todas)</td><td>"Más de 12.000 clientes satisfechos". En el plan de CaixaBank, esos 12.000 son <i>contactos</i>, no clientes</td><td><span class="chip s-risk">Riesgo</span></td><td class="p">P1</td><td class="p">5 min + decisión</td></tr>
+        <tr data-s="risk"><td class="page">Barra superior (todas)</td><td>"Garantía de devolución de 30 días", que contradice los 90 días de la portada y la colección</td><td><span class="chip s-risk">Riesgo</span></td><td class="p">P1</td><td class="p">5 min + decisión</td></tr>
+        <tr data-s="ok"><td class="page">Portada</td><td>"Distribuidor oficial SPIRO®" en la franja del héroe, sin hacer scroll</td><td><span class="chip s-ok">Presente</span></td><td class="p">—</td><td class="p">—</td></tr>
+        <tr data-s="weak"><td class="page">Portada</td><td>Fundador: solo nombre y un icono "◉" en lugar de foto. Sin credenciales ni "desde 2011". Está en los dos tercios que no se leen</td><td><span class="chip s-weak">Débil</span></td><td class="p">P2</td><td class="p">Bajo</td></tr>
+        <tr data-s="weak"><td class="page">Portada</td><td>Prensa: "Europa Press, EFE Comunica y Mundo Corporativo" en texto, sin logos ni enlaces. El texto promete "el contexto de cada publicación" y no lo da</td><td><span class="chip s-weak">Débil</span></td><td class="p">P2</td><td class="p">Medio (faltan URLs)</td></tr>
+        <tr data-s="weak"><td class="page">Portada</td><td>Reseñas: "4,4/5" en la tarjeta y "4.50 (18)" en el widget. Son 18 reseñas para todo el catálogo</td><td><span class="chip s-weak">Débil</span></td><td class="p">P1</td><td class="p">Medio</td></tr>
+        <tr data-s="weak"><td class="page">Portada</td><td>Modelo de utilidad: "modelo de utilidad español propio", sin número</td><td><span class="chip s-weak">Débil</span></td><td class="p">P3</td><td class="p">5 min</td></tr>
+        <tr data-s="absent"><td class="page">Portada</td><td>Premios de SPIRO, informes de laboratorio, subvenciones de la Junta de Castilla y León</td><td><span class="chip s-absent">Ausente</span></td><td class="p">P2</td><td class="p">Bajo</td></tr>
+        <tr data-s="weak"><td class="page">Portada</td><td>"Somos parte del PlanESG", sin enlace ni otorgante</td><td><span class="chip s-weak">Débil</span></td><td class="p">P3</td><td class="p">Bajo</td></tr>
+        <tr data-s="weak"><td class="page">Portada</td><td>Datos estructurados: hay Organization (SchemaPlus), pero sin <span class="mono">founder</span>, <span class="mono">foundingDate</span> ni <span class="mono">award</span></td><td><span class="chip s-weak">Débil</span></td><td class="p">P3</td><td class="p">Bajo</td></tr>
+        <tr data-s="risk"><td class="page">Colección SPIRO</td><td>"Tres meses… Más de 5.000 hogares", frente a los 30 días de la ficha y los 7.000 de la portada</td><td><span class="chip s-risk">Riesgo</span></td><td class="p">P1</td><td class="p">5 min</td></tr>
+        <tr data-s="weak"><td class="page">Colección SPIRO</td><td>FAQ "¿SPIRO tiene estudios?": dice que sí, pero no nombra ninguno</td><td><span class="chip s-weak">Débil</span></td><td class="p">P2</td><td class="p">Bajo</td></tr>
+        <tr data-s="absent"><td class="page">Ficha SPIRO Card</td><td>Premios SPIRO (el German Innovation Award 2021 es verificable)</td><td><span class="chip s-absent">Ausente</span></td><td class="p">P1</td><td class="p">Bajo</td></tr>
+        <tr data-s="absent"><td class="page">Ficha SPIRO Card</td><td>13 informes técnicos del fabricante (MORLAB, IGEF). Solo hay un enlace genérico a "nuestra página de Spiro" a mitad de ficha</td><td><span class="chip s-absent">Ausente</span></td><td class="p">P1</td><td class="p">Bajo</td></tr>
+        <tr data-s="absent"><td class="page">Ficha SPIRO Card</td><td>"Distribuidor oficial en España" y años de EKIO</td><td><span class="chip s-absent">Ausente</span></td><td class="p">P1</td><td class="p">5 min</td></tr>
+        <tr data-s="absent"><td class="page">Ficha SPIRO Card</td><td>Fundador o persona detrás</td><td><span class="chip s-absent">Ausente</span></td><td class="p">P2</td><td class="p">Bajo</td></tr>
+        <tr data-s="weak"><td class="page">Ficha SPIRO Card</td><td>Reseñas: globales, mezclan productos, al final de la página (las ve menos del 8 %)</td><td><span class="chip s-weak">Débil</span></td><td class="p">P1</td><td class="p">Medio</td></tr>
+        <tr data-s="risk"><td class="page">Ficha SPIRO Card</td><td>Texto de borrador publicado: "…rendimiento mental sostenido. <b>pon puntos como una tabla desordenada</b>"</td><td><span class="chip s-risk">Riesgo</span></td><td class="p">P1</td><td class="p">2 min</td></tr>
+        <tr data-s="risk"><td class="page">Ficha SPIRO Card</td><td>"Ruido cuántico", "glándula pineal", "neutraliza RFR, ELF y ESD": afirmaciones sin fuente que chocan con el veto HD-001 de Heruca sobre el lenguaje de "reducción"</td><td><span class="chip s-risk">Riesgo</span></td><td class="p">P2</td><td class="p">Medio (Heruca)</td></tr>
+        <tr data-s="weak"><td class="page">Ficha SPIRO Card X</td><td>"Tecnología patentada NOXTAK®", sin número ni enlace. No hay premios, fundador ni estudios</td><td><span class="chip s-weak">Débil</span></td><td class="p">P1</td><td class="p">Bajo</td></tr>
+        <tr data-s="absent"><td class="page">Pack Protección Personal</td><td>Ninguna señal más allá de la barra (478 sesiones, 0 compras)</td><td><span class="chip s-absent">Ausente</span></td><td class="p">P1</td><td class="p">Bajo</td></tr>
+        <tr data-s="ok"><td class="page">Ciencia SPIRO</td><td>Premios, 13 informes descargables, 357 pacientes EHS, José Joaquín Machado</td><td><span class="chip s-ok">Presente</span></td><td class="p">—</td><td class="p">—</td></tr>
+        <tr data-s="risk"><td class="page">Ciencia SPIRO</td><td>"Medalla de Oro en Inventions de Genève" no aparece en ninguna fuente verificable, y la Plata Edison solo en prensa secundaria</td><td><span class="chip s-risk">Riesgo</span></td><td class="p">P2</td><td class="p">Bajo (Heruca)</td></tr>
+        <tr data-s="weak"><td class="page">Nuestros criterios</td><td>"Reconocida internacionalmente por su innovación y eficacia", sin decir qué premio ni quién lo da</td><td><span class="chip s-weak">Débil</span></td><td class="p">P3</td><td class="p">5 min</td></tr>
+        <tr data-s="absent"><td class="page">Sobre nosotros</td><td>No aparecen Javier, 2011, naturopatía, EHS/SQM, el modelo de utilidad ni la prensa. Dice "Más de 3.000 personas" y "primer Oasis Electromagnético del mundo" sin prueba</td><td><span class="chip s-absent">Ausente</span></td><td class="p">P2</td><td class="p">Medio</td></tr>
+        <tr data-s="risk"><td class="page">Ficha Deep 5</td><td>"MOD. Utilidad Patentado U202532624 · Registrada en 157 países", "OEPM 157 países", "Registrada en 157 países vía PCT". El PCT no está presentado y un modelo de utilidad no es una patente</td><td><span class="chip s-risk">Riesgo</span></td><td class="p">P1</td><td class="p">15 min</td></tr>
+        <tr data-s="risk"><td class="page">Ficha Deep 5</td><td>"Francisco Javier Andrés · 15+ años de práctica clínica". Javier no pasa consulta de salud</td><td><span class="chip s-risk">Riesgo</span></td><td class="p">P1</td><td class="p">5 min</td></tr>
+        <tr data-s="risk"><td class="page">Ficha Deep 5</td><td>Irradiancia "190 mW/cm² · todos los datos declarados y verificables". En el repo solo el Core tiene ficha de irradiancia; la del Deep 5 está pedida a fábrica</td><td><span class="chip s-risk">Riesgo</span></td><td class="p">P1</td><td class="p">Bajo (fábrica)</td></tr>
+        <tr data-s="ok"><td class="page">Ficha Deep 5</td><td>Estudios con autor y año (Stausholm, Ferraresi, Wunsch), PMID de Figueiro 2012, 0 µT a 7,5 cm</td><td><span class="chip s-ok">Presente</span></td><td class="p">—</td><td class="p">—</td></tr>
+        <tr data-s="ok"><td class="page">Ficha Bio Regén 7</td><td>Bloque "carne científica" con semáforo 🟢🟡 y DOI. Es el mejor activo de autoridad de toda la tienda</td><td><span class="chip s-ok">Presente</span></td><td class="p">—</td><td class="p">—</td></tr>
+        <tr data-s="risk"><td class="page">Fichas Core, Deep 5, BR7, BS11</td><td>Sello "MOD. UTILIDAD U202532624 · En más de 155 Países". Comparativa: fila "Patente española"</td><td><span class="chip s-risk">Riesgo</span></td><td class="p">P1</td><td class="p">15 min</td></tr>
+        <tr data-s="risk"><td class="page">Ficha Bio Regén 7</td><td>"+40 % ATP en 20 minutos", "Modula NF-κB", "regula leptina (exclusiva EKIO)". Sin fuente, junto a un bloque que sí la tiene</td><td><span class="chip s-risk">Riesgo</span></td><td class="p">P2</td><td class="p">Medio (Heruca)</td></tr>
+        <tr data-s="weak"><td class="page">Ficha Bio Regén 7</td><td>Precio 950 € en el botón y 970 € en el cierre, la comparativa y la FAQ. La FAQ del COB habla de "210 LEDs" (texto copiado del BS11)</td><td><span class="chip s-weak">Débil</span></td><td class="p">P2</td><td class="p">10 min</td></tr>
+        <tr data-s="absent"><td class="page">Fichas Ekio Light</td><td>Estudio piloto GDV / Bio-Well</td><td><span class="chip s-absent">Ausente</span></td><td class="p">P3</td><td class="p">Requiere estudio cerrado</td></tr>
+        <tr data-s="weak"><td class="page">Fichas Ekio Light</td><td>Reseñas: las mismas 18 globales, ninguna del panel</td><td><span class="chip s-weak">Débil</span></td><td class="p">P2</td><td class="p">Medio</td></tr>
+        <tr data-s="risk"><td class="page">Carrito (UpCart)</td><td>"Más de 5.000 clientes satisfechos", contador "Garantizamos tu pedido por 09:38" y aviso de puntos sobre el botón de pago (Rubicón F-13, F-16b)</td><td><span class="chip s-risk">Riesgo</span></td><td class="p">P1</td><td class="p">Bajo</td></tr>
+        <tr data-s="absent"><td class="page">Carrito (UpCart)</td><td>Garantía, reseña y persona detrás, justo encima del botón de pago</td><td><span class="chip s-absent">Ausente</span></td><td class="p">P1</td><td class="p">Bajo</td></tr>
+        <tr data-s="absent"><td class="page">Checkout</td><td>Solo "Envío GRATIS en España" y "transacciones seguras y encriptadas". No hay garantía, reseñas, cifra ni contacto. El plan Shopify (no Plus) no permite bloques</td><td><span class="chip s-absent">Ausente</span></td><td class="p">P2</td><td class="p">Bajo (marca y página de gracias)</td></tr>
+        <tr data-s="weak"><td class="page">Política de reembolso · datos estructurados</td><td>La política dice 14 días de desistimiento. SchemaPlus declara <span class="mono">merchantReturnDays: 14</span>. Las fichas dicen 30 y la portada 90</td><td><span class="chip s-weak">Débil</span></td><td class="p">P1</td><td class="p">Bajo</td></tr>
+        <tr data-s="risk"><td class="page">Klaviyo · todos los flows</td><td>Pie "+5.000 clientes satisfechos" y sello "CIENTIFÍCAMENTE COMPROVADO" (dos faltas de ortografía)</td><td><span class="chip s-risk">Riesgo</span></td><td class="p">P1</td><td class="p">15 min</td></tr>
+        <tr data-s="absent"><td class="page">Klaviyo · carrito y checkout</td><td>Reseñas, ciencia, modelo de utilidad, prensa y premios: nada en 6 correos. El checkout abandonado tiene un 2,4 % de clics</td><td><span class="chip s-absent">Ausente</span></td><td class="p">P2</td><td class="p">Medio (Isabela)</td></tr>
+        <tr data-s="absent"><td class="page">Klaviyo</td><td>Flow de petición de reseña tras la entrega: no existe (27 flows revisados)</td><td><span class="chip s-absent">Ausente</span></td><td class="p">P1</td><td class="p">Medio</td></tr>
+        <tr data-s="weak"><td class="page">Klaviyo · métricas</td><td>Todos los flows marcan 0 conversiones: la métrica de conversión no es "Placed Order" de Shopify, así que no se mide el impacto</td><td><span class="chip s-weak">Débil</span></td><td class="p">P2</td><td class="p">10 min</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section>
+  <h2>Los 8 activos del brief, cruzados con la tienda</h2>
+  <div class="prose"><p>Primera columna: qué ve el cliente. Segunda: qué prueba hay dentro de la empresa. Tres de los activos del brief no tienen hoy el respaldo que el brief les da.</p></div>
+  <div class="scroll">
+    <table>
+      <thead><tr><th>Activo</th><th>En la tienda</th><th>Prueba interna real</th></tr></thead>
+      <tbody>
+        <tr><td><b>1 · Modelo de utilidad U202532624 y PCT</b></td><td><span class="chip s-risk">Sobreafirmado</span> en las fichas de Ekio Light ("157 países", "Patentado"). <span class="chip s-weak">Sin número</span> en la portada</td><td>Justificante de presentación de la OEPM del 24/12/2025, a nombre de Francisco Javier Andrés Andrés. No hay título de concesión en el repo. El PCT se llama <b>SRBA</b> (sustituye a SFPA, no como dice el brief) y no está presentado. La norma interna (<span class="mono">ekio-light-protocolos/00_MARCO_TECNICO.md:42</span>) prohíbe decir "157 países"</td></tr>
+        <tr><td><b>2 · Piloto GDV / Bio-Well sobre Bio Regén 7</b></td><td><span class="chip s-absent">Ausente</span></td><td>El repo no tiene protocolo, consentimientos ni resultados. Si existen, están fuera. Heruca ya decidió que un piloto GDV solo sirve para generar hipótesis internas, <b>nunca como evidencia</b>. No apto para la ficha como prueba de eficacia</td></tr>
+        <tr><td><b>3 · Trayectoria de Javier</b></td><td><span class="chip s-weak">Débil</span> en la portada. <span class="chip s-risk">Riesgo</span> en el Deep 5 ("práctica clínica"). <span class="chip s-absent">Ausente</span> en SPIRO y en "Sobre nosotros"</td><td>El mejor texto está en el "Sobre el autor" del libro (<span class="mono">MANUSCRITO_V2/10_paginas_finales.md:345</span>): naturópata, EKIO desde 2011, trabajo con SQM y EHS desde 2011-2012. Formación y titulación <b>no documentadas</b>. Los años no cuadran entre documentos (14, 15, 15+; autónomo "desde 2023" en CaixaBank)</td></tr>
+        <tr><td><b>4 · Citas PubMed</b></td><td><span class="chip s-ok">Presente</span> en BR7, BS11 y Deep 5. En SPIRO no aplica: su prueba es documentación del fabricante</td><td>Más de 15 citas con PMID en las newsletters y en la landing del Deep 5. <b>Heruca no ha validado ninguna cita de fotobiomodulación.</b> Su registro solo cubre campos electromagnéticos e infancia</td></tr>
+        <tr><td><b>5 · Premios SPIRO</b></td><td><span class="chip s-absent">Ausente</span> en fichas. <span class="chip s-ok">Presente</span> en Ciencia SPIRO (202 visitas), con una medalla no verificable</td><td>Verificable: German Innovation Award 2021 (German Design Council). Edison 2020 plata: solo prensa secundaria. Ginebra: no aparece. Hay tres versiones distintas entre la web, el libro y el agente spiro</td></tr>
+        <tr><td><b>6 · +11.500 clientes y +45.000 seguidores</b></td><td><span class="chip s-risk">Contradictorio</span>: 3.000, 5.000, 7.000 y 12.000 según la pantalla</td><td><b>Las cifras 11.500 y 45.000 no aparecen en ningún documento.</b> Lo más sólido: más de 7.600 clientes de SPIRO y unos 44.550 seguidores (<span class="mono">datos-verificados.md:168-170</span>). Los "12.000" de la barra son contactos</td></tr>
+        <tr><td><b>7 · "El precio invisible" y Método OASIS</b></td><td><span class="chip s-weak">Débil</span>. "Comprende · Protege · Recupera" está en la portada. "El precio invisible" sale en el Deep 5 y en "Sobre nosotros". OASIS no aparece</td><td>OASIS (Observa · Aleja · Sanea · Integra · Sincroniza) solo existe en el libro. "El precio invisible" es un marco de copy, no un método. No hay un documento de arquitectura por síntomas</td></tr>
+        <tr><td><b>8 · Prensa, clínicas, ferias</b></td><td><span class="chip s-weak">Sin prueba</span>: prensa en texto y sin enlace. Ferias y subvenciones: <span class="chip s-absent">Ausente</span></td><td>No hay ni una URL de Europa Press, EFE o Mundo Corporativo. Startup OLÉ y el Valencia Digital Summit son en octubre, con la invitación pendiente. BioCultura no aparece. Hay tres subvenciones de la Junta de Castilla y León (35.613 €) y participación en el Plan ESG e Internacionalización de ICECYL, sin resoluciones archivadas</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section id="top5">
+  <h2>Top 5 cambios, listos para implementar</h2>
+  <div class="prose">
+    <p>Están ordenados por impacto en conversión y facilidad. Ninguno usa descuentos ni urgencia. Todo texto que afirme algo al cliente pasa antes por Heruca, que es la norma del departamento de investigación. Los corchetes marcan un dato que Javier tiene que confirmar.</p>
+  </div>
+
+  <article class="change">
+    <div class="change-head"><h3>1 · Bloque "Por qué puedes fiarte" en las fichas SPIRO</h3><span class="rank">Impacto alto · esfuerzo bajo</span></div>
+    <div class="tags"><span class="tag">SPIRO Card</span><span class="tag">Card X</span><span class="tag">Packs</span><span class="tag">Disc · Square</span><span class="tag">bajo el botón de compra</span></div>
+    <p class="prose">Va justo debajo de "Añadir al carrito", dentro del primer 15 % de la página en móvil. Reutiliza lo que ya está en Ciencia SPIRO, pero solo con lo verificable. En el mismo cambio se borra la frase de borrador "pon puntos como una tabla desordenada".</p>
+    <div class="copyblock"><span class="label">Texto del bloque</span><button type="button" class="copy" id="copy-1">Copiar</button><span class="txt">Por qué puedes fiarte
+
+Distribuidor oficial de SPIRO® en España [desde 2011, confirmar año].
+SPIRO® es tecnología de NOXTAK®, con 14 patentes y el German Innovation Award 2021 del German Design Council.
+13 informes técnicos publicados por el fabricante, con laboratorios como MORLAB e IGEF (Alemania). Léelos tú mismo: Ver la documentación →
+[90] días para probarlo en casa. Si no notas la diferencia, te devolvemos el dinero.</span></div>
+    <p class="note prose">No se dice "reduce la radiación" (veto HD-001). Los informes se presentan como del fabricante, que es lo que son (AF-003). La Plata Edison solo se añade si Heruca la verifica, y la medalla de Ginebra se retira también de Ciencia SPIRO hasta tener fuente.</p>
+  </article>
+
+  <article class="change">
+    <div class="change-head"><h3>2 · Una sola cifra y una sola garantía en toda la tienda</h3><span class="rank">Impacto alto · esfuerzo bajo, necesita decisión</span></div>
+    <div class="tags"><span class="tag">barra superior</span><span class="tag">portada</span><span class="tag">colección</span><span class="tag">fichas</span><span class="tag">UpCart</span><span class="tag">Klaviyo</span><span class="tag">SchemaPlus</span><span class="tag">política</span></div>
+    <p class="prose">Javier elige primero la cifra (propuesta: la de <span class="mono">datos-verificados.md</span>, pendiente del export de clientes de Shopify + WooCommerce) y la garantía por línea. Después se cambia en los 8 sitios a la vez. En Klaviyo se corrige también "COMPROVADO".</p>
+    <div class="copyblock"><span class="label">Barra superior</span><button type="button" class="copy" id="copy-2">Copiar</button><span class="txt">ENVÍO GRATIS EN ESPAÑA · PAGA EN HASTA 12 MESES · MÁS DE [7.600] CLIENTES DE SPIRO · [90] DÍAS DE GARANTÍA EN SPIRO</span></div>
+    <div class="copyblock"><span class="label">Bajo el botón · fichas Ekio Light</span><button type="button" class="copy" id="copy-3">Copiar</button><span class="txt">30 días para probarlo en casa, con devolución íntegra · 2 años de garantía técnica · Envío gratis en España</span></div>
+    <div class="copyblock"><span class="label">Sello de Klaviyo</span><button type="button" class="copy" id="copy-4">Copiar</button><span class="txt">MÁS DE [7.600] CLIENTES · DISTRIBUIDOR OFICIAL SPIRO® · [90] DÍAS DE GARANTÍA</span></div>
+    <p class="note prose">Si la garantía comercial es de 90 días, la política de reembolso tiene que decirlo (hoy solo recoge los 14 días legales) y SchemaPlus debe declarar el mismo plazo. Si no, se promete en la web algo que la política no respalda.</p>
+  </article>
+
+  <article class="change">
+    <div class="change-head"><h3>3 · Modelo de utilidad: decir menos para que se crea más</h3><span class="rank">Impacto medio · esfuerzo muy bajo · protege todo lo demás</span></div>
+    <div class="tags"><span class="tag">Core</span><span class="tag">Deep 5</span><span class="tag">Bio Regén 7</span><span class="tag">Bio Spectrum 11</span><span class="tag">comparativa</span><span class="tag">ficha técnica</span></div>
+    <p class="prose">Se quitan todas las menciones a "157 países", "155 países", "Patentado", "Registrada", "OEPM 157 países" y "Patente española", y se usa la fórmula de la norma interna. La fila de la comparativa pasa a llamarse "Modelo de utilidad". Hay que confirmar con Patricia García si el Deep 5 está cubierto por el U202532624 antes de mantener el "SÍ".</p>
+    <div class="copyblock"><span class="label">Sello bajo el botón</span><button type="button" class="copy" id="copy-5">Copiar</button><span class="txt">Modelo de utilidad español nº U202532624 · Diseño propio EKIO</span></div>
+    <div class="copyblock"><span class="label">Fila de la ficha técnica</span><button type="button" class="copy" id="copy-6">Copiar</button><span class="txt">Protección industrial: Modelo de utilidad español nº U202532624 (OEPM). Solicitud internacional PCT en preparación.</span></div>
+    <p class="note prose">Mismo cambio en la ficha del Deep 5: "15+ años de práctica clínica" pasa a "fundador de EKIO", y la irradiancia de 190 mW/cm² se marca "según ficha del fabricante" hasta tener el documento de fábrica. La frase "todos los datos declarados y verificables" se quita hasta entonces.</p>
+  </article>
+
+  <article class="change">
+    <div class="change-head"><h3>4 · La persona detrás, con credenciales demostrables</h3><span class="rank">Impacto medio · esfuerzo bajo</span></div>
+    <div class="tags"><span class="tag">fichas Ekio Light</span><span class="tag">fichas SPIRO (versión corta)</span><span class="tag">portada (foto en lugar de ◉)</span><span class="tag">Sobre nosotros</span><span class="tag">schema founder</span></div>
+    <p class="prose">Una firma con foto real, situada después del bloque científico en Ekio Light y en versión de una línea en SPIRO. "Sobre nosotros" se rehace a partir del "Sobre el autor" del libro.</p>
+    <div class="copyblock"><span class="label">Firma · fichas Ekio Light</span><button type="button" class="copy" id="copy-7">Copiar</button><span class="txt">Quién está detrás
+
+Soy Javier Andrés, [naturópata, confirmar titulación] y fundador de EKIO. Desde 2011 trabajo con personas sensibles a los campos electromagnéticos y mido hogares para entender qué pasa dentro.
+Diseñé los paneles Ekio Light con una condición: que no añadieran campos electromagnéticos a tu casa. Por eso cada panel indica su campo medido según la ficha del fabricante.
+Si tienes dudas antes de comprar, escríbenos y te respondemos nosotros, no un robot.</span></div>
+    <div class="copyblock"><span class="label">Versión corta · fichas SPIRO</span><button type="button" class="copy" id="copy-8">Copiar</button><span class="txt">Te atiende el equipo de Javier Andrés, fundador de EKIO. Llevamos desde 2011 ayudando a hogares de toda España a ordenar su entorno electromagnético.</span></div>
+    <p class="note prose">Hay que resolver antes qué significa "desde 2011" si como autónomo figura desde 2023: si EKIO existe como marca desde 2011, basta con decir "EKIO, desde 2011".</p>
+  </article>
+
+  <article class="change">
+    <div class="change-head"><h3>5 · Reseñas del producto que se compra, arriba y sin premio</h3><span class="rank">Impacto alto · esfuerzo medio · el valor crece con el tiempo</span></div>
+    <div class="tags"><span class="tag">Judge.me</span><span class="tag">Klaviyo: flow nuevo</span><span class="tag">Isabela</span></div>
+    <p class="prose">Tres ajustes en Judge.me: reseñas filtradas por producto, ordenadas por utilidad, y dos de ellas visibles junto al botón. Además, un flow de Klaviyo que pida la reseña tras la entrega: a los 10 días en SPIRO y a los 30 en Ekio Light. Judge.me tiene activado hoy un <b>cupón del 10 % por dejar reseña</b>. Hay que desactivarlo: va contra la regla de no usar descuentos y obliga a marcar esas reseñas como incentivadas según la normativa europea (Directiva Ómnibus).</p>
+    <div class="copyblock"><span class="label">Email de Klaviyo · petición de reseña</span><button type="button" class="copy" id="copy-9">Copiar</button><span class="txt">Asunto: ¿Qué tal tu SPIRO?
+Preheader: Tu opinión ayuda a otra familia a decidir.
+
+Hola {{ first_name|default:'' }}:
+
+Hace unos días te llegó tu {{ producto }}.
+¿Cómo te va?
+
+Muchas personas nos preguntan si esto funciona de verdad.
+La mejor respuesta no es la nuestra. Es la tuya.
+
+Si tienes un minuto, cuéntalo aquí. Lo bueno y lo malo.
+
+[Dejar mi opinión]
+
+Gracias,
+Javier y el equipo de EKIO</span></div>
+    <p class="note prose">Para Ekio Light, el asunto es "¿Qué tal tu panel?". Los dos cumplen el máximo de 5 palabras y el lenguaje sencillo de los emails de EKIO.</p>
+  </article>
+</section>
+
+<section>
+  <h2>Tareas para ClickUp</h2>
+  <div class="prose"><p>No se ha creado ninguna. Quedan redactadas para que Javier las revise y decida.</p></div>
+  <div class="tasks">
+    <div class="task"><h4>Borrar el texto de borrador de la ficha SPIRO Card</h4><span class="who">Cristian · 2 min</span><p>"pon puntos como una tabla desordenada", en la sección "Mejor concentración y rendimiento diario".</p></div>
+    <div class="task"><h4>Decidir la cifra de clientes y la garantía por línea</h4><span class="who">Javier · decisión</span><p>Bloquea la tarea siguiente. Propuesta: más de 7.600 clientes de SPIRO (tras el export); 90 días en SPIRO y 30 + 2 años en Ekio Light.</p></div>
+    <div class="task"><h4>Unificar cifra y garantía en los 8 sitios</h4><span class="who">Cristian + Isabela · 1 h</span><p>Barra, héroe de portada, tarjeta de portada, colección SPIRO, fichas, UpCart, pie y sello de Klaviyo (y "COMPROVADO"), política de reembolso y SchemaPlus.</p></div>
+    <div class="task"><h4>Quitar "157/155 países" y "Patentado" en las 4 fichas de Ekio Light</h4><span class="who">Cristian · 30 min</span><p>Cambio 3. Consultar a Patricia García si el Deep 5 está cubierto por el U202532624.</p></div>
+    <div class="task"><h4>Corregir la ficha del Deep 5: "práctica clínica" e irradiancia</h4><span class="who">Cristian · 15 min</span><p>Además, en Bio Regén 7: unificar el precio (950 o 970 €), el valor del Stack (268 o 300,60 €) y los "210 LEDs" de la FAQ.</p></div>
+    <div class="task"><h4>Revisión de Heruca a los textos de los cambios 1, 3 y 4</h4><span class="who">/investigar · antes de publicar</span><p>Incluye verificar los premios SPIRO y revisar las afirmaciones sin fuente de la SPIRO Card y del Bio Regén 7 (+40 % ATP, NF-κB, leptina, pineal, ruido cuántico).</p></div>
+    <div class="task"><h4>Montar el bloque "Por qué puedes fiarte" en las fichas SPIRO</h4><span class="who">Desarrollador del tema · 2-3 h</span><p>Una sección reutilizable del tema, bajo el botón, con el texto aprobado por Heruca.</p></div>
+    <div class="task"><h4>Firma del fundador con foto en fichas, portada y "Sobre nosotros"</h4><span class="who">Javier (foto y titulación) + Cristian · 2 h</span><p>Añadir <span class="mono">founder</span> y <span class="mono">foundingDate</span> al schema Organization de SchemaPlus.</p></div>
+    <div class="task"><h4>Judge.me: filtrar por producto, ordenar por utilidad, quitar el cupón del 10 %</h4><span class="who">Cristian · 30 min</span><p>Resuelve también las F-02 y F-03 de Rubicón.</p></div>
+    <div class="task"><h4>Flow de Klaviyo "Petición de reseña"</h4><span class="who">Isabela · 2 h</span><p>Disparo: pedido entregado. Espera: 10 días en SPIRO y 30 en Ekio Light. Cambiar además la métrica de conversión de los flows a "Placed Order" de Shopify.</p></div>
+    <div class="task"><h4>Carrito UpCart: quitar urgencia y "5.000", añadir una línea de confianza</h4><span class="who">Cristian · 30 min</span><p>Línea propuesta: "[90] días de garantía · Distribuidor oficial SPIRO® · Te atiende un equipo en España". Va junto a la corrección del botón de pago (Rubicón F-16b).</p></div>
+    <div class="task"><h4>Prensa: conseguir las URLs y montar la tira de logos</h4><span class="who">Javier · medio</span><p>Sin enlace verificable, el bloque se queda en texto o se retira. Retirar también la lista "La Razón · El Español · HOLA…" de los borradores.</p></div>
+  </div>
+</section>
+
+<section>
+  <h2>Activos sin documentar, para Heruca</h2>
+  <div class="prose">
+    <p>La empresa tiene estos activos, o dice tenerlos, pero no existen en ningún sitio reutilizable con su prueba. Antes de que ninguno llegue a la tienda, hay que archivarlos en el departamento de investigación.</p>
+    <ul class="tight">
+      <li>Título de concesión o estado en el BOPI del modelo de utilidad U202532624. Hoy solo está el justificante de presentación.</li>
+      <li>Formación y titulación de naturopatía de Javier: centro, año y documento.</li>
+      <li>Una cifra única y verificada de clientes, y el origen de "+11.500 clientes" y "+45.000 seguidores", que no aparecen en ningún documento.</li>
+      <li>Premios SPIRO con año, categoría y otorgante en un único texto aprobado. Confirmar o retirar la medalla de Ginebra y la plata Edison.</li>
+      <li>URLs o PDFs de Europa Press, EFE Comunica y Mundo Corporativo.</li>
+      <li>Protocolo, consentimientos y resultados del piloto GDV/Bio-Well del Bio Regén 7. Según Heruca, solo como hipótesis interna.</li>
+      <li>Validación por Heruca de las citas de fotobiomodulación que ya se usan en las fichas. El semáforo 🟢🟡 público todavía no está validado.</li>
+      <li>Fichas de fábrica con la irradiancia del Deep 5, el Bio Regén 7 y el Bio Spectrum 11, y el certificado IEC 62471 del BS11.</li>
+      <li>Resoluciones de las 3 subvenciones de la Junta de Castilla y León, participación en el Plan ESG de ICECYL e invitaciones a Startup OLÉ y al Valencia Digital Summit.</li>
+      <li>Convenio con AIR Institute (Salamanca).</li>
+      <li>Casos de clientes con consentimiento y mediciones propias de hogares (antes y después). Hoy no hay casos documentados de Ekio Light.</li>
+      <li>Método OASIS y arquitectura por síntomas en una versión corta para ficha de producto.</li>
+      <li>Una fecha única para la presentación del modelo de utilidad (24/12 frente a 25/12) y una versión de la "tienda física Oasis Electromagnético" coherente con el domicilio fiscal.</li>
+    </ul>
+  </div>
+  <div class="warn prose" style="margin-top:14px"><b>Fuera de la tienda.</b> "157 países" sigue en los agentes de Shopify, SEO, Google Ads y Meta Ads, en varias skills y en la carta a SODICAL (<span class="mono">06_CARTA_PRESENTACION_SODICAL.md:30</span>). Si no se corrige ahí, volverá a aparecer en la siguiente pieza que escriban. En un expediente de financiación, además, es un riesgo aparte.</div>
+</section>
+
+<footer class="prose">
+  <p><b>Límites de esta auditoría.</b> El conector de analítica del plugin shopify-analytics-ekio no conectó; los datos salen del conector de Shopify de la cuenta. El checkout se revisó con una SPIRO Card en el carrito, sin introducir datos ni pagar. Del post-compra de Klaviyo se leyeron los asuntos y las firmas, no el cuerpo completo del primer correo. El brief menciona "Bio Spectrum 10/11": en la tienda solo existe el Bio Spectrum 11. Este informe se apoya en la auditoría Rubicón (18-20 sep) y no repite sus hallazgos de checkout y velocidad.</p>
+</footer>
+
+</div>
+
+<script>
+(function(){
+  var btns=document.querySelectorAll('.filters button');
+  var rows=document.querySelectorAll('#mtx tbody tr');
+  btns.forEach(function(b){
+    b.addEventListener('click',function(){
+      var f=b.getAttribute('data-f');
+      btns.forEach(function(x){x.setAttribute('aria-pressed',x===b?'true':'false')});
+      rows.forEach(function(r){r.hidden=!(f==='all'||r.getAttribute('data-s')===f)});
+    });
+  });
+  document.querySelectorAll('.copy').forEach(function(b){
+    b.addEventListener('click',function(){
+      var t=b.parentNode.querySelector('.txt');
+      var done=function(){b.textContent='Copiado';setTimeout(function(){b.textContent='Copiar'},1600)};
+      var fallback=function(){var s=window.getSelection(),r=document.createRange();r.selectNodeContents(t);s.removeAllRanges();s.addRange(r);b.textContent='Seleccionado: Cmd+C'};
+      try{navigator.clipboard.writeText(t.textContent).then(done,fallback)}catch(e){fallback()}
+    });
+  });
+})();
+</script>
