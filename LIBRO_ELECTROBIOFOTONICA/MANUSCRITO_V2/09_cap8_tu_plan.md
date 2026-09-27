@@ -1,4 +1,4 @@
-# Capítulo 8 · Tu plan de higiene electromagnética
+# Capítulo 8 · Tu plan de higiene tecnológica
 
 El cargador ha vuelto a la mesita. Nadie sabe quién reactivó el repetidor. El móvil que iba a dormir en el salón aparece otra vez bajo la almohada.
 
@@ -8,7 +8,7 @@ Para cada cambio, apunta qué harás, quién lo hará y cuándo lo comprobaréis
 
 ## Antes de empezar: una señal roja no espera
 
-La higiene electromagnética empieza por una instalación segura.
+La higiene tecnológica empieza por una instalación segura.
 
 Si notas olor a plástico quemado, ves chispas, humo, marcas oscuras, cables pelados, enchufes muy calientes, zumbidos o los automáticos saltan una y otra vez, deja de usar ese equipo y llama a un profesional. Y no conectes una regleta a otra para conseguir más tomas.
 

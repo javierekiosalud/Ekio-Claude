@@ -37,7 +37,7 @@
 3. Las preguntas antes de aplicar EKIO Light.
 4. Realiza una sesión tranquila y supervisada.
 
-**Capítulo 8 · Tu plan de higiene electromagnética**
+**Capítulo 8 · Tu plan de higiene tecnológica**
 1. Tu semana OASIS.
 2. La tarjeta de cada momento.
 3. Mantén el Oasis durante treinta días.
@@ -133,6 +133,10 @@ P.1 El camino que dio origen a este libro.
 **Fotobiomodulación.** Aplicación de luz, normalmente roja e infrarroja, con parámetros definidos para provocar una respuesta biológica sin calentar el tejido.
 
 **Frecuencia.** Número de oscilaciones por segundo, en hercios (Hz).
+
+**Higiene electromagnética.** Conjunto de hábitos para reducir la exposición evitable a campos eléctricos, magnéticos y de radiofrecuencia en casa. En este libro es una de las tres partes de la higiene tecnológica.
+
+**Higiene tecnológica.** Ordenar los campos que rodean a tus aparatos, la luz que recibes a cada hora y el tiempo dentro y fuera de casa. Es el término que usa este libro.
 
 **Grounding.** Contacto conductor del cuerpo con la Tierra. Cambia la tensión del cuerpo respecto al suelo; no demuestra protección frente a campos.
 

@@ -69,7 +69,7 @@ Cómo utilizar este libro
    Dormitorio, pantallas, estudio, patio y el primer móvil.
 7. Mascotas
    Dónde duermen, qué les rodea, la luz que no reciben.
-8. Tu plan de higiene electromagnética
+8. Tu plan de higiene tecnológica
    Prioridades, revisión de diez minutos y semana OASIS.
 
 Páginas finales
@@ -102,7 +102,9 @@ En cada habitación aplicaremos el método **OASIS**:
 
 Llamamos **Oasis Electromagnético** a un espacio revisado con ese criterio: menos fuentes evitables, más distancia respecto a las necesarias y una luz pensada para lo que haces y para la hora que es. Es el nombre de nuestra forma de trabajar, no un certificado de que ahí no hay campos.
 
-Usa un lápiz. Dibuja tu casa, marca tres cambios y ponles fecha. La higiene electromagnética funciona como hábito, no como una obra de un fin de semana.
+Llamo **higiene tecnológica** a ordenar tres cosas: los campos que rodean a tus aparatos, la luz que recibes a cada hora y el tiempo que pasas dentro y fuera de casa. La parte de los campos es lo que se conoce como higiene electromagnética; aquí es una de las tres patas, no la única.
+
+Usa un lápiz. Dibuja tu casa, marca tres cambios y ponles fecha. La higiene tecnológica funciona como hábito, no como una obra de un fin de semana.
 
 Los dos códigos QR del final te llevan a la web y al canal de YouTube de EKIO. Ahí están la app, los tests, las fichas de cada producto y los vídeos, que se irán renovando. Lo esencial está en estas páginas.
 
@@ -880,7 +882,7 @@ Usaron un equipo concreto, mezcla de láser y LED, sobre puntos del muslo. Lo ú
 
 ## La familia EKIO Light, sin cifras que caduquen
 
-Creé EKIO Light con una idea: si vamos a usar luz para cuidarnos, el aparato tiene que encajar en una buena higiene electromagnética. Por eso miramos el espectro, el parpadeo, la fuente de alimentación y los campos alrededor del panel.
+Creé EKIO Light con una idea: si vamos a usar luz para cuidarnos, el aparato tiene que encajar en una buena higiene tecnológica. Por eso miramos el espectro, el parpadeo, la fuente de alimentación y los campos alrededor del panel.
 
 Te presento la familia como familia, sin números de irradiancia ni recuentos de LED, porque los modelos cambian y un libro no. Los datos exactos de tu equipo están en su ficha, en la web y en la app. El test "Qué EKIO Light necesito" te ayuda a ordenar las opciones.
 
@@ -1279,7 +1281,7 @@ La próxima vez que el perro tarde una eternidad en elegir dónde pararse, acué
 O quizá solo haya encontrado el arbusto perfecto.
 
 **En una frase:** tu mascota no eligió el router, la regleta ni la luz de las once; dale lo que tú también necesitas: distancia, oscuridad de noche y un rato de sol y tierra cada día.
-# Capítulo 8 · Tu plan de higiene electromagnética
+# Capítulo 8 · Tu plan de higiene tecnológica
 
 El cargador ha vuelto a la mesita. Nadie sabe quién reactivó el repetidor. El móvil que iba a dormir en el salón aparece otra vez bajo la almohada.
 
@@ -1289,7 +1291,7 @@ Para cada cambio, apunta qué harás, quién lo hará y cuándo lo comprobaréis
 
 ## Antes de empezar: una señal roja no espera
 
-La higiene electromagnética empieza por una instalación segura.
+La higiene tecnológica empieza por una instalación segura.
 
 Si notas olor a plástico quemado, ves chispas, humo, marcas oscuras, cables pelados, enchufes muy calientes, zumbidos o los automáticos saltan una y otra vez, deja de usar ese equipo y llama a un profesional. Y no conectes una regleta a otra para conseguir más tomas.
 
@@ -1510,7 +1512,7 @@ Elige una habitación. Haz la revisión de diez minutos. Rodea tres cambios. Y c
 3. Las preguntas antes de aplicar EKIO Light.
 4. Realiza una sesión tranquila y supervisada.
 
-**Capítulo 8 · Tu plan de higiene electromagnética**
+**Capítulo 8 · Tu plan de higiene tecnológica**
 1. Tu semana OASIS.
 2. La tarjeta de cada momento.
 3. Mantén el Oasis durante treinta días.
@@ -1606,6 +1608,10 @@ P.1 El camino que dio origen a este libro.
 **Fotobiomodulación.** Aplicación de luz, normalmente roja e infrarroja, con parámetros definidos para provocar una respuesta biológica sin calentar el tejido.
 
 **Frecuencia.** Número de oscilaciones por segundo, en hercios (Hz).
+
+**Higiene electromagnética.** Conjunto de hábitos para reducir la exposición evitable a campos eléctricos, magnéticos y de radiofrecuencia en casa. En este libro es una de las tres partes de la higiene tecnológica.
+
+**Higiene tecnológica.** Ordenar los campos que rodean a tus aparatos, la luz que recibes a cada hora y el tiempo dentro y fuera de casa. Es el término que usa este libro.
 
 **Grounding.** Contacto conductor del cuerpo con la Tierra. Cambia la tensión del cuerpo respecto al suelo; no demuestra protección frente a campos.
 

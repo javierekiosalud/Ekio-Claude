@@ -69,7 +69,7 @@ Cómo utilizar este libro
    Dormitorio, pantallas, estudio, patio y el primer móvil.
 7. Mascotas
    Dónde duermen, qué les rodea, la luz que no reciben.
-8. Tu plan de higiene electromagnética
+8. Tu plan de higiene tecnológica
    Prioridades, revisión de diez minutos y semana OASIS.
 
 Páginas finales
@@ -102,7 +102,9 @@ En cada habitación aplicaremos el método **OASIS**:
 
 Llamamos **Oasis Electromagnético** a un espacio revisado con ese criterio: menos fuentes evitables, más distancia respecto a las necesarias y una luz pensada para lo que haces y para la hora que es. Es el nombre de nuestra forma de trabajar, no un certificado de que ahí no hay campos.
 
-Usa un lápiz. Dibuja tu casa, marca tres cambios y ponles fecha. La higiene electromagnética funciona como hábito, no como una obra de un fin de semana.
+Llamo **higiene tecnológica** a ordenar tres cosas: los campos que rodean a tus aparatos, la luz que recibes a cada hora y el tiempo que pasas dentro y fuera de casa. La parte de los campos es lo que se conoce como higiene electromagnética; aquí es una de las tres patas, no la única.
+
+Usa un lápiz. Dibuja tu casa, marca tres cambios y ponles fecha. La higiene tecnológica funciona como hábito, no como una obra de un fin de semana.
 
 Los dos códigos QR del final te llevan a la web y al canal de YouTube de EKIO. Ahí están la app, los tests, las fichas de cada producto y los vídeos, que se irán renovando. Lo esencial está en estas páginas.
 

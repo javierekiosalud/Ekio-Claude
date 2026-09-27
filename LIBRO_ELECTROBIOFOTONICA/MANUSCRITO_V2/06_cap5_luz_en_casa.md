@@ -95,7 +95,7 @@ Usaron un equipo concreto, mezcla de láser y LED, sobre puntos del muslo. Lo ú
 
 ## La familia EKIO Light, sin cifras que caduquen
 
-Creé EKIO Light con una idea: si vamos a usar luz para cuidarnos, el aparato tiene que encajar en una buena higiene electromagnética. Por eso miramos el espectro, el parpadeo, la fuente de alimentación y los campos alrededor del panel.
+Creé EKIO Light con una idea: si vamos a usar luz para cuidarnos, el aparato tiene que encajar en una buena higiene tecnológica. Por eso miramos el espectro, el parpadeo, la fuente de alimentación y los campos alrededor del panel.
 
 Te presento la familia como familia, sin números de irradiancia ni recuentos de LED, porque los modelos cambian y un libro no. Los datos exactos de tu equipo están en su ficha, en la web y en la app. El test "Qué EKIO Light necesito" te ayuda a ordenar las opciones.
 
