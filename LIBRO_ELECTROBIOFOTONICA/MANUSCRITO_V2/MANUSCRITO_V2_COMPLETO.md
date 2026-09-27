@@ -293,7 +293,7 @@ La luz del sol llega mezclada: oscila en todas las orientaciones a la vez y camb
 
 Esa diferencia es la que importa. Una oscilación siempre en la misma dirección empuja a los iones de nuestras células (calcio, magnesio, cargas eléctricas pequeñísimas) de forma coordinada, como una ola de estadio, mientras que la mezcla natural los deja tranquilos. Un campo natural, aunque sea intenso, no empuja en bloque; un campo artificial, aunque sea débil, sí. Por eso la cantidad de radiación no lo explica todo, y por eso nuestro cuerpo puede notar campos que están muy por debajo de los límites legales.
 
-Es lo que describen investigadores como Dimitris Panagopoulos y lo que yo he visto durante años en las casas. Y es también la base sobre la que actúa SPIRO: su material desordena esa orientación fija para que la señal siga llegando a tu móvil o a tu router, pero deje de empujar en una sola dirección. Lo veremos en el capítulo 3.
+Es lo que describen investigadores como Dimitris Panagopoulos. Y es también la base sobre la que se sitúa SPIRO: su material desordena esa orientación fija para que la señal siga llegando a tu móvil o a tu router, pero deje de empujar en una sola dirección. Lo veremos en el capítulo 3.
 
 *[Figura 1.6 · Una cuerda y una valla — figura nueva, pendiente de Mauro Arroyo]*
 
