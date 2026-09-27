@@ -59,11 +59,12 @@ Primero resuelvo lo evitable: aparatos innecesarios, proximidad y problemas de i
 | Situación | Lo que hacemos en EKIO |
 |---|---|
 | Teléfono o tableta | SPIRO Card en la parte de atrás, entre el aparato y la funda |
-| Router | SPIRO Disc delante del router |
+| Router | SPIRO Disc o SPIRO Square X delante del router |
 | Ordenador, tableta o asistente de voz | SPIRO Square junto al aparato |
 | Estancia con varias fuentes | El modelo Disc adecuado para el espacio |
 | Viajes, transporte y puestos de trabajo ajenos | Square X, que cabe en un bolsillo o una bolsa |
-| Inversor solar, coche eléctrico | Disc X |
+| Inversor solar | Disc X |
+| Coche eléctrico | Disc Ultra o tres Square X |
 | Zonas urbanas muy densas o personas que refieren alta sensibilidad | Disc X o Disc Ultra, según la valoración del lugar |
 | Ruido medido en la línea eléctrica | Stroom Master, un filtro que se enchufa |
 
@@ -125,7 +126,7 @@ Si conduces muchas horas (taxi, reparto) y notas dolor de cabeza o malestar, rev
 
 ![Figura 3.3 · Un coche eléctrico también tiene un mapa](esquemas/mapa-coche-electrico-spiro.svg)
 
-> **FIGURA 3.3 · Un coche eléctrico también tiene un mapa.** Planta reconocible de un coche (ruedas, parabrisas) con motor e inversor delante, batería bajo los asientos, cuatro ocupantes. A un lado: "Propuesta de EKIO: tres Square X, o un Disc X". Pie: "Fijación segura · pedales y airbags libres · mide un acompañante, no el conductor". Referencia Codex: `mapa-coche-electrico-spiro`, rehecho para que parezca un coche.
+> **FIGURA 3.3 · Un coche eléctrico también tiene un mapa.** Planta reconocible de un coche (ruedas, parabrisas) con motor e inversor delante, batería bajo los asientos, cuatro ocupantes. A un lado: "Propuesta de EKIO: Disc Ultra o tres Square X". Pie: "Fijación segura · pedales y airbags libres · mide un acompañante, no el conductor". Referencia Codex: `mapa-coche-electrico-spiro`, rehecho para que parezca un coche.
 
 ## Receta 4 — Revisa un coche eléctrico
 
@@ -134,7 +135,7 @@ Si conduces muchas horas (taxi, reparto) y notas dolor de cabeza o malestar, rev
 1. **Compara situaciones.** Reposo, circulación, aceleración, frenada y carga. Pies, asientos, consola y plazas traseras. Durante la marcha mide el acompañante: el conductor conduce.
 2. **Apaga conexiones que sobran.** Conserva las de seguridad. Aparta el móvil del cuerpo.
 3. **Cuida la jornada.** Ventila, para, cambia de postura. Si hay síntomas persistentes, pide valoración.
-4. **Si incorporas SPIRO**, en EKIO proponemos tres Square X repartidos o un Disc X, según el caso. Fíjalos sin tocar pedales, airbags ni visibilidad, y nunca conectados a la batería.
+4. **Si incorporas SPIRO**, en EKIO proponemos un Disc Ultra o tres Square X repartidos, según el caso. Fíjalos sin tocar pedales, airbags ni visibilidad, y nunca conectados a la batería.
 5. **Anota las condiciones.** Ruta, velocidad, cobertura y carga cambian las lecturas.
 
 ## Devuelve al teléfono su sitio

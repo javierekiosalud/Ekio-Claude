@@ -186,9 +186,9 @@ P.1 El camino que dio origen a este libro.
 
 **SPIRO Disc.** Formato para espacios. En EKIO se coloca delante del router.
 
-**SPIRO Disc X.** Formato para focos como inversores solares o vehículos eléctricos.
+**SPIRO Disc X.** Formato para focos de alta emisión como los inversores solares.
 
-**SPIRO Disc Ultra.** Formato para zonas urbanas muy densas o personas que refieren alta sensibilidad. Selección comercial, no indicación médica.
+**SPIRO Disc Ultra.** Formato para zonas urbanas muy densas, vehículos eléctricos o personas que refieren alta sensibilidad. Selección comercial, no indicación médica.
 
 **SPIRO Square.** Formato para un ordenador, una tableta o un asistente de voz.
 
