@@ -8,9 +8,13 @@ Vamos a aprender a distinguirlos. Llamar "contaminación electromagnética" a to
 
 ## El experimento que cabe en una mano
 
-En 1831, Michael Faraday movió un imán junto a una bobina conectada a un aparato que detectaba corriente. La aguja se movió. Cuando dejó de mover el imán, la corriente desapareció.
+En el verano de 1831, en el sótano de la Royal Institution de Londres, un hombre de cuarenta años enrollaba alambre alrededor de un anillo de hierro. Michael Faraday no había pisado una universidad. Había empezado como aprendiz de encuadernador y había aprendido ciencia leyendo los libros que le daban a encuadernar. Una entrada regalada para las conferencias del químico Humphry Davy le cambió la vida: tomó apuntes tan buenos que Davy acabó contratándolo como ayudante.
 
-Ese gesto sigue funcionando en cada generador y cada transformador del mundo. Y nos da la primera lección: electricidad y magnetismo van juntos, pero en tu casa conviene mirarlos por separado.
+El 29 de agosto conectó una de las bobinas del anillo a una pila y la otra a un galvanómetro, una aguja que se mueve cuando pasa corriente. Al cerrar el circuito, la aguja saltó. Y volvió a su sitio. Al abrirlo, saltó otra vez, en sentido contrario. Mientras la corriente estaba quieta, la aguja no hacía nada. Solo el cambio la movía.
+
+Unas semanas después repitió la idea de la forma más sencilla posible: metió un imán en una bobina y la aguja se movió; lo dejó quieto dentro y la aguja se paró; lo sacó y se movió al revés. Lo anotó en su diario con la sobriedad de quien todavía no sabe que acaba de inventar el generador eléctrico.
+
+Ese gesto, un imán que se mueve junto a un cable, es el que hoy hace girar cada central eléctrica, cada alternador de coche y cada transformador de tu calle. Y nos deja la primera lección de este libro: electricidad y magnetismo van juntos, pero en tu casa conviene mirarlos por separado, porque no aparecen en los mismos sitios ni se reducen de la misma manera.
 
 ## Cuatro lentes para mirar lo que no ves
 

@@ -121,7 +121,9 @@ Escuchar a alguien no obliga a dar por demostrada la causa de cada síntoma. Sí
 
 He entrado en cientos de casas. Casi todas tienen algo en común: nadie mira debajo de la cama.
 
-He visto cabeceros pegados al cuadro eléctrico del piso. Routers en la mesita de noche "porque ahí llega mejor". Regletas con ocho cargadores bajo el sofá donde duerme el perro. Dormitorios infantiles con más aparatos encendidos de noche que un puesto de guardia. Salones iluminados a las once de la noche como una oficina a las once de la mañana. Y personas que llevaban años sin pisar la tierra descalzas ni ver amanecer.
+La primera vez que lo entendí fue en un piso pequeño, de esos con el cuadro eléctrico en el recibidor. La dueña me contó que llevaba años durmiendo mal y que había probado de todo. Su cama estaba pegada a la pared del recibidor, con el cabecero justo detrás del cuadro. Entre su cabeza y todos los cables de la casa había doce centímetros de ladrillo. Nadie se lo había dicho porque nadie lo había mirado.
+
+Desde entonces lo he visto de mil formas. Routers en la mesita de noche "porque ahí llega mejor". Regletas con ocho cargadores bajo el sofá donde duerme el perro. Un adolescente que cargaba el móvil debajo de la almohada para que la alarma "se oyera mejor". Dormitorios infantiles con más aparatos encendidos de noche que un puesto de guardia: vigilabebés, humidificador con Wi-Fi, proyector de estrellas, altavoz, cámara. Salones iluminados a las once de la noche como una oficina a las once de la mañana. Y personas que llevaban años sin pisar la tierra descalzas ni ver amanecer, no por falta de ganas sino porque nadie les había dicho que importaba.
 
 También he visto lo que pasa cuando se ordena eso. No siempre. No en todos. Pero muchas veces la persona que dormía mal empieza a dormir. El niño que no había forma de acostar se acuesta. El animal que se escondía deja de esconderse. Yo no puedo demostrarte con un estudio que fue el cable, o el router, o la luz. Casi siempre se cambian varias cosas a la vez. Lo que te puedo decir es que lo he visto suficientes veces como para escribir este libro.
 
@@ -180,9 +182,13 @@ Vamos a aprender a distinguirlos. Llamar "contaminación electromagnética" a to
 
 ## El experimento que cabe en una mano
 
-En 1831, Michael Faraday movió un imán junto a una bobina conectada a un aparato que detectaba corriente. La aguja se movió. Cuando dejó de mover el imán, la corriente desapareció.
+En el verano de 1831, en el sótano de la Royal Institution de Londres, un hombre de cuarenta años enrollaba alambre alrededor de un anillo de hierro. Michael Faraday no había pisado una universidad. Había empezado como aprendiz de encuadernador y había aprendido ciencia leyendo los libros que le daban a encuadernar. Una entrada regalada para las conferencias del químico Humphry Davy le cambió la vida: tomó apuntes tan buenos que Davy acabó contratándolo como ayudante.
 
-Ese gesto sigue funcionando en cada generador y cada transformador del mundo. Y nos da la primera lección: electricidad y magnetismo van juntos, pero en tu casa conviene mirarlos por separado.
+El 29 de agosto conectó una de las bobinas del anillo a una pila y la otra a un galvanómetro, una aguja que se mueve cuando pasa corriente. Al cerrar el circuito, la aguja saltó. Y volvió a su sitio. Al abrirlo, saltó otra vez, en sentido contrario. Mientras la corriente estaba quieta, la aguja no hacía nada. Solo el cambio la movía.
+
+Unas semanas después repitió la idea de la forma más sencilla posible: metió un imán en una bobina y la aguja se movió; lo dejó quieto dentro y la aguja se paró; lo sacó y se movió al revés. Lo anotó en su diario con la sobriedad de quien todavía no sabe que acaba de inventar el generador eléctrico.
+
+Ese gesto, un imán que se mueve junto a un cable, es el que hoy hace girar cada central eléctrica, cada alternador de coche y cada transformador de tu calle. Y nos deja la primera lección de este libro: electricidad y magnetismo van juntos, pero en tu casa conviene mirarlos por separado, porque no aparecen en los mismos sitios ni se reducen de la misma manera.
 
 ## Cuatro lentes para mirar lo que no ves
 
@@ -378,11 +384,15 @@ La cama es una zona de permanencia. Algo que usas dos minutos en la cocina no cu
 
 ### Una mosca sabía la hora antes que tu teléfono
 
-En los años setenta, Seymour Benzer y Ronald Konopka estudiaron moscas de la fruta con los ritmos cambiados y encontraron un gen al que llamaron *period*. Los trabajos posteriores de Jeffrey Hall, Michael Rosbash y Michael Young explicaron el reloj molecular de las células y recibieron el Premio Nobel de Fisiología o Medicina de 2017.
+En 1971, en el Instituto Tecnológico de California, un estudiante de doctorado llamado Ronald Konopka hizo una pregunta que a muchos les pareció absurda: ¿se puede heredar la hora? Su director, Seymour Benzer, llevaba años usando moscas de la fruta para buscar genes detrás del comportamiento, y le dejó intentarlo.
+
+Konopka alimentó a miles de moscas con una sustancia que provoca mutaciones al azar y se dedicó a observar a qué hora salían de la pupa sus descendientes. Las moscas normales salen al amanecer. Entre miles de tubos encontró tres familias raras: una salía a cualquier hora, sin ritmo; otra vivía días de diecinueve horas; otra, días de veintiocho. Las tres tenían estropeado el mismo gen. Lo llamaron *period*.
+
+Trece años después, dos equipos, el de Jeffrey Hall y Michael Rosbash y el de Michael Young, consiguieron aislar ese gen y explicar cómo funciona: la célula fabrica una proteína durante la noche, la proteína se acumula, frena su propia fabricación, se degrada durante el día y el ciclo vuelve a empezar. Un reloj de veinticuatro horas hecho de moléculas, dentro de cada célula. En 2017 los tres recibieron el Premio Nobel de Fisiología o Medicina.
 
 Una mosca no consulta una agenda. Su cuerpo lleva el tiempo dentro.
 
-Tú también. Y la luz es lo que pone ese reloj en hora. Una pantalla encendida a las once de la noche le dice al cuerpo que aún es de día. En el capítulo 4 verás el experimento que lo demostró con doce personas y cinco noches.
+Tú también. Tienes ese mismo tipo de reloj en el cerebro y en casi todas tus células, y lo que lo pone en hora cada día es la luz que entra por los ojos. Una pantalla encendida a las once de la noche le dice a ese reloj que aún es de día. En el capítulo 4 verás el experimento que lo midió con doce personas y cinco noches.
 
 ### Receta 1 — Prepara una mesita que te deje descansar
 
@@ -531,11 +541,11 @@ En el capítulo siguiente nos ocupamos del aparato que te sigue por todas estas 
 **En una frase:** túmbate en tu cama y mira lo que hay a un brazo de distancia; lo que veas ahí es por donde empieza tu casa.
 # Capítulo 3 · El teléfono que llevas encima
 
-El 3 de abril de 1973, Martin Cooper, ingeniero de Motorola, hizo desde una acera de Nueva York la primera llamada con un teléfono portátil. El aparato, un prototipo llamado DynaTAC, pesaba más de un kilo. Demostraba algo extraordinario: la llamada podía acompañarte por la calle.
+El 3 de abril de 1973, un ingeniero de Motorola llamado Martin Cooper salió a la Sexta Avenida de Nueva York con un aparato del tamaño de un ladrillo, lo levantó delante de los periodistas y marcó un número. Al otro lado contestó Joel Engel, el jefe del proyecto rival en los laboratorios Bell. "Joel, te llamo desde un teléfono celular. Un teléfono de verdad, portátil, de mano." Cooper contaba después que hubo un silencio al otro lado; nunca supo si de asombro o de fastidio.
 
-Hoy tu teléfono cabe en un bolsillo y sirve para hablar, pagar, orientarte y mirar durante veinte minutos un vídeo que ibas a ver "solo un segundo".
+El prototipo se llamaba DynaTAC. Pesaba más de un kilo, tardaba diez horas en cargarse y daba para media hora de conversación. Los transeúntes se paraban a mirar a un hombre hablando solo con una caja pegada a la oreja. Tardó diez años en llegar a las tiendas, a un precio de casi cuatro mil dólares de la época.
 
-El de 1973 tenía una misión. El tuyo cambia de trabajo continuamente. Vamos a ordenar sus conexiones y a darle un sitio cuando termines de usarlo.
+Aquel teléfono tenía una misión: llamar. El tuyo cabe en un bolsillo y sirve para hablar, pagar, orientarte, trabajar y mirar durante veinte minutos un vídeo que ibas a ver "solo un segundo". Cambia de trabajo continuamente, y cada trabajo emite de una manera distinta. Vamos a ordenar sus conexiones y a darle un sitio cuando termines de usarlo.
 
 ## El móvil cambia de actividad
 
@@ -686,9 +696,11 @@ En este capítulo vamos a recuperar tres: la luz del exterior, la transición ha
 
 ## La planta que siguió dando la hora
 
-En 1729, el astrónomo francés Jean-Jacques d'Ortous de Mairan metió una planta de hojas móviles en un armario oscuro. Las hojas siguieron abriéndose de día y cerrándose de noche. El movimiento no dependía de que alguien encendiera el sol.
+En 1729, un astrónomo francés llamado Jean-Jacques d'Ortous de Mairan tenía en su despacho una mimosa, esa planta que pliega las hojas cuando la tocas y también cada tarde, al caer el sol. Se le ocurrió una pregunta sencilla: ¿las cierra porque se va la luz, o porque sabe qué hora es?
 
-Tu cuerpo también lleva ritmos dentro: sueño, temperatura, actividad. La luz que entra por los ojos ajusta ese reloj al día exterior, como pones en hora un reloj de pulsera que se ha desfasado.
+Metió la planta en un armario, a oscuras, y fue abriendo la puerta a distintas horas para mirar. Las hojas seguían abriéndose por la mañana y cerrándose por la tarde, sin ver el sol. De Mairan era un hombre prudente: no quiso sacar conclusiones, y fue un colega quien presentó la observación ante la Academia de Ciencias de París en una nota de apenas una página. Tardaríamos más de dos siglos en entender lo que aquella mimosa estaba diciendo: que los seres vivos llevan un reloj dentro, y que la luz no lo crea, lo pone en hora.
+
+Tu cuerpo también lleva ritmos: sueño, temperatura, tensión, hambre, actividad. La luz que entra por los ojos ajusta ese reloj al día exterior, como pones en hora un reloj de pulsera que se ha desfasado.
 
 Para recibir esa señal basta mirar el entorno. No mires directamente al Sol.
 
@@ -696,7 +708,11 @@ Para recibir esa señal basta mirar el entorno. No mires directamente al Sol.
 
 Una lámpara te permite leer y, aun así, da muchísima menos luz que la calle. Puede que tu salón bien iluminado tenga cien veces menos luz que un día nublado.
 
-En 2013, Kenneth Wright y su equipo se llevaron a ocho adultos una semana de acampada, con luz natural de día y oscuridad de noche, sin electricidad. Su reloj interno, medido por la melatonina, se alineó con el sol. Fue una semana entera de condiciones, no una salida de tres minutos.
+En julio de 2013, Kenneth Wright, de la Universidad de Colorado, se llevó a ocho adultos a acampar una semana a las Montañas Rocosas. La regla era una: nada de luz eléctrica. Ni linternas, ni pantallas, ni farolas. Solo el sol de día y la hoguera y la luna de noche. Antes y después les midió la melatonina, la hormona que marca el comienzo de la noche biológica.
+
+En su vida normal, la melatonina de aquellas personas empezaba a subir unas dos horas después de la puesta de sol y seguía alta cuando ya se habían despertado. Después de una semana de acampada, empezaba a subir con el atardecer y bajaba con el amanecer. El reloj se había alineado con el sol. Y lo más llamativo: los que más cambiaron fueron los "búhos", los que en casa se acostaban más tarde. En el campo dejaron de serlo.
+
+Fue una semana entera de condiciones, no una salida de tres minutos.
 
 La acción doméstica es sencilla: acerca tus actividades a la luz del día y añade salidas que puedas repetir. Trabajar junto a una ventana ayuda; caminar fuera cambia además la intensidad, la distancia a la que miras y el movimiento.
 
@@ -788,9 +804,13 @@ Elige un cambio para mañana: un paseo al levantarte o una hora de cierre de pan
 **En una frase:** tu cuerpo espera cada día tres cosas que ya no le das: el cielo por la mañana, la oscuridad por la noche y la tierra bajo los pies.
 # Capítulo 5 · Usar la luz en casa
 
-En 1903, un médico danés recibió el Premio Nobel por tratar una enfermedad con luz. Se llamaba Niels Ryberg Finsen y trabajaba con el lupus vulgaris, una tuberculosis de la piel. No tenía LED, ni una aplicación, ni un panel colgado de la puerta. Tenía filtros, lentes, lámparas difíciles de manejar y una idea poderosa: la luz podía ser una intervención biológica.
+Niels Ryberg Finsen nació en 1860 en las islas Feroe, en mitad del Atlántico Norte, donde el sol es un bien escaso. De joven enfermó de un trastorno que le fue debilitando el cuerpo poco a poco, y se dio cuenta de algo que anotó con la precisión de un científico: los días de sol se encontraba mejor. Empezó a seguir la luz por su casa como un gato, moviendo la silla de ventana en ventana.
 
-Aquella fototerapia no era la fotobiomodulación de hoy. Pero abrió una puerta: dejó de mirar la luz solo como iluminación y empezó a estudiarla como algo que se puede dosificar.
+Ya médico en Copenhague, convirtió esa observación en un método. Primero demostró que la luz roja, filtrada, ayudaba a curar la viruela sin las cicatrices habituales. Después construyó lámparas de arco eléctrico con filtros y lentes que concentraban la luz sobre la piel, y las aplicó al lupus vulgaris, una tuberculosis de la piel que desfiguraba la cara y que hasta entonces no tenía cura. Los pacientes se sentaban durante horas con la lámpara enfocada, sujeta por enfermeras, mientras una pieza de cristal presionaba la piel para dejarla sin sangre y más transparente. Muchos se curaron.
+
+En 1903 recibió el Premio Nobel de Medicina, el primero concedido a un tratamiento con luz. Murió al año siguiente, con cuarenta y tres años. No tenía LED, ni una aplicación, ni un panel colgado de la puerta. Tenía filtros, lentes, lámparas difíciles de manejar y una idea poderosa: la luz podía dosificarse como una medicina.
+
+Aquella fototerapia no era la fotobiomodulación de hoy. Pero abrió una puerta: dejó de mirar la luz solo como iluminación y empezó a estudiarla como algo que se mide, se enfoca y se dosifica.
 
 Hoy llamamos **fotobiomodulación** a aplicar luz, normalmente roja e infrarroja cercana, para modificar procesos biológicos sin calentar el tejido. Sus resultados dependen de cómo se aplica.
 
@@ -953,7 +973,7 @@ Antes de tu próxima sesión deja escritos los cinco datos: objetivo, modo, dist
 **En una frase:** las bombillas son para vivir y los paneles para una sesión; el error más común es tratar a un panel como si fuera una lámpara y a una lámpara como si fuera un tratamiento.
 # Capítulo 6 · Niños y adolescentes
 
-El 9 de enero de 2007, Steve Jobs presentó el primer iPhone. Un niño nacido aquel año ya es adulto. Hemos aprendido a convivir con esta pantalla mientras nuestros hijos crecían con ella.
+El 9 de enero de 2007, en un escenario de San Francisco, Steve Jobs anunció que iba a presentar tres productos: un iPod con pantalla táctil, un teléfono y un aparato para navegar por Internet. Repitió la lista tres veces, cada vez más despacio, hasta que el público entendió que eran el mismo aparato. Un niño nacido aquella semana ya ha cumplido diecinueve años. Es la primera generación que no recuerda el mundo sin esa pantalla en el bolsillo de sus padres, y luego en el suyo. Hemos aprendido a convivir con ella mientras ellos crecían con ella, y nadie nos dio instrucciones.
 
 Imagina que tu hijo te pregunta por qué no puede dormir con el móvil. Le explicas que la cama es para descansar, que las notificaciones despiertan, que una pantalla invita a seguir mirando. Y entonces llega la pregunta difícil:
 
@@ -971,9 +991,13 @@ Y una cosa que veo cada vez más en las consultas y en las casas: niños que no 
 
 ## La noche de una niña de cuatro años
 
-Son las ocho y media. Una niña está viendo un capítulo en la tableta mientras su padre recoge la cocina. La pantalla debía apagarse al terminar, pero aparece el siguiente episodio y empieza solo. Después llega el baño, un cuento y la negociación internacional más antigua del mundo:
+Son las ocho y media de un martes. Una niña de cuatro años está en el sofá con la tableta apoyada en las rodillas, a treinta centímetros de la cara, viendo el capítulo que le prometieron "solo uno" mientras su padre recoge la cocina. La pantalla está al máximo de brillo, porque así la dejó el hermano mayor por la tarde. El capítulo termina. La tableta, sin que nadie se lo pida, muestra el siguiente y empieza a contar: cinco, cuatro, tres. La niña no toca nada. Empieza solo.
+
+A las nueve y cuarto su padre se da cuenta de la hora. Baño rápido con la luz del techo encendida, pijama, dientes, un cuento con la lámpara de la mesita a tope, y entonces la negociación internacional más antigua del mundo:
 
 —No tengo sueño.
+
+Y no miente. Su cuerpo ha recibido durante la última hora la señal de que es mediodía.
 
 En 2018, Lameese Akacem y su equipo estudiaron a diez niños de preescolar. Tras una hora de luz intensa antes de acostarse, la melatonina, la hormona de la noche, cayó casi del todo y seguía baja cincuenta minutos después. Fue un experimento pequeño con una luz concreta; no dice nada de la radiofrecuencia ni de cualquier bombilla.
 
@@ -1125,9 +1149,11 @@ Empieza esta noche: elegid juntos dónde cargarán los móviles. Tú deja el tuy
 
 En España hay hoy más mascotas que niños. El registro oficial de animales de compañía contaba en 2025 más de quince millones de mascotas, frente a unos ocho millones y medio de menores de edad. Solo los perros, más de siete millones y medio, ya superan a todos los niños de hasta catorce años del país. Compartimos con ellas el sofá, el dormitorio y, sin darnos cuenta, el router, la regleta y la luz de las once de la noche. Ellas no eligieron nada de eso. Nosotros sí.
 
-En 2013, Vlastimil Hart y sus colaboradores siguieron durante dos años a setenta perros de treinta y siete razas mientras paseaban. Registraron 1893 deposiciones y 5582 micciones. Sí: alguien tuvo que anotar hacia dónde miraba cada perro en ese momento.
+Unos años antes de estudiar perros, un grupo de investigadores checos y alemanes se había entretenido mirando vacas en las fotos de satélite de Google Earth. Miles de vacas, en pastos de todo el mundo. Descubrieron que, cuando pastan o descansan, tienden a colocarse en dirección norte-sur, como agujas de brújula con manchas. Nadie lo había notado en diez mil años de ganadería.
 
-Encontraron una preferencia por alinearse en dirección norte-sur, sobre todo al defecar, en los días de calma magnética de la Tierra. La preferencia desaparecía cuando el campo terrestre se alteraba.
+El siguiente paso era lógico: ¿y los perros? En 2013, Vlastimil Hart y su equipo publicaron los resultados de dos años de trabajo con setenta perros de treinta y siete razas. Los dueños, voluntarios, sacaban a sus perros a pasear sueltos por el campo, lejos de vallas y caminos, y cada vez que el animal se paraba a hacer sus necesidades anotaban con una brújula hacia dónde miraba. Registraron 1893 deposiciones y 5582 micciones. Sí: alguien tuvo que anotar hacia dónde miraba cada perro en ese momento, durante dos años.
+
+El resultado no apareció hasta que cruzaron los datos con los registros del campo magnético terrestre, que cambia un poco cada día. En los días de calma magnética, los perros preferían claramente alinearse en dirección norte-sur, sobre todo al defecar. En los días en que el campo de la Tierra se alteraba, la preferencia desaparecía. Como si el perro llevara una brújula que solo funciona cuando no hay interferencias.
 
 Es una observación curiosa sobre una posible sensibilidad al campo de la Tierra. No estudió el Wi-Fi ni ningún accesorio.
 
@@ -1284,9 +1310,9 @@ O quizá solo haya encontrado el arbusto perfecto.
 **En una frase:** tu mascota no eligió el router, la regleta ni la luz de las once; dale lo que tú también necesitas: distancia, oscuridad de noche y un rato de sol y tierra cada día.
 # Capítulo 8 · Tu plan de higiene tecnológica
 
-El cargador ha vuelto a la mesita. Nadie sabe quién reactivó el repetidor. El móvil que iba a dormir en el salón aparece otra vez bajo la almohada.
+Han pasado tres semanas desde que ordenaste el dormitorio. El cargador ha vuelto a la mesita, nadie sabe cómo. El repetidor que apagaste está encendido otra vez; alguien lo necesitó una tarde para una videollamada y ahí se quedó. El móvil que iba a dormir en el salón aparece otra vez bajo la almohada, porque una noche hubo que poner una alarma temprano y al día siguiente ya era costumbre. La lámpara amarilla está donde la pusiste, pero la del techo, la blanca, es la que se enciende cuando entra el primero.
 
-Una casa recupera sus costumbres con facilidad. Por eso quiero terminar con una lista que puedas usar. Elige tres cambios para esta semana: uno en el dormitorio, otro en tus dispositivos y otro en la luz o el tiempo fuera.
+No es que hayas fracasado. Es que una casa recupera sus costumbres con facilidad, igual que un camino se vuelve a llenar de hierba. Por eso quiero terminar con una lista que puedas usar. Elige tres cambios para esta semana: uno en el dormitorio, otro en tus dispositivos y otro en la luz o el tiempo fuera.
 
 Para cada cambio, apunta qué harás, quién lo hará y cuándo lo comprobaréis. La intención necesita una fecha.
 
@@ -1757,6 +1783,7 @@ Las referencias van aquí para no cargar la lectura. En el texto, cada estudio s
 
 ## Animales de compañía
 - Ministerio de Derechos Sociales, Consumo y Agenda 2030. (2025). Registro estatal de animales de compañía: 15.171.569 animales (7.562.893 perros, 5.619.967 gatos). Instituto Nacional de Estadística. Cifras de población por edad, 2025.
+- Begall S, Červený J, Neef J, Vojtěch O, Burda H. (2008). Magnetic alignment in grazing and resting cattle and deer. *PNAS* 105:13451-13455.
 - Alves JC et al. (2022). A randomized double-blinded controlled trial on the effects of photobiomodulation therapy in dogs with osteoarthritis. *American Journal of Veterinary Research* 83(8). DOI 10.2460/ajvr.22.03.0036.
 - Chavez OA et al. (2024; en línea 2023). Photobiomodulation therapy in dogs undergoing TPLO after cranial cruciate ligament rupture shows promise but no statistically significant difference in a randomized trial. *American Journal of Veterinary Research* 85(2). DOI 10.2460/ajvr.23.06.0138.
 - Hart V et al. (2013). Dogs are sensitive to small variations of the Earth's magnetic field. *Frontiers in Zoology* 10:80.

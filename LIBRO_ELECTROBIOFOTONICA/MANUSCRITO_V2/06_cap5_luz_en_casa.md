@@ -1,8 +1,12 @@
 # Capítulo 5 · Usar la luz en casa
 
-En 1903, un médico danés recibió el Premio Nobel por tratar una enfermedad con luz. Se llamaba Niels Ryberg Finsen y trabajaba con el lupus vulgaris, una tuberculosis de la piel. No tenía LED, ni una aplicación, ni un panel colgado de la puerta. Tenía filtros, lentes, lámparas difíciles de manejar y una idea poderosa: la luz podía ser una intervención biológica.
+Niels Ryberg Finsen nació en 1860 en las islas Feroe, en mitad del Atlántico Norte, donde el sol es un bien escaso. De joven enfermó de un trastorno que le fue debilitando el cuerpo poco a poco, y se dio cuenta de algo que anotó con la precisión de un científico: los días de sol se encontraba mejor. Empezó a seguir la luz por su casa como un gato, moviendo la silla de ventana en ventana.
 
-Aquella fototerapia no era la fotobiomodulación de hoy. Pero abrió una puerta: dejó de mirar la luz solo como iluminación y empezó a estudiarla como algo que se puede dosificar.
+Ya médico en Copenhague, convirtió esa observación en un método. Primero demostró que la luz roja, filtrada, ayudaba a curar la viruela sin las cicatrices habituales. Después construyó lámparas de arco eléctrico con filtros y lentes que concentraban la luz sobre la piel, y las aplicó al lupus vulgaris, una tuberculosis de la piel que desfiguraba la cara y que hasta entonces no tenía cura. Los pacientes se sentaban durante horas con la lámpara enfocada, sujeta por enfermeras, mientras una pieza de cristal presionaba la piel para dejarla sin sangre y más transparente. Muchos se curaron.
+
+En 1903 recibió el Premio Nobel de Medicina, el primero concedido a un tratamiento con luz. Murió al año siguiente, con cuarenta y tres años. No tenía LED, ni una aplicación, ni un panel colgado de la puerta. Tenía filtros, lentes, lámparas difíciles de manejar y una idea poderosa: la luz podía dosificarse como una medicina.
+
+Aquella fototerapia no era la fotobiomodulación de hoy. Pero abrió una puerta: dejó de mirar la luz solo como iluminación y empezó a estudiarla como algo que se mide, se enfoca y se dosifica.
 
 Hoy llamamos **fotobiomodulación** a aplicar luz, normalmente roja e infrarroja cercana, para modificar procesos biológicos sin calentar el tejido. Sus resultados dependen de cómo se aplica.
 

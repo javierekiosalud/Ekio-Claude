@@ -1,6 +1,6 @@
 # Capítulo 6 · Niños y adolescentes
 
-El 9 de enero de 2007, Steve Jobs presentó el primer iPhone. Un niño nacido aquel año ya es adulto. Hemos aprendido a convivir con esta pantalla mientras nuestros hijos crecían con ella.
+El 9 de enero de 2007, en un escenario de San Francisco, Steve Jobs anunció que iba a presentar tres productos: un iPod con pantalla táctil, un teléfono y un aparato para navegar por Internet. Repitió la lista tres veces, cada vez más despacio, hasta que el público entendió que eran el mismo aparato. Un niño nacido aquella semana ya ha cumplido diecinueve años. Es la primera generación que no recuerda el mundo sin esa pantalla en el bolsillo de sus padres, y luego en el suyo. Hemos aprendido a convivir con ella mientras ellos crecían con ella, y nadie nos dio instrucciones.
 
 Imagina que tu hijo te pregunta por qué no puede dormir con el móvil. Le explicas que la cama es para descansar, que las notificaciones despiertan, que una pantalla invita a seguir mirando. Y entonces llega la pregunta difícil:
 
@@ -18,9 +18,13 @@ Y una cosa que veo cada vez más en las consultas y en las casas: niños que no 
 
 ## La noche de una niña de cuatro años
 
-Son las ocho y media. Una niña está viendo un capítulo en la tableta mientras su padre recoge la cocina. La pantalla debía apagarse al terminar, pero aparece el siguiente episodio y empieza solo. Después llega el baño, un cuento y la negociación internacional más antigua del mundo:
+Son las ocho y media de un martes. Una niña de cuatro años está en el sofá con la tableta apoyada en las rodillas, a treinta centímetros de la cara, viendo el capítulo que le prometieron "solo uno" mientras su padre recoge la cocina. La pantalla está al máximo de brillo, porque así la dejó el hermano mayor por la tarde. El capítulo termina. La tableta, sin que nadie se lo pida, muestra el siguiente y empieza a contar: cinco, cuatro, tres. La niña no toca nada. Empieza solo.
+
+A las nueve y cuarto su padre se da cuenta de la hora. Baño rápido con la luz del techo encendida, pijama, dientes, un cuento con la lámpara de la mesita a tope, y entonces la negociación internacional más antigua del mundo:
 
 —No tengo sueño.
+
+Y no miente. Su cuerpo ha recibido durante la última hora la señal de que es mediodía.
 
 En 2018, Lameese Akacem y su equipo estudiaron a diez niños de preescolar. Tras una hora de luz intensa antes de acostarse, la melatonina, la hormona de la noche, cayó casi del todo y seguía baja cincuenta minutos después. Fue un experimento pequeño con una luz concreta; no dice nada de la radiofrecuencia ni de cualquier bombilla.
 

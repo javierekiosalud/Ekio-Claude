@@ -10,7 +10,9 @@ Escuchar a alguien no obliga a dar por demostrada la causa de cada síntoma. Sí
 
 He entrado en cientos de casas. Casi todas tienen algo en común: nadie mira debajo de la cama.
 
-He visto cabeceros pegados al cuadro eléctrico del piso. Routers en la mesita de noche "porque ahí llega mejor". Regletas con ocho cargadores bajo el sofá donde duerme el perro. Dormitorios infantiles con más aparatos encendidos de noche que un puesto de guardia. Salones iluminados a las once de la noche como una oficina a las once de la mañana. Y personas que llevaban años sin pisar la tierra descalzas ni ver amanecer.
+La primera vez que lo entendí fue en un piso pequeño, de esos con el cuadro eléctrico en el recibidor. La dueña me contó que llevaba años durmiendo mal y que había probado de todo. Su cama estaba pegada a la pared del recibidor, con el cabecero justo detrás del cuadro. Entre su cabeza y todos los cables de la casa había doce centímetros de ladrillo. Nadie se lo había dicho porque nadie lo había mirado.
+
+Desde entonces lo he visto de mil formas. Routers en la mesita de noche "porque ahí llega mejor". Regletas con ocho cargadores bajo el sofá donde duerme el perro. Un adolescente que cargaba el móvil debajo de la almohada para que la alarma "se oyera mejor". Dormitorios infantiles con más aparatos encendidos de noche que un puesto de guardia: vigilabebés, humidificador con Wi-Fi, proyector de estrellas, altavoz, cámara. Salones iluminados a las once de la noche como una oficina a las once de la mañana. Y personas que llevaban años sin pisar la tierra descalzas ni ver amanecer, no por falta de ganas sino porque nadie les había dicho que importaba.
 
 También he visto lo que pasa cuando se ordena eso. No siempre. No en todos. Pero muchas veces la persona que dormía mal empieza a dormir. El niño que no había forma de acostar se acuesta. El animal que se escondía deja de esconderse. Yo no puedo demostrarte con un estudio que fue el cable, o el router, o la luz. Casi siempre se cambian varias cosas a la vez. Lo que te puedo decir es que lo he visto suficientes veces como para escribir este libro.
 

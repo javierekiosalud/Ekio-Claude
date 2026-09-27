@@ -1,10 +1,10 @@
 # Capítulo 3 · El teléfono que llevas encima
 
-El 3 de abril de 1973, Martin Cooper, ingeniero de Motorola, hizo desde una acera de Nueva York la primera llamada con un teléfono portátil. El aparato, un prototipo llamado DynaTAC, pesaba más de un kilo. Demostraba algo extraordinario: la llamada podía acompañarte por la calle.
+El 3 de abril de 1973, un ingeniero de Motorola llamado Martin Cooper salió a la Sexta Avenida de Nueva York con un aparato del tamaño de un ladrillo, lo levantó delante de los periodistas y marcó un número. Al otro lado contestó Joel Engel, el jefe del proyecto rival en los laboratorios Bell. "Joel, te llamo desde un teléfono celular. Un teléfono de verdad, portátil, de mano." Cooper contaba después que hubo un silencio al otro lado; nunca supo si de asombro o de fastidio.
 
-Hoy tu teléfono cabe en un bolsillo y sirve para hablar, pagar, orientarte y mirar durante veinte minutos un vídeo que ibas a ver "solo un segundo".
+El prototipo se llamaba DynaTAC. Pesaba más de un kilo, tardaba diez horas en cargarse y daba para media hora de conversación. Los transeúntes se paraban a mirar a un hombre hablando solo con una caja pegada a la oreja. Tardó diez años en llegar a las tiendas, a un precio de casi cuatro mil dólares de la época.
 
-El de 1973 tenía una misión. El tuyo cambia de trabajo continuamente. Vamos a ordenar sus conexiones y a darle un sitio cuando termines de usarlo.
+Aquel teléfono tenía una misión: llamar. El tuyo cabe en un bolsillo y sirve para hablar, pagar, orientarte, trabajar y mirar durante veinte minutos un vídeo que ibas a ver "solo un segundo". Cambia de trabajo continuamente, y cada trabajo emite de una manera distinta. Vamos a ordenar sus conexiones y a darle un sitio cuando termines de usarlo.
 
 ## El móvil cambia de actividad
 

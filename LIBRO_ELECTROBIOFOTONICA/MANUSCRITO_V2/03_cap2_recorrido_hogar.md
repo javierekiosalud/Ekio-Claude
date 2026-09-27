@@ -46,11 +46,15 @@ La cama es una zona de permanencia. Algo que usas dos minutos en la cocina no cu
 
 ### Una mosca sabía la hora antes que tu teléfono
 
-En los años setenta, Seymour Benzer y Ronald Konopka estudiaron moscas de la fruta con los ritmos cambiados y encontraron un gen al que llamaron *period*. Los trabajos posteriores de Jeffrey Hall, Michael Rosbash y Michael Young explicaron el reloj molecular de las células y recibieron el Premio Nobel de Fisiología o Medicina de 2017.
+En 1971, en el Instituto Tecnológico de California, un estudiante de doctorado llamado Ronald Konopka hizo una pregunta que a muchos les pareció absurda: ¿se puede heredar la hora? Su director, Seymour Benzer, llevaba años usando moscas de la fruta para buscar genes detrás del comportamiento, y le dejó intentarlo.
+
+Konopka alimentó a miles de moscas con una sustancia que provoca mutaciones al azar y se dedicó a observar a qué hora salían de la pupa sus descendientes. Las moscas normales salen al amanecer. Entre miles de tubos encontró tres familias raras: una salía a cualquier hora, sin ritmo; otra vivía días de diecinueve horas; otra, días de veintiocho. Las tres tenían estropeado el mismo gen. Lo llamaron *period*.
+
+Trece años después, dos equipos, el de Jeffrey Hall y Michael Rosbash y el de Michael Young, consiguieron aislar ese gen y explicar cómo funciona: la célula fabrica una proteína durante la noche, la proteína se acumula, frena su propia fabricación, se degrada durante el día y el ciclo vuelve a empezar. Un reloj de veinticuatro horas hecho de moléculas, dentro de cada célula. En 2017 los tres recibieron el Premio Nobel de Fisiología o Medicina.
 
 Una mosca no consulta una agenda. Su cuerpo lleva el tiempo dentro.
 
-Tú también. Y la luz es lo que pone ese reloj en hora. Una pantalla encendida a las once de la noche le dice al cuerpo que aún es de día. En el capítulo 4 verás el experimento que lo demostró con doce personas y cinco noches.
+Tú también. Tienes ese mismo tipo de reloj en el cerebro y en casi todas tus células, y lo que lo pone en hora cada día es la luz que entra por los ojos. Una pantalla encendida a las once de la noche le dice a ese reloj que aún es de día. En el capítulo 4 verás el experimento que lo midió con doce personas y cinco noches.
 
 ### Receta 1 — Prepara una mesita que te deje descansar
 

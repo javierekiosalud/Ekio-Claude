@@ -8,9 +8,11 @@ En este capítulo vamos a recuperar tres: la luz del exterior, la transición ha
 
 ## La planta que siguió dando la hora
 
-En 1729, el astrónomo francés Jean-Jacques d'Ortous de Mairan metió una planta de hojas móviles en un armario oscuro. Las hojas siguieron abriéndose de día y cerrándose de noche. El movimiento no dependía de que alguien encendiera el sol.
+En 1729, un astrónomo francés llamado Jean-Jacques d'Ortous de Mairan tenía en su despacho una mimosa, esa planta que pliega las hojas cuando la tocas y también cada tarde, al caer el sol. Se le ocurrió una pregunta sencilla: ¿las cierra porque se va la luz, o porque sabe qué hora es?
 
-Tu cuerpo también lleva ritmos dentro: sueño, temperatura, actividad. La luz que entra por los ojos ajusta ese reloj al día exterior, como pones en hora un reloj de pulsera que se ha desfasado.
+Metió la planta en un armario, a oscuras, y fue abriendo la puerta a distintas horas para mirar. Las hojas seguían abriéndose por la mañana y cerrándose por la tarde, sin ver el sol. De Mairan era un hombre prudente: no quiso sacar conclusiones, y fue un colega quien presentó la observación ante la Academia de Ciencias de París en una nota de apenas una página. Tardaríamos más de dos siglos en entender lo que aquella mimosa estaba diciendo: que los seres vivos llevan un reloj dentro, y que la luz no lo crea, lo pone en hora.
+
+Tu cuerpo también lleva ritmos: sueño, temperatura, tensión, hambre, actividad. La luz que entra por los ojos ajusta ese reloj al día exterior, como pones en hora un reloj de pulsera que se ha desfasado.
 
 Para recibir esa señal basta mirar el entorno. No mires directamente al Sol.
 
@@ -18,7 +20,11 @@ Para recibir esa señal basta mirar el entorno. No mires directamente al Sol.
 
 Una lámpara te permite leer y, aun así, da muchísima menos luz que la calle. Puede que tu salón bien iluminado tenga cien veces menos luz que un día nublado.
 
-En 2013, Kenneth Wright y su equipo se llevaron a ocho adultos una semana de acampada, con luz natural de día y oscuridad de noche, sin electricidad. Su reloj interno, medido por la melatonina, se alineó con el sol. Fue una semana entera de condiciones, no una salida de tres minutos.
+En julio de 2013, Kenneth Wright, de la Universidad de Colorado, se llevó a ocho adultos a acampar una semana a las Montañas Rocosas. La regla era una: nada de luz eléctrica. Ni linternas, ni pantallas, ni farolas. Solo el sol de día y la hoguera y la luna de noche. Antes y después les midió la melatonina, la hormona que marca el comienzo de la noche biológica.
+
+En su vida normal, la melatonina de aquellas personas empezaba a subir unas dos horas después de la puesta de sol y seguía alta cuando ya se habían despertado. Después de una semana de acampada, empezaba a subir con el atardecer y bajaba con el amanecer. El reloj se había alineado con el sol. Y lo más llamativo: los que más cambiaron fueron los "búhos", los que en casa se acostaban más tarde. En el campo dejaron de serlo.
+
+Fue una semana entera de condiciones, no una salida de tres minutos.
 
 La acción doméstica es sencilla: acerca tus actividades a la luz del día y añade salidas que puedas repetir. Trabajar junto a una ventana ayuda; caminar fuera cambia además la intensidad, la distancia a la que miras y el movimiento.
 

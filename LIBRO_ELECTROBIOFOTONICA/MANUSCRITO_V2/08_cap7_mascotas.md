@@ -2,9 +2,11 @@
 
 En España hay hoy más mascotas que niños. El registro oficial de animales de compañía contaba en 2025 más de quince millones de mascotas, frente a unos ocho millones y medio de menores de edad. Solo los perros, más de siete millones y medio, ya superan a todos los niños de hasta catorce años del país. Compartimos con ellas el sofá, el dormitorio y, sin darnos cuenta, el router, la regleta y la luz de las once de la noche. Ellas no eligieron nada de eso. Nosotros sí.
 
-En 2013, Vlastimil Hart y sus colaboradores siguieron durante dos años a setenta perros de treinta y siete razas mientras paseaban. Registraron 1893 deposiciones y 5582 micciones. Sí: alguien tuvo que anotar hacia dónde miraba cada perro en ese momento.
+Unos años antes de estudiar perros, un grupo de investigadores checos y alemanes se había entretenido mirando vacas en las fotos de satélite de Google Earth. Miles de vacas, en pastos de todo el mundo. Descubrieron que, cuando pastan o descansan, tienden a colocarse en dirección norte-sur, como agujas de brújula con manchas. Nadie lo había notado en diez mil años de ganadería.
 
-Encontraron una preferencia por alinearse en dirección norte-sur, sobre todo al defecar, en los días de calma magnética de la Tierra. La preferencia desaparecía cuando el campo terrestre se alteraba.
+El siguiente paso era lógico: ¿y los perros? En 2013, Vlastimil Hart y su equipo publicaron los resultados de dos años de trabajo con setenta perros de treinta y siete razas. Los dueños, voluntarios, sacaban a sus perros a pasear sueltos por el campo, lejos de vallas y caminos, y cada vez que el animal se paraba a hacer sus necesidades anotaban con una brújula hacia dónde miraba. Registraron 1893 deposiciones y 5582 micciones. Sí: alguien tuvo que anotar hacia dónde miraba cada perro en ese momento, durante dos años.
+
+El resultado no apareció hasta que cruzaron los datos con los registros del campo magnético terrestre, que cambia un poco cada día. En los días de calma magnética, los perros preferían claramente alinearse en dirección norte-sur, sobre todo al defecar. En los días en que el campo de la Tierra se alteraba, la preferencia desaparecía. Como si el perro llevara una brújula que solo funciona cuando no hay interferencias.
 
 Es una observación curiosa sobre una posible sensibilidad al campo de la Tierra. No estudió el Wi-Fi ni ningún accesorio.
 

@@ -1,8 +1,8 @@
 # Capítulo 8 · Tu plan de higiene tecnológica
 
-El cargador ha vuelto a la mesita. Nadie sabe quién reactivó el repetidor. El móvil que iba a dormir en el salón aparece otra vez bajo la almohada.
+Han pasado tres semanas desde que ordenaste el dormitorio. El cargador ha vuelto a la mesita, nadie sabe cómo. El repetidor que apagaste está encendido otra vez; alguien lo necesitó una tarde para una videollamada y ahí se quedó. El móvil que iba a dormir en el salón aparece otra vez bajo la almohada, porque una noche hubo que poner una alarma temprano y al día siguiente ya era costumbre. La lámpara amarilla está donde la pusiste, pero la del techo, la blanca, es la que se enciende cuando entra el primero.
 
-Una casa recupera sus costumbres con facilidad. Por eso quiero terminar con una lista que puedas usar. Elige tres cambios para esta semana: uno en el dormitorio, otro en tus dispositivos y otro en la luz o el tiempo fuera.
+No es que hayas fracasado. Es que una casa recupera sus costumbres con facilidad, igual que un camino se vuelve a llenar de hierba. Por eso quiero terminar con una lista que puedas usar. Elige tres cambios para esta semana: uno en el dormitorio, otro en tus dispositivos y otro en la luz o el tiempo fuera.
 
 Para cada cambio, apunta qué harás, quién lo hará y cuándo lo comprobaréis. La intención necesita una fecha.
 
