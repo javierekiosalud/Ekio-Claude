@@ -1123,7 +1123,7 @@ Empieza esta noche: elegid juntos dónde cargarán los móviles. Tú deja el tuy
 **En una frase:** un niño necesita cielo por la mañana, oscuridad por la noche y un móvil que duerma en otra habitación; lo demás se negocia.
 # Capítulo 7 · Mascotas
 
-En muchas casas españolas hay hoy más mascotas que niños. [Cifra a confirmar con el registro de animales de compañía y el INE antes de imprimir.] Compartimos con ellas el sofá, el dormitorio y, sin darnos cuenta, el router, la regleta y la luz de las once de la noche. Ellas no eligieron nada de eso. Nosotros sí.
+En España hay hoy más mascotas que niños. El registro oficial de animales de compañía contaba en 2025 más de quince millones de mascotas, frente a unos ocho millones y medio de menores de edad. Solo los perros, más de siete millones y medio, ya superan a todos los niños de hasta catorce años del país. Compartimos con ellas el sofá, el dormitorio y, sin darnos cuenta, el router, la regleta y la luz de las once de la noche. Ellas no eligieron nada de eso. Nosotros sí.
 
 En 2013, Vlastimil Hart y sus colaboradores siguieron durante dos años a setenta perros de treinta y siete razas mientras paseaban. Registraron 1893 deposiciones y 5582 micciones. Sí: alguien tuvo que anotar hacia dónde miraba cada perro en ese momento.
 
@@ -1756,6 +1756,7 @@ Las referencias van aquí para no cargar la lectura. En el texto, cada estudio s
 - Schoeni A et al. (2015). Memory performance, wireless communication and exposure to radiofrequency electromagnetic fields. *Environment International* 85:343-351.
 
 ## Animales de compañía
+- Ministerio de Derechos Sociales, Consumo y Agenda 2030. (2025). Registro estatal de animales de compañía: 15.171.569 animales (7.562.893 perros, 5.619.967 gatos). Instituto Nacional de Estadística. Cifras de población por edad, 2025.
 - Alves JC et al. (2022). A randomized double-blinded controlled trial on the effects of photobiomodulation therapy in dogs with osteoarthritis. *American Journal of Veterinary Research* 83(8). DOI 10.2460/ajvr.22.03.0036.
 - Chavez OA et al. (2024; en línea 2023). Photobiomodulation therapy in dogs undergoing TPLO after cranial cruciate ligament rupture shows promise but no statistically significant difference in a randomized trial. *American Journal of Veterinary Research* 85(2). DOI 10.2460/ajvr.23.06.0138.
 - Hart V et al. (2013). Dogs are sensitive to small variations of the Earth's magnetic field. *Frontiers in Zoology* 10:80.

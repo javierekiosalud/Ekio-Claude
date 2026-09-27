@@ -1,6 +1,6 @@
 # Capítulo 7 · Mascotas
 
-En muchas casas españolas hay hoy más mascotas que niños. [Cifra a confirmar con el registro de animales de compañía y el INE antes de imprimir.] Compartimos con ellas el sofá, el dormitorio y, sin darnos cuenta, el router, la regleta y la luz de las once de la noche. Ellas no eligieron nada de eso. Nosotros sí.
+En España hay hoy más mascotas que niños. El registro oficial de animales de compañía contaba en 2025 más de quince millones de mascotas, frente a unos ocho millones y medio de menores de edad. Solo los perros, más de siete millones y medio, ya superan a todos los niños de hasta catorce años del país. Compartimos con ellas el sofá, el dormitorio y, sin darnos cuenta, el router, la regleta y la luz de las once de la noche. Ellas no eligieron nada de eso. Nosotros sí.
 
 En 2013, Vlastimil Hart y sus colaboradores siguieron durante dos años a setenta perros de treinta y siete razas mientras paseaban. Registraron 1893 deposiciones y 5582 micciones. Sí: alguien tuvo que anotar hacia dónde miraba cada perro en ese momento.
 

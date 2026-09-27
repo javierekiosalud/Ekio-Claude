@@ -280,6 +280,7 @@ Las referencias van aquí para no cargar la lectura. En el texto, cada estudio s
 - Schoeni A et al. (2015). Memory performance, wireless communication and exposure to radiofrequency electromagnetic fields. *Environment International* 85:343-351.
 
 ## Animales de compañía
+- Ministerio de Derechos Sociales, Consumo y Agenda 2030. (2025). Registro estatal de animales de compañía: 15.171.569 animales (7.562.893 perros, 5.619.967 gatos). Instituto Nacional de Estadística. Cifras de población por edad, 2025.
 - Alves JC et al. (2022). A randomized double-blinded controlled trial on the effects of photobiomodulation therapy in dogs with osteoarthritis. *American Journal of Veterinary Research* 83(8). DOI 10.2460/ajvr.22.03.0036.
 - Chavez OA et al. (2024; en línea 2023). Photobiomodulation therapy in dogs undergoing TPLO after cranial cruciate ligament rupture shows promise but no statistically significant difference in a randomized trial. *American Journal of Veterinary Research* 85(2). DOI 10.2460/ajvr.23.06.0138.
 - Hart V et al. (2013). Dogs are sensitive to small variations of the Earth's magnetic field. *Frontiers in Zoology* 10:80.
