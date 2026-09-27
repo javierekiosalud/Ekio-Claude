@@ -2,8 +2,9 @@
 
 ## Guía de higiene tecnológica y luz para toda la familia
 
-### Javier Andrés
+### Francisco Javier Andrés Andrés
 
+Naturópata especialista en Contaminación Electromagnética
 Fundador y director de EKIO Electrosmog
 
 > Título definitivo fijado por Javier el 27/09/2026. Debe coincidir exactamente en portada, página de título y metadatos de KDP.
@@ -12,7 +13,7 @@ Fundador y director de EKIO Electrosmog
 
 ## Derechos y edición
 
-Copyright © 2026 Javier Andrés. Todos los derechos reservados.
+Copyright © 2026 Francisco Javier Andrés Andrés. Todos los derechos reservados.
 
 Primera edición: 2026.
 Publicado por EKIO Electrosmog. electrosmogespana.com
@@ -42,11 +43,14 @@ Las direcciones web y los códigos QR se comprobaron al cerrar esta edición. Lo
 
 ---
 
-## Dedicatoria
+## Dedicación
 
-A las personas que han tenido que explicar lo que otros no podían ver.
-
-Y a quienes siguen buscando una forma más consciente de habitar la tecnología.
+Por los méritos que haya podido acumular al escribir este libro,
+que todas las personas que padecen sensibilidad electromagnética
+recuperen la salud y encuentren comprensión;
+que quienes no la padecen no lleguen a conocer nunca sus síntomas;
+que en cada hogar la salud se imponga a la enfermedad,
+y que haya paz entre todos los seres.
 
 ---
 

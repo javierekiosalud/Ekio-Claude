@@ -1,7 +1,7 @@
 # Instrucciones de maquetación e ilustración
 
 **Libro:** *Oasis Electromagnético. Guía de higiene tecnológica y luz para toda la familia*
-**Autor:** Javier Andrés · **Editor:** EKIO Electrosmog
+**Autor:** Francisco Javier Andrés Andrés, naturópata especialista en Contaminación Electromagnética · **Editor:** EKIO Electrosmog
 **Para:** Mauro Arroyo (diseño, ilustración y maquetación)
 **Fecha del texto:** 27 de septiembre de 2026 · **Lanzamiento previsto:** 11 de noviembre de 2026
 
@@ -41,10 +41,10 @@ Orden exacto de las páginas. Las páginas preliminares van sin folio visible o 
 
 **Preliminares**
 1. Portadilla (solo el título).
-2. Página de título (título, subtítulo, autor, "Fundador y director de EKIO Electrosmog", sello EKIO).
+2. Página de título (título, subtítulo, autor con nombre completo "Francisco Javier Andrés Andrés", debajo "Naturópata especialista en Contaminación Electromagnética" y "Fundador y director de EKIO Electrosmog", sello EKIO).
 3. Derechos y edición (créditos legales; ISBN y depósito legal aún pendientes: dejar el hueco).
 4. "Antes de empezar: cuatro cosas que debes saber" (aviso legal; es una página entera y debe verse como aviso, no como capítulo).
-5. Dedicatoria (página sola, derecha).
+5. Dedicación (página sola, derecha, centrada, con aire; es una dedicación de méritos en seis líneas: respetar los cortes de línea).
 6. Índice (con números de página).
 7. "Cómo utilizar este libro" (incluye el método OASIS y la definición de higiene tecnológica).
 
@@ -217,7 +217,7 @@ Son 26 figuras numeradas más 2 QR. De las 26, 23 tienen un esquema de referenci
 
 ## 9. Cubierta (orientación, no diseño)
 
-- **Portada**: título "Oasis Electromagnético" grande; subtítulo debajo; nombre del autor; sello EKIO discreto. La imagen debería sugerir un hogar tranquilo con luz cálida, no un rayo ni un símbolo de peligro. El libro tranquiliza y ordena; no asusta.
+- **Portada**: título "Oasis Electromagnético" grande; subtítulo debajo; nombre del autor completo, "Francisco Javier Andrés Andrés"; sello EKIO discreto. La imagen debería sugerir un hogar tranquilo con luz cálida, no un rayo ni un símbolo de peligro. El libro tranquiliza y ordena; no asusta.
 - **Lomo**: título y autor, legible en 130-150 páginas (unos 8-9 mm).
 - **Contracubierta**: blurb de 120-150 palabras (pendiente), tres o cuatro frases del apéndice "Para contar este libro en dos minutos" como reclamos, biografía de tres líneas, foto opcional, código de barras con ISBN, QR a la web.
 - **Frase de cubierta propuesta**: "Abre el libro. Elige una habitación. Haz tu primer cambio."

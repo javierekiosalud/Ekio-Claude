@@ -1,6 +1,6 @@
 # Por qué escribí este libro
 
-Soy Javier Andrés. Llevo al frente de EKIO desde 2011. Soy naturópata, y mi interés por lo que hay dentro de nuestras casas empezó escuchando a personas que lo estaban pasando mal.
+Soy Francisco Javier Andrés Andrés, naturópata especialista en contaminación electromagnética. Llevo al frente de EKIO desde 2011, y mi interés por lo que hay dentro de nuestras casas empezó escuchando a personas que lo estaban pasando mal.
 
 Entre 2011 y 2012 empecé a trabajar con personas con sensibilidad química múltiple y electrohipersensibilidad. Me marcaron dos cosas: su sufrimiento y la incomprensión que encontraban, muchas veces en su propia familia. Desde entonces no he dejado de buscar maneras de ayudarlas.
 

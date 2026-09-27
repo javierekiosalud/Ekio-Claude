@@ -306,13 +306,15 @@ Las referencias van aquí para no cargar la lectura. En el texto, cada estudio s
 
 # Agradecimientos
 
-A las personas con sensibilidad química múltiple y electrohipersensibilidad que compartieron conmigo cómo vivían y descansaban, y me enseñaron a mirar de otra manera los lugares que habitamos. Sus experiencias están en el origen de mi búsqueda.
+A mis padres, que me enseñaron los valores humanos con los que he intentado vivir y trabajar.
 
-A quienes han dedicado años a estudiar la electricidad, la luz, los campos electromagnéticos y la biología. Sus trabajos me han permitido hacer mejores preguntas y entender que una respuesta útil también debe reconocer sus límites.
+A todos mis maestros, los que me han enseñado en los distintos ámbitos de la vida, y especialmente a los que me enseñaron a apreciar el área de la salud, como Antonio Méndez.
+
+A las personas con sensibilidad química múltiple y electrohipersensibilidad que compartieron conmigo cómo vivían y descansaban, y me enseñaron a mirar de otra manera los lugares que habitamos. Sus experiencias están en el origen de mi búsqueda.
 
 A Joaquín Machado y al equipo de Noxtak, por SPIRO.
 
-Al equipo de EKIO y a las personas que nos han confiado la revisión de sus hogares. Cada conversación, cada medición y cada duda concreta han ayudado a convertir un asunto complejo en decisiones cotidianas.
+A todos mis compañeros del equipo de EKIO: sin ellos no podría hacer mi trabajo.
 
 Y a ti, que has llegado hasta aquí. Este libro cobra sentido cuando dibujas tu propio mapa, cambias un hábito y compartes con otra persona una forma más consciente de convivir con la tecnología.
 
@@ -350,7 +352,7 @@ Si no puedes escanear un código, escribe en el navegador la dirección que hay 
 
 # Sobre el autor
 
-Javier Andrés es naturópata, fundador y director de EKIO Electrosmog.
+Francisco Javier Andrés Andrés es naturópata especialista en contaminación electromagnética, fundador y director de EKIO Electrosmog.
 
 Está al frente de EKIO desde 2011. Entre 2011 y 2012 comenzó a trabajar con personas con sensibilidad química múltiple y electrohipersensibilidad. Escuchar sus experiencias cambió su forma de mirar los hogares, especialmente los dormitorios y los lugares donde más horas pasamos.
 

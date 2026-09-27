@@ -2,8 +2,9 @@
 
 ## Guía de higiene tecnológica y luz para toda la familia
 
-### Javier Andrés
+### Francisco Javier Andrés Andrés
 
+Naturópata especialista en Contaminación Electromagnética
 Fundador y director de EKIO Electrosmog
 
 > Título definitivo fijado por Javier el 27/09/2026. Debe coincidir exactamente en portada, página de título y metadatos de KDP.
@@ -12,7 +13,7 @@ Fundador y director de EKIO Electrosmog
 
 ## Derechos y edición
 
-Copyright © 2026 Javier Andrés. Todos los derechos reservados.
+Copyright © 2026 Francisco Javier Andrés Andrés. Todos los derechos reservados.
 
 Primera edición: 2026.
 Publicado por EKIO Electrosmog. electrosmogespana.com
@@ -42,11 +43,14 @@ Las direcciones web y los códigos QR se comprobaron al cerrar esta edición. Lo
 
 ---
 
-## Dedicatoria
+## Dedicación
 
-A las personas que han tenido que explicar lo que otros no podían ver.
-
-Y a quienes siguen buscando una forma más consciente de habitar la tecnología.
+Por los méritos que haya podido acumular al escribir este libro,
+que todas las personas que padecen sensibilidad electromagnética
+recuperen la salud y encuentren comprensión;
+que quienes no la padecen no lleguen a conocer nunca sus síntomas;
+que en cada hogar la salud se imponga a la enfermedad,
+y que haya paz entre todos los seres.
 
 ---
 
@@ -111,7 +115,7 @@ Los dos códigos QR del final te llevan a la web y al canal de YouTube de EKIO. 
 Empieza por el lugar donde duermes.
 # Por qué escribí este libro
 
-Soy Javier Andrés. Llevo al frente de EKIO desde 2011. Soy naturópata, y mi interés por lo que hay dentro de nuestras casas empezó escuchando a personas que lo estaban pasando mal.
+Soy Francisco Javier Andrés Andrés, naturópata especialista en contaminación electromagnética. Llevo al frente de EKIO desde 2011, y mi interés por lo que hay dentro de nuestras casas empezó escuchando a personas que lo estaban pasando mal.
 
 Entre 2011 y 2012 empecé a trabajar con personas con sensibilidad química múltiple y electrohipersensibilidad. Me marcaron dos cosas: su sufrimiento y la incomprensión que encontraban, muchas veces en su propia familia. Desde entonces no he dejado de buscar maneras de ayudarlas.
 
@@ -1808,13 +1812,15 @@ Las referencias van aquí para no cargar la lectura. En el texto, cada estudio s
 
 # Agradecimientos
 
-A las personas con sensibilidad química múltiple y electrohipersensibilidad que compartieron conmigo cómo vivían y descansaban, y me enseñaron a mirar de otra manera los lugares que habitamos. Sus experiencias están en el origen de mi búsqueda.
+A mis padres, que me enseñaron los valores humanos con los que he intentado vivir y trabajar.
 
-A quienes han dedicado años a estudiar la electricidad, la luz, los campos electromagnéticos y la biología. Sus trabajos me han permitido hacer mejores preguntas y entender que una respuesta útil también debe reconocer sus límites.
+A todos mis maestros, los que me han enseñado en los distintos ámbitos de la vida, y especialmente a los que me enseñaron a apreciar el área de la salud, como Antonio Méndez.
+
+A las personas con sensibilidad química múltiple y electrohipersensibilidad que compartieron conmigo cómo vivían y descansaban, y me enseñaron a mirar de otra manera los lugares que habitamos. Sus experiencias están en el origen de mi búsqueda.
 
 A Joaquín Machado y al equipo de Noxtak, por SPIRO.
 
-Al equipo de EKIO y a las personas que nos han confiado la revisión de sus hogares. Cada conversación, cada medición y cada duda concreta han ayudado a convertir un asunto complejo en decisiones cotidianas.
+A todos mis compañeros del equipo de EKIO: sin ellos no podría hacer mi trabajo.
 
 Y a ti, que has llegado hasta aquí. Este libro cobra sentido cuando dibujas tu propio mapa, cambias un hábito y compartes con otra persona una forma más consciente de convivir con la tecnología.
 
@@ -1852,7 +1858,7 @@ Si no puedes escanear un código, escribe en el navegador la dirección que hay 
 
 # Sobre el autor
 
-Javier Andrés es naturópata, fundador y director de EKIO Electrosmog.
+Francisco Javier Andrés Andrés es naturópata especialista en contaminación electromagnética, fundador y director de EKIO Electrosmog.
 
 Está al frente de EKIO desde 2011. Entre 2011 y 2012 comenzó a trabajar con personas con sensibilidad química múltiple y electrohipersensibilidad. Escuchar sus experiencias cambió su forma de mirar los hogares, especialmente los dormitorios y los lugares donde más horas pasamos.
 
@@ -1875,7 +1881,7 @@ La ciencia, la tecnología, los modelos de producto y los contenidos digitales e
 Si detectas una errata o una referencia que necesita actualización, utiliza los canales de contacto de la web de EKIO.
 # Para contar este libro en dos minutos
 
-**Oasis Electromagnético. Guía de higiene tecnológica y luz para toda la familia.** Javier Andrés, EKIO Electrosmog.
+**Oasis Electromagnético. Guía de higiene tecnológica y luz para toda la familia.** Francisco Javier Andrés Andrés, naturópata especialista en contaminación electromagnética, fundador y director de EKIO Electrosmog.
 
 Apéndice para el autor, para quien lo entreviste y para la contraportada. Frases cortas, cada una sostenida por un capítulo.
 

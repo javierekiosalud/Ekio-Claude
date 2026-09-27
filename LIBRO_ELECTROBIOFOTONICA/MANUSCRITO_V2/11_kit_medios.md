@@ -1,6 +1,6 @@
 # Para contar este libro en dos minutos
 
-**Oasis Electromagnético. Guía de higiene tecnológica y luz para toda la familia.** Javier Andrés, EKIO Electrosmog.
+**Oasis Electromagnético. Guía de higiene tecnológica y luz para toda la familia.** Francisco Javier Andrés Andrés, naturópata especialista en contaminación electromagnética, fundador y director de EKIO Electrosmog.
 
 Apéndice para el autor, para quien lo entreviste y para la contraportada. Frases cortas, cada una sostenida por un capítulo.
 
