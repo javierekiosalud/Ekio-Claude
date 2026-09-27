@@ -1,10 +1,10 @@
 # Capítulo 3 · El teléfono que llevas encima
 
-El 3 de abril de 1973, un ingeniero de Motorola llamado Martin Cooper salió a la Sexta Avenida de Nueva York con un aparato del tamaño de un ladrillo, lo levantó delante de los periodistas y marcó un número. Al otro lado contestó Joel Engel, el jefe del proyecto rival en los laboratorios Bell. "Joel, te llamo desde un teléfono celular. Un teléfono de verdad, portátil, de mano." Cooper contaba después que hubo un silencio al otro lado; nunca supo si de asombro o de fastidio.
+El 3 de abril de 1973, un ingeniero de Motorola llamado Martin Cooper salió a la Sexta Avenida de Nueva York con un aparato del tamaño de un ladrillo, lo levantó delante de los periodistas y marcó un número. Al otro lado contestó Joel Engel, el jefe del proyecto rival en los Laboratorios Bell. «Joel, te llamo desde un teléfono celular. Un teléfono de verdad, portátil, de mano». Cooper contaba después que hubo un silencio; nunca supo si de asombro o de fastidio.
 
 El prototipo se llamaba DynaTAC. Pesaba más de un kilo, tardaba diez horas en cargarse y daba para media hora de conversación. Los transeúntes se paraban a mirar a un hombre hablando solo con una caja pegada a la oreja. Tardó diez años en llegar a las tiendas, a un precio de casi cuatro mil dólares de la época.
 
-Aquel teléfono tenía una misión: llamar. El tuyo cabe en un bolsillo y sirve para hablar, pagar, orientarte, trabajar y mirar durante veinte minutos un vídeo que ibas a ver "solo un segundo". Cambia de trabajo continuamente, y cada trabajo emite de una manera distinta. Vamos a ordenar sus conexiones y a darle un sitio cuando termines de usarlo.
+Aquel teléfono tenía una misión: llamar. El tuyo cabe en un bolsillo y sirve para hablar, pagar, orientarte, trabajar y mirar durante veinte minutos un vídeo que ibas a ver «solo un segundo». Cambia de trabajo continuamente, y cada trabajo emite de una manera distinta. Vamos a ordenar sus conexiones y a darle un sitio cuando termines de usarlo.
 
 ## El móvil cambia de actividad
 
@@ -12,7 +12,7 @@ Con la pantalla apagada puede estar casi quieto o intercambiando datos. En una l
 
 ![Figura 3.1 · El móvil cambia de papel](esquemas/el-movil-cambia-de-papel.svg)
 
-> **FIGURA 3.1 · El móvil cambia de papel.** Cuatro escenas: en reposo, videollamada, poca cobertura, punto de acceso. Pie: "Antes de actuar pregunta: ¿qué está haciendo, a qué distancia y durante cuánto tiempo?". Referencia Codex: `el-movil-cambia-de-papel`.
+> **FIGURA 3.1 · El móvil cambia de papel.** Cuatro escenas: en reposo, videollamada, poca cobertura, punto de acceso. Pie: «Antes de actuar pregunta: ¿qué está haciendo, a qué distancia y durante cuánto tiempo?». Referencia Codex: `el-movil-cambia-de-papel`.
 
 Cuatro escenas: espera sobre una mesa; videollamada a un palmo; envío de un vídeo con poca cobertura; punto de acceso para el ordenador. En la última mantiene la conexión con la antena y crea un Wi-Fi: se ha convertido en un pequeño router.
 
@@ -20,7 +20,7 @@ Una decisión para cada escena: aparta el móvil mientras descarga, usa el altav
 
 ## Una llamada con más distancia
 
-Para separar el aparato de la cabeza tienes tres opciones: altavoz, auriculares con cable y auriculares de tubo de aire. En estos últimos, el último tramo lleva el sonido por un tubo hueco, sin electrónica junto al oído.
+Para separar el aparato de la cabeza tienes tres opciones: altavoz, auriculares con cable y auriculares de tubo de aire. En estos, el tramo final lleva el sonido por un tubo hueco, sin electrónica junto al oído.
 
 Los auriculares inalámbricos usan Bluetooth, que es otra emisión de radiofrecuencia pegada a la cabeza durante horas. En EKIO no los recomendamos: cable o tubo de aire, siempre. Y el móvil, sobre una superficie, no en el bolsillo.
 
@@ -28,7 +28,7 @@ Los auriculares inalámbricos usan Bluetooth, que es otra emisión de radiofrecu
 
 Si solo usas el móvil y tienes buena cobertura, apagar el router elimina su Wi-Fi. Pero el móvil sigue hablando con la antena de la calle; no se limita a recibir.
 
-Si luego activas "Compartir Internet", vuelves a crear una red en casa. Y si la cobertura es mala, el móvil sube su potencia. Por eso quitar el router no garantiza menos exposición total en todas las situaciones.
+Si luego activas «Compartir Internet», vuelves a crear una red en casa. Y si la cobertura es mala, el móvil sube su potencia. Por eso quitar el router no garantiza menos exposición total en todas las situaciones.
 
 Con varias personas en casa suele ser más práctico mantener la conexión fija, cablear lo que no se mueve y apagar el Wi-Fi cuando nadie lo usa. Elige la conexión por su uso, su cobertura y su sitio.
 
@@ -39,18 +39,18 @@ Con varias personas en casa suele ser más práctico mantener la conexión fija,
 1. **Abre los ajustes.** Datos, Wi-Fi, Bluetooth y punto de acceso. El icono del avión no basta: en algunos modelos el Wi-Fi o el Bluetooth se reactivan solos.
 2. **Apaga lo que no usas.** Comprueba reloj, auriculares y conexiones compartidas antes de cortar algo que necesites.
 3. **Organiza las tareas grandes.** Copias de seguridad y subidas de vídeo, en un momento concreto y con el móvil lejos del cuerpo.
-4. **Cierra "Compartir Internet"** en cuanto termines con el portátil.
+4. **Cierra «Compartir Internet»** en cuanto termines con el portátil.
 5. **Dale un sitio de descanso.** Sobre la mesa mientras trabajas; en su punto de carga, fuera del dormitorio, por la noche.
 
 ## SPIRO: quién lo hizo y por qué lo uso
 
-Cuando empecé a trabajar con personas con sensibilidad química y electrohipersensibilidad, vi que el teléfono era también su herramienta de trabajo, de contacto y de ayuda. Quitárselo no era una solución. Necesitaba algo que encajara en su vida.
+Cuando empecé a trabajar con personas con sensibilidad química múltiple y electrohipersensibilidad, vi que el teléfono era también su herramienta de trabajo, de contacto y de ayuda. Quitárselo no era una solución. Necesitaba algo que encajara en su vida.
 
-SPIRO es una tecnología desarrollada por Joaquín Machado y su empresa, Noxtak. Es un material nanocompuesto pasivo, sin pilas ni cables, en forma de tarjeta, cuadrado o disco. Según su fabricante, actúa sobre la forma en que se ordenan los campos artificiales de nuestro alrededor (la "polarización" de la que hablamos en el capítulo 1) sin cortar ni atenuar las comunicaciones. Ha recibido reconocimientos internacionales de innovación, entre ellos el Edison Award de 2020, el Silicon Valley Invention Festival de 2019 y el German Innovation Award de 2021.
+SPIRO es una tecnología desarrollada por Joaquín Machado y su empresa, Noxtak. Es un material nanocompuesto pasivo, sin pilas ni cables, en forma de tarjeta, cuadrado o disco. Según su fabricante, actúa sobre la forma en que se ordenan los campos artificiales de nuestro alrededor (la «polarización» de la que hablamos en el capítulo 1) sin cortar ni atenuar las comunicaciones. Ha recibido reconocimientos internacionales de innovación, entre ellos el Edison Award de 2020, el Silicon Valley Invention Festival de 2019 y el German Innovation Award de 2021.
 
 En EKIO lo distribuimos desde hace años y lo hemos incorporado a cientos de hogares. Lo que cuento en este capítulo sale de esa experiencia y de la documentación técnica del fabricante.
 
-Y te digo también lo que no tiene todavía: los ensayos clínicos grandes e independientes que tienen los medicamentos. Nadie los ha pagado. Tiene su base técnica, sus premios, ensayos de laboratorio encargados por el fabricante y quince años de casas revisadas. Yo te cuento lo que hacemos y por qué, y tú decides.
+Y te digo también lo que no tiene todavía: los ensayos clínicos grandes e independientes que se exigen a los medicamentos. Nadie los ha pagado. Tiene su base técnica, sus premios, ensayos de laboratorio encargados por el fabricante y quince años de casas revisadas. Yo te cuento lo que hacemos y por qué, y tú decides.
 
 Primero resuelvo lo evitable: aparatos innecesarios, proximidad y problemas de instalación. Todo lo gratuito de este libro funciona igual sin SPIRO. Después te explico cómo lo incorporamos.
 
@@ -70,13 +70,13 @@ Primero resuelvo lo evitable: aparatos innecesarios, proximidad y problemas de i
 
 ![Figura 3.2 · Elige la conexión y revisa tus opciones](esquemas/ruta-conexion-y-spiro.svg)
 
-> **FIGURA 3.2 · Elige la conexión y revisa tus opciones.** Árbol de decisión: ¿necesitas conexión ahora? No: apaga o modo avión. Sí: ¿puedes usar cable? Sí: Ethernet. No: elige una red y aleja la fuente. Debajo, los cuatro formatos: Card (móvil), Square (equipo), Disc (espacio, delante del router), Stroom Master (línea). Referencia Codex: `ruta-conexion-y-spiro`, con "Stroom Master" completo.
+> **FIGURA 3.2 · Elige la conexión y revisa tus opciones.** Árbol de decisión: ¿necesitas conexión ahora? No: apaga o modo avión. Sí: ¿puedes usar cable? Sí: Ethernet. No: elige una red y aleja la fuente. Debajo, los cuatro formatos: Card (móvil), Square (equipo), Disc (espacio, delante del router), Stroom Master (línea). Referencia Codex: `ruta-conexion-y-spiro`, con «Stroom Master» completo.
 
 ### Por qué el Disc va delante del router
 
-Vas a leer "el Disc delante del router" varias veces en este libro. Te explico ahora el motivo para no repetirlo después.
+Vas a leer «el Disc delante del router» varias veces en este libro. Te explico ahora el motivo para no repetirlo después.
 
-El router es, en la mayoría de las casas, la fuente de radiofrecuencia que más horas está encendida. El fabricante de SPIRO indica colocar el Disc junto a la fuente principal de cada estancia. Y es lo que hacemos en cada vivienda que revisamos desde que trabajamos con SPIRO, porque es lo que mejor nos ha funcionado y lo que nuestros clientes nos refieren.
+El router es, en la mayoría de las casas, la fuente de radiofrecuencia que más horas está encendida. El fabricante de SPIRO indica colocar el Disc junto a la fuente principal de cada estancia. Y así lo hacemos en cada vivienda que revisamos desde que trabajamos con SPIRO, porque es lo que mejor nos ha funcionado y lo que nuestros clientes nos refieren.
 
 No es una medida que puedas comprobar con un medidor corriente: el Disc no baja la lectura. Y no sustituye a mover el router fuera del dormitorio, cablear lo fijo o apagar el Wi-Fi de noche. Es lo que añadimos después de todo eso.
 
@@ -126,7 +126,7 @@ Si conduces muchas horas (taxi, reparto) y notas dolor de cabeza o malestar, rev
 
 ![Figura 3.3 · Un coche eléctrico también tiene un mapa](esquemas/mapa-coche-electrico-spiro.svg)
 
-> **FIGURA 3.3 · Un coche eléctrico también tiene un mapa.** Planta reconocible de un coche (ruedas, parabrisas) con motor e inversor delante, batería bajo los asientos, cuatro ocupantes. A un lado: "Propuesta de EKIO: Disc Ultra o tres Square X". Pie: "Fijación segura · pedales y airbags libres · mide un acompañante, no el conductor". Referencia Codex: `mapa-coche-electrico-spiro`, rehecho para que parezca un coche.
+> **FIGURA 3.3 · Un coche eléctrico también tiene un mapa.** Planta reconocible de un coche (ruedas, parabrisas) con motor e inversor delante, batería bajo los asientos, cuatro ocupantes. A un lado: «Propuesta de EKIO: Disc Ultra o tres Square X». Pie: «Fijación segura · pedales y airbags libres · mide un acompañante, no el conductor». Referencia Codex: `mapa-coche-electrico-spiro`, rehecho para que parezca un coche.
 
 ## Receta 4 — Revisa un coche eléctrico
 

@@ -4,10 +4,8 @@
 
 ### Francisco Javier Andrés Andrés
 
-Naturópata especialista en Contaminación Electromagnética
+Naturópata especialista en contaminación electromagnética
 Fundador y director de EKIO Electrosmog
-
-> Título definitivo fijado por Javier el 27/09/2026. Debe coincidir exactamente en portada, página de título y metadatos de KDP.
 
 ---
 
@@ -77,7 +75,7 @@ Cómo utilizar este libro
    Prioridades, revisión de diez minutos y semana OASIS.
 
 Páginas finales
-   Índice de recetas · Índice de figuras · Glosario · Bibliografía · Agradecimientos · Recursos de EKIO · Para contar este libro en dos minutos · Sobre el autor · Nota de la edición
+   Índice de recetas · Índice de figuras · Glosario · Bibliografía · Agradecimientos · Recursos de EKIO · Sobre el autor · Nota de la edición · Para contar este libro en dos minutos
 
 Los números de página se añadirán tras la maquetación.
 
@@ -101,7 +99,7 @@ En cada habitación aplicaremos el método **OASIS**:
 - **O**bservar: qué fuentes hay y dónde pasas tiempo.
 - **A**lejar o apagar: lo que no hace falta, fuera; lo que hace falta, más lejos.
 - **S**anear: revisar instalación, cables y toma de tierra.
-- **I**ntegrar: organizar la tecnología que sí necesitas, y si quieres, las soluciones que usamos en EKIO.
+- **I**ntegrar: organizar la tecnología que sí necesitas y, si quieres, las soluciones que usamos en EKIO.
 - **S**incronizar: luz, actividad y descanso en el orden que el cuerpo espera.
 
 Llamamos **Oasis Electromagnético** a un espacio revisado con ese criterio: menos fuentes evitables, más distancia respecto a las necesarias y una luz pensada para lo que haces y para la hora que es. Es el nombre de nuestra forma de trabajar, no un certificado de que ahí no hay campos.
@@ -110,9 +108,11 @@ Llamo **higiene tecnológica** a ordenar tres cosas: los campos que rodean a tus
 
 Usa un lápiz. Dibuja tu casa, marca tres cambios y ponles fecha. La higiene tecnológica funciona como hábito, no como una obra de un fin de semana.
 
-Los dos códigos QR del final te llevan a la web y al canal de YouTube de EKIO. Ahí están la app, los tests, las fichas de cada producto y los vídeos, que se irán renovando. Lo esencial está en estas páginas.
+Los dos códigos QR del final te llevan a la web y al canal de YouTube de EKIO. Ahí están la app, los test, las fichas de cada producto y los vídeos, que se irán renovando. Lo esencial está en estas páginas.
 
 Empieza por el lugar donde duermes.
+
+
 # Por qué escribí este libro
 
 Soy Francisco Javier Andrés Andrés, naturópata especialista en contaminación electromagnética. Llevo al frente de EKIO desde 2011, y mi interés por lo que hay dentro de nuestras casas empezó escuchando a personas que lo estaban pasando mal.
@@ -127,7 +127,7 @@ He entrado en cientos de casas. Casi todas tienen algo en común: nadie mira deb
 
 La primera vez que lo entendí fue en un piso pequeño, de esos con el cuadro eléctrico en el recibidor. La dueña me contó que llevaba años durmiendo mal y que había probado de todo. Su cama estaba pegada a la pared del recibidor, con el cabecero justo detrás del cuadro. Entre su cabeza y todos los cables de la casa había doce centímetros de ladrillo. Nadie se lo había dicho porque nadie lo había mirado.
 
-Desde entonces lo he visto de mil formas. Routers en la mesita de noche "porque ahí llega mejor". Regletas con ocho cargadores bajo el sofá donde duerme el perro. Un adolescente que cargaba el móvil debajo de la almohada para que la alarma "se oyera mejor". Dormitorios infantiles con más aparatos encendidos de noche que un puesto de guardia: vigilabebés, humidificador con Wi-Fi, proyector de estrellas, altavoz, cámara. Salones iluminados a las once de la noche como una oficina a las once de la mañana. Y personas que llevaban años sin pisar la tierra descalzas ni ver amanecer, no por falta de ganas sino porque nadie les había dicho que importaba.
+Desde entonces lo he visto de mil formas. Routers en la mesita de noche «porque ahí llega mejor». Regletas con ocho cargadores bajo el sofá donde duerme el perro. Un adolescente que cargaba el móvil debajo de la almohada para que la alarma «se oyera mejor». Dormitorios infantiles con más aparatos encendidos de noche que un puesto de guardia: vigilabebés, humidificador con Wi-Fi, proyector de estrellas, altavoz, cámara. Salones iluminados a las once de la noche como una oficina a las once de la mañana. Y personas que llevaban años sin pisar la tierra descalzas ni ver amanecer, no por falta de ganas, sino porque nadie les había dicho que importaba.
 
 También he visto lo que pasa cuando se ordena eso. No siempre. No en todos. Pero muchas veces la persona que dormía mal empieza a dormir. El niño que no había forma de acostar se acuesta. El animal que se escondía deja de esconderse. Yo no puedo demostrarte con un estudio que fue el cable, o el router, o la luz. Casi siempre se cambian varias cosas a la vez. Lo que te puedo decir es que lo he visto suficientes veces como para escribir este libro.
 
@@ -149,13 +149,13 @@ No te voy a dar una lista interminable de aparatos. Prefiero que aprendas a reco
 
 ![Figura P.1 · El camino que dio origen a este libro](esquemas/camino-electrobiofotonica.svg)
 
-> **FIGURA P.1 · El camino que dio origen a este libro.** Línea con seis pasos: 2011 EKIO · Escuchar (SQM y EHS) · Observar casas · Integrar SPIRO · Crear EKIO Light · Compartir (este libro). Debajo, la pregunta que recorre todo: "¿Cómo preparamos un entorno que acompañe al organismo?". Referencia de contenido: esquema Codex `camino-electrobiofotonica`.
+> **FIGURA P.1 · El camino que dio origen a este libro.** Línea con seis pasos: 2011 EKIO · Escuchar (SQM y EHS) · Observar casas · Integrar SPIRO · Crear EKIO Light · Compartir (este libro). Debajo, la pregunta que recorre todo: «¿Cómo preparamos un entorno que acompañe al organismo?». Referencia de contenido: esquema Codex `camino-electrobiofotonica`.
 
 Primero quitamos lo que sobra. Después alejamos lo que debe seguir funcionando. Revisamos la instalación y medimos si hace falta. Y a partir de ahí, valoramos qué soluciones encajan en cada casa.
 
 ## Las soluciones con las que trabajo
 
-Aquella búsqueda me llevó a distribuir SPIRO y a crear EKIO Light, nuestra marca de bombillas de luz cálida y roja y de paneles de fotobiomodulación. Por eso aparecen en estas páginas. Vendo SPIRO y soy el fundador de EKIO: lo sabes desde la primera página y lo repetiré cuando toque.
+Aquella búsqueda me llevó a distribuir SPIRO y a crear EKIO Light, nuestra marca de bombillas de luz cálida y roja, y de paneles de fotobiomodulación. Por eso aparecen en estas páginas. Vendo SPIRO y soy el fundador de EKIO: lo sabes desde la primera página y lo repetiré cuando toque.
 
 Con SPIRO aprenderás a ordenar la tecnología que decides conservar. Con EKIO Light aprenderás a distinguir dos cosas que la gente confunde: iluminar una habitación y hacer una sesión de luz. Para la primera importa cuánta luz y a qué hora. Para la segunda importan también el color exacto, la potencia, la distancia y el tiempo.
 
@@ -176,23 +176,25 @@ Te propongo el primero ahora: elige el sitio donde más horas descansas y apunta
 Por ahí empieza el camino.
 
 **En una frase:** llevamos dos generaciones viviendo de una forma para la que el cuerpo no está hecho; este libro te enseña a mirar tu casa y a devolverle al día su luz, a la noche su oscuridad y a tus pies la tierra.
+
+
 # Capítulo 1 · La casa invisible
 
 Abres la puerta y dejas las llaves. El sofá está donde lo dejaste, el router parpadea y un cargador espera en su enchufe aunque no tenga teléfono.
 
 La casa parece en silencio. Si pudieras ver lo que hay alrededor de cables y aparatos, verías otra actividad: corrientes, señales que van por el aire y ruidos que viajan por la instalación.
 
-Vamos a aprender a distinguirlos. Llamar "contaminación electromagnética" a todo, sin separar sus partes, sería como intentar arreglar todos los muebles de casa con el mismo martillo.
+Vamos a aprender a distinguirlos. Llamar «contaminación electromagnética» a todo, sin separar sus partes, sería como intentar arreglar todos los muebles de casa con el mismo martillo.
 
 ## El experimento que cabe en una mano
 
-En el verano de 1831, en el sótano de la Royal Institution de Londres, un hombre de cuarenta años enrollaba alambre alrededor de un anillo de hierro. Michael Faraday no había pisado una universidad. Había empezado como aprendiz de encuadernador y había aprendido ciencia leyendo los libros que le daban a encuadernar. Una entrada regalada para las conferencias del químico Humphry Davy le cambió la vida: tomó apuntes tan buenos que Davy acabó contratándolo como ayudante.
+En el verano de 1831, en el sótano de la Royal Institution de Londres, un hombre de casi cuarenta años enrollaba alambre alrededor de un anillo de hierro. Michael Faraday no había pisado una universidad. Había empezado como aprendiz de encuadernador y había aprendido ciencia leyendo los libros que le daban a encuadernar. Una entrada regalada para las conferencias del químico Humphry Davy le cambió la vida: tomó apuntes tan buenos que Davy acabó contratándolo como ayudante.
 
 El 29 de agosto conectó una de las bobinas del anillo a una pila y la otra a un galvanómetro, una aguja que se mueve cuando pasa corriente. Al cerrar el circuito, la aguja saltó. Y volvió a su sitio. Al abrirlo, saltó otra vez, en sentido contrario. Mientras la corriente estaba quieta, la aguja no hacía nada. Solo el cambio la movía.
 
 Unas semanas después repitió la idea de la forma más sencilla posible: metió un imán en una bobina y la aguja se movió; lo dejó quieto dentro y la aguja se paró; lo sacó y se movió al revés. Lo anotó en su diario con la sobriedad de quien todavía no sabe que acaba de inventar el generador eléctrico.
 
-Ese gesto, un imán que se mueve junto a un cable, es el que hoy hace girar cada central eléctrica, cada alternador de coche y cada transformador de tu calle. Y nos deja la primera lección de este libro: electricidad y magnetismo van juntos, pero en tu casa conviene mirarlos por separado, porque no aparecen en los mismos sitios ni se reducen de la misma manera.
+Ese gesto, un imán que se mueve junto a un cable, es el que hoy está detrás de cada central eléctrica, cada alternador de coche y cada transformador de tu calle. Y nos deja la primera lección de este libro: electricidad y magnetismo van juntos, pero en tu casa conviene mirarlos por separado, porque no aparecen en los mismos sitios ni se reducen de la misma manera.
 
 ## Cuatro lentes para mirar lo que no ves
 
@@ -205,7 +207,7 @@ Imagina una rueda de enfoque. Con un giro ves una habitación; con otro, una cé
 
 ![Figura 1.1 · Cuatro lentes para mirar lo invisible](esquemas/cuatro-escalas-observacion.svg)
 
-> **FIGURA 1.1 · Cuatro lentes para mirar lo invisible.** Cuatro tarjetas: casa, célula, molécula, onda. Al pie: "1 mm = 1000 µm · 1 µm = 1000 nm · la luz visible va de unos 380 a 700 nm". Referencia Codex: `cuatro-escalas-observacion`.
+> **FIGURA 1.1 · Cuatro lentes para mirar lo invisible.** Cuatro tarjetas: casa, célula, molécula, onda. Al pie: «1 mm = 1000 µm · 1 µm = 1000 nm · la luz visible va de unos 380 a 700 nm». Referencia Codex: `cuatro-escalas-observacion`.
 
 Las tres primeras describen tamaños. La cuarta ordena el espectro. Una proteína y una onda pueden medirse en nanómetros aunque estemos midiendo cosas distintas.
 
@@ -213,13 +215,13 @@ Las tres primeras describen tamaños. La cuarta ordena el espectro. Una proteín
 
 El espectro electromagnético reúne, de menos a más frecuencia: radio, microondas, infrarrojo, luz visible, ultravioleta, rayos X y rayos gamma. Las microondas son, por convenio, parte de las ondas de radio; se dibujan aparte para situar mejor sus usos.
 
-El móvil, el Wi-Fi, el Bluetooth y muchos radares usan bandas de radio y microondas. La red eléctrica de tu casa funciona a 50 hercios, una frecuencia muchísimo más baja. Cerca de un cable no hay "una señal de radio": hay un campo eléctrico y un campo magnético que se estudian por separado.
+El móvil, el Wi-Fi, el Bluetooth y muchos radares usan bandas de radio y microondas. La red eléctrica de tu casa funciona a 50 hercios, una frecuencia muchísimo más baja. Cerca de un cable no hay «una señal de radio»: hay un campo eléctrico y un campo magnético que se estudian por separado.
 
 La luz visible ocupa, más o menos, de 380 a 700 nanómetros: violeta en un extremo, rojo en el otro. Después del rojo viene el infrarrojo, que no vemos pero sentimos como calor. Antes del violeta viene el ultravioleta.
 
 ![Figura 1.2 · El espectro electromagnético](esquemas/espectro-electromagnetico.svg)
 
-> **FIGURA 1.2 · El espectro electromagnético.** Banda continua de radio a gamma con la franja visible en color. Tres recuadros: "Red eléctrica 50 Hz", "Radar · móvil · Wi-Fi", "Lo que ven tus ojos". Debajo, la línea "no ionizante / ionizante" con la frontera entre el ultravioleta y los rayos X. Referencia Codex: `espectro-electromagnetico`.
+> **FIGURA 1.2 · El espectro electromagnético.** Banda continua de radio a gamma con la franja visible en color. Tres recuadros: «Red eléctrica 50 Hz», «Radar · móvil · Wi-Fi», «Lo que ven tus ojos». Debajo, la línea «no ionizante / ionizante» con la frontera entre el ultravioleta y los rayos X. Referencia Codex: `espectro-electromagnetico`.
 
 El dibujo ordena frecuencias, no peligros. Los rayos X y los gamma pueden romper enlaces en la materia: son radiación ionizante. La radiofrecuencia, el infrarrojo, la luz visible y el ultravioleta no lo son. Para valorar una exposición hacen falta, además, intensidad, frecuencia, tiempo y condiciones.
 
@@ -233,7 +235,7 @@ El dibujo ordena frecuencias, no peligros. Los rayos X y los gamma pueden romper
 
 Piensa en una manguera con presión aunque el grifo esté cerrado. Eso es la tensión eléctrica.
 
-Un cable enchufado mantiene un campo eléctrico aunque el aparato esté apagado. Por eso apagar la lámpara de la mesita y desenchufarla son dos cosas distintas. En España, además, la clavija se puede meter en las dos posiciones, así que el interruptor de la lámpara puede estar cortando el cable "equivocado" y dejar el otro con tensión hasta la bombilla.
+Un cable enchufado mantiene un campo eléctrico aunque el aparato esté apagado. Por eso apagar la lámpara de la mesita y desenchufarla son dos cosas distintas. En España, además, la clavija se puede meter en las dos posiciones, así que el interruptor de la lámpara puede estar cortando el cable «equivocado» y dejar el otro con tensión hasta la bombilla.
 
 Mira la regleta bajo el escritorio, el cargador detrás del sofá y los cables que pasan junto al cabecero.
 
@@ -263,7 +265,7 @@ La emisión cambia con lo que hace el aparato, con la cobertura y con el modelo.
 
 Cargadores, reguladores de luz, controladores de LED, motores con variador e inversores solares convierten o regulan la electricidad. Al hacerlo pueden meter en tus cables un ruido de frecuencias más altas que los 50 hercios de la red.
 
-"Electricidad sucia" es una forma de llamar a ese ruido. No es una sola cosa ni tiene un umbral sanitario oficial.
+«Electricidad sucia» es una forma de llamar a ese ruido. No es una sola cosa ni tiene un umbral sanitario oficial.
 
 Un aparato puede funcionar bien y generar ruido por su diseño. Si además está estropeado, hay que repararlo. Si tienes placas solares, el inversor es un punto a revisar. Si usas adaptadores PLC (los que llevan Internet por el enchufe), están metiendo datos a propósito en tu cableado.
 
@@ -277,7 +279,7 @@ Un aparato puede funcionar bien y generar ruido por su diseño. Si además está
 
 El móvil transmite por varias redes; su cargador añade un cable con tensión y puede meter ruido; la pantalla da luz. La inducción combina electrónica de potencia y campo magnético. El microondas usa radiofrecuencia dentro de su caja y lleva otros componentes.
 
-Por eso trabajaremos por capas y por uso. Alejarse siempre reduce, aunque no hay una regla mágica del tipo "cada metro divide por cuatro": depende de la fuente, de la geometría y de lo que haya alrededor. La distancia es la herramienta más fiable que tienes. Úsala.
+Por eso trabajaremos por capas y por uso. Alejarse siempre reduce, aunque no hay una regla mágica del tipo «cada metro divide por cuatro»: depende de la fuente, de la geometría y de lo que haya alrededor. La distancia es la herramienta más fiable que tienes. Úsala.
 
 ## Cuatro medidores, cuatro preguntas
 
@@ -285,17 +287,17 @@ En EKIO usamos varios instrumentos, cada uno para una pregunta. Te los enseño n
 
 ![Figura 1.5 · Los instrumentos que usamos en EKIO](esquemas/medidores-campos-ekio-original.jpg)
 
-> **FIGURA 1.5 · Los instrumentos que usamos en EKIO.** Fotografía cenital sobre fondo neutro, de izquierda a derecha: medidor de radiofrecuencia de banda ancha (Safe and Sound Pro II), medidor triaxial de radiofrecuencia (LATNEX HF-B8G), medidor de campo eléctrico y magnético (Mastfuyi FY876) y medidor de ruido en la línea (LHY Audio Line EMI Meter). Pie: "Instrumentos que usamos como referencia; los modelos cambian".
+> **FIGURA 1.5 · Los instrumentos que usamos en EKIO.** Fotografía cenital sobre fondo neutro, de izquierda a derecha: medidor de radiofrecuencia de banda ancha (Safe and Sound Pro II), medidor triaxial de radiofrecuencia (LATNEX HF-B8G), medidor de campo eléctrico y magnético (Mastfuyi FY876) y medidor de ruido en la línea (LHY Audio Line EMI Meter). Pie: «Instrumentos que usamos como referencia; los modelos cambian».
 
 - Los dos primeros miden radiofrecuencia: lo que va por el aire.
 - El tercero mide campo eléctrico y magnético: lo que rodea a cables y motores.
 - El cuarto se enchufa y mide el ruido de la línea: la electricidad sucia.
 
-Para comparar dos medidas conserva el punto, el aparato, la unidad y las condiciones. Una cifra sin contexto es como decir "hace calor" sin decir si estás en la cocina o en la calle. Y una aplicación no convierte tu móvil en un medidor. Cuando la decisión dependa de un número, pide una medición con método.
+Para comparar dos medidas conserva el punto, el aparato, la unidad y las condiciones. Una cifra sin contexto es como decir «hace calor» sin decir si estás en la cocina o en la calle. Y una aplicación no convierte tu móvil en un medidor. Cuando la decisión dependa de un número, pide una medición con método.
 
 ## Una cuerda y una valla
 
-Vas a leer la palabra "polarización" en fichas de productos y en artículos. Es la clave de todo lo que viene después, así que te la explico con una cuerda.
+Vas a leer la palabra «polarización» en fichas de productos y en artículos. Es la clave de todo lo que viene después, así que te la explico con una cuerda.
 
 Ata una cuerda a un árbol y mueve la mano arriba y abajo: la onda avanza oscilando en vertical. Muévela de lado a lado y oscila en horizontal. Esa orientación se llama polarización. Si haces pasar la cuerda entre los barrotes de una valla, solo cruza la onda vertical. Así funcionan las gafas de sol polarizadas: dejan pasar una orientación y frenan la otra.
 
@@ -307,7 +309,7 @@ Es lo que describen investigadores como Dimitris Panagopoulos. Y es también la 
 
 *[Figura 1.6 · Una cuerda y una valla — figura nueva, pendiente de Mauro Arroyo]*
 
-> **FIGURA 1.6 · Una cuerda y una valla.** Tres viñetas: (1) cuerda oscilando en vertical y en horizontal, con la valla que solo deja pasar una; (2) sol con ondas en todas las orientaciones frente a antena con ondas todas iguales; (3) iones en una célula: empujones en todas direcciones (se quedan quietos) frente a empujones siempre en la misma dirección (se mueven en bloque, "ola de estadio"). Rótulo: "Natural: mezclado. Artificial: ordenado. Esa es la diferencia". Figura nueva.
+> **FIGURA 1.6 · Una cuerda y una valla.** Tres viñetas: (1) cuerda oscilando en vertical y en horizontal, con la valla que solo deja pasar una; (2) sol con ondas en todas las orientaciones frente a antena con ondas todas iguales; (3) iones en una célula: empujones en todas direcciones (se quedan quietos) frente a empujones siempre en la misma dirección (se mueven en bloque, «ola de estadio»). Rótulo: «Natural: mezclado. Artificial: ordenado. Esa es la diferencia». Figura nueva.
 
 Quédate con la imagen: natural, mezclado; artificial, ordenado. El resto del libro te enseña a reducir lo ordenado que no necesitas y, cuando lo necesitas, a integrarlo bien.
 
@@ -315,7 +317,7 @@ Quédate con la imagen: natural, mezclado; artificial, ordenado. El resto del li
 
 ![Figura 1.7 · Método OASIS](esquemas/metodo-oasis.svg)
 
-> **FIGURA 1.7 · Método OASIS.** Cinco círculos en línea: O Observa · A Aleja o apaga · S Sanea · I Integra · S Sincroniza. Pie: "Un espacio revisado hoy puede necesitar otra revisión mañana". Referencia Codex: `metodo-oasis`.
+> **FIGURA 1.7 · Método OASIS.** Cinco círculos en línea: O Observa · A Aleja o apaga · S Sanea · I Integra · S Sincroniza. Pie: «Un espacio revisado hoy puede necesitar otra revisión mañana». Referencia Codex: `metodo-oasis`.
 
 - **O — Observa:** fuentes y lugares donde pasas tiempo.
 - **A — Aleja o apaga:** fuera lo que sobra; distancia para lo que se queda.
@@ -329,7 +331,7 @@ Quédate con la imagen: natural, mezclado; artificial, ordenado. El resto del li
 
 ![Figura 1.8 · Mapa invisible de casa, ejemplo](esquemas/mapa-invisible-casa-ejemplo.svg)
 
-> **FIGURA 1.8 · Mapa invisible de casa, ejemplo.** Planta de un piso con dormitorio, habitación infantil, baño, salón, cocina, despacho y entrada. Letras E, M, R, D con los mismos colores de la figura 1.3 sobre lámpara, regleta, móvil, router, inducción, microondas, frigorífico, cuadro e inversor. Elipses discontinuas en cama, sofá y escritorio ("zona de permanencia"). El dormitorio rayado: "primer Oasis". Leyenda a la derecha. Referencia Codex: `mapa-invisible-casa-ejemplo`, con el código de color corregido.
+> **FIGURA 1.8 · Mapa invisible de casa, ejemplo.** Planta de un piso con dormitorio, habitación infantil, baño, salón, cocina, despacho y entrada. Letras E, M, R, D con los mismos colores de la figura 1.3 sobre lámpara, regleta, móvil, router, inducción, microondas, frigorífico, cuadro e inversor. Elipses discontinuas en cama, sofá y escritorio («zona de permanencia»). El dormitorio rayado: «primer Oasis». Leyenda a la derecha. Referencia Codex: `mapa-invisible-casa-ejemplo`, con el código de color corregido.
 
 1. **Dibuja las habitaciones.** Incluye el cuadro eléctrico, el router y el inversor solar si lo tienes.
 2. **Marca las capas.** E en cables con tensión; M en motores, transformadores y corrientes; R en lo que transmite; D donde sospeches ruido de red.
@@ -340,6 +342,8 @@ Quédate con la imagen: natural, mezclado; artificial, ordenado. El resto del li
 No hace falta resolver la casa entera hoy. Dibuja tu dormitorio: entramos en él en el capítulo siguiente.
 
 **En una frase:** en tu casa hay cuatro cosas invisibles que se miden de forma distinta, y la herramienta más fiable contra todas ellas es la misma: distancia.
+
+
 # Capítulo 2 · Un recorrido por tu hogar
 
 Coge el mapa y ven conmigo. Vamos al dormitorio, la cocina, el salón y el despacho. En cada sitio buscaremos lo mismo: qué hay cerca de tu cuerpo, durante cuánto tiempo y qué puedes cambiar hoy.
@@ -348,7 +352,7 @@ En el dormitorio importa la permanencia. En la cocina, la cercanía mientras las
 
 ![Figura 2.1 · Cuatro habitaciones, cuatro prioridades](esquemas/cuatro-habitaciones-oasis.svg)
 
-> **FIGURA 2.1 · Cuatro habitaciones, cuatro prioridades.** Cuatro tarjetas (dormitorio: noche y tiempo; cocina: uso y distancia; salón: descanso y acumulación; despacho: jornada y cercanía), cada una con "qué revisar" y "primer cambio". Referencia Codex: `cuatro-habitaciones-oasis`.
+> **FIGURA 2.1 · Cuatro habitaciones, cuatro prioridades.** Cuatro tarjetas (dormitorio: noche y tiempo; cocina: uso y distancia; salón: descanso y acumulación; despacho: jornada y cercanía), cada una con «qué revisar» y «primer cambio». Referencia Codex: `cuatro-habitaciones-oasis`.
 
 Lleva las cinco preguntas de OASIS: ¿qué veo?, ¿qué puedo alejar o apagar?, ¿qué hay que revisar?, ¿qué tecnología conservo?, ¿cómo organizo la luz y el descanso?
 
@@ -356,11 +360,11 @@ Lleva las cinco preguntas de OASIS: ¿qué veo?, ¿qué puedo alejar o apagar?, 
 
 La casa no necesita la misma luz a todas horas. Antes de amanecer puedes empezar con luz tenue y cálida, suficiente para vestirte y moverte con seguridad. Cuando llegue el día, busca el exterior. Al acercarse la noche, baja la intensidad.
 
-Aquí entran las dos bombillas que más recomiendo en este libro. La **amarilla de 1800 K** es una luz muy cálida, como la de una vela grande: la "K" es la temperatura de color, y cuanto más bajo el número, más anaranjada y menos azul es la luz. La **roja DUSK** es para los últimos momentos del día y para orientarte de noche.
+Aquí entran las dos bombillas que más recomiendo en este libro. La **amarilla de 1800 K** es una luz muy cálida, como la de una vela grande: la «K» es la temperatura de color, y cuanto más bajo el número, más anaranjada y menos azul es la luz. La **roja DUSK** es para los últimos momentos del día y para orientarte de noche.
 
 ![Figura 2.2 · La casa también cambia de luz](esquemas/transicion-luz-ekio-hogar.svg)
 
-> **FIGURA 2.2 · La casa también cambia de luz.** Línea del día en cuatro tarjetas: antes de amanecer (amarilla o roja, suave), día (sal fuera), anochecer (baja intensidad, amarilla 1800 K), últimas horas (roja DUSK). Pie: "Las bombillas iluminan; los paneles hacen sesiones". Referencia Codex: `transicion-luz-ekio-hogar`.
+> **FIGURA 2.2 · La casa también cambia de luz.** Línea del día en cuatro tarjetas: antes de amanecer (amarilla o roja, suave), día (sal fuera), anochecer (baja intensidad, amarilla 1800 K), últimas horas (roja DUSK). Pie: «Las bombillas iluminan; los paneles hacen sesiones». Referencia Codex: `transicion-luz-ekio-hogar`.
 
 El color no compensa una intensidad excesiva: una luz roja a tope sigue siendo mucha luz. Y no tienes que cambiar todas las bombillas en una tarde. Empieza por las que usas al levantarte y antes de acostarte.
 
@@ -372,7 +376,7 @@ A ver si te suena.
 
 Te metes en la cama con intención de dormir. Coges el móvil para poner la alarma y ves un mensaje. Lo contestas. Ya que lo tienes en la mano, miras el tiempo de mañana. Luego una noticia, luego un vídeo…
 
-Cuando vuelves a mirar la hora ha pasado casi una hora. Y todavía no has puesto la alarma.
+Cuando vuelves a mirar el reloj, ha pasado casi una hora. Y todavía no has puesto la alarma.
 
 Conectas el cargador, dejas el móvil al lado de la almohada y apagas la lámpara. Pero la regleta sigue bajo la cama, el piloto del portátil sigue encendido, el reloj ilumina la pared y por un lado de la persiana entra la luz de la farola.
 
@@ -396,13 +400,13 @@ Trece años después, dos equipos, el de Jeffrey Hall y Michael Rosbash y el de 
 
 Una mosca no consulta una agenda. Su cuerpo lleva el tiempo dentro.
 
-Tú también. Tienes ese mismo tipo de reloj en el cerebro y en casi todas tus células, y lo que lo pone en hora cada día es la luz que entra por los ojos. Una pantalla encendida a las once de la noche le dice a ese reloj que aún es de día. En el capítulo 4 verás el experimento que lo midió con doce personas y cinco noches.
+Tú también. Tienes ese mismo tipo de reloj en el cerebro y en casi todas tus células, y lo que lo pone en hora cada día es la luz que entra por los ojos. Una pantalla encendida a las once de la noche le dice a ese reloj que aún es de día. En el capítulo 4 verás el experimento que lo midió con 12 personas y cinco noches.
 
-### Receta 1 — Prepara una mesita que te deje descansar
+## Receta 1 — Prepara una mesita que te deje descansar
 
 **Necesitas:** diez minutos y un enchufe fuera del dormitorio. **Resultado:** una noche con menos cosas encendidas junto a tu cabeza.
 
-1. **Decide dónde pasa la noche el móvil.** Lejos de la almohada y, si puedes, fuera del dormitorio. Si tienes que estar localizable, deja solo lo imprescindible. Si no, apágalo o usa el modo avión mirando que Wi-Fi y Bluetooth queden apagados de verdad. Comprueba antes si la alarma funciona como esperas.
+1. **Decide dónde pasa la noche el móvil.** Lejos de la almohada y, si puedes, fuera del dormitorio. Si tienes que estar localizable, deja solo lo imprescindible. Si no, apágalo o usa el modo avión comprobando que Wi-Fi y Bluetooth quedan apagados de verdad. Comprueba antes si la alarma funciona como esperas.
 2. **Mueve el sitio de carga.** Fuera cargadores y cables que no usas. Carga el móvil sobre una superficie firme, nunca sobre la cama ni bajo la almohada.
 3. **Revisa lo que sigue enchufado.** Apagar una lámpara no es desconectarla. Mantén lo esencial; quita los accesorios que no hacen nada de noche.
 4. **Reduce las conexiones nocturnas.** Si nadie necesita el router y no sostiene alarmas ni teleasistencia, apágalo. Si lo sustituyes por el punto de acceso del móvil, has vuelto a crear una red.
@@ -439,7 +443,7 @@ Si tienes placas solares, localiza el inversor. Ahí la electrónica convierte l
 
 En EKIO, cuando hay inversor, colocamos un SPIRO Disc X junto a él, siguiendo su orientación y distancia. Antes se mide la zona y se revisa la instalación. No lo describo como un filtro de línea ni como algo que baja el campo magnético del medidor: son funciones distintas. Y si se confirma electricidad sucia en los cables, la solución para la línea se estudia aparte.
 
-### Receta 2 — Cocina sin vivir pegado a los aparatos
+## Receta 2 — Cocina sin vivir pegado a los aparatos
 
 **Necesitas:** cinco minutos y tu triángulo de trabajo. **Resultado:** cocinar igual, con más espacio entre tú y las fuentes activas.
 
@@ -475,16 +479,16 @@ Muchos equipos mantienen funciones de espera, actualización o encendido remoto.
 
 No cortes la alimentación de todo sin comprobar consecuencias. Algunos equipos necesitan actualizarse o guardar configuraciones. Otros pueden pasar días desconectados sin que pase nada. Lee el manual y agrupa solo los compatibles en una regleta con interruptor de calidad.
 
-### Receta 3 — Devuelve espacio al salón
+## Receta 3 — Devuelve espacio al salón
 
 **Necesitas:** una tarde y, si es viable, un cable de red. **Resultado:** cada aparato con un motivo y un sitio.
 
-1. **La prueba del asiento.** Desde el sofá, localiza router, repetidores, regletas, cargadores y la pared de al lado. Rodéalo en tu mapa.
+1. **La prueba del asiento.** Desde el sofá, localiza router, repetidores, regletas, cargadores y la pared de al lado. Rodéalos en tu mapa.
 2. **Mueve el router.** Si debes conservarlo, que no esté pegado al sofá. Busca un punto con servicio y más separación de donde estáis. No lo encierres sin ventilación.
 3. **Cablea lo que no se mueve.** Televisor y consola están siempre en el mismo sitio. Si admiten cable de red, conéctalos y desactiva la radio que ya no necesiten.
 4. **Elimina redes duplicadas.** Router, red de invitados, repetidores, puntos de acceso. Deja solo los que cumplen una función.
 5. **Ordena la alimentación.** Fuera cargadores abandonados; fuentes de alimentación lejos de pies y cabeza; nada tapado con alfombras o cojines.
-6. **Si usas SPIRO, el Disc va delante del router.** Por qué, en el capítulo 3. Si hay un ordenador u otra fuente concentrada, puede corresponder un Square.
+6. **Si usas SPIRO, el Disc va delante del router.** El porqué, en el capítulo 3. Si hay un ordenador u otra fuente concentrada, puede corresponder un Square.
 7. **Prepara el final del día.** Luz ambiental baja y pantallas cerradas antes de dormir. Apagar el televisor y apagar el router son decisiones distintas.
 
 Cuando acabes, el salón seguirá teniendo tecnología. La diferencia es que sabrás por qué está cada cosa.
@@ -511,7 +515,7 @@ Es posible que encuentres dos regletas enchufadas una en otra, cargadores que ya
 
 No tires de todos los cables a la vez. Identifica, etiqueta y quita lo que no alimenta nada. Si hay conexiones recalentadas o clavijas flojas, que lo reorganice un electricista.
 
-### Receta 4 — Construye un escritorio con espacio
+## Receta 4 — Construye un escritorio con espacio
 
 **Necesitas:** cinco minutos con la mesa vacía. **Resultado:** cada cable con un dispositivo y una razón.
 
@@ -543,13 +547,15 @@ Un Oasis Electromagnético no es una habitación vacía. Es un espacio en el que
 En el capítulo siguiente nos ocupamos del aparato que te sigue por todas estas habitaciones: el teléfono.
 
 **En una frase:** túmbate en tu cama y mira lo que hay a un brazo de distancia; lo que veas ahí es por donde empieza tu casa.
+
+
 # Capítulo 3 · El teléfono que llevas encima
 
-El 3 de abril de 1973, un ingeniero de Motorola llamado Martin Cooper salió a la Sexta Avenida de Nueva York con un aparato del tamaño de un ladrillo, lo levantó delante de los periodistas y marcó un número. Al otro lado contestó Joel Engel, el jefe del proyecto rival en los laboratorios Bell. "Joel, te llamo desde un teléfono celular. Un teléfono de verdad, portátil, de mano." Cooper contaba después que hubo un silencio al otro lado; nunca supo si de asombro o de fastidio.
+El 3 de abril de 1973, un ingeniero de Motorola llamado Martin Cooper salió a la Sexta Avenida de Nueva York con un aparato del tamaño de un ladrillo, lo levantó delante de los periodistas y marcó un número. Al otro lado contestó Joel Engel, el jefe del proyecto rival en los Laboratorios Bell. «Joel, te llamo desde un teléfono celular. Un teléfono de verdad, portátil, de mano». Cooper contaba después que hubo un silencio; nunca supo si de asombro o de fastidio.
 
 El prototipo se llamaba DynaTAC. Pesaba más de un kilo, tardaba diez horas en cargarse y daba para media hora de conversación. Los transeúntes se paraban a mirar a un hombre hablando solo con una caja pegada a la oreja. Tardó diez años en llegar a las tiendas, a un precio de casi cuatro mil dólares de la época.
 
-Aquel teléfono tenía una misión: llamar. El tuyo cabe en un bolsillo y sirve para hablar, pagar, orientarte, trabajar y mirar durante veinte minutos un vídeo que ibas a ver "solo un segundo". Cambia de trabajo continuamente, y cada trabajo emite de una manera distinta. Vamos a ordenar sus conexiones y a darle un sitio cuando termines de usarlo.
+Aquel teléfono tenía una misión: llamar. El tuyo cabe en un bolsillo y sirve para hablar, pagar, orientarte, trabajar y mirar durante veinte minutos un vídeo que ibas a ver «solo un segundo». Cambia de trabajo continuamente, y cada trabajo emite de una manera distinta. Vamos a ordenar sus conexiones y a darle un sitio cuando termines de usarlo.
 
 ## El móvil cambia de actividad
 
@@ -557,7 +563,7 @@ Con la pantalla apagada puede estar casi quieto o intercambiando datos. En una l
 
 ![Figura 3.1 · El móvil cambia de papel](esquemas/el-movil-cambia-de-papel.svg)
 
-> **FIGURA 3.1 · El móvil cambia de papel.** Cuatro escenas: en reposo, videollamada, poca cobertura, punto de acceso. Pie: "Antes de actuar pregunta: ¿qué está haciendo, a qué distancia y durante cuánto tiempo?". Referencia Codex: `el-movil-cambia-de-papel`.
+> **FIGURA 3.1 · El móvil cambia de papel.** Cuatro escenas: en reposo, videollamada, poca cobertura, punto de acceso. Pie: «Antes de actuar pregunta: ¿qué está haciendo, a qué distancia y durante cuánto tiempo?». Referencia Codex: `el-movil-cambia-de-papel`.
 
 Cuatro escenas: espera sobre una mesa; videollamada a un palmo; envío de un vídeo con poca cobertura; punto de acceso para el ordenador. En la última mantiene la conexión con la antena y crea un Wi-Fi: se ha convertido en un pequeño router.
 
@@ -565,7 +571,7 @@ Una decisión para cada escena: aparta el móvil mientras descarga, usa el altav
 
 ## Una llamada con más distancia
 
-Para separar el aparato de la cabeza tienes tres opciones: altavoz, auriculares con cable y auriculares de tubo de aire. En estos últimos, el último tramo lleva el sonido por un tubo hueco, sin electrónica junto al oído.
+Para separar el aparato de la cabeza tienes tres opciones: altavoz, auriculares con cable y auriculares de tubo de aire. En estos, el tramo final lleva el sonido por un tubo hueco, sin electrónica junto al oído.
 
 Los auriculares inalámbricos usan Bluetooth, que es otra emisión de radiofrecuencia pegada a la cabeza durante horas. En EKIO no los recomendamos: cable o tubo de aire, siempre. Y el móvil, sobre una superficie, no en el bolsillo.
 
@@ -573,7 +579,7 @@ Los auriculares inalámbricos usan Bluetooth, que es otra emisión de radiofrecu
 
 Si solo usas el móvil y tienes buena cobertura, apagar el router elimina su Wi-Fi. Pero el móvil sigue hablando con la antena de la calle; no se limita a recibir.
 
-Si luego activas "Compartir Internet", vuelves a crear una red en casa. Y si la cobertura es mala, el móvil sube su potencia. Por eso quitar el router no garantiza menos exposición total en todas las situaciones.
+Si luego activas «Compartir Internet», vuelves a crear una red en casa. Y si la cobertura es mala, el móvil sube su potencia. Por eso quitar el router no garantiza menos exposición total en todas las situaciones.
 
 Con varias personas en casa suele ser más práctico mantener la conexión fija, cablear lo que no se mueve y apagar el Wi-Fi cuando nadie lo usa. Elige la conexión por su uso, su cobertura y su sitio.
 
@@ -584,18 +590,18 @@ Con varias personas en casa suele ser más práctico mantener la conexión fija,
 1. **Abre los ajustes.** Datos, Wi-Fi, Bluetooth y punto de acceso. El icono del avión no basta: en algunos modelos el Wi-Fi o el Bluetooth se reactivan solos.
 2. **Apaga lo que no usas.** Comprueba reloj, auriculares y conexiones compartidas antes de cortar algo que necesites.
 3. **Organiza las tareas grandes.** Copias de seguridad y subidas de vídeo, en un momento concreto y con el móvil lejos del cuerpo.
-4. **Cierra "Compartir Internet"** en cuanto termines con el portátil.
+4. **Cierra «Compartir Internet»** en cuanto termines con el portátil.
 5. **Dale un sitio de descanso.** Sobre la mesa mientras trabajas; en su punto de carga, fuera del dormitorio, por la noche.
 
 ## SPIRO: quién lo hizo y por qué lo uso
 
-Cuando empecé a trabajar con personas con sensibilidad química y electrohipersensibilidad, vi que el teléfono era también su herramienta de trabajo, de contacto y de ayuda. Quitárselo no era una solución. Necesitaba algo que encajara en su vida.
+Cuando empecé a trabajar con personas con sensibilidad química múltiple y electrohipersensibilidad, vi que el teléfono era también su herramienta de trabajo, de contacto y de ayuda. Quitárselo no era una solución. Necesitaba algo que encajara en su vida.
 
-SPIRO es una tecnología desarrollada por Joaquín Machado y su empresa, Noxtak. Es un material nanocompuesto pasivo, sin pilas ni cables, en forma de tarjeta, cuadrado o disco. Según su fabricante, actúa sobre la forma en que se ordenan los campos artificiales de nuestro alrededor (la "polarización" de la que hablamos en el capítulo 1) sin cortar ni atenuar las comunicaciones. Ha recibido reconocimientos internacionales de innovación, entre ellos el Edison Award de 2020, el Silicon Valley Invention Festival de 2019 y el German Innovation Award de 2021.
+SPIRO es una tecnología desarrollada por Joaquín Machado y su empresa, Noxtak. Es un material nanocompuesto pasivo, sin pilas ni cables, en forma de tarjeta, cuadrado o disco. Según su fabricante, actúa sobre la forma en que se ordenan los campos artificiales de nuestro alrededor (la «polarización» de la que hablamos en el capítulo 1) sin cortar ni atenuar las comunicaciones. Ha recibido reconocimientos internacionales de innovación, entre ellos el Edison Award de 2020, el Silicon Valley Invention Festival de 2019 y el German Innovation Award de 2021.
 
 En EKIO lo distribuimos desde hace años y lo hemos incorporado a cientos de hogares. Lo que cuento en este capítulo sale de esa experiencia y de la documentación técnica del fabricante.
 
-Y te digo también lo que no tiene todavía: los ensayos clínicos grandes e independientes que tienen los medicamentos. Nadie los ha pagado. Tiene su base técnica, sus premios, ensayos de laboratorio encargados por el fabricante y quince años de casas revisadas. Yo te cuento lo que hacemos y por qué, y tú decides.
+Y te digo también lo que no tiene todavía: los ensayos clínicos grandes e independientes que se exigen a los medicamentos. Nadie los ha pagado. Tiene su base técnica, sus premios, ensayos de laboratorio encargados por el fabricante y quince años de casas revisadas. Yo te cuento lo que hacemos y por qué, y tú decides.
 
 Primero resuelvo lo evitable: aparatos innecesarios, proximidad y problemas de instalación. Todo lo gratuito de este libro funciona igual sin SPIRO. Después te explico cómo lo incorporamos.
 
@@ -615,13 +621,13 @@ Primero resuelvo lo evitable: aparatos innecesarios, proximidad y problemas de i
 
 ![Figura 3.2 · Elige la conexión y revisa tus opciones](esquemas/ruta-conexion-y-spiro.svg)
 
-> **FIGURA 3.2 · Elige la conexión y revisa tus opciones.** Árbol de decisión: ¿necesitas conexión ahora? No: apaga o modo avión. Sí: ¿puedes usar cable? Sí: Ethernet. No: elige una red y aleja la fuente. Debajo, los cuatro formatos: Card (móvil), Square (equipo), Disc (espacio, delante del router), Stroom Master (línea). Referencia Codex: `ruta-conexion-y-spiro`, con "Stroom Master" completo.
+> **FIGURA 3.2 · Elige la conexión y revisa tus opciones.** Árbol de decisión: ¿necesitas conexión ahora? No: apaga o modo avión. Sí: ¿puedes usar cable? Sí: Ethernet. No: elige una red y aleja la fuente. Debajo, los cuatro formatos: Card (móvil), Square (equipo), Disc (espacio, delante del router), Stroom Master (línea). Referencia Codex: `ruta-conexion-y-spiro`, con «Stroom Master» completo.
 
 ### Por qué el Disc va delante del router
 
-Vas a leer "el Disc delante del router" varias veces en este libro. Te explico ahora el motivo para no repetirlo después.
+Vas a leer «el Disc delante del router» varias veces en este libro. Te explico ahora el motivo para no repetirlo después.
 
-El router es, en la mayoría de las casas, la fuente de radiofrecuencia que más horas está encendida. El fabricante de SPIRO indica colocar el Disc junto a la fuente principal de cada estancia. Y es lo que hacemos en cada vivienda que revisamos desde que trabajamos con SPIRO, porque es lo que mejor nos ha funcionado y lo que nuestros clientes nos refieren.
+El router es, en la mayoría de las casas, la fuente de radiofrecuencia que más horas está encendida. El fabricante de SPIRO indica colocar el Disc junto a la fuente principal de cada estancia. Y así lo hacemos en cada vivienda que revisamos desde que trabajamos con SPIRO, porque es lo que mejor nos ha funcionado y lo que nuestros clientes nos refieren.
 
 No es una medida que puedas comprobar con un medidor corriente: el Disc no baja la lectura. Y no sustituye a mover el router fuera del dormitorio, cablear lo fijo o apagar el Wi-Fi de noche. Es lo que añadimos después de todo eso.
 
@@ -671,7 +677,7 @@ Si conduces muchas horas (taxi, reparto) y notas dolor de cabeza o malestar, rev
 
 ![Figura 3.3 · Un coche eléctrico también tiene un mapa](esquemas/mapa-coche-electrico-spiro.svg)
 
-> **FIGURA 3.3 · Un coche eléctrico también tiene un mapa.** Planta reconocible de un coche (ruedas, parabrisas) con motor e inversor delante, batería bajo los asientos, cuatro ocupantes. A un lado: "Propuesta de EKIO: Disc Ultra o tres Square X". Pie: "Fijación segura · pedales y airbags libres · mide un acompañante, no el conductor". Referencia Codex: `mapa-coche-electrico-spiro`, rehecho para que parezca un coche.
+> **FIGURA 3.3 · Un coche eléctrico también tiene un mapa.** Planta reconocible de un coche (ruedas, parabrisas) con motor e inversor delante, batería bajo los asientos, cuatro ocupantes. A un lado: «Propuesta de EKIO: Disc Ultra o tres Square X». Pie: «Fijación segura · pedales y airbags libres · mide un acompañante, no el conductor». Referencia Codex: `mapa-coche-electrico-spiro`, rehecho para que parezca un coche.
 
 ## Receta 4 — Revisa un coche eléctrico
 
@@ -690,6 +696,8 @@ Martin Cooper llevó la llamada a la calle. Tú decides hasta dónde la dejas en
 Antes de seguir, elige el aparcamiento nocturno de los móviles de tu casa y apaga una conexión que ya haya terminado su trabajo. Una decisión concreta vale más que vigilar iconos todo el día.
 
 **En una frase:** el móvil no es malo; lo que es malo es no saber nunca qué está haciendo, a qué distancia lo tienes y dónde duerme.
+
+
 # Capítulo 4 · Volver a salir fuera
 
 Suena el despertador. Enciendes el techo, miras el móvil y sales por el garaje. Trabajas bajo luz artificial, comes dentro y vuelves cuando ya es de noche. Entonces enciendes otra vez el techo.
@@ -702,7 +710,7 @@ En este capítulo vamos a recuperar tres: la luz del exterior, la transición ha
 
 En 1729, un astrónomo francés llamado Jean-Jacques d'Ortous de Mairan tenía en su despacho una mimosa, esa planta que pliega las hojas cuando la tocas y también cada tarde, al caer el sol. Se le ocurrió una pregunta sencilla: ¿las cierra porque se va la luz, o porque sabe qué hora es?
 
-Metió la planta en un armario, a oscuras, y fue abriendo la puerta a distintas horas para mirar. Las hojas seguían abriéndose por la mañana y cerrándose por la tarde, sin ver el sol. De Mairan era un hombre prudente: no quiso sacar conclusiones, y fue un colega quien presentó la observación ante la Academia de Ciencias de París en una nota de apenas una página. Tardaríamos más de dos siglos en entender lo que aquella mimosa estaba diciendo: que los seres vivos llevan un reloj dentro, y que la luz no lo crea, lo pone en hora.
+Metió la planta en un armario, a oscuras, y fue abriendo la puerta a distintas horas para mirar. Las hojas seguían abriéndose por la mañana y cerrándose por la tarde, sin ver el sol. De Mairan era un hombre prudente: no quiso sacar conclusiones, y fue un colega quien presentó la observación ante la Academia de Ciencias de París en una nota de apenas una página. Tardaríamos más de dos siglos en entender lo que aquella mimosa estaba diciendo: que los seres vivos llevan un reloj dentro, y que la luz no lo crea: lo pone en hora.
 
 Tu cuerpo también lleva ritmos: sueño, temperatura, tensión, hambre, actividad. La luz que entra por los ojos ajusta ese reloj al día exterior, como pones en hora un reloj de pulsera que se ha desfasado.
 
@@ -712,9 +720,9 @@ Para recibir esa señal basta mirar el entorno. No mires directamente al Sol.
 
 Una lámpara te permite leer y, aun así, da muchísima menos luz que la calle. Puede que tu salón bien iluminado tenga cien veces menos luz que un día nublado.
 
-En julio de 2013, Kenneth Wright, de la Universidad de Colorado, se llevó a ocho adultos a acampar una semana a las Montañas Rocosas. La regla era una: nada de luz eléctrica. Ni linternas, ni pantallas, ni farolas. Solo el sol de día y la hoguera y la luna de noche. Antes y después les midió la melatonina, la hormona que marca el comienzo de la noche biológica.
+En julio de 2013, Kenneth Wright, de la Universidad de Colorado, se llevó a 8 adultos a acampar una semana a las Montañas Rocosas. La regla era una: nada de luz eléctrica. Ni linternas, ni pantallas, ni farolas. Solo el sol de día y la hoguera y la luna de noche. Antes y después les midió la melatonina, la hormona que marca el comienzo de la noche biológica.
 
-En su vida normal, la melatonina de aquellas personas empezaba a subir unas dos horas después de la puesta de sol y seguía alta cuando ya se habían despertado. Después de una semana de acampada, empezaba a subir con el atardecer y bajaba con el amanecer. El reloj se había alineado con el sol. Y lo más llamativo: los que más cambiaron fueron los "búhos", los que en casa se acostaban más tarde. En el campo dejaron de serlo.
+En su vida normal, la melatonina de aquellas personas empezaba a subir unas dos horas después de la puesta de sol y seguía alta cuando ya se habían despertado. Después de una semana de acampada, empezaba a subir con el atardecer y bajaba con el amanecer. El reloj se había alineado con el sol. Y lo más llamativo: los que más cambiaron fueron los «búhos», los que en casa se acostaban más tarde. En el campo dejaron de serlo.
 
 Fue una semana entera de condiciones, no una salida de tres minutos.
 
@@ -752,7 +760,7 @@ La luz exterior también llega a la sombra. El objetivo del paseo es volver con 
 
 ## Cuando el reloj llega a la célula
 
-El tiempo biológico también entra en el metabolismo. En 2009, Yasukazu Nakahata y su equipo describieron en el laboratorio cómo las proteínas del reloj celular regulan la producción de una molécula necesaria para la energía, el NAD+. Es decir: tu reloj no solo decide cuándo tienes sueño, también cuándo tus células fabrican energía.
+El tiempo biológico también entra en el metabolismo. En 2009, Yasukazu Nakahata y su equipo describieron en el laboratorio cómo las proteínas del reloj celular regulan la producción de una molécula necesaria para la energía, el NAD⁺. Es decir: tu reloj no solo decide cuándo tienes sueño, también cuándo tus células fabrican energía.
 
 Este es uno de los enlaces que me interesa reunir bajo electrobiofotónica: bioelectricidad, luz y organización de la vida. El concepto relaciona preguntas; cada respuesta necesita sus propias pruebas.
 
@@ -760,15 +768,15 @@ Este es uno de los enlaces que me interesa reunir bajo electrobiofotónica: bioe
 
 Te quitas los zapatos sobre arena o césped. Bajo los pies vuelve un contacto que las suelas de goma interrumpen todo el día.
 
-El grounding es el contacto conductor entre tu cuerpo y la Tierra. Cambia la tensión eléctrica de tu cuerpo respecto al suelo: un estudio de 2016 midió esa tensión en cincuenta personas y vio que bajaba mucho al conectarse a tierra. Eso no apaga las fuentes del entorno ni te protege de la radiofrecuencia. Es otra cosa.
+El grounding es el contacto conductor entre tu cuerpo y la Tierra. Cambia la tensión eléctrica de tu cuerpo respecto al suelo: un estudio de 2016 midió esa tensión en 50 personas y vio que bajaba mucho al conectarse a tierra. Eso no apaga las fuentes del entorno ni te protege de la radiofrecuencia. Es otra cosa.
 
-Algunos estudios pequeños han explorado efectos sobre el sueño, el cortisol o el ritmo cardíaco: doce personas en 2004, veintiocho en 2010, en trabajos de investigadores vinculados al movimiento del grounding. Su tamaño limita lo que se puede concluir.
+Algunos estudios pequeños han explorado efectos sobre el sueño, el cortisol o el ritmo cardíaco: 12 personas en 2004, 28 en 2010, en trabajos de investigadores vinculados al movimiento del grounding. Su tamaño limita lo que se puede concluir.
 
 Yo lo incluyo como lo que es: un contacto natural que acompaña al paseo y al descanso fuera. Si te resulta agradable y es seguro, hazlo. No hace falta atribuirle todos los efectos de estar al aire libre.
 
 ![Figura 4.2 · Qué cambia al tocar tierra](esquemas/grounding-paraguas-natural.svg)
 
-> **FIGURA 4.2 · Qué cambia al tocar tierra.** Dos figuras humanas junto a un cable con tensión: una sobre suela aislante (puede aparecer tensión inducida en el cuerpo), otra descalza sobre hierba (esa tensión baja). Arriba, un router: "la radiofrecuencia sigue presente en los dos casos". Pie: "Menos tensión respecto a tierra no es protección sanitaria; el grounding no sustituye la revisión eléctrica". Referencia Codex: `grounding-paraguas-natural`, sin que las curvas tapen el texto.
+> **FIGURA 4.2 · Qué cambia al tocar tierra.** Dos figuras humanas junto a un cable con tensión: una sobre suela aislante (puede aparecer tensión inducida en el cuerpo), otra descalza sobre hierba (esa tensión baja). Arriba, un router: «la radiofrecuencia sigue presente en los dos casos». Pie: «Menos tensión respecto a tierra no es protección sanitaria; el grounding no sustituye la revisión eléctrica». Referencia Codex: `grounding-paraguas-natural`, sin que las curvas tapen el texto.
 
 Una toma de tierra de seguridad es parte de la instalación eléctrica; el grounding corporal es otra práctica. No improvises cables hacia enchufes, tuberías ni estructuras metálicas. Un sistema para interior necesita instalación comprobada, producto diseñado para eso y sus instrucciones.
 
@@ -792,7 +800,7 @@ Una toma de tierra de seguridad es parte de la instalación eléctrica; el groun
 
 ## Receta 3 — Devolver el anochecer a la casa
 
-En 2015, Anne-Marie Chang y sus colaboradores pusieron a doce adultos a leer cuatro horas antes de dormir, cinco noches seguidas: unas noches en una pantalla luminosa, otras en papel. Con la pantalla, la melatonina se retrasó, tardaron más en dormirse y estaban menos despiertos a la mañana siguiente. Eran condiciones intensas, pero la lección sirve para cualquier casa: las últimas horas del día no son horas de pantalla.
+En 2015, Anne-Marie Chang y sus colaboradores pusieron a 12 adultos a leer cuatro horas antes de dormir, cinco noches seguidas: unas noches en una pantalla luminosa, otras en papel. Con la pantalla, la melatonina se retrasó, tardaron más en dormirse y estaban menos despiertos a la mañana siguiente. Eran condiciones intensas, pero la lección sirve para cualquier casa: las últimas horas del día no son horas de pantalla.
 
 **Necesitas:** las dos bombillas y una hora de cierre. **Resultado:** una noche que empieza antes de meterte en la cama.
 
@@ -806,13 +814,15 @@ En 2015, Anne-Marie Chang y sus colaboradores pusieron a doce adultos a leer cua
 Elige un cambio para mañana: un paseo al levantarte o una hora de cierre de pantallas. Organiza primero ese momento. La regularidad es lo que convierte una idea del libro en parte de tu casa.
 
 **En una frase:** tu cuerpo espera cada día tres cosas que ya no le das: el cielo por la mañana, la oscuridad por la noche y la tierra bajo los pies.
+
+
 # Capítulo 5 · Usar la luz en casa
 
 Niels Ryberg Finsen nació en 1860 en las islas Feroe, en mitad del Atlántico Norte, donde el sol es un bien escaso. De joven enfermó de un trastorno que le fue debilitando el cuerpo poco a poco, y se dio cuenta de algo que anotó con la precisión de un científico: los días de sol se encontraba mejor. Empezó a seguir la luz por su casa como un gato, moviendo la silla de ventana en ventana.
 
-Ya médico en Copenhague, convirtió esa observación en un método. Primero demostró que la luz roja, filtrada, ayudaba a curar la viruela sin las cicatrices habituales. Después construyó lámparas de arco eléctrico con filtros y lentes que concentraban la luz sobre la piel, y las aplicó al lupus vulgaris, una tuberculosis de la piel que desfiguraba la cara y que hasta entonces no tenía cura. Los pacientes se sentaban durante horas con la lámpara enfocada, sujeta por enfermeras, mientras una pieza de cristal presionaba la piel para dejarla sin sangre y más transparente. Muchos se curaron.
+Ya médico en Copenhague, convirtió esa observación en un método. Primero demostró que la luz roja, filtrada, ayudaba a curar la viruela sin las cicatrices habituales. Después construyó lámparas de arco eléctrico con filtros y lentes que concentraban la luz sobre la piel, y las aplicó al *lupus vulgaris*, una tuberculosis cutánea que desfiguraba la cara y que hasta entonces no tenía cura. Los pacientes se sentaban durante horas con la lámpara enfocada, sujeta por enfermeras, mientras una pieza de cristal presionaba la piel para dejarla sin sangre y más transparente. Muchos se curaron.
 
-En 1903 recibió el Premio Nobel de Medicina, el primero concedido a un tratamiento con luz. Murió al año siguiente, con cuarenta y tres años. No tenía LED, ni una aplicación, ni un panel colgado de la puerta. Tenía filtros, lentes, lámparas difíciles de manejar y una idea poderosa: la luz podía dosificarse como una medicina.
+En 1903 recibió el Premio Nobel de Fisiología o Medicina, el primero concedido a un tratamiento con luz. Murió al año siguiente, con cuarenta y tres años. No tenía LED, ni una aplicación, ni un panel colgado de la puerta. Tenía filtros, lentes, lámparas difíciles de manejar y una idea poderosa: la luz podía dosificarse como una medicina.
 
 Aquella fototerapia no era la fotobiomodulación de hoy. Pero abrió una puerta: dejó de mirar la luz solo como iluminación y empezó a estudiarla como algo que se mide, se enfoca y se dosifica.
 
@@ -843,9 +853,9 @@ Con la luz pasa lo mismo.
 
 Una longitud de onda se expresa en nanómetros, nm. No necesitas imaginar algo tan pequeño. Solo leer el número como una dirección dentro del espectro.
 
-Alrededor de 630 o 660 nm vemos rojo. En 810, 850 o 940 nm estamos en el infrarrojo cercano: no lo vemos, pero el panel sigue emitiendo. Y ojo con eso: como no lo ves, no parpadeas ni cierras los ojos por reflejo. Por eso la protección ocular que indique el fabricante no es opcional. En torno a 485 nm vemos una luz azul verdosa, cian. Más allá del violeta está el ultravioleta, con efectos y precauciones distintas.
+Alrededor de 630 o 660 nm vemos rojo. En 810, 850 o 940 nm estamos en el infrarrojo cercano: no lo vemos, pero el panel sigue emitiendo. Y ojo con eso: como no lo ves, no parpadeas ni cierras los ojos por reflejo. Por eso la protección ocular que indique el fabricante no es opcional. En torno a 485 nm vemos una luz azul verdosa, cian. Más allá del violeta está el ultravioleta, con efectos y precauciones distintos.
 
-La longitud de onda influye en qué moléculas absorben la luz y hasta dónde llega en el tejido. Pero no es una dirección postal: "850 nm va a la articulación" o "1050 nm llega al hueso" son frases de catálogo. Lo que llega depende de la piel, el tejido, la pigmentación, la potencia, el haz, el ángulo y la distancia.
+La longitud de onda influye en qué moléculas absorben la luz y hasta dónde llega en el tejido. Pero no es una dirección postal: «850 nm va a la articulación» o «1050 nm llega al hueso» son frases de catálogo. Lo que llega depende de la piel, el tejido, la pigmentación, la potencia, el haz, el ángulo y la distancia.
 
 Los nanómetros dicen qué luz usas. Falta saber cuánta llega.
 
@@ -869,11 +879,11 @@ El ejemplo enseña a calcular; no te dice qué dosis necesitas tú. Eso lo dice 
 
 ![Figura 5.1 · Anatomía de una sesión de fotobiomodulación](esquemas/anatomia-sesion-pbm.svg)
 
-> **FIGURA 5.1 · Anatomía de una sesión de fotobiomodulación.** Cinco tarjetas: longitud de onda (¿qué luz?), irradiancia (¿cuánta llega y desde dónde?), tiempo, superficie, objetivo. Debajo, la fórmula y el ejemplo con números inventados. Pie: "Mismos minutos no es misma dosis si cambian la potencia, la distancia o el modo". Referencia Codex: `anatomia-sesion-pbm`, con el nuevo ejemplo.
+> **FIGURA 5.1 · Anatomía de una sesión de fotobiomodulación.** Cinco tarjetas: longitud de onda (¿qué luz?), irradiancia (¿cuánta llega y desde dónde?), tiempo, superficie, objetivo. Debajo, la fórmula y el ejemplo con números inventados. Pie: «Mismos minutos no es misma dosis si cambian la potencia, la distancia o el modo». Referencia Codex: `anatomia-sesion-pbm`, con el nuevo ejemplo.
 
 ## Qué hace la luz cuando llega al tejido
 
-Algunas moléculas absorben la luz y ponen en marcha cambios en el metabolismo y en la comunicación entre células. La mitocondria, la central de energía de la célula, participa en muchas de las respuestas estudiadas. Pero llamarla "batería que se carga con luz" es simplificar demasiado.
+Algunas moléculas absorben la luz y ponen en marcha cambios en el metabolismo y en la comunicación entre células. La mitocondria, la central de energía de la célula, participa en muchas de las respuestas estudiadas. Pero llamarla «batería que se carga con luz» es simplificar demasiado.
 
 En 2017, un equipo comparó distintos colores sobre células madre humanas en cultivo: el rojo de 660 nm y el infrarrojo de 810 nm favorecieron que se multiplicaran; el azul y el verde, no. Era un experimento con células, no una prueba de que cada color regenere un órgano.
 
@@ -881,7 +891,7 @@ El mecanismo exacto se sigue afinando. En 2021, dos investigadores no encontraro
 
 *[Figura 5.2 · Qué hace la luz en el tejido — figura nueva, pendiente de Mauro Arroyo]*
 
-> **FIGURA 5.2 · Qué hace la luz en el tejido.** Corte de piel con la luz entrando; una célula con su mitocondria; flechas "luz → moléculas que la absorben → cambios en la energía y la señalización". Rótulo: "Varios mecanismos en estudio, no un interruptor". Figura nueva.
+> **FIGURA 5.2 · Qué hace la luz en el tejido.** Corte de piel con la luz entrando; una célula con su mitocondria; flechas «luz → moléculas que la absorben → cambios en la energía y la señalización». Rótulo: «Varios mecanismos en estudio, no un interruptor». Figura nueva.
 
 La consecuencia práctica es sencilla: elige el modo para tu objetivo y respeta la dosis. Añadir colores no garantiza ventaja.
 
@@ -895,13 +905,13 @@ En fotobiomodulación se han visto respuestas en forma de campana: un efecto apa
 
 ### La piel: una mejora medida tras treinta sesiones
 
-En 2014, Alexander Wunsch y Karsten Matuschka publicaron un estudio con 136 voluntarios. Comparaban grupos tratados dos veces por semana con luz roja, o con un espectro más amplio, frente a un grupo sin tratamiento. Tras treinta sesiones, los tratados tenían menos rugosidad y más colágeno. El espectro amplio no fue mejor que el rojo solo.
+En 2014, Alexander Wunsch y Karsten Matuschka publicaron un estudio con 136 voluntarios. Compararon grupos tratados dos veces por semana con luz roja, o con un espectro más amplio, frente a un grupo sin tratamiento. Tras treinta sesiones, los tratados tenían menos rugosidad y más colágeno. El espectro amplio no fue mejor que el rojo solo.
 
 Dos lecciones. Una para estudiar: hay una razón para investigar esta aplicación. Otra para comprar: más longitudes de onda no aseguran más resultado. Y un matiz: el grupo de control no recibió una luz placebo, y los equipos los puso el fabricante. No fue cualquier panel doméstico.
 
 ### La recuperación muscular: importa también cómo se aplica
 
-En 2016, un equipo brasileño estudió a cincuenta hombres tras un ejercicio que exige al músculo mientras se alarga. Compararon luz, frío, combinaciones y placebo. La luz salió favorable en las medidas de recuperación.
+En 2016, un equipo brasileño estudió a 50 hombres tras un ejercicio que exige al músculo mientras se alarga. Compararon luz, frío, combinaciones y placebo. La luz salió favorable en las medidas de recuperación.
 
 Usaron un equipo concreto, mezcla de láser y LED, sobre puntos del muslo. Lo útil para ti: pide un protocolo compatible con tu dispositivo y tu objetivo, no copies los minutos de un titular.
 
@@ -909,16 +919,16 @@ Usaron un equipo concreto, mezcla de láser y LED, sobre puntos del muslo. Lo ú
 
 Creé EKIO Light con una idea: si vamos a usar luz para cuidarnos, el aparato tiene que encajar en una buena higiene tecnológica. Por eso miramos el espectro, el parpadeo, la fuente de alimentación y los campos alrededor del panel.
 
-Te presento la familia como familia, sin números de irradiancia ni recuentos de LED, porque los modelos cambian y un libro no. Los datos exactos de tu equipo están en su ficha, en la web y en la app. El test "Qué EKIO Light necesito" te ayuda a ordenar las opciones.
+Te presento la familia como familia, sin números de irradiancia ni recuentos de LED, porque los modelos cambian y un libro no. Los datos exactos de tu equipo están en su ficha, en la web y en la app. El test «Qué EKIO Light necesito» te ayuda a ordenar las opciones.
 
-- **Core.** El pequeño. Trece LED de rojo e infrarrojo en un chasis que cabe en la mano, pensado para trabajar una zona en contacto o muy cerca. Es la entrada a la familia y el que más gente tiene en casa. Y por eso te doy aquí su única regla importante: en contacto, la luz llega concentrada y las sesiones son cortas. Su temporizador llega lejos porque también sirve a distancia; no lo apures pegado a la piel.
+- **Core.** El pequeño. Rojo e infrarrojo en un chasis que cabe en la mano, pensado para trabajar una zona en contacto o muy cerca. Es la entrada a la familia y el que más gente tiene en casa. Y por eso te doy aquí su única regla importante: en contacto, la luz llega concentrada y las sesiones son cortas. Su temporizador llega lejos porque también sirve a distancia; no lo apures pegado a la piel.
 - **Deep 5.** El panel de rojo e infrarrojo con cinco longitudes de onda y modos separados. Para sesiones sobre zonas más amplias, a la distancia que indique su guía.
 - **Bio Regén 7.** Añade un cian y un infrarrojo más profundo, y un módulo central para concentrar la luz sobre una zona. El cian se relaciona con la sensibilidad de la retina para el reloj del día; eso no convierte el panel en una lámpara para mirar. No mires sus LED. Para la señal de día, la primera opción de esta guía sigue siendo salir.
 - **Bio Spectrum 11.** El más amplio: cuatro circuitos que van del ultravioleta al infrarrojo. Su bloque de ultravioleta, violeta y cian se enciende junto. Ese bloque queda fuera de todas las recetas domésticas de este libro: la fototerapia ultravioleta requiere valoración profesional porque puede dañar piel y ojos. Para una sesión roja o infrarroja, comprueba que ese circuito está apagado.
 
 ![Figura 5.3 · La familia EKIO Light](esquemas/mapa-paneles-ekio-light.svg)
 
-> **FIGURA 5.3 · La familia EKIO Light.** Cuatro siluetas de menor a mayor (Core, Deep 5, Bio Regén 7, Bio Spectrum 11) sobre tres franjas de color: rojo, infrarrojo, cian; el Bio Spectrum añade una franja ultravioleta marcada "fuera de las recetas domésticas". Sin cifras. Pie: "Los datos de cada modelo, en su ficha vigente". Referencia Codex: `mapa-paneles-ekio-light`, simplificado.
+> **FIGURA 5.3 · La familia EKIO Light.** Cuatro siluetas de menor a mayor (Core, Deep 5, Bio Regén 7, Bio Spectrum 11) sobre tres franjas de color: rojo, infrarrojo, cian; el Bio Spectrum añade una franja ultravioleta marcada «fuera de las recetas domésticas». Sin cifras. Pie: «Los datos de cada modelo, en su ficha vigente». Referencia Codex: `mapa-paneles-ekio-light`, simplificado.
 
 Antes de comprar, pregunta qué circuitos puedes encender por separado. Ese dato vale más que el número total de longitudes de onda.
 
@@ -926,7 +936,7 @@ Antes de comprar, pregunta qué circuitos puedes encender por separado. Ese dato
 
 **Necesitas:** la ficha de tu modelo y un papel. **Resultado:** cinco decisiones escritas.
 
-1. **Elige el objetivo.** Una frase: "quiero la sesión indicada para la piel", "quiero acompañar mi recuperación", "quiero trabajar una zona". Un objetivo por sesión evita pulsar botones al azar.
+1. **Elige el objetivo.** Una frase: «quiero la sesión indicada para la piel», «quiero acompañar mi recuperación», «quiero trabajar una zona». Un objetivo por sesión evita pulsar botones al azar.
 2. **Identifica modelo y modo.** Core, Deep 5, Bio Regén 7 o Bio Spectrum 11. Localiza qué circuito indica la guía actual para tu objetivo.
 3. **Busca distancia, tiempo y frecuencia.** Los tres juntos. Diez minutos a quince centímetros no son diez minutos a treinta.
 4. **Revisa ojos, piel y medicación.** Protección ocular del modo. Nada de ultravioleta fuera de su protocolo. Si tomas medicación que te sensibiliza a la luz, tienes una lesión sin diagnosticar, un tumor conocido o sospechoso en la zona, estás embarazada o en tratamiento, consulta antes. Si el panel tiene modo pulsado y tienes epilepsia fotosensible, no lo uses sin consejo médico. Cerrar los ojos no sustituye la protección.
@@ -953,7 +963,7 @@ Antes de comprar, pregunta qué circuitos puedes encender por separado. Ese dato
 - **Al anochecer:** baja la general y usa luz local amarilla de 1800 K. La roja DUSK, para los últimos momentos o para un pasillo. No hace falta cambiar todas las bombillas de golpe.
 - **Al acostarte:** apaga lo que no necesitas. Si alguien requiere una luz de orientación, tenue, baja y fuera de la línea de visión.
 
-Tu tarea de hoy: elige una lámpara que uses de noche y decide qué cambiarás: su intensidad, su sitio o la hora a la que la apagas.
+Tu tarea de hoy: elige una lámpara que uses de noche y decide qué cambiarás, si su intensidad, su sitio o la hora a la que la apagas.
 
 ## La ficha que debe acompañar siempre a un panel
 
@@ -975,9 +985,11 @@ Si un dato necesario no aparece, pídelo antes de improvisar. En EKIO puedes ped
 Antes de tu próxima sesión deja escritos los cinco datos: objetivo, modo, distancia, tiempo y frecuencia. Con esa pequeña ficha ya estás tomando una decisión más útil que encender todos los botones.
 
 **En una frase:** las bombillas son para vivir y los paneles para una sesión; el error más común es tratar a un panel como si fuera una lámpara y a una lámpara como si fuera un tratamiento.
+
+
 # Capítulo 6 · Niños y adolescentes
 
-El 9 de enero de 2007, en un escenario de San Francisco, Steve Jobs anunció que iba a presentar tres productos: un iPod con pantalla táctil, un teléfono y un aparato para navegar por Internet. Repitió la lista tres veces, cada vez más despacio, hasta que el público entendió que eran el mismo aparato. Un niño nacido aquella semana ya ha cumplido diecinueve años. Es la primera generación que no recuerda el mundo sin esa pantalla en el bolsillo de sus padres, y luego en el suyo. Hemos aprendido a convivir con ella mientras ellos crecían con ella, y nadie nos dio instrucciones.
+El 9 de enero de 2007, en un escenario de San Francisco, Steve Jobs anunció que iba a presentar tres productos: un iPod con pantalla táctil, un teléfono y un aparato para navegar por Internet. Repitió la lista tres veces, cada vez más despacio, hasta que el público entendió que eran el mismo aparato. Los niños nacidos aquella semana ya han cumplido diecinueve años. Son la primera generación que no recuerda el mundo sin esa pantalla en el bolsillo de sus padres, y luego en el suyo. Hemos aprendido a convivir con ella mientras ellos crecían a su lado, y nadie nos dio instrucciones.
 
 Imagina que tu hijo te pregunta por qué no puede dormir con el móvil. Le explicas que la cama es para descansar, que las notificaciones despiertan, que una pantalla invita a seguir mirando. Y entonces llega la pregunta difícil:
 
@@ -995,7 +1007,7 @@ Y una cosa que veo cada vez más en las consultas y en las casas: niños que no 
 
 ## La noche de una niña de cuatro años
 
-Son las ocho y media de un martes. Una niña de cuatro años está en el sofá con la tableta apoyada en las rodillas, a treinta centímetros de la cara, viendo el capítulo que le prometieron "solo uno" mientras su padre recoge la cocina. La pantalla está al máximo de brillo, porque así la dejó el hermano mayor por la tarde. El capítulo termina. La tableta, sin que nadie se lo pida, muestra el siguiente y empieza a contar: cinco, cuatro, tres. La niña no toca nada. Empieza solo.
+Son las ocho y media de un martes. Una niña de cuatro años está en el sofá con la tableta apoyada en las rodillas, a treinta centímetros de la cara, viendo el capítulo que le prometieron «solo uno» mientras su padre recoge la cocina. La pantalla está al máximo de brillo, porque así la dejó el hermano mayor por la tarde. El capítulo termina. La tableta, sin que nadie se lo pida, muestra el siguiente y empieza a contar: cinco, cuatro, tres. La niña no toca nada. Empieza solo.
 
 A las nueve y cuarto su padre se da cuenta de la hora. Baño rápido con la luz del techo encendida, pijama, dientes, un cuento con la lámpara de la mesita a tope, y entonces la negociación internacional más antigua del mundo:
 
@@ -1003,7 +1015,7 @@ A las nueve y cuarto su padre se da cuenta de la hora. Baño rápido con la luz 
 
 Y no miente. Su cuerpo ha recibido durante la última hora la señal de que es mediodía.
 
-En 2018, Lameese Akacem y su equipo estudiaron a diez niños de preescolar. Tras una hora de luz intensa antes de acostarse, la melatonina, la hormona de la noche, cayó casi del todo y seguía baja cincuenta minutos después. Fue un experimento pequeño con una luz concreta; no dice nada de la radiofrecuencia ni de cualquier bombilla.
+En 2018, Lameese Akacem y su equipo estudiaron a 10 niños de preescolar. Tras una hora de luz intensa antes de acostarse, la melatonina, la hormona de la noche, cayó casi del todo y seguía baja cincuenta minutos después. Fue un experimento pequeño con una luz concreta; no dice nada de la radiofrecuencia ni de cualquier bombilla.
 
 La enseñanza es más sencilla: la noche de un niño merece una transición clara.
 
@@ -1019,7 +1031,7 @@ La cuna o la cama debe ser el centro del plano. Empieza desde ahí y avanza haci
 
 Un vigilabebés no va dentro de la cuna, ni colgado de los barrotes, ni junto a la cabeza. Además de la comunicación inalámbrica, algunos llevan un cable que nunca debe quedar al alcance del bebé. Colócalo en una superficie estable, a la distancia que diga el fabricante, y pregunta si necesitas transmisión continua o si tiene un modo que se activa solo con sonido.
 
-El móvil que usas como cámara improvisada tampoco va en la cuna. Si tiene que transmitir, estable, lejos y, si la usas, con la SPIRO Card. Y sin mantas encima: necesita disipar calor.
+El móvil que usas como cámara improvisada tampoco va en la cuna. Si tiene que transmitir, estable, lejos y, si la tienes, con la SPIRO Card. Y sin mantas encima: necesita disipar calor.
 
 Mira después la pared de detrás de la cama. Puede compartir tabique con el cuadro eléctrico, el frigorífico, el router o un despacho lleno de fuentes. Ver un aparato en la pared de al lado no te dice cuánto llega a la cama; solo medir lo dice.
 
@@ -1048,15 +1060,15 @@ Rara vez preguntamos:
 
 —¿Cuánto cielo has visto hoy?
 
-En 2015, Mingguang He y su equipo publicaron un ensayo con niños de seis años de doce colegios de Guangzhou, en China. A seis colegios les añadieron cuarenta minutos diarios de clase al aire libre y animaron a las familias a salir también. Tres años después, la miopía había aparecido en el 30,4 % de los niños que salían más y en el 39,5 % de los que seguían su rutina.
+En 2015, Mingguang He y su equipo publicaron un ensayo con niños de seis años de 12 colegios de Guangzhou, en China. A seis colegios les añadieron 40 minutos diarios de clase al aire libre y animaron a las familias a salir también. Tres años después, la miopía había aparecido en el 30,4 % de los niños que salían más y en el 39,5 % de los que seguían su rutina.
 
 ![Figura 6.2 · Más tiempo fuera, menos miopía](esquemas/exterior-y-miopia.svg)
 
-> **FIGURA 6.2 · Más tiempo fuera, menos miopía.** Dos barras horizontales sobre una escala de 0 a 100 %: "Más actividad exterior: 30,4 % (259 de 853 niños)" y "Rutina habitual: 39,5 % (287 de 726 niños)". Pie: "He et al., JAMA 2015. Doce colegios, tres años. Un resultado sobre aparición de miopía; no cura una miopía existente". Referencia Codex: `exterior-y-miopia`.
+> **FIGURA 6.2 · Más tiempo fuera, menos miopía.** Dos barras horizontales sobre una escala de 0 a 100 %: «Más actividad exterior: 30,4 % (259 de 853 niños)» y «Rutina habitual: 39,5 % (287 de 726 niños)». Pie: «He *et al.*, JAMA 2015. 12 colegios, tres años. Un resultado sobre aparición de miopía; no cura una miopía existente». Referencia Codex: `exterior-y-miopia`.
 
 La miopía es hoy una epidemia: una proyección publicada en 2016 calcula que en 2050 la mitad de la población mundial será miope. Cuarenta minutos no son una dosis mágica ni curan la miopía que ya existe. Pero son una razón muy concreta para defender el patio, el paseo y el juego fuera.
 
-Salir reúne luz, mirar a distintas distancias, movimiento y descanso de la pantalla. Reserva hoy un hueco con sitio en el horario: el camino al colegio, el patio, el paseo de la tarde.
+Salir reúne luz, mirar a distintas distancias, movimiento y descanso de la pantalla. Reserva hoy un hueco en el horario: el camino al colegio, el patio, el paseo de la tarde.
 
 No hace falta mandar al niño a tomar el sol hasta que se queme. Necesita tiempo fuera adaptado a la estación, a su piel y a la temperatura. La sombra también está fuera.
 
@@ -1084,7 +1096,7 @@ El primer teléfono no llega solo. Con él entran una tarifa, una cámara, una r
 
 Entregar el aparato sin acordar cómo se usa es firmar un contrato sin leerlo.
 
-En 2018, Kate Bartel y sus colaboradores pidieron a sesenta y tres adolescentes que dejaran el teléfono durante la hora previa a dormir en noches de colegio. Comparado con su semana normal, durmieron veintiún minutos más y apagaron la luz diecisiete minutos antes. Fue un seguimiento corto y con diarios; es una pista para probar una rutina, no una promesa de minutos.
+En 2018, Kate Bartel y sus colaboradores pidieron a 63 adolescentes que dejaran el teléfono durante la hora previa a dormir en noches de colegio. En comparación con su semana normal, durmieron veintiún minutos más y apagaron la luz diecisiete minutos antes. Fue un seguimiento corto y con diarios; es una pista para probar una rutina, no una promesa de minutos.
 
 Retirar el móvil de la cama actúa a la vez sobre las notificaciones, el contenido y la tentación de seguir. Esos resultados no se pueden atribuir a la radiofrecuencia. Tampoco hace falta: funcionan.
 
@@ -1098,7 +1110,7 @@ Escribe estas reglas con él. No las escondas en un discurso de cuarenta minutos
 
 ![Figura 6.3 · El pacto del primer móvil](esquemas/pacto-primer-movil.svg)
 
-> **FIGURA 6.3 · El pacto del primer móvil.** Cinco tarjetas: tiene casa, tiene horario, tiene distancia, tiene conexiones, accesorios. Debajo: "La regla que sostiene las cinco: si el móvil interrumpe el sueño, la conversación o la seguridad, se revisa el pacto". Referencia Codex: `pacto-primer-movil`.
+> **FIGURA 6.3 · El pacto del primer móvil.** Cinco tarjetas: tiene casa, tiene horario, tiene distancia, tiene conexiones, accesorios. Debajo: «La regla que sostiene las cinco: si el móvil interrumpe el sueño, la conversación o la seguridad, se revisa el pacto». Referencia Codex: `pacto-primer-movil`.
 
 **El móvil tiene casa.** Elegid dónde descansa y carga. De noche se queda fuera del dormitorio. Si hace falta un despertador, uno que no tenga mensajes esperando.
 
@@ -1108,7 +1120,7 @@ Escribe estas reglas con él. No las escondas en un discurso de cuarenta minutos
 
 **El móvil tiene conexiones.** Wi-Fi, datos, Bluetooth y punto de acceso se activan cuando sirven para algo. El modo avión vale para actividades sin conexión, comprobando que las radios se apagan de verdad.
 
-**El móvil tiene accesorios seguros.** Auriculares con cable, no inalámbricos. Si usáis SPIRO Card, sigue sus instrucciones y que no moleste a la funda ni a la carga. El accesorio no cambia el acuerdo sobre horario y distancia.
+**El móvil tiene accesorios seguros.** Auriculares con cable, no inalámbricos. Si usáis SPIRO Card, seguid sus instrucciones y que no moleste a la funda ni a la carga. El accesorio no cambia el acuerdo sobre horario y distancia.
 
 **El móvil se habla en familia.** Si aparece acoso, contenido perturbador, pérdida de sueño o la sensación de no poder soltarlo, no se resuelve confiscándolo en secreto. Se resuelve hablando, con límites y, cuando haga falta, con ayuda profesional.
 
@@ -1124,7 +1136,7 @@ Puedo recomendar horarios, distancia y apagar lo que sobra sin asegurar un daño
 
 Las bombillas organizan el ambiente; el panel aplica luz al cuerpo. Para iluminar la habitación, intensidad suficiente para la tarea y menos al preparar el descanso. Una bombilla roja no se deja toda la noche como tratamiento.
 
-Con un panel, la conversación cambia. Un menor no es "medio adulto", y reducir a la mitad el tiempo de una receta adulta no es un protocolo infantil. Antes de encenderlo necesito cinco respuestas: qué objetivo, qué modelo, qué longitudes estarán activas, qué distancia y tiempo indica la guía y quién supervisará.
+Con un panel, la conversación cambia. Un menor no es «medio adulto», y reducir a la mitad el tiempo de una receta adulta no es un protocolo infantil. Antes de encenderlo necesito cinco respuestas: qué objetivo, qué modelo, qué longitudes estarán activas, qué distancia y tiempo indica la guía y quién supervisará.
 
 Si se plantea luz para dolor, piel, recuperación o cualquier problema de salud, la decisión va con un profesional que conozca la edad, la situación y los tratamientos del menor. El adulto se queda, evita que el niño mire los LED, usa la protección ocular indicada y para la sesión si aparece dolor, calor incómodo, irritación o malestar.
 
@@ -1149,13 +1161,15 @@ Los niños aprenden mucho de lo que decimos y todavía más de dónde dejamos el
 Empieza esta noche: elegid juntos dónde cargarán los móviles. Tú deja el tuyo allí primero.
 
 **En una frase:** un niño necesita cielo por la mañana, oscuridad por la noche y un móvil que duerma en otra habitación; lo demás se negocia.
+
+
 # Capítulo 7 · Mascotas
 
 En España hay hoy más mascotas que niños. El registro oficial de animales de compañía contaba en 2025 más de quince millones de mascotas, frente a unos ocho millones y medio de menores de edad. Solo los perros, más de siete millones y medio, ya superan a todos los niños de hasta catorce años del país. Compartimos con ellas el sofá, el dormitorio y, sin darnos cuenta, el router, la regleta y la luz de las once de la noche. Ellas no eligieron nada de eso. Nosotros sí.
 
 Unos años antes de estudiar perros, un grupo de investigadores checos y alemanes se había entretenido mirando vacas en las fotos de satélite de Google Earth. Miles de vacas, en pastos de todo el mundo. Descubrieron que, cuando pastan o descansan, tienden a colocarse en dirección norte-sur, como agujas de brújula con manchas. Nadie lo había notado en diez mil años de ganadería.
 
-El siguiente paso era lógico: ¿y los perros? En 2013, Vlastimil Hart y su equipo publicaron los resultados de dos años de trabajo con setenta perros de treinta y siete razas. Los dueños, voluntarios, sacaban a sus perros a pasear sueltos por el campo, lejos de vallas y caminos, y cada vez que el animal se paraba a hacer sus necesidades anotaban con una brújula hacia dónde miraba. Registraron 1893 deposiciones y 5582 micciones. Sí: alguien tuvo que anotar hacia dónde miraba cada perro en ese momento, durante dos años.
+El siguiente paso era lógico: ¿y los perros? En 2013, Vlastimil Hart y su equipo publicaron los resultados de dos años de trabajo con 70 perros de 37 razas. Los dueños, voluntarios, sacaban a sus perros a pasear sueltos por el campo, lejos de vallas y caminos, y cada vez que el animal se paraba a hacer sus necesidades anotaban con una brújula hacia dónde miraba. Registraron 1893 deposiciones y 5582 micciones. Sí: alguien tuvo que apuntar la orientación de cada perro en ese momento, durante dos años.
 
 El resultado no apareció hasta que cruzaron los datos con los registros del campo magnético terrestre, que cambia un poco cada día. En los días de calma magnética, los perros preferían claramente alinearse en dirección norte-sur, sobre todo al defecar. En los días en que el campo de la Tierra se alteraba, la preferencia desaparecía. Como si el perro llevara una brújula que solo funciona cuando no hay interferencias.
 
@@ -1179,7 +1193,7 @@ En cada uno busca:
 - cargadores, robot aspirador y bases de carga;
 - cámaras, comederos, bebederos y juguetes conectados.
 
-Una cama bajo la mesa puede quedar a pocos centímetros de la regleta y del cargador del portátil. Un gato que duerme sobre un mueble puede estar pegado al router que nosotros consideramos "alto y apartado". La distancia se mide desde el animal, no desde nuestros ojos.
+Una cama bajo la mesa puede quedar a pocos centímetros de la regleta y del cargador del portátil. Un gato que duerme sobre un mueble puede estar pegado al router que nosotros consideramos «alto y apartado». La distancia se mide desde el animal, no desde nuestros ojos.
 
 ![Figura 7.1 · El mapa de las tres siestas](esquemas/mapa-oasis-mascota.svg)
 
@@ -1215,7 +1229,7 @@ Una cámara que solo necesitas cuando viajas no tiene por qué transmitir todo e
 
 Haz una pregunta por aparato: ¿qué pierdo hoy si lo desconecto?
 
-Si la respuesta es "nada", apágalo. Si lo necesitas, aléjalo del descanso y deja solo las comunicaciones útiles.
+Si la respuesta es «nada», apágalo. Si lo necesitas, aléjalo del descanso y deja solo las comunicaciones útiles.
 
 Si has incorporado SPIRO, colócalo fuera del alcance del animal y, como en toda la casa, el Disc delante del router.
 
@@ -1259,7 +1273,7 @@ No conectes la cama, el cuenco ni el collar a una toma de tierra improvisada. Un
 
 La fotobiomodulación se ha estudiado para problemas veterinarios concretos. Dos ensayos ayudan a entender por qué importan la indicación y el equipo.
 
-En 2022, João Alves y sus colaboradores publicaron un ensayo con veinte perros con artrosis en las dos caderas. Compararon tres semanas de láser terapéutico con un antiinflamatorio. El láser dio mejores resultados de dolor y función en varios controles. Era un ensayo pequeño con un láser clínico.
+En 2022, João Alves y sus colaboradores publicaron un ensayo con 20 perros con artrosis en las dos caderas. Compararon tres semanas de láser terapéutico con un antiinflamatorio. El láser dio mejores resultados de dolor y función en varios controles. Era un ensayo pequeño con un láser clínico.
 
 En cambio, Oscar Chavez y su equipo publicaron en 2023 un ensayo con 54 perros operados de la rodilla. La luz, comparada con una aplicación simulada, no produjo diferencias en dolor, apoyo ni inflamación.
 
@@ -1271,7 +1285,7 @@ Imagina que intentas iluminar una mesa a través de una cortina. El color, el gr
 
 En 2020, Lindsay Hochman-Elam y su equipo midieron cuánta luz de dos láseres atravesaba los tejidos de 47 perros sanos. La longitud de onda, la potencia, el color del pelo y el rasurado influyeron. Pasó menos luz por las zonas oscuras y sin rasurar. Curiosamente, la longitud del pelo no fue lo que más importó.
 
-No rasures ni subas la potencia por tu cuenta. Lleva esta pregunta al veterinario: "¿el pelaje y la zona que queremos tratar permiten aplicar el protocolo con este equipo?".
+No rasures ni subas la potencia por tu cuenta. Lleva esta pregunta al veterinario: «¿El pelaje y la zona que queremos tratar permiten aplicar el protocolo con este equipo?».
 
 ![Figura 7.2 · De un panel a una sesión veterinaria](esquemas/sesion-pbm-mascota.svg)
 
@@ -1294,7 +1308,7 @@ No rasures ni subas la potencia por tu cuenta. Lleva esta pregunta al veterinari
 
 1. **Prepara el espacio sin encender el panel.** Retira cables que pueda morder y asegura el soporte.
 2. **Deja que conozca el lugar.** Su manta, una superficie antideslizante, una postura cómoda. Una sesión con miedo y forcejeo no es bienestar.
-3. **Coloca la zona según el protocolo.** Mide la distancia desde la superficie emisora. El animal se mueve, y una distancia "aproximada" cambia la dosis a cada rato.
+3. **Coloca la zona según el protocolo.** Mide la distancia desde la superficie emisora. El animal se mueve, y una distancia «aproximada» cambia la dosis a cada rato.
 4. **Activa solo el modo indicado.** No enciendas todos los circuitos porque el panel los tenga. Programa el tiempo antes.
 5. **Vigila temperatura y conducta.** Jadeo inesperado, intento de huida, agitación, dolor o irritación son motivos para parar. Nunca dejes al animal solo frente al panel.
 6. **Registra la aplicación.** Fecha, zona, modo, distancia, tiempo y observación. Compártelo con el veterinario.
@@ -1312,9 +1326,11 @@ La próxima vez que el perro tarde una eternidad en elegir dónde pararse, acué
 O quizá solo haya encontrado el arbusto perfecto.
 
 **En una frase:** tu mascota no eligió el router, la regleta ni la luz de las once; dale lo que tú también necesitas: distancia, oscuridad de noche y un rato de sol y tierra cada día.
+
+
 # Capítulo 8 · Tu plan de higiene tecnológica
 
-Han pasado tres semanas desde que ordenaste el dormitorio. El cargador ha vuelto a la mesita, nadie sabe cómo. El repetidor que apagaste está encendido otra vez; alguien lo necesitó una tarde para una videollamada y ahí se quedó. El móvil que iba a dormir en el salón aparece otra vez bajo la almohada, porque una noche hubo que poner una alarma temprano y al día siguiente ya era costumbre. La lámpara amarilla está donde la pusiste, pero la del techo, la blanca, es la que se enciende cuando entra el primero.
+Han pasado tres semanas desde que ordenaste el dormitorio. El cargador ha vuelto a la mesita, nadie sabe cómo. El repetidor que apagaste está encendido otra vez; alguien lo necesitó una tarde para una videollamada y ahí se quedó. El móvil que iba a dormir en el salón aparece de nuevo bajo la almohada, porque una noche hubo que poner una alarma temprano y al día siguiente ya era costumbre. La lámpara amarilla está donde la pusiste, pero la del techo, la blanca, es la que se enciende cuando entra el primero.
 
 No es que hayas fracasado. Es que una casa recupera sus costumbres con facilidad, igual que un camino se vuelve a llenar de hierba. Por eso quiero terminar con una lista que puedas usar. Elige tres cambios para esta semana: uno en el dormitorio, otro en tus dispositivos y otro en la luz o el tiempo fuera.
 
@@ -1324,7 +1340,7 @@ Para cada cambio, apunta qué harás, quién lo hará y cuándo lo comprobaréis
 
 La higiene tecnológica empieza por una instalación segura.
 
-Si notas olor a plástico quemado, ves chispas, humo, marcas oscuras, cables pelados, enchufes muy calientes, zumbidos o los automáticos saltan una y otra vez, deja de usar ese equipo y llama a un profesional. Y no conectes una regleta a otra para conseguir más tomas.
+Si notas olor a plástico quemado, ves chispas, humo, marcas oscuras, cables pelados, enchufes muy calientes, oyes zumbidos o los automáticos saltan una y otra vez, deja de usar ese equipo y llama a un profesional. Y no conectes una regleta a otra para conseguir más tomas.
 
 No midas radiofrecuencia mientras un enchufe se está quemando. Primero el riesgo eléctrico.
 
@@ -1336,7 +1352,9 @@ Para lo demás, tres preguntas:
 
 Tiempo y distancia te dicen por dónde empezar.
 
-> **FIGURA 8.1 · ¿Por dónde empiezo?** Arriba, una franja roja: "Urgente: seguridad eléctrica → profesional". Debajo, cinco filas numeradas: la noche, lo que toca tu cuerpo, donde permaneces, usos intensos, señales naturales, cada una con su acción. Pie: "Si dos acciones parecen iguales, empieza por la más cercana y prolongada". Referencia Codex: `prioridades-oasis-hogar`.
+![Figura 8.1 · ¿Por dónde empiezo?](esquemas/prioridades-oasis-hogar.svg)
+
+> **FIGURA 8.1 · ¿Por dónde empiezo?** Arriba, una franja roja: «Urgente: seguridad eléctrica → profesional». Debajo, cinco filas numeradas: la noche, lo que toca tu cuerpo, donde permaneces, usos intensos, señales naturales, cada una con su acción. Pie: «Si dos acciones parecen iguales, empieza por la más cercana y prolongada». Referencia Codex: `prioridades-oasis-hogar`.
 
 ## Las cinco prioridades de tu casa
 
@@ -1470,7 +1488,7 @@ Una casa vuelve despacio a su desorden. El cargador regresa a la mesita. El punt
 
 **Semana 2: funcionamiento.** Comprueba si alguien necesita de verdad lo que se apagó. Ajusta sin abandonar el objetivo. Una rutina que la familia no puede mantener necesita otra forma.
 
-**Semana 3: dudas pendientes.** La app y el test "Auditoría del hogar" de la web te ayudan a ordenar observaciones. Si necesitas un número, hace falta un instrumento; un cuestionario no mide la vivienda.
+**Semana 3: dudas pendientes.** La app y el test «Auditoría del hogar» de la web te ayudan a ordenar observaciones. Si necesitas un número, hace falta un instrumento; un cuestionario no mide la vivienda.
 
 **Semana 4: consolidación.** Actualiza el plano. Apunta qué queda encendido, dónde están Card, Square y Disc, cómo se organiza la luz y cuál será el siguiente Oasis.
 
@@ -1497,13 +1515,15 @@ La distancia, la reparación y el apagado se comprueban sobre fuentes concretas.
 
 ## Dos puertas para continuar
 
-Los dos códigos QR del final te llevan a la web de EKIO y a nuestro canal de YouTube. En la web están la app, las fichas de cada producto, el Estudio Electromagnético del Hogar y los tests "Qué SPIRO necesito", "Auditoría del hogar" y "Qué EKIO Light necesito". En YouTube, las demostraciones, que iremos renovando.
+Los dos códigos QR del final te llevan a la web de EKIO y a nuestro canal de YouTube. En la web están la app, las fichas de cada producto, el Estudio Electromagnético del Hogar y los test «Qué SPIRO necesito», «Auditoría del hogar» y «Qué EKIO Light necesito». En YouTube, las demostraciones, que iremos renovando.
 
 El libro termina aquí. Tu mapa empieza ahora.
 
 Elige una habitación. Haz la revisión de diez minutos. Rodea tres cambios. Y crea tu primer Oasis Electromagnético.
 
 **En una frase:** tres cambios, siete días, una foto y una fecha; eso es todo lo que hace falta para empezar.
+
+
 # Índice de recetas
 
 **Capítulo 1 · La casa invisible**
@@ -1596,8 +1616,6 @@ P.1 El camino que dio origen a este libro.
 8.1 ¿Por dónde empiezo?
 8.2 Siete días para crear tu primer Oasis.
 
-**Figuras nuevas propuestas para Mauro, además de las anteriores:** distancia (mismo aparato a 1 cm y a 1 m); onda limpia frente a onda sucia; la pared compartida del cabecero (corte transversal con cuadro o frigorífico al otro lado).
-
 ---
 
 # Glosario
@@ -1640,11 +1658,11 @@ P.1 El camino que dio origen a este libro.
 
 **Frecuencia.** Número de oscilaciones por segundo, en hercios (Hz).
 
+**Grounding.** Contacto conductor del cuerpo con la Tierra. Cambia la tensión del cuerpo respecto al suelo; no demuestra protección frente a campos.
+
 **Higiene electromagnética.** Conjunto de hábitos para reducir la exposición evitable a campos eléctricos, magnéticos y de radiofrecuencia en casa. En este libro es una de las tres partes de la higiene tecnológica.
 
 **Higiene tecnológica.** Ordenar los campos que rodean a tus aparatos, la luz que recibes a cada hora y el tiempo dentro y fuera de casa. Es el término que usa este libro.
-
-**Grounding.** Contacto conductor del cuerpo con la Tierra. Cambia la tensión del cuerpo respecto al suelo; no demuestra protección frente a campos.
 
 **Ion.** Átomo o grupo de átomos con carga eléctrica. Ca²⁺ y Mg²⁺ son iones de calcio y magnesio.
 
@@ -1692,13 +1710,13 @@ P.1 El camino que dio origen a este libro.
 
 **SPIRO Disc.** Formato para espacios. En EKIO se coloca delante del router.
 
-**SPIRO Disc X.** Formato para focos de alta emisión como los inversores solares.
-
 **SPIRO Disc Ultra.** Formato para zonas urbanas muy densas, vehículos eléctricos o personas que refieren alta sensibilidad. Selección comercial, no indicación médica.
+
+**SPIRO Disc X.** Formato para focos de alta emisión como los inversores solares.
 
 **SPIRO Square.** Formato para un ordenador, una tableta o un asistente de voz.
 
-**SPIRO Square X.** Formato portátil para trabajo, viajes y otros espacios.
+**SPIRO Square X.** Formato portátil para trabajo, viajes y otros espacios; en EKIO también se coloca delante del router como alternativa al Disc.
 
 **Stroom Master.** Filtro enchufable distribuido por EKIO para el ruido de la red eléctrica.
 
@@ -1719,18 +1737,18 @@ P.1 El camino que dio origen a este libro.
 Las referencias van aquí para no cargar la lectura. En el texto, cada estudio se identifica por autor, año, cuántas personas o animales participaron y qué se midió. Aquí puedes ir al original y leer sus límites.
 
 ## Escalas, microscopía y espectro
-- Alberts B, Johnson A, Lewis J et al. (2002). *Molecular Biology of the Cell*, 4.ª ed. Garland Science.
+- Alberts B, Johnson A, Lewis J *et al.* (2002). *Molecular Biology of the Cell*, 4.ª ed. Garland Science.
 - NASA. The Electromagnetic Spectrum. science.nasa.gov.
 - Royal Institution. Michael Faraday's generator. rigb.org.
 
 ## Campos electromagnéticos y mecanismos celulares
 - Catterall WA. (2011). Voltage-gated calcium channels. *Cold Spring Harbor Perspectives in Biology* 3:a003947.
-- Christ A et al. (2012). Exposure of the human body to professional and domestic induction cooktops compared to the basic restrictions. *Bioelectromagnetics* 33:695-705. DOI 10.1002/bem.21739.
-- Feissner RF et al. (2009). Crosstalk signaling between mitochondrial Ca²⁺ and ROS. *Frontiers in Bioscience* 14:1197-1218.
+- Christ A *et al.* (2012). Exposure of the human body to professional and domestic induction cooktops compared to the basic restrictions. *Bioelectromagnetics* 33:695-705. DOI 10.1002/bem.21739.
+- Feissner RF *et al.* (2009). Crosstalk signaling between mitochondrial Ca²⁺ and ROS. *Frontiers in Bioscience* 14:1197-1218.
 - Pall ML. (2013). Electromagnetic fields act via activation of voltage-gated calcium channels to produce beneficial or adverse effects. *Journal of Cellular and Molecular Medicine* 17:958-965.
 - Panagopoulos DJ, Johansson O, Carlo GL. (2015). Polarization: a key difference between man-made and natural electromagnetic fields, in regard to biological activity. *Scientific Reports* 5:14914. Modelo teórico.
 - Peng TI, Jou MJ. (2010). Oxidative stress caused by mitochondrial calcium overload. *Annals of the New York Academy of Sciences* 1201:183-188.
-- Platano D et al. (2007). Acute exposure to low-level CW and GSM-modulated 900 MHz radiofrequency does not affect Ba²⁺ currents through voltage-gated calcium channels in rat cortical neurons. *Bioelectromagnetics* 28:599-607. DOI 10.1002/bem.20345.
+- Platano D *et al.* (2007). Acute exposure to low-level CW and GSM-modulated 900 MHz radiofrequency does not affect Ba²⁺ currents through voltage-gated calcium channels in rat cortical neurons. *Bioelectromagnetics* 28:599-607. DOI 10.1002/bem.20345.
 - Wood A, Karipidis K. (2021). Radiofrequency fields and calcium movements into and out of cells. *Radiation Research* 195:101-113. Revisión crítica de la hipótesis anterior.
 
 ## Instrumentos mostrados
@@ -1753,56 +1771,57 @@ Las referencias van aquí para no cargar la lectura. En el texto, cada estudio s
 - European Commission, Joint Research Centre. (2020). Assessment of low-frequency magnetic fields in electrified vehicles. EUR 30198 EN.
 
 ## Ritmos circadianos, luz exterior y grounding
-- Brainard GC et al. (2001). Action spectrum for melatonin regulation in humans. *Journal of Neuroscience* 21:6405-6412.
+- Brainard GC *et al.* (2001). Action spectrum for melatonin regulation in humans. *Journal of Neuroscience* 21:6405-6412.
 - Brown R. (2016). Effects of grounding on body voltage and current in the presence of electromagnetic fields. *Journal of Alternative and Complementary Medicine* 22:757-759. DOI 10.1089/acm.2015.0340.
-- Chamberlin K et al. (2014). Analysis of the charge exchange between the human body and ground. *Journal of Chiropractic Medicine* 13:239-246.
-- Chang AM et al. (2015). Evening use of light-emitting eReaders negatively affects sleep, circadian timing, and next-morning alertness. *PNAS* 112:1232-1237. DOI 10.1073/pnas.1418490112.
+- Chamberlin K *et al.* (2014). Analysis of the charge exchange between the human body and ground. *Journal of Chiropractic Medicine* 13:239-246.
+- Chang AM *et al.* (2015). Evening use of light-emitting eReaders negatively affects sleep, circadian timing, and next-morning alertness. *PNAS* 112:1232-1237. DOI 10.1073/pnas.1418490112.
 - Chevalier G. (2010). Changes in pulse rate, respiratory rate, blood oxygenation, perfusion index, skin conductance, and their variability induced during and after grounding human subjects for 40 minutes. *Journal of Alternative and Complementary Medicine* 16:81-87.
-- Danilenko KV et al. (2000). Phase advance after one or three simulated dawns in humans. *Chronobiology International* 17:659-668.
+- Danilenko KV *et al.* (2000). Phase advance after one or three simulated dawns in humans. *Chronobiology International* 17:659-668.
 - de Mairan JJ. (1729). Observation botanique. *Histoire de l'Académie Royale des Sciences*.
 - Ghaly M, Teplitz D. (2004). The biologic effects of grounding the human body during sleep. *Journal of Alternative and Complementary Medicine* 10:767-776.
-- Konopka RJ, Benzer S. (1971). Clock mutants of Drosophila melanogaster. *PNAS* 68:2112-2116.
-- Nakahata Y et al. (2009). Circadian control of the NAD⁺ salvage pathway by CLOCK-SIRT1. *Science* 324:654-657.
+- Konopka RJ, Benzer S. (1971). Clock mutants of *Drosophila melanogaster*. *PNAS* 68:2112-2116.
+- Nakahata Y *et al.* (2009). Circadian control of the NAD⁺ salvage pathway by CLOCK-SIRT1. *Science* 324:654-657.
 - Ostrin LA. (2017). Objectively measured light exposure in emmetropic and myopic adults. *Optometry and Vision Science* 94:229-238.
 - Tan DX, Reiter RJ, Zimmerman S, Hardeland R. (2023). Melatonin: both a messenger of darkness and a participant in the cellular actions of non-visible solar radiation of near infrared light. *Biology* 12:89.
-- Wright KP Jr et al. (2013). Entrainment of the human circadian clock to the natural light-dark cycle. *Current Biology* 23:1554-1558.
+- Wright KP Jr *et al.* (2013). Entrainment of the human circadian clock to the natural light-dark cycle. *Current Biology* 23:1554-1558.
 
 ## Fotobiomodulación
 - Anders JJ, Lanzafame RJ, Arany PR. (2015). Low-level light/laser therapy versus photobiomodulation therapy. *Photomedicine and Laser Surgery* 33:183-184.
-- de Paiva PRV et al. (2016). Photobiomodulation therapy and/or cryotherapy in skeletal muscle restitution. *Lasers in Medical Science* 31:1925-1933.
-- Luna GLF et al. (2020). Biphasic dose/response of photobiomodulation therapy on culture of human fibroblasts. *Photobiomodulation, Photomedicine, and Laser Surgery* 38:413-418.
+- de Paiva PRV *et al.* (2016). Photobiomodulation therapy and/or cryotherapy in skeletal muscle restitution. *Lasers in Medical Science* 31:1925-1933.
+- Luna GLF *et al.* (2020). Biphasic dose/response of photobiomodulation therapy on culture of human fibroblasts. *Photobiomodulation, Photomedicine, and Laser Surgery* 38:413-418.
 - Quirk B, Whelan HT. (2021). Effect of red-to-near infrared light and a nitric oxide donor on oxygen consumption of isolated cytochrome c oxidase. *Photobiomodulation, Photomedicine, and Laser Surgery* 39:463-470.
-- Wang Y et al. (2017). Red (660 nm) or near-infrared (810 nm) photobiomodulation stimulates, while blue (415 nm), green (540 nm) light inhibits proliferation in human adipose-derived stem cells. *Scientific Reports* 7:7781.
+- Wang Y *et al.* (2017). Red (660 nm) or near-infrared (810 nm) photobiomodulation stimulates, while blue (415 nm), green (540 nm) light inhibits proliferation in human adipose-derived stem cells. *Scientific Reports* 7:7781.
 - Wunsch A, Matuschka K. (2014). A controlled trial to determine the efficacy of red and near-infrared light treatment in patient satisfaction, reduction of fine lines, wrinkles, skin roughness, and intradermal collagen density increase. *Photomedicine and Laser Surgery* 32:93-100.
 
 ## Niños, adolescentes, pantallas y radiofrecuencia
-- Akacem LD et al. (2018). Sensitivity of the circadian system to evening bright light in preschool-age children. *Physiological Reports* 6:e13617.
+- Akacem LD *et al.* (2018). Sensitivity of the circadian system to evening bright light in preschool-age children. *Physiological Reports* 6:e13617.
 - Asociación Española de Pediatría. (2024). Recomendaciones sobre el uso de pantallas en la infancia y la adolescencia. aeped.es.
-- Bartel K et al. (2019; en línea 2018). Altering adolescents' pre-bedtime phone use to achieve better sleep health. *Health Communication* 34:456-462.
-- Foerster M et al. (2018). A prospective cohort study of adolescents' memory performance and individual brain dose of microwave radiation from wireless communication. *Environmental Health Perspectives* 126:077007.
-- He M et al. (2015). Effect of time spent outdoors at school on the development of myopia among children in China: a randomized clinical trial. *JAMA* 314:1142-1148. DOI 10.1001/jama.2015.10803.
-- Holden BA et al. (2016). Global prevalence of myopia and high myopia and temporal trends from 2000 through 2050. *Ophthalmology* 123:1036-1042.
-- Huss A et al. (2015). Environmental radiofrequency electromagnetic fields exposure at home, mobile and cordless phone use, and sleep problems in 7-year-old children. *PLoS ONE* 10:e0139869.
-- Schoeni A et al. (2015). Memory performance, wireless communication and exposure to radiofrequency electromagnetic fields. *Environment International* 85:343-351.
+- Bartel K *et al.* (2019; en línea 2018). Altering adolescents' pre-bedtime phone use to achieve better sleep health. *Health Communication* 34:456-462.
+- Foerster M *et al.* (2018). A prospective cohort study of adolescents' memory performance and individual brain dose of microwave radiation from wireless communication. *Environmental Health Perspectives* 126:077007.
+- He M *et al.* (2015). Effect of time spent outdoors at school on the development of myopia among children in China: a randomized clinical trial. *JAMA* 314:1142-1148. DOI 10.1001/jama.2015.10803.
+- Holden BA *et al.* (2016). Global prevalence of myopia and high myopia and temporal trends from 2000 through 2050. *Ophthalmology* 123:1036-1042.
+- Huss A *et al.* (2015). Environmental radiofrequency electromagnetic fields exposure at home, mobile and cordless phone use, and sleep problems in 7-year-old children. *PLoS ONE* 10:e0139869.
+- Schoeni A *et al.* (2015). Memory performance, wireless communication and exposure to radiofrequency electromagnetic fields. *Environment International* 85:343-351.
 
 ## Animales de compañía
-- Ministerio de Derechos Sociales, Consumo y Agenda 2030. (2025). Registro estatal de animales de compañía: 15.171.569 animales (7.562.893 perros, 5.619.967 gatos). Instituto Nacional de Estadística. Cifras de población por edad, 2025.
+- Alves JC *et al.* (2022). A randomized double-blinded controlled trial on the effects of photobiomodulation therapy in dogs with osteoarthritis. *American Journal of Veterinary Research* 83(8). DOI 10.2460/ajvr.22.03.0036.
 - Begall S, Červený J, Neef J, Vojtěch O, Burda H. (2008). Magnetic alignment in grazing and resting cattle and deer. *PNAS* 105:13451-13455.
-- Alves JC et al. (2022). A randomized double-blinded controlled trial on the effects of photobiomodulation therapy in dogs with osteoarthritis. *American Journal of Veterinary Research* 83(8). DOI 10.2460/ajvr.22.03.0036.
-- Chavez OA et al. (2024; en línea 2023). Photobiomodulation therapy in dogs undergoing TPLO after cranial cruciate ligament rupture shows promise but no statistically significant difference in a randomized trial. *American Journal of Veterinary Research* 85(2). DOI 10.2460/ajvr.23.06.0138.
-- Hart V et al. (2013). Dogs are sensitive to small variations of the Earth's magnetic field. *Frontiers in Zoology* 10:80.
-- Hochman-Elam LN et al. (2020). Effects of laser power, wavelength, coat length, and coat color on tissue penetration using photobiomodulation in healthy dogs. *Canadian Journal of Veterinary Research* 84:131-137.
-- Klune J et al. (2021). Tracking devices for pets: health risk assessment for exposure to radiofrequency electromagnetic fields. *Animals* 11:2721.
-- Yaw AM et al. (2025). Light quality and time in shelter modulate behavior and cortisol in the domestic cat. *iScience* 28:112709.
+- Chavez OA *et al.* (2024; en línea 2023). Photobiomodulation therapy in dogs undergoing TPLO after cranial cruciate ligament rupture shows promise but no statistically significant difference in a randomized trial. *American Journal of Veterinary Research* 85(2). DOI 10.2460/ajvr.23.06.0138.
+- Hart V *et al.* (2013). Dogs are sensitive to small variations of the Earth's magnetic field. *Frontiers in Zoology* 10:80.
+- Hochman-Elam LN *et al.* (2020). Effects of laser power, wavelength, coat length, and coat color on tissue penetration using photobiomodulation in healthy dogs. *Canadian Journal of Veterinary Research* 84:131-137.
+- Instituto Nacional de Estadística. (2025). Cifras de población por edad. ine.es.
+- Klune J *et al.* (2021). Tracking devices for pets: health risk assessment for exposure to radiofrequency electromagnetic fields. *Animals* 11:2721.
+- Ministerio de Derechos Sociales, Consumo y Agenda 2030. (2025). Registro estatal de animales de compañía: 15.171.569 animales (7.562.893 perros, 5.619.967 gatos).
+- Yaw AM *et al.* (2025). Light quality and time in shelter modulate behavior and cortisol in the domestic cat. *iScience* 28:112709.
 
 ## Electrohipersensibilidad
 - Organización Mundial de la Salud. (2005). Electromagnetic fields and public health: electromagnetic hypersensitivity. Nota descriptiva 296.
 
 ## SPIRO: documentación del fabricante y del distribuidor (no constituye evidencia clínica)
-- MORLAB. (2015). Informe SZ15100123S01. Ensayo de SAR de un teléfono con y sin SPIRO Card Level 2, encargado por Noxtak Technologies. Enlace en electrosmogespana.com.
-- Machado J. (2025). Evaluation of EMF exposure in Tesla Model Y (2021/2022) and testing the efficiency of SPIRO technology: an environmental bioelectrography study. *Journal of Applied Biotechnology & Bioengineering* 12(4):131-143. DOI 10.15406/jabb.2025.12.00395. El autor es el inventor de SPIRO.
-- Machado J. *Contaminación electromagnética. Gestionando los riesgos de las tecnologías de información y comunicación en la era de la hiperconectividad.* Serie "Sin miedo al voltaje". Autoedición.
 - EKIO Electrosmog. Fichas de SPIRO Card, Square, Square X, Disc, Disc X, Disc Ultra y Stroom Master. electrosmogespana.com.
+- Machado J. (2025). Evaluation of EMF exposure in Tesla Model Y (2021/2022) and testing the efficiency of SPIRO technology: an environmental bioelectrography study. *Journal of Applied Biotechnology & Bioengineering* 12(4):131-143. DOI 10.15406/jabb.2025.12.00395. El autor es el inventor de SPIRO.
+- Machado J. *Contaminación electromagnética. Gestionando los riesgos de las tecnologías de información y comunicación en la era de la hiperconectividad.* Serie «Sin miedo al voltaje». Autoedición.
+- MORLAB. (2015). Informe SZ15100123S01. Ensayo de SAR de un teléfono con y sin SPIRO Card Level 2, encargado por Noxtak Technologies. Enlace en electrosmogespana.com.
 - Reconocimientos de SPIRO: Silicon Valley Invention Festival (2019), Edison Award (2020), German Innovation Award (2021). [Confirmar categorías y medallas exactas antes de imprimir.]
 
 ## EKIO Light: documentación de producto
@@ -1814,7 +1833,7 @@ Las referencias van aquí para no cargar la lectura. En el texto, cada estudio s
 
 A mis padres, que me enseñaron los valores humanos con los que he intentado vivir y trabajar.
 
-A todos mis maestros, los que me han enseñado en los distintos ámbitos de la vida, y especialmente a los que me enseñaron a apreciar el área de la salud, como Antonio Méndez.
+A todos mis maestros, en los distintos ámbitos de la vida, y especialmente a quienes me ayudaron a apreciar el área de la salud, como Antonio Méndez.
 
 A las personas con sensibilidad química múltiple y electrohipersensibilidad que compartieron conmigo cómo vivían y descansaban, y me enseñaron a mirar de otra manera los lugares que habitamos. Sus experiencias están en el origen de mi búsqueda.
 
@@ -1836,13 +1855,13 @@ https://electrosmogespana.com/
 
 En la web encontrarás:
 - la app de EKIO;
-- el test "Qué SPIRO necesito";
-- la "Auditoría del hogar";
-- el test "Qué EKIO Light necesito";
+- el test «Qué SPIRO necesito»;
+- la «Auditoría del hogar»;
+- el test «Qué EKIO Light necesito»;
 - el Estudio Electromagnético del Hogar;
 - las fichas vigentes de cada producto, guías y recursos actualizados.
 
-Los tests organizan información y orientan la elección. No sustituyen una medición, una inspección eléctrica ni un diagnóstico.
+Los test organizan información y orientan la elección. No sustituyen una medición, una inspección eléctrica ni un diagnóstico.
 
 ## Canal de YouTube de EKIO Electrosmog
 
@@ -1874,11 +1893,13 @@ Web: electrosmogespana.com · YouTube: @EkioElectrosmog
 
 # Nota de la edición
 
-La revisión documental de esta edición se cerró el 13 de septiembre de 2026.
+La revisión documental de esta edición se cerró el 27 de septiembre de 2026.
 
 La ciencia, la tecnología, los modelos de producto y los contenidos digitales evolucionan. Consulta la bibliografía y la documentación vigente de los productos antes de aplicar una instrucción técnica.
 
 Si detectas una errata o una referencia que necesita actualización, utiliza los canales de contacto de la web de EKIO.
+
+
 # Para contar este libro en dos minutos
 
 **Oasis Electromagnético. Guía de higiene tecnológica y luz para toda la familia.** Francisco Javier Andrés Andrés, naturópata especialista en contaminación electromagnética, fundador y director de EKIO Electrosmog.
@@ -1890,16 +1911,16 @@ Vivimos dentro de cajas, sin sol, sin oscuridad y sin tocar la tierra, rodeados 
 
 ## Diez frases que se pueden decir en la radio
 
-1. **"Túmbate en tu cama y mira lo que hay a un brazo de distancia. Por ahí empieza tu casa."** (cap. 2)
-2. **"En tu casa hay cuatro cosas invisibles, y la herramienta contra todas es la misma: distancia."** (cap. 1)
-3. **"Apagar una lámpara no es desenchufarla. El cable sigue con tensión toda la noche junto a tu cabeza."** (cap. 1)
-4. **"El móvil no es malo. Lo malo es no saber nunca qué está haciendo, a qué distancia lo tienes y dónde duerme."** (cap. 3)
-5. **"El cambio más grande que puedes hacer en tu casa cuesta dos bombillas: dejar de tratar a la noche como si fuera de día."** (prólogo, cap. 2)
-6. **"Doce adultos, cinco noches leyendo en una pantalla antes de dormir: la melatonina se retrasó y por la mañana estaban peor. No es tu imaginación."** (cap. 4)
-7. **"Doce colegios en China, cuarenta minutos más de patio al día. Tres años después, nueve de cada cien niños se libraron de las gafas."** (cap. 6)
-8. **"Las bombillas son para vivir; los paneles, para una sesión. El error es usar un panel como lámpara y una lámpara como tratamiento."** (cap. 5)
-9. **"Tu perro no eligió el router, la regleta ni la luz de las once. Dale lo que tú también necesitas."** (cap. 7)
-10. **"Tres cambios, siete días, una foto y una fecha. Eso es todo lo que hace falta para empezar."** (cap. 8)
+1. **«Túmbate en tu cama y mira lo que hay a un brazo de distancia. Por ahí empieza tu casa».** (cap. 2)
+2. **«En tu casa hay cuatro cosas invisibles, y la herramienta contra todas es la misma: distancia».** (cap. 1)
+3. **«Apagar una lámpara no es desenchufarla. El cable sigue con tensión toda la noche junto a tu cabeza».** (cap. 1)
+4. **«El móvil no es malo. Lo malo es no saber nunca qué está haciendo, a qué distancia lo tienes y dónde duerme».** (cap. 3)
+5. **«El cambio más grande que puedes hacer en tu casa cuesta dos bombillas: dejar de tratar a la noche como si fuera de día».** (prólogo, cap. 2)
+6. **«Doce adultos, cinco noches leyendo en una pantalla antes de dormir: la melatonina se retrasó y por la mañana estaban peor. No es tu imaginación».** (cap. 4)
+7. **«Doce colegios en China, 40 minutos más de patio al día. Tres años después, nueve de cada cien niños se libraron de las gafas».** (cap. 6)
+8. **«Las bombillas son para vivir; los paneles, para una sesión. El error es usar un panel como lámpara y una lámpara como tratamiento».** (cap. 5)
+9. **«Tu perro no eligió el router, la regleta ni la luz de las once. Dale lo que tú también necesitas».** (cap. 7)
+10. **«Tres cambios, siete días, una foto y una fecha. Eso es todo lo que hace falta para empezar».** (cap. 8)
 
 ## Cinco preguntas que le harán a Javier, y la respuesta corta
 
@@ -1907,7 +1928,7 @@ Vivimos dentro de cajas, sin sol, sin oscuridad y sin tocar la tierra, rodeados 
 No te voy a decir que sí ni que no. Te voy a decir que el router no tiene por qué estar en tu dormitorio, que puedes apagarlo de noche y que eso no cuesta nada. Lo que sí sé es que las casas donde se hace eso duermen mejor.
 
 **¿Y la electrosensibilidad existe?**
-Llevo desde 2011 trabajando con personas que la sufren. En España no está reconocida; en Suecia sí, como discapacidad funcional. La OMS dice que los síntomas son reales y la causa no está establecida. Yo no discuto con la OMS: entro en sus casas y las ordeno con ellas.
+Llevo desde 2011 trabajando con personas que la sufren. En España no está reconocida; en Suecia sí, como discapacidad funcional. La OMS dice que los síntomas son reales y la causa no está establecida. Yo no discuto con la OMS: entro en las casas de esas personas y las ordeno con ellas.
 
 **¿Qué es SPIRO y funciona?**
 Es una tecnología de Joaquín Machado y su empresa, Noxtak, con premios internacionales de innovación y ensayos de laboratorio encargados por el fabricante. No tiene todavía ensayos clínicos grandes, porque nadie los ha pagado. Yo lo distribuyo, lo digo en la primera página del libro, y lo pongo después de todo lo que puedes hacer gratis.
@@ -1919,12 +1940,14 @@ Saca el móvil del dormitorio, quita la regleta de debajo de la cama y baja la l
 Cielo por la mañana, oscuridad por la noche y un móvil que duerma en otra habitación. Lo demás se negocia. Y el adulto deja el suyo allí primero.
 
 ## Tres datos con fuente para un titular
-- Un ensayo con 952 escolares en Guangzhou: 40 minutos diarios más al aire libre redujeron la aparición de miopía del 39,5 % al 30,4 % en tres años (He et al., *JAMA*, 2015).
-- 63 adolescentes que dejaron el móvil una hora antes de dormir: 21 minutos más de sueño y la luz apagada 17 minutos antes (Bartel et al., 2018).
-- Ocho adultos, una semana de acampada sin luz eléctrica: su reloj interno se alineó con el sol (Wright et al., *Current Biology*, 2013).
+- Un ensayo con más de 1900 escolares de 12 colegios de Guangzhou: 40 minutos diarios más al aire libre redujeron la aparición de miopía del 39,5 % al 30,4 % en tres años (He *et al.*, *JAMA*, 2015).
+- 63 adolescentes que dejaron el móvil una hora antes de dormir: 21 minutos más de sueño y la luz apagada 17 minutos antes (Bartel *et al.*, 2018).
+- 8 adultos, una semana de acampada sin luz eléctrica: su reloj interno se alineó con el sol (Wright *et al.*, *Current Biology*, 2013).
 
 ## Lo que Javier no dirá nunca en una entrevista
 - Que un producto cura, trata o previene una enfermedad.
 - Que la radiofrecuencia causa una enfermedad concreta.
 - Que su medidor demuestra que SPIRO funciona.
 - Una cifra de un panel que pueda cambiar con la próxima revisión de hardware.
+
+

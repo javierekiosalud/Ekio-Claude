@@ -1,6 +1,6 @@
 # Capítulo 8 · Tu plan de higiene tecnológica
 
-Han pasado tres semanas desde que ordenaste el dormitorio. El cargador ha vuelto a la mesita, nadie sabe cómo. El repetidor que apagaste está encendido otra vez; alguien lo necesitó una tarde para una videollamada y ahí se quedó. El móvil que iba a dormir en el salón aparece otra vez bajo la almohada, porque una noche hubo que poner una alarma temprano y al día siguiente ya era costumbre. La lámpara amarilla está donde la pusiste, pero la del techo, la blanca, es la que se enciende cuando entra el primero.
+Han pasado tres semanas desde que ordenaste el dormitorio. El cargador ha vuelto a la mesita, nadie sabe cómo. El repetidor que apagaste está encendido otra vez; alguien lo necesitó una tarde para una videollamada y ahí se quedó. El móvil que iba a dormir en el salón aparece de nuevo bajo la almohada, porque una noche hubo que poner una alarma temprano y al día siguiente ya era costumbre. La lámpara amarilla está donde la pusiste, pero la del techo, la blanca, es la que se enciende cuando entra el primero.
 
 No es que hayas fracasado. Es que una casa recupera sus costumbres con facilidad, igual que un camino se vuelve a llenar de hierba. Por eso quiero terminar con una lista que puedas usar. Elige tres cambios para esta semana: uno en el dormitorio, otro en tus dispositivos y otro en la luz o el tiempo fuera.
 
@@ -10,7 +10,7 @@ Para cada cambio, apunta qué harás, quién lo hará y cuándo lo comprobaréis
 
 La higiene tecnológica empieza por una instalación segura.
 
-Si notas olor a plástico quemado, ves chispas, humo, marcas oscuras, cables pelados, enchufes muy calientes, zumbidos o los automáticos saltan una y otra vez, deja de usar ese equipo y llama a un profesional. Y no conectes una regleta a otra para conseguir más tomas.
+Si notas olor a plástico quemado, ves chispas, humo, marcas oscuras, cables pelados, enchufes muy calientes, oyes zumbidos o los automáticos saltan una y otra vez, deja de usar ese equipo y llama a un profesional. Y no conectes una regleta a otra para conseguir más tomas.
 
 No midas radiofrecuencia mientras un enchufe se está quemando. Primero el riesgo eléctrico.
 
@@ -22,7 +22,9 @@ Para lo demás, tres preguntas:
 
 Tiempo y distancia te dicen por dónde empezar.
 
-> **FIGURA 8.1 · ¿Por dónde empiezo?** Arriba, una franja roja: "Urgente: seguridad eléctrica → profesional". Debajo, cinco filas numeradas: la noche, lo que toca tu cuerpo, donde permaneces, usos intensos, señales naturales, cada una con su acción. Pie: "Si dos acciones parecen iguales, empieza por la más cercana y prolongada". Referencia Codex: `prioridades-oasis-hogar`.
+![Figura 8.1 · ¿Por dónde empiezo?](esquemas/prioridades-oasis-hogar.svg)
+
+> **FIGURA 8.1 · ¿Por dónde empiezo?** Arriba, una franja roja: «Urgente: seguridad eléctrica → profesional». Debajo, cinco filas numeradas: la noche, lo que toca tu cuerpo, donde permaneces, usos intensos, señales naturales, cada una con su acción. Pie: «Si dos acciones parecen iguales, empieza por la más cercana y prolongada». Referencia Codex: `prioridades-oasis-hogar`.
 
 ## Las cinco prioridades de tu casa
 
@@ -156,7 +158,7 @@ Una casa vuelve despacio a su desorden. El cargador regresa a la mesita. El punt
 
 **Semana 2: funcionamiento.** Comprueba si alguien necesita de verdad lo que se apagó. Ajusta sin abandonar el objetivo. Una rutina que la familia no puede mantener necesita otra forma.
 
-**Semana 3: dudas pendientes.** La app y el test "Auditoría del hogar" de la web te ayudan a ordenar observaciones. Si necesitas un número, hace falta un instrumento; un cuestionario no mide la vivienda.
+**Semana 3: dudas pendientes.** La app y el test «Auditoría del hogar» de la web te ayudan a ordenar observaciones. Si necesitas un número, hace falta un instrumento; un cuestionario no mide la vivienda.
 
 **Semana 4: consolidación.** Actualiza el plano. Apunta qué queda encendido, dónde están Card, Square y Disc, cómo se organiza la luz y cuál será el siguiente Oasis.
 
@@ -183,7 +185,7 @@ La distancia, la reparación y el apagado se comprueban sobre fuentes concretas.
 
 ## Dos puertas para continuar
 
-Los dos códigos QR del final te llevan a la web de EKIO y a nuestro canal de YouTube. En la web están la app, las fichas de cada producto, el Estudio Electromagnético del Hogar y los tests "Qué SPIRO necesito", "Auditoría del hogar" y "Qué EKIO Light necesito". En YouTube, las demostraciones, que iremos renovando.
+Los dos códigos QR del final te llevan a la web de EKIO y a nuestro canal de YouTube. En la web están la app, las fichas de cada producto, el Estudio Electromagnético del Hogar y los test «Qué SPIRO necesito», «Auditoría del hogar» y «Qué EKIO Light necesito». En YouTube, las demostraciones, que iremos renovando.
 
 El libro termina aquí. Tu mapa empieza ahora.
 

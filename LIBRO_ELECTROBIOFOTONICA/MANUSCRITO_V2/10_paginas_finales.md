@@ -90,8 +90,6 @@ P.1 El camino que dio origen a este libro.
 8.1 ¿Por dónde empiezo?
 8.2 Siete días para crear tu primer Oasis.
 
-**Figuras nuevas propuestas para Mauro, además de las anteriores:** distancia (mismo aparato a 1 cm y a 1 m); onda limpia frente a onda sucia; la pared compartida del cabecero (corte transversal con cuadro o frigorífico al otro lado).
-
 ---
 
 # Glosario
@@ -134,11 +132,11 @@ P.1 El camino que dio origen a este libro.
 
 **Frecuencia.** Número de oscilaciones por segundo, en hercios (Hz).
 
+**Grounding.** Contacto conductor del cuerpo con la Tierra. Cambia la tensión del cuerpo respecto al suelo; no demuestra protección frente a campos.
+
 **Higiene electromagnética.** Conjunto de hábitos para reducir la exposición evitable a campos eléctricos, magnéticos y de radiofrecuencia en casa. En este libro es una de las tres partes de la higiene tecnológica.
 
 **Higiene tecnológica.** Ordenar los campos que rodean a tus aparatos, la luz que recibes a cada hora y el tiempo dentro y fuera de casa. Es el término que usa este libro.
-
-**Grounding.** Contacto conductor del cuerpo con la Tierra. Cambia la tensión del cuerpo respecto al suelo; no demuestra protección frente a campos.
 
 **Ion.** Átomo o grupo de átomos con carga eléctrica. Ca²⁺ y Mg²⁺ son iones de calcio y magnesio.
 
@@ -186,13 +184,13 @@ P.1 El camino que dio origen a este libro.
 
 **SPIRO Disc.** Formato para espacios. En EKIO se coloca delante del router.
 
-**SPIRO Disc X.** Formato para focos de alta emisión como los inversores solares.
-
 **SPIRO Disc Ultra.** Formato para zonas urbanas muy densas, vehículos eléctricos o personas que refieren alta sensibilidad. Selección comercial, no indicación médica.
+
+**SPIRO Disc X.** Formato para focos de alta emisión como los inversores solares.
 
 **SPIRO Square.** Formato para un ordenador, una tableta o un asistente de voz.
 
-**SPIRO Square X.** Formato portátil para trabajo, viajes y otros espacios.
+**SPIRO Square X.** Formato portátil para trabajo, viajes y otros espacios; en EKIO también se coloca delante del router como alternativa al Disc.
 
 **Stroom Master.** Filtro enchufable distribuido por EKIO para el ruido de la red eléctrica.
 
@@ -213,18 +211,18 @@ P.1 El camino que dio origen a este libro.
 Las referencias van aquí para no cargar la lectura. En el texto, cada estudio se identifica por autor, año, cuántas personas o animales participaron y qué se midió. Aquí puedes ir al original y leer sus límites.
 
 ## Escalas, microscopía y espectro
-- Alberts B, Johnson A, Lewis J et al. (2002). *Molecular Biology of the Cell*, 4.ª ed. Garland Science.
+- Alberts B, Johnson A, Lewis J *et al.* (2002). *Molecular Biology of the Cell*, 4.ª ed. Garland Science.
 - NASA. The Electromagnetic Spectrum. science.nasa.gov.
 - Royal Institution. Michael Faraday's generator. rigb.org.
 
 ## Campos electromagnéticos y mecanismos celulares
 - Catterall WA. (2011). Voltage-gated calcium channels. *Cold Spring Harbor Perspectives in Biology* 3:a003947.
-- Christ A et al. (2012). Exposure of the human body to professional and domestic induction cooktops compared to the basic restrictions. *Bioelectromagnetics* 33:695-705. DOI 10.1002/bem.21739.
-- Feissner RF et al. (2009). Crosstalk signaling between mitochondrial Ca²⁺ and ROS. *Frontiers in Bioscience* 14:1197-1218.
+- Christ A *et al.* (2012). Exposure of the human body to professional and domestic induction cooktops compared to the basic restrictions. *Bioelectromagnetics* 33:695-705. DOI 10.1002/bem.21739.
+- Feissner RF *et al.* (2009). Crosstalk signaling between mitochondrial Ca²⁺ and ROS. *Frontiers in Bioscience* 14:1197-1218.
 - Pall ML. (2013). Electromagnetic fields act via activation of voltage-gated calcium channels to produce beneficial or adverse effects. *Journal of Cellular and Molecular Medicine* 17:958-965.
 - Panagopoulos DJ, Johansson O, Carlo GL. (2015). Polarization: a key difference between man-made and natural electromagnetic fields, in regard to biological activity. *Scientific Reports* 5:14914. Modelo teórico.
 - Peng TI, Jou MJ. (2010). Oxidative stress caused by mitochondrial calcium overload. *Annals of the New York Academy of Sciences* 1201:183-188.
-- Platano D et al. (2007). Acute exposure to low-level CW and GSM-modulated 900 MHz radiofrequency does not affect Ba²⁺ currents through voltage-gated calcium channels in rat cortical neurons. *Bioelectromagnetics* 28:599-607. DOI 10.1002/bem.20345.
+- Platano D *et al.* (2007). Acute exposure to low-level CW and GSM-modulated 900 MHz radiofrequency does not affect Ba²⁺ currents through voltage-gated calcium channels in rat cortical neurons. *Bioelectromagnetics* 28:599-607. DOI 10.1002/bem.20345.
 - Wood A, Karipidis K. (2021). Radiofrequency fields and calcium movements into and out of cells. *Radiation Research* 195:101-113. Revisión crítica de la hipótesis anterior.
 
 ## Instrumentos mostrados
@@ -247,56 +245,57 @@ Las referencias van aquí para no cargar la lectura. En el texto, cada estudio s
 - European Commission, Joint Research Centre. (2020). Assessment of low-frequency magnetic fields in electrified vehicles. EUR 30198 EN.
 
 ## Ritmos circadianos, luz exterior y grounding
-- Brainard GC et al. (2001). Action spectrum for melatonin regulation in humans. *Journal of Neuroscience* 21:6405-6412.
+- Brainard GC *et al.* (2001). Action spectrum for melatonin regulation in humans. *Journal of Neuroscience* 21:6405-6412.
 - Brown R. (2016). Effects of grounding on body voltage and current in the presence of electromagnetic fields. *Journal of Alternative and Complementary Medicine* 22:757-759. DOI 10.1089/acm.2015.0340.
-- Chamberlin K et al. (2014). Analysis of the charge exchange between the human body and ground. *Journal of Chiropractic Medicine* 13:239-246.
-- Chang AM et al. (2015). Evening use of light-emitting eReaders negatively affects sleep, circadian timing, and next-morning alertness. *PNAS* 112:1232-1237. DOI 10.1073/pnas.1418490112.
+- Chamberlin K *et al.* (2014). Analysis of the charge exchange between the human body and ground. *Journal of Chiropractic Medicine* 13:239-246.
+- Chang AM *et al.* (2015). Evening use of light-emitting eReaders negatively affects sleep, circadian timing, and next-morning alertness. *PNAS* 112:1232-1237. DOI 10.1073/pnas.1418490112.
 - Chevalier G. (2010). Changes in pulse rate, respiratory rate, blood oxygenation, perfusion index, skin conductance, and their variability induced during and after grounding human subjects for 40 minutes. *Journal of Alternative and Complementary Medicine* 16:81-87.
-- Danilenko KV et al. (2000). Phase advance after one or three simulated dawns in humans. *Chronobiology International* 17:659-668.
+- Danilenko KV *et al.* (2000). Phase advance after one or three simulated dawns in humans. *Chronobiology International* 17:659-668.
 - de Mairan JJ. (1729). Observation botanique. *Histoire de l'Académie Royale des Sciences*.
 - Ghaly M, Teplitz D. (2004). The biologic effects of grounding the human body during sleep. *Journal of Alternative and Complementary Medicine* 10:767-776.
-- Konopka RJ, Benzer S. (1971). Clock mutants of Drosophila melanogaster. *PNAS* 68:2112-2116.
-- Nakahata Y et al. (2009). Circadian control of the NAD⁺ salvage pathway by CLOCK-SIRT1. *Science* 324:654-657.
+- Konopka RJ, Benzer S. (1971). Clock mutants of *Drosophila melanogaster*. *PNAS* 68:2112-2116.
+- Nakahata Y *et al.* (2009). Circadian control of the NAD⁺ salvage pathway by CLOCK-SIRT1. *Science* 324:654-657.
 - Ostrin LA. (2017). Objectively measured light exposure in emmetropic and myopic adults. *Optometry and Vision Science* 94:229-238.
 - Tan DX, Reiter RJ, Zimmerman S, Hardeland R. (2023). Melatonin: both a messenger of darkness and a participant in the cellular actions of non-visible solar radiation of near infrared light. *Biology* 12:89.
-- Wright KP Jr et al. (2013). Entrainment of the human circadian clock to the natural light-dark cycle. *Current Biology* 23:1554-1558.
+- Wright KP Jr *et al.* (2013). Entrainment of the human circadian clock to the natural light-dark cycle. *Current Biology* 23:1554-1558.
 
 ## Fotobiomodulación
 - Anders JJ, Lanzafame RJ, Arany PR. (2015). Low-level light/laser therapy versus photobiomodulation therapy. *Photomedicine and Laser Surgery* 33:183-184.
-- de Paiva PRV et al. (2016). Photobiomodulation therapy and/or cryotherapy in skeletal muscle restitution. *Lasers in Medical Science* 31:1925-1933.
-- Luna GLF et al. (2020). Biphasic dose/response of photobiomodulation therapy on culture of human fibroblasts. *Photobiomodulation, Photomedicine, and Laser Surgery* 38:413-418.
+- de Paiva PRV *et al.* (2016). Photobiomodulation therapy and/or cryotherapy in skeletal muscle restitution. *Lasers in Medical Science* 31:1925-1933.
+- Luna GLF *et al.* (2020). Biphasic dose/response of photobiomodulation therapy on culture of human fibroblasts. *Photobiomodulation, Photomedicine, and Laser Surgery* 38:413-418.
 - Quirk B, Whelan HT. (2021). Effect of red-to-near infrared light and a nitric oxide donor on oxygen consumption of isolated cytochrome c oxidase. *Photobiomodulation, Photomedicine, and Laser Surgery* 39:463-470.
-- Wang Y et al. (2017). Red (660 nm) or near-infrared (810 nm) photobiomodulation stimulates, while blue (415 nm), green (540 nm) light inhibits proliferation in human adipose-derived stem cells. *Scientific Reports* 7:7781.
+- Wang Y *et al.* (2017). Red (660 nm) or near-infrared (810 nm) photobiomodulation stimulates, while blue (415 nm), green (540 nm) light inhibits proliferation in human adipose-derived stem cells. *Scientific Reports* 7:7781.
 - Wunsch A, Matuschka K. (2014). A controlled trial to determine the efficacy of red and near-infrared light treatment in patient satisfaction, reduction of fine lines, wrinkles, skin roughness, and intradermal collagen density increase. *Photomedicine and Laser Surgery* 32:93-100.
 
 ## Niños, adolescentes, pantallas y radiofrecuencia
-- Akacem LD et al. (2018). Sensitivity of the circadian system to evening bright light in preschool-age children. *Physiological Reports* 6:e13617.
+- Akacem LD *et al.* (2018). Sensitivity of the circadian system to evening bright light in preschool-age children. *Physiological Reports* 6:e13617.
 - Asociación Española de Pediatría. (2024). Recomendaciones sobre el uso de pantallas en la infancia y la adolescencia. aeped.es.
-- Bartel K et al. (2019; en línea 2018). Altering adolescents' pre-bedtime phone use to achieve better sleep health. *Health Communication* 34:456-462.
-- Foerster M et al. (2018). A prospective cohort study of adolescents' memory performance and individual brain dose of microwave radiation from wireless communication. *Environmental Health Perspectives* 126:077007.
-- He M et al. (2015). Effect of time spent outdoors at school on the development of myopia among children in China: a randomized clinical trial. *JAMA* 314:1142-1148. DOI 10.1001/jama.2015.10803.
-- Holden BA et al. (2016). Global prevalence of myopia and high myopia and temporal trends from 2000 through 2050. *Ophthalmology* 123:1036-1042.
-- Huss A et al. (2015). Environmental radiofrequency electromagnetic fields exposure at home, mobile and cordless phone use, and sleep problems in 7-year-old children. *PLoS ONE* 10:e0139869.
-- Schoeni A et al. (2015). Memory performance, wireless communication and exposure to radiofrequency electromagnetic fields. *Environment International* 85:343-351.
+- Bartel K *et al.* (2019; en línea 2018). Altering adolescents' pre-bedtime phone use to achieve better sleep health. *Health Communication* 34:456-462.
+- Foerster M *et al.* (2018). A prospective cohort study of adolescents' memory performance and individual brain dose of microwave radiation from wireless communication. *Environmental Health Perspectives* 126:077007.
+- He M *et al.* (2015). Effect of time spent outdoors at school on the development of myopia among children in China: a randomized clinical trial. *JAMA* 314:1142-1148. DOI 10.1001/jama.2015.10803.
+- Holden BA *et al.* (2016). Global prevalence of myopia and high myopia and temporal trends from 2000 through 2050. *Ophthalmology* 123:1036-1042.
+- Huss A *et al.* (2015). Environmental radiofrequency electromagnetic fields exposure at home, mobile and cordless phone use, and sleep problems in 7-year-old children. *PLoS ONE* 10:e0139869.
+- Schoeni A *et al.* (2015). Memory performance, wireless communication and exposure to radiofrequency electromagnetic fields. *Environment International* 85:343-351.
 
 ## Animales de compañía
-- Ministerio de Derechos Sociales, Consumo y Agenda 2030. (2025). Registro estatal de animales de compañía: 15.171.569 animales (7.562.893 perros, 5.619.967 gatos). Instituto Nacional de Estadística. Cifras de población por edad, 2025.
+- Alves JC *et al.* (2022). A randomized double-blinded controlled trial on the effects of photobiomodulation therapy in dogs with osteoarthritis. *American Journal of Veterinary Research* 83(8). DOI 10.2460/ajvr.22.03.0036.
 - Begall S, Červený J, Neef J, Vojtěch O, Burda H. (2008). Magnetic alignment in grazing and resting cattle and deer. *PNAS* 105:13451-13455.
-- Alves JC et al. (2022). A randomized double-blinded controlled trial on the effects of photobiomodulation therapy in dogs with osteoarthritis. *American Journal of Veterinary Research* 83(8). DOI 10.2460/ajvr.22.03.0036.
-- Chavez OA et al. (2024; en línea 2023). Photobiomodulation therapy in dogs undergoing TPLO after cranial cruciate ligament rupture shows promise but no statistically significant difference in a randomized trial. *American Journal of Veterinary Research* 85(2). DOI 10.2460/ajvr.23.06.0138.
-- Hart V et al. (2013). Dogs are sensitive to small variations of the Earth's magnetic field. *Frontiers in Zoology* 10:80.
-- Hochman-Elam LN et al. (2020). Effects of laser power, wavelength, coat length, and coat color on tissue penetration using photobiomodulation in healthy dogs. *Canadian Journal of Veterinary Research* 84:131-137.
-- Klune J et al. (2021). Tracking devices for pets: health risk assessment for exposure to radiofrequency electromagnetic fields. *Animals* 11:2721.
-- Yaw AM et al. (2025). Light quality and time in shelter modulate behavior and cortisol in the domestic cat. *iScience* 28:112709.
+- Chavez OA *et al.* (2024; en línea 2023). Photobiomodulation therapy in dogs undergoing TPLO after cranial cruciate ligament rupture shows promise but no statistically significant difference in a randomized trial. *American Journal of Veterinary Research* 85(2). DOI 10.2460/ajvr.23.06.0138.
+- Hart V *et al.* (2013). Dogs are sensitive to small variations of the Earth's magnetic field. *Frontiers in Zoology* 10:80.
+- Hochman-Elam LN *et al.* (2020). Effects of laser power, wavelength, coat length, and coat color on tissue penetration using photobiomodulation in healthy dogs. *Canadian Journal of Veterinary Research* 84:131-137.
+- Instituto Nacional de Estadística. (2025). Cifras de población por edad. ine.es.
+- Klune J *et al.* (2021). Tracking devices for pets: health risk assessment for exposure to radiofrequency electromagnetic fields. *Animals* 11:2721.
+- Ministerio de Derechos Sociales, Consumo y Agenda 2030. (2025). Registro estatal de animales de compañía: 15.171.569 animales (7.562.893 perros, 5.619.967 gatos).
+- Yaw AM *et al.* (2025). Light quality and time in shelter modulate behavior and cortisol in the domestic cat. *iScience* 28:112709.
 
 ## Electrohipersensibilidad
 - Organización Mundial de la Salud. (2005). Electromagnetic fields and public health: electromagnetic hypersensitivity. Nota descriptiva 296.
 
 ## SPIRO: documentación del fabricante y del distribuidor (no constituye evidencia clínica)
-- MORLAB. (2015). Informe SZ15100123S01. Ensayo de SAR de un teléfono con y sin SPIRO Card Level 2, encargado por Noxtak Technologies. Enlace en electrosmogespana.com.
-- Machado J. (2025). Evaluation of EMF exposure in Tesla Model Y (2021/2022) and testing the efficiency of SPIRO technology: an environmental bioelectrography study. *Journal of Applied Biotechnology & Bioengineering* 12(4):131-143. DOI 10.15406/jabb.2025.12.00395. El autor es el inventor de SPIRO.
-- Machado J. *Contaminación electromagnética. Gestionando los riesgos de las tecnologías de información y comunicación en la era de la hiperconectividad.* Serie "Sin miedo al voltaje". Autoedición.
 - EKIO Electrosmog. Fichas de SPIRO Card, Square, Square X, Disc, Disc X, Disc Ultra y Stroom Master. electrosmogespana.com.
+- Machado J. (2025). Evaluation of EMF exposure in Tesla Model Y (2021/2022) and testing the efficiency of SPIRO technology: an environmental bioelectrography study. *Journal of Applied Biotechnology & Bioengineering* 12(4):131-143. DOI 10.15406/jabb.2025.12.00395. El autor es el inventor de SPIRO.
+- Machado J. *Contaminación electromagnética. Gestionando los riesgos de las tecnologías de información y comunicación en la era de la hiperconectividad.* Serie «Sin miedo al voltaje». Autoedición.
+- MORLAB. (2015). Informe SZ15100123S01. Ensayo de SAR de un teléfono con y sin SPIRO Card Level 2, encargado por Noxtak Technologies. Enlace en electrosmogespana.com.
 - Reconocimientos de SPIRO: Silicon Valley Invention Festival (2019), Edison Award (2020), German Innovation Award (2021). [Confirmar categorías y medallas exactas antes de imprimir.]
 
 ## EKIO Light: documentación de producto
@@ -308,7 +307,7 @@ Las referencias van aquí para no cargar la lectura. En el texto, cada estudio s
 
 A mis padres, que me enseñaron los valores humanos con los que he intentado vivir y trabajar.
 
-A todos mis maestros, los que me han enseñado en los distintos ámbitos de la vida, y especialmente a los que me enseñaron a apreciar el área de la salud, como Antonio Méndez.
+A todos mis maestros, en los distintos ámbitos de la vida, y especialmente a quienes me ayudaron a apreciar el área de la salud, como Antonio Méndez.
 
 A las personas con sensibilidad química múltiple y electrohipersensibilidad que compartieron conmigo cómo vivían y descansaban, y me enseñaron a mirar de otra manera los lugares que habitamos. Sus experiencias están en el origen de mi búsqueda.
 
@@ -330,13 +329,13 @@ https://electrosmogespana.com/
 
 En la web encontrarás:
 - la app de EKIO;
-- el test "Qué SPIRO necesito";
-- la "Auditoría del hogar";
-- el test "Qué EKIO Light necesito";
+- el test «Qué SPIRO necesito»;
+- la «Auditoría del hogar»;
+- el test «Qué EKIO Light necesito»;
 - el Estudio Electromagnético del Hogar;
 - las fichas vigentes de cada producto, guías y recursos actualizados.
 
-Los tests organizan información y orientan la elección. No sustituyen una medición, una inspección eléctrica ni un diagnóstico.
+Los test organizan información y orientan la elección. No sustituyen una medición, una inspección eléctrica ni un diagnóstico.
 
 ## Canal de YouTube de EKIO Electrosmog
 
@@ -368,7 +367,7 @@ Web: electrosmogespana.com · YouTube: @EkioElectrosmog
 
 # Nota de la edición
 
-La revisión documental de esta edición se cerró el 13 de septiembre de 2026.
+La revisión documental de esta edición se cerró el 27 de septiembre de 2026.
 
 La ciencia, la tecnología, los modelos de producto y los contenidos digitales evolucionan. Consulta la bibliografía y la documentación vigente de los productos antes de aplicar una instrucción técnica.
 

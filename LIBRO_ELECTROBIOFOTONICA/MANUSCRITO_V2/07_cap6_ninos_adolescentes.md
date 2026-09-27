@@ -1,6 +1,6 @@
 # Capítulo 6 · Niños y adolescentes
 
-El 9 de enero de 2007, en un escenario de San Francisco, Steve Jobs anunció que iba a presentar tres productos: un iPod con pantalla táctil, un teléfono y un aparato para navegar por Internet. Repitió la lista tres veces, cada vez más despacio, hasta que el público entendió que eran el mismo aparato. Un niño nacido aquella semana ya ha cumplido diecinueve años. Es la primera generación que no recuerda el mundo sin esa pantalla en el bolsillo de sus padres, y luego en el suyo. Hemos aprendido a convivir con ella mientras ellos crecían con ella, y nadie nos dio instrucciones.
+El 9 de enero de 2007, en un escenario de San Francisco, Steve Jobs anunció que iba a presentar tres productos: un iPod con pantalla táctil, un teléfono y un aparato para navegar por Internet. Repitió la lista tres veces, cada vez más despacio, hasta que el público entendió que eran el mismo aparato. Los niños nacidos aquella semana ya han cumplido diecinueve años. Son la primera generación que no recuerda el mundo sin esa pantalla en el bolsillo de sus padres, y luego en el suyo. Hemos aprendido a convivir con ella mientras ellos crecían a su lado, y nadie nos dio instrucciones.
 
 Imagina que tu hijo te pregunta por qué no puede dormir con el móvil. Le explicas que la cama es para descansar, que las notificaciones despiertan, que una pantalla invita a seguir mirando. Y entonces llega la pregunta difícil:
 
@@ -18,7 +18,7 @@ Y una cosa que veo cada vez más en las consultas y en las casas: niños que no 
 
 ## La noche de una niña de cuatro años
 
-Son las ocho y media de un martes. Una niña de cuatro años está en el sofá con la tableta apoyada en las rodillas, a treinta centímetros de la cara, viendo el capítulo que le prometieron "solo uno" mientras su padre recoge la cocina. La pantalla está al máximo de brillo, porque así la dejó el hermano mayor por la tarde. El capítulo termina. La tableta, sin que nadie se lo pida, muestra el siguiente y empieza a contar: cinco, cuatro, tres. La niña no toca nada. Empieza solo.
+Son las ocho y media de un martes. Una niña de cuatro años está en el sofá con la tableta apoyada en las rodillas, a treinta centímetros de la cara, viendo el capítulo que le prometieron «solo uno» mientras su padre recoge la cocina. La pantalla está al máximo de brillo, porque así la dejó el hermano mayor por la tarde. El capítulo termina. La tableta, sin que nadie se lo pida, muestra el siguiente y empieza a contar: cinco, cuatro, tres. La niña no toca nada. Empieza solo.
 
 A las nueve y cuarto su padre se da cuenta de la hora. Baño rápido con la luz del techo encendida, pijama, dientes, un cuento con la lámpara de la mesita a tope, y entonces la negociación internacional más antigua del mundo:
 
@@ -26,7 +26,7 @@ A las nueve y cuarto su padre se da cuenta de la hora. Baño rápido con la luz 
 
 Y no miente. Su cuerpo ha recibido durante la última hora la señal de que es mediodía.
 
-En 2018, Lameese Akacem y su equipo estudiaron a diez niños de preescolar. Tras una hora de luz intensa antes de acostarse, la melatonina, la hormona de la noche, cayó casi del todo y seguía baja cincuenta minutos después. Fue un experimento pequeño con una luz concreta; no dice nada de la radiofrecuencia ni de cualquier bombilla.
+En 2018, Lameese Akacem y su equipo estudiaron a 10 niños de preescolar. Tras una hora de luz intensa antes de acostarse, la melatonina, la hormona de la noche, cayó casi del todo y seguía baja cincuenta minutos después. Fue un experimento pequeño con una luz concreta; no dice nada de la radiofrecuencia ni de cualquier bombilla.
 
 La enseñanza es más sencilla: la noche de un niño merece una transición clara.
 
@@ -42,7 +42,7 @@ La cuna o la cama debe ser el centro del plano. Empieza desde ahí y avanza haci
 
 Un vigilabebés no va dentro de la cuna, ni colgado de los barrotes, ni junto a la cabeza. Además de la comunicación inalámbrica, algunos llevan un cable que nunca debe quedar al alcance del bebé. Colócalo en una superficie estable, a la distancia que diga el fabricante, y pregunta si necesitas transmisión continua o si tiene un modo que se activa solo con sonido.
 
-El móvil que usas como cámara improvisada tampoco va en la cuna. Si tiene que transmitir, estable, lejos y, si la usas, con la SPIRO Card. Y sin mantas encima: necesita disipar calor.
+El móvil que usas como cámara improvisada tampoco va en la cuna. Si tiene que transmitir, estable, lejos y, si la tienes, con la SPIRO Card. Y sin mantas encima: necesita disipar calor.
 
 Mira después la pared de detrás de la cama. Puede compartir tabique con el cuadro eléctrico, el frigorífico, el router o un despacho lleno de fuentes. Ver un aparato en la pared de al lado no te dice cuánto llega a la cama; solo medir lo dice.
 
@@ -71,15 +71,15 @@ Rara vez preguntamos:
 
 —¿Cuánto cielo has visto hoy?
 
-En 2015, Mingguang He y su equipo publicaron un ensayo con niños de seis años de doce colegios de Guangzhou, en China. A seis colegios les añadieron cuarenta minutos diarios de clase al aire libre y animaron a las familias a salir también. Tres años después, la miopía había aparecido en el 30,4 % de los niños que salían más y en el 39,5 % de los que seguían su rutina.
+En 2015, Mingguang He y su equipo publicaron un ensayo con niños de seis años de 12 colegios de Guangzhou, en China. A seis colegios les añadieron 40 minutos diarios de clase al aire libre y animaron a las familias a salir también. Tres años después, la miopía había aparecido en el 30,4 % de los niños que salían más y en el 39,5 % de los que seguían su rutina.
 
 ![Figura 6.2 · Más tiempo fuera, menos miopía](esquemas/exterior-y-miopia.svg)
 
-> **FIGURA 6.2 · Más tiempo fuera, menos miopía.** Dos barras horizontales sobre una escala de 0 a 100 %: "Más actividad exterior: 30,4 % (259 de 853 niños)" y "Rutina habitual: 39,5 % (287 de 726 niños)". Pie: "He et al., JAMA 2015. Doce colegios, tres años. Un resultado sobre aparición de miopía; no cura una miopía existente". Referencia Codex: `exterior-y-miopia`.
+> **FIGURA 6.2 · Más tiempo fuera, menos miopía.** Dos barras horizontales sobre una escala de 0 a 100 %: «Más actividad exterior: 30,4 % (259 de 853 niños)» y «Rutina habitual: 39,5 % (287 de 726 niños)». Pie: «He *et al.*, JAMA 2015. 12 colegios, tres años. Un resultado sobre aparición de miopía; no cura una miopía existente». Referencia Codex: `exterior-y-miopia`.
 
 La miopía es hoy una epidemia: una proyección publicada en 2016 calcula que en 2050 la mitad de la población mundial será miope. Cuarenta minutos no son una dosis mágica ni curan la miopía que ya existe. Pero son una razón muy concreta para defender el patio, el paseo y el juego fuera.
 
-Salir reúne luz, mirar a distintas distancias, movimiento y descanso de la pantalla. Reserva hoy un hueco con sitio en el horario: el camino al colegio, el patio, el paseo de la tarde.
+Salir reúne luz, mirar a distintas distancias, movimiento y descanso de la pantalla. Reserva hoy un hueco en el horario: el camino al colegio, el patio, el paseo de la tarde.
 
 No hace falta mandar al niño a tomar el sol hasta que se queme. Necesita tiempo fuera adaptado a la estación, a su piel y a la temperatura. La sombra también está fuera.
 
@@ -107,7 +107,7 @@ El primer teléfono no llega solo. Con él entran una tarifa, una cámara, una r
 
 Entregar el aparato sin acordar cómo se usa es firmar un contrato sin leerlo.
 
-En 2018, Kate Bartel y sus colaboradores pidieron a sesenta y tres adolescentes que dejaran el teléfono durante la hora previa a dormir en noches de colegio. Comparado con su semana normal, durmieron veintiún minutos más y apagaron la luz diecisiete minutos antes. Fue un seguimiento corto y con diarios; es una pista para probar una rutina, no una promesa de minutos.
+En 2018, Kate Bartel y sus colaboradores pidieron a 63 adolescentes que dejaran el teléfono durante la hora previa a dormir en noches de colegio. En comparación con su semana normal, durmieron veintiún minutos más y apagaron la luz diecisiete minutos antes. Fue un seguimiento corto y con diarios; es una pista para probar una rutina, no una promesa de minutos.
 
 Retirar el móvil de la cama actúa a la vez sobre las notificaciones, el contenido y la tentación de seguir. Esos resultados no se pueden atribuir a la radiofrecuencia. Tampoco hace falta: funcionan.
 
@@ -121,7 +121,7 @@ Escribe estas reglas con él. No las escondas en un discurso de cuarenta minutos
 
 ![Figura 6.3 · El pacto del primer móvil](esquemas/pacto-primer-movil.svg)
 
-> **FIGURA 6.3 · El pacto del primer móvil.** Cinco tarjetas: tiene casa, tiene horario, tiene distancia, tiene conexiones, accesorios. Debajo: "La regla que sostiene las cinco: si el móvil interrumpe el sueño, la conversación o la seguridad, se revisa el pacto". Referencia Codex: `pacto-primer-movil`.
+> **FIGURA 6.3 · El pacto del primer móvil.** Cinco tarjetas: tiene casa, tiene horario, tiene distancia, tiene conexiones, accesorios. Debajo: «La regla que sostiene las cinco: si el móvil interrumpe el sueño, la conversación o la seguridad, se revisa el pacto». Referencia Codex: `pacto-primer-movil`.
 
 **El móvil tiene casa.** Elegid dónde descansa y carga. De noche se queda fuera del dormitorio. Si hace falta un despertador, uno que no tenga mensajes esperando.
 
@@ -131,7 +131,7 @@ Escribe estas reglas con él. No las escondas en un discurso de cuarenta minutos
 
 **El móvil tiene conexiones.** Wi-Fi, datos, Bluetooth y punto de acceso se activan cuando sirven para algo. El modo avión vale para actividades sin conexión, comprobando que las radios se apagan de verdad.
 
-**El móvil tiene accesorios seguros.** Auriculares con cable, no inalámbricos. Si usáis SPIRO Card, sigue sus instrucciones y que no moleste a la funda ni a la carga. El accesorio no cambia el acuerdo sobre horario y distancia.
+**El móvil tiene accesorios seguros.** Auriculares con cable, no inalámbricos. Si usáis SPIRO Card, seguid sus instrucciones y que no moleste a la funda ni a la carga. El accesorio no cambia el acuerdo sobre horario y distancia.
 
 **El móvil se habla en familia.** Si aparece acoso, contenido perturbador, pérdida de sueño o la sensación de no poder soltarlo, no se resuelve confiscándolo en secreto. Se resuelve hablando, con límites y, cuando haga falta, con ayuda profesional.
 
@@ -147,7 +147,7 @@ Puedo recomendar horarios, distancia y apagar lo que sobra sin asegurar un daño
 
 Las bombillas organizan el ambiente; el panel aplica luz al cuerpo. Para iluminar la habitación, intensidad suficiente para la tarea y menos al preparar el descanso. Una bombilla roja no se deja toda la noche como tratamiento.
 
-Con un panel, la conversación cambia. Un menor no es "medio adulto", y reducir a la mitad el tiempo de una receta adulta no es un protocolo infantil. Antes de encenderlo necesito cinco respuestas: qué objetivo, qué modelo, qué longitudes estarán activas, qué distancia y tiempo indica la guía y quién supervisará.
+Con un panel, la conversación cambia. Un menor no es «medio adulto», y reducir a la mitad el tiempo de una receta adulta no es un protocolo infantil. Antes de encenderlo necesito cinco respuestas: qué objetivo, qué modelo, qué longitudes estarán activas, qué distancia y tiempo indica la guía y quién supervisará.
 
 Si se plantea luz para dolor, piel, recuperación o cualquier problema de salud, la decisión va con un profesional que conozca la edad, la situación y los tratamientos del menor. El adulto se queda, evita que el niño mire los LED, usa la protección ocular indicada y para la sesión si aparece dolor, calor incómodo, irritación o malestar.
 

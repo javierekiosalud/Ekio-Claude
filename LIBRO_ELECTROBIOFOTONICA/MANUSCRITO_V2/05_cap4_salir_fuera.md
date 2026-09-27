@@ -10,7 +10,7 @@ En este capítulo vamos a recuperar tres: la luz del exterior, la transición ha
 
 En 1729, un astrónomo francés llamado Jean-Jacques d'Ortous de Mairan tenía en su despacho una mimosa, esa planta que pliega las hojas cuando la tocas y también cada tarde, al caer el sol. Se le ocurrió una pregunta sencilla: ¿las cierra porque se va la luz, o porque sabe qué hora es?
 
-Metió la planta en un armario, a oscuras, y fue abriendo la puerta a distintas horas para mirar. Las hojas seguían abriéndose por la mañana y cerrándose por la tarde, sin ver el sol. De Mairan era un hombre prudente: no quiso sacar conclusiones, y fue un colega quien presentó la observación ante la Academia de Ciencias de París en una nota de apenas una página. Tardaríamos más de dos siglos en entender lo que aquella mimosa estaba diciendo: que los seres vivos llevan un reloj dentro, y que la luz no lo crea, lo pone en hora.
+Metió la planta en un armario, a oscuras, y fue abriendo la puerta a distintas horas para mirar. Las hojas seguían abriéndose por la mañana y cerrándose por la tarde, sin ver el sol. De Mairan era un hombre prudente: no quiso sacar conclusiones, y fue un colega quien presentó la observación ante la Academia de Ciencias de París en una nota de apenas una página. Tardaríamos más de dos siglos en entender lo que aquella mimosa estaba diciendo: que los seres vivos llevan un reloj dentro, y que la luz no lo crea: lo pone en hora.
 
 Tu cuerpo también lleva ritmos: sueño, temperatura, tensión, hambre, actividad. La luz que entra por los ojos ajusta ese reloj al día exterior, como pones en hora un reloj de pulsera que se ha desfasado.
 
@@ -20,9 +20,9 @@ Para recibir esa señal basta mirar el entorno. No mires directamente al Sol.
 
 Una lámpara te permite leer y, aun así, da muchísima menos luz que la calle. Puede que tu salón bien iluminado tenga cien veces menos luz que un día nublado.
 
-En julio de 2013, Kenneth Wright, de la Universidad de Colorado, se llevó a ocho adultos a acampar una semana a las Montañas Rocosas. La regla era una: nada de luz eléctrica. Ni linternas, ni pantallas, ni farolas. Solo el sol de día y la hoguera y la luna de noche. Antes y después les midió la melatonina, la hormona que marca el comienzo de la noche biológica.
+En julio de 2013, Kenneth Wright, de la Universidad de Colorado, se llevó a 8 adultos a acampar una semana a las Montañas Rocosas. La regla era una: nada de luz eléctrica. Ni linternas, ni pantallas, ni farolas. Solo el sol de día y la hoguera y la luna de noche. Antes y después les midió la melatonina, la hormona que marca el comienzo de la noche biológica.
 
-En su vida normal, la melatonina de aquellas personas empezaba a subir unas dos horas después de la puesta de sol y seguía alta cuando ya se habían despertado. Después de una semana de acampada, empezaba a subir con el atardecer y bajaba con el amanecer. El reloj se había alineado con el sol. Y lo más llamativo: los que más cambiaron fueron los "búhos", los que en casa se acostaban más tarde. En el campo dejaron de serlo.
+En su vida normal, la melatonina de aquellas personas empezaba a subir unas dos horas después de la puesta de sol y seguía alta cuando ya se habían despertado. Después de una semana de acampada, empezaba a subir con el atardecer y bajaba con el amanecer. El reloj se había alineado con el sol. Y lo más llamativo: los que más cambiaron fueron los «búhos», los que en casa se acostaban más tarde. En el campo dejaron de serlo.
 
 Fue una semana entera de condiciones, no una salida de tres minutos.
 
@@ -60,7 +60,7 @@ La luz exterior también llega a la sombra. El objetivo del paseo es volver con 
 
 ## Cuando el reloj llega a la célula
 
-El tiempo biológico también entra en el metabolismo. En 2009, Yasukazu Nakahata y su equipo describieron en el laboratorio cómo las proteínas del reloj celular regulan la producción de una molécula necesaria para la energía, el NAD+. Es decir: tu reloj no solo decide cuándo tienes sueño, también cuándo tus células fabrican energía.
+El tiempo biológico también entra en el metabolismo. En 2009, Yasukazu Nakahata y su equipo describieron en el laboratorio cómo las proteínas del reloj celular regulan la producción de una molécula necesaria para la energía, el NAD⁺. Es decir: tu reloj no solo decide cuándo tienes sueño, también cuándo tus células fabrican energía.
 
 Este es uno de los enlaces que me interesa reunir bajo electrobiofotónica: bioelectricidad, luz y organización de la vida. El concepto relaciona preguntas; cada respuesta necesita sus propias pruebas.
 
@@ -68,15 +68,15 @@ Este es uno de los enlaces que me interesa reunir bajo electrobiofotónica: bioe
 
 Te quitas los zapatos sobre arena o césped. Bajo los pies vuelve un contacto que las suelas de goma interrumpen todo el día.
 
-El grounding es el contacto conductor entre tu cuerpo y la Tierra. Cambia la tensión eléctrica de tu cuerpo respecto al suelo: un estudio de 2016 midió esa tensión en cincuenta personas y vio que bajaba mucho al conectarse a tierra. Eso no apaga las fuentes del entorno ni te protege de la radiofrecuencia. Es otra cosa.
+El grounding es el contacto conductor entre tu cuerpo y la Tierra. Cambia la tensión eléctrica de tu cuerpo respecto al suelo: un estudio de 2016 midió esa tensión en 50 personas y vio que bajaba mucho al conectarse a tierra. Eso no apaga las fuentes del entorno ni te protege de la radiofrecuencia. Es otra cosa.
 
-Algunos estudios pequeños han explorado efectos sobre el sueño, el cortisol o el ritmo cardíaco: doce personas en 2004, veintiocho en 2010, en trabajos de investigadores vinculados al movimiento del grounding. Su tamaño limita lo que se puede concluir.
+Algunos estudios pequeños han explorado efectos sobre el sueño, el cortisol o el ritmo cardíaco: 12 personas en 2004, 28 en 2010, en trabajos de investigadores vinculados al movimiento del grounding. Su tamaño limita lo que se puede concluir.
 
 Yo lo incluyo como lo que es: un contacto natural que acompaña al paseo y al descanso fuera. Si te resulta agradable y es seguro, hazlo. No hace falta atribuirle todos los efectos de estar al aire libre.
 
 ![Figura 4.2 · Qué cambia al tocar tierra](esquemas/grounding-paraguas-natural.svg)
 
-> **FIGURA 4.2 · Qué cambia al tocar tierra.** Dos figuras humanas junto a un cable con tensión: una sobre suela aislante (puede aparecer tensión inducida en el cuerpo), otra descalza sobre hierba (esa tensión baja). Arriba, un router: "la radiofrecuencia sigue presente en los dos casos". Pie: "Menos tensión respecto a tierra no es protección sanitaria; el grounding no sustituye la revisión eléctrica". Referencia Codex: `grounding-paraguas-natural`, sin que las curvas tapen el texto.
+> **FIGURA 4.2 · Qué cambia al tocar tierra.** Dos figuras humanas junto a un cable con tensión: una sobre suela aislante (puede aparecer tensión inducida en el cuerpo), otra descalza sobre hierba (esa tensión baja). Arriba, un router: «la radiofrecuencia sigue presente en los dos casos». Pie: «Menos tensión respecto a tierra no es protección sanitaria; el grounding no sustituye la revisión eléctrica». Referencia Codex: `grounding-paraguas-natural`, sin que las curvas tapen el texto.
 
 Una toma de tierra de seguridad es parte de la instalación eléctrica; el grounding corporal es otra práctica. No improvises cables hacia enchufes, tuberías ni estructuras metálicas. Un sistema para interior necesita instalación comprobada, producto diseñado para eso y sus instrucciones.
 
@@ -100,7 +100,7 @@ Una toma de tierra de seguridad es parte de la instalación eléctrica; el groun
 
 ## Receta 3 — Devolver el anochecer a la casa
 
-En 2015, Anne-Marie Chang y sus colaboradores pusieron a doce adultos a leer cuatro horas antes de dormir, cinco noches seguidas: unas noches en una pantalla luminosa, otras en papel. Con la pantalla, la melatonina se retrasó, tardaron más en dormirse y estaban menos despiertos a la mañana siguiente. Eran condiciones intensas, pero la lección sirve para cualquier casa: las últimas horas del día no son horas de pantalla.
+En 2015, Anne-Marie Chang y sus colaboradores pusieron a 12 adultos a leer cuatro horas antes de dormir, cinco noches seguidas: unas noches en una pantalla luminosa, otras en papel. Con la pantalla, la melatonina se retrasó, tardaron más en dormirse y estaban menos despiertos a la mañana siguiente. Eran condiciones intensas, pero la lección sirve para cualquier casa: las últimas horas del día no son horas de pantalla.
 
 **Necesitas:** las dos bombillas y una hora de cierre. **Resultado:** una noche que empieza antes de meterte en la cama.
 

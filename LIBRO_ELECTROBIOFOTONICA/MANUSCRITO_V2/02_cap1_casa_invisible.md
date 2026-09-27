@@ -4,17 +4,17 @@ Abres la puerta y dejas las llaves. El sofá está donde lo dejaste, el router p
 
 La casa parece en silencio. Si pudieras ver lo que hay alrededor de cables y aparatos, verías otra actividad: corrientes, señales que van por el aire y ruidos que viajan por la instalación.
 
-Vamos a aprender a distinguirlos. Llamar "contaminación electromagnética" a todo, sin separar sus partes, sería como intentar arreglar todos los muebles de casa con el mismo martillo.
+Vamos a aprender a distinguirlos. Llamar «contaminación electromagnética» a todo, sin separar sus partes, sería como intentar arreglar todos los muebles de casa con el mismo martillo.
 
 ## El experimento que cabe en una mano
 
-En el verano de 1831, en el sótano de la Royal Institution de Londres, un hombre de cuarenta años enrollaba alambre alrededor de un anillo de hierro. Michael Faraday no había pisado una universidad. Había empezado como aprendiz de encuadernador y había aprendido ciencia leyendo los libros que le daban a encuadernar. Una entrada regalada para las conferencias del químico Humphry Davy le cambió la vida: tomó apuntes tan buenos que Davy acabó contratándolo como ayudante.
+En el verano de 1831, en el sótano de la Royal Institution de Londres, un hombre de casi cuarenta años enrollaba alambre alrededor de un anillo de hierro. Michael Faraday no había pisado una universidad. Había empezado como aprendiz de encuadernador y había aprendido ciencia leyendo los libros que le daban a encuadernar. Una entrada regalada para las conferencias del químico Humphry Davy le cambió la vida: tomó apuntes tan buenos que Davy acabó contratándolo como ayudante.
 
 El 29 de agosto conectó una de las bobinas del anillo a una pila y la otra a un galvanómetro, una aguja que se mueve cuando pasa corriente. Al cerrar el circuito, la aguja saltó. Y volvió a su sitio. Al abrirlo, saltó otra vez, en sentido contrario. Mientras la corriente estaba quieta, la aguja no hacía nada. Solo el cambio la movía.
 
 Unas semanas después repitió la idea de la forma más sencilla posible: metió un imán en una bobina y la aguja se movió; lo dejó quieto dentro y la aguja se paró; lo sacó y se movió al revés. Lo anotó en su diario con la sobriedad de quien todavía no sabe que acaba de inventar el generador eléctrico.
 
-Ese gesto, un imán que se mueve junto a un cable, es el que hoy hace girar cada central eléctrica, cada alternador de coche y cada transformador de tu calle. Y nos deja la primera lección de este libro: electricidad y magnetismo van juntos, pero en tu casa conviene mirarlos por separado, porque no aparecen en los mismos sitios ni se reducen de la misma manera.
+Ese gesto, un imán que se mueve junto a un cable, es el que hoy está detrás de cada central eléctrica, cada alternador de coche y cada transformador de tu calle. Y nos deja la primera lección de este libro: electricidad y magnetismo van juntos, pero en tu casa conviene mirarlos por separado, porque no aparecen en los mismos sitios ni se reducen de la misma manera.
 
 ## Cuatro lentes para mirar lo que no ves
 
@@ -27,7 +27,7 @@ Imagina una rueda de enfoque. Con un giro ves una habitación; con otro, una cé
 
 ![Figura 1.1 · Cuatro lentes para mirar lo invisible](esquemas/cuatro-escalas-observacion.svg)
 
-> **FIGURA 1.1 · Cuatro lentes para mirar lo invisible.** Cuatro tarjetas: casa, célula, molécula, onda. Al pie: "1 mm = 1000 µm · 1 µm = 1000 nm · la luz visible va de unos 380 a 700 nm". Referencia Codex: `cuatro-escalas-observacion`.
+> **FIGURA 1.1 · Cuatro lentes para mirar lo invisible.** Cuatro tarjetas: casa, célula, molécula, onda. Al pie: «1 mm = 1000 µm · 1 µm = 1000 nm · la luz visible va de unos 380 a 700 nm». Referencia Codex: `cuatro-escalas-observacion`.
 
 Las tres primeras describen tamaños. La cuarta ordena el espectro. Una proteína y una onda pueden medirse en nanómetros aunque estemos midiendo cosas distintas.
 
@@ -35,13 +35,13 @@ Las tres primeras describen tamaños. La cuarta ordena el espectro. Una proteín
 
 El espectro electromagnético reúne, de menos a más frecuencia: radio, microondas, infrarrojo, luz visible, ultravioleta, rayos X y rayos gamma. Las microondas son, por convenio, parte de las ondas de radio; se dibujan aparte para situar mejor sus usos.
 
-El móvil, el Wi-Fi, el Bluetooth y muchos radares usan bandas de radio y microondas. La red eléctrica de tu casa funciona a 50 hercios, una frecuencia muchísimo más baja. Cerca de un cable no hay "una señal de radio": hay un campo eléctrico y un campo magnético que se estudian por separado.
+El móvil, el Wi-Fi, el Bluetooth y muchos radares usan bandas de radio y microondas. La red eléctrica de tu casa funciona a 50 hercios, una frecuencia muchísimo más baja. Cerca de un cable no hay «una señal de radio»: hay un campo eléctrico y un campo magnético que se estudian por separado.
 
 La luz visible ocupa, más o menos, de 380 a 700 nanómetros: violeta en un extremo, rojo en el otro. Después del rojo viene el infrarrojo, que no vemos pero sentimos como calor. Antes del violeta viene el ultravioleta.
 
 ![Figura 1.2 · El espectro electromagnético](esquemas/espectro-electromagnetico.svg)
 
-> **FIGURA 1.2 · El espectro electromagnético.** Banda continua de radio a gamma con la franja visible en color. Tres recuadros: "Red eléctrica 50 Hz", "Radar · móvil · Wi-Fi", "Lo que ven tus ojos". Debajo, la línea "no ionizante / ionizante" con la frontera entre el ultravioleta y los rayos X. Referencia Codex: `espectro-electromagnetico`.
+> **FIGURA 1.2 · El espectro electromagnético.** Banda continua de radio a gamma con la franja visible en color. Tres recuadros: «Red eléctrica 50 Hz», «Radar · móvil · Wi-Fi», «Lo que ven tus ojos». Debajo, la línea «no ionizante / ionizante» con la frontera entre el ultravioleta y los rayos X. Referencia Codex: `espectro-electromagnetico`.
 
 El dibujo ordena frecuencias, no peligros. Los rayos X y los gamma pueden romper enlaces en la materia: son radiación ionizante. La radiofrecuencia, el infrarrojo, la luz visible y el ultravioleta no lo son. Para valorar una exposición hacen falta, además, intensidad, frecuencia, tiempo y condiciones.
 
@@ -55,7 +55,7 @@ El dibujo ordena frecuencias, no peligros. Los rayos X y los gamma pueden romper
 
 Piensa en una manguera con presión aunque el grifo esté cerrado. Eso es la tensión eléctrica.
 
-Un cable enchufado mantiene un campo eléctrico aunque el aparato esté apagado. Por eso apagar la lámpara de la mesita y desenchufarla son dos cosas distintas. En España, además, la clavija se puede meter en las dos posiciones, así que el interruptor de la lámpara puede estar cortando el cable "equivocado" y dejar el otro con tensión hasta la bombilla.
+Un cable enchufado mantiene un campo eléctrico aunque el aparato esté apagado. Por eso apagar la lámpara de la mesita y desenchufarla son dos cosas distintas. En España, además, la clavija se puede meter en las dos posiciones, así que el interruptor de la lámpara puede estar cortando el cable «equivocado» y dejar el otro con tensión hasta la bombilla.
 
 Mira la regleta bajo el escritorio, el cargador detrás del sofá y los cables que pasan junto al cabecero.
 
@@ -85,7 +85,7 @@ La emisión cambia con lo que hace el aparato, con la cobertura y con el modelo.
 
 Cargadores, reguladores de luz, controladores de LED, motores con variador e inversores solares convierten o regulan la electricidad. Al hacerlo pueden meter en tus cables un ruido de frecuencias más altas que los 50 hercios de la red.
 
-"Electricidad sucia" es una forma de llamar a ese ruido. No es una sola cosa ni tiene un umbral sanitario oficial.
+«Electricidad sucia» es una forma de llamar a ese ruido. No es una sola cosa ni tiene un umbral sanitario oficial.
 
 Un aparato puede funcionar bien y generar ruido por su diseño. Si además está estropeado, hay que repararlo. Si tienes placas solares, el inversor es un punto a revisar. Si usas adaptadores PLC (los que llevan Internet por el enchufe), están metiendo datos a propósito en tu cableado.
 
@@ -99,7 +99,7 @@ Un aparato puede funcionar bien y generar ruido por su diseño. Si además está
 
 El móvil transmite por varias redes; su cargador añade un cable con tensión y puede meter ruido; la pantalla da luz. La inducción combina electrónica de potencia y campo magnético. El microondas usa radiofrecuencia dentro de su caja y lleva otros componentes.
 
-Por eso trabajaremos por capas y por uso. Alejarse siempre reduce, aunque no hay una regla mágica del tipo "cada metro divide por cuatro": depende de la fuente, de la geometría y de lo que haya alrededor. La distancia es la herramienta más fiable que tienes. Úsala.
+Por eso trabajaremos por capas y por uso. Alejarse siempre reduce, aunque no hay una regla mágica del tipo «cada metro divide por cuatro»: depende de la fuente, de la geometría y de lo que haya alrededor. La distancia es la herramienta más fiable que tienes. Úsala.
 
 ## Cuatro medidores, cuatro preguntas
 
@@ -107,17 +107,17 @@ En EKIO usamos varios instrumentos, cada uno para una pregunta. Te los enseño n
 
 ![Figura 1.5 · Los instrumentos que usamos en EKIO](esquemas/medidores-campos-ekio-original.jpg)
 
-> **FIGURA 1.5 · Los instrumentos que usamos en EKIO.** Fotografía cenital sobre fondo neutro, de izquierda a derecha: medidor de radiofrecuencia de banda ancha (Safe and Sound Pro II), medidor triaxial de radiofrecuencia (LATNEX HF-B8G), medidor de campo eléctrico y magnético (Mastfuyi FY876) y medidor de ruido en la línea (LHY Audio Line EMI Meter). Pie: "Instrumentos que usamos como referencia; los modelos cambian".
+> **FIGURA 1.5 · Los instrumentos que usamos en EKIO.** Fotografía cenital sobre fondo neutro, de izquierda a derecha: medidor de radiofrecuencia de banda ancha (Safe and Sound Pro II), medidor triaxial de radiofrecuencia (LATNEX HF-B8G), medidor de campo eléctrico y magnético (Mastfuyi FY876) y medidor de ruido en la línea (LHY Audio Line EMI Meter). Pie: «Instrumentos que usamos como referencia; los modelos cambian».
 
 - Los dos primeros miden radiofrecuencia: lo que va por el aire.
 - El tercero mide campo eléctrico y magnético: lo que rodea a cables y motores.
 - El cuarto se enchufa y mide el ruido de la línea: la electricidad sucia.
 
-Para comparar dos medidas conserva el punto, el aparato, la unidad y las condiciones. Una cifra sin contexto es como decir "hace calor" sin decir si estás en la cocina o en la calle. Y una aplicación no convierte tu móvil en un medidor. Cuando la decisión dependa de un número, pide una medición con método.
+Para comparar dos medidas conserva el punto, el aparato, la unidad y las condiciones. Una cifra sin contexto es como decir «hace calor» sin decir si estás en la cocina o en la calle. Y una aplicación no convierte tu móvil en un medidor. Cuando la decisión dependa de un número, pide una medición con método.
 
 ## Una cuerda y una valla
 
-Vas a leer la palabra "polarización" en fichas de productos y en artículos. Es la clave de todo lo que viene después, así que te la explico con una cuerda.
+Vas a leer la palabra «polarización» en fichas de productos y en artículos. Es la clave de todo lo que viene después, así que te la explico con una cuerda.
 
 Ata una cuerda a un árbol y mueve la mano arriba y abajo: la onda avanza oscilando en vertical. Muévela de lado a lado y oscila en horizontal. Esa orientación se llama polarización. Si haces pasar la cuerda entre los barrotes de una valla, solo cruza la onda vertical. Así funcionan las gafas de sol polarizadas: dejan pasar una orientación y frenan la otra.
 
@@ -129,7 +129,7 @@ Es lo que describen investigadores como Dimitris Panagopoulos. Y es también la 
 
 *[Figura 1.6 · Una cuerda y una valla — figura nueva, pendiente de Mauro Arroyo]*
 
-> **FIGURA 1.6 · Una cuerda y una valla.** Tres viñetas: (1) cuerda oscilando en vertical y en horizontal, con la valla que solo deja pasar una; (2) sol con ondas en todas las orientaciones frente a antena con ondas todas iguales; (3) iones en una célula: empujones en todas direcciones (se quedan quietos) frente a empujones siempre en la misma dirección (se mueven en bloque, "ola de estadio"). Rótulo: "Natural: mezclado. Artificial: ordenado. Esa es la diferencia". Figura nueva.
+> **FIGURA 1.6 · Una cuerda y una valla.** Tres viñetas: (1) cuerda oscilando en vertical y en horizontal, con la valla que solo deja pasar una; (2) sol con ondas en todas las orientaciones frente a antena con ondas todas iguales; (3) iones en una célula: empujones en todas direcciones (se quedan quietos) frente a empujones siempre en la misma dirección (se mueven en bloque, «ola de estadio»). Rótulo: «Natural: mezclado. Artificial: ordenado. Esa es la diferencia». Figura nueva.
 
 Quédate con la imagen: natural, mezclado; artificial, ordenado. El resto del libro te enseña a reducir lo ordenado que no necesitas y, cuando lo necesitas, a integrarlo bien.
 
@@ -137,7 +137,7 @@ Quédate con la imagen: natural, mezclado; artificial, ordenado. El resto del li
 
 ![Figura 1.7 · Método OASIS](esquemas/metodo-oasis.svg)
 
-> **FIGURA 1.7 · Método OASIS.** Cinco círculos en línea: O Observa · A Aleja o apaga · S Sanea · I Integra · S Sincroniza. Pie: "Un espacio revisado hoy puede necesitar otra revisión mañana". Referencia Codex: `metodo-oasis`.
+> **FIGURA 1.7 · Método OASIS.** Cinco círculos en línea: O Observa · A Aleja o apaga · S Sanea · I Integra · S Sincroniza. Pie: «Un espacio revisado hoy puede necesitar otra revisión mañana». Referencia Codex: `metodo-oasis`.
 
 - **O — Observa:** fuentes y lugares donde pasas tiempo.
 - **A — Aleja o apaga:** fuera lo que sobra; distancia para lo que se queda.
@@ -151,7 +151,7 @@ Quédate con la imagen: natural, mezclado; artificial, ordenado. El resto del li
 
 ![Figura 1.8 · Mapa invisible de casa, ejemplo](esquemas/mapa-invisible-casa-ejemplo.svg)
 
-> **FIGURA 1.8 · Mapa invisible de casa, ejemplo.** Planta de un piso con dormitorio, habitación infantil, baño, salón, cocina, despacho y entrada. Letras E, M, R, D con los mismos colores de la figura 1.3 sobre lámpara, regleta, móvil, router, inducción, microondas, frigorífico, cuadro e inversor. Elipses discontinuas en cama, sofá y escritorio ("zona de permanencia"). El dormitorio rayado: "primer Oasis". Leyenda a la derecha. Referencia Codex: `mapa-invisible-casa-ejemplo`, con el código de color corregido.
+> **FIGURA 1.8 · Mapa invisible de casa, ejemplo.** Planta de un piso con dormitorio, habitación infantil, baño, salón, cocina, despacho y entrada. Letras E, M, R, D con los mismos colores de la figura 1.3 sobre lámpara, regleta, móvil, router, inducción, microondas, frigorífico, cuadro e inversor. Elipses discontinuas en cama, sofá y escritorio («zona de permanencia»). El dormitorio rayado: «primer Oasis». Leyenda a la derecha. Referencia Codex: `mapa-invisible-casa-ejemplo`, con el código de color corregido.
 
 1. **Dibuja las habitaciones.** Incluye el cuadro eléctrico, el router y el inversor solar si lo tienes.
 2. **Marca las capas.** E en cables con tensión; M en motores, transformadores y corrientes; R en lo que transmite; D donde sospeches ruido de red.

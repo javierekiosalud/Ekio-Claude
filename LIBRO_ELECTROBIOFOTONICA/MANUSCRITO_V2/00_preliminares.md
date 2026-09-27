@@ -4,10 +4,8 @@
 
 ### Francisco Javier Andrés Andrés
 
-Naturópata especialista en Contaminación Electromagnética
+Naturópata especialista en contaminación electromagnética
 Fundador y director de EKIO Electrosmog
-
-> Título definitivo fijado por Javier el 27/09/2026. Debe coincidir exactamente en portada, página de título y metadatos de KDP.
 
 ---
 
@@ -77,7 +75,7 @@ Cómo utilizar este libro
    Prioridades, revisión de diez minutos y semana OASIS.
 
 Páginas finales
-   Índice de recetas · Índice de figuras · Glosario · Bibliografía · Agradecimientos · Recursos de EKIO · Para contar este libro en dos minutos · Sobre el autor · Nota de la edición
+   Índice de recetas · Índice de figuras · Glosario · Bibliografía · Agradecimientos · Recursos de EKIO · Sobre el autor · Nota de la edición · Para contar este libro en dos minutos
 
 Los números de página se añadirán tras la maquetación.
 
@@ -101,7 +99,7 @@ En cada habitación aplicaremos el método **OASIS**:
 - **O**bservar: qué fuentes hay y dónde pasas tiempo.
 - **A**lejar o apagar: lo que no hace falta, fuera; lo que hace falta, más lejos.
 - **S**anear: revisar instalación, cables y toma de tierra.
-- **I**ntegrar: organizar la tecnología que sí necesitas, y si quieres, las soluciones que usamos en EKIO.
+- **I**ntegrar: organizar la tecnología que sí necesitas y, si quieres, las soluciones que usamos en EKIO.
 - **S**incronizar: luz, actividad y descanso en el orden que el cuerpo espera.
 
 Llamamos **Oasis Electromagnético** a un espacio revisado con ese criterio: menos fuentes evitables, más distancia respecto a las necesarias y una luz pensada para lo que haces y para la hora que es. Es el nombre de nuestra forma de trabajar, no un certificado de que ahí no hay campos.
@@ -110,6 +108,6 @@ Llamo **higiene tecnológica** a ordenar tres cosas: los campos que rodean a tus
 
 Usa un lápiz. Dibuja tu casa, marca tres cambios y ponles fecha. La higiene tecnológica funciona como hábito, no como una obra de un fin de semana.
 
-Los dos códigos QR del final te llevan a la web y al canal de YouTube de EKIO. Ahí están la app, los tests, las fichas de cada producto y los vídeos, que se irán renovando. Lo esencial está en estas páginas.
+Los dos códigos QR del final te llevan a la web y al canal de YouTube de EKIO. Ahí están la app, los test, las fichas de cada producto y los vídeos, que se irán renovando. Lo esencial está en estas páginas.
 
 Empieza por el lugar donde duermes.

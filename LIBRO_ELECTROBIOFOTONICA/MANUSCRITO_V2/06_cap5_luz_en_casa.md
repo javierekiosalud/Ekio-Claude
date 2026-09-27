@@ -2,9 +2,9 @@
 
 Niels Ryberg Finsen nació en 1860 en las islas Feroe, en mitad del Atlántico Norte, donde el sol es un bien escaso. De joven enfermó de un trastorno que le fue debilitando el cuerpo poco a poco, y se dio cuenta de algo que anotó con la precisión de un científico: los días de sol se encontraba mejor. Empezó a seguir la luz por su casa como un gato, moviendo la silla de ventana en ventana.
 
-Ya médico en Copenhague, convirtió esa observación en un método. Primero demostró que la luz roja, filtrada, ayudaba a curar la viruela sin las cicatrices habituales. Después construyó lámparas de arco eléctrico con filtros y lentes que concentraban la luz sobre la piel, y las aplicó al lupus vulgaris, una tuberculosis de la piel que desfiguraba la cara y que hasta entonces no tenía cura. Los pacientes se sentaban durante horas con la lámpara enfocada, sujeta por enfermeras, mientras una pieza de cristal presionaba la piel para dejarla sin sangre y más transparente. Muchos se curaron.
+Ya médico en Copenhague, convirtió esa observación en un método. Primero demostró que la luz roja, filtrada, ayudaba a curar la viruela sin las cicatrices habituales. Después construyó lámparas de arco eléctrico con filtros y lentes que concentraban la luz sobre la piel, y las aplicó al *lupus vulgaris*, una tuberculosis cutánea que desfiguraba la cara y que hasta entonces no tenía cura. Los pacientes se sentaban durante horas con la lámpara enfocada, sujeta por enfermeras, mientras una pieza de cristal presionaba la piel para dejarla sin sangre y más transparente. Muchos se curaron.
 
-En 1903 recibió el Premio Nobel de Medicina, el primero concedido a un tratamiento con luz. Murió al año siguiente, con cuarenta y tres años. No tenía LED, ni una aplicación, ni un panel colgado de la puerta. Tenía filtros, lentes, lámparas difíciles de manejar y una idea poderosa: la luz podía dosificarse como una medicina.
+En 1903 recibió el Premio Nobel de Fisiología o Medicina, el primero concedido a un tratamiento con luz. Murió al año siguiente, con cuarenta y tres años. No tenía LED, ni una aplicación, ni un panel colgado de la puerta. Tenía filtros, lentes, lámparas difíciles de manejar y una idea poderosa: la luz podía dosificarse como una medicina.
 
 Aquella fototerapia no era la fotobiomodulación de hoy. Pero abrió una puerta: dejó de mirar la luz solo como iluminación y empezó a estudiarla como algo que se mide, se enfoca y se dosifica.
 
@@ -35,9 +35,9 @@ Con la luz pasa lo mismo.
 
 Una longitud de onda se expresa en nanómetros, nm. No necesitas imaginar algo tan pequeño. Solo leer el número como una dirección dentro del espectro.
 
-Alrededor de 630 o 660 nm vemos rojo. En 810, 850 o 940 nm estamos en el infrarrojo cercano: no lo vemos, pero el panel sigue emitiendo. Y ojo con eso: como no lo ves, no parpadeas ni cierras los ojos por reflejo. Por eso la protección ocular que indique el fabricante no es opcional. En torno a 485 nm vemos una luz azul verdosa, cian. Más allá del violeta está el ultravioleta, con efectos y precauciones distintas.
+Alrededor de 630 o 660 nm vemos rojo. En 810, 850 o 940 nm estamos en el infrarrojo cercano: no lo vemos, pero el panel sigue emitiendo. Y ojo con eso: como no lo ves, no parpadeas ni cierras los ojos por reflejo. Por eso la protección ocular que indique el fabricante no es opcional. En torno a 485 nm vemos una luz azul verdosa, cian. Más allá del violeta está el ultravioleta, con efectos y precauciones distintos.
 
-La longitud de onda influye en qué moléculas absorben la luz y hasta dónde llega en el tejido. Pero no es una dirección postal: "850 nm va a la articulación" o "1050 nm llega al hueso" son frases de catálogo. Lo que llega depende de la piel, el tejido, la pigmentación, la potencia, el haz, el ángulo y la distancia.
+La longitud de onda influye en qué moléculas absorben la luz y hasta dónde llega en el tejido. Pero no es una dirección postal: «850 nm va a la articulación» o «1050 nm llega al hueso» son frases de catálogo. Lo que llega depende de la piel, el tejido, la pigmentación, la potencia, el haz, el ángulo y la distancia.
 
 Los nanómetros dicen qué luz usas. Falta saber cuánta llega.
 
@@ -61,11 +61,11 @@ El ejemplo enseña a calcular; no te dice qué dosis necesitas tú. Eso lo dice 
 
 ![Figura 5.1 · Anatomía de una sesión de fotobiomodulación](esquemas/anatomia-sesion-pbm.svg)
 
-> **FIGURA 5.1 · Anatomía de una sesión de fotobiomodulación.** Cinco tarjetas: longitud de onda (¿qué luz?), irradiancia (¿cuánta llega y desde dónde?), tiempo, superficie, objetivo. Debajo, la fórmula y el ejemplo con números inventados. Pie: "Mismos minutos no es misma dosis si cambian la potencia, la distancia o el modo". Referencia Codex: `anatomia-sesion-pbm`, con el nuevo ejemplo.
+> **FIGURA 5.1 · Anatomía de una sesión de fotobiomodulación.** Cinco tarjetas: longitud de onda (¿qué luz?), irradiancia (¿cuánta llega y desde dónde?), tiempo, superficie, objetivo. Debajo, la fórmula y el ejemplo con números inventados. Pie: «Mismos minutos no es misma dosis si cambian la potencia, la distancia o el modo». Referencia Codex: `anatomia-sesion-pbm`, con el nuevo ejemplo.
 
 ## Qué hace la luz cuando llega al tejido
 
-Algunas moléculas absorben la luz y ponen en marcha cambios en el metabolismo y en la comunicación entre células. La mitocondria, la central de energía de la célula, participa en muchas de las respuestas estudiadas. Pero llamarla "batería que se carga con luz" es simplificar demasiado.
+Algunas moléculas absorben la luz y ponen en marcha cambios en el metabolismo y en la comunicación entre células. La mitocondria, la central de energía de la célula, participa en muchas de las respuestas estudiadas. Pero llamarla «batería que se carga con luz» es simplificar demasiado.
 
 En 2017, un equipo comparó distintos colores sobre células madre humanas en cultivo: el rojo de 660 nm y el infrarrojo de 810 nm favorecieron que se multiplicaran; el azul y el verde, no. Era un experimento con células, no una prueba de que cada color regenere un órgano.
 
@@ -73,7 +73,7 @@ El mecanismo exacto se sigue afinando. En 2021, dos investigadores no encontraro
 
 *[Figura 5.2 · Qué hace la luz en el tejido — figura nueva, pendiente de Mauro Arroyo]*
 
-> **FIGURA 5.2 · Qué hace la luz en el tejido.** Corte de piel con la luz entrando; una célula con su mitocondria; flechas "luz → moléculas que la absorben → cambios en la energía y la señalización". Rótulo: "Varios mecanismos en estudio, no un interruptor". Figura nueva.
+> **FIGURA 5.2 · Qué hace la luz en el tejido.** Corte de piel con la luz entrando; una célula con su mitocondria; flechas «luz → moléculas que la absorben → cambios en la energía y la señalización». Rótulo: «Varios mecanismos en estudio, no un interruptor». Figura nueva.
 
 La consecuencia práctica es sencilla: elige el modo para tu objetivo y respeta la dosis. Añadir colores no garantiza ventaja.
 
@@ -87,13 +87,13 @@ En fotobiomodulación se han visto respuestas en forma de campana: un efecto apa
 
 ### La piel: una mejora medida tras treinta sesiones
 
-En 2014, Alexander Wunsch y Karsten Matuschka publicaron un estudio con 136 voluntarios. Comparaban grupos tratados dos veces por semana con luz roja, o con un espectro más amplio, frente a un grupo sin tratamiento. Tras treinta sesiones, los tratados tenían menos rugosidad y más colágeno. El espectro amplio no fue mejor que el rojo solo.
+En 2014, Alexander Wunsch y Karsten Matuschka publicaron un estudio con 136 voluntarios. Compararon grupos tratados dos veces por semana con luz roja, o con un espectro más amplio, frente a un grupo sin tratamiento. Tras treinta sesiones, los tratados tenían menos rugosidad y más colágeno. El espectro amplio no fue mejor que el rojo solo.
 
 Dos lecciones. Una para estudiar: hay una razón para investigar esta aplicación. Otra para comprar: más longitudes de onda no aseguran más resultado. Y un matiz: el grupo de control no recibió una luz placebo, y los equipos los puso el fabricante. No fue cualquier panel doméstico.
 
 ### La recuperación muscular: importa también cómo se aplica
 
-En 2016, un equipo brasileño estudió a cincuenta hombres tras un ejercicio que exige al músculo mientras se alarga. Compararon luz, frío, combinaciones y placebo. La luz salió favorable en las medidas de recuperación.
+En 2016, un equipo brasileño estudió a 50 hombres tras un ejercicio que exige al músculo mientras se alarga. Compararon luz, frío, combinaciones y placebo. La luz salió favorable en las medidas de recuperación.
 
 Usaron un equipo concreto, mezcla de láser y LED, sobre puntos del muslo. Lo útil para ti: pide un protocolo compatible con tu dispositivo y tu objetivo, no copies los minutos de un titular.
 
@@ -101,16 +101,16 @@ Usaron un equipo concreto, mezcla de láser y LED, sobre puntos del muslo. Lo ú
 
 Creé EKIO Light con una idea: si vamos a usar luz para cuidarnos, el aparato tiene que encajar en una buena higiene tecnológica. Por eso miramos el espectro, el parpadeo, la fuente de alimentación y los campos alrededor del panel.
 
-Te presento la familia como familia, sin números de irradiancia ni recuentos de LED, porque los modelos cambian y un libro no. Los datos exactos de tu equipo están en su ficha, en la web y en la app. El test "Qué EKIO Light necesito" te ayuda a ordenar las opciones.
+Te presento la familia como familia, sin números de irradiancia ni recuentos de LED, porque los modelos cambian y un libro no. Los datos exactos de tu equipo están en su ficha, en la web y en la app. El test «Qué EKIO Light necesito» te ayuda a ordenar las opciones.
 
-- **Core.** El pequeño. Trece LED de rojo e infrarrojo en un chasis que cabe en la mano, pensado para trabajar una zona en contacto o muy cerca. Es la entrada a la familia y el que más gente tiene en casa. Y por eso te doy aquí su única regla importante: en contacto, la luz llega concentrada y las sesiones son cortas. Su temporizador llega lejos porque también sirve a distancia; no lo apures pegado a la piel.
+- **Core.** El pequeño. Rojo e infrarrojo en un chasis que cabe en la mano, pensado para trabajar una zona en contacto o muy cerca. Es la entrada a la familia y el que más gente tiene en casa. Y por eso te doy aquí su única regla importante: en contacto, la luz llega concentrada y las sesiones son cortas. Su temporizador llega lejos porque también sirve a distancia; no lo apures pegado a la piel.
 - **Deep 5.** El panel de rojo e infrarrojo con cinco longitudes de onda y modos separados. Para sesiones sobre zonas más amplias, a la distancia que indique su guía.
 - **Bio Regén 7.** Añade un cian y un infrarrojo más profundo, y un módulo central para concentrar la luz sobre una zona. El cian se relaciona con la sensibilidad de la retina para el reloj del día; eso no convierte el panel en una lámpara para mirar. No mires sus LED. Para la señal de día, la primera opción de esta guía sigue siendo salir.
 - **Bio Spectrum 11.** El más amplio: cuatro circuitos que van del ultravioleta al infrarrojo. Su bloque de ultravioleta, violeta y cian se enciende junto. Ese bloque queda fuera de todas las recetas domésticas de este libro: la fototerapia ultravioleta requiere valoración profesional porque puede dañar piel y ojos. Para una sesión roja o infrarroja, comprueba que ese circuito está apagado.
 
 ![Figura 5.3 · La familia EKIO Light](esquemas/mapa-paneles-ekio-light.svg)
 
-> **FIGURA 5.3 · La familia EKIO Light.** Cuatro siluetas de menor a mayor (Core, Deep 5, Bio Regén 7, Bio Spectrum 11) sobre tres franjas de color: rojo, infrarrojo, cian; el Bio Spectrum añade una franja ultravioleta marcada "fuera de las recetas domésticas". Sin cifras. Pie: "Los datos de cada modelo, en su ficha vigente". Referencia Codex: `mapa-paneles-ekio-light`, simplificado.
+> **FIGURA 5.3 · La familia EKIO Light.** Cuatro siluetas de menor a mayor (Core, Deep 5, Bio Regén 7, Bio Spectrum 11) sobre tres franjas de color: rojo, infrarrojo, cian; el Bio Spectrum añade una franja ultravioleta marcada «fuera de las recetas domésticas». Sin cifras. Pie: «Los datos de cada modelo, en su ficha vigente». Referencia Codex: `mapa-paneles-ekio-light`, simplificado.
 
 Antes de comprar, pregunta qué circuitos puedes encender por separado. Ese dato vale más que el número total de longitudes de onda.
 
@@ -118,7 +118,7 @@ Antes de comprar, pregunta qué circuitos puedes encender por separado. Ese dato
 
 **Necesitas:** la ficha de tu modelo y un papel. **Resultado:** cinco decisiones escritas.
 
-1. **Elige el objetivo.** Una frase: "quiero la sesión indicada para la piel", "quiero acompañar mi recuperación", "quiero trabajar una zona". Un objetivo por sesión evita pulsar botones al azar.
+1. **Elige el objetivo.** Una frase: «quiero la sesión indicada para la piel», «quiero acompañar mi recuperación», «quiero trabajar una zona». Un objetivo por sesión evita pulsar botones al azar.
 2. **Identifica modelo y modo.** Core, Deep 5, Bio Regén 7 o Bio Spectrum 11. Localiza qué circuito indica la guía actual para tu objetivo.
 3. **Busca distancia, tiempo y frecuencia.** Los tres juntos. Diez minutos a quince centímetros no son diez minutos a treinta.
 4. **Revisa ojos, piel y medicación.** Protección ocular del modo. Nada de ultravioleta fuera de su protocolo. Si tomas medicación que te sensibiliza a la luz, tienes una lesión sin diagnosticar, un tumor conocido o sospechoso en la zona, estás embarazada o en tratamiento, consulta antes. Si el panel tiene modo pulsado y tienes epilepsia fotosensible, no lo uses sin consejo médico. Cerrar los ojos no sustituye la protección.
@@ -145,7 +145,7 @@ Antes de comprar, pregunta qué circuitos puedes encender por separado. Ese dato
 - **Al anochecer:** baja la general y usa luz local amarilla de 1800 K. La roja DUSK, para los últimos momentos o para un pasillo. No hace falta cambiar todas las bombillas de golpe.
 - **Al acostarte:** apaga lo que no necesitas. Si alguien requiere una luz de orientación, tenue, baja y fuera de la línea de visión.
 
-Tu tarea de hoy: elige una lámpara que uses de noche y decide qué cambiarás: su intensidad, su sitio o la hora a la que la apagas.
+Tu tarea de hoy: elige una lámpara que uses de noche y decide qué cambiarás, si su intensidad, su sitio o la hora a la que la apagas.
 
 ## La ficha que debe acompañar siempre a un panel
 

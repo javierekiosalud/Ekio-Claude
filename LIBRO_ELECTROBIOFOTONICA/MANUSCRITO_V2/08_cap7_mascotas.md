@@ -4,7 +4,7 @@ En España hay hoy más mascotas que niños. El registro oficial de animales de 
 
 Unos años antes de estudiar perros, un grupo de investigadores checos y alemanes se había entretenido mirando vacas en las fotos de satélite de Google Earth. Miles de vacas, en pastos de todo el mundo. Descubrieron que, cuando pastan o descansan, tienden a colocarse en dirección norte-sur, como agujas de brújula con manchas. Nadie lo había notado en diez mil años de ganadería.
 
-El siguiente paso era lógico: ¿y los perros? En 2013, Vlastimil Hart y su equipo publicaron los resultados de dos años de trabajo con setenta perros de treinta y siete razas. Los dueños, voluntarios, sacaban a sus perros a pasear sueltos por el campo, lejos de vallas y caminos, y cada vez que el animal se paraba a hacer sus necesidades anotaban con una brújula hacia dónde miraba. Registraron 1893 deposiciones y 5582 micciones. Sí: alguien tuvo que anotar hacia dónde miraba cada perro en ese momento, durante dos años.
+El siguiente paso era lógico: ¿y los perros? En 2013, Vlastimil Hart y su equipo publicaron los resultados de dos años de trabajo con 70 perros de 37 razas. Los dueños, voluntarios, sacaban a sus perros a pasear sueltos por el campo, lejos de vallas y caminos, y cada vez que el animal se paraba a hacer sus necesidades anotaban con una brújula hacia dónde miraba. Registraron 1893 deposiciones y 5582 micciones. Sí: alguien tuvo que apuntar la orientación de cada perro en ese momento, durante dos años.
 
 El resultado no apareció hasta que cruzaron los datos con los registros del campo magnético terrestre, que cambia un poco cada día. En los días de calma magnética, los perros preferían claramente alinearse en dirección norte-sur, sobre todo al defecar. En los días en que el campo de la Tierra se alteraba, la preferencia desaparecía. Como si el perro llevara una brújula que solo funciona cuando no hay interferencias.
 
@@ -28,7 +28,7 @@ En cada uno busca:
 - cargadores, robot aspirador y bases de carga;
 - cámaras, comederos, bebederos y juguetes conectados.
 
-Una cama bajo la mesa puede quedar a pocos centímetros de la regleta y del cargador del portátil. Un gato que duerme sobre un mueble puede estar pegado al router que nosotros consideramos "alto y apartado". La distancia se mide desde el animal, no desde nuestros ojos.
+Una cama bajo la mesa puede quedar a pocos centímetros de la regleta y del cargador del portátil. Un gato que duerme sobre un mueble puede estar pegado al router que nosotros consideramos «alto y apartado». La distancia se mide desde el animal, no desde nuestros ojos.
 
 ![Figura 7.1 · El mapa de las tres siestas](esquemas/mapa-oasis-mascota.svg)
 
@@ -64,7 +64,7 @@ Una cámara que solo necesitas cuando viajas no tiene por qué transmitir todo e
 
 Haz una pregunta por aparato: ¿qué pierdo hoy si lo desconecto?
 
-Si la respuesta es "nada", apágalo. Si lo necesitas, aléjalo del descanso y deja solo las comunicaciones útiles.
+Si la respuesta es «nada», apágalo. Si lo necesitas, aléjalo del descanso y deja solo las comunicaciones útiles.
 
 Si has incorporado SPIRO, colócalo fuera del alcance del animal y, como en toda la casa, el Disc delante del router.
 
@@ -108,7 +108,7 @@ No conectes la cama, el cuenco ni el collar a una toma de tierra improvisada. Un
 
 La fotobiomodulación se ha estudiado para problemas veterinarios concretos. Dos ensayos ayudan a entender por qué importan la indicación y el equipo.
 
-En 2022, João Alves y sus colaboradores publicaron un ensayo con veinte perros con artrosis en las dos caderas. Compararon tres semanas de láser terapéutico con un antiinflamatorio. El láser dio mejores resultados de dolor y función en varios controles. Era un ensayo pequeño con un láser clínico.
+En 2022, João Alves y sus colaboradores publicaron un ensayo con 20 perros con artrosis en las dos caderas. Compararon tres semanas de láser terapéutico con un antiinflamatorio. El láser dio mejores resultados de dolor y función en varios controles. Era un ensayo pequeño con un láser clínico.
 
 En cambio, Oscar Chavez y su equipo publicaron en 2023 un ensayo con 54 perros operados de la rodilla. La luz, comparada con una aplicación simulada, no produjo diferencias en dolor, apoyo ni inflamación.
 
@@ -120,7 +120,7 @@ Imagina que intentas iluminar una mesa a través de una cortina. El color, el gr
 
 En 2020, Lindsay Hochman-Elam y su equipo midieron cuánta luz de dos láseres atravesaba los tejidos de 47 perros sanos. La longitud de onda, la potencia, el color del pelo y el rasurado influyeron. Pasó menos luz por las zonas oscuras y sin rasurar. Curiosamente, la longitud del pelo no fue lo que más importó.
 
-No rasures ni subas la potencia por tu cuenta. Lleva esta pregunta al veterinario: "¿el pelaje y la zona que queremos tratar permiten aplicar el protocolo con este equipo?".
+No rasures ni subas la potencia por tu cuenta. Lleva esta pregunta al veterinario: «¿El pelaje y la zona que queremos tratar permiten aplicar el protocolo con este equipo?».
 
 ![Figura 7.2 · De un panel a una sesión veterinaria](esquemas/sesion-pbm-mascota.svg)
 
@@ -143,7 +143,7 @@ No rasures ni subas la potencia por tu cuenta. Lleva esta pregunta al veterinari
 
 1. **Prepara el espacio sin encender el panel.** Retira cables que pueda morder y asegura el soporte.
 2. **Deja que conozca el lugar.** Su manta, una superficie antideslizante, una postura cómoda. Una sesión con miedo y forcejeo no es bienestar.
-3. **Coloca la zona según el protocolo.** Mide la distancia desde la superficie emisora. El animal se mueve, y una distancia "aproximada" cambia la dosis a cada rato.
+3. **Coloca la zona según el protocolo.** Mide la distancia desde la superficie emisora. El animal se mueve, y una distancia «aproximada» cambia la dosis a cada rato.
 4. **Activa solo el modo indicado.** No enciendas todos los circuitos porque el panel los tenga. Programa el tiempo antes.
 5. **Vigila temperatura y conducta.** Jadeo inesperado, intento de huida, agitación, dolor o irritación son motivos para parar. Nunca dejes al animal solo frente al panel.
 6. **Registra la aplicación.** Fecha, zona, modo, distancia, tiempo y observación. Compártelo con el veterinario.
