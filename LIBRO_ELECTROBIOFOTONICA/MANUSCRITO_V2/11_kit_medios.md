@@ -1,5 +1,7 @@
 # Para contar este libro en dos minutos
 
+**Oasis Electromagnético. Guía de higiene tecnológica y luz para toda la familia.** Javier Andrés, EKIO Electrosmog.
+
 Apéndice para el autor, para quien lo entreviste y para la contraportada. Frases cortas, cada una sostenida por un capítulo.
 
 ## El libro en una frase

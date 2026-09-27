@@ -1,12 +1,12 @@
-# Electrobiofotónica
+# Oasis Electromagnético
 
-## Guía práctica de higiene electromagnética, luz y tecnología que te cuida
+## Guía de higiene tecnológica y luz para toda la familia
 
 ### Javier Andrés
 
 Fundador y director de EKIO Electrosmog
 
-> Nota de producción: título de trabajo. Alternativa propuesta en la revisión de septiembre: **Oasis Electromagnético. Guía práctica de higiene electromagnética y luz para toda la familia.** Decisión pendiente de Javier antes de portada y metadatos.
+> Título definitivo fijado por Javier el 27/09/2026. Debe coincidir exactamente en portada, página de título y metadatos de KDP.
 
 ---
 
@@ -1839,6 +1839,8 @@ La ciencia, la tecnología, los modelos de producto y los contenidos digitales e
 
 Si detectas una errata o una referencia que necesita actualización, utiliza los canales de contacto de la web de EKIO.
 # Para contar este libro en dos minutos
+
+**Oasis Electromagnético. Guía de higiene tecnológica y luz para toda la familia.** Javier Andrés, EKIO Electrosmog.
 
 Apéndice para el autor, para quien lo entreviste y para la contraportada. Frases cortas, cada una sostenida por un capítulo.
 

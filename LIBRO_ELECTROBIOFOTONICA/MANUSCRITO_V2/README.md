@@ -1,4 +1,6 @@
-# Manuscrito V2 · Electrobiofotónica (versión Claude, 13/09/2026)
+# Manuscrito V2 · Oasis Electromagnético (versión Claude, sep 2026)
+
+Título definitivo (27/09/2026): **Oasis Electromagnético. Guía de higiene tecnológica y luz para toda la familia.** «Electrobiofotónica» se mantiene dentro como concepto del autor.
 
 Versión completa del libro escrita a partir del manuscrito Codex (12-13/09) aplicando los criterios de Javier
 (`../15_REVISION_FILTRADA_CRITERIOS_JAVIER.md`). El original de Codex no se ha tocado.
