@@ -209,9 +209,9 @@ La luz visible ocupa, más o menos, de 380 a 700 nanómetros: violeta en un extr
 
 ![Figura 1.2 · El espectro electromagnético](esquemas/espectro-electromagnetico.svg)
 
-> **FIGURA 1.2 · El espectro electromagnético.** Banda continua de radio a gamma con la franja visible en color. Tres recuadros: "Red eléctrica 50 Hz", "Radar · móvil · Wi-Fi", "Lo que ven tus ojos". Debajo, la línea "no ionizante / ionizante" con la frontera en el ultravioleta alto. Referencia Codex: `espectro-electromagnetico`.
+> **FIGURA 1.2 · El espectro electromagnético.** Banda continua de radio a gamma con la franja visible en color. Tres recuadros: "Red eléctrica 50 Hz", "Radar · móvil · Wi-Fi", "Lo que ven tus ojos". Debajo, la línea "no ionizante / ionizante" con la frontera entre el ultravioleta y los rayos X. Referencia Codex: `espectro-electromagnetico`.
 
-El dibujo ordena frecuencias, no peligros. Los rayos X, los gamma y el ultravioleta más energético pueden romper enlaces en la materia: son radiación ionizante. La radiofrecuencia, el infrarrojo y la luz visible no lo son. Para valorar una exposición hacen falta, además, intensidad, frecuencia, tiempo y condiciones.
+El dibujo ordena frecuencias, no peligros. Los rayos X y los gamma pueden romper enlaces en la materia: son radiación ionizante. La radiofrecuencia, el infrarrojo, la luz visible y el ultravioleta no lo son. Para valorar una exposición hacen falta, además, intensidad, frecuencia, tiempo y condiciones.
 
 ## Cuatro cosas que conviene separar
 
@@ -1647,9 +1647,9 @@ P.1 El camino que dio origen a este libro.
 
 **Punto de acceso (hotspot).** Función del móvil que crea una red Wi-Fi para compartir su conexión.
 
-**Radiación ionizante.** Radiación con fotones capaces de romper enlaces en la materia: rayos X, gamma y el ultravioleta más energético.
+**Radiación ionizante.** Radiación con fotones capaces de romper enlaces en la materia: rayos X y rayos gamma.
 
-**Radiación no ionizante.** Radiación cuyos fotones no tienen esa energía: radiofrecuencia, microondas, infrarrojo, luz visible y parte del ultravioleta. Los campos de la red eléctrica también son no ionizantes.
+**Radiación no ionizante.** Radiación cuyos fotones no tienen esa energía: radiofrecuencia, microondas, infrarrojo, luz visible y ultravioleta. Los campos de la red eléctrica también son no ionizantes.
 
 **Radiofrecuencia.** Parte del espectro usada para transmitir información: telefonía, Wi-Fi, Bluetooth, radio, televisión.
 
