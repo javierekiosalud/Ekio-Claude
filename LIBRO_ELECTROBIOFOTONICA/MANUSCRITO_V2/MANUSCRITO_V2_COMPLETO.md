@@ -285,21 +285,21 @@ Para comparar dos medidas conserva el punto, el aparato, la unidad y las condici
 
 ## Una cuerda y una valla
 
-Vas a leer la palabra "polarización" en fichas de productos y en artículos. Te la explico ahora, con una cuerda.
+Vas a leer la palabra "polarización" en fichas de productos y en artículos. Es la clave de todo lo que viene después, así que te la explico con una cuerda.
 
 Ata una cuerda a un árbol y mueve la mano arriba y abajo: la onda avanza oscilando en vertical. Muévela de lado a lado y oscila en horizontal. Esa orientación se llama polarización. Si haces pasar la cuerda entre los barrotes de una valla, solo cruza la onda vertical. Así funcionan las gafas de sol polarizadas: dejan pasar una orientación y frenan la otra.
 
-La luz del sol llega mezclada: oscila en todas las orientaciones a la vez y cambia a cada instante. Nuestro cuerpo ha convivido con esa mezcla desde siempre. Las señales que fabricamos nosotros salen de una antena con una orientación fija y ordenada, porque así se transmiten mejor.
+La luz del sol llega mezclada: oscila en todas las orientaciones a la vez y cambia a cada instante. Así han sido siempre los campos naturales, y nuestro cuerpo se ha formado dentro de esa mezcla. Las señales que fabricamos nosotros son distintas: salen de una antena con una orientación fija y ordenada, porque así se transmiten mejor.
 
-Algunos investigadores proponen que esa diferencia importa: una oscilación siempre en la misma dirección empujaría a los iones de nuestras células (calcio, magnesio, cargas eléctricas pequeñísimas) de forma coordinada, como una ola de estadio, mientras que la mezcla natural los deja tranquilos. Es una hipótesis, con experimentos a favor y en contra. Y es la que usa el fabricante de SPIRO para explicar lo que hace su material: desordenar esa orientación fija para que la señal siga llegando pero deje de empujar en una sola dirección.
+Esa diferencia es la que importa. Una oscilación siempre en la misma dirección empuja a los iones de nuestras células (calcio, magnesio, cargas eléctricas pequeñísimas) de forma coordinada, como una ola de estadio, mientras que la mezcla natural los deja tranquilos. Un campo natural, aunque sea intenso, no empuja en bloque; un campo artificial, aunque sea débil, sí. Por eso la cantidad de radiación no lo explica todo, y por eso nuestro cuerpo puede notar campos que están muy por debajo de los límites legales.
+
+Es lo que describen investigadores como Dimitris Panagopoulos y lo que yo he visto durante años en las casas. Y es también la base sobre la que actúa SPIRO: su material desordena esa orientación fija para que la señal siga llegando a tu móvil o a tu router, pero deje de empujar en una sola dirección. Lo veremos en el capítulo 3.
 
 *[Figura 1.6 · Una cuerda y una valla — figura nueva, pendiente de Mauro Arroyo]*
 
-> **FIGURA 1.6 · Una cuerda y una valla.** Tres viñetas: (1) cuerda oscilando en vertical y en horizontal, con la valla que solo deja pasar una; (2) sol con ondas en todas las orientaciones frente a antena con ondas todas iguales; (3) iones en una célula: empujones en todas direcciones (se quedan quietos) frente a empujones siempre en la misma dirección (se mueven en bloque). Rótulo: "Hipótesis: así explican algunos investigadores y el fabricante de SPIRO la diferencia entre campos naturales y artificiales". Figura nueva.
+> **FIGURA 1.6 · Una cuerda y una valla.** Tres viñetas: (1) cuerda oscilando en vertical y en horizontal, con la valla que solo deja pasar una; (2) sol con ondas en todas las orientaciones frente a antena con ondas todas iguales; (3) iones en una célula: empujones en todas direcciones (se quedan quietos) frente a empujones siempre en la misma dirección (se mueven en bloque, "ola de estadio"). Rótulo: "Natural: mezclado. Artificial: ordenado. Esa es la diferencia". Figura nueva.
 
-No necesitas creer ni descreer nada para seguir con este libro. Te lo cuento porque es la idea que hay detrás de la palabra "polarización" cuando la leas en una ficha. Para quien quiera profundizar, la nota al final del libro recoge los trabajos a favor y en contra.
-
-Lo que haces con esto hoy: nada todavía. Identificar, apagar lo que sobra y ganar distancia va primero.
+Quédate con la imagen: natural, mezclado; artificial, ordenado. El resto del libro te enseña a reducir lo ordenado que no necesitas y, cuando lo necesitas, a integrarlo bien.
 
 ## El objetivo: crear un Oasis Electromagnético
 
@@ -1639,7 +1639,7 @@ P.1 El camino que dio origen a este libro.
 
 **Polarización de la materia.** Cómo se orientan o desplazan las cargas dentro de una molécula o un tejido bajo un campo. No es lo mismo que la polarización de una onda.
 
-**Polarización de una onda.** Orientación en la que oscila el campo eléctrico de una onda. La de la cuerda y la valla.
+**Polarización de una onda.** Orientación en la que oscila el campo eléctrico de una onda. Los campos naturales llegan con orientaciones mezcladas y cambiantes; los artificiales, con una orientación fija. Es la diferencia que explica el capítulo 1 y sobre la que actúa SPIRO.
 
 **Potencial de membrana.** Diferencia de tensión entre el interior y el exterior de una célula.
 

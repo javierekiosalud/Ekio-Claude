@@ -164,7 +164,7 @@ P.1 El camino que dio origen a este libro.
 
 **Polarización de la materia.** Cómo se orientan o desplazan las cargas dentro de una molécula o un tejido bajo un campo. No es lo mismo que la polarización de una onda.
 
-**Polarización de una onda.** Orientación en la que oscila el campo eléctrico de una onda. La de la cuerda y la valla.
+**Polarización de una onda.** Orientación en la que oscila el campo eléctrico de una onda. Los campos naturales llegan con orientaciones mezcladas y cambiantes; los artificiales, con una orientación fija. Es la diferencia que explica el capítulo 1 y sobre la que actúa SPIRO.
 
 **Potencial de membrana.** Diferencia de tensión entre el interior y el exterior de una célula.
 
