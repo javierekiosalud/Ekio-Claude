@@ -93,6 +93,20 @@ reproche: es la trazabilidad que hace que el veto tenga valor.
 - **Estado**: abierto — requiere decisión de Javier/Heruca tras leer el PDF original.
 ```
 
+### HD-002
+- **Fecha**: 2026-09-28
+- **Detectado por**: Heruca, encargo "guía de claims Ekio Light" (`separacion-marcas/06_claims_ekio_light.md`)
+- **Hallazgo**: (a) las fichas de bombillas citan tres PMID erróneos (11756518, 10192353 —cáncer de
+  recto—, 10818142) atribuidos a Brainard, Czeisler y Provencio; el Brainard correcto es PMID 11487664.
+  (b) La ficha Deep 5 usa Figueiro 2012 (PMID 22988459; luz ambiental ocular de 60 lux a 633 nm) para
+  sostener "727 nm regula la leptina", y Álvarez-Martínez 2025 (PMID 39883205) para el sueño,
+  ocultando que esa revisión concluye que no hay beneficio en recuperación. (c) "157 países/PCT/
+  patentado", "12.000 clientes", "190 mW/cm²" y "0 µT" sin documento; MU mostrado en el Core.
+  (d) Origen parcial en `Skills/references/pbm-productos.md` y `pbm-nexo-emf.md`.
+- **Acción**: veto a su migración a ekiolight.com; corrección inmediata de citas en la tienda actual;
+  propuesta de corrección de las referencias del fbm-elite, pendiente de autorización de Javier.
+- **Estado**: abierto
+
 ---
 
 ## Afirmaciones
@@ -192,4 +206,64 @@ reproche: es la trazabilidad que hace que el veto tenga valor.
 - **Estado**: Retirada (vetada antes de producción)
 - **Piezas**: pendiente — vetada antes de escribir guiones del Pack Infantil
 - **Notas**: formulación correcta: "Dos productos para dos contextos distintos"
+
+### AF-007
+- **Afirmación**: "La luz de noche, sobre todo la azul, es la que más frena la melatonina; la luz roja
+  apenas activa ese sensor del ojo."
+- **Nivel**: [B] (estudios de laboratorio en humanos sobre el espectro de acción)
+- **Fuente**: Brainard GC et al. 2001, J Neurosci 21(16):6405-12, PMID 11487664
+- **Canal**: ficha, anuncio y blog. En ficha y anuncio, sin "100%" ni promesa de dormir mejor
+- **Alta**: 2026-09-28 · **Revisión**: 2027-03-28 · **Estado**: Vigente
+- **Piezas**: fichas de bombillas Ekio Light (tras la corrección)
+- **Notas**: "mejora el sueño" con bombilla roja NO está sostenido; no hay ensayo con bombillas domésticas
+
+### AF-008
+- **Afirmación**: "La luz roja e infrarroja aplicada localmente sobre el músculo se ha estudiado en
+  deportistas como apoyo a la recuperación; la luz de cuerpo entero no ha mostrado ese beneficio."
+- **Nivel**: [A]/[B] para la aplicación local con láser/LED de contacto; contraevidencia [A] para cuerpo entero
+- **Fuente**: Ferraresi C et al. 2016, J Biophotonics, PMID 27874264; Álvarez-Martínez M 2025, Lasers Med Sci, PMID 39883205
+- **Canal**: blog completo. En ficha y anuncio solo "apoyo a tu rutina después de entrenar", sin prometer resultado
+- **Alta**: 2026-09-28 · **Revisión**: 2027-03-28 · **Estado**: Vigente
+- **Piezas**: —
+- **Notas**: ningún panel Ekio Light probado; sin irradiancia medida no hay equivalencia de dosis
+
+### AF-009
+- **Afirmación**: "En un ensayo con 136 personas y 30 sesiones, la luz roja mejoró el aspecto de la
+  piel y la densidad de colágeno medida por ecografía frente a un grupo control (con otro aparato)."
+- **Nivel**: [B] (un único ensayo controlado)
+- **Fuente**: Wunsch A, Matuschka K 2014, Photomed Laser Surg 32(2):93-100, PMID 24286286
+- **Canal**: blog y ficha, con la cita. En anuncio: "ritual de piel con luz roja", sin resultado ni antes/después
+- **Alta**: 2026-09-28 · **Revisión**: 2027-03-28 · **Estado**: Vigente
+- **Piezas**: —
+- **Notas**: el espectro amplio no superó a la luz roja sola, así que no se puede usar para "más
+  longitudes = mejor". Pendiente de consulta legal sobre el Anexo XVI del MDR
+
+### AF-010
+- **Afirmación**: "La luz roja e infrarroja actúa sobre las mitocondrias de las células, según estudios de laboratorio."
+- **Nivel**: [D]
+- **Fuente**: de Freitas LF, Hamblin MR 2016, IEEE J Sel Top Quantum Electron, PMID 28070154
+- **Canal**: blog y ficha con "de laboratorio". Prohibido en anuncio como beneficio de energía o cansancio
+- **Alta**: 2026-09-28 · **Revisión**: 2027-03-28 · **Estado**: Vigente
+- **Piezas**: —
+- **Notas**: nunca traducir a "más energía" o "menos cansancio" (sin evidencia en humanos con panel)
+
+### AF-011
+- **Afirmación**: "727 nm regula la leptina / el metabolismo / el sobrepeso"; "+40% ATP en 20
+  minutos"; "el 850 nm estimula la melatonina subcelular"; "protección contra CEM" (IGNIS)
+- **Nivel**: sin soporte (cita mal atribuida o sin fuente) / [E]
+- **Fuente**: ver HD-002
+- **Canal**: prohibido en todos los canales vinculados a producto
+- **Alta**: 2026-09-28 · **Estado**: Retirada
+- **Piezas**: fichas Deep 5, BR7 e IGNIS en electrosmogespana.com
+- **Notas**: no migrar a ekiolight.com
+
+### AF-012
+- **Afirmación**: "Reduce el dolor articular" (sobre la base de Stausholm 2019)
+- **Nivel**: [A] para láser 785-860 nm a 4-8 J en artrosis de rodilla; no transferible a paneles LED de Ekio
+- **Fuente**: Stausholm MB et al. 2019, BMJ Open, PMID 31662383
+- **Canal**: solo divulgación (blog/libro) sin vincular a producto. Prohibido en ficha y anuncio:
+  declarar alivio del dolor convierte el aparato en producto sanitario (MDR) y es un claim de enfermedad (RD 1907/1996)
+- **Alta**: 2026-09-28 · **Estado**: Vigente (solo divulgación)
+- **Piezas**: ficha Deep 5 (hay que retirarla), título del Core
+- **Notas**: el tratamiento no está en las guías principales de artrosis de rodilla
 ```
