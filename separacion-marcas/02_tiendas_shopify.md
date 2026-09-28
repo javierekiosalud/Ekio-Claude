@@ -273,7 +273,7 @@ Los paneles Ekio Light tienen margen >50% declarado. Evitar descuentos directos 
 | Pack Lanzamiento DEEP 5 | DEEP 5 + guía protocolo PDF | 650€ (precio normal) | El valor añadido es el protocolo, sin tocar el precio |
 | Pack DEEP 5 + CORE | Panel grande + Core portátil | 749€ (vs 797€ por separado) | Ahorro 48€ — en el margen del Core |
 
-**Opción 2 — Primer mes de alquiler gratis (seQura):**
+**Opción 2 — Primer mes de alquiler gratis (seQura):** ⚠️ NO VERIFICADO: confirmar con seQura si existe esta condición antes de usarla.
 En vez de descuento, negociar con seQura que el primer mes sea sin cargo. Mensaje: "Empieza hoy por 0€ el primer mes." Impacto real: mínimo (seQura financia, no Ekio Light).
 
 **Opción 3 — Bonus de contenido:**

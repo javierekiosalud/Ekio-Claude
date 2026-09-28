@@ -1,6 +1,13 @@
 # Plan SEO y GEO — Separación electrosmogespana.com / ekiolight.com
 *Elaborado: 28/sep/2026 — Datos verificados: GSC 90 días (jul-sep 2026)*
 
+> ⚠️ **NO COPIAR SIN VERIFICAR (revisión 28/sep).** Este informe incluye afirmaciones que no están documentadas y no pueden publicarse tal cual:
+> - "Distribuidor oficial de SPIRO desde 2019" / "Distribución Oficial" / "garantía oficial": solo con confirmación escrita de Noxtak.
+> - "Más de 15 años de experiencia" de Javier: dato no verificado.
+> - "Envío en 24h": falso según la política de envíos (3 días de preparación + 3-4 días de entrega).
+> - "La herramienta que más recomiendo en consulta" y "asesoramiento gratuito por Javier Andrés, naturópata": Javier no pasa consultas de salud; cualquier asesoramiento debe ser técnico sobre productos.
+> - Schema Product con el modelo de utilidad: seguir la guía de Heruca (06_claims_ekio_light.md), solo en modelos confirmados por Patricia García.
+
 ---
 
 ## 1. Mapa de URLs: qué se va, qué se queda y tabla de redirecciones 301

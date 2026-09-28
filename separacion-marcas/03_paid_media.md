@@ -173,7 +173,7 @@ Objetivo: OUTCOME_SALES · Advantage+ Shopping Campaign
 CAMPAÑA 3 — Retargeting Ekio Light (nueva)
 Objetivo: OUTCOME_SALES
   Ad set: visitantes páginas Ekio Light + añadidores al carrito (90 días) · 15 €/día
-  Creativo: estáticas de producto con precio + Sharpei "desde 39 €/mes" + urgencia
+  Creativo: estáticas de producto con precio + seQura (VERIFICAR condiciones) "desde 39 €/mes" + urgencia
 ```
 
 ### Estructura nov (ekiolight.com, una vez migrado)
@@ -186,7 +186,7 @@ Objetivo: OUTCOME_SALES · Advantage+ Shopping Campaign
 
 CAMPAÑA 2 — Retargeting caliente ekiolight.com
   Visitantes 30 días + ATC · 40 €/día
-  Creativos: oferta BF específica con precio y financiación Sharpei
+  Creativos: oferta BF específica con precio y financiación seQura (VERIFICAR condiciones)
 
 CAMPAÑA 3 — Black Friday (activa desde 18 nov)
   Estructura ASC · presupuesto máximo del escenario
@@ -240,7 +240,7 @@ CAMPAÑA 3 — Black Friday (activa desde 18 nov)
 
 - Javier no sale a cámara pero su voz en off es el activo diferencial.
 - Ningún "antes/después" de condición de salud.
-- Financiación Sharpei visible en todos los creativos de panel: "desde 39 €/mes sin permanencia".
+- Financiación seQura (VERIFICAR condiciones) visible en todos los creativos de panel: "desde 39 €/mes sin permanencia".
 - Excluir segmento 65+ en campañas de panel (AOV de ese segmento es 251 €, compran bombillas, no paneles — contamina la señal de compra del algoritmo).
 - Excluir 18-24 (AOV 77 €).
 
@@ -282,7 +282,7 @@ La crisis de búsqueda de marca de Spiro (de 13 clics/día a 3,8 clics/día, -71
 
 3. **Producción de vídeo en octubre.** ¿Puede Javier grabar la voz en off y acordar una jornada de rodaje en las primeras dos semanas de octubre? Sin el creativo nuevo, la única opción es relanzar el vídeo original de `ADS2_DEEP5` (si sigue descargable en el gestor), que es un atajo válido pero limitado.
 
-4. **Oferta de Black Friday.** ¿Descuento porcentual, pack exclusivo BF, o acceso a Sharpei con condición especial? El creativo de BF necesita una oferta concreta, no genérica.
+4. **Oferta de Black Friday.** ¿Descuento porcentual, pack exclusivo BF, o acceso a seQura (VERIFICAR condiciones) con condición especial? El creativo de BF necesita una oferta concreta, no genérica.
 
 5. **Confirmación de que la migración NO se hace durante BF.** Si ekiolight.com no está lista el 10 de noviembre, el plan recomendado es mantener electrosmogespana.com como destino durante toda la semana de BF y migrar en diciembre.
 
